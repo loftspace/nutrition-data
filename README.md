@@ -42,4 +42,4 @@ The scrapers and build scripts were run from a local working folder that also he
 - Many supplement pages show one nutrition table for several flavours. We assume the flavours share nutrition (`flavour_nutrition_shared_assumed`).
 - Roughly 20% of products have no nutrition data at all (listings without a table).
 - Kassalapp is only partly covered, Kiwi, Oda, Rema 1000 and Coop are not.
-- Categories come from a model. About 10,000 products with low confidence have `category_review = 1`.
+- Categories come from a model. All ~10,300 low-confidence products were re-checked by Haiku agents. About 1,600 answers were still uncertain and keep `category_review = 1`.
