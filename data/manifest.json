@@ -1,0 +1,112 @@
+{
+ "nutrient_dictionary": {
+  "rows": 192,
+  "files": [
+   "nutrient_dictionary-000.jsonl.gz"
+  ],
+  "columns": [
+   "code",
+   "unit",
+   "grp",
+   "name_en",
+   "name_nb",
+   "aliases"
+  ]
+ },
+ "products": {
+  "rows": 186068,
+  "files": [
+   "products-000.jsonl.gz"
+  ],
+  "columns": [
+   "id",
+   "name",
+   "brand",
+   "pack_size",
+   "ean",
+   "kind",
+   "flavour",
+   "categories",
+   "ingredients",
+   "allergens",
+   "serving_g",
+   "primary_source",
+   "n_sources",
+   "status",
+   "data_quality",
+   "region",
+   "regions",
+   "norway_relevant",
+   "discontinued",
+   "all_eans",
+   "kcal",
+   "protein_g",
+   "fat_g",
+   "sat_fat_g",
+   "carbs_g",
+   "sugars_g",
+   "fibre_g",
+   "salt_g",
+   "kj",
+   "category",
+   "category_conf",
+   "category_review",
+   "is_supplement",
+   "ingredient_group",
+   "merged_into",
+   "hidden"
+  ]
+ },
+ "product_eans": {
+  "rows": 147021,
+  "files": [
+   "product_eans-000.jsonl.gz"
+  ],
+  "columns": [
+   "product_id",
+   "ean"
+  ]
+ },
+ "product_sources": {
+  "rows": 251797,
+  "files": [
+   "product_sources-000.jsonl.gz"
+  ],
+  "columns": [
+   "product_id",
+   "source",
+   "source_id",
+   "url",
+   "fetched_on",
+   "is_primary",
+   "kind",
+   "name",
+   "brand",
+   "region",
+   "norway_relevant",
+   "page_gone",
+   "kcal",
+   "protein_g",
+   "fat_g",
+   "carbs_g",
+   "per_100g_json",
+   "flags"
+  ]
+ },
+ "nutrients": {
+  "rows": 2543041,
+  "files": [
+   "nutrients-000.jsonl.gz",
+   "nutrients-001.jsonl.gz"
+  ],
+  "columns": [
+   "product_id",
+   "basis",
+   "code",
+   "value",
+   "unit",
+   "qualifier",
+   "source"
+  ]
+ }
+}
