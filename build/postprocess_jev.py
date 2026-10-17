@@ -51,6 +51,12 @@ def main():
         sup = 1 if (r['is_supplement'] > 0.5 or r['category'] in SUPP_CATS) else 0
         rows.append((r['category'], r['category_conf'], 1 if r['category_conf'] < 0.5 else 0, sup, pid))
     c.executemany('update products set category=?, category_conf=?, category_review=?, is_supplement=? where id=?', rows)
+    # human-style review rounds by Haiku agents (data/jev/review/results_round*.json): override the Jev category; low-certainty answers stay flagged for review
+    import glob
+    for fn in sorted(glob.glob(ROOT + '/data/jev/review/results_round*.json')):
+        for r in json.load(open(fn, encoding='utf-8')):
+            sup = 1 if r['category'] in SUPP_CATS else 0
+            c.execute('update products set category=?, is_supplement=?, category_review=? where id=?', (r['category'], sup, 0 if r['certainty'] in ('high', 'medium') else 1, r['id']))
     c.executemany('update products set ingredient_group=? where id=?', [(r['ingredient_group'], pid) for pid, r in s2.items() if r['is_single_active_ingredient'] > 0.5])
 
     merged = {}
