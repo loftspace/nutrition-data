@@ -20,7 +20,9 @@ See `COVERAGE.md` for exact counts per source, completeness, known gaps and qual
 |---|---|
 | `data/*.jsonl.gz` | The database as compressed JSONL shards, one table per file group |
 | `data/schema.sql`, `data/manifest.json` | Table definitions and row counts |
-| `tools/load_sqlite.py` | Rebuilds `products.sqlite` (with full-text search) from the shards |
+| `tools/load_sqlite.py` | Rebuilds the full 645 MB `products.sqlite` (with full-text search) from the shards |
+| `tools/build_slim.py` | Builds the slim app database (full or open-sources-only variant) from the shards |
+| `.github/workflows/` | `ci.yml` tests the builder; `release-db.yml` publishes a private release |
 | `scrapers/` | One Python scraper per source |
 | `build/` | Merge, nutrient dictionary, Jev categorization, post-processing, export |
 | `data/jev/` | Raw Jev answers (category, confidence) for provenance |
@@ -34,6 +36,20 @@ sqlite3 products.sqlite "select name, brand, kcal, protein_g from products where
 ```
 
 Search uses FTS5: `select name from products where rowid in (select rowid from products_fts where products_fts match 'barebells')`.
+
+## The slim app database
+`tools/build_slim.py` builds what the Makro iOS app bundles and the web app downloads: visible Norway-relevant products with the macros only, an FTS5 search column normalised for Norwegian (ø to o, æ to ae, å to a), all barcodes, and a redirect table so old product ids keep resolving. Contract: `packages/contracts/products-db.md` in `Maxaubert/Makro`.
+
+| Variant | Products | Size | Sources |
+|---|---|---|---|
+| full | about 124,000 | 48 MB (13.6 MB gzipped) | everything |
+| open | about 46,000 | 17 MB (5.4 MB gzipped) | only the open sources in `LICENSES.md` |
+
+```
+python tools/build_slim.py --data data --out products.sqlite --db-version 2026.10.18 --variant full
+python -m unittest discover -s tools -v
+```
+Publish a release from the Actions tab: run `release-db` with a version like `2026.10.18`. It attaches both files and `checksums.txt` (sha256) to a private release.
 
 ## Rebuilding
 The scrapers and build scripts were run from a local working folder that also held the raw scraper output (about 1.4 GB, not in git). Paths inside the scripts point at that folder. All scrapers follow the rules in `COVERAGE.md`: honour robots.txt, one request per second per host, honest user agent, no CAPTCHA or login bypass, no images.
