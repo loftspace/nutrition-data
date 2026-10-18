@@ -1,0 +1,61 @@
+name: release-db
+
+# Builds the slim app databases from the shards and publishes them as a private release.
+# Run it from the Actions tab (db_version like 2026.10.18). The app pins the sha256 from checksums.txt.
+on:
+  workflow_dispatch:
+    inputs:
+      db_version:
+        description: "Database version, for example 2026.10.18"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Tests
+        run: python -m unittest discover -s tools -v
+
+      - name: Fetch the previous release (to keep old ids resolvable)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p prev
+          if gh release download --pattern 'products.sqlite.gz' --dir prev 2>/dev/null; then
+            gunzip -f prev/products.sqlite.gz
+            echo "PREVIOUS=--previous prev/products.sqlite" >> "$GITHUB_ENV"
+          else
+            echo "No previous release, building without an id check"
+          fi
+
+      - name: Build both variants
+        env:
+          VERSION: ${{ inputs.db_version }}
+        run: |
+          mkdir -p out
+          BUILT_AT="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          python tools/build_slim.py --data data --out out/products.sqlite --db-version "$VERSION" \
+            --variant full --built-at "$BUILT_AT" --source-commit "$GITHUB_SHA" $PREVIOUS
+          python tools/build_slim.py --data data --out out/products-open.sqlite --db-version "$VERSION" \
+            --variant open --built-at "$BUILT_AT" --source-commit "$GITHUB_SHA"
+          sha256sum out/products.sqlite out/products-open.sqlite > out/checksums.txt
+          gzip -9 -k out/products.sqlite out/products-open.sqlite
+          sha256sum out/products.sqlite.gz out/products-open.sqlite.gz >> out/checksums.txt
+          cat out/checksums.txt
+
+      - name: Publish the private release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ inputs.db_version }}
+        run: |
+          gh release create "db-$VERSION" out/products.sqlite.gz out/products-open.sqlite.gz out/checksums.txt \
+            --title "Product database $VERSION" \
+            --notes "Slim app databases built from the shards at $GITHUB_SHA. checksums.txt has the sha256 of each file, compressed and uncompressed. The app pins the uncompressed products.sqlite checksum."
