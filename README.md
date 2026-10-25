@@ -60,17 +60,17 @@ python -m unittest discover -s tools -v
 Publish a release from the Actions tab: run `release-db` with a version like `2026.10.18`. It attaches both files and `checksums.txt` (sha256) to a private release. It builds each variant with `--previous` set to that variant's file in the latest release, so ids that vanished are listed in `removed`.
 
 ### Upload to the Supabase bucket
-The Makro web app downloads the product file from the private Storage bucket `products` in Makro's Supabase project (created by Makro's `supabase/migrations/20261018120000_products_bucket.sql`, 50 MB per file, readable only by signed-in users). `tools/upload_to_bucket.py` (standard library only) checks the files and uploads them with upsert, so a newer file replaces an older one:
+The Makro web app downloads the product file from the private Storage bucket `products` in Makro's Supabase project (created by Makro's `supabase/migrations/20261018120000_products_bucket.sql`, 50 MB per file, readable only by signed-in users). `tools/upload_to_bucket.py` (standard library only) checks the files and uploads them:
 
 | Object | What |
 |---|---|
-| `db-<db_version>/products.sqlite.gz`, `products-open.sqlite.gz`, `checksums.txt` | this version, kept |
-| `products.sqlite.gz`, `products-open.sqlite.gz`, `checksums.txt` | always the newest |
-| `latest.json` | uploaded last: `db_version`, `schema_version`, and per file its `path`, `bytes`, `sha256` (and `sha256_uncompressed` for the databases) |
+| `db-<db_version>/products.sqlite.gz`, `products-open.sqlite.gz`, `checksums.txt` | this version, written once and never replaced |
+| `products.sqlite.gz`, `products-open.sqlite.gz`, `checksums.txt` | always the newest (upsert, replaced one by one, so only `latest.json` names a consistent set) |
+| `latest.json` | upsert, uploaded last: `db_version`, `schema_version`, and per file its `path`, `bytes`, `sha256` (and `sha256_uncompressed` for the databases) |
 
-`db_version` and `schema_version` come from each file's own `meta` table; the two variants must agree, and every sha256 must match `checksums.txt`, or nothing is uploaded.
+`db_version` (`YYYY.MM.DD`, or `YYYY.MM.DD-2` for a second build the same day) and `schema_version` (at least 2) come from each file's own `meta` table; the two variants must agree, `checksums.txt` must list all four files, and every sha256 must match it, or nothing is uploaded. A `db-<db_version>/` object that is already in the bucket is left alone when its sha256 matches and stops the upload when it does not: a rebuilt file needs a new `db_version`. A `db_version` older than the one in the bucket's `latest.json` is refused unless you pass `--force`.
 
-- **In CI**: the last step of `release-db` runs it. It needs two repo secrets (Settings, Secrets and variables, Actions): `SUPABASE_URL` (`https://<project-ref>.supabase.co`) and `SUPABASE_SERVICE_ROLE_KEY` (the project's service role or secret key). Without them the release is still published and the upload step fails.
+- **In CI**: the last step of `release-db` runs it. It needs two repo secrets (Settings, Secrets and variables, Actions): `SUPABASE_URL` (`https://<project-ref>.supabase.co`) and `SUPABASE_SERVICE_ROLE_KEY` (the project's service role or secret key). Without them the release is still published and the upload step fails. Re-running the job does not help (the release tag already exists); instead upload that release from your machine: `gh release download db-<version> --repo loftspace/nutrition-data --dir out`, then run the script as below.
 - **From your own machine** (while CI cannot run releases): build into `out/` the same way the workflow does, then set the key in the shell only, never in a file:
 
 ```

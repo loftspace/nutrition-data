@@ -66,8 +66,10 @@ jobs:
             --notes "Slim app databases built from the shards at $GITHUB_SHA. checksums.txt has the sha256 of each file, compressed and uncompressed. The app pins the uncompressed products.sqlite checksum."
 
       # Repo secrets SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY (Makro's project, see README).
-      # Uploads to the private "products" bucket: db-<version>/ for this version, the newest files
-      # at the bucket root (upsert), and latest.json last.
+      # Uploads to the private "products" bucket: db-<version>/ for this version (never replaced),
+      # the newest files at the bucket root (upsert), and latest.json last. If this step fails, do not
+      # re-run the job (the release tag exists): gh release download db-<version> --dir out, then run
+      # the script locally (README, "Upload to the Supabase bucket").
       - name: Upload to the Supabase bucket
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
