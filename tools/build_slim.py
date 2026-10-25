@@ -166,9 +166,9 @@ NUTRIENTS = ('kcal', 'protein_g', 'fat_g', 'sat_fat_g', 'carbs_g', 'sugars_g', '
 MACROS = ('kcal', 'protein_g', 'fat_g', 'carbs_g')
 
 # Zero kcal rule (contract: Zero kcal). Products whose four macros are all 0 get NULL and
-# `no_nutrition`, unless the name says water, a sweetener or salt, or the product is a
+# `no_nutrition`, unless the name says water, a sweetener or salt, it is a diet drink in ml, or the product is a
 # curated pure compound (creatine, caffeine, taurine). The CI test fails above this count.
-MAX_ALL_ZERO = 275  # 259 on 2026-10-25 (water, sweeteners, salt, pure compounds)
+MAX_ALL_ZERO = 275  # 259 on 2026-10-25 (water, sweeteners, salt, pure compounds), before diet drinks
 _SWEETENER_WORDS = frozenset((
     'sukralose', 'sucralose', 'sweetener', 'sweeteners', 'sotstoff', 'sotningsmiddel',
     'sotningsmedel', 'sodemiddel', 'suketter', 'erythritol', 'erytritol',
@@ -181,6 +181,8 @@ _WATER_SALT_WORDS = frozenset((
 ))
 _WATER_SALT_SUFFIXES = ('vann', 'vatten', 'salt', 'salz')  # mineralvann, kildevann, havsalt, jodsalz
 # A name with one of these is a food that only mentions salt or water (chips, herring, a bar).
+# A drink (per 100 ml) with one of these is a diet soft drink or energy drink: about 0 kcal is real.
+_DIET_DRINK_WORDS = frozenset(('zero', 'light', 'lett', 'max', 'sukkerfri', 'sockerfri', 'sugarfree', 'diet'))
 _ZERO_DENY = ('chips', 'sild', 'krydder', 'karamell', 'caramel', 'notter', 'nuts', 'lakris', 'popcorn', 'kjeks')
 
 _LETTERS = {'ø': 'o', 'æ': 'ae', 'å': 'a', 'ä': 'a', 'ö': 'o', 'ü': 'u', 'ß': 'ss'}
@@ -256,12 +258,14 @@ def normalise_quality(entries):
     return out
 
 
-def zero_allowed(name, flags):
-    """True when all-zero macros are plausible: water, sweeteners, salt, or a curated pure compound."""
+def zero_allowed(name, flags, unit='g'):
+    """True when all-zero macros are plausible: water, sweeteners, salt, diet drinks, or a curated pure compound."""
     if any(f.split(':', 1)[0] == 'pure_compound' for f in flags):
         return True
     text = normalise(name)
     tokens = re.findall(r'\w+', text)
+    if unit == 'ml' and any(t in _DIET_DRINK_WORDS for t in tokens):
+        return True
     # Sweeteners first: "Stevia Drops Caramel" is a sweetener even though it names a flavour.
     if any(p in text for p in _SWEETENER_PHRASES):
         return True
@@ -361,7 +365,7 @@ def build(data_dir, out, db_version, variant='full', previous=None, built_at='',
         if all(p[c] == 0 for c in MACROS):
             stats['all_zero_before'] += 1
             flags = flags_by_id[p['id']]
-            if zero_allowed(p['name'], flags):
+            if zero_allowed(p['name'], flags, per_100_unit(p['pack_size'], p['name'])):
                 stats['all_zero_after'] += 1
                 continue
             for c in NUTRIENTS:

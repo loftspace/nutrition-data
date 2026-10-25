@@ -247,6 +247,14 @@ class Verified(unittest.TestCase):
 
 
 class ZeroKcal(unittest.TestCase):
+    def test_diet_drinks_in_ml_keep_zero(self):
+        z = build_slim.zero_allowed
+        for name in ('Coca-Cola Zero', 'Pepsi Max', 'Villa Lett', 'Red Bull Energidrikk Sukkerfri 250 ml', 'Solo Super Sugarfree'):
+            self.assertTrue(z(name, [], 'ml'), name)
+        self.assertFalse(z('Pepsi Max', [], 'g'))            # not a drink
+        self.assertFalse(z('Nugatti Max', [], 'g'))
+        self.assertFalse(z('YT Proteinmelk Fettfri', [], 'ml'))  # fat-free milk is not zero kcal
+
     def test_allowlist(self):
         z = build_slim.zero_allowed
         self.assertTrue(z('Isklar Sparkling', []))
@@ -281,10 +289,10 @@ class ZeroKcal(unittest.TestCase):
 
     def test_all_zero_count_stays_low(self):
         """CI guard: all-zero products left after the rule. Raise the limit only on purpose."""
-        rows = q(FULL, 'select name, data_quality from products where kcal = 0 and protein_g = 0 and fat_g = 0 and carbs_g = 0')
+        rows = q(FULL, 'select name, data_quality, per_100_unit from products where kcal = 0 and protein_g = 0 and fat_g = 0 and carbs_g = 0')
         self.assertLessEqual(len(rows), build_slim.MAX_ALL_ZERO)
-        for name, dq in rows:
-            self.assertTrue(build_slim.zero_allowed(name, flags(dq)), name)
+        for name, dq, unit in rows:
+            self.assertTrue(build_slim.zero_allowed(name, flags(dq), unit), name)
 
 
 class OpenValues(unittest.TestCase):
