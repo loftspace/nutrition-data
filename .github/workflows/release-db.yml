@@ -1,6 +1,7 @@
 name: release-db
 
-# Builds the slim app databases from the shards and publishes them as a private release.
+# Builds the slim app databases from the shards, publishes them as a private release and uploads
+# them to the private Supabase Storage bucket "products".
 # Run it from the Actions tab (db_version like 2026.10.18). The app pins the sha256 from checksums.txt.
 on:
   workflow_dispatch:
@@ -63,3 +64,15 @@ jobs:
           gh release create "db-$VERSION" out/products.sqlite.gz out/products-open.sqlite.gz out/checksums.txt \
             --title "Product database $VERSION" \
             --notes "Slim app databases built from the shards at $GITHUB_SHA. checksums.txt has the sha256 of each file, compressed and uncompressed. The app pins the uncompressed products.sqlite checksum."
+
+      # Repo secrets SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY (Makro's project, see README).
+      # Uploads to the private "products" bucket: db-<version>/ for this version (never replaced),
+      # the newest files at the bucket root (upsert), and latest.json last. If this step fails, do not
+      # re-run the job (the release tag exists): gh release download db-<version> --dir out, then run
+      # the script locally (README, "Upload to the Supabase bucket").
+      - name: Upload to the Supabase bucket
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          VERSION: ${{ inputs.db_version }}
+        run: python tools/upload_to_bucket.py --dir out --db-version "$VERSION"
