@@ -38,18 +38,26 @@ sqlite3 products.sqlite "select name, brand, kcal, protein_g from products where
 Search uses FTS5: `select name from products where rowid in (select rowid from products_fts where products_fts match 'barebells')`.
 
 ## The slim app database
-`tools/build_slim.py` builds what the Makro iOS app bundles and the web app downloads: visible Norway-relevant products with the macros only, an FTS5 search column normalised for Norwegian (ø to o, æ to ae, å to a), all barcodes, and a redirect table so old product ids keep resolving. Contract: `packages/contracts/products-db.md` in `Maxaubert/Makro`.
+`tools/build_slim.py` builds what the Makro iOS app bundles and the web app downloads: visible Norway-relevant food products (no `non_food`) with the macros only, an FTS5 search column normalised for Norwegian (ø to o, æ to ae, å to a), all barcodes in canonical form, and a redirect table so old product ids keep resolving. Contract: `packages/contracts/products-db.md` in `Maxaubert/Makro` (v1, `schema_version` 2).
 
 | Variant | Products | Size | Sources |
 |---|---|---|---|
-| full | about 124,000 | 48 MB (13.6 MB gzipped) | everything |
-| open | about 46,000 | 17 MB (5.4 MB gzipped) | only the open sources in `LICENSES.md` |
+| full | 116,033 | 43.8 MB (11.9 MB gzipped) | everything |
+| open | 44,668 | 15.8 MB (4.8 MB gzipped) | only the open sources in `LICENSES.md` |
+
+Measured on 2026-10-25. What the builder decides (all in `build_slim.py`):
+- **Barcodes**: `canonical_ean` (digits only, pad to 13, drop the leading 0 of a 14-digit code). The build fails if two products share a canonical barcode. Golden cases: `tools/testdata/barcode.json`, a copy of Makro's `packages/contracts/search/barcode.json`.
+- **`per_100_unit`**: `ml` when the pack size (or, failing that, a pack size written in the name) is in ml, cl, dl or l, otherwise `g`. Never from the category. The shards have no per-100 basis field, so this is the best signal there is.
+- **`sources`**: `SOURCES` maps every source slug to a display name and a kind. A new source needs a line there or the build fails. A multi-brand shop is `shop` and is never verified.
+- **`data_quality`**: a closed code list (`SUSPECT_FLAGS`, `INFO_FLAGS`, `filled_from_*`). An unknown code fails the build.
+- **Zero kcal**: when kcal, protein, fat and carbs are all 0, the values become NULL and `no_nutrition` is added, unless the name says water, a sweetener or salt, or the product is a curated pure compound. The test fails if more than `MAX_ALL_ZERO` all-zero products remain (259 on 2026-10-25, from 1,198).
+- **Open variant**: values that came from a non-open source (per the `nutrients` shard) are set to NULL, and their `filled_from_*` flags are dropped.
 
 ```
 python tools/build_slim.py --data data --out products.sqlite --db-version 2026.10.18 --variant full
 python -m unittest discover -s tools -v
 ```
-Publish a release from the Actions tab: run `release-db` with a version like `2026.10.18`. It attaches both files and `checksums.txt` (sha256) to a private release.
+Publish a release from the Actions tab: run `release-db` with a version like `2026.10.18`. It attaches both files and `checksums.txt` (sha256) to a private release. It builds each variant with `--previous` set to that variant's file in the latest release, so ids that vanished are listed in `removed`.
 
 ## Rebuilding
 The scrapers and build scripts were run from a local working folder that also held the raw scraper output (about 1.4 GB, not in git). Paths inside the scripts point at that folder. All scrapers follow the rules in `COVERAGE.md`: honour robots.txt, one request per second per host, honest user agent, no CAPTCHA or login bypass, no images.

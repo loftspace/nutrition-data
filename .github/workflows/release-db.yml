@@ -24,17 +24,21 @@ jobs:
       - name: Tests
         run: python -m unittest discover -s tools -v
 
-      - name: Fetch the previous release (to keep old ids resolvable)
+      - name: Fetch the previous release of both variants (to keep old ids resolvable)
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           mkdir -p prev
-          if gh release download --pattern 'products.sqlite.gz' --dir prev 2>/dev/null; then
-            gunzip -f prev/products.sqlite.gz
-            echo "PREVIOUS=--previous prev/products.sqlite" >> "$GITHUB_ENV"
-          else
-            echo "No previous release, building without an id check"
+          # Each variant is compared with its own previous file, so ids that vanished are in `removed`.
+          # Only a repo with no db-* release yet may build without --previous; any download error fails the job.
+          if ! gh release list --limit 100 --json tagName --jq '.[].tagName' | grep -q '^db-'; then
+            echo "No previous db-* release, building both variants without an id check"
+            exit 0
           fi
+          gh release download --pattern 'products.sqlite.gz' --pattern 'products-open.sqlite.gz' --dir prev
+          gunzip -f prev/products.sqlite.gz prev/products-open.sqlite.gz
+          echo "PREVIOUS_FULL=--previous prev/products.sqlite" >> "$GITHUB_ENV"
+          echo "PREVIOUS_OPEN=--previous prev/products-open.sqlite" >> "$GITHUB_ENV"
 
       - name: Build both variants
         env:
@@ -43,9 +47,9 @@ jobs:
           mkdir -p out
           BUILT_AT="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
           python tools/build_slim.py --data data --out out/products.sqlite --db-version "$VERSION" \
-            --variant full --built-at "$BUILT_AT" --source-commit "$GITHUB_SHA" $PREVIOUS
+            --variant full --built-at "$BUILT_AT" --source-commit "$GITHUB_SHA" $PREVIOUS_FULL
           python tools/build_slim.py --data data --out out/products-open.sqlite --db-version "$VERSION" \
-            --variant open --built-at "$BUILT_AT" --source-commit "$GITHUB_SHA"
+            --variant open --built-at "$BUILT_AT" --source-commit "$GITHUB_SHA" $PREVIOUS_OPEN
           sha256sum out/products.sqlite out/products-open.sqlite > out/checksums.txt
           gzip -9 -k out/products.sqlite out/products-open.sqlite
           sha256sum out/products.sqlite.gz out/products-open.sqlite.gz >> out/checksums.txt
