@@ -172,6 +172,17 @@ class Per100Unit(unittest.TestCase):
         self.assertEqual(u(None, 'YT Proteinmelk Kakao Fettfri 330ml'), 'ml')
         self.assertEqual(u('4BX', 'Barebells Protein Bar 4 x 55 g'), 'g')
 
+    def test_unit_letter_followed_by_non_ascii_letter_is_not_a_unit(self):
+        u = build_slim.per_100_unit
+        self.assertEqual(u(None, 'Moonvalley Box Bar Rödbeta Apelsin 1 Låd'), 'g')
+        self.assertEqual(u(None, 'Graines express 2 légumineuses'), 'g')
+
+    def test_name_wins_when_pack_size_and_name_disagree(self):
+        u = build_slim.per_100_unit
+        self.assertEqual(u('350ml', 'Proteinbar Peanut & Toffee 45g'), 'g')
+        self.assertEqual(u('33cl', 'WHEY POWDER CHOCOLATE 500G'), 'g')
+        self.assertEqual(u('500 g', 'Appelsinjuice 1 l'), 'ml')
+
     def test_default_is_grams(self):
         self.assertEqual(build_slim.per_100_unit(None, 'Havregryn'), 'g')
         self.assertEqual(build_slim.per_100_unit('60 kapsler', 'Omega-3'), 'g')
@@ -309,6 +320,12 @@ class ReleaseWorkflow(unittest.TestCase):
         full, open_ = build.split('--variant open', 1)
         self.assertIn('$PREVIOUS_FULL', full)
         self.assertIn('$PREVIOUS_OPEN', open_.split('sha256sum', 1)[0])
+
+    def test_a_failed_download_fails_the_job(self):
+        with open(os.path.join(HERE, '..', '.github', 'workflows', 'release-db.yml'), encoding='utf-8') as f:
+            fetch = f.read().split('Build both variants', 1)[0]
+        self.assertNotIn('2>/dev/null', fetch)
+        self.assertIn('gh release list', fetch)
 
 
 if __name__ == '__main__':

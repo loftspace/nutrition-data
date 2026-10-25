@@ -218,17 +218,18 @@ def canonical_ean(code):
     return digits
 
 
-_QUANTITY = re.compile(r'\d+(?:[.,]\d+)?\s*(ml|cl|dl|ltr|liter|litre|l|kg|grams|gram|gr|g)(?![a-z])')
+_QUANTITY = re.compile(r'\d+(?:[.,]\d+)?\s*(ml|cl|dl|ltr|liter|litre|l|kg|grams|gram|gr|g)(?!\w)')
 _ML_UNITS = frozenset(('ml', 'cl', 'dl', 'ltr', 'liter', 'litre', 'l'))
 
 
 def per_100_unit(pack_size, name):
     """`g` or `ml`: the unit the per-100 values are per (contract: per_100_unit).
 
-    From the pack size, else from a pack size written in the product name (the label text),
-    else `g`. Never from the category.
+    From a pack size written in the product name (the label text), else the pack size, else
+    `g`. The name wins when the two disagree: some shops list a wrong pack size ('33cl' on a
+    whey powder). Never from the category.
     """
-    for text in (pack_size, name):
+    for text in (name, pack_size):
         m = _QUANTITY.search((text or '').lower())
         if m:
             return 'ml' if m.group(1) in _ML_UNITS else 'g'

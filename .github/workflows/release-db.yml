@@ -30,18 +30,15 @@ jobs:
         run: |
           mkdir -p prev
           # Each variant is compared with its own previous file, so ids that vanished are in `removed`.
-          if gh release download --pattern 'products.sqlite.gz' --dir prev 2>/dev/null; then
-            gunzip -f prev/products.sqlite.gz
-            echo "PREVIOUS_FULL=--previous prev/products.sqlite" >> "$GITHUB_ENV"
-          else
-            echo "No previous full release, building the full variant without an id check"
+          # Only a repo with no db-* release yet may build without --previous; any download error fails the job.
+          if ! gh release list --limit 100 --json tagName --jq '.[].tagName' | grep -q '^db-'; then
+            echo "No previous db-* release, building both variants without an id check"
+            exit 0
           fi
-          if gh release download --pattern 'products-open.sqlite.gz' --dir prev 2>/dev/null; then
-            gunzip -f prev/products-open.sqlite.gz
-            echo "PREVIOUS_OPEN=--previous prev/products-open.sqlite" >> "$GITHUB_ENV"
-          else
-            echo "No previous open release, building the open variant without an id check"
-          fi
+          gh release download --pattern 'products.sqlite.gz' --pattern 'products-open.sqlite.gz' --dir prev
+          gunzip -f prev/products.sqlite.gz prev/products-open.sqlite.gz
+          echo "PREVIOUS_FULL=--previous prev/products.sqlite" >> "$GITHUB_ENV"
+          echo "PREVIOUS_OPEN=--previous prev/products-open.sqlite" >> "$GITHUB_ENV"
 
       - name: Build both variants
         env:
