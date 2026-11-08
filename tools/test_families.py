@@ -127,6 +127,8 @@ class Compatible(unittest.TestCase):
         self.assertFalse(fam.compatible(p('1', 'Kycklingben', brand='ICA'), p('2', 'Kycklingben Grillkryddade', brand='ICA')))
         self.assertFalse(fam.compatible(p('1', 'Norvegia Gulost', brand='Tine'), p('2', 'Norvegia Gulost Vellagret', brand='Tine')))
         self.assertFalse(fam.compatible(p('1', 'Lammebog', brand='Lundal'), p('2', 'Lammebog Røykt', brand='Lundal')))
+        self.assertFalse(fam.compatible(p('1', 'Russin', brand='Änglamark'), p('2', 'Ekologiska Russin', brand='Änglamark')))
+        self.assertFalse(fam.compatible(p('1', 'Kotlett Benfri', brand='ICA'), p('2', 'Kotlett Med Ben', brand='ICA')))
         self.assertFalse(fam.compatible(p('1', 'Kungskassler', brand='Gudruns'), p('2', 'Kungskassler Alspånsrökt', brand='Gudruns')))
         self.assertFalse(fam.compatible(p('1', 'Appelsinjuice', brand='Eldorado'), p('2', 'Appelsinjuice Premium', brand='Eldorado')))
 
@@ -189,11 +191,61 @@ class SameWordsAnyOrder(unittest.TestCase):
         self.assertFalse(fam.names_differ_core([r['_core'] for r in rows]))
 
 
+class DisplayName(unittest.TestCase):
+    """Max, 2026-11-08: a name never carries its pack size, nor the maker tacked on at the end."""
+
+    def test_sizes_and_a_trailing_maker_go(self):
+        lines = fam.Lines([p(str(i), 'Tine Melk', brand='Tine') for i in range(3)])
+        self.assertEqual(fam.display_name('YT Protein Yoghurt Salt Karamell 200g Tine', 'YT', lines),
+                         'YT Protein Yoghurt Salt Karamell')
+        self.assertEqual(fam.display_name('Kylling og Ris 330ml', 'First Price', lines), 'Kylling og Ris')
+        self.assertEqual(fam.display_name('BIG BUY 4 x Havremel 1 kg', 'Star Nutrition', lines), 'Havremel')
+
+    def test_a_trailing_brand_stays_when_it_is_the_product(self):
+        lines = fam.Lines([p(str(i), 'Oreo Original', brand='Oreo') for i in range(3)] +
+                          [p(str(i + 3), 'Marabou Mjölkchoklad', brand='Marabou') for i in range(3)])
+        self.assertEqual(fam.display_name('Marabou Oreo', 'Marabou', lines), 'Marabou Oreo')
+
+    def test_number_codes_go(self):
+        lines = fam.Lines([p(str(i), 'Tine Melk', brand='Tine') for i in range(3)])
+        self.assertEqual(fam.display_name('Rapsstekolja smörsmak, 260201', 'ICA', lines), 'Rapsstekolja smörsmak')
+
+    def test_a_name_that_is_only_a_size_or_brand_keeps_something(self):
+        lines = fam.Lines([p(str(i), 'Tine Melk', brand='Tine') for i in range(3)])
+        self.assertEqual(fam.display_name('Tine', 'Tine', lines), 'Tine')
+        self.assertEqual(fam.display_name('Mager Kjøttdeig 400g', None, lines), 'Mager Kjøttdeig')
+
+
+class ReviewedGuard(unittest.TestCase):
+    """Groups a model read as duplicates (data/families_reviewed.json) still pass a number check."""
+
+    def test_sugar_free_and_light_stay_apart_in_reviewed_groups(self):
+        a = p('1', 'Monster Belgisk Mørk Sjokolade', brand='Monster', kcal=500); a['_bkey'] = 'monster'
+        b = p('2', 'Monster Belgisk Mørk Sjokolade Sukkerfri', brand='Monster', kcal=480); b['_bkey'] = 'monster'
+        self.assertFalse(fam.reviewed_ok(b, a))
+
+    def test_guard(self):
+        a = p('1', 'Aioli', brand='Rema 1000', kcal=745); a['_bkey'] = 'rema'
+        b = p('2', 'Aioli', brand='Rema 1000', kcal=564); b['_bkey'] = 'rema'
+        c = p('3', 'Aioli Hvitløk', brand='Rema 1000', kcal=700); c['_bkey'] = 'rema'
+        d = p('4', 'Aioli', brand='Coop', kcal=740); d['_bkey'] = 'coop'
+        e = p('5', 'Aioli', brand='Rema 1000', kcal=None); e['_bkey'] = 'rema'
+        self.assertFalse(fam.reviewed_ok(b, a))   # 24% apart
+        self.assertTrue(fam.reviewed_ok(c, a))    # 6% apart
+        self.assertFalse(fam.reviewed_ok(d, a))   # other brand
+        self.assertTrue(fam.reviewed_ok(e, a))    # no numbers: nothing to contradict
+
+
 class FamilyName(unittest.TestCase):
     def test_a_describing_word_is_not_the_product_line(self):
         lines = fam.Lines([p('1', 'Grilstad Lett Gullsalami', brand='Grilstad'), p('2', 'Grilstad Lett Jubelsalami', brand='Grilstad'),
                            p('3', 'Grilstad Kokt Skinke', brand='Grilstad')])
         self.assertEqual(lines.line('Grilstad Lett Gullsalami', 'Grilstad'), 'gullsalami')
+
+    def test_no_shared_product_word_means_no_name(self):
+        names = ['Lemon Lime Bitters', 'Root Beer', 'Ginger Beer']
+        self.assertIsNone(fam.family_name(names[0], names, 'Bundaberg', strict=True))
+        self.assertEqual(fam.family_name(names[0], names, 'Bundaberg'), 'Lemon Lime Bitters')
 
     def test_split_words_count_as_one(self):
         names = ['YT Proteinmelk Naturell', 'YT Proteinmelk Kakao', 'Protein Melk']
