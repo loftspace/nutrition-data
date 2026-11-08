@@ -85,6 +85,16 @@ SUPABASE_URL=https://<project-ref>.supabase.co SUPABASE_SERVICE_ROLE_KEY=... pyt
 ```
 Old `db-*` folders can be deleted by hand in the dashboard when storage gets tight (free plan: 1 GB).
 
+**Without the dashboard (Max's PC, since 2026-11-08):** the Supabase CLI is logged in with the access token `makro-cli` (Makro project only: API Keys read, API Key Secrets read, Edge Functions read-write; expires about 2027-02-06, then make a new one at supabase.com/dashboard/account/tokens with the same permissions and run `npx supabase@2.121.0 login --token <token>`; `supabase login` without `--token` does not work in Flare's terminal). The CLI fetches the service role key straight into the environment, never printed or saved (PowerShell):
+
+```
+$keys = npx -y supabase@2.121.0 projects api-keys --project-ref qhzytbcqzaauzckafhsj --reveal -o json | ConvertFrom-Json
+$env:SUPABASE_SERVICE_ROLE_KEY = ($keys | Where-Object name -eq 'service_role').api_key; $keys = $null
+$env:SUPABASE_URL = 'https://qhzytbcqzaauzckafhsj.supabase.co'
+python tools/upload_to_bucket.py --dir out --db-version 2026.11.08-5
+Remove-Item Env:SUPABASE_SERVICE_ROLE_KEY
+```
+
 ## Rebuilding
 The scrapers and build scripts were run from a local working folder that also held the raw scraper output (about 1.4 GB, not in git). Paths inside the scripts point at that folder. All scrapers follow the rules in `COVERAGE.md`: honour robots.txt, one request per second per host, honest user agent, no CAPTCHA or login bypass, no images.
 
