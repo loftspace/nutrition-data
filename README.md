@@ -25,7 +25,8 @@ See `COVERAGE.md` for exact counts per source, completeness, known gaps and qual
 | `.github/workflows/` | `ci.yml` tests the builder; `release-db.yml` publishes a private release |
 | `scrapers/` | One Python scraper per source |
 | `build/` | Merge, nutrient dictionary, Jev categorization, post-processing, export |
-| `data/jev/` | Raw Jev answers (category, confidence) for provenance |
+| `data/jev/` | Raw Jev answers (category, confidence; flavour families) for provenance |
+| `data/families.json` | Accepted flavour families, applied by the slim build |
 | `LICENSES.md` | Source licences and what we may do with each |
 | `COVERAGE.md` | Coverage report |
 
@@ -52,6 +53,8 @@ Measured on 2026-10-25. What the builder decides (all in `build_slim.py`):
 - **`data_quality`**: a closed code list (`SUSPECT_FLAGS`, `INFO_FLAGS`, `filled_from_*`). An unknown code fails the build.
 - **Zero kcal**: when kcal, protein, fat and carbs are all 0, the values become NULL and `no_nutrition` is added, unless the name says water, a sweetener or salt, or the product is a curated pure compound. The test fails if more than `MAX_ALL_ZERO` all-zero products remain (259 on 2026-10-25, from 1,198).
 - **Open variant**: values that came from a non-open source (per the `nutrients` shard) are set to NULL, and their `filled_from_*` flags are dropped.
+- **Display names** (2026-11-08): ALL-CAPS names and brands become Title Case, trademark signs and a repeated "- BRAND" tail go, and two- or three-letter brands the sources mostly write in capitals stay capitals (YT, ICA). `tools/families.py`.
+- **Flavour families** (2026-11-08, Max's rule): the same product sold in several flavours, pack sizes or shops becomes one row (`YT Proteinpudding`). Listings join only when every nutrient both know is within 5% (at least 0.5), the brands agree, and variant words (lactose-free, zero, light, sugar-free, organic, smoked, marinated, capsules) match. Bundles never join, and near-zero-kcal listings join only with the same name. Families whose names differ were checked once with Jev (`build/jev_families.py`, answers in `data/jev/families.jsonl`). The accepted list is `data/families.json`, which the build applies. The row keeps its best listing's numbers (never an average). The other ids become redirects, and their barcodes and names stay findable. To redo it: `python -I tools/families.py --data data --out data/jev/families_candidates.json`, then `python -I build/jev_families.py run` (Jev calls need Max's yes), then `write`.
 
 ```
 python tools/build_slim.py --data data --out products.sqlite --db-version 2026.10.18 --variant full

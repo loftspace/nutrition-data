@@ -336,5 +336,49 @@ class ReleaseWorkflow(unittest.TestCase):
         self.assertIn('gh release list', fetch)
 
 
+class Families(unittest.TestCase):
+    """Flavour families from data/families.json (tools/families.py, build/jev_families.py)."""
+
+    def test_yt_proteinpudding_is_one_product(self):
+        rows = q(FULL, "select id, name from products where search_text like 'yt proteinpudding%' and name like 'YT Proteinpudding%'")
+        self.assertEqual([r[1] for r in rows], ['YT Proteinpudding'])
+
+    def test_a_folded_flavour_is_still_found_by_name_and_barcode(self):
+        pid = q(FULL, "select id from products where name = 'YT Proteinpudding'")[0][0]
+        hits = [r[0] for r in q(FULL, "select p.id from products_fts f join products p on p.rowid = f.rowid where products_fts match 'proteinpudding mango'")]
+        self.assertIn(pid, hits)
+        owners = {r[0] for r in q(FULL, 'select product_id from product_eans where ean in (select ean from product_eans where product_id = ?)', pid)}
+        self.assertEqual(owners, {pid})
+        self.assertGreater(q(FULL, 'select count(*) from product_eans where product_id = ?', pid)[0][0], 1)
+
+    def test_folded_ids_redirect_to_the_family(self):
+        pid = q(FULL, "select id from products where name = 'YT Proteinpudding'")[0][0]
+        self.assertGreater(q(FULL, 'select count(*) from redirects where new_id = ?', pid)[0][0], 1)
+
+    def test_a_flavour_more_than_5_percent_off_stays_apart(self):
+        # YT Proteinyoghurt Naturell has 10 g protein against 9.2 to 9.3 for the flavoured ones.
+        self.assertTrue(q(FULL, "select 1 from products where name like 'Yt Proteinyoghurt Naturell%'"))
+
+    def test_family_keeps_one_members_numbers(self):
+        # Never an average: every family row has exactly the numbers of its own source listing.
+        import families
+        src = {r['id']: r for r in families.load_rows(DATA)}
+        rows = q(FULL, 'select id, ' + ', '.join(build_slim.NUTRIENTS) + ' from products where id in (select new_id from redirects)')
+        self.assertGreater(len(rows), 1000)
+        for pid, *vals in rows:
+            if pid in src and src[pid]['kcal'] is not None:
+                self.assertEqual(vals, [src[pid][n] for n in build_slim.NUTRIENTS], pid)
+
+
+class Tidy(unittest.TestCase):
+    def test_few_all_caps_names_left(self):
+        n = q(FULL, "select count(*) from products where name = upper(name) and length(name) > 6 and name glob '*[A-Z][A-Z][A-Z][A-Z]*'")[0][0]
+        self.assertLess(n, 50)
+
+    def test_no_trademark_signs_or_lowercase_short_brands(self):
+        self.assertEqual(q(FULL, "select count(*) from products where name like '%®%' or name like '%™%'")[0][0], 0)
+        self.assertEqual(q(FULL, "select count(*) from products where brand = 'yt'")[0][0], 0)
+
+
 if __name__ == '__main__':
     unittest.main()
