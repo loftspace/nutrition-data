@@ -59,6 +59,9 @@ class Close(unittest.TestCase):
         self.assertFalse(fam.close(p('a', 'x', kcal=74), p('b', 'x', kcal=84)))
         self.assertFalse(fam.close(p('a', 'x', protein=10), p('b', 'x', protein=12)))
 
+    def test_salt_gets_half_a_gram(self):
+        self.assertTrue(fam.close(p('a', 'x', salt_g=0.0), p('b', 'x', salt_g=0.31)))
+
     def test_small_values_get_a_third_of_a_gram(self):
         self.assertTrue(fam.close(p('a', 'x', salt_g=0.1), p('b', 'x', salt_g=0.35)))
 
@@ -160,6 +163,30 @@ class StrictWhenNamesDiffer(unittest.TestCase):
     def test_same_name_without_brand_still_joins(self):
         rows = [p('1', 'Kyllingfilet', brand=None, kcal=105), p('2', 'Kyllingfilet', brand='Prior', kcal=106)]
         self.assertEqual(len(fam.candidates(rows)), 1)
+
+
+class SameWordsAnyOrder(unittest.TestCase):
+    """Max, 2026-11-08 ("go through and look for such errors"): the same words in another order,
+    with or without the brand, are the same name ("Laks Røkt" / "Røkt Laks")."""
+
+    def test_core_ignores_order_brand_and_size(self):
+        rows = [p('1', 'Bodylab Clear Whey Blackcurrant 500g', brand='Bodylab'), p('2', 'Blackcurrant Clear Whey', brand='Bodylab'),
+                p('3', 'Bodylab Whey 100', brand='Bodylab'), p('4', 'Bodylab Carbo', brand='Bodylab')]
+        lines = fam.Lines(rows)
+        self.assertEqual(lines.core(rows[0]['name'], 'Bodylab'), lines.core(rows[1]['name'], 'Bodylab'))
+        self.assertEqual(lines.core('Laks Røkt', 'Troll'), lines.core('Røkt Laks', 'Troll'))
+
+    def test_reversed_words_and_brand_only_names_join(self):
+        rows = [p('1', 'Indrefilet Pampas', brand='REMA', kcal=135), p('2', 'Pampas Indrefilet', brand='REMA 1000', kcal=135),
+                p('3', 'Lofotpils', brand='Lofotpils', kcal=41), p('4', 'Lofotpils', brand='Lofotpils', kcal=41),
+                p('5', 'Lofotpils', brand='Lofotpils', kcal=41)]
+        self.assertEqual(sorted(sorted(f) for f in fam.candidates(rows)), [['1', '2'], ['3', '4', '5']])
+
+    def test_same_words_need_no_check(self):
+        rows = [p('1', 'Laks Røkt', brand='Troll', kcal=225), p('2', 'Røkt Laks', brand='Troll', kcal=225)]
+        fams = fam.candidates(rows)
+        self.assertEqual([sorted(f) for f in fams], [['1', '2']])
+        self.assertFalse(fam.names_differ_core([r['_core'] for r in rows]))
 
 
 class FamilyName(unittest.TestCase):

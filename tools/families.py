@@ -115,6 +115,10 @@ def words(name):
     return re.findall(r'[0-9a-z]+', fold(strip_sizes(_MARKS.sub('', name or ''))))
 
 
+# Salt is tiny and often missing written as 0.0 (Open Food Facts "Protein Pudding" vs Tine's 0.31 g).
+_FLOORS = {'salt_g': 0.5}
+
+
 def close(a, b, tolerance=None):
     if a['kcal'] is None or b['kcal'] is None:
         return False
@@ -122,7 +126,7 @@ def close(a, b, tolerance=None):
         x, y = a[n], b[n]
         if x is None or y is None:
             continue
-        if abs(x - y) > max((tolerance or TOLERANCE) * max(abs(x), abs(y)), FLOOR):
+        if abs(x - y) > max((tolerance or TOLERANCE) * max(abs(x), abs(y)), _FLOORS.get(n, FLOOR)):
             return False
     return True
 
@@ -173,10 +177,11 @@ def compatible(a, b):
     if variant_marks(a['name'], a['brand']) != variant_marks(b['name'], b['brand']):
         return False
     same_name = words(a['name']) == words(b['name'])
+    same_words = same_name or ('_core' in a and '_core' in b and a['_core'] == b['_core'])  # any order, brand aside
     # Near-zero foods (diet drinks, coffee, tea) are always within 10%, so flavours must not decide.
-    if max(a['kcal'], b['kcal']) < NEAR_ZERO_KCAL and not same_name:
+    if max(a['kcal'], b['kcal']) < NEAR_ZERO_KCAL and not same_words:
         return False
-    # Names that differ by more than size or spelling: one known brand for both (third review,
+    # Names that differ at all (beyond size and case): one known brand for both (third review,
     # 2026-11-08: "Pils", "Brie" and "Cheddar" from many makers; Tommi and Muscle NH2 whey).
     if not same_name:
         ka, kb = a.get('_bkey', _brand_key(a['brand'])), b.get('_bkey', _brand_key(b['brand']))
@@ -245,6 +250,17 @@ class Lines:
         b = self.brand_in_name(name) or ' '.join(words(brand))
         return b.split()[0] if b else None
 
+    def core(self, name, brand):
+        """The words of a name as a set, without brand words, sizes or word order, split words joined:
+        "Laks Røkt" and "Røkt Laks", "Bodylab Clear Whey Blackcurrant 500g" and "Blackcurrant Clear Whey"."""
+        bk = self.brand_key(name, brand)
+        own = set(join_compounds(words(brand), self.vocab)) | ({bk} if bk else set())
+        for b in self.brands:
+            if b[0] == bk:
+                own |= set(b)
+        toks = join_compounds(words(tidy_name(name, brand)), self.vocab)
+        return frozenset(t for t in toks if t not in own) or frozenset(toks)
+
     def brand_in_name(self, name):
         """The known brand a name starts with ("Yt Proteinpudding ..." -> "yt"), or None."""
         toks = join_compounds(words(name), self.vocab)
@@ -255,7 +271,8 @@ class Lines:
 
     def line(self, name, brand):
         own = set(join_compounds(words(brand), self.vocab))
-        core = [t for t in join_compounds(words(name), self.vocab) if t not in own]
+        toks = join_compounds(words(name), self.vocab)
+        core = [t for t in toks if t not in own] or toks[:1]  # "Lofotpils" by Lofotpils is its own line
         for _ in range(2):
             for b in self.brands:
                 if len(core) > len(b) and tuple(core[:len(b)]) == b:
@@ -273,6 +290,7 @@ def candidates(rows):
     groups = defaultdict(list)
     for r in rows:
         r['_bkey'] = lines.brand_key(r['name'], r['brand'])
+        r['_core'] = lines.core(r['name'], r['brand'])
         key = lines.line(r['name'], r['brand'])
         if key and r['kcal'] is not None:
             groups[key].append(r)
@@ -287,7 +305,29 @@ def candidates(rows):
                     left.remove(r)
             if len(fam) > 1:
                 out.append([m['id'] for m in fam])
+    # Second pass for the rows no family took: the same words in another order ("Indrefilet Pampas",
+    # "Pampas Indrefilet") have different first words, so the line pass never compared them.
+    taken = {i for f in out for i in f}
+    by_core = defaultdict(list)
+    for r in rows:
+        if r['id'] not in taken and r['kcal'] is not None and r['_core']:
+            by_core[r['_core']].append(r)
+    for key in sorted(by_core, key=sorted):
+        left = sorted(by_core[key], key=lambda r: r['id'])
+        while left:
+            fam = [left.pop(0)]
+            for r in left[:]:
+                if all(compatible(r, m) for m in fam):
+                    fam.append(r)
+                    left.remove(r)
+            if len(fam) > 1:
+                out.append([m['id'] for m in fam])
     return out
+
+
+def names_differ_core(cores):
+    """True when the word sets (see Lines.core) differ."""
+    return len(set(cores)) > 1
 
 
 def names_differ(names):
@@ -356,7 +396,7 @@ def main(argv=None):
     rows = load_rows(a.data)
     by_id = {r['id']: r for r in rows}
     fams = candidates(rows)
-    out = [{'members': f, 'needs_check': names_differ([by_id[i]['name'] for i in f])} for f in fams]
+    out = [{'members': f, 'needs_check': names_differ_core([by_id[i]['_core'] for i in f])} for f in fams]
     path = a.out or os.path.join(a.data, 'families_candidates.json')
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=0)
