@@ -58,7 +58,7 @@ class FullVariant(unittest.TestCase):
 
     def test_only_visible_norway_products_with_a_name(self):
         self.assertEqual(q(FULL, "select count(*) from products where trim(name) = ''")[0][0], 0)
-        self.assertGreater(q(FULL, 'select count(*) from products')[0][0], 90000)  # 98,931 on 2026-11-08 after families
+        self.assertGreater(q(FULL, 'select count(*) from products')[0][0], 50000)  # 60,587 on 2026-11-08 after families and unverified clean-up
 
     def test_unknown_nutrients_stay_null(self):
         # Unknown is never zero: some products must have no kcal at all.
@@ -283,6 +283,8 @@ class ZeroKcal(unittest.TestCase):
             # A listing with no numbers may have joined its product line's family: then the family
             # keeps its own numbers, and the zeros never reach it.
             moved = q(FULL, 'select new_id from redirects where old_id = ?', pid)
+            if not moved and not q(FULL, 'select 1 from products where id = ?', pid):
+                continue  # an unverified row with no numbers is dropped (Max, 2026-11-08)
             if moved:
                 self.assertIsNotNone(q(FULL, 'select kcal from products where id = ?', moved[0][0])[0][0], pid)
                 continue
@@ -362,8 +364,9 @@ class Families(unittest.TestCase):
         self.assertGreater(q(FULL, 'select count(*) from redirects where new_id = ?', pid)[0][0], 1)
 
     def test_a_listing_more_than_10_percent_off_stays_apart(self):
-        # YT Proteinyoghurt Mango&Pasjon has 6.6 g protein against 9.3 for the other flavours.
-        self.assertTrue(q(FULL, "select 1 from products where name like 'YT Proteinyoghurt Mango%'"))
+        # YT Proteinyoghurt Mango&Pasjon (6.6 g protein) is never folded into YT Proteinyoghurt (9.3 g);
+        # since 2026-11-08 the unverified shop row is dropped because Tine's verified line exists.
+        self.assertEqual(q(FULL, "select protein_g from products where name = 'YT Proteinyoghurt'"), [(9.3,)])
 
     def test_yt_proteinmelk_is_one_product(self):
         # Max, 2026-11-08: Naturell, Kakao, "Protein Melk" and the 330 ml and 1 l packs are one product.
@@ -381,8 +384,25 @@ class Families(unittest.TestCase):
         self.assertGreater(len(rows), 1000)
         for pid, *vals in rows:
             # A row the zero-kcal rule emptied (all zeros became unknown) has no numbers to compare.
-            if pid in src and src[pid]['kcal'] is not None and any(v is not None for v in vals):
+            if pid in src and src[pid]['kcal'] is not None and vals[0] is not None:
                 self.assertEqual(vals, [src[pid][n] for n in build_slim.NUTRIENTS], pid)
+
+
+class Unverified(unittest.TestCase):
+    """Max, 2026-11-08: unverified rows with no numbers, or with a verified version of the same brand
+    and product line, are dropped."""
+
+    def test_no_unverified_row_without_numbers(self):
+        n = q(FULL, 'select count(*) from products where verified = 0 and kcal is null and protein_g is null '
+                    'and fat_g is null and carbs_g is null')[0][0]
+        self.assertEqual(n, 0)
+
+    def test_yt_salt_karamell_from_a_shop_is_gone(self):
+        self.assertEqual(q(FULL, "select count(*) from products where name like 'YT Protein Yoghurt Salt Karamell%'")[0][0], 0)
+
+    def test_no_sizes_in_names(self):
+        n = q(FULL, "select count(*) from products where name glob '*[0-9]g' or name glob '*[0-9] g' or name glob '*[0-9]ml'")[0][0]
+        self.assertLess(n, 50)
 
 
 class Tidy(unittest.TestCase):

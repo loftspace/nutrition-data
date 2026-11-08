@@ -33,7 +33,7 @@ _SMALL = frozenset(('og', 'av', 'med', 'i', 'pa', 'på', 'til', 'uten', 'fra', '
 _SIZE = re.compile(
     r'(\d+\s*[x×]\s*)?\d+(?:[.,]\d+)?\s*(?:kg|g|gr|gram|grams|ml|cl|dl|l|ltr|liter|litre|stk|pk|pakk|pack)(?![a-zæøå])'
     r'|\btipakning\b|\b\d+\s*-?\s*pk\b|\b\d+\s*x\b|\bbig\s+buy\b|\bmix\s*&\s*match\b|\bpr\.?\s*kg\b|\benh\b'
-    r'|\bfamiliepakn\w*|\bstorpakn\w*|\bstorpack\w*', re.I)
+    r'|\bfamiliepakn\w*|\bstorpakn\w*|\bstorpack\w*|\bdatodeal\b|\bkampanje\b|\btilbud\b|\bspecial\s+deal\b', re.I)
 _LETTERS = {'ø': 'o', 'æ': 'ae', 'å': 'a', 'ä': 'a', 'ö': 'o', 'ü': 'u', 'ß': 'ss'}
 
 
@@ -104,6 +104,27 @@ def tidy_name(name, brand, short_brands=frozenset()):
     return ' '.join(out)
 
 
+def display_name(name, brand, lines, short_brands=frozenset()):
+    """The name shown in the app: tidied, without pack sizes or promo words, and without a maker
+    tacked on at the end ("YT Protein Yoghurt Salt Karamell 200g Tine" -> "... Salt Karamell").
+    The pack size stays in its own column."""
+    s = strip_sizes(tidy_name(name, brand, short_brands))
+    s = re.sub(r'[,\s]+\d{4,}\b', '', s)  # article numbers such as ", 260201"
+    raw = s.split(' ')
+    own = set(words(brand))
+    while len(raw) > 1:
+        tail = tuple(words(raw[-1]))
+        rest = set(words(' '.join(raw[:-1])))
+        # Drop a maker tacked on at the end ("... 200g Tine"), but not when the rest is only the brand
+        # itself ("Marabou Oreo" stays: Oreo is the product).
+        if tail and any(b == tail for b in lines.brands) and not rest <= own:
+            raw.pop()
+            continue
+        break
+    s = ' '.join(raw).strip(' ,-–|')
+    return s or tidy_name(name, brand, short_brands)
+
+
 def strip_sizes(name):
     s = _SIZE.sub(' ', name or '')
     s = re.sub(r'\s*[-–,]\s*(?=$|[-–,])', ' ', s)
@@ -151,7 +172,8 @@ _BUNDLE = re.compile(r'\s\+\s*[A-Za-zÆØÅæøå]|\bshaker\b|\bgaveeske\b|\bgif
 NEAR_ZERO_KCAL = 5.0
 
 
-_VARIANT_STEMS = (('royk', 'smoked'), ('rokt', 'smoked'), ('premium', 'premium'), ('mariner', 'marinated'), ('marinad', 'marinated'), ('kryddad', 'seasoned'), ('krydret', 'seasoned'),
+_VARIANT_STEMS = (('royk', 'smoked'), ('rokt', 'smoked'), ('ekologisk', 'organic'), ('okologisk', 'organic'),
+                  ('benfri', 'boneless'), ('utan ben', 'boneless'), ('premium', 'premium'), ('mariner', 'marinated'), ('marinad', 'marinated'), ('kryddad', 'seasoned'), ('krydret', 'seasoned'),
                   ('lagret', 'aged'), ('lagrad', 'aged'), ('fylt', 'filled'), ('fylld', 'filled'), ('morad', 'tenderised'))
 
 
@@ -186,6 +208,33 @@ def compatible(a, b):
     if not same_name:
         ka, kb = a.get('_bkey', _brand_key(a['brand'])), b.get('_bkey', _brand_key(b['brand']))
         if not ka or ka != kb:
+            return False
+    return True
+
+
+REVIEWED_TOLERANCE = 0.15
+_DIET = {'sukkerfri': 'sugar_free', 'sockerfri': 'sugar_free', 'sugarfree': 'sugar_free', 'zero': 'zero',
+         'light': 'light', 'lett': 'light', 'latt': 'light', 'lite': 'light', 'fettfri': 'fat_free'}
+
+
+def _diet_marks(r):
+    return frozenset(_DIET[t] for t in words(r['name']) + words(r['brand']) if t in _DIET)
+
+
+def reviewed_ok(a, rep):
+    """May listing `a` join `rep` in a group a model read as one product (data/families_reviewed.json)?
+    Same brand, same variant words, no bundle, and kcal and protein within 15% (at least 1 g)."""
+    if not a.get('_bkey') or a.get('_bkey') != rep.get('_bkey'):
+        return False
+    if is_bundle(a['name']) or variant_marks(a['name'], a['brand']) != variant_marks(rep['name'], rep['brand']):
+        return False
+    if _diet_marks(a) != _diet_marks(rep):  # sugar-free / light versions (check of 150 merges, 2026-11-08)
+        return False
+    for n, floor in (('kcal', 1.0), ('protein_g', 1.0)):
+        x, y = a[n], rep[n]
+        if x is None or y is None:
+            continue
+        if abs(x - y) > max(REVIEWED_TOLERANCE * max(abs(x), abs(y)), floor):
             return False
     return True
 
@@ -335,7 +384,7 @@ def names_differ(names):
     return len({' '.join(words(n)) for n in names}) > 1
 
 
-def family_name(rep_name, names, brand=None):
+def family_name(rep_name, names, brand=None, strict=False):
     """The words every member shares, in the order of the member name that holds the most of them
     (the representative first on a tie); else the representative without sizes."""
     rep = strip_sizes(rep_name)
@@ -367,7 +416,7 @@ def family_name(rep_name, names, brand=None):
     brand_only = set(words(' '.join(kept))) <= set(words(brand))
     if kept and not brand_only:
         return ' '.join(kept).strip(' ,-–')
-    return rep
+    return None if strict else rep  # strict: no shared product word, so no family name
 
 
 def load_rows(data_dir):

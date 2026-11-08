@@ -19103,13 +19103,6 @@
 },
 {
 "members": [
-"ean:7037203633066",
-"ean:7037203633134"
-],
-"jev": 0.75
-},
-{
-"members": [
 "ean:7331217015529",
 "ean:7331217016229"
 ],
@@ -25560,15 +25553,15 @@
 },
 {
 "members": [
-"ean:2319118315493",
-"ean:2319261105132"
+"ean:2319118311358",
+"ean:2319118313192"
 ],
 "jev": null
 },
 {
 "members": [
-"ean:2319118311358",
-"ean:2319118313192"
+"ean:2319118315493",
+"ean:2319261105132"
 ],
 "jev": null
 },
@@ -51183,18 +51176,18 @@
 },
 {
 "members": [
-"ean:7037204743245",
-"ean:7037204743269"
-],
-"jev": 0.81
-},
-{
-"members": [
-"norgesgruppen:23739053",
+"ean:7020099000418",
 "norgesgruppen:7431",
 "norgesgruppen:7432"
 ],
 "jev": null
+},
+{
+"members": [
+"ean:7037204743245",
+"ean:7037204743269"
+],
+"jev": 0.81
 },
 {
 "members": [
@@ -51401,6 +51394,13 @@
 "ean:7037710050134",
 "nidar:https://www.nidar.no/produkt/skumkarameller-2/",
 "nidar:https://www.nidar.no/produkt/skumkarameller/"
+],
+"jev": null
+},
+{
+"members": [
+"ean:7090046132745",
+"tights-discontinued:1797012"
 ],
 "jev": null
 },
@@ -56527,13 +56527,6 @@
 "ean:7020099000432"
 ],
 "jev": null
-},
-{
-"members": [
-"ean:7020098000624",
-"ean:7020098000983"
-],
-"jev": 0.81
 },
 {
 "members": [

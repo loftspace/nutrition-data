@@ -311,7 +311,7 @@ def read_shard(data_dir, manifest, table):
 _KIND_RANK = {'brand': 3, 'government': 2, 'open_database': 1, 'shop': 0}
 
 
-def apply_families(kept, flags_by_id, families, short_brands=frozenset()):
+def apply_families(kept, flags_by_id, families, short_brands=frozenset(), reviewed=None):
     """Fold each flavour family into its best listing (tools/families.py, contract: Families).
 
     Returns (old id -> kept id, extra search text per kept id, per_100_unit per kept id).
@@ -357,6 +357,33 @@ def apply_families(kept, flags_by_id, families, short_brands=frozenset()):
         if len(ids) > 1:
             groups.append(set(ids))
             taken.update(ids)
+
+    # 1b. Groups a model read as one product (Haiku, unsure ones checked by Sonnet; Max 2026-11-08):
+    #     data/families_reviewed.json. Joined with any family their rows already belong to, then guarded
+    #     by fam.reviewed_ok against the best listing of the whole group.
+    group_of = {i: g for g in groups for i in g}
+    for f in reviewed or ():
+        ids = [i for i in f['members'] if i in kept]
+        if len(ids) < 2:
+            continue
+        parts, seen = [], set()
+        for i in ids:
+            g = group_of.get(i)
+            if g is None:
+                parts.append({i})
+            elif id(g) not in seen:
+                seen.add(id(g))
+                parts.append(g)
+        rep = best(set().union(*parts))
+        ok = [part for part in parts if fam.reviewed_ok(row(best(part)), row(rep))]
+        if len(ok) < 2:
+            continue
+        new = set().union(*ok)
+        groups[:] = [g for g in groups if not any(g is part for part in ok)]
+        groups.append(new)
+        for i in new:
+            group_of[i] = new
+        taken.update(new)
 
     def name_of(g):
         rep = best(g)
@@ -408,7 +435,11 @@ def apply_families(kept, flags_by_id, families, short_brands=frozenset()):
     for g in groups:
         rep = best(g)
         line = lines.line(kept[rep]['name'], kept[rep]['brand'])
-        if line in fam.join_compounds(fam.words(name_of(g)), lines.vocab) or not fam.names_differ_core([row(i)['_core'] for i in g]):
+        names = [fam.tidy_name(kept[i]['name'], kept[i]['brand'], short_brands) for i in sorted(g)]
+        common = fam.family_name(fam.tidy_name(kept[rep]['name'], kept[rep]['brand'], short_brands), names,
+                                 kept[rep]['brand'], strict=True)
+        same_words = not fam.names_differ_core([row(i)['_core'] for i in g])
+        if same_words or (common and line in fam.join_compounds(fam.words(common), lines.vocab)):
             checked.append(g)
             continue
         dups = defaultdict(set)
@@ -540,7 +571,28 @@ def build(data_dir, out, db_version, variant='full', previous=None, built_at='',
         path = os.path.join(data_dir, 'families.json')
         families = json.load(open(path, encoding='utf-8'))['families'] if os.path.exists(path) else []
     short_brands = fam.capital_brands(p['brand'] for p in kept.values())
-    moved, extra_search, units = apply_families(kept, flags_by_id, families, short_brands)
+    rpath = os.path.join(data_dir, 'families_reviewed.json')
+    reviewed = json.load(open(rpath, encoding='utf-8'))['families'] if os.path.exists(rpath) else []
+    moved, extra_search, units = apply_families(kept, flags_by_id, families, short_brands, reviewed)
+    stats['reviewed_groups'] = len(reviewed)
+
+    # Unverified rows (Max, 2026-11-08): drop the ones with no numbers, and the ones that have a verified
+    # version of the same brand and product line. Shop-only groceries with numbers stay.
+    def _verified(p):
+        return is_verified(p, flags_by_id[p['id']], SOURCES[p['primary_source']][1])
+    lines = fam.Lines([dict(id=i, name=p['name'], brand=p['brand'], **{n: p[n] for n in NUTRIENTS}) for i, p in kept.items()])
+    line_of = {i: (lines.brand_key(p['name'], p['brand']), lines.line(p['name'], p['brand'])) for i, p in kept.items()}
+    verified_lines = {line_of[i] for i, p in kept.items() if line_of[i][0] and _verified(p)}
+    dropped_empty = [i for i, p in kept.items() if not _verified(p) and all(p[n] is None for n in MACROS)]
+    dropped_twin = [i for i, p in kept.items() if not _verified(p) and line_of[i] in verified_lines
+                    and any(p[n] is not None for n in MACROS)]
+    for i in dropped_empty + dropped_twin:
+        del kept[i]
+        extra_search.pop(i, None)
+    stats['unverified_empty_dropped'] = len(dropped_empty)
+    stats['unverified_with_verified_twin_dropped'] = len(dropped_twin)
+    dropped = set(dropped_empty) | set(dropped_twin)
+    moved = {old: new for old, new in moved.items() if new not in dropped}
     stats['family_products'] = len(extra_search)
     stats['family_members_folded'] = len(moved)
 
@@ -588,7 +640,7 @@ create table meta(key text primary key, value text not null);
         }
         stats['verified'] += derived['verified']
         stats['per_100_ml'] += derived['per_100_unit'] == 'ml'
-        derived['name'] = fam.tidy_name(p['name'], p['brand'], short_brands)
+        derived['name'] = fam.display_name(p['name'], p['brand'], lines, short_brands)
         derived['brand'] = fam.tidy_brand(p['brand'], short_brands)
         vals = [derived[c] if c in derived else p[_SHARD_NAME.get(c, c)] for c in PRODUCT_COLUMNS]
         search = _dedupe_words(normalise(' '.join(x for x in (p['name'], p['brand'], p['flavour'], extra_search.get(p['id'])) if x)))
