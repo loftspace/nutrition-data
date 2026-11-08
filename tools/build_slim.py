@@ -362,6 +362,13 @@ def apply_families(kept, flags_by_id, families, short_brands=frozenset(), review
     #     data/families_reviewed.json. Joined with any family their rows already belong to, then guarded
     #     by fam.reviewed_ok against the best listing of the whole group.
     group_of = {i: g for g in groups for i in g}
+    # Unverified listings a model read as a duplicate of a verified product join it as "absorbed":
+    # they do not take part in naming or the product-word check, so a shop's "Yt Drikkeyoghurt" can
+    # fold into Tine's "YT Yoghurtdrikk Protein" without breaking that family apart (Max, 2026-11-08).
+    absorbed = set()
+
+    def verified_id(i):
+        return bool(is_verified(kept[i], flags_by_id[i], SOURCES[kept[i]['primary_source']][1]))
     for f in reviewed or ():
         ids = [i for i in f['members'] if i in kept]
         if len(ids) < 2:
@@ -379,6 +386,12 @@ def apply_families(kept, flags_by_id, families, short_brands=frozenset(), review
         if len(ok) < 2:
             continue
         new = set().union(*ok)
+        top = best(new)
+        anchor = next(part for part in ok if top in part)
+        if verified_id(top):
+            for part in ok:
+                if part is not anchor and not any(verified_id(i) for i in part):
+                    absorbed.update(part)
         groups[:] = [g for g in groups if not any(g is part for part in ok)]
         groups.append(new)
         for i in new:
@@ -386,6 +399,7 @@ def apply_families(kept, flags_by_id, families, short_brands=frozenset(), review
         taken.update(new)
 
     def name_of(g):
+        g = (g - absorbed) or g
         rep = best(g)
         names = [fam.tidy_name(kept[i]['name'], kept[i]['brand'], short_brands) for i in sorted(g)]
         return fam.family_name(fam.tidy_name(kept[rep]['name'], kept[rep]['brand'], short_brands), names, kept[rep]['brand'])
@@ -432,15 +446,16 @@ def apply_families(kept, flags_by_id, families, short_brands=frozenset(), review
     # A family whose name lost the product word ("Sur", "Max", "Ekologisk") is not one product line:
     # keep only its plain duplicates (third review, 2026-11-08).
     checked = []
-    for g in groups:
+    for full in groups:
+        g = (full - absorbed) or full
         rep = best(g)
         line = lines.line(kept[rep]['name'], kept[rep]['brand'])
         names = [fam.tidy_name(kept[i]['name'], kept[i]['brand'], short_brands) for i in sorted(g)]
         common = fam.family_name(fam.tidy_name(kept[rep]['name'], kept[rep]['brand'], short_brands), names,
                                  kept[rep]['brand'], strict=True)
-        same_words = not fam.names_differ_core([row(i)['_core'] for i in g])
+        same_words = len(g) < 2 or not fam.names_differ_core([row(i)['_core'] for i in g])
         if same_words or (common and line in fam.join_compounds(fam.words(common), lines.vocab)):
-            checked.append(g)
+            checked.append(full)
             continue
         dups = defaultdict(set)
         for i in g:
@@ -583,9 +598,9 @@ def build(data_dir, out, db_version, variant='full', previous=None, built_at='',
     lines = fam.Lines([dict(id=i, name=p['name'], brand=p['brand'], **{n: p[n] for n in NUTRIENTS}) for i, p in kept.items()])
     line_of = {i: (lines.brand_key(p['name'], p['brand']), lines.line(p['name'], p['brand'])) for i, p in kept.items()}
     verified_lines = {line_of[i] for i, p in kept.items() if line_of[i][0] and _verified(p)}
-    dropped_empty = [i for i, p in kept.items() if not _verified(p) and all(p[n] is None for n in MACROS)]
+    dropped_empty = [i for i, p in kept.items() if not _verified(p) and p['kcal'] is None]
     dropped_twin = [i for i, p in kept.items() if not _verified(p) and line_of[i] in verified_lines
-                    and any(p[n] is not None for n in MACROS)]
+                    and p['kcal'] is not None]
     for i in dropped_empty + dropped_twin:
         del kept[i]
         extra_search.pop(i, None)
