@@ -586,8 +586,39 @@ def build(data_dir, out, db_version, variant='full', previous=None, built_at='',
         path = os.path.join(data_dir, 'families.json')
         families = json.load(open(path, encoding='utf-8'))['families'] if os.path.exists(path) else []
     short_brands = fam.capital_brands(p['brand'] for p in kept.values())
+    # Hand-curated product lines (data/curated.json, Max 2026-11-08: YT by hand). Applied first; the rows
+    # it names take no part in any other merge or drop rule.
+    cpath = os.path.join(data_dir, 'curated.json')
+    curated = json.load(open(cpath, encoding='utf-8')) if os.path.exists(cpath) else {}
+    cur_moved, cur_extra, cur_units, cur_keep = {}, {}, {}, set()
+    for i in curated.get('drop', ()):
+        kept.pop(i, None)
+    for rb in curated.get('rebrand', ()):
+        if rb['id'] in kept:
+            kept[rb['id']]['brand'] = rb['brand']
+    for cp in curated.get('products', ()):
+        keep = cp['keep']
+        if keep not in kept:
+            continue  # e.g. the open variant without the brand's own listing: normal rules apply
+        members = [m for m in cp['members'] if m in kept and m != keep]
+        cur_units[keep] = per_100_unit(kept[keep]['pack_size'], kept[keep]['name'])
+        cur_extra[keep] = ' '.join(x for i in [keep] + members for x in (kept[i]['name'], kept[i]['flavour']) if x)
+        for m in members:
+            cur_moved[m] = keep
+            del kept[m]
+        p = kept[keep]
+        p['name'], p['brand'], p['pack_size'], p['flavour'] = cp['name'], cp['brand'], None, None
+        cur_keep.add(keep)
+    stats['curated_products'] = len(cur_keep)
+    curated_ids = cur_keep | set(cur_moved)
+    if curated_ids:
+        families = [dict(f, members=[m for m in f['members'] if m not in curated_ids]) for f in families]
+    held = {i: kept.pop(i) for i in cur_keep}  # out of the automatic rules, back in below
+
     rpath = os.path.join(data_dir, 'families_reviewed.json')
     reviewed = json.load(open(rpath, encoding='utf-8'))['families'] if os.path.exists(rpath) else []
+    if curated_ids:
+        reviewed = [dict(f, members=[m for m in f['members'] if m not in curated_ids]) for f in reviewed]
     moved, extra_search, units = apply_families(kept, flags_by_id, families, short_brands, reviewed)
     stats['reviewed_groups'] = len(reviewed)
 
@@ -608,6 +639,10 @@ def build(data_dir, out, db_version, variant='full', previous=None, built_at='',
     stats['unverified_with_verified_twin_dropped'] = len(dropped_twin)
     dropped = set(dropped_empty) | set(dropped_twin)
     moved = {old: new for old, new in moved.items() if new not in dropped}
+    kept.update(held)
+    moved.update(cur_moved)
+    extra_search.update(cur_extra)
+    units.update(cur_units)
     stats['family_products'] = len(extra_search)
     stats['family_members_folded'] = len(moved)
 

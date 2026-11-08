@@ -1,0 +1,8410 @@
+{
+ "note": "Hand-curated product lines (Max, 2026-11-08: \"go through all the YT products manually\"). Applied before every other merge rule. keep = the listing whose numbers are shown (the brand's own data where it exists); members fold into it (redirects, barcodes, search words); drop = removed as broken data. Dairy (2026-11-08): Gemini 4 Argon proposed groups per brand; groups were checked mechanically (kcal and protein within 15% of the shown listing, same variant and diet words); flagged members were taken out, groups under 0.6 confidence were not applied; only broken rows are dropped, never \"not dairy\" ones.",
+ "products": [
+  {
+   "name": "YT Proteinyoghurt",
+   "brand": "YT",
+   "keep": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinyoghurt-vanilje",
+   "members": [
+    "ean:7038010072390",
+    "ean:7038010070471",
+    "ean:7038010070143",
+    "ean:7038010070150",
+    "kassalapp:199717",
+    "kassalapp:213650",
+    "ean:7038010071386",
+    "ean:7038010071393",
+    "ean:7038010068997",
+    "ean:7038010068980",
+    "ean:7038010071904",
+    "kassalapp:213449",
+    "ean:7038010072383",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinyoghurt-bringeb%C3%A6r",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinyoghurt-bringeb%C3%A6r-180g",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinyoghurt-pasjonsfrukt",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinyoghurt-vanilje-180g",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinyoghurt-vanilje-stor"
+   ]
+  },
+  {
+   "name": "YT Proteinpudding",
+   "brand": "YT",
+   "keep": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinpudding-sjokolade",
+   "members": [
+    "ean:0048412064647",
+    "ean:0048450061844",
+    "kassalapp:40611",
+    "ean:7038010062346",
+    "ean:7038010063503",
+    "kassalapp:24481",
+    "ean:7038010064654",
+    "ean:7038010061844",
+    "ean:9800001106548",
+    "tights:728255",
+    "ean:7038010064647",
+    "tights:728257",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinpudding-vanilje"
+   ]
+  },
+  {
+   "name": "YT Proteinmelk",
+   "brand": "YT",
+   "keep": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinmelk-kakao",
+   "members": [
+    "ean:7038010073700",
+    "ean:7038010068133",
+    "ean:7038010068164",
+    "kassalapp:40188",
+    "ean:7038010068157",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinmelk-kakao-300ml",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinmelk-naturell"
+   ]
+  },
+  {
+   "name": "YT Proteinshake",
+   "brand": "YT",
+   "keep": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinshake-jordb%C3%A6r-banan",
+   "members": [
+    "ean:7038010064685",
+    "ean:7038010064692",
+    "tights:728260",
+    "kassalapp:226955",
+    "ean:7038010064678",
+    "ean:7038010061837",
+    "kassalapp:220130",
+    "ean:7038010070198",
+    "kassalapp:199724",
+    "ean:7038010071218",
+    "ean:7038010072925",
+    "tights-discontinued:14428094",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinshake-sjokolade",
+    "ean:7038010072376",
+    "tights-discontinued:14428092"
+   ]
+  },
+  {
+   "name": "YT Yoghurtdrikk Protein",
+   "brand": "YT",
+   "keep": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-yoghurtdrikk-bringeb%C3%A6r",
+   "members": [
+    "ean:7038010073106",
+    "ean:7038010073113",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-yoghurtdrikk-protein-mango-pasjonsfrukt"
+   ]
+  },
+  {
+   "name": "YT Proteindrikk",
+   "brand": "YT",
+   "keep": "ean:7038010071928",
+   "members": [
+    "ean:7038010071911"
+   ]
+  },
+  {
+   "name": "YT Restitusjonsdrikk",
+   "brand": "YT",
+   "keep": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-restitusjonsdrikk-kakao",
+   "members": [
+    "tights:520151",
+    "tights:531638",
+    "tights:520154",
+    "tights:531633",
+    "ean:7038010064302",
+    "tights-discontinued:12798544",
+    "ean:7038010004254",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-restitusjonsdrikk-jordb%C3%A6r-banan",
+    "ean:7038010004261",
+    "tights-discontinued:531642"
+   ]
+  },
+  {
+   "name": "YT Restitusjonsdrikk Pro",
+   "brand": "YT",
+   "keep": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-restitusjonsdrikk-kakao-PRO",
+   "members": [
+    "ean:7038010055546",
+    "tights-discontinued:13699214"
+   ]
+  },
+  {
+   "name": "YT Restitusjonsbar",
+   "brand": "YT",
+   "keep": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-restitusjonsbar-sjokolade-pean%C3%B8tt",
+   "members": [
+    "ean:7038010043550",
+    "ean:7038010057588",
+    "ean:7038010066634",
+    "tights:518744",
+    "ean:7038010045769",
+    "tights:518723",
+    "tights:517279"
+   ]
+  },
+  {
+   "name": "YT Proteinbar",
+   "brand": "YT",
+   "keep": "ean:7038010068041",
+   "members": [
+    "ean:7038010063923",
+    "ean:7038010063930",
+    "ean:9800001437543",
+    "tights-discontinued:2414219",
+    "ean:7038010680410",
+    "tights-discontinued:2414218",
+    "ean:7038010067631",
+    "ean:7038010676314",
+    "ean:9800001437536",
+    "ean:7038010067624",
+    "tights-discontinued:13703974",
+    "tights-discontinued:3868758",
+    "tights-discontinued:3868687",
+    "tights-discontinued:3868756"
+   ]
+  },
+  {
+   "name": "YT Energibar",
+   "brand": "YT",
+   "keep": "ean:7038010072406",
+   "members": [
+    "ean:7038010072413",
+    "ean:7038010066306",
+    "tights:518764",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-energibar-sjokolade",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-energibar-traneb%C3%A6r"
+   ]
+  },
+  {
+   "name": "YT Mellommåltidsbar",
+   "brand": "YT",
+   "keep": "ean:7038010045752",
+   "members": [
+    "tights:518752"
+   ]
+  },
+  {
+   "name": "YT Sportsdrikk",
+   "brand": "YT",
+   "keep": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-sportsdrikk-sitrus",
+   "members": [
+    "ean:7038010041525",
+    "ean:7038010063336",
+    "ean:7038010063343",
+    "ean:7038010069383",
+    "tights:518649",
+    "tights:520405",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-sportsdrikk-r%C3%B8de-b%C3%A6r"
+   ]
+  },
+  {
+   "name": "YT Sportsdrikkpulver",
+   "brand": "YT",
+   "keep": "ean:7038010064319",
+   "members": []
+  },
+  {
+   "name": "Arla Ost 10%",
+   "brand": "Arla",
+   "keep": "ean:2340413405206",
+   "members": [
+    "ean:2340413405220"
+   ]
+  },
+  {
+   "name": "Arla Hushållsost 26%",
+   "brand": "Arla",
+   "keep": "ean:2340375321262",
+   "members": [
+    "ean:2340375321989",
+    "ean:2340375322269",
+    "ean:2340375322344",
+    "ean:2340420412310",
+    "ean:2340375321927",
+    "ean:2340420505111",
+    "ean:2340420412754",
+    "ean:2317237310382",
+    "ean:2340375320524",
+    "ean:2340375321088",
+    "ean:2340375321781",
+    "ean:2340375321828",
+    "ean:2340375321866",
+    "ean:2340375322108",
+    "ean:2340375322122",
+    "ean:2340375322146",
+    "ean:2340375322825",
+    "ean:2340375410362",
+    "ean:2340375410485",
+    "ean:2340375410508",
+    "ean:2340375410645",
+    "ean:2340375410683",
+    "ean:2340375410805",
+    "ean:2340375410980",
+    "ean:2340375411024",
+    "ean:2340375411048",
+    "ean:2340375411062",
+    "ean:2340375411109",
+    "ean:2340375411246",
+    "ean:2340375411345",
+    "ean:2340375411383",
+    "ean:2340375411529",
+    "ean:2340420412051",
+    "ean:2340420412662",
+    "ean:2340420413171",
+    "ean:2340420413256",
+    "ean:2340420504886",
+    "ean:2340420504954",
+    "ean:2340420505067",
+    "ean:2340420505340",
+    "ean:7311870011199",
+    "ean:2340375410867",
+    "ean:2340375411208",
+    "ean:2340420411795",
+    "ean:2340420504855",
+    "ean:2340375410522",
+    "ean:2340375411000",
+    "ean:2340375410966",
+    "openfoodfacts-nordic-global:0840375411109"
+   ]
+  },
+  {
+   "name": "Arla A38 Økologisk Naturel 0,5%",
+   "brand": "Arla",
+   "keep": "ean:5760466870306",
+   "members": []
+  },
+  {
+   "name": "Arla Kvibille Ädelost",
+   "brand": "Arla Kvibille",
+   "keep": "ean:7311877016449",
+   "members": []
+  },
+  {
+   "name": "Arla Ekologisk Filmjölk",
+   "brand": "Arla",
+   "keep": "ean:7310865691804",
+   "members": []
+  },
+  {
+   "name": "Arla Ekologisk A-Fil Naturell",
+   "brand": "Arla",
+   "keep": "ean:7310865692894",
+   "members": []
+  },
+  {
+   "name": "Arla Apetina 3%",
+   "brand": "Arla Apetina",
+   "keep": "ean:5760466754712",
+   "members": []
+  },
+  {
+   "name": "Arla BBQ Dip",
+   "brand": "Arla",
+   "keep": "ean:7311870012196",
+   "members": []
+  },
+  {
+   "name": "Arla Blueberry Milk Drink",
+   "brand": "Arla",
+   "keep": "ean:7310865093981",
+   "members": []
+  },
+  {
+   "name": "Bregott Normalsaltat",
+   "brand": "Bregott",
+   "keep": "ean:7311870010901",
+   "members": []
+  },
+  {
+   "name": "Arla Brie",
+   "brand": "Arla",
+   "keep": "ean:5711953018947",
+   "members": []
+  },
+  {
+   "name": "Arla Smør og Rapsolje",
+   "brand": "Arla",
+   "keep": "ean:7311870652194",
+   "members": []
+  },
+  {
+   "name": "Arla Cheddar",
+   "brand": "Arla",
+   "keep": "ean:2340414104092",
+   "members": [
+    "ean:2340414105495",
+    "ean:7311870009448"
+   ]
+  },
+  {
+   "name": "Arla Protein Chocolate Fudge Mousse",
+   "brand": "Arla Protein",
+   "keep": "ean:5711953195143",
+   "members": []
+  },
+  {
+   "name": "Arla Chokladmjölk",
+   "brand": "Arla",
+   "keep": "ean:5711953169854",
+   "members": []
+  },
+  {
+   "name": "Arla Chokladmjölkdryck",
+   "brand": "Arla",
+   "keep": "ean:5711953035104",
+   "members": []
+  },
+  {
+   "name": "Arla Keso Cottage Cheese Jordgubb",
+   "brand": "Arla Keso",
+   "keep": "ean:7310865889799",
+   "members": []
+  },
+  {
+   "name": "Arla Keso Cottage Cheese Protein Rich",
+   "brand": "Arla Keso",
+   "keep": "ean:2000999524479",
+   "members": []
+  },
+  {
+   "name": "Arla Färskost Naturell",
+   "brand": "Arla",
+   "keep": "ean:5711953162688",
+   "members": []
+  },
+  {
+   "name": "Arla Köket Crème Fraiche 32%",
+   "brand": "Arla Köket",
+   "keep": "ean:7310865003805",
+   "members": [
+    "ean:7310865003775",
+    "ean:7310865066763"
+   ]
+  },
+  {
+   "name": "Arla Köket Ekologisk Crème Fraiche 32%",
+   "brand": "Arla Köket",
+   "keep": "ean:7318690491231",
+   "members": []
+  },
+  {
+   "name": "Arla Köket Laktosfri Crème Fraiche 32%",
+   "brand": "Arla Köket",
+   "keep": "ean:7310865890788",
+   "members": []
+  },
+  {
+   "name": "Arla Köket Laktosfri Lätt Crème Fraiche 13%",
+   "brand": "Arla Köket",
+   "keep": "ean:7310865890764",
+   "members": []
+  },
+  {
+   "name": "Arla Köket Lätt Crème Fraiche 13%",
+   "brand": "Arla Köket",
+   "keep": "ean:8310895014696",
+   "members": [
+    "ean:7310865014696",
+    "ean:7310865003843",
+    "ean:7310865003782"
+   ]
+  },
+  {
+   "name": "Arla Köket Lätt Crème Fraiche Ost & Kryddor",
+   "brand": "Arla Köket",
+   "keep": "ean:7310865890559",
+   "members": [
+    "ean:7310865072771"
+   ]
+  },
+  {
+   "name": "Arla Köket Laktosfri Lätt Crème Fraiche Paprika & Chili",
+   "brand": "Arla Köket",
+   "keep": "ean:7310865890771",
+   "members": []
+  },
+  {
+   "name": "Arla Köket Lätt Crème Fraiche Smaksatt",
+   "brand": "Arla Köket",
+   "keep": "ean:7310865003607",
+   "members": [
+    "ean:7311870012226",
+    "ean:7311870012462",
+    "ean:7311870011687"
+   ]
+  },
+  {
+   "name": "Arla Keso Crushed Cottage Cheese 2,5%",
+   "brand": "Arla Keso",
+   "keep": "ean:7311870011540",
+   "members": [
+    "ean:7311870011434"
+   ]
+  },
+  {
+   "name": "Arla Keso Crushed Cottage Cheese Naturell 4,3%",
+   "brand": "Arla Keso",
+   "keep": "ean:7311870011427",
+   "members": []
+  },
+  {
+   "name": "Arla Cultura Profibi Naturell",
+   "brand": "Arla Cultura",
+   "keep": "ean:5711953195907",
+   "members": []
+  },
+  {
+   "name": "Arla Cultura Onaka",
+   "brand": "Arla Cultura",
+   "keep": "ean:2000999517471",
+   "members": []
+  },
+  {
+   "name": "Arla Cultura Profibi Frukt & Bär",
+   "brand": "Arla Cultura",
+   "keep": "ean:5711953204791",
+   "members": [
+    "ean:8718166008571"
+   ]
+  },
+  {
+   "name": "Arla Dansk Gräddost",
+   "brand": "Arla",
+   "keep": "ean:5760466753715",
+   "members": [
+    "ean:5760466820356"
+   ]
+  },
+  {
+   "name": "Arla Frisk Dansk Letmælk 1,5%",
+   "brand": "Arla",
+   "keep": "ean:5700426101217",
+   "members": []
+  },
+  {
+   "name": "Arla Dessertyoghurt",
+   "brand": "Arla",
+   "keep": "ean:6413300024210",
+   "members": []
+  },
+  {
+   "name": "Arla Laktosfri Drickfil Blåbär",
+   "brand": "Arla",
+   "keep": "ean:5711953204814",
+   "members": []
+  },
+  {
+   "name": "Arla Laktosfri Drickkvarg",
+   "brand": "Arla",
+   "keep": "ean:5711953088766",
+   "members": []
+  },
+  {
+   "name": "Arla Drickyoghurt 0,5%",
+   "brand": "Arla",
+   "keep": "ean:5711953041976",
+   "members": [
+    "ean:5711953041945"
+   ]
+  },
+  {
+   "name": "Arla Cultura Drikkeyoghurt",
+   "brand": "Arla Cultura",
+   "keep": "ean:5760466920292",
+   "members": [
+    "ean:5760466804547"
+   ]
+  },
+  {
+   "name": "Arla Familjefavoriter Edamer 23%",
+   "brand": "Arla",
+   "keep": "ean:2340379313423",
+   "members": [
+    "ean:2340379310620",
+    "ean:2340379311702",
+    "ean:2340379725479",
+    "ean:7311877014117",
+    "ean:2340379311429",
+    "ean:2340379311085",
+    "ean:2340379311665",
+    "ean:2340379311986",
+    "ean:2340379312402",
+    "ean:2340379312488",
+    "ean:2340379312501",
+    "ean:2340379312464",
+    "ean:2340379311948",
+    "ean:2340379312303",
+    "ean:2340379312327",
+    "ean:2340379311764",
+    "ean:2340379313065",
+    "ean:2340379312860",
+    "ean:2340379312907"
+   ]
+  },
+  {
+   "name": "Arla Emmental",
+   "brand": "Arla",
+   "keep": "ean:7311877014834",
+   "members": []
+  },
+  {
+   "name": "Arla Familjefavoriter Humlan",
+   "brand": "Arla",
+   "keep": "ean:2340397412573",
+   "members": [
+    "ean:2340397411828",
+    "ean:2340397413181",
+    "ean:2340397413211",
+    "ean:2340397412955",
+    "ean:2340397412498",
+    "ean:2340397412979"
+   ]
+  },
+  {
+   "name": "Arla Familjefavoriter Gouda 28%",
+   "brand": "Arla",
+   "keep": "ean:2340379511966",
+   "members": [
+    "ean:2340379512024",
+    "ean:2340379512123",
+    "ean:2340379512222",
+    "ean:2340379512949",
+    "ean:2340379511041",
+    "ean:2340379511645",
+    "ean:2340379511782",
+    "ean:2340379511881",
+    "ean:2340379511904",
+    "ean:2340379511942",
+    "ean:2340379511980",
+    "ean:2340379512369",
+    "ean:2340379512406",
+    "ean:2340379512703",
+    "ean:7311877014100",
+    "ean:2340379511867",
+    "ean:5711953156311"
+   ]
+  },
+  {
+   "name": "Arla Familjefavoriter Gräddis 30%",
+   "brand": "Arla",
+   "keep": "ean:2340398009888",
+   "members": [
+    "ean:2340398010051",
+    "ean:2340398010068",
+    "ean:2340398009826",
+    "ean:2340398010181"
+   ]
+  },
+  {
+   "name": "Arla Familjefavoriter Humlan Ekologisk",
+   "brand": "Arla",
+   "keep": "ean:2340397412849",
+   "members": []
+  },
+  {
+   "name": "Arla Familjefavoriter Jämtgård",
+   "brand": "Arla",
+   "keep": "ean:2340379411761",
+   "members": [
+    "ean:2340379412041",
+    "ean:2340379412560"
+   ]
+  },
+  {
+   "name": "Arla Familjefavoriter Port Salut 26%",
+   "brand": "Arla",
+   "keep": "ean:2340380300009",
+   "members": []
+  },
+  {
+   "name": "Arla Familjefavoriter Storsjö",
+   "brand": "Arla",
+   "keep": "openfoodfacts-nordic-global:0010381711125",
+   "members": []
+  },
+  {
+   "name": "Arla Familjefavoriter Vänerost",
+   "brand": "Arla",
+   "keep": "ean:2340387312821",
+   "members": []
+  },
+  {
+   "name": "Arla Färsk Lättmjölk 0,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865001115",
+   "members": [
+    "ean:8310895001191"
+   ]
+  },
+  {
+   "name": "Arla Färsk Mellanmjölk 1,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865001818",
+   "members": [
+    "ean:7310865062024"
+   ]
+  },
+  {
+   "name": "Arla Färsk Svensk Lantmjölk 4,2%",
+   "brand": "Arla",
+   "keep": "ean:7310865074522",
+   "members": [
+    "ean:8310895074522"
+   ]
+  },
+  {
+   "name": "Arla Färsk Svensk Mjölk 3%",
+   "brand": "Arla",
+   "keep": "ean:7310865872999",
+   "members": []
+  },
+  {
+   "name": "Arla Färsk Vispgrädde 40%",
+   "brand": "Arla",
+   "keep": "ean:7310865684707",
+   "members": [
+    "ean:7310865003201"
+   ]
+  },
+  {
+   "name": "Arla Färskost Naturell med Kvarg",
+   "brand": "Arla",
+   "keep": "ean:5711953056215",
+   "members": []
+  },
+  {
+   "name": "Arla Ekologisk Färskost Naturell",
+   "brand": "Arla",
+   "keep": "ean:5711953056154",
+   "members": []
+  },
+  {
+   "name": "Arla Färskost Jalapeño 15%",
+   "brand": "Arla",
+   "keep": "ean:5711953162657",
+   "members": []
+  },
+  {
+   "name": "Arla Färskost Smaksatt 24%",
+   "brand": "Arla",
+   "keep": "ean:5711953066849",
+   "members": [
+    "ean:5711953029875"
+   ]
+  },
+  {
+   "name": "Arla Apetina White Cheese in Oil Olives & Garlic",
+   "brand": "Arla Apetina",
+   "keep": "ean:0813168029949",
+   "members": []
+  },
+  {
+   "name": "Arla Filmjölk Smaksatt 2,7%",
+   "brand": "Arla",
+   "keep": "ean:7310865889096",
+   "members": [
+    "ean:7310865088215",
+    "ean:7310865088222",
+    "ean:7311870012646"
+   ]
+  },
+  {
+   "name": "Arla Filmjölk Smaksatt 1,4%",
+   "brand": "Arla",
+   "keep": "ean:7311870011557",
+   "members": [
+    "ean:7311870011564"
+   ]
+  },
+  {
+   "name": "Arla Laktosfri Filmjölk 0,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865094131",
+   "members": []
+  },
+  {
+   "name": "Arla Filmjölk Original 3%",
+   "brand": "Arla",
+   "keep": "ean:7310865087935",
+   "members": [
+    "ean:7310865097248",
+    "ean:8310895087935"
+   ]
+  },
+  {
+   "name": "Arla Laktosfri Ekologisk Filmjölk 3%",
+   "brand": "Arla",
+   "keep": "ean:7310865094117",
+   "members": []
+  },
+  {
+   "name": "Arla Protein Food to Go",
+   "brand": "Arla Protein",
+   "keep": "ean:5711953190001",
+   "members": []
+  },
+  {
+   "name": "Arla Köket Mini Fraiche 5%",
+   "brand": "Arla Köket",
+   "keep": "ean:7310865014702",
+   "members": []
+  },
+  {
+   "name": "Arla Åseda Gräddost",
+   "brand": "Arla",
+   "keep": "ean:5711953018275",
+   "members": []
+  },
+  {
+   "name": "Arla Apetina White Cheese in Oil Garlic & Parsley",
+   "brand": "Arla Apetina",
+   "keep": "ean:5711953125089",
+   "members": []
+  },
+  {
+   "name": "Arla Glänta",
+   "brand": "Arla",
+   "keep": "ean:7311877017187",
+   "members": []
+  },
+  {
+   "name": "Arla Gouda",
+   "brand": "Arla",
+   "keep": "ean:2340379512246",
+   "members": []
+  },
+  {
+   "name": "Arla Gräddost 38%",
+   "brand": "Arla",
+   "keep": "ean:7311870013278",
+   "members": [
+    "ean:7311875914921"
+   ]
+  },
+  {
+   "name": "Arla Gräddfil",
+   "brand": "Arla",
+   "keep": "ean:7310865083418",
+   "members": []
+  },
+  {
+   "name": "Arla Gräddfil Ekologisk",
+   "brand": "Arla",
+   "keep": "ean:7310865890535",
+   "members": []
+  },
+  {
+   "name": "Arla Gräddfil Laktosfri 10%",
+   "brand": "Arla",
+   "keep": "ean:7310865889805",
+   "members": []
+  },
+  {
+   "name": "Arla Gräddis 30%",
+   "brand": "Arla",
+   "keep": "ean:2340398000007",
+   "members": [
+    "ean:2340398009833",
+    "ean:2340398009949",
+    "ean:2340398010037",
+    "ean:2340398010075",
+    "ean:2340398010150",
+    "ean:2340398010174",
+    "ean:2340398010242",
+    "ean:2340398009956",
+    "ean:2340398009970",
+    "ean:2340398010167",
+    "ean:2340398010129",
+    "ean:2340398010303",
+    "ean:5711953156304",
+    "ean:2340398009857"
+   ]
+  },
+  {
+   "name": "Arla Grated Danish Hard Ripened",
+   "brand": "Arla",
+   "keep": "ean:5760466956604",
+   "members": []
+  },
+  {
+   "name": "Arla Grekisk Yoghurt Passionfruit",
+   "brand": "Arla",
+   "keep": "ean:7310865866578",
+   "members": []
+  },
+  {
+   "name": "Arla Köket Grekisk Yoghurt 10%",
+   "brand": "Arla",
+   "keep": "ean:7310865095466",
+   "members": []
+  },
+  {
+   "name": "Arla Grekisk Yoghurt Low Fat",
+   "brand": "Arla",
+   "keep": "ean:4016241050328",
+   "members": [
+    "ean:4016241050588",
+    "ean:4016241050571",
+    "ean:4016241050717",
+    "ean:4016241050311",
+    "ean:7316150977134"
+   ]
+  },
+  {
+   "name": "Arla Grekisk Yoghurt Naturell 6%",
+   "brand": "Arla",
+   "keep": "ean:7310865866554",
+   "members": []
+  },
+  {
+   "name": "Arla Grevé 28%",
+   "brand": "Arla",
+   "keep": "ean:2340428606520",
+   "members": [
+    "ean:2340428606698",
+    "ean:2340428606735",
+    "ean:2340428607756",
+    "ean:2340428606728",
+    "ean:2340428607084",
+    "ean:2340428606018",
+    "ean:2340428606346",
+    "ean:2340428606919",
+    "ean:2340428607039",
+    "ean:2340428607305"
+   ]
+  },
+  {
+   "name": "Arla Grevé 17%",
+   "brand": "Arla",
+   "keep": "ean:2340430607041",
+   "members": [
+    "ean:2340430606501"
+   ]
+  },
+  {
+   "name": "Arla Havarti Light",
+   "brand": "Arla",
+   "keep": "ean:5711953168260",
+   "members": []
+  },
+  {
+   "name": "Arla Herrgård 28%",
+   "brand": "Arla",
+   "keep": "ean:2340418108171",
+   "members": [
+    "ean:2340418106795",
+    "ean:2340418107280",
+    "ean:2340418106719",
+    "ean:2340418106894",
+    "ean:2340418106924",
+    "ean:2340418107389",
+    "ean:2340418107662",
+    "ean:7311871023061",
+    "ean:2340418107716",
+    "ean:2340418106504",
+    "ean:2340418107945",
+    "ean:2340418106672",
+    "ean:7311877014216",
+    "ean:2340418107082"
+   ]
+  },
+  {
+   "name": "Arla Herrgård 17%",
+   "brand": "Arla",
+   "keep": "ean:2340419606515",
+   "members": [
+    "ean:2340419606690",
+    "ean:2340419607369",
+    "ean:2340419606911",
+    "ean:2340419607710",
+    "ean:2359773106739"
+   ]
+  },
+  {
+   "name": "Arla Humlan Ekologisk Mjölk",
+   "brand": "Arla",
+   "keep": "ean:7311870011595",
+   "members": []
+  },
+  {
+   "name": "Arla Hushållsost 17%",
+   "brand": "Arla",
+   "keep": "ean:2340375620525",
+   "members": [
+    "ean:2340375622062",
+    "ean:2340375621348",
+    "ean:2340375711063",
+    "ean:2340375711100",
+    "ean:2340375711322",
+    "ean:2340375622406",
+    "ean:2340375622420",
+    "ean:2340375710486",
+    "ean:2340375710769",
+    "ean:2340375710844",
+    "ean:2340375711025",
+    "ean:2340375711209",
+    "ean:2340375711407",
+    "ean:2340375710783",
+    "ean:2340375621287",
+    "ean:2340375622468",
+    "ean:2340375622482",
+    "ean:2340375622987",
+    "ean:2340375710523",
+    "ean:2340375710547",
+    "ean:2340375710745",
+    "ean:2340375710820",
+    "ean:2340375710943",
+    "ean:2340375711162",
+    "ean:2340420605224",
+    "ean:2340375622628",
+    "ean:2340420604869",
+    "ean:2340375710585",
+    "ean:2340375622444",
+    "ean:2340375621720",
+    "ean:2340375711643",
+    "ean:2340375710967",
+    "ean:2340375622345",
+    "ean:2340375711049",
+    "ean:2340375709541",
+    "ean:2340375622826",
+    "ean:2340375710660"
+   ]
+  },
+  {
+   "name": "Arla Ingmariini Normal Salted Spread",
+   "brand": "Arla",
+   "keep": "ean:7310865891242",
+   "members": []
+  },
+  {
+   "name": "Arla Iskaffe Latte",
+   "brand": "Arla",
+   "keep": "ean:4100290025083",
+   "members": []
+  },
+  {
+   "name": "Arla Jämtgård Ost 28%",
+   "brand": "Arla",
+   "keep": "ean:2340379412102",
+   "members": [
+    "ean:2340379412140",
+    "ean:2340379412263",
+    "ean:2340379412089",
+    "ean:2340379412362"
+   ]
+  },
+  {
+   "name": "Arla Julgrädd 38%",
+   "brand": "Arla",
+   "keep": "ean:5711953059629",
+   "members": []
+  },
+  {
+   "name": "Arla Kadett 17%",
+   "brand": "Arla",
+   "keep": "ean:7311875860570",
+   "members": []
+  },
+  {
+   "name": "Arla Kaffemjölk",
+   "brand": "Arla",
+   "keep": "ean:4100290026509",
+   "members": []
+  },
+  {
+   "name": "Arla Kallsost 26%",
+   "brand": "Arla",
+   "keep": "ean:2340375321163",
+   "members": []
+  },
+  {
+   "name": "Arla Kefir Naturell",
+   "brand": "Arla",
+   "keep": "ean:7311870011724",
+   "members": [
+    "ean:7310865890078"
+   ]
+  },
+  {
+   "name": "Arla Kefir Frukt & Bär",
+   "brand": "Arla",
+   "keep": "ean:7310865890085",
+   "members": [
+    "ean:8310895890085",
+    "ean:0310235609634"
+   ]
+  },
+  {
+   "name": "Arla Kesella Kvarg Naturell Lätt 0,3%",
+   "brand": "Arla",
+   "keep": "ean:7310865008343",
+   "members": []
+  },
+  {
+   "name": "Arla Kesella Kvarg Naturell 10%",
+   "brand": "Arla",
+   "keep": "ean:7310865008268",
+   "members": []
+  },
+  {
+   "name": "Arla Kesella Kvarg Vanilj",
+   "brand": "Arla",
+   "keep": "ean:2000999511486",
+   "members": [
+    "ean:4016241051110"
+   ]
+  },
+  {
+   "name": "Arla Keso Cottage Cheese Naturell 4%",
+   "brand": "Arla",
+   "keep": "ean:2000999516733",
+   "members": []
+  },
+  {
+   "name": "Arla Keso Cottage Cheese Mini 1,5%",
+   "brand": "Arla",
+   "keep": "ean:0370065051997",
+   "members": []
+  },
+  {
+   "name": "Arla Billinge 26%",
+   "brand": "Arla",
+   "keep": "ean:7311877015626",
+   "members": []
+  },
+  {
+   "name": "Arla Billinge 26%",
+   "brand": "Arla",
+   "keep": "ean:2340384205409",
+   "members": []
+  },
+  {
+   "name": "Arla Ekologisk Lättmjölk 0,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865057792",
+   "members": [
+    "ean:7310865071927",
+    "ean:7310867502504"
+   ]
+  },
+  {
+   "name": "Arla Ekologisk Minimjölk 0,1%",
+   "brand": "Arla",
+   "keep": "ean:7310865087713",
+   "members": []
+  },
+  {
+   "name": "Arla Färsk Laktosfri Mellanmjölkdryck 1,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865095671",
+   "members": []
+  },
+  {
+   "name": "Arla Laktosfri Mjölkdryck 3%",
+   "brand": "Arla",
+   "keep": "ean:7310865095695",
+   "members": [
+    "ean:7310865093530"
+   ]
+  },
+  {
+   "name": "Arla Lättfil Frukt & Bär 0,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865088253",
+   "members": [
+    "ean:7310865088260"
+   ]
+  },
+  {
+   "name": "Arla Präst 17%",
+   "brand": "Arla",
+   "keep": "ean:2340417706743",
+   "members": [
+    "ean:2340417707443",
+    "ean:7311870031432",
+    "ean:2340417707795",
+    "ean:2340417707450",
+    "ean:2340417706934",
+    "ean:2340417707283",
+    "ean:2340417707061",
+    "ean:2340417707030",
+    "ean:2340417706798",
+    "ean:2340417706880",
+    "ean:2340417706927",
+    "ean:2340417707009",
+    "ean:2340417707078",
+    "ean:2340417707146",
+    "ean:2340417707351",
+    "ean:2340417706620"
+   ]
+  },
+  {
+   "name": "Arla Kockserien Smörstav",
+   "brand": "Arla",
+   "keep": "ean:7310860561249",
+   "members": []
+  },
+  {
+   "name": "Arla Laktosfri Matlagningsgrädde 13%",
+   "brand": "Arla",
+   "keep": "ean:7310865095534",
+   "members": []
+  },
+  {
+   "name": "Arla Lätt & Lagom Original 40%",
+   "brand": "Arla",
+   "keep": "ean:7310860005941",
+   "members": []
+  },
+  {
+   "name": "Arla Ekologisk Latte Art Mjölk 2,6%",
+   "brand": "Arla",
+   "keep": "ean:7310865094629",
+   "members": []
+  },
+  {
+   "name": "Arla Lättfil Naturell 0,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865088024",
+   "members": []
+  },
+  {
+   "name": "Arla Lättmjölk 0,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865001191",
+   "members": [
+    "ean:7318690115168"
+   ]
+  },
+  {
+   "name": "Arla Lättmjölk 0,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865093523",
+   "members": []
+  },
+  {
+   "name": "Arla Lättsmör 61%",
+   "brand": "Arla",
+   "keep": "ean:5711953127816",
+   "members": []
+  },
+  {
+   "name": "Arla Protein Food To Go Måltidsshake",
+   "brand": "Arla",
+   "keep": "ean:5711953183980",
+   "members": [
+    "ean:5711953183959"
+   ]
+  },
+  {
+   "name": "Arla Smör Med Havssalt 82%",
+   "brand": "Arla",
+   "keep": "ean:7310860005583",
+   "members": []
+  },
+  {
+   "name": "Arla Matlagningsgrädde 13%",
+   "brand": "Arla",
+   "keep": "ean:7310865066435",
+   "members": [
+    "ean:7310865890498"
+   ]
+  },
+  {
+   "name": "Arla Matlagningsgrädde 15%",
+   "brand": "Arla",
+   "keep": "ean:7310865066732",
+   "members": []
+  },
+  {
+   "name": "Arla Mellanfil 1,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865880079",
+   "members": []
+  },
+  {
+   "name": "Arla Ekologisk Mellanlagrad Ost 31%",
+   "brand": "Arla",
+   "keep": "ean:2340383305322",
+   "members": []
+  },
+  {
+   "name": "Arla Mellanlagrad Ost 10%",
+   "brand": "Arla",
+   "keep": "ean:2340449305457",
+   "members": []
+  },
+  {
+   "name": "Arla Mellanmjölk 1,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865001825",
+   "members": [
+    "ean:7311870011458",
+    "ean:7310865058058",
+    "ean:7310865089656",
+    "ean:7310865693365",
+    "ean:7311870011441"
+   ]
+  },
+  {
+   "name": "Arla Ekologisk Mellanmjölk 1,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865071804",
+   "members": [
+    "ean:5700426293912"
+   ]
+  },
+  {
+   "name": "Arla Ekologisk Mellanmjölk 1,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865067883",
+   "members": []
+  },
+  {
+   "name": "Arla Laktosfri Mellanmjölk 1,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865085733",
+   "members": [
+    "ean:5760466805162"
+   ]
+  },
+  {
+   "name": "Arla Mild & Krämig Ost 17%",
+   "brand": "Arla",
+   "keep": "ean:2340413605316",
+   "members": [
+    "ean:2340413604814",
+    "ean:2340413605064",
+    "ean:8311795020329",
+    "ean:2340413605224",
+    "ean:2340413604791"
+   ]
+  },
+  {
+   "name": "Arla Mild Yoghurt Frukt & Vanilj",
+   "brand": "Arla",
+   "keep": "ean:7310865879707",
+   "members": [
+    "ean:7310865866486",
+    "ean:7310865879615",
+    "ean:7310865088512"
+   ]
+  },
+  {
+   "name": "Arla Mild Yoghurt Naturlig Fetthalt 4%",
+   "brand": "Arla",
+   "keep": "ean:7310865866608",
+   "members": []
+  },
+  {
+   "name": "Arla Ekologisk Lätt Mild Yoghurt Naturell 0,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865866592",
+   "members": []
+  },
+  {
+   "name": "Arla Ekologisk Mild Yoghurt Jordgubb & Vanilj 1,8%",
+   "brand": "Arla",
+   "keep": "ean:7310865866639",
+   "members": []
+  },
+  {
+   "name": "Arla Ekologisk Mild Yoghurt Naturlig Fetthalt 4%",
+   "brand": "Arla",
+   "keep": "ean:7310865699503",
+   "members": []
+  },
+  {
+   "name": "Arla Laktosfri Mild Yoghurt Naturell 1,5%",
+   "brand": "Arla",
+   "keep": "ean:7311870012684",
+   "members": []
+  },
+  {
+   "name": "Arla Lätt Mild Yoghurt Vanilj 0,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865866448",
+   "members": []
+  },
+  {
+   "name": "Arla Lätt Mild Yoghurt Naturell 0,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865866394",
+   "members": [
+    "ean:7310865837394",
+    "ean:7310865888846"
+   ]
+  },
+  {
+   "name": "Arla Mild & Fyllig Ost 17%",
+   "brand": "Arla",
+   "keep": "ean:7311877020736",
+   "members": []
+  },
+  {
+   "name": "Arla Mild & Syrlig Ost 10%",
+   "brand": "Arla",
+   "keep": "ean:2340413404957",
+   "members": [
+    "ean:2340413405367",
+    "ean:2340413405589",
+    "ean:2340413405121",
+    "ean:2340413405213",
+    "ean:2340413405305",
+    "ean:2340413405077",
+    "ean:2340413405190",
+    "ean:2340413405312",
+    "ean:2340413405466",
+    "ean:2340413404612",
+    "ean:2340413404865",
+    "ean:2340413405060",
+    "ean:2340413405442",
+    "ean:2340413405299",
+    "ean:2340413405268",
+    "ean:2340413405152",
+    "ean:2340413405459",
+    "ean:7311870013667",
+    "ean:2340413404698",
+    "ean:2340413404933",
+    "ean:2340413405381"
+   ]
+  },
+  {
+   "name": "Arla Mild Cheddar 35%",
+   "brand": "Arla",
+   "keep": "ean:5000246727216",
+   "members": []
+  },
+  {
+   "name": "Arla Laktosfri Mild Kvarg Vanilj 0,2%",
+   "brand": "Arla",
+   "keep": "ean:4016241050267",
+   "members": []
+  },
+  {
+   "name": "Arla Mild Kvarg Naturell 0,2%",
+   "brand": "Arla",
+   "keep": "ean:5711953153846",
+   "members": [
+    "ean:4016241051172",
+    "ean:4016241043030",
+    "ean:4016241051141",
+    "ean:5711953028342"
+   ]
+  },
+  {
+   "name": "Arla Mild Kvarg Smaksatt 0,2%",
+   "brand": "Arla",
+   "keep": "ean:4016241005052",
+   "members": [
+    "ean:7310865051196",
+    "ean:4016241051189",
+    "ean:4016241051202",
+    "ean:7311953223013",
+    "ean:4016241051158",
+    "ean:4016241060150",
+    "ean:0755955223423",
+    "ean:4016241043047",
+    "ean:5711953223013",
+    "ean:4016241050540",
+    "ean:4016241051011",
+    "ean:4016241043054",
+    "ean:4016241050533",
+    "ean:7310865051189",
+    "ean:4016241051165",
+    "ean:4016241050557",
+    "ean:4016241051028",
+    "ean:4016241050526",
+    "ean:4016241050625",
+    "ean:4016241051035",
+    "ean:7310865050526",
+    "ean:4016241050250"
+   ]
+  },
+  {
+   "name": "Arla Mild Yoghurt Naturell 3%",
+   "brand": "Arla",
+   "keep": "ean:7310865866424",
+   "members": [
+    "ean:7310865066206",
+    "ean:7310865002662",
+    "ean:7310865088505"
+   ]
+  },
+  {
+   "name": "Arla Mild Yoghurt Mindre Söt Slät Jordgubb 1,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865889973",
+   "members": []
+  },
+  {
+   "name": "Arla Mild Yoghurt Mindre Söt Vanilj 1,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865866585",
+   "members": [
+    "ean:7310865888860",
+    "ean:7312631410350"
+   ]
+  },
+  {
+   "name": "Arla Mjölk 1,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865000545",
+   "members": []
+  },
+  {
+   "name": "Arla Mjölk 3%",
+   "brand": "Arla",
+   "keep": "ean:7310865000361",
+   "members": [
+    "ean:7310865000194",
+    "ean:5760466821971"
+   ]
+  },
+  {
+   "name": "Arla Mild Yoghurt Mindre Söt",
+   "brand": "Arla",
+   "keep": "ean:7310865879585",
+   "members": []
+  },
+  {
+   "name": "Arla Minimælk Laktosefri",
+   "brand": "Arla",
+   "keep": "ean:7310865073556",
+   "members": []
+  },
+  {
+   "name": "Arla Ekologisk Mjölk 3%",
+   "brand": "Arla",
+   "keep": "ean:7310865071705",
+   "members": []
+  },
+  {
+   "name": "Arla Ekologisk Mjölk 3% Laktosfri",
+   "brand": "Arla",
+   "keep": "ean:7310865875020",
+   "members": []
+  },
+  {
+   "name": "Arla Mjölk 1,5% Laktosfri",
+   "brand": "Arla",
+   "keep": "ean:7310865889430",
+   "members": [
+    "ean:5760466959940"
+   ]
+  },
+  {
+   "name": "Arla Mjölk+ Laktosfri",
+   "brand": "Arla",
+   "keep": "ean:7311870011533",
+   "members": []
+  },
+  {
+   "name": "Arla Mjölk 3% Laktosfri",
+   "brand": "Arla",
+   "keep": "ean:7310865078216",
+   "members": []
+  },
+  {
+   "name": "Arla Mousse Dessert",
+   "brand": "Arla",
+   "keep": "ean:6413300024234",
+   "members": []
+  },
+  {
+   "name": "Arla Mozzarella",
+   "brand": "Arla",
+   "keep": "ean:5711953165153",
+   "members": [
+    "ean:7311870011274",
+    "ean:7311875904311",
+    "ean:7311875904342"
+   ]
+  },
+  {
+   "name": "Arla Munkens Gräddost 38%",
+   "brand": "Arla",
+   "keep": "ean:7311877014681",
+   "members": []
+  },
+  {
+   "name": "Arla Munkens Svarta 31%",
+   "brand": "Arla",
+   "keep": "ean:2340343605615",
+   "members": [
+    "ean:2340343604960",
+    "ean:7311871023009",
+    "ean:2340443609094",
+    "ean:2340343605080",
+    "ean:7311877014254",
+    "ean:2340343605097"
+   ]
+  },
+  {
+   "name": "Arla Munkens Svarta 10%",
+   "brand": "Arla",
+   "keep": "ean:2340449304825",
+   "members": [
+    "ean:2340449304900",
+    "ean:2340449304986",
+    "ean:2340449304863",
+    "ean:2340449305143"
+   ]
+  },
+  {
+   "name": "Arla Yoghurtkvarg Naturell",
+   "brand": "Arla",
+   "keep": "ean:5711953024092",
+   "members": []
+  },
+  {
+   "name": "Arla Mild Yoghurt Naturell Laktosfri",
+   "brand": "Arla",
+   "keep": "ean:7310865094155",
+   "members": []
+  },
+  {
+   "name": "Arla Grekisk Yoghurt Naturell",
+   "brand": "Arla",
+   "keep": "ean:7310865097996",
+   "members": []
+  },
+  {
+   "name": "Arla Kadett 10%",
+   "brand": "Arla",
+   "keep": "ean:7311870036505",
+   "members": [
+    "ean:2340413405114",
+    "ean:2340413405701",
+    "ean:2340413405282",
+    "ean:2340413404469",
+    "ean:2340413404971",
+    "ean:2340413405428",
+    "ean:2340413405008",
+    "ean:2340413405183",
+    "ean:2340413405251",
+    "ean:2340413405329",
+    "ean:2340413405336",
+    "ean:2340413405435",
+    "ean:2340413405169",
+    "ean:2340413404889",
+    "ean:2340413405176",
+    "ean:2340413404834",
+    "ean:2340413405039"
+   ]
+  },
+  {
+   "name": "Arla Ost 17% Mild & Krämig",
+   "brand": "Arla",
+   "keep": "ean:2340413605859",
+   "members": [
+    "ean:2340413604609",
+    "ean:7311877020729",
+    "ean:2340413605033"
+   ]
+  },
+  {
+   "name": "Arla Nordic Oats Barista",
+   "brand": "Arla",
+   "keep": "ean:5711953176630",
+   "members": []
+  },
+  {
+   "name": "Arla Onaka Filmjölk",
+   "brand": "Arla",
+   "keep": "ean:7310865691750",
+   "members": []
+  },
+  {
+   "name": "Arla Mini Ost Mild Cheddar",
+   "brand": "Arla",
+   "keep": "ean:5000246727230",
+   "members": []
+  },
+  {
+   "name": "Arla Port Salut",
+   "brand": "Arla",
+   "keep": "ean:2340380304366",
+   "members": [
+    "ean:2340380207292",
+    "ean:2340380206813",
+    "ean:2340380207193",
+    "ean:2340380207339",
+    "ean:2340380207476",
+    "ean:2340380207490",
+    "ean:2340380207551",
+    "ean:2340380208114",
+    "ean:2340380303741",
+    "ean:2340380304144",
+    "ean:5711953156328",
+    "ean:5760466983570",
+    "ean:2340380303567"
+   ]
+  },
+  {
+   "name": "Arla Sture 38%",
+   "brand": "Arla",
+   "keep": "ean:2340375010289",
+   "members": []
+  },
+  {
+   "name": "Arla Påskost 26%",
+   "brand": "Arla",
+   "keep": "ean:2384799910749",
+   "members": []
+  },
+  {
+   "name": "Arla Piskefløde 36% Laktosefri",
+   "brand": "Arla",
+   "keep": "ean:7310865224576",
+   "members": []
+  },
+  {
+   "name": "Arla Pizzaost",
+   "brand": "Arla",
+   "keep": "ean:7311877015091",
+   "members": [
+    "ean:7311877015473"
+   ]
+  },
+  {
+   "name": "Arla Pizza Light Tres Quesos",
+   "brand": "Arla",
+   "keep": "ean:5711953167690",
+   "members": []
+  },
+  {
+   "name": "Arla Cultura Profibi Fil Laktosfri",
+   "brand": "Arla Cultura",
+   "keep": "ean:5711953195914",
+   "members": []
+  },
+  {
+   "name": "Arla Protein Ost 5%",
+   "brand": "Arla",
+   "keep": "ean:7311870013711",
+   "members": []
+  },
+  {
+   "name": "Arla Protein Skyr",
+   "brand": "Arla",
+   "keep": "ean:4016241050205",
+   "members": [
+    "ean:2000998513276",
+    "ean:6413300025217"
+   ]
+  },
+  {
+   "name": "Arla Protein Cottage Cheese",
+   "brand": "Arla",
+   "keep": "ean:7311870011519",
+   "members": []
+  },
+  {
+   "name": "Arla Protein Kvarg Laktosfri",
+   "brand": "Arla",
+   "keep": "ean:4016241050779",
+   "members": [
+    "ean:6413300019421"
+   ]
+  },
+  {
+   "name": "Arla Protein Shake",
+   "brand": "Arla",
+   "keep": "ean:5711953117282",
+   "members": []
+  },
+  {
+   "name": "Arla Proteinyoghurt 0,6%",
+   "brand": "Arla",
+   "keep": "ean:8718166007635",
+   "members": [
+    "ean:8718166064812"
+   ]
+  },
+  {
+   "name": "Arla Proteinyoghurt 0,6% Laktosfri",
+   "brand": "Arla",
+   "keep": "ean:4016241031402",
+   "members": []
+  },
+  {
+   "name": "Arla Protein Ost Skivad",
+   "brand": "Arla",
+   "keep": "ean:5711953175152",
+   "members": []
+  },
+  {
+   "name": "Arla Riven Gouda",
+   "brand": "Arla",
+   "keep": "ean:7311875840442",
+   "members": []
+  },
+  {
+   "name": "Arla Riven Ost",
+   "brand": "Arla",
+   "keep": "ean:7311877016685",
+   "members": []
+  },
+  {
+   "name": "Arla Riven Ost Jalapeño och Chili",
+   "brand": "Arla",
+   "keep": "ean:5711953191923",
+   "members": []
+  },
+  {
+   "name": "Arla Riven Svensk Ost Mager",
+   "brand": "Arla",
+   "keep": "ean:7311877015107",
+   "members": []
+  },
+  {
+   "name": "Arla Riven Svensk Ost Texmex",
+   "brand": "Arla",
+   "keep": "ean:7311877015121",
+   "members": [
+    "ean:7311877015480"
+   ]
+  },
+  {
+   "name": "Arla Rosa Mjölk",
+   "brand": "Arla",
+   "keep": "ean:7311870012653",
+   "members": []
+  },
+  {
+   "name": "Arla Shake Up",
+   "brand": "Arla",
+   "keep": "ean:5711953214301",
+   "members": [
+    "ean:5711953214332"
+   ]
+  },
+  {
+   "name": "Arla Sjokolademelk",
+   "brand": "Arla",
+   "keep": "ean:5711953072178",
+   "members": []
+  },
+  {
+   "name": "Arla Slower Melt Soft Ice Mix",
+   "brand": "Arla",
+   "keep": "ean:5711953136962",
+   "members": []
+  },
+  {
+   "name": "Arla Smakrike Cheddar",
+   "brand": "Arla",
+   "keep": "ean:2340414104559",
+   "members": [
+    "ean:2340414105174",
+    "ean:2340414105112"
+   ]
+  },
+  {
+   "name": "Arla Smetana",
+   "brand": "Arla",
+   "keep": "ean:6413300018059",
+   "members": []
+  },
+  {
+   "name": "Arla Smör- & Rapsolja Laktosfri",
+   "brand": "Arla",
+   "keep": "ean:7311870010796",
+   "members": []
+  },
+  {
+   "name": "Arla Svenskt Smör Normalsaltat",
+   "brand": "Arla",
+   "keep": "ean:7310865005250",
+   "members": [
+    "ean:7310865561121",
+    "ean:8310895005250",
+    "ean:7310865005137",
+    "ean:7310865005168",
+    "ean:7310865005151",
+    "ean:4310950005151"
+   ]
+  },
+  {
+   "name": "Arla Svenskt Smör Laktosfri",
+   "brand": "Arla",
+   "keep": "ean:7310860561102",
+   "members": []
+  },
+  {
+   "name": "Arla Smör- & Rapsolja",
+   "brand": "Arla",
+   "keep": "ean:7311870652187",
+   "members": []
+  },
+  {
+   "name": "Arla Sommar-gräddfil",
+   "brand": "Arla",
+   "keep": "ean:7310865004673",
+   "members": []
+  },
+  {
+   "name": "Arla Sorte Sara 25%",
+   "brand": "Arla",
+   "keep": "ean:2340381305034",
+   "members": []
+  },
+  {
+   "name": "Arla Storsjö Ost",
+   "brand": "Arla",
+   "keep": "ean:2340381711705",
+   "members": [
+    "ean:2340381712764",
+    "ean:2340381711309"
+   ]
+  },
+  {
+   "name": "Arla Sture Gräddost 38%",
+   "brand": "Arla",
+   "keep": "ean:2340375010647",
+   "members": [
+    "ean:2340375010449",
+    "ean:5711953170218"
+   ]
+  },
+  {
+   "name": "Arla Superkrämig Grekisk Yoghurt Naturell",
+   "brand": "Arla",
+   "keep": "ean:4016241050304",
+   "members": []
+  },
+  {
+   "name": "Arla Keso Supermini",
+   "brand": "Arla",
+   "keep": "ean:8310895097019",
+   "members": []
+  },
+  {
+   "name": "Arla Syrad Grädde",
+   "brand": "Arla",
+   "keep": "ean:7310865880390",
+   "members": []
+  },
+  {
+   "name": "Arla Syrlig Ost 10%",
+   "brand": "Arla",
+   "keep": "ean:2340413404841",
+   "members": []
+  },
+  {
+   "name": "Arla Tärnad Svensk Salladsost",
+   "brand": "Arla",
+   "keep": "ean:7311870011182",
+   "members": []
+  },
+  {
+   "name": "Arla Creme Fraiche Sötstark Mango",
+   "brand": "Arla",
+   "keep": "ean:7311870012455",
+   "members": []
+  },
+  {
+   "name": "Arla Turkisk Yoghurt",
+   "brand": "Arla",
+   "keep": "ean:7310865891280",
+   "members": [
+    "ean:7310865073921",
+    "ean:7310865890757",
+    "ean:7310865078353"
+   ]
+  },
+  {
+   "name": "Arla Rahka",
+   "brand": "Arla",
+   "keep": "ean:6413300026351",
+   "members": [
+    "ean:6413300026344"
+   ]
+  },
+  {
+   "name": "Arla Vänerost",
+   "brand": "Arla",
+   "keep": "ean:2340387312838",
+   "members": []
+  },
+  {
+   "name": "Arla Klassisk Vaniljsås",
+   "brand": "Arla",
+   "keep": "ean:5711953174971",
+   "members": [
+    "ean:5711953027550",
+    "ean:5711953209857"
+   ]
+  },
+  {
+   "name": "Arla Yoghurt Laktosfri",
+   "brand": "Arla",
+   "keep": "ean:7311870012240",
+   "members": []
+  },
+  {
+   "name": "Arla Vanilla Milk Drink",
+   "brand": "Arla",
+   "keep": "ean:7310865093998",
+   "members": []
+  },
+  {
+   "name": "Arla Vispgrädde Laktosfri",
+   "brand": "Arla",
+   "keep": "ean:7310865890740",
+   "members": [
+    "ean:6408432095733"
+   ]
+  },
+  {
+   "name": "Arla Vispgrädde 36%",
+   "brand": "Arla",
+   "keep": "ean:7310865026392",
+   "members": [
+    "ean:7310865061935",
+    "ean:7310865890481"
+   ]
+  },
+  {
+   "name": "Arla Vispgrädde 40%",
+   "brand": "Arla",
+   "keep": "ean:7310865684752",
+   "members": []
+  },
+  {
+   "name": "Arla Apetina White Cheese Original",
+   "brand": "Arla Apetina",
+   "keep": "ean:5711953056741",
+   "members": []
+  },
+  {
+   "name": "Arla Yalla Drickyoghurt Laktosfri",
+   "brand": "Arla",
+   "keep": "ean:5711953042003",
+   "members": []
+  },
+  {
+   "name": "Arla Yalla Drickyoghurt Original",
+   "brand": "Arla",
+   "keep": "ean:5711953041914",
+   "members": [
+    "ean:8718166008618"
+   ]
+  },
+  {
+   "name": "Arla Yalla Yoghurt Squeeze",
+   "brand": "Arla",
+   "keep": "ean:8718166008472",
+   "members": [
+    "ean:8718166008465"
+   ]
+  },
+  {
+   "name": "Arla Yalla Drickkvarg",
+   "brand": "Arla",
+   "keep": "ean:5711953088797",
+   "members": [
+    "ean:5711953067907"
+   ]
+  },
+  {
+   "name": "Arla Yalla Drickyoghurt Utan Tillsatt Socker",
+   "brand": "Arla",
+   "keep": "ean:8718166008144",
+   "members": []
+  },
+  {
+   "name": "Arla Yalla Protein Milkshake",
+   "brand": "Arla",
+   "keep": "ean:5711953130373",
+   "members": [
+    "ean:0355954068881",
+    "ean:5711953130403"
+   ]
+  },
+  {
+   "name": "Arla Yoggi Original",
+   "brand": "Arla",
+   "keep": "ean:7310865052681",
+   "members": [
+    "ean:7310865094841"
+   ]
+  },
+  {
+   "name": "Arla Yoggi Mini",
+   "brand": "Arla",
+   "keep": "ean:7310865093363",
+   "members": []
+  },
+  {
+   "name": "Arla Fruktyoghurt 1,8%",
+   "brand": "Arla",
+   "keep": "ean:7311870012516",
+   "members": [
+    "ean:7311870012264",
+    "ean:7311870012257"
+   ]
+  },
+  {
+   "name": "Arla Yoghurt Naturell 3%",
+   "brand": "Arla",
+   "keep": "ean:7310865866356",
+   "members": []
+  },
+  {
+   "name": "Arla Yoghurtkvarg Naturell Laktosfri",
+   "brand": "Arla",
+   "keep": "ean:5711953067877",
+   "members": []
+  },
+  {
+   "name": "Arla Yoghurtkvarg Laktosfri",
+   "brand": "Arla",
+   "keep": "ean:5711953067846",
+   "members": []
+  },
+  {
+   "name": "Arla Yoghurtkvarg",
+   "brand": "Arla",
+   "keep": "ean:5711953024061",
+   "members": [
+    "openfoodfacts-nordic-global:16951046"
+   ]
+  },
+  {
+   "name": "Arla Jörd Vanilla",
+   "brand": "Arla",
+   "keep": "ean:5711953176708",
+   "members": []
+  },
+  {
+   "name": "Tine Lett Crème Fraîche 17%",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-cr%C3%A8me-fra%C3%AEche/produkter/tine-cr%C3%A8me-fra%C3%AEche-lett",
+   "members": [
+    "ean:7038010006340"
+   ]
+  },
+  {
+   "name": "Tine Alpeost",
+   "brand": "Tine",
+   "keep": "ean:7038010065293",
+   "members": [
+    "norgesgruppen:23026894"
+   ]
+  },
+  {
+   "name": "Tine Anno 1863",
+   "brand": "Tine",
+   "keep": "ean:7038010025198",
+   "members": []
+  },
+  {
+   "name": "Tine Appelsin Fruktdrikk",
+   "brand": "Tine",
+   "keep": "ean:7038010065996",
+   "members": []
+  },
+  {
+   "name": "Tine Balsfjord Ost",
+   "brand": "Tine",
+   "keep": "ean:7038010018725",
+   "members": []
+  },
+  {
+   "name": "Tine Bestemorost",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-spesial-bestemorost",
+   "members": [
+    "ean:7038010029790"
+   ]
+  },
+  {
+   "name": "Tine Heidal Brunost",
+   "brand": "Tine",
+   "keep": "ean:7038010029776",
+   "members": []
+  },
+  {
+   "name": "Tine IsKaffe Cappuccino Uten Tilsatt Sukker",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-iskaffe/produkter/tine-iskaffe-cappuccino-uten-tilsatt-sukker",
+   "members": [
+    "ean:7038010058561"
+   ]
+  },
+  {
+   "name": "Tine IsKaffe Cappuccino Original",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-iskaffe/produkter/tine-iskaffe-original-cappuccino",
+   "members": [
+    "tine:https://www.tine.no/merkevarer/tine-iskaffe/produkter/tine-iskaffe-original-cappuccino-1L"
+   ]
+  },
+  {
+   "name": "Tine Norsk Cheddar",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-norsk-cheddar/produkter/tine-norsk-cheddar-250g",
+   "members": [
+    "tine:https://www.tine.no/merkevarer/tine-norsk-cheddar/produkter/tine-norsk-cheddar-skivet-100g",
+    "ean:7038010070686",
+    "ean:7038010024986",
+    "ean:7038010072819",
+    "ean:7038010024948",
+    "ean:7038010066542",
+    "ean:7038010072963",
+    "ean:7038010073717",
+    "ean:7038010025181",
+    "ean:7038010024900"
+   ]
+  },
+  {
+   "name": "Tine Revet Ost Cheddar & Norvegia",
+   "brand": "Tine",
+   "keep": "ean:7038010071430",
+   "members": []
+  },
+  {
+   "name": "Tine Chèvre",
+   "brand": "Tine",
+   "keep": "ean:7038010023828",
+   "members": [
+    "ean:7038010064265"
+   ]
+  },
+  {
+   "name": "Tine Chilibrunost",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-chillibrunost",
+   "members": [
+    "ean:7038010030659"
+   ]
+  },
+  {
+   "name": "Tine Cottage Cheese Mager",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-cottage-cheese/produkter/tine-mager-cottage-cheese",
+   "members": [
+    "ean:7038010070884",
+    "ean:7038010071881",
+    "ean:7038010054488",
+    "ean:0048412070884",
+    "ean:7038010071737"
+   ]
+  },
+  {
+   "name": "Tine Cottage Cheese Original",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-cottage-cheese/produkter/tine-cottage-cheese-original",
+   "members": [
+    "ean:7038010401312"
+   ]
+  },
+  {
+   "name": "Tine Cottage Cheese Mager Laktosefri",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-cottage-cheese/produkter/tine-laktosefri-mager-cottage-cheese_",
+   "members": [
+    "ean:7038010066139"
+   ]
+  },
+  {
+   "name": "Tine Ekstra Lett Crème Fraîche 10%",
+   "brand": "Tine",
+   "keep": "ean:7038010054204",
+   "members": []
+  },
+  {
+   "name": "Tine Crème Fraîche Original",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-cr%C3%A8me-fra%C3%AEche/produkter/tine-cr%C3%A8me-fra%C3%AEche-original",
+   "members": [
+    "ean:7038010401411",
+    "ean:7038010004926",
+    "ean:7038010060243"
+   ]
+  },
+  {
+   "name": "Tine Crème Fraîche Laktosefri",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-laktosefri/produkter/tine-laktosefri-cr%C3%A8me-fra%C3%AEche",
+   "members": []
+  },
+  {
+   "name": "Tine Dovre Hvitmuggost",
+   "brand": "Tine",
+   "keep": "kassalapp:50038",
+   "members": []
+  },
+  {
+   "name": "Tine Dovre Mild Norsk Brie Pepper",
+   "brand": "Tine",
+   "keep": "ean:2000135943201",
+   "members": []
+  },
+  {
+   "name": "Tine Dravle",
+   "brand": "Tine",
+   "keep": "ean:7038010030956",
+   "members": [
+    "ean:7038010030963"
+   ]
+  },
+  {
+   "name": "Tine E+ Fruktdrikk",
+   "brand": "Tine",
+   "keep": "ean:7038010041884",
+   "members": [
+    "ean:7038010045608"
+   ]
+  },
+  {
+   "name": "Tine Edamer Vellagret",
+   "brand": "Tine",
+   "keep": "ean:7038010016882",
+   "members": []
+  },
+  {
+   "name": "Tine Edamer",
+   "brand": "Tine",
+   "keep": "ean:7038010016851",
+   "members": []
+  },
+  {
+   "name": "Tine Ekte Revet Ost med Norsk Cheddar",
+   "brand": "Tine",
+   "keep": "kassalapp:56816",
+   "members": []
+  },
+  {
+   "name": "Tine Ekte Revet Ost 4 Oster",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-revet-ost/produkter/tine-revet-ost-4-oster",
+   "members": [
+    "ean:7038010069369"
+   ]
+  },
+  {
+   "name": "Tine Ekte Revet Ost Økonomipakke",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-revet-ost/produkter/tine-revet-ost-original-copy",
+   "members": [
+    "ean:7038010062315"
+   ]
+  },
+  {
+   "name": "Tine Ekte Revet Ost Original",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-revet-ost/produkter/tine-revet-ost-original",
+   "members": [
+    "kassalapp:50040",
+    "ean:7038010069352",
+    "ean:7038010072833"
+   ]
+  },
+  {
+   "name": "Tine Eple Fruktdrikk",
+   "brand": "Tine",
+   "keep": "ean:7038010056888",
+   "members": []
+  },
+  {
+   "name": "Tine Eple & Appelsinjuice",
+   "brand": "Tine",
+   "keep": "ean:7038010071096",
+   "members": []
+  },
+  {
+   "name": "Tine Eplejuice",
+   "brand": "Tine",
+   "keep": "ean:7038010008092",
+   "members": [
+    "ean:7038010008054",
+    "ean:7038010008139",
+    "ean:7038010008351",
+    "ean:7038010008658",
+    "ean:7038010073571",
+    "ean:7038010007767"
+   ]
+  },
+  {
+   "name": "Tine Färskost",
+   "brand": "Tine",
+   "keep": "ean:7038010072024",
+   "members": [
+    "ean:7038010072031",
+    "ean:7038010072055"
+   ]
+  },
+  {
+   "name": "Tine Yoghurt",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-fersken",
+   "members": [
+    "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-familiefavoritter",
+    "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-jordb%C3%A6r-4x150g",
+    "ean:7038010069468",
+    "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-kirseb%C3%A6r",
+    "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-kokos",
+    "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-mango-pasjonsfrukt",
+    "ean:7038010005862",
+    "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-melonpasjonsfrukt",
+    "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-skogsb%C3%A6r",
+    "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-sesong",
+    "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-skogsb%C3%A6r-4x150g",
+    "ean:7038010005985",
+    "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-sviske",
+    "ean:7038010072451",
+    "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-vanilje",
+    "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-vanilje-4x150g",
+    "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-vanilje-850g",
+    "ean:7038010000867",
+    "ean:7038010069628",
+    "ean:7038010067082",
+    "ean:7038010064142",
+    "ean:7038010061387",
+    "ean:0048412072178",
+    "ean:7038010065446",
+    "ean:7038010073410",
+    "ean:7038010070129",
+    "kassalapp:22102",
+    "ean:7038010009464",
+    "kassalapp:30556",
+    "ean:7038010055706",
+    "ean:7038010004070",
+    "ean:7038010062735",
+    "ean:7038010009471",
+    "kassalapp:33605",
+    "ean:7038010055669",
+    "ean:7038010071287",
+    "ean:7038010068690",
+    "ean:7038010005930",
+    "ean:7038010004094",
+    "ean:7038010004100",
+    "ean:7038010064135",
+    "ean:7038010070617",
+    "ean:7038010009457",
+    "ean:7038010063886",
+    "ean:7038010055690",
+    "kassalapp:9111",
+    "ean:7038010069635",
+    "ean:7038010009488",
+    "ean:7038010009624",
+    "ean:7038010045080",
+    "ean:7038010063862",
+    "kassalapp:48288",
+    "ean:7038010006388"
+   ]
+  },
+  {
+   "name": "Tine Fløtemysost",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-fl%C3%B8temysost",
+   "members": [
+    "ean:7038010029011",
+    "ean:7038010029035",
+    "ean:7038010029103",
+    "kassalapp:66402",
+    "ean:9039480028434",
+    "ean:7038010028427",
+    "ean:7038010028236"
+   ]
+  },
+  {
+   "name": "Tine Fløtemysost Lett",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-fl%C3%B8temysost-lett",
+   "members": [
+    "ean:7038010029288",
+    "ean:7038010029363"
+   ]
+  },
+  {
+   "name": "Tine Frokostyoghurt",
+   "brand": "Tine",
+   "keep": "ean:7038010067679",
+   "members": [
+    "ean:7038010067686"
+   ]
+  },
+  {
+   "name": "Tine Gamalost frå Vik",
+   "brand": "Tine",
+   "keep": "ean:7038010021954",
+   "members": [
+    "ean:2000131900000",
+    "ean:2302218206433",
+    "norgesgruppen:23022182"
+   ]
+  },
+  {
+   "name": "Tine Geitmelk",
+   "brand": "Tine",
+   "keep": "ean:7038010054570",
+   "members": []
+  },
+  {
+   "name": "Tine Ekte Hvit Geitost",
+   "brand": "Tine",
+   "keep": "ean:7038010052415",
+   "members": [
+    "kassalapp:20928"
+   ]
+  },
+  {
+   "name": "Snøfrisk Hvit Geitost",
+   "brand": "Snøfrisk",
+   "keep": "ean:2302691102956",
+   "members": [
+    "ean:2302691103496",
+    "ean:2302691103212",
+    "ean:2302691103076",
+    "ean:2302691102772",
+    "ean:2302691103199",
+    "norgesgruppen:23026911",
+    "ean:2302691103762",
+    "ean:2002691100005"
+   ]
+  },
+  {
+   "name": "Tine Ekte Geitost",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-geitost",
+   "members": [
+    "ean:7038010028083",
+    "ean:7038010028380"
+   ]
+  },
+  {
+   "name": "Tine Go'morgen Yoghurt",
+   "brand": "Tine",
+   "keep": "kassalapp:48554",
+   "members": [
+    "ean:7038010065347",
+    "ean:7038010068348",
+    "kassalapp:48543",
+    "ean:7038010069321",
+    "ean:7038010068904",
+    "ean:7038010068898"
+   ]
+  },
+  {
+   "name": "Tine Go'morgen Vaniljeyoghurt Uten Tilsatt Sukker",
+   "brand": "Tine",
+   "keep": "ean:7038010068331",
+   "members": []
+  },
+  {
+   "name": "Tine Go'morgen Yoghurt Uten Tilsatt Sukker",
+   "brand": "Tine",
+   "keep": "ean:7038010069581",
+   "members": [
+    "ean:7038010052484",
+    "ean:7038010068232"
+   ]
+  },
+  {
+   "name": "Tine IsKaffe Gosto Brasileiro",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-iskaffe/produkter/tine-iskaffe-brasil",
+   "members": []
+  },
+  {
+   "name": "Tine Gräddost",
+   "brand": "Tine",
+   "keep": "ean:7038010017865",
+   "members": [
+    "ean:2302729107915",
+    "ean:2302721609059",
+    "ean:2302721609493",
+    "ean:2302721609684",
+    "ean:2302721609714",
+    "ean:2302721609806",
+    "ean:7038010018428",
+    "ean:7038010022630",
+    "norgesgruppen:23027291"
+   ]
+  },
+  {
+   "name": "Tine Grapefruktjuice",
+   "brand": "Tine",
+   "keep": "ean:7038010007835",
+   "members": []
+  },
+  {
+   "name": "Tine Gresk Type Yoghurt Mango og Pasjonsfrukt",
+   "brand": "Tine",
+   "keep": "ean:7038010071546",
+   "members": []
+  },
+  {
+   "name": "Tine Gresk Type Yoghurt Naturell",
+   "brand": "Tine",
+   "keep": "ean:7038010070365",
+   "members": [
+    "ean:7038010073403",
+    "ean:7038010069451"
+   ]
+  },
+  {
+   "name": "Tine Grill og Stek",
+   "brand": "Tine",
+   "keep": "ean:7038010073687",
+   "members": [
+    "ean:4033100068553"
+   ]
+  },
+  {
+   "name": "Tine Gudbrandsdalsost",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-gudbrandsdalsost-g35",
+   "members": [
+    "ean:7038010028410",
+    "ean:7038010028212",
+    "ean:7038010028151",
+    "ean:7038010028441",
+    "ean:7038010028663",
+    "openfoodfacts:07038010",
+    "kassalapp:67041",
+    "ean:7038010029721"
+   ]
+  },
+  {
+   "name": "Tine Gudbrandsdalsost Anno 1863",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-gudbrandsdalsost-anno-1863",
+   "members": []
+  },
+  {
+   "name": "Tine Havregrøt Mandel og Blåbær",
+   "brand": "Tine",
+   "keep": "ean:7038010045561",
+   "members": []
+  },
+  {
+   "name": "Tine Heidalsost",
+   "brand": "Tine",
+   "keep": "ean:7038010028632",
+   "members": []
+  },
+  {
+   "name": "Tine Helmelk",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tinemelk/produkter/tinemelk-helmelk-3-5-fett",
+   "members": [
+    "ean:0048412000065",
+    "ean:7038010000065",
+    "ean:7038010000072",
+    "ean:7038010035029",
+    "ean:7038010052422",
+    "tine:https://www.tine.no/merkevarer/tinemelk/produkter/tinemelk-hel-langtidsholdbar"
+   ]
+  },
+  {
+   "name": "Tine Økologisk Helmelk",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tinemelk/produkter/tinemelk-%C3%B8kologisk-helmelk-4-1-fett",
+   "members": [
+    "ean:7038010052347"
+   ]
+  },
+  {
+   "name": "Go'morgen Yoghurt Melon og Müsli",
+   "brand": "Go'morgen",
+   "keep": "kassalapp:47747",
+   "members": []
+  },
+  {
+   "name": "Tine Innherred Brunost",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-spesial-innherredost",
+   "members": []
+  },
+  {
+   "name": "Tine Iskaffe Caffe Gusto Uten Tilsatt Sukker",
+   "brand": "Tine",
+   "keep": "ean:7038010070228",
+   "members": []
+  },
+  {
+   "name": "Tine Iskaffe Cappuccino",
+   "brand": "Tine",
+   "keep": "ean:7038010042454",
+   "members": [
+    "ean:7038010068508",
+    "tights-discontinued:13875346",
+    "ean:7038010003813"
+   ]
+  },
+  {
+   "name": "Tine Iskaffe Dobbel Latte",
+   "brand": "Tine",
+   "keep": "ean:7038010071225",
+   "members": [
+    "ean:7038010071232",
+    "tights-discontinued:13875213"
+   ]
+  },
+  {
+   "name": "Tine Iskaffe Protein Latte Uten Tilsatt Sukker",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-iskaffe/produkter/tine-iskaffe-protein-uten-sukker",
+   "members": [
+    "kassalapp:230318",
+    "tine:https://www.tine.no/merkevarer/tine-iskaffe/produkter/tine-iskaffe-protein-uten-sukker-1L",
+    "ean:7038010072291",
+    "ean:7038010073182"
+   ]
+  },
+  {
+   "name": "Tine Iskaffe Mocha",
+   "brand": "Tine",
+   "keep": "ean:7038010003820",
+   "members": [
+    "tights-discontinued:13875331",
+    "tights-discontinued:14405474",
+    "ean:7038010071874"
+   ]
+  },
+  {
+   "name": "Tine Iskaffe Xmas Mocha",
+   "brand": "Tine",
+   "keep": "ean:7038010052545",
+   "members": []
+  },
+  {
+   "name": "Tine Iskaffe Caffe Gosto Brasileiro",
+   "brand": "Tine",
+   "keep": "ean:7038010001321",
+   "members": [
+    "tights-discontinued:13875176"
+   ]
+  },
+  {
+   "name": "Tine Iskaffe Espresso Macchiato",
+   "brand": "Tine",
+   "keep": "ean:7038010067792",
+   "members": []
+  },
+  {
+   "name": "Tine Iskaffe Latte Uten Tilsatt Sukker",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-iskaffe/produkter/tine-iskaffe-latte-uten-tilsatt-sukker",
+   "members": [
+    "ean:7038010055621"
+   ]
+  },
+  {
+   "name": "Tine Iskaffe Salty Caramel Uten Tilsatt Sukker",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-iskaffe/produkter/tine-iskaffe-salty-caramel-uten-tilsatt-sukker",
+   "members": [
+    "ean:7038010066801"
+   ]
+  },
+  {
+   "name": "Tine Iste",
+   "brand": "Tine",
+   "keep": "ean:7038010063350",
+   "members": [
+    "ean:7038010007699",
+    "ean:7038010063367",
+    "ean:7038010062865"
+   ]
+  },
+  {
+   "name": "Jarlsberg Lett",
+   "brand": "Jarlsberg",
+   "keep": "ean:2302712510722",
+   "members": []
+  },
+  {
+   "name": "Jarlsberg Original",
+   "brand": "Jarlsberg",
+   "keep": "tine:https://www.tine.no/merkevarer/jarlsberg/produkter/jarlsberg-original",
+   "members": [
+    "ean:7038010014963",
+    "ean:7038010019777",
+    "ean:7038010021145",
+    "norgesgruppen:31673",
+    "matvaretabellen:01.035",
+    "ean:2302687809586",
+    "ean:7038010053368",
+    "ean:7038010053382",
+    "ean:2302687810322",
+    "ean:7038010073748",
+    "ean:2302687810124",
+    "ean:2302687810049",
+    "ean:7038010053429",
+    "ean:7038010064975",
+    "ean:7038010071690",
+    "ean:2302687809609",
+    "norgesgruppen:1005",
+    "norgesgruppen:23024369",
+    "ean:2302687810445",
+    "ean:2302687810902",
+    "ean:7331494124617",
+    "ean:7038010017278"
+   ]
+  },
+  {
+   "name": "Tine Junior Yoghurt Proteinrik",
+   "brand": "Tine",
+   "keep": "kassalapp:67828",
+   "members": [
+    "ean:7038010069611",
+    "ean:7038010070372"
+   ]
+  },
+  {
+   "name": "Tine Junior Yoghurt",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-junior/produkter/tine-junior-yoghurt-jordb%C3%A6r-banan",
+   "members": [
+    "ean:7038010073427"
+   ]
+  },
+  {
+   "name": "Tine Junior Yoghurt",
+   "brand": "Tine",
+   "keep": "kassalapp:2584",
+   "members": [
+    "ean:7038010068669",
+    "kassalapp:25884",
+    "ean:7038010063466"
+   ]
+  },
+  {
+   "name": "Tine Junior Prim",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-prim/produkter/tine-junior-prim",
+   "members": []
+  },
+  {
+   "name": "Tine Kefir",
+   "brand": "Tine",
+   "keep": "ean:7038010054822",
+   "members": []
+  },
+  {
+   "name": "Tine Kesam Original",
+   "brand": "Tine",
+   "keep": "ean:7038010006609",
+   "members": [
+    "ean:7038010072987"
+   ]
+  },
+  {
+   "name": "Tine Kesam Vanilje",
+   "brand": "Tine",
+   "keep": "ean:0048412006647",
+   "members": [
+    "ean:7038010006647",
+    "ean:7038010048791",
+    "ean:7038010072994"
+   ]
+  },
+  {
+   "name": "Tine Mager Kesam Original",
+   "brand": "Tine",
+   "keep": "ean:7038010072970",
+   "members": []
+  },
+  {
+   "name": "Tine Mager Kesam Vanilje",
+   "brand": "Tine",
+   "keep": "ean:7038010055843",
+   "members": []
+  },
+  {
+   "name": "Tine Klaret Smør",
+   "brand": "Tine",
+   "keep": "ean:7038010013461",
+   "members": []
+  },
+  {
+   "name": "Tine Kremfløte",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-fl%C3%B8te/produkter/tine-kremfl%C3%B8te",
+   "members": [
+    "ean:7038010003103",
+    "ean:7038010041914",
+    "ean:7038010067938"
+   ]
+  },
+  {
+   "name": "Tine Kremgo",
+   "brand": "Tine",
+   "keep": "ean:7038010026416",
+   "members": [
+    "ean:7038010031274",
+    "ean:7038010024825",
+    "tine:https://www.tine.no/merkevarer/tine-kremgo/produkter/tine-kremgo-krydder"
+   ]
+  },
+  {
+   "name": "Tine Kremtopp",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-fl%C3%B8te/produkter/tine-kremtopp",
+   "members": [
+    "ean:7038010003202"
+   ]
+  },
+  {
+   "name": "Tine Kryddersmør",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-sm%C3%B8r/produkter/tine-kryddersm%C3%B8r",
+   "members": [
+    "ean:7038010071553"
+   ]
+  },
+  {
+   "name": "Tine Kulturmelk",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-kulturmjolk/produkter/tinemelk-kultur",
+   "members": [
+    "ean:7038010000737"
+   ]
+  },
+  {
+   "name": "Tine Kviteseidsmør",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-sm%C3%B8r/produkter/kviteseidsm%C3%B8r",
+   "members": [
+    "ean:7025090013115"
+   ]
+  },
+  {
+   "name": "Tine Kybos Fetaost",
+   "brand": "Tine",
+   "keep": "ean:7038010572418",
+   "members": []
+  },
+  {
+   "name": "Tine Lettmelk 1,2%",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tinemelk/produkter/tinemelk-lett-langtidsholdbar",
+   "members": [
+    "ean:7038010042881"
+   ]
+  },
+  {
+   "name": "Tine Prim Lett",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-prim/produkter/tine-prim-lett",
+   "members": []
+  },
+  {
+   "name": "Tine Lettmelk 0,5%",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tinemelk/produkter/tinemelk-lettmelk-0-5-fett",
+   "members": [
+    "ean:7038010002533",
+    "ean:7038010000911",
+    "ean:7038010002137",
+    "ean:7038010068065",
+    "openfoodfacts:19242017",
+    "ean:7038010001918"
+   ]
+  },
+  {
+   "name": "Tine Lettmelk 0,5%",
+   "brand": "Tine",
+   "keep": "ean:7038010071164",
+   "members": []
+  },
+  {
+   "name": "Tine Lettmelk 1,0%",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tinemelk/produkter/tinemelk-lettmelk-1-fett",
+   "members": [
+    "ean:7038010072352",
+    "ean:7038010073267",
+    "ean:7038010000980",
+    "ean:7038010001642",
+    "ean:7038010001697",
+    "ean:7038010001727"
+   ]
+  },
+  {
+   "name": "Tine Lettmelk Sjokolade og Smak",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tinemelk/produkter/lett-tinemelk-sjokolade",
+   "members": [
+    "ean:7038010003585",
+    "ean:7038010064609",
+    "ean:7038010071188",
+    "ean:7038010071195",
+    "ean:7038010071850",
+    "ean:7038010058639",
+    "tine:https://www.tine.no/merkevarer/tinemelk/produkter/lett-tinemelk-m%C3%B8rk-sjokolade",
+    "tine:https://www.tine.no/merkevarer/tinemelk/produkter/lett-tinemelk-sjokolade-1,75L",
+    "tine:https://www.tine.no/merkevarer/tinemelk/produkter/lett-tinemelk-vanilje",
+    "ean:0048412065477"
+   ]
+  },
+  {
+   "name": "Tine Økologisk Lettmelk 0,7%",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tinemelk/produkter/tinemelk-%C3%B8kologisk-lett-0-7-fett",
+   "members": [
+    "ean:7038010044809"
+   ]
+  },
+  {
+   "name": "Tine Økologisk Lettmelk 1,2%",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tinemelk/produkter/tinemelk-%C3%B8kologisk-lettmelk-1-2-fett",
+   "members": [
+    "ean:7038010000560"
+   ]
+  },
+  {
+   "name": "Jarlsberg Lettost",
+   "brand": "Jarlsberg",
+   "keep": "tine:https://www.tine.no/merkevarer/jarlsberg/produkter/jarlsberg-lettost-16-fett",
+   "members": [
+    "ean:7038010020391",
+    "ean:7038010064869",
+    "ean:7038010017018",
+    "ean:7038010071249",
+    "matvaretabellen:01.071",
+    "ean:2302712509566",
+    "ean:2302712509764",
+    "ean:2302712509856",
+    "ean:2302712510050",
+    "ean:2302712510807",
+    "ean:2302712511040",
+    "ean:2302712510067",
+    "ean:2302712509863",
+    "ean:2302712510333",
+    "ean:2302712510371",
+    "ean:2302712510364",
+    "ean:2302712510487",
+    "ean:2302712510128"
+   ]
+  },
+  {
+   "name": "Tine Lettrømme Laktosefri",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-r%C3%B8mme/produkter/tine-laktosefri-lettr%C3%B8mme",
+   "members": [
+    "ean:7533010040351"
+   ]
+  },
+  {
+   "name": "Tine Lettrømme 10%",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-r%C3%B8mme/produkter/tine-lett-r%C3%B8mme-10-prosent",
+   "members": [
+    "ean:7038010045301",
+    "ean:7038010068362"
+   ]
+  },
+  {
+   "name": "Tine Lettrømme 17%",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-r%C3%B8mme/produkter/tine-lettr%C3%B8mme-17-prosent",
+   "members": [
+    "ean:7038010005459",
+    "ean:7038010040351"
+   ]
+  },
+  {
+   "name": "Tine Lettrømme Økologisk",
+   "brand": "Tine",
+   "keep": "ean:7038010004629",
+   "members": []
+  },
+  {
+   "name": "Tine Matfløte Laktosefri",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-fl%C3%B8te/produkter/tine-matfl%C3%B8te-laktosefri",
+   "members": []
+  },
+  {
+   "name": "Tine Meierismør",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-sm%C3%B8r/produkter/tine-meierism%C3%B8r",
+   "members": [
+    "ean:7038010010187",
+    "ean:7038010010316",
+    "ean:7038010010347",
+    "ean:7038010107610",
+    "openfoodfacts:07628728",
+    "ean:7038010017087"
+   ]
+  },
+  {
+   "name": "Tine Meierismør Laktosefri",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-laktosefri/produkter/tine-laktosefri-meierism%C3%B8r",
+   "members": []
+  },
+  {
+   "name": "Tine Lettmelk 1%",
+   "brand": "Tine",
+   "keep": "ean:7038011001696",
+   "members": [
+    "ean:7038010071171"
+   ]
+  },
+  {
+   "name": "Tine Melk Vanilje",
+   "brand": "Tine",
+   "keep": "ean:7038010065477",
+   "members": []
+  },
+  {
+   "name": "Tine Melkeringe",
+   "brand": "Tine",
+   "keep": "ean:7038010001338",
+   "members": []
+  },
+  {
+   "name": "Tine Mellommelk",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tinemelk/produkter/Mellommelk-2-fett",
+   "members": [
+    "ean:7038010071751"
+   ]
+  },
+  {
+   "name": "Tine Milkshake",
+   "brand": "Tine",
+   "keep": "ean:7038010071867",
+   "members": [
+    "ean:7038010044519",
+    "ean:7038010069772"
+   ]
+  },
+  {
+   "name": "Tine Misværost",
+   "brand": "Tine",
+   "keep": "ean:7038010028618",
+   "members": []
+  },
+  {
+   "name": "Tine Iskaffe Original Mocha",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-iskaffe/produkter/tine-iskaffe-original-mocca",
+   "members": []
+  },
+  {
+   "name": "Tine Mozzarella",
+   "brand": "Tine",
+   "keep": "ean:7038010062490",
+   "members": [
+    "ean:7038010022364"
+   ]
+  },
+  {
+   "name": "Tine Norsk Mozzarella",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-salatost/produkter/tine-norsk-mozzarella",
+   "members": [
+    "ean:7038010072864"
+   ]
+  },
+  {
+   "name": "Tine Namdalsgomme",
+   "brand": "Tine",
+   "keep": "ean:7038010030789",
+   "members": []
+  },
+  {
+   "name": "Tine Yoghurt Naturell",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-naturell-500g",
+   "members": [
+    "ean:7038010001246",
+    "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-naturell",
+    "ean:7038010045073",
+    "ean:7038010063879"
+   ]
+  },
+  {
+   "name": "Tine Yoghurt Naturell Lett",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-naturell-1kg",
+   "members": []
+  },
+  {
+   "name": "Tine Yoghurt Naturell Økologisk",
+   "brand": "Tine",
+   "keep": "ean:7038010579912",
+   "members": []
+  },
+  {
+   "name": "Tine Yoghurt Naturell Gresk Type",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-naturell-gresk-type-430g",
+   "members": [
+    "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-naturell-gresk-type-730g",
+    "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-gresk-naturell"
+   ]
+  },
+  {
+   "name": "Tine Nøkkelost",
+   "brand": "Tine",
+   "keep": "ean:2302687104889",
+   "members": [
+    "ean:0000023021624",
+    "ean:7038010016226",
+    "ean:7038010016370"
+   ]
+  },
+  {
+   "name": "Tine Nøkkelost Lett",
+   "brand": "Tine",
+   "keep": "ean:7038010016516",
+   "members": [
+    "norgesgruppen:23021645",
+    "norgesgruppen:23021586"
+   ]
+  },
+  {
+   "name": "Tine Norsk Alpeost",
+   "brand": "Tine",
+   "keep": "ean:2302689405328",
+   "members": [
+    "ean:2000105481504"
+   ]
+  },
+  {
+   "name": "Tine Norsk Gräddost",
+   "brand": "Tine",
+   "keep": "ean:2302721609141",
+   "members": [
+    "ean:2302721609110",
+    "ean:2302721609240",
+    "ean:2302721609615",
+    "ean:2302721609882",
+    "ean:2302721609943",
+    "ean:2302721610116",
+    "ean:2302729107779",
+    "ean:2302729108103",
+    "ean:2302729108288",
+    "ean:2302729108332"
+   ]
+  },
+  {
+   "name": "Tine Norsk Salatost",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-salatost/produkter/tine-norsk-salatost-chili-fennikel",
+   "members": [
+    "tine:https://www.tine.no/merkevarer/tine-salatost/produkter/tine-norsk-salatost-urter-hvitlok"
+   ]
+  },
+  {
+   "name": "Tine Norsk Sveitser",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/sveitser/produkter/sveitser-original",
+   "members": []
+  },
+  {
+   "name": "Tine Norsk Sveitser Vellagret",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/sveitser/produkter/sveitser-vellagret",
+   "members": []
+  },
+  {
+   "name": "Norvegia Original",
+   "brand": "Norvegia",
+   "keep": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia",
+   "members": [
+    "ean:2351373708689",
+    "ean:7038010013966",
+    "ean:7038010013973",
+    "ean:7038010014604",
+    "ean:7038010020353",
+    "norgesgruppen:23021482",
+    "norgesgruppen:23027196",
+    "norgesgruppen:23027252",
+    "ean:2302148200006",
+    "ean:2002148600003",
+    "ean:2302148210043",
+    "ean:2351366709419",
+    "ean:2302148211088",
+    "kassalapp:66419",
+    "ean:7038010014802",
+    "ean:7038010014956",
+    "ean:2351373708740",
+    "ean:2351373708788",
+    "ean:2351373708917",
+    "ean:2302148209627",
+    "ean:2302148209269",
+    "ean:2302725213412",
+    "ean:2302725212835",
+    "matvaretabellen:01.039",
+    "ean:7340104754434",
+    "ean:2302148211064",
+    "ean:2302148604620",
+    "ean:2302148605542",
+    "ean:2302725212941",
+    "ean:2302725213825",
+    "ean:2302148211361",
+    "ean:2302725212965",
+    "ean:2302148210128",
+    "ean:2302148210418",
+    "ean:7038010020841",
+    "ean:7038010065675",
+    "norgesgruppen:23026796",
+    "ean:2351373708894",
+    "ean:2302148209412",
+    "ean:2302148210746",
+    "ean:2302725212880",
+    "ean:2302725213337",
+    "ean:7038010149511",
+    "ean:2302148209481",
+    "ean:2302148209924",
+    "ean:2302148209979",
+    "ean:2302148210180",
+    "ean:2302148210340",
+    "ean:2302148210364",
+    "ean:2302148210449",
+    "ean:2302148210531",
+    "ean:2302148210692",
+    "ean:2302148210753",
+    "ean:2302148210807",
+    "ean:2302148211026",
+    "ean:2302148211057",
+    "ean:2302148211187",
+    "ean:2302148604460",
+    "ean:2302148604880",
+    "ean:2302148605580",
+    "ean:2302725212866",
+    "ean:2302725212903",
+    "ean:3302130209351",
+    "ean:7038010054556",
+    "ean:7038010073762",
+    "ean:2302148210784",
+    "ean:7331494129872",
+    "ean:2302725213238",
+    "ean:2351366708245",
+    "ean:2351373708610",
+    "ean:7038010022531",
+    "ean:2302148210487",
+    "ean:2302148209948",
+    "ean:2302148210098",
+    "ean:2302148210104",
+    "ean:2302148210159",
+    "ean:2302148210173",
+    "ean:2302148210272",
+    "ean:2302148210319",
+    "ean:2302148210432",
+    "ean:2302148210463",
+    "ean:2302148210562",
+    "ean:2302148210586",
+    "ean:2302148210760",
+    "ean:2302148210906",
+    "ean:2302148210913",
+    "ean:2302148211347",
+    "ean:2302148604941",
+    "ean:2302725211869",
+    "ean:2302725213108",
+    "ean:2302725214099",
+    "ean:2351373708412",
+    "ean:7038010014932",
+    "ean:7331494128967",
+    "ean:2302148210029",
+    "ean:2302148210289",
+    "ean:2302148210470",
+    "ean:2302148210845",
+    "ean:2302148210166",
+    "ean:3638634013973",
+    "norgesgruppen:23021392",
+    "norgesgruppen:23022033",
+    "ean:7038010073373",
+    "ean:7038010027994",
+    "ean:2002148200005"
+   ]
+  },
+  {
+   "name": "Tine Norzola",
+   "brand": "Tine",
+   "keep": "ean:7038010020254",
+   "members": []
+  },
+  {
+   "name": "Tine Yoghurt Nyt Bær",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-nyt-blaabaer-bringebaer",
+   "members": [
+    "ean:7038010070136"
+   ]
+  },
+  {
+   "name": "Tine Yoghurt Nyt Sjokocrisp",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-nyt-n%C3%B8ttetoffee-og-sjokocrisp",
+   "members": [
+    "ean:7038010006975",
+    "ean:7038010006982",
+    "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-nyt-sjokolade-og-n%C3%B8ttecrisp"
+   ]
+  },
+  {
+   "name": "Tine Kefir Økologisk",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-kefir/produkter/tine-kefir-%C3%B8kologisk",
+   "members": []
+  },
+  {
+   "name": "Tine Østavind",
+   "brand": "Tine",
+   "keep": "ean:5000108197416",
+   "members": [
+    "ean:7038010057984",
+    "ean:7038010072420",
+    "ean:7038010057977",
+    "ean:7038010059643"
+   ]
+  },
+  {
+   "name": "Tine Parmigiano Reggiano",
+   "brand": "Tine",
+   "keep": "ean:5420024121126",
+   "members": []
+  },
+  {
+   "name": "Tine Petite Fraîche",
+   "brand": "Tine",
+   "keep": "ean:7038010071423",
+   "members": []
+  },
+  {
+   "name": "Tine Pizzaost",
+   "brand": "Tine",
+   "keep": "ean:7038010068850",
+   "members": []
+  },
+  {
+   "name": "Tine Pizzaost Mozzarella og Norvegia",
+   "brand": "Tine",
+   "keep": "ean:7038010052842",
+   "members": []
+  },
+  {
+   "name": "Tine Port Salut",
+   "brand": "Tine",
+   "keep": "ean:7038010018961",
+   "members": [
+    "ean:7038010019135",
+    "ean:2000101100003"
+   ]
+  },
+  {
+   "name": "Tine Prim Junior",
+   "brand": "Tine",
+   "keep": "ean:7038010030635",
+   "members": []
+  },
+  {
+   "name": "Tine Prim Mager",
+   "brand": "Tine",
+   "keep": "ean:7038010030611",
+   "members": []
+  },
+  {
+   "name": "Tine Prim Original",
+   "brand": "Tine",
+   "keep": "ean:7038010030628",
+   "members": [
+    "ean:7038010030208"
+   ]
+  },
+  {
+   "name": "Tine Proteinrik Lettmelk Laktosefri",
+   "brand": "Tine",
+   "keep": "ean:7038010723728",
+   "members": []
+  },
+  {
+   "name": "Tine Pultost Hedemark",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/norsk-tradisjonsost/produkter/tine-pultost-hedemark",
+   "members": [
+    "ean:7038010022265"
+   ]
+  },
+  {
+   "name": "Tine Pultost Lillehammer",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/norsk-tradisjonsost/produkter/tine-pultost-lillehammer",
+   "members": [
+    "ean:7038010022197"
+   ]
+  },
+  {
+   "name": "Tine Pultost Løiten",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/norsk-tradisjonsost/produkter/tine-pultost-l%C3%B8iten",
+   "members": [
+    "ean:7038010022289"
+   ]
+  },
+  {
+   "name": "Jarlsberg Revet",
+   "brand": "Jarlsberg",
+   "keep": "ean:7038010071645",
+   "members": []
+  },
+  {
+   "name": "Tine Revet Ost Original",
+   "brand": "Tine",
+   "keep": "ean:7038010014307",
+   "members": [
+    "ean:7038010021909",
+    "ean:7038010068843",
+    "ean:7038010063152"
+   ]
+  },
+  {
+   "name": "Tine Revet Ost Ekte",
+   "brand": "Tine",
+   "keep": "ean:7038010066955",
+   "members": []
+  },
+  {
+   "name": "Tine Revet Ost 4 Oster",
+   "brand": "Tine",
+   "keep": "ean:7038010043543",
+   "members": []
+  },
+  {
+   "name": "Tine Revet Ost Pizza",
+   "brand": "Tine",
+   "keep": "ean:7038010069376",
+   "members": []
+  },
+  {
+   "name": "Tine Revet Ost Smaksrik",
+   "brand": "Tine",
+   "keep": "ean:7038010069598",
+   "members": []
+  },
+  {
+   "name": "Tine Ridderost",
+   "brand": "Tine",
+   "keep": "ean:2302191902612",
+   "members": [
+    "ean:7038010019241",
+    "ean:7038010022012",
+    "ean:2000101300007",
+    "ean:7038010019302"
+   ]
+  },
+  {
+   "name": "Tine Rislunsj",
+   "brand": "Tine",
+   "keep": "ean:7038010070846",
+   "members": [
+    "ean:7038010035463",
+    "ean:7038010035524",
+    "ean:7038010056970",
+    "ean:7038010062148",
+    "ean:7038010069000",
+    "ean:7038010070839",
+    "ean:7038010068393",
+    "ean:9031484062148",
+    "ean:7038010068744"
+   ]
+  },
+  {
+   "name": "Tine Rislunsj Uten Tilsatt Sukker",
+   "brand": "Tine",
+   "keep": "ean:7038010064128",
+   "members": []
+  },
+  {
+   "name": "Tine Rømmedipp Paprika og Løk",
+   "brand": "Tine",
+   "keep": "ean:7038010068621",
+   "members": []
+  },
+  {
+   "name": "Tine Rømmekolle",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-r%C3%B8mme/produkter/tine-r%C3%B8mmekolle",
+   "members": [
+    "ean:7038010001420"
+   ]
+  },
+  {
+   "name": "Tine Ryfylkegomme",
+   "brand": "Tine",
+   "keep": "ean:7038010030765",
+   "members": [
+    "ean:7038010030741"
+   ]
+  },
+  {
+   "name": "Tine Salatost i Olje",
+   "brand": "Tine",
+   "keep": "openfoodfacts:7038010572513",
+   "members": [
+    "ean:7038010071607",
+    "ean:7038010071676"
+   ]
+  },
+  {
+   "name": "Tine Salatost Naturell",
+   "brand": "Tine",
+   "keep": "ean:7038010072253",
+   "members": []
+  },
+  {
+   "name": "Tine Selbu Blå",
+   "brand": "Tine",
+   "keep": "ean:7038010021121",
+   "members": [
+    "ean:7038010024726",
+    "ean:7038010058899",
+    "ean:2000141400002"
+   ]
+  },
+  {
+   "name": "Tine Seterrømme",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-r%C3%B8mme/produkter/tine-seterr%C3%B8mme",
+   "members": [
+    "ean:7038010001055",
+    "ean:7038010004858",
+    "ean:7038010402616"
+   ]
+  },
+  {
+   "name": "Tine Smør Setertype",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-sm%C3%B8r/produkter/tine-sm%C3%B8r-setertype",
+   "members": [
+    "ean:7038010010354",
+    "ean:7038010011092"
+   ]
+  },
+  {
+   "name": "Tine Setesdalsmør",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-sm%C3%B8r/produkter/tine-setesdalsm%C3%B8r",
+   "members": [
+    "ean:7038010011054"
+   ]
+  },
+  {
+   "name": "Tine Yoghurt Lett 1,5%",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-vanilje-1kg",
+   "members": [
+    "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-sitron-lime-1kg",
+    "ean:7038010070402",
+    "ean:7038010072475"
+   ]
+  },
+  {
+   "name": "Tine Milkshake Sjokolade",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-milkshake/produkter/tine-milkshake-sjokolade",
+   "members": []
+  },
+  {
+   "name": "Tine Sjokolademelk Uten Tilsatt Sukker",
+   "brand": "Tine",
+   "keep": "ean:7038010066832",
+   "members": []
+  },
+  {
+   "name": "Tine Sjokolademelk Lett",
+   "brand": "Tine",
+   "keep": "ean:7038010034978",
+   "members": []
+  },
+  {
+   "name": "Tine Sjokolademelk Laktosefri",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-laktosefri/produkter/tine-laktosefri-sjokolademelk",
+   "members": [
+    "ean:7038010066689"
+   ]
+  },
+  {
+   "name": "Tine Sjokomelk",
+   "brand": "Tine",
+   "keep": "ean:7038010071591",
+   "members": [
+    "ean:7038010035159",
+    "ean:7038010042461",
+    "ean:7038010068638",
+    "ean:7038010036736"
+   ]
+  },
+  {
+   "name": "Tine Julebrunost",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-julebrunost",
+   "members": [
+    "ean:7038010029073",
+    "ean:7038010029783",
+    "kassalapp:56001"
+   ]
+  },
+  {
+   "name": "Tine Skummet Kulturmelk",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-kulturmjolk/produkter/tinemelk-skummet-kultur",
+   "members": [
+    "ean:7038010002434"
+   ]
+  },
+  {
+   "name": "Tine Skummetmelk",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tinemelk/produkter/tinemelk-skummet-fettfri-melk",
+   "members": [
+    "ean:7038010002151",
+    "ean:7038010065576"
+   ]
+  },
+  {
+   "name": "Tine Smoothie",
+   "brand": "Tine",
+   "keep": "ean:7038010059728",
+   "members": []
+  },
+  {
+   "name": "Tine Smør",
+   "brand": "Tine",
+   "keep": "ean:7038010022548",
+   "members": []
+  },
+  {
+   "name": "Tine Smør Laktosefritt",
+   "brand": "Tine",
+   "keep": "ean:7038010061172",
+   "members": []
+  },
+  {
+   "name": "Tine Usaltet Smør",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-sm%C3%B8r/produkter/tine-usaltet-meierism%C3%B8r",
+   "members": [
+    "ean:7038010011702"
+   ]
+  },
+  {
+   "name": "Tine Smøremyk",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-sm%C3%B8r/produkter/tine-sm%C3%B8remyk",
+   "members": [
+    "ean:7038010073168"
+   ]
+  },
+  {
+   "name": "Snøfrisk Kremost",
+   "brand": "Snøfrisk",
+   "keep": "ean:7038010023736",
+   "members": [
+    "ean:7038010023705",
+    "ean:7038010024887",
+    "ean:7038010024924",
+    "ean:7038010031199"
+   ]
+  },
+  {
+   "name": "Tine Sprett Prim",
+   "brand": "Tine",
+   "keep": "ean:7038010030642",
+   "members": []
+  },
+  {
+   "name": "Tine Sprett Yoghurt",
+   "brand": "Tine",
+   "keep": "kassalapp:28390",
+   "members": []
+  },
+  {
+   "name": "Tine Stølstype Geitost",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-st%C3%B8lstype-geitost",
+   "members": []
+  },
+  {
+   "name": "Tine Styrk Melk",
+   "brand": "Tine",
+   "keep": "ean:7038010042577",
+   "members": [
+    "ean:7038010045929"
+   ]
+  },
+  {
+   "name": "Tine Sunnmørssøst",
+   "brand": "Tine",
+   "keep": "ean:7038010030819",
+   "members": []
+  },
+  {
+   "name": "Tine Taffelost Tomat",
+   "brand": "Tine",
+   "keep": "ean:7038010025617",
+   "members": []
+  },
+  {
+   "name": "Tine Norsk Edamer",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-norsk-edamer/produkter/tine-norsk-edamer",
+   "members": []
+  },
+  {
+   "name": "Tine Prim",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-prim/produkter/tine-prim",
+   "members": []
+  },
+  {
+   "name": "Tine Tropisk Juice",
+   "brand": "Tine",
+   "keep": "ean:7038010007729",
+   "members": []
+  },
+  {
+   "name": "Tine Yoghurt 0% Uten Tilsatt Sukker",
+   "brand": "Tine",
+   "keep": "ean:7038010071119",
+   "members": [
+    "ean:7038010066214"
+   ]
+  },
+  {
+   "name": "Tine Kesam Uten Tilsatt Sukker",
+   "brand": "Tine",
+   "keep": "ean:7038010065569",
+   "members": [
+    "ean:7038010064395"
+   ]
+  },
+  {
+   "name": "Tine Cottage Cheese Mager Vanilje Uten Tilsatt Sukker",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-cottage-cheese/produkter/tine-cottage-cheese-mager-vanilje-uten",
+   "members": []
+  },
+  {
+   "name": "Tine Yoghurt Gresk Type Vanilje",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-gresk-vanilje",
+   "members": [
+    "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-vanilje-gresk-type-730g",
+    "ean:7038010072901",
+    "ean:7038010070358"
+   ]
+  },
+  {
+   "name": "Tine Vaniljekrem",
+   "brand": "Tine",
+   "keep": "ean:7038010036538",
+   "members": []
+  },
+  {
+   "name": "Norvegia Ekstra Vellagret",
+   "brand": "Norvegia",
+   "keep": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-ekstra-vellagret-m-skorpe",
+   "members": [
+    "ean:2302139205164",
+    "ean:2302139205485",
+    "ean:2302139205140"
+   ]
+  },
+  {
+   "name": "Tine Norsk Edamer Vellagret",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-norsk-edamer/produkter/tine-norsk-edamer-vellagret",
+   "members": []
+  },
+  {
+   "name": "Jarlsberg Vellagret",
+   "brand": "Jarlsberg",
+   "keep": "tine:https://www.tine.no/merkevarer/jarlsberg/produkter/jarlsberg-vellagret-m-skorpe",
+   "members": [
+    "ean:2351251405327",
+    "ean:2302436900007",
+    "ean:2302436905026",
+    "ean:2302436905644",
+    "ean:4602893905286",
+    "ean:2302436905446",
+    "ean:2302436905163",
+    "ean:2002436900006"
+   ]
+  },
+  {
+   "name": "Norvegia Vellagret",
+   "brand": "Norvegia",
+   "keep": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-vellagret-m-skorpe",
+   "members": [
+    "ean:2302140604949",
+    "ean:2302679610121",
+    "ean:2302679610145",
+    "ean:2302679610305",
+    "ean:2302679610312",
+    "ean:2302679610527",
+    "ean:2302679610725",
+    "ean:2302679610824",
+    "norgesgruppen:23021406",
+    "ean:2302140600002",
+    "ean:7038010013959",
+    "ean:2302140605243",
+    "matvaretabellen:01.245",
+    "ean:2000100100004",
+    "ean:2000100800003",
+    "norgesgruppen:23026618"
+   ]
+  },
+  {
+   "name": "Tine Junior Yoghurt Klemmepose",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-junior/produkter/tine-junior-yoghurt-jordbaer",
+   "members": [
+    "tine:https://www.tine.no/merkevarer/tine-junior/produkter/tine-junior-yoghurt-banan",
+    "tine:https://www.tine.no/merkevarer/tine-junior/produkter/tine-junior-yoghurt-bringebaer"
+   ]
+  },
+  {
+   "name": "Tine Junior Yoghurt Naturell",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-junior/produkter/tine-junior-yoghurt-naturell",
+   "members": [
+    "ean:7038010073472"
+   ]
+  },
+  {
+   "name": "Tine Yoghurt Med Sjokoladecrisp",
+   "brand": "Tine",
+   "keep": "ean:7038010071997",
+   "members": [
+    "ean:7038010071980"
+   ]
+  },
+  {
+   "name": "Tine Yoghurt Naturell Lett 1,5%",
+   "brand": "Tine",
+   "keep": "ean:7038010072482",
+   "members": []
+  },
+  {
+   "name": "Tine Yoghurt Naturell Laktosefri",
+   "brand": "Tine",
+   "keep": "ean:7038010040436",
+   "members": []
+  },
+  {
+   "name": "Tine Yoghurt Nyt",
+   "brand": "Tine",
+   "keep": "ean:7038010001024",
+   "members": [
+    "ean:7038010006302",
+    "ean:7038010066238",
+    "ean:7038010068973"
+   ]
+  },
+  {
+   "name": "Tine Yoghurt Nyt Lakris",
+   "brand": "Tine",
+   "keep": "kassalapp:24647",
+   "members": [
+    "ean:7038010063589"
+   ]
+  },
+  {
+   "name": "Tine Yoghurt Protein",
+   "brand": "Tine",
+   "keep": "ean:7038010064227",
+   "members": [
+    "ean:7038010064241"
+   ]
+  },
+  {
+   "name": "Tine Yoghurt Vanilje Laktosefri",
+   "brand": "Tine",
+   "keep": "ean:7038010064210",
+   "members": []
+  },
+  {
+   "name": "Tine Yoghurt & Müsli",
+   "brand": "Tine",
+   "keep": "ean:7038010070990",
+   "members": [
+    "ean:7038010070952"
+   ]
+  },
+  {
+   "name": "Tine Yoghurtdrikk",
+   "brand": "Tine",
+   "keep": "ean:7038010073823",
+   "members": []
+  },
+  {
+   "name": "Synnøve Gouda Lettost 16%",
+   "brand": "Synnøve",
+   "keep": "ean:2382669217011",
+   "members": [
+    "ean:2382667310219",
+    "ean:2382667510855",
+    "ean:2382667510671",
+    "ean:2382667509743",
+    "ean:2382667509897",
+    "ean:2382667510046",
+    "ean:2382667510817",
+    "ean:2382667510848",
+    "ean:2382667509651",
+    "ean:2382667509804",
+    "ean:2382667510398",
+    "ean:2382667510503",
+    "ean:2382667509750",
+    "ean:2382667511005",
+    "ean:7034280006691",
+    "ean:5322967510053",
+    "ean:2382667511098",
+    "ean:2082667500008",
+    "ean:2382667509910",
+    "ean:7034280008473"
+   ]
+  },
+  {
+   "name": "Synnøve Gulost Lett 10%",
+   "brand": "Synnøve",
+   "keep": "ean:7034280001948",
+   "members": []
+  },
+  {
+   "name": "Synnøve 3 Oster Revet",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/synnove-3-oster/",
+   "members": [
+    "ean:7032069721421"
+   ]
+  },
+  {
+   "name": "Synnøve Cheddar",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/synnove-cheddar-skivet/",
+   "members": [
+    "ean:7034280009197",
+    "ean:7034280009623",
+    "ean:7034280110572"
+   ]
+  },
+  {
+   "name": "Synnøve Cheddar Revet",
+   "brand": "Synnøve",
+   "keep": "ean:7034280004055",
+   "members": []
+  },
+  {
+   "name": "Synnøve Ekte Revet",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/synnove-ekte-revet-familiepakke-350-g/",
+   "members": [
+    "ean:7034280010254",
+    "ean:7034280111692"
+   ]
+  },
+  {
+   "name": "Synnøve Fløtemysost",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/flotemys/",
+   "members": [
+    "ean:7034280002884",
+    "ean:7034280008503",
+    "synnove:https://www.synnove.no/produkt/synnove-flotemys-skivet-150g/",
+    "ean:7034280002617",
+    "ean:7034280002747",
+    "ean:7034280003027",
+    "ean:7034280003034",
+    "ean:7034280001870"
+   ]
+  },
+  {
+   "name": "Synnøve Frokostkuler",
+   "brand": "Synnøve",
+   "keep": "ean:7034284514208",
+   "members": [
+    "ean:7034280006240"
+   ]
+  },
+  {
+   "name": "Synnøve Fruktbar med Havre",
+   "brand": "Synnøve",
+   "keep": "ean:7034280005304",
+   "members": [
+    "ean:7034280005328"
+   ]
+  },
+  {
+   "name": "Synnøve Fyldig Gulost",
+   "brand": "Synnøve",
+   "keep": "ean:2382664613054",
+   "members": [
+    "ean:2382669017147",
+    "ean:2382664613207"
+   ]
+  },
+  {
+   "name": "Synnøve Gårdsost",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/synnove-gaardsost-800g/",
+   "members": [
+    "norgesgruppen:23826679",
+    "ean:7034280005113",
+    "ean:7034280008800",
+    "ean:2382667900007",
+    "ean:7034280110527",
+    "kassalapp:9335",
+    "ean:7034280008381",
+    "synnove:https://www.synnove.no/produkt/synnove-gaardsost-skivet/",
+    "kassalapp:9341"
+   ]
+  },
+  {
+   "name": "Synnøve Gouda",
+   "brand": "Synnøve",
+   "keep": "ean:7034281178007",
+   "members": [
+    "ean:7034281108004",
+    "ean:2382667413156",
+    "ean:2382667412777",
+    "ean:2382667412258",
+    "ean:2382667412883",
+    "ean:2382667412999",
+    "ean:2382667413033",
+    "ean:2382667413231",
+    "ean:7034281332003",
+    "ean:2382667413088"
+   ]
+  },
+  {
+   "name": "Synnøve Gouda Laktosefri",
+   "brand": "Synnøve",
+   "keep": "ean:2382667413514",
+   "members": []
+  },
+  {
+   "name": "Synnøve Granola Honningristede Pekannøtter",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/glutenfri-granola-med-honningristede-pekannotter/",
+   "members": [
+    "synnove:https://www.synnove.no/produkt/granola-honningristede-pekannotter/",
+    "ean:7034280005489",
+    "ean:7071319033884"
+   ]
+  },
+  {
+   "name": "Synnøve Granola Jordbær",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/granola-jordbaer/",
+   "members": [
+    "ean:7034280008824",
+    "ean:7034280000866",
+    "ean:7034280010582"
+   ]
+  },
+  {
+   "name": "Synnøve Gresk Yoghurt Naturell",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/gresk-yoghurt-naturell/",
+   "members": [
+    "ean:7034280004956",
+    "ean:6033285582002",
+    "openfoodfacts:08627700",
+    "ean:6030284582002",
+    "ean:7034280010728",
+    "synnove:https://www.synnove.no/produkt/gresk-yoghurt-naturell-750g/",
+    "ean:7034281586000"
+   ]
+  },
+  {
+   "name": "Synnøve Gresk Yoghurt Naturell 0%",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/synnove-gresk-yoghurt-naturell-0-prosent-750g/",
+   "members": [
+    "ean:7034280111494"
+   ]
+  },
+  {
+   "name": "Synnøve Gresk Yoghurt Naturell 10%",
+   "brand": "Synnøve",
+   "keep": "kassalapp:3921",
+   "members": [
+    "ean:7034280004932",
+    "ean:7034280009760",
+    "ean:7034280110299"
+   ]
+  },
+  {
+   "name": "Synnøve Gresk Yoghurt Naturell 10% Laktosefri",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/gresk-laktosefri-naturell-yoghurt-10-prosent/",
+   "members": []
+  },
+  {
+   "name": "Synnøve Økologisk Gresk Yoghurt Naturell",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/synnove-okologisk-gresk-yoghurt-naturell-2-prosent-750g/",
+   "members": []
+  },
+  {
+   "name": "Synnøve Gresk Yoghurt Vanilje",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/gresk-yoghurt-med-vanilje/",
+   "members": [
+    "kassalapp:20533",
+    "synnove:https://www.synnove.no/produkt/gresk-yoghurt-med-vanilje-750g/",
+    "ean:7034280110169",
+    "ean:7034280003089",
+    "ean:7034280003997",
+    "ean:7034281583009"
+   ]
+  },
+  {
+   "name": "Synnøve Gresk Gourmet Yoghurt",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/gresk-gourmet-cookies-cream/",
+   "members": [
+    "synnove:https://www.synnove.no/produkt/gresk-gourmet-yoghurt-kremet-bringebaer/",
+    "synnove:https://www.synnove.no/produkt/gresk-gourmet-salted-caramel/",
+    "synnove:https://www.synnove.no/produkt/gresk-gourmet-yoghurt-sjokobiter/",
+    "ean:6033284006516",
+    "ean:7034280009272",
+    "ean:7034280109972",
+    "ean:7034280006523",
+    "ean:7034280002914",
+    "ean:7034280003126"
+   ]
+  },
+  {
+   "name": "Synnøve Gresk Proteinyoghurt",
+   "brand": "Synnøve",
+   "keep": "ean:7034280008671",
+   "members": [
+    "ean:7034280008664"
+   ]
+  },
+  {
+   "name": "Synnøve Gresk Smøre",
+   "brand": "Synnøve",
+   "keep": "ean:7034280006455",
+   "members": []
+  },
+  {
+   "name": "Synnøve Grillost",
+   "brand": "Synnøve",
+   "keep": "ean:7034280004307",
+   "members": []
+  },
+  {
+   "name": "Synnøve Gudbrand Brunost",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/gudbrand/",
+   "members": [
+    "ean:7034280002730",
+    "ean:7034280002853",
+    "ean:7034280003010",
+    "ean:7034280001863",
+    "ean:7034280008404",
+    "synnove:https://www.synnove.no/produkt/synnove-gudbrand-skivet-150g/"
+   ]
+  },
+  {
+   "name": "Synnøve Gulost Original",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/synnove-gulost/",
+   "members": [
+    "ean:2382663910901",
+    "ean:2382663909486",
+    "ean:2382663909585",
+    "ean:2382663910185",
+    "ean:2382663910376",
+    "ean:2382663910451",
+    "ean:2382663910475",
+    "ean:2382663910697",
+    "ean:2382663910727",
+    "ean:2382663910758",
+    "ean:2382663910888",
+    "ean:2382664613580",
+    "ean:2382669016652",
+    "ean:7034281152007",
+    "ean:2382663910093",
+    "ean:2382663910277",
+    "ean:2382663910499",
+    "ean:2382663910604",
+    "ean:2382663910734",
+    "ean:2382663910857",
+    "ean:2382664512647",
+    "ean:2382663909806",
+    "ean:2382663910390",
+    "kassalapp:28470",
+    "ean:7034281278004",
+    "ean:2382663910116",
+    "ean:2382664512968",
+    "ean:7034281131002",
+    "norgesgruppen:23826645",
+    "ean:7034280001771",
+    "ean:7034280008220",
+    "ean:2382664500002",
+    "ean:2382663900001",
+    "ean:7034280001764",
+    "ean:7034280001757",
+    "ean:7034280001795",
+    "ean:7034280006721",
+    "ean:2382663910000",
+    "ean:2382663910017",
+    "ean:2382663910314",
+    "ean:2382663910482",
+    "ean:2382664613924",
+    "ean:2382669417503",
+    "synnove:https://www.synnove.no/produkt/synnove-gulost-skivet-150g/",
+    "synnove:https://www.synnove.no/produkt/synnove-gulost-skivet-250g-2pk/",
+    "synnove:https://www.synnove.no/produkt/synnove-gulost-skivet-285g/",
+    "ean:2382663910543",
+    "ean:2382663911113",
+    "ean:7034281142008",
+    "ean:2382663910369",
+    "ean:2382663910895",
+    "ean:7034280001788",
+    "ean:2382663909608",
+    "ean:2382663910741",
+    "ean:2382663910291",
+    "ean:2382663910550",
+    "ean:2382663910574",
+    "ean:7329663910789",
+    "ean:2382664513514",
+    "ean:2382669417213"
+   ]
+  },
+  {
+   "name": "Synnøve Gulost Ekte Revet",
+   "brand": "Synnøve",
+   "keep": "ean:7034280001849",
+   "members": []
+  },
+  {
+   "name": "Synnøve Lett Gulost 16%",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/lett-gulost-40-prosent-mindre-fett/",
+   "members": [
+    "norgesgruppen:23826673",
+    "ean:7034280008442",
+    "norgesgruppen:23826676",
+    "ean:7034280001818",
+    "ean:2382667600006",
+    "ean:7034280001801",
+    "ean:7034280000149",
+    "ean:2382669218001",
+    "ean:2382667309640",
+    "ean:2382667309763",
+    "ean:2382667309824",
+    "ean:2382667309985",
+    "ean:2382667310233",
+    "ean:2382667310585",
+    "ean:2382667310646",
+    "ean:2382667310776",
+    "ean:2382667310929",
+    "ean:2382667311018",
+    "ean:2382667311032",
+    "ean:2382669216472",
+    "ean:2382669217356",
+    "openfoodfacts:0070667310455",
+    "ean:2382668512896",
+    "kassalapp:24408",
+    "ean:2382667310851",
+    "ean:2382667510688",
+    "ean:2382667310103",
+    "ean:2382667612917",
+    "ean:2382667613112",
+    "ean:2382667309800",
+    "ean:2382667310462",
+    "ean:2382667310516",
+    "ean:2382667613181",
+    "ean:2382667613235",
+    "ean:2382667310769",
+    "ean:2382667309879",
+    "ean:2382667310042",
+    "ean:2382667310066",
+    "ean:2382667310356",
+    "ean:2382667310400",
+    "ean:2382667310431",
+    "ean:2382667310479",
+    "ean:2382668512810",
+    "ean:2382668513275",
+    "ean:2382668513428",
+    "ean:2382669217516",
+    "ean:2382669216328",
+    "ean:2382667309831",
+    "ean:2382667309961",
+    "ean:2382667310301",
+    "ean:2382667310981",
+    "ean:2382667510756",
+    "ean:2382668512889",
+    "ean:2382668513053",
+    "ean:2382667310523",
+    "ean:2382667311063",
+    "ean:2382667613587",
+    "ean:2382667510237",
+    "ean:2382668512483",
+    "ean:2382667310165",
+    "ean:2382667310639",
+    "ean:2382667310370",
+    "ean:2382667310394",
+    "ean:2382667310448",
+    "ean:2382667310547",
+    "ean:2382668512018",
+    "ean:2382668512759",
+    "synnove:https://www.synnove.no/produkt/synnove-lettost-veievare-1kg/",
+    "ean:2382668513060",
+    "ean:2382667310080",
+    "ean:2382667310295",
+    "ean:2382667300005",
+    "ean:2382667310608"
+   ]
+  },
+  {
+   "name": "Synnøve Lettost 10%",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/synnove-lettost-10-prosent/",
+   "members": [
+    "ean:7034280000132",
+    "ean:7034280008435",
+    "synnove:https://www.synnove.no/produkt/synnove-lettost-skivet-10-prosent/"
+   ]
+  },
+  {
+   "name": "Synnøve Gulost og Cheddar",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/synnove-gulost-cheddar-170g/",
+   "members": [
+    "ean:7034280008022"
+   ]
+  },
+  {
+   "name": "Synnøve Gulost og Mozzarella",
+   "brand": "Synnøve",
+   "keep": "ean:7034280010049",
+   "members": []
+  },
+  {
+   "name": "Synnøve Gudbrandsdalsost",
+   "brand": "Synnøve",
+   "keep": "ean:7034284268002",
+   "members": []
+  },
+  {
+   "name": "Synnøve Italiano Revet Ost",
+   "brand": "Synnøve",
+   "keep": "kassalapp:69649",
+   "members": []
+  },
+  {
+   "name": "Synnøve Julebrunost",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/julebrunost/",
+   "members": [
+    "ean:7034280008282",
+    "ean:7034280010568",
+    "synnove:https://www.synnove.no/produkt/synnove-julebrunost-skivet-120g/"
+   ]
+  },
+  {
+   "name": "Synnøve Karamellpudding",
+   "brand": "Synnøve",
+   "keep": "ean:7034280004420",
+   "members": []
+  },
+  {
+   "name": "Synnøve Kardemommebrunost",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/synnove-kardemomme-brunost/",
+   "members": [
+    "ean:7034280010971"
+   ]
+  },
+  {
+   "name": "Synnøve Klemmeost",
+   "brand": "Synnøve",
+   "keep": "ean:7034280002839",
+   "members": [
+    "ean:7034280002815",
+    "ean:7034280002822",
+    "ean:7034280003928"
+   ]
+  },
+  {
+   "name": "Synnøve Klemmeost Lett",
+   "brand": "Synnøve",
+   "keep": "ean:7034280003898",
+   "members": []
+  },
+  {
+   "name": "Synnøve Kongsgård",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/synnove-kongsgard/",
+   "members": [
+    "ean:7034280008060",
+    "ean:7034280008053",
+    "ean:7034280008497",
+    "synnove:https://www.synnove.no/produkt/synnove-kongsgard-skivet-120/"
+   ]
+  },
+  {
+   "name": "Synnøve Kryddersmør",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/kryddersmor-hvitlok/",
+   "members": [
+    "ean:7034281412002",
+    "ean:7034281413009",
+    "synnove:https://www.synnove.no/produkt/kryddersmor-paprika/",
+    "synnove:https://www.synnove.no/produkt/kryddersmor-paprika-og-hvitlok/"
+   ]
+  },
+  {
+   "name": "Synnøve Kvarg Blåbær",
+   "brand": "Synnøve",
+   "keep": "ean:7034280000613",
+   "members": []
+  },
+  {
+   "name": "Synnøve Lettost med Mozzarella",
+   "brand": "Synnøve",
+   "keep": "ean:7034280111685",
+   "members": [
+    "openfoodfacts:0703428011168",
+    "openfoodfacts:07034280"
+   ]
+  },
+  {
+   "name": "Synnøve Lettost Revet",
+   "brand": "Synnøve",
+   "keep": "ean:7034280003621",
+   "members": []
+  },
+  {
+   "name": "Synnøve Matpakkesnurrer Ost & Pepperoni",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/synnove-matpakkesnurrer-ost-pepperoni/",
+   "members": [
+    "ean:7034280009067"
+   ]
+  },
+  {
+   "name": "Synnøve Matpakkesnurrer Ost & Tomat",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/matpakkesnurrer-ost-tomat/",
+   "members": [
+    "ean:7034280007858"
+   ]
+  },
+  {
+   "name": "Synnøve Mild & Fyldig Gulost",
+   "brand": "Synnøve",
+   "keep": "ean:2382664613115",
+   "members": [
+    "ean:2382664612842",
+    "ean:2382669017086"
+   ]
+  },
+  {
+   "name": "Synnøve Mild & Snill Brunost",
+   "brand": "Synnøve",
+   "keep": "ean:7034280006462",
+   "members": [
+    "ean:0000002734699"
+   ]
+  },
+  {
+   "name": "Synnøve Mozzarella Revet",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/mozzarella-revet-170g/",
+   "members": [
+    "ean:7034280008039",
+    "ean:7034280010117",
+    "synnove:https://www.synnove.no/produkt/synnove-revet-mozzarella-cubetti/",
+    "ean:7034280005137",
+    "ean:7034280111715"
+   ]
+  },
+  {
+   "name": "Synnøve Mini Müslibar Salt Karamell",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/mini-muslibar-salt-karamell/",
+   "members": [
+    "ean:7034280010780"
+   ]
+  },
+  {
+   "name": "Synnøve Gulost Lett 16%",
+   "brand": "Synnøve",
+   "keep": "ean:2382668512490",
+   "members": []
+  },
+  {
+   "name": "Synnøve Revet Økonomipakke",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/revet-okonomipakke/",
+   "members": [
+    "ean:7034280000750",
+    "ean:7034280010247",
+    "ean:7034280002112",
+    "ean:7034280010865",
+    "ean:7034281447004",
+    "ean:7034281442009"
+   ]
+  },
+  {
+   "name": "Synnøve Revet Ostemix",
+   "brand": "Synnøve",
+   "keep": "ean:7034280008015",
+   "members": [
+    "ean:7034281455009",
+    "ean:7034281136502"
+   ]
+  },
+  {
+   "name": "Synnøve Ostesnacks Cheddar",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/ostesnacks-cheddar/",
+   "members": []
+  },
+  {
+   "name": "Synnøve Ostesnacks Rabagast",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/ostesnacks-rabagast/",
+   "members": []
+  },
+  {
+   "name": "Synnøve Glutenfri Pizzaboller",
+   "brand": "Synnøve",
+   "keep": "ean:7071319033013",
+   "members": []
+  },
+  {
+   "name": "Synnøve Prim",
+   "brand": "Synnøve",
+   "keep": "ean:7034281164000",
+   "members": []
+  },
+  {
+   "name": "Synnøve Protein Gulost",
+   "brand": "Synnøve",
+   "keep": "ean:7034280009791",
+   "members": [
+    "kassalapp:214177"
+   ]
+  },
+  {
+   "name": "Synnøve Proteingranola",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/proteingranola/",
+   "members": [
+    "ean:7034280110015",
+    "kassalapp:250138"
+   ]
+  },
+  {
+   "name": "Synnøve Proteinpannekaker",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/proteinpannekaker-original/",
+   "members": [
+    "ean:0703428009975",
+    "ean:7034280000095",
+    "ean:7034280009975"
+   ]
+  },
+  {
+   "name": "Synnøve Proteinyoghurt",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/proteinyoghurt-vanilje-350g/",
+   "members": [
+    "ean:7034280010735",
+    "ean:7034280109965",
+    "ean:7034280009821",
+    "synnove:https://www.synnove.no/produkt/proteinyoghurt-blabaer-350g/",
+    "kassalapp:219842",
+    "ean:7034280009807",
+    "synnove:https://www.synnove.no/produkt/proteinyoghurt-salt-karamell-350g/",
+    "ean:7034280010018",
+    "kassalapp:213167",
+    "kassalapp:213507"
+   ]
+  },
+  {
+   "name": "Synnøve Rå Kaldpresset Ginger Passion",
+   "brand": "Synnøve",
+   "keep": "ean:7034280001740",
+   "members": []
+  },
+  {
+   "name": "Synnøve Rå Kaldpresset Appelsin",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/ra-appelsin-med-fruktkjott/",
+   "members": [
+    "synnove:https://www.synnove.no/produkt/ra-appelsin-uten-fruktkj%C3%B8tt/",
+    "ean:7034280007124"
+   ]
+  },
+  {
+   "name": "Synnøve Rå Kaldpresset Eple",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/raa-epler-golden-delicious/",
+   "members": [
+    "ean:7034280001337"
+   ]
+  },
+  {
+   "name": "Synnøve Rå Limejuice",
+   "brand": "Synnøve",
+   "keep": "ean:7034280006417",
+   "members": []
+  },
+  {
+   "name": "Synnøve Rabagast",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/rabagast/",
+   "members": [
+    "ean:2382667205126",
+    "ean:2382667205201",
+    "ean:7034280003836",
+    "ean:7034280110565",
+    "ean:7034280010858",
+    "ean:7034280008787",
+    "synnove:https://www.synnove.no/produkt/rabagast_skivet/",
+    "synnove:https://www.synnove.no/produkt/rabagast-36/",
+    "synnove:https://www.synnove.no/produkt/synnove-rabagast-480g/"
+   ]
+  },
+  {
+   "name": "Synnøve Revet Lett 17%",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/revet-lett/",
+   "members": [
+    "ean:17034280003611",
+    "ean:7034280003614"
+   ]
+  },
+  {
+   "name": "Synnøve Revet Lett 16%",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/synnove-revet-lett-170g/",
+   "members": []
+  },
+  {
+   "name": "Synnøve Original Rømmedressing",
+   "brand": "Synnøve",
+   "keep": "ean:7046280079902",
+   "members": []
+  },
+  {
+   "name": "Synnøve Rosa-Stjerna",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/synnove-rosa-stjerna/",
+   "members": []
+  },
+  {
+   "name": "Synnøve Sjoko Loco",
+   "brand": "Synnøve",
+   "keep": "ean:7034280005212",
+   "members": []
+  },
+  {
+   "name": "Synnøve Skrella Mozzarella Ostestenger",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/skrella-mozzarella-ostestenger/",
+   "members": [
+    "ean:7034280000569",
+    "ean:7034280009098"
+   ]
+  },
+  {
+   "name": "Synnøve Therese Johaug Brunost",
+   "brand": "Synnøve",
+   "keep": "ean:7034280009999",
+   "members": []
+  },
+  {
+   "name": "Synnøve Gresk Yoghurt med Vanilje og Granola",
+   "brand": "Synnøve",
+   "keep": "ean:7034280110756",
+   "members": []
+  },
+  {
+   "name": "Synnøve Gresk Yoghurt Sitron 0%",
+   "brand": "Synnøve",
+   "keep": "ean:7034281516007",
+   "members": [
+    "ean:7034281515000",
+    "ean:7034281517004"
+   ]
+  },
+  {
+   "name": "Synnøve Gresk Yoghurt Duo Mango, Fersken & Pekan",
+   "brand": "Synnøve",
+   "keep": "ean:7034280005038",
+   "members": [
+    "ean:7034280002686"
+   ]
+  },
+  {
+   "name": "Synnøve Gresk Yoghurt Uten Tilsatt Sukker",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/gresk-uten-tilsatt-sukker-med-granateple--rose/",
+   "members": [
+    "synnove:https://www.synnove.no/produkt/gresk-uten-tilsatt-sukker-med-granateple--rose-350g/",
+    "synnove:https://www.synnove.no/produkt/80-yoghurt-pasteurisertskummetmelkyoghurtkultur/",
+    "ean:7034280004987",
+    "kassalapp:9370",
+    "kassalapp:20482",
+    "ean:7034280003935"
+   ]
+  },
+  {
+   "name": "Norvegia Nøkkelost",
+   "brand": "Norvegia",
+   "keep": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-n%C3%B8kkel",
+   "members": [
+    "ean:2302687100003",
+    "ean:2302687104834",
+    "ean:2302687104032",
+    "ean:2302687104339",
+    "ean:2302687104629",
+    "ean:2302687104667",
+    "norgesgruppen:23026871",
+    "ean:7038010068720"
+   ]
+  },
+  {
+   "name": "Norvegia Nøkkelost Lett",
+   "brand": "Norvegia",
+   "keep": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-n%C3%B8kkel-lett",
+   "members": [
+    "ean:7038010068737"
+   ]
+  },
+  {
+   "name": "Norvegia Fyldig",
+   "brand": "Norvegia",
+   "keep": "matvaretabellen:01.247",
+   "members": [
+    "ean:7038010024382"
+   ]
+  },
+  {
+   "name": "Norvegia Økologisk",
+   "brand": "Norvegia",
+   "keep": "matvaretabellen:01.246",
+   "members": [
+    "ean:7038010021718"
+   ]
+  },
+  {
+   "name": "Norvegia 15+ Mnd",
+   "brand": "Norvegia",
+   "keep": "norgesgruppen:1321",
+   "members": [
+    "norgesgruppen:9080"
+   ]
+  },
+  {
+   "name": "Norvegia 9+ Mnd",
+   "brand": "Norvegia",
+   "keep": "norgesgruppen:1001",
+   "members": []
+  },
+  {
+   "name": "Norvegia 3-5 År",
+   "brand": "Norvegia",
+   "keep": "norgesgruppen:1220",
+   "members": []
+  },
+  {
+   "name": "Norvegia Lett Chiliost",
+   "brand": "Norvegia",
+   "keep": "ean:7038010069574",
+   "members": []
+  },
+  {
+   "name": "Norvegia Lett",
+   "brand": "Norvegia",
+   "keep": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-lettost-16-fett",
+   "members": [
+    "ean:2302693410592",
+    "ean:2302693409183",
+    "ean:2302693409800",
+    "ean:2302693410066",
+    "ean:2302693410080",
+    "ean:2302693410240",
+    "ean:2302693410257",
+    "ean:2302693410400",
+    "ean:2302693410608",
+    "ean:2302693410639",
+    "ean:2302693410752",
+    "ean:2302693410868",
+    "ean:2302693410875",
+    "ean:2302693411209",
+    "ean:2302693411643",
+    "openfoodfacts:0302693410622",
+    "matvaretabellen:01.040",
+    "ean:7038010072543",
+    "ean:2302693400005",
+    "ean:7038010016745",
+    "norgesgruppen:23021675",
+    "norgesgruppen:23026934",
+    "norgesgruppen:23027197",
+    "norgesgruppen:23027273",
+    "ean:2302693409305",
+    "ean:2302693410165",
+    "ean:2302693411063",
+    "ean:2302693410486",
+    "ean:2302693411308",
+    "ean:2302693411391",
+    "ean:2302693411100",
+    "ean:2302727304866",
+    "ean:2302693409664",
+    "ean:2302693410004",
+    "ean:2302693410028",
+    "ean:2302693410318",
+    "ean:2302693410424",
+    "ean:2302693410967",
+    "ean:2302693409503",
+    "ean:2302693410202",
+    "ean:2302693410448",
+    "ean:7038010069079",
+    "ean:7038010069338",
+    "ean:2302693409589",
+    "ean:2302693410288",
+    "ean:2302693410349",
+    "ean:2302693410646",
+    "ean:2302693410745",
+    "ean:2302693410882",
+    "ean:2302693411087",
+    "ean:2302727305085",
+    "ean:7038010069734",
+    "ean:2302693410042",
+    "ean:2302693410783",
+    "ean:2302693410585",
+    "ean:2302693410707",
+    "ean:2302693410806",
+    "kassalapp:67040",
+    "ean:2302697400001",
+    "ean:2302693410509",
+    "ean:2302693410547",
+    "ean:2302725521883",
+    "ean:2302693410660",
+    "ean:2302693411223",
+    "ean:2302693410189",
+    "ean:2302693410844",
+    "ean:7038010016783",
+    "ean:2302725521463",
+    "ean:2302693410363",
+    "ean:7331494129988",
+    "ean:2302725500000",
+    "kassalapp:213166",
+    "ean:7038010072437",
+    "kassalapp:213619"
+   ]
+  },
+  {
+   "name": "Norvegia Smaksrik",
+   "brand": "Norvegia",
+   "keep": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-smaksrik",
+   "members": [
+    "ean:7038010022340",
+    "ean:7038010022357"
+   ]
+  },
+  {
+   "name": "Norvegia Reserve",
+   "brand": "Norvegia",
+   "keep": "ean:2100122012474",
+   "members": []
+  },
+  {
+   "name": "Norvegia Revet",
+   "brand": "Norvegia",
+   "keep": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-revet",
+   "members": [
+    "ean:7038010071768",
+    "ean:7038010062322"
+   ]
+  },
+  {
+   "name": "Norvegia Smøreost",
+   "brand": "Norvegia",
+   "keep": "ean:7038010066849",
+   "members": [
+    "kassalapp:23646",
+    "ean:7038010066856"
+   ]
+  },
+  {
+   "name": "Norvegia Smøreost Lett",
+   "brand": "Norvegia",
+   "keep": "ean:7038010069550",
+   "members": [
+    "ean:7038010069567",
+    "ean:7038010068317"
+   ]
+  },
+  {
+   "name": "Go'morgen Grøt",
+   "brand": "Go'morgen",
+   "keep": "ean:7038010065514",
+   "members": []
+  },
+  {
+   "name": "Go'morgen Yoghurt Morell og Vanilje",
+   "brand": "Go'morgen",
+   "keep": "ean:7038010070648",
+   "members": []
+  },
+  {
+   "name": "Go'morgen Yoghurt",
+   "brand": "Go'morgen",
+   "keep": "ean:7038010068249",
+   "members": [
+    "ean:7038010008504",
+    "ean:7038010008559",
+    "ean:7038010068218",
+    "ean:7038010068225",
+    "ean:7038010068201",
+    "ean:7038010068195",
+    "ean:7038010003462",
+    "ean:7038010059360"
+   ]
+  },
+  {
+   "name": "Go'morgen Yoghurt Uten Müsli Uten Tilsatt Sukker",
+   "brand": "Go'morgen",
+   "keep": "ean:7038010068324",
+   "members": []
+  },
+  {
+   "name": "Kavli Ädelost",
+   "brand": "Kavli",
+   "keep": "ean:7311440016364",
+   "members": [
+    "ean:7311441010903"
+   ]
+  },
+  {
+   "name": "Kavli Ekologisk Majonnäs",
+   "brand": "Kavli",
+   "keep": "ean:7311442123800",
+   "members": [
+    "ean:7311442123817",
+    "ean:7311442114709"
+   ]
+  },
+  {
+   "name": "Kavli Vegansk Majonnäs",
+   "brand": "Kavli",
+   "keep": "ean:7311442111401",
+   "members": []
+  },
+  {
+   "name": "Kavli Amerikansk Dressing Light",
+   "brand": "Kavli",
+   "keep": "ean:7311442160300",
+   "members": []
+  },
+  {
+   "name": "Kavli Baconost",
+   "brand": "Kavli",
+   "keep": "kavli:https://www.kavli.no/produkter/baconost",
+   "members": [
+    "ean:7041810126989",
+    "ean:7041810010387",
+    "ean:7041810013906",
+    "ean:7311441160608",
+    "ean:7311441343308",
+    "ean:7041810010486",
+    "ean:7041810013975",
+    "ean:7311441440069"
+   ]
+  },
+  {
+   "name": "Bärry Jordgubb Smultron",
+   "brand": "Bärry",
+   "keep": "ean:7311443210202",
+   "members": []
+  },
+  {
+   "name": "Kavli Min Kavlifavoritt Brie",
+   "brand": "Kavli",
+   "keep": "kavli:https://www.kavli.no/produkter/min-kavlifavoritt-brie",
+   "members": [
+    "ean:7041810125463",
+    "ean:7311441121753"
+   ]
+  },
+  {
+   "name": "Kavli Champinjonost",
+   "brand": "Kavli",
+   "keep": "ean:7311441164408",
+   "members": [
+    "ean:7311440026837"
+   ]
+  },
+  {
+   "name": "Kavli Smaksrik Cheddar & Chili",
+   "brand": "Kavli",
+   "keep": "kavli:https://www.kavli.no/produkter/smaksrikcheddarchili",
+   "members": [
+    "ean:7041810013197",
+    "ean:7041810913657",
+    "ean:7311441165603"
+   ]
+  },
+  {
+   "name": "Kavli Chèvre",
+   "brand": "Kavli",
+   "keep": "ean:7311441165702",
+   "members": []
+  },
+  {
+   "name": "Kavli Chili Paprika Smøreost",
+   "brand": "Kavli",
+   "keep": "ean:7041810010455",
+   "members": []
+  },
+  {
+   "name": "Kavli Curry Ananas Smøreost",
+   "brand": "Kavli",
+   "keep": "ean:7041810010479",
+   "members": []
+  },
+  {
+   "name": "Kavli Favorito Ost",
+   "brand": "Kavli",
+   "keep": "ean:7041810002672",
+   "members": []
+  },
+  {
+   "name": "Kavli Chorizo & Cheddar",
+   "brand": "Kavli",
+   "keep": "ean:7041810016877",
+   "members": [
+    "ean:7311441165351"
+   ]
+  },
+  {
+   "name": "Korni Flatbrød",
+   "brand": "Korni",
+   "keep": "kavli:https://www.kavli.no/produkter/flatbrod-korni-copy",
+   "members": [
+    "kavli:https://www.kavli.no/produkter/flatbrod-korni"
+   ]
+  },
+  {
+   "name": "Kavli Greek Style Gurt Soja Natural",
+   "brand": "Kavli",
+   "keep": "ean:7311440600563",
+   "members": []
+  },
+  {
+   "name": "Kavli Cheesy Greens Grillet Paprika Sriracha",
+   "brand": "Kavli",
+   "keep": "ean:7041810121038",
+   "members": []
+  },
+  {
+   "name": "Kavli Hamburgerdressing Sourcream",
+   "brand": "Kavli",
+   "keep": "ean:7311442162007",
+   "members": []
+  },
+  {
+   "name": "HaPå Original",
+   "brand": "HaPå",
+   "keep": "kavli:https://www.kavli.no/produkter/hapa-original",
+   "members": [
+    "ean:7041810016136"
+   ]
+  },
+  {
+   "name": "Kavli Smaksrik Jalapeñoost",
+   "brand": "Kavli",
+   "keep": "kavli:https://www.kavli.no/produkter/SmaksrikJalapenoOst",
+   "members": [
+    "ean:7311441343902",
+    "ean:7041810010059"
+   ]
+  },
+  {
+   "name": "Hultbergs Starka Senap",
+   "brand": "Hultbergs",
+   "keep": "ean:7310156001480",
+   "members": []
+  },
+  {
+   "name": "Kavli Hvitost",
+   "brand": "Kavli",
+   "keep": "ean:7041810010318",
+   "members": []
+  },
+  {
+   "name": "Kavli Juleost med Blåmuggost",
+   "brand": "Kavli",
+   "keep": "ean:7041810019786",
+   "members": []
+  },
+  {
+   "name": "Kavli Karveost",
+   "brand": "Kavli",
+   "keep": "kavli:https://www.kavli.no/produkter/karveost",
+   "members": [
+    "ean:7041810013746"
+   ]
+  },
+  {
+   "name": "Kavli Kaviar 60%",
+   "brand": "Kavli",
+   "keep": "ean:7048840213603",
+   "members": []
+  },
+  {
+   "name": "Korni Fullkorn Rugkjeks",
+   "brand": "Korni",
+   "keep": "ean:7041810005710",
+   "members": []
+  },
+  {
+   "name": "Korni Sibas Havrekjeks",
+   "brand": "Korni",
+   "keep": "kavli:https://www.kavli.no/produkter/korni-sibas-havrekjeks",
+   "members": [
+    "ean:7045910003478"
+   ]
+  },
+  {
+   "name": "Kavli Kräftost",
+   "brand": "Kavli",
+   "keep": "ean:7311441160400",
+   "members": [
+    "ean:7311441340505",
+    "ean:7311441343209"
+   ]
+  },
+  {
+   "name": "Kavli Magerost",
+   "brand": "Kavli",
+   "keep": "kavli:https://www.kavli.no/produkter/magerost-naturell-tube",
+   "members": [
+    "kavli:https://www.kavli.no/produkter/magerost-jalapeno",
+    "kavli:https://www.kavli.no/produkter/magerost-kylling",
+    "kavli:https://www.kavli.no/produkter/magerost-skinke",
+    "ean:7041810013784",
+    "kavli:https://www.kavli.no/produkter/magerost-chili-pepper-hvitlok",
+    "ean:7041810013760",
+    "ean:7041810010134",
+    "ean:7041810010165",
+    "ean:7041810128921",
+    "ean:7041810010493",
+    "ean:7041810010073",
+    "ean:7041810011247",
+    "ean:0002184101344"
+   ]
+  },
+  {
+   "name": "Kavli Max Green & Garlic Dressing",
+   "brand": "Kavli",
+   "keep": "ean:7350042721719",
+   "members": []
+  },
+  {
+   "name": "Kavli Mildost",
+   "brand": "Kavli",
+   "keep": "ean:2358440012892",
+   "members": [
+    "ean:7311441340109",
+    "ean:7311441343001",
+    "ean:7311440012892"
+   ]
+  },
+  {
+   "name": "Kavli Min Favoritt Parmesan & Spekeskinke",
+   "brand": "Kavli",
+   "keep": "ean:7041810120666",
+   "members": []
+  },
+  {
+   "name": "Kavli Mjuk Raket",
+   "brand": "Kavli",
+   "keep": "ean:7311441165283",
+   "members": []
+  },
+  {
+   "name": "Kavli Mjukost Chipotle",
+   "brand": "Kavli",
+   "keep": "ean:7311441165238",
+   "members": []
+  },
+  {
+   "name": "Kavli Ost med Jalapeño",
+   "brand": "Kavli",
+   "keep": "ean:7041810015474",
+   "members": []
+  },
+  {
+   "name": "Primula Smøreost Naturell",
+   "brand": "Primula",
+   "keep": "ean:7041810007325",
+   "members": []
+  },
+  {
+   "name": "Kavli Räk & Kräftost",
+   "brand": "Kavli",
+   "keep": "ean:7311441343506",
+   "members": [
+    "ean:7311441160509",
+    "ean:7311441341403",
+    "ean:7311441344107"
+   ]
+  },
+  {
+   "name": "Kavli Räkost Laktosfri",
+   "brand": "Kavli",
+   "keep": "ean:7311441110306",
+   "members": []
+  },
+  {
+   "name": "Kavli Remouladsås",
+   "brand": "Kavli",
+   "keep": "ean:7311442061607",
+   "members": [
+    "ean:7311442112101"
+   ]
+  },
+  {
+   "name": "Kavli Salamiost",
+   "brand": "Kavli",
+   "keep": "ean:7041810008537",
+   "members": []
+  },
+  {
+   "name": "Kavli Skagenost",
+   "brand": "Kavli",
+   "keep": "ean:7311441160707",
+   "members": []
+  },
+  {
+   "name": "Kavli Skinkeost",
+   "brand": "Kavli",
+   "keep": "kavli:https://www.kavli.no/produkter/skinkeost",
+   "members": [
+    "ean:7041810010462",
+    "ean:7041810126972",
+    "ean:7041810010394",
+    "ean:7041810128099",
+    "kavli:https://www.kavli.no/produkter/skinkeost-beger",
+    "ean:7311440026752",
+    "ean:7311440027667",
+    "ean:7311441343407"
+   ]
+  },
+  {
+   "name": "Kavli Smaksrik Sriracha",
+   "brand": "Kavli",
+   "keep": "kavli:https://www.kavli.no/produkter/smaksriksriracha",
+   "members": [
+    "ean:7041810131976",
+    "ean:7311441165276"
+   ]
+  },
+  {
+   "name": "Kavli Smörgås Pickles",
+   "brand": "Kavli",
+   "keep": "ean:7311440050252",
+   "members": []
+  },
+  {
+   "name": "Västerviks Senap Grov",
+   "brand": "Västerviks",
+   "keep": "ean:7310155601018",
+   "members": []
+  },
+  {
+   "name": "Kavli Viltost",
+   "brand": "Kavli",
+   "keep": "ean:7311441161902",
+   "members": []
+  },
+  {
+   "name": "Druvan Vinaigrette Pesto",
+   "brand": "Druvan",
+   "keep": "ean:7310155520333",
+   "members": []
+  },
+  {
+   "name": "Q Skyr Aktiv",
+   "brand": "Q",
+   "keep": "ean:7048840207664",
+   "members": []
+  },
+  {
+   "name": "Q Barneyoghurt",
+   "brand": "Q",
+   "keep": "ean:7048840202669",
+   "members": []
+  },
+  {
+   "name": "Q Crème Fraîche",
+   "brand": "Q",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/q-creme-fraiche-35-beger-med-skrulokk",
+   "members": [
+    "ean:7048840200467",
+    "ean:7048840182282"
+   ]
+  },
+  {
+   "name": "Q Crème Fraîche Lett",
+   "brand": "Q",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/q-creme-fraiche-lett-17",
+   "members": [
+    "ean:7048840212705"
+   ]
+  },
+  {
+   "name": "Q Skyr",
+   "brand": "Q",
+   "keep": "ean:7048840225019",
+   "members": [
+    "kassalapp:18841",
+    "ean:7048840210190",
+    "ean:7048840208913",
+    "ean:7048840225989",
+    "ean:7048840291069",
+    "ean:7048840291076"
+   ]
+  },
+  {
+   "name": "Q Skyr Luftig",
+   "brand": "Q",
+   "keep": "kassalapp:68366",
+   "members": [
+    "kassalapp:26929"
+   ]
+  },
+  {
+   "name": "Q Drømmelett",
+   "brand": "Q",
+   "keep": "ean:0000006661441",
+   "members": [
+    "ean:7048840010011"
+   ]
+  },
+  {
+   "name": "Q Frokostyoghurt",
+   "brand": "Q",
+   "keep": "openfoodfacts:70488402058680000795",
+   "members": [
+    "ean:7048840205523",
+    "ean:7048840005482",
+    "ean:7048840105816"
+   ]
+  },
+  {
+   "name": "Q Helmelk",
+   "brand": "Q",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/q-melk-hel",
+   "members": [
+    "ean:7048840000012",
+    "ean:7048840200979"
+   ]
+  },
+  {
+   "name": "Q Iskaffe",
+   "brand": "Q",
+   "keep": "ean:7048840200269",
+   "members": []
+  },
+  {
+   "name": "Q Kefir Naturell",
+   "brand": "Q",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/q-kefir-naturell",
+   "members": [
+    "ean:7048840000470"
+   ]
+  },
+  {
+   "name": "Q Kefir Med Smak",
+   "brand": "Q",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/q-kefir-blabaer-og-solbaer",
+   "members": [
+    "ean:7048840211487",
+    "ean:7048840227778",
+    "ean:7048840211777",
+    "q-meieriene:https://www.q-meieriene.no/produkter/q-kefir-bringebaer"
+   ]
+  },
+  {
+   "name": "Q Kremfløte",
+   "brand": "Q",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/q-kremflote",
+   "members": [
+    "ean:7048840090433"
+   ]
+  },
+  {
+   "name": "Q Lettmelk 0,5%",
+   "brand": "Q",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/q-melk-lett-0-5",
+   "members": [
+    "ean:7048840219551",
+    "ean:7048840082148",
+    "ean:7048840000500",
+    "ean:7048840081950"
+   ]
+  },
+  {
+   "name": "Q Lettmelk Med Gode Melkesyrebakterier",
+   "brand": "Q",
+   "keep": "ean:7048840221295",
+   "members": []
+  },
+  {
+   "name": "Q Lettmelk 1%",
+   "brand": "Q",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/q-melk-lett",
+   "members": [
+    "ean:7048840000029",
+    "ean:7048840000548",
+    "ean:7048840082131",
+    "ean:7048840082124"
+   ]
+  },
+  {
+   "name": "Q Lettrømme",
+   "brand": "Q",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/q-lettromme",
+   "members": [
+    "ean:7048840000456",
+    "ean:7048840200016"
+   ]
+  },
+  {
+   "name": "Q Lettrømme Laktosefri",
+   "brand": "Q",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/Q-lettr%C3%B8mme-laktosefri",
+   "members": []
+  },
+  {
+   "name": "Q Min Musli Yoghurt",
+   "brand": "Q",
+   "keep": "ean:7048840219230",
+   "members": [
+    "ean:7048840219216"
+   ]
+  },
+  {
+   "name": "Q Mix Yoghurt",
+   "brand": "Q",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/q-mix-yoghurt-bringebaer",
+   "members": [
+    "ean:7048840005208",
+    "ean:7048840005437",
+    "q-meieriene:https://www.q-meieriene.no/produkter/q-mix-yoghurt-banan"
+   ]
+  },
+  {
+   "name": "Q Proteinmelk Salty Caramel",
+   "brand": "Q",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/q-protein-salty-caramel",
+   "members": [
+    "ean:7048840232260"
+   ]
+  },
+  {
+   "name": "Q Rømme",
+   "brand": "Q",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/q-romme-35",
+   "members": [
+    "ean:7048840225064",
+    "ean:7048840182268"
+   ]
+  },
+  {
+   "name": "Q Fersk Sjokolademelk",
+   "brand": "Q",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/q-fersk-sjokolademelk",
+   "members": [
+    "ean:7048840209392",
+    "ean:7048840090150",
+    "ean:7048840090211",
+    "ean:7048840290369",
+    "ean:7048840090174"
+   ]
+  },
+  {
+   "name": "Q Fersk Sjokolademelk Uten Tilsatt Sukker",
+   "brand": "Q",
+   "keep": "ean:7048840211760",
+   "members": [
+    "ean:7048840211753",
+    "kassalapp:47196"
+   ]
+  },
+  {
+   "name": "Q Skummetmelk",
+   "brand": "Q",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/q-melk-skummet",
+   "members": [
+    "ean:7048840000036"
+   ]
+  },
+  {
+   "name": "Q Yoghurt Naturell",
+   "brand": "Q",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/q-yoghurt-naturell",
+   "members": [
+    "ean:7048840005499"
+   ]
+  },
+  {
+   "name": "Q Yoghurt",
+   "brand": "Q",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/q-yoghurt-blaabaer",
+   "members": [
+    "q-meieriene:https://www.q-meieriene.no/produkter/q-yoghurt-Jordbaer",
+    "q-meieriene:https://www.q-meieriene.no/produkter/q-yoghurt-melon-og-pasjon",
+    "q-meieriene:https://www.q-meieriene.no/produkter/q-yoghurt-skogsbaer",
+    "q-meieriene:https://www.q-meieriene.no/produkter/q-yoghurt-vanilje",
+    "ean:7048840005802",
+    "ean:7048840205851",
+    "ean:7048840205516",
+    "ean:7048840205868",
+    "ean:7048840005468"
+   ]
+  },
+  {
+   "name": "Q Yoghurt Uten",
+   "brand": "Q",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/q-yoghurt-uten-blabaer",
+   "members": [
+    "q-meieriene:https://www.q-meieriene.no/produkter/q-yoghurt-bringebaer-uten",
+    "q-meieriene:https://www.q-meieriene.no/produkter/q-yoghurt-jordbaer-og-lime-uten",
+    "q-meieriene:https://www.q-meieriene.no/produkter/q-yoghurt-uten-mango",
+    "ean:7048840211722",
+    "ean:7048840218820",
+    "ean:7048840223909",
+    "ean:7048840229680"
+   ]
+  },
+  {
+   "name": "Q Yoghurt Mousse",
+   "brand": "Q",
+   "keep": "ean:7048840202706",
+   "members": [
+    "ean:7048840208906",
+    "kassalapp:18753",
+    "ean:7048840202713"
+   ]
+  },
+  {
+   "name": "Valio Yoghurt 0%",
+   "brand": "Valio",
+   "keep": "ean:6408432001468",
+   "members": [
+    "ean:6408432001451",
+    "ean:6408432002908"
+   ]
+  },
+  {
+   "name": "Valio Yoghurt Laktosfri 0%",
+   "brand": "Valio",
+   "keep": "ean:6408432000591",
+   "members": []
+  },
+  {
+   "name": "Valio Yoghurt 0.1%",
+   "brand": "Valio",
+   "keep": "ean:6408432002625",
+   "members": [
+    "ean:6408432000676",
+    "ean:6408432102530",
+    "ean:6408432086816",
+    "ean:6408432086885",
+    "ean:6408432086946",
+    "ean:6408432086878"
+   ]
+  },
+  {
+   "name": "Valio Yoghurt",
+   "brand": "Valio",
+   "keep": "ean:6408432102523",
+   "members": [
+    "ean:6408432001932",
+    "ean:6408432000928",
+    "ean:6408432088391",
+    "ean:6408432002960",
+    "ean:6408432003530",
+    "ean:6408432102592",
+    "ean:6408432088933",
+    "ean:6408430002610",
+    "ean:6408432106293",
+    "ean:6408432106569",
+    "ean:6408432202605",
+    "ean:6408432203411",
+    "ean:6408432002618",
+    "openfoodfacts-nordic-global:0408432002960",
+    "ean:6408432000706",
+    "ean:6408432003486"
+   ]
+  },
+  {
+   "name": "Valio Yoghurt Frukt 2.1%",
+   "brand": "Valio",
+   "keep": "ean:6408432106880",
+   "members": [
+    "ean:6408432088971"
+   ]
+  },
+  {
+   "name": "Valio Vaniljyoghurt 3.5%",
+   "brand": "Valio",
+   "keep": "openfoodfacts-nordic-global:05681931",
+   "members": []
+  },
+  {
+   "name": "Valio Yoghurt Mango & Persika Laktosfri",
+   "brand": "Valio",
+   "keep": "ean:6408432202223",
+   "members": []
+  },
+  {
+   "name": "Valio Lätt Yoghurt Naturell 0.4%",
+   "brand": "Valio",
+   "keep": "ean:6408432102462",
+   "members": []
+  },
+  {
+   "name": "Valio Lätt Yoghurt Vanilj 0.4%",
+   "brand": "Valio",
+   "keep": "ean:6408432002977",
+   "members": []
+  },
+  {
+   "name": "Valio Grekisk Yoghurt Frukt",
+   "brand": "Valio",
+   "keep": "ean:6408432000263",
+   "members": [
+    "ean:6408432000270"
+   ]
+  },
+  {
+   "name": "Valio Grekisk Yoghurt 0.4%",
+   "brand": "Valio",
+   "keep": "ean:6408432001925",
+   "members": []
+  },
+  {
+   "name": "Valio Mild Grekisk Yoghurt Naturell",
+   "brand": "Valio",
+   "keep": "ean:6408432003608",
+   "members": []
+  },
+  {
+   "name": "Valio Kvarg 0.5%",
+   "brand": "Valio",
+   "keep": "ean:6408432002984",
+   "members": [
+    "ean:6408432002991"
+   ]
+  },
+  {
+   "name": "Valio Kvarg Laktosfri 0.5%",
+   "brand": "Valio",
+   "keep": "ean:6408432003387",
+   "members": [
+    "ean:6408432003479"
+   ]
+  },
+  {
+   "name": "Valio Kvarg",
+   "brand": "Valio",
+   "keep": "ean:6408432003684",
+   "members": [
+    "ean:6408432002304",
+    "ean:6408432003677",
+    "ean:6408432201837",
+    "ean:6408432003646",
+    "ean:6408432003653"
+   ]
+  },
+  {
+   "name": "Valio Kvarg Laktosfri",
+   "brand": "Valio",
+   "keep": "ean:6408432095856",
+   "members": [
+    "ean:6408432003660",
+    "ean:6408432003370"
+   ]
+  },
+  {
+   "name": "Valio Atleet",
+   "brand": "Valio",
+   "keep": "ean:7040353000008",
+   "members": []
+  },
+  {
+   "name": "Valio Cream Cheese Laktosfri",
+   "brand": "Valio",
+   "keep": "ean:6408432052941",
+   "members": []
+  },
+  {
+   "name": "Valio Krämig Cottage Cheese Laktosfri",
+   "brand": "Valio",
+   "keep": "ean:6408432002915",
+   "members": []
+  },
+  {
+   "name": "Valio Raejuusto Cottage Cheese",
+   "brand": "Valio",
+   "keep": "ean:6408430043071",
+   "members": []
+  },
+  {
+   "name": "Valio Ostcreme",
+   "brand": "Valio",
+   "keep": "ean:6408432001987",
+   "members": [
+    "ean:6408432001994",
+    "ean:6408432002007"
+   ]
+  },
+  {
+   "name": "Valio Crème Fraiche Lätt 12%",
+   "brand": "Valio",
+   "keep": "ean:6408432203015",
+   "members": []
+  },
+  {
+   "name": "Valio Crème Fraiche Lätt Kokbar 18%",
+   "brand": "Valio",
+   "keep": "ean:6408432096259",
+   "members": []
+  },
+  {
+   "name": "Valio Vispgrädde",
+   "brand": "Valio",
+   "keep": "ean:6408432096143",
+   "members": []
+  },
+  {
+   "name": "Valio Grädde Laktosfri",
+   "brand": "Valio",
+   "keep": "ean:6408432000959",
+   "members": []
+  },
+  {
+   "name": "Valio Matgrädde",
+   "brand": "Valio",
+   "keep": "ean:6408432000966",
+   "members": []
+  },
+  {
+   "name": "Valio Matgrädde Paprika & Chili",
+   "brand": "Valio",
+   "keep": "ean:6408432002946",
+   "members": []
+  },
+  {
+   "name": "Valio Matgrädde Tre Ostar",
+   "brand": "Valio",
+   "keep": "ean:6408432002953",
+   "members": []
+  },
+  {
+   "name": "Valio Middagsmagi Grytbas",
+   "brand": "Valio",
+   "keep": "ean:6408432001826",
+   "members": [
+    "ean:6408432001819"
+   ]
+  },
+  {
+   "name": "Valio Pastasås Smakrik Ost",
+   "brand": "Valio",
+   "keep": "ean:6408432002649",
+   "members": []
+  },
+  {
+   "name": "Valio Gårdsgoda Normalsaltat",
+   "brand": "Valio",
+   "keep": "ean:6408432061462",
+   "members": [
+    "ean:6408432203428",
+    "ean:6408432001703",
+    "ean:6408432001680"
+   ]
+  },
+  {
+   "name": "Valio Gårdsgoda Laktosfri",
+   "brand": "Valio",
+   "keep": "ean:6408432001710",
+   "members": []
+  },
+  {
+   "name": "Valio Gårdsgoda Mellan",
+   "brand": "Valio",
+   "keep": "ean:6408432001697",
+   "members": []
+  },
+  {
+   "name": "Valio Smör Normalsaltat",
+   "brand": "Valio",
+   "keep": "ean:6408432061233",
+   "members": [
+    "ean:6408432061240",
+    "ean:6408432203022"
+   ]
+  },
+  {
+   "name": "Valio Smör Extrasaltat",
+   "brand": "Valio",
+   "keep": "ean:6408432061264",
+   "members": []
+  },
+  {
+   "name": "Valio Smör Laktosfritt",
+   "brand": "Valio",
+   "keep": "ean:6408432061042",
+   "members": [
+    "ean:6408432061295"
+   ]
+  },
+  {
+   "name": "Valio Havredryck",
+   "brand": "Valio",
+   "keep": "ean:6408430102204",
+   "members": []
+  },
+  {
+   "name": "Valio Kefir",
+   "brand": "Valio",
+   "keep": "ean:6408432096006",
+   "members": []
+  },
+  {
+   "name": "Valio Lätt Kefir",
+   "brand": "Valio",
+   "keep": "ean:6408432002366",
+   "members": []
+  },
+  {
+   "name": "Valio Kefir Laktosfri",
+   "brand": "Valio",
+   "keep": "ean:6408432000911",
+   "members": [
+    "ean:6408432096013",
+    "ean:6408432001536"
+   ]
+  },
+  {
+   "name": "Valio Gefilus Kefir Persika",
+   "brand": "Valio Gefilus",
+   "keep": "ean:6408430401338",
+   "members": []
+  },
+  {
+   "name": "Valio Mellanmjölk Laktosfri",
+   "brand": "Valio",
+   "keep": "ean:6408432086212",
+   "members": [
+    "ean:6408432087851"
+   ]
+  },
+  {
+   "name": "Valio Lättmjölk 1.5%",
+   "brand": "Valio",
+   "keep": "ean:6408430000548",
+   "members": []
+  },
+  {
+   "name": "Valio Lättmjölk Laktosfri",
+   "brand": "Valio",
+   "keep": "ean:6408432202544",
+   "members": [
+    "ean:6408432086571"
+   ]
+  },
+  {
+   "name": "Valio Mjölk 3%",
+   "brand": "Valio",
+   "keep": "ean:6408432086564",
+   "members": [
+    "ean:6408432087868"
+   ]
+  },
+  {
+   "name": "Valio Profeel Proteindrink Mint & Salted Caramel",
+   "brand": "Valio",
+   "keep": "ean:6408430011629",
+   "members": [
+    "ean:6408430401260"
+   ]
+  },
+  {
+   "name": "Valio Profeel Proteinmousse Laktosfri",
+   "brand": "Valio",
+   "keep": "ean:6408432000485",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier A-fil Naturell",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867514217",
+   "members": [
+    "ean:7310867002394"
+   ]
+  },
+  {
+   "name": "Skånemejerier Laktosfri A-fil",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867512459",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Lätt A-fil",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867512770",
+   "members": []
+  },
+  {
+   "name": "Allerum Grevé",
+   "brand": "Allerum",
+   "keep": "ean:7393720092442",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Ära Hårdost",
+   "brand": "Skånemejerier",
+   "keep": "ean:7393720093043",
+   "members": [
+    "ean:7393720093050"
+   ]
+  },
+  {
+   "name": "Skånemejerier Åsens Färska Lantmjölk 1,8%",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867501101",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Åsens Lantmjölk Gammaldags",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867501286",
+   "members": [
+    "ean:7310867000109"
+   ]
+  },
+  {
+   "name": "Skånemejerier Bara Yoghurt",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867531306",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Chokladmjölk",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867502306",
+   "members": [
+    "ean:7310867502313"
+   ]
+  },
+  {
+   "name": "Skånemejerier Crème Fraiche",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867003773",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Laktosfri Lätt Crème Fraiche",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867523868",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Drickyoghurt",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867533300",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Edamer",
+   "brand": "Skånemejerier",
+   "keep": "ean:2324552810602",
+   "members": [
+    "ean:2324552811326"
+   ]
+  },
+  {
+   "name": "Skånemejerier Lättmjölk",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867501187",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Mjölk 3%",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867500319",
+   "members": [
+    "ean:7310867000352"
+   ]
+  },
+  {
+   "name": "Skånemejerier Vispgrädde 40%",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867003193",
+   "members": [
+    "ean:7310867003339",
+    "ean:7310867003209",
+    "ean:0320061003285"
+   ]
+  },
+  {
+   "name": "Skånemejerier Laktosfri Fil 3%",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867512466",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Fil Pepparkaka",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867510738",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Laktosfri Filmjölk Pepparkaka",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867512435",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Gouda",
+   "brand": "Skånemejerier",
+   "keep": "ean:2324552712692",
+   "members": [
+    "ean:2324552712722",
+    "ean:2324552710988",
+    "ean:7393720093111"
+   ]
+  },
+  {
+   "name": "Skånemejerier Gräddfil",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867004671",
+   "members": [
+    "ean:7310867524650",
+    "ean:7310867525312"
+   ]
+  },
+  {
+   "name": "Skånemejerier Laktosfri Gräddfil",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867524759",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Grevé",
+   "brand": "Skånemejerier",
+   "keep": "ean:7393720092749",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Herrgård Mild",
+   "brand": "Skånemejerier",
+   "keep": "ean:7393720092770",
+   "members": [
+    "ean:7393720091957"
+   ]
+  },
+  {
+   "name": "Skånemejerier Hjordnära Ekologisk Mellanmjölk",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867001571",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Kaffegrädde",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867524353",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Latte Del Barista",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867500111",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Lättfil",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867002653",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Laktosfri Lättmjölk",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867502719",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Laktosfri Yoghurt Hallon & Rabarber",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867530699",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Matlagningsgrädde",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867523608",
+   "members": [
+    "ean:7310867523615"
+   ]
+  },
+  {
+   "name": "Skånemejerier Mellanfil",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867002493",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Mellangrädde",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867523622",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Laktosfri Mellanmjölk",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867501651",
+   "members": [
+    "ean:7310867501705"
+   ]
+  },
+  {
+   "name": "Skånemejerier Ekologisk Laktosfri Mellanmjölk",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867501545",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Mellanmjölk",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867501767",
+   "members": [
+    "ean:7310867501781",
+    "ean:7310867001823"
+   ]
+  },
+  {
+   "name": "Skånemejerier Ekologisk Mild Naturell Yoghurt",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867534208",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Minimjölk",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867001519",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Laktosfri Mjölk 3%",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867502726",
+   "members": [
+    "ean:7310867501620"
+   ]
+  },
+  {
+   "name": "Skånemejerier Laktosfri Mild Naturell Yoghurt",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867512626",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Grekisk Yoghurt Naturell",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867535106",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Kefir Naturell",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867511407",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Lätt Naturell Yoghurt",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867002691",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Öresundsfil",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867012928",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Pannoumi",
+   "brand": "Skånemejerier",
+   "keep": "ean:7393720092589",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Glassig Sommarfil",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867004916",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Port Salut",
+   "brand": "Skånemejerier",
+   "keep": "ean:7393720091179",
+   "members": [
+    "ean:2324552611667"
+   ]
+  },
+  {
+   "name": "Skånemejerier Prästost 35%",
+   "brand": "Skånemejerier",
+   "keep": "ean:2324532706413",
+   "members": [
+    "ean:2324541003749",
+    "ean:2324542406495",
+    "ean:2324546307422",
+    "ean:7393720092794",
+    "ean:7393720092800",
+    "ean:2324542406389"
+   ]
+  },
+  {
+   "name": "Skånemejerier Prästost 17%",
+   "brand": "Skånemejerier",
+   "keep": "ean:7393720091964",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Riven Taco Ost",
+   "brand": "Skånemejerier",
+   "keep": "ean:7393720092244",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Skånegott",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867550505",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Gourmet Fraiche Soltorkad Tomat & Feta",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867523738",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Svenskt Smör Normalsaltat",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867550024",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Yoghurtkvarg Vanilj",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867541510",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Vaniljyoghurt",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867002325",
+   "members": [
+    "ean:7310867512855",
+    "ean:7310867512282",
+    "ean:7310867297189"
+   ]
+  },
+  {
+   "name": "Skånemejerier Ekologisk Vispgrädde 36%",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867523400",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Laktosfri Vispgrädde 36%",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867523387",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Vispgrädde 36%",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867523295",
+   "members": [
+    "ean:7310867523301"
+   ]
+  },
+  {
+   "name": "Skånemejerier Yoghurt Extra Frukt",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867531207",
+   "members": []
+  },
+  {
+   "name": "Skyr Yoghurt",
+   "brand": "Skyr",
+   "keep": "matvaretabellen:01.233",
+   "members": [
+    "ean:7048840217076",
+    "ean:7048840230846",
+    "ean:7048840207299",
+    "matvaretabellen:01.307",
+    "ean:7048840217120",
+    "ean:7048840221400",
+    "ean:7048840216024",
+    "ean:7048840090440",
+    "openfoodfacts:06210722",
+    "ean:7048840210923",
+    "ean:7048840216017",
+    "ean:7048840090945",
+    "ean:7048840216086",
+    "ean:7048840290901",
+    "ean:7048840210916",
+    "ean:7048840230907",
+    "ean:7048840224173",
+    "ean:7048840219285",
+    "kassalapp:213543",
+    "ean:7048840207305",
+    "ean:7048840202546",
+    "ean:7048840091539",
+    "ean:7048840225521",
+    "ean:7048840225781",
+    "ean:7048840212859",
+    "ean:7048840210947"
+   ]
+  },
+  {
+   "name": "Skyr Kaffe og Vanilje",
+   "brand": "Skyr",
+   "keep": "ean:7048840290864",
+   "members": []
+  },
+  {
+   "name": "Skyr Aktiv",
+   "brand": "Skyr",
+   "keep": "ean:7048840224210",
+   "members": [
+    "ean:7048840230952",
+    "ean:7048840224203",
+    "ean:7048840207657"
+   ]
+  },
+  {
+   "name": "Skyr Luftig",
+   "brand": "Skyr",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/skyr-luftig-sitron",
+   "members": [
+    "ean:7048840230945",
+    "ean:7048840290819",
+    "ean:7048840290802",
+    "ean:7048840213221",
+    "ean:7048840290826"
+   ]
+  },
+  {
+   "name": "Skyr Mini",
+   "brand": "Skyr",
+   "keep": "matvaretabellen:01.306",
+   "members": [
+    "ean:7048840090952",
+    "ean:7048840090969",
+    "ean:7048840210909",
+    "ean:7048840091041",
+    "ean:7048840224234",
+    "ean:7048840291052",
+    "ean:7048840291083"
+   ]
+  },
+  {
+   "name": "Skyr Drikke",
+   "brand": "Skyr",
+   "keep": "ean:7048840210954",
+   "members": [
+    "ean:7048840223817",
+    "ean:7048840210961"
+   ]
+  },
+  {
+   "name": "Skyr Is",
+   "brand": "Skyr",
+   "keep": "ean:7048840280506",
+   "members": [
+    "ean:7048840280513"
+   ]
+  },
+  {
+   "name": "Lindahls Drickkvarg",
+   "brand": "Lindahls",
+   "keep": "ean:7310867545594",
+   "members": [
+    "ean:7310867545570",
+    "ean:7310867004855",
+    "ean:7392672003575"
+   ]
+  },
+  {
+   "name": "Lindahls Grekisk Yoghurt Ekologisk",
+   "brand": "Lindahls",
+   "keep": "ean:7392672001410",
+   "members": []
+  },
+  {
+   "name": "Lindahls Kvarg",
+   "brand": "Lindahls",
+   "keep": "ean:7392672001403",
+   "members": [
+    "ean:7310867546706",
+    "ean:7392672004442",
+    "ean:7310867546614",
+    "ean:2000999520273",
+    "ean:7310867546676",
+    "ean:7392672002561",
+    "ean:7392672003193",
+    "ean:7392672004039",
+    "ean:7392672003322",
+    "ean:7392672001748",
+    "ean:3943990016415",
+    "ean:7392672002066",
+    "ean:7392672006200",
+    "ean:7310867004848",
+    "ean:7310867005487",
+    "ean:7392672002059",
+    "ean:7310867000284",
+    "ean:7310867004831",
+    "ean:7392672003780",
+    "ean:7310867546744",
+    "ean:7392672002103",
+    "ean:7392672003940",
+    "ean:7310867004817",
+    "ean:7310867004824",
+    "ean:7392672002448"
+   ]
+  },
+  {
+   "name": "Lindahls Kvarg Laktosfri",
+   "brand": "Lindahls",
+   "keep": "ean:7392672001854",
+   "members": [
+    "ean:7000867546744"
+   ]
+  },
+  {
+   "name": "Lindahls Yoghurtkvarg",
+   "brand": "Lindahls",
+   "keep": "ean:7310867548540",
+   "members": [
+    "ean:7310867548533"
+   ]
+  },
+  {
+   "name": "Lindahls Protein+ Kvarg",
+   "brand": "Lindahls",
+   "keep": "ean:7310867000437",
+   "members": [
+    "ean:7310867800068"
+   ]
+  },
+  {
+   "name": "Lindahls Pro+ Yoghurt",
+   "brand": "Lindahls",
+   "keep": "ean:7310867800082",
+   "members": []
+  },
+  {
+   "name": "Lindahls Proteinyoghurt",
+   "brand": "Lindahls",
+   "keep": "ean:7310867535717",
+   "members": [
+    "ean:7310867548519",
+    "ean:7310867000277",
+    "ean:7310867548502",
+    "ean:7310867548557",
+    "ean:7310867535700"
+   ]
+  },
+  {
+   "name": "Lindahls Proteindryck",
+   "brand": "Lindahls",
+   "keep": "ean:7310867800099",
+   "members": []
+  },
+  {
+   "name": "Lindahls Smoothie",
+   "brand": "Lindahls",
+   "keep": "ean:7392672003889",
+   "members": []
+  },
+  {
+   "name": "Jarlsberg 3-5 År",
+   "brand": "Jarlsberg",
+   "keep": "norgesgruppen:1394",
+   "members": []
+  },
+  {
+   "name": "Biola Syrnet Melk",
+   "brand": "Biola",
+   "keep": "tine:https://www.tine.no/merkevarer/biola/produkter/biola-syrnet-melk-med-bl%C3%A5b%C3%A6r",
+   "members": [
+    "ean:0048412054730",
+    "ean:7038010055775",
+    "ean:7038010071324",
+    "tine:https://www.tine.no/merkevarer/biola/produkter/biola-syrnet-melk-med-bringeb%C3%A6r",
+    "tine:https://www.tine.no/merkevarer/biola/produkter/biola-fettfri-syrnet-melk-jordb%C3%A6r",
+    "ean:7038010002274",
+    "ean:7038010005138",
+    "ean:7038010041921",
+    "ean:7038010054341",
+    "ean:7038010067815"
+   ]
+  },
+  {
+   "name": "Biola Syrnet Melk Uten Tilsatt Sukker",
+   "brand": "Biola",
+   "keep": "tine:https://www.tine.no/merkevarer/biola/produkter/biola-blaabaer-uten-tilsatt-sukker",
+   "members": [
+    "tine:https://www.tine.no/merkevarer/biola/produkter/biola-jordb%C3%A6r-rabarbra-uten",
+    "tine:https://www.tine.no/merkevarer/biola/produkter/biola-uten-tilsatt-sukker-mango",
+    "ean:7038010069925",
+    "ean:7038010068881"
+   ]
+  },
+  {
+   "name": "Biola E+ Drikke",
+   "brand": "Biola",
+   "keep": "tine:https://www.tine.no/merkevarer/biola-e-pluss/produkter/drikke-bringeb%C3%A6r",
+   "members": [
+    "tine:https://www.tine.no/merkevarer/biola-e-pluss/produkter/drikke-bringeb%C3%A6r-3dl",
+    "tine:https://www.tine.no/merkevarer/biola-e-pluss/produkter/drikke-kakao",
+    "tine:https://www.tine.no/merkevarer/biola-e-pluss/produkter/drikke-kakao-3dl",
+    "ean:7038010072314",
+    "ean:7038010072321",
+    "ean:7038010072338",
+    "ean:7038010072345"
+   ]
+  },
+  {
+   "name": "Biola Syrnet Melk Laktosefri",
+   "brand": "Biola",
+   "keep": "tine:https://www.tine.no/merkevarer/biola/produkter/biola-melon-pasjon-laktosefri-1000g",
+   "members": []
+  },
+  {
+   "name": "Biola Syrnet Melk Naturell Laktosefri",
+   "brand": "Biola",
+   "keep": "tine:https://www.tine.no/merkevarer/biola/produkter/biola-syrnet-lettmelk",
+   "members": []
+  },
+  {
+   "name": "Biola Rødbete, Eple & Lime",
+   "brand": "Biola",
+   "keep": "tine:https://www.tine.no/merkevarer/biola/produkter/biola-yoghurtdrikk-r%C3%B8dbet-eple-lime",
+   "members": [
+    "ean:7038010056901"
+   ]
+  },
+  {
+   "name": "Biola Sitron & Ingefær",
+   "brand": "Biola",
+   "keep": "tine:https://www.tine.no/merkevarer/biola/produkter/biola-sitron-ingef%C3%A6r",
+   "members": [
+    "ean:7038010071294"
+   ]
+  },
+  {
+   "name": "Biola Yoghurt",
+   "brand": "Biola",
+   "keep": "tine:https://www.tine.no/merkevarer/biola/produkter/biola-bringeb%C3%A6r",
+   "members": [
+    "ean:7038010071300",
+    "ean:7038010071317",
+    "ean:7038010072512",
+    "ean:7038010073434",
+    "ean:7038010073441",
+    "tine:https://www.tine.no/merkevarer/biola/produkter/biola-mango-pasjonsfrukt",
+    "tine:https://www.tine.no/merkevarer/biola/produkter/biola-yoghurt-vanilje-500g"
+   ]
+  },
+  {
+   "name": "Biola Yoghurt Naturell",
+   "brand": "Biola",
+   "keep": "tine:https://www.tine.no/merkevarer/biola/produkter/biola-yoghurt-naturell-500g",
+   "members": [
+    "ean:7038010072505"
+   ]
+  },
+  {
+   "name": "Piano Gelé",
+   "brand": "Piano",
+   "keep": "tine:https://www.tine.no/merkevarer/piano/produkter/piano-jordb%C3%A6rgele",
+   "members": [
+    "ean:7038010057663",
+    "ean:7038010071935",
+    "ean:7038010057649",
+    "ean:7038010057656",
+    "tine:https://www.tine.no/merkevarer/piano/produkter/piano-bringeb%C3%A6rgele"
+   ]
+  },
+  {
+   "name": "Piano Bringebærsaus",
+   "brand": "Piano",
+   "keep": "tine:https://www.tine.no/merkevarer/piano/produkter/piano-bringeb%C3%A6rsaus",
+   "members": [
+    "ean:7038010037535"
+   ]
+  },
+  {
+   "name": "Piano Romkrem",
+   "brand": "Piano",
+   "keep": "tine:https://www.tine.no/merkevarer/piano/produkter/piano-romkrem",
+   "members": [
+    "ean:7038010035364"
+   ]
+  },
+  {
+   "name": "Piano Karamellpudding",
+   "brand": "Piano",
+   "keep": "tine:https://www.tine.no/merkevarer/piano/produkter/piano-karamellpudding",
+   "members": [
+    "ean:7038010036224",
+    "ean:7038010036279"
+   ]
+  },
+  {
+   "name": "Piano Mandelpudding",
+   "brand": "Piano",
+   "keep": "tine:https://www.tine.no/merkevarer/piano/produkter/piano-mandelpudding",
+   "members": [
+    "ean:7038010036255"
+   ]
+  },
+  {
+   "name": "Piano Melkesjokoladepudding",
+   "brand": "Piano",
+   "keep": "tine:https://www.tine.no/merkevarer/piano/produkter/Piano-melkesjokoladepudding",
+   "members": [
+    "ean:7038010063428"
+   ]
+  },
+  {
+   "name": "Piano Panna Cotta",
+   "brand": "Piano",
+   "keep": "ean:7038010065972",
+   "members": []
+  },
+  {
+   "name": "Piano Pavlovakrem",
+   "brand": "Piano",
+   "keep": "tine:https://www.tine.no/merkevarer/piano/produkter/piano-pavlovakrem",
+   "members": [
+    "ean:7038010065392"
+   ]
+  },
+  {
+   "name": "Piano Sjokoladekrem Lys",
+   "brand": "Piano",
+   "keep": "ean:7038010065989",
+   "members": []
+  },
+  {
+   "name": "Piano Sjokoladepudding Uten Tilsatt Sukker",
+   "brand": "Piano",
+   "keep": "tine:https://www.tine.no/merkevarer/piano/produkter/Piano%20Sjokoladepudding%20UTEN%20tilsatt%20sukker",
+   "members": [
+    "ean:7038010063411"
+   ]
+  },
+  {
+   "name": "Piano Vaniljekrem",
+   "brand": "Piano",
+   "keep": "tine:https://www.tine.no/merkevarer/piano/produkter/piano-vaniljekrem",
+   "members": [
+    "tine:https://www.tine.no/merkevarer/piano/produkter/Piano%C2%AE%20Vaniljekrem%20til%20steking",
+    "ean:7038010048838",
+    "ean:7038010062155"
+   ]
+  },
+  {
+   "name": "Piano Vaniljesaus",
+   "brand": "Piano",
+   "keep": "tine:https://www.tine.no/merkevarer/piano/produkter/piano-vaniljesaus",
+   "members": [
+    "ean:7038010036088",
+    "ean:7038010036309",
+    "ean:7038010037542",
+    "ean:7038010068072"
+   ]
+  },
+  {
+   "name": "Piano Vaniljesaus Uten Tilsatt Sukker",
+   "brand": "Piano",
+   "keep": "tine:https://www.tine.no/merkevarer/piano/produkter/piano-vaniljesaus-uten",
+   "members": []
+  },
+  {
+   "name": "Litago Smaksatt Melk",
+   "brand": "Litago",
+   "keep": "tine:https://www.tine.no/merkevarer/litago/produkter/litago-original-sjokolademelk-05-liter",
+   "members": [
+    "tine:https://www.tine.no/merkevarer/litago/produkter/litago-dobbel",
+    "ean:7038010071706",
+    "ean:7038010002625",
+    "ean:7038010002663",
+    "ean:7038010036545",
+    "ean:7038010070921",
+    "ean:7038010070938",
+    "ean:7038010073489",
+    "tine:https://www.tine.no/merkevarer/litago/produkter/litago-melk-jordb%C3%A6rsmak",
+    "tine:https://www.tine.no/merkevarer/litago/produkter/litago-melk-sjokolade-karamell",
+    "ean:7038010034985"
+   ]
+  },
+  {
+   "name": "Litago Melk Uten Tilsatt Sukker",
+   "brand": "Litago",
+   "keep": "tine:https://www.tine.no/merkevarer/litago/produkter/litago-sjokolademelk-uten",
+   "members": [
+    "ean:7038010069161",
+    "ean:7038010066207",
+    "ean:0048412066191"
+   ]
+  },
+  {
+   "name": "Rørosmeieriet Lett Crème Fraîche",
+   "brand": "Rørosmeieriet",
+   "keep": "ean:7090006473291",
+   "members": []
+  },
+  {
+   "name": "Rørosmeieriet Iskaffe",
+   "brand": "Rørosmeieriet",
+   "keep": "ean:7090006473802",
+   "members": []
+  },
+  {
+   "name": "Rørosmeieriet Lettrømme 17%",
+   "brand": "Rørosmeieriet",
+   "keep": "ean:4999266036747",
+   "members": [
+    "ean:7090006473857"
+   ]
+  },
+  {
+   "name": "Rørosmeieriet Middagsost",
+   "brand": "Rørosmeieriet",
+   "keep": "ean:7090006473147",
+   "members": []
+  },
+  {
+   "name": "Rørosmeieriet Skjørost",
+   "brand": "Rørosmeieriet",
+   "keep": "ean:7090006470221",
+   "members": []
+  },
+  {
+   "name": "Rørosmeieriet Røroshallen Sylteost",
+   "brand": "Rørosmeieriet",
+   "keep": "ean:2340375321446",
+   "members": []
+  },
+  {
+   "name": "Rørosmeieriet Sjokomjølk",
+   "brand": "Rørosmeieriet",
+   "keep": "ean:7090006473789",
+   "members": [
+    "ean:7090006473772"
+   ]
+  },
+  {
+   "name": "Rørosmeieriet Syrna Mjølk Med Bær",
+   "brand": "Rørosmeieriet",
+   "keep": "ean:7090006473949",
+   "members": [
+    "ean:7090006470320"
+   ]
+  },
+  {
+   "name": "Rørosmeieriet Syrna Mjølk",
+   "brand": "Rørosmeieriet",
+   "keep": "ean:7090006473918",
+   "members": []
+  },
+  {
+   "name": "Rørosmeieriet Tjukkmjølk 4%",
+   "brand": "Rørosmeieriet",
+   "keep": "ean:7090006470290",
+   "members": []
+  },
+  {
+   "name": "Rørosmeieriet Tjukkmjølk 1,5%",
+   "brand": "Rørosmeieriet",
+   "keep": "ean:7090006470016",
+   "members": []
+  },
+  {
+   "name": "Snøfrisk Naturell",
+   "brand": "Snøfrisk",
+   "keep": "tine:https://www.tine.no/merkevarer/sn%C3%B8frisk/produkter/sn%C3%B8frisk-naturell",
+   "members": [
+    "tine:https://www.tine.no/merkevarer/sn%C3%B8frisk/produkter/sn%C3%B8frisk-dill",
+    "tine:https://www.tine.no/merkevarer/sn%C3%B8frisk/produkter/sn%C3%B8frisk-kantarell",
+    "ean:7038010024580",
+    "ean:7038010023507",
+    "ean:7038010023767",
+    "ean:7038010024115",
+    "ean:7038010024481",
+    "tine:https://www.tine.no/merkevarer/sn%C3%B8frisk/produkter/sn%C3%B8frisk-spekeskinke-fra-stranda"
+   ]
+  },
+  {
+   "name": "Snøfrisk Lett",
+   "brand": "Snøfrisk",
+   "keep": "ean:7038010024597",
+   "members": []
+  },
+  {
+   "name": "Activia Yoghurt",
+   "brand": "Activia",
+   "keep": "ean:5900643034965",
+   "members": [
+    "ean:7350000553543",
+    "ean:5900643035023"
+   ]
+  },
+  {
+   "name": "Activia Yoghurt 0%",
+   "brand": "Activia",
+   "keep": "ean:7350000553628",
+   "members": [
+    "ean:7350000550269"
+   ]
+  },
+  {
+   "name": "Activia Yoghurt med Corn- og Branflakes",
+   "brand": "Activia",
+   "keep": "ean:5410146412882",
+   "members": []
+  },
+  {
+   "name": "Danone Actimel",
+   "brand": "Danone",
+   "keep": "ean:7350000552393",
+   "members": [
+    "ean:7350000553222"
+   ]
+  },
+  {
+   "name": "Danone Activia",
+   "brand": "Danone",
+   "keep": "ean:7310846460580",
+   "members": []
+  },
+  {
+   "name": "Danone GetPro Protein Drink",
+   "brand": "Danone",
+   "keep": "ean:5060360507552",
+   "members": []
+  },
+  {
+   "name": "Danone HiPro",
+   "brand": "Danone",
+   "keep": "ean:7330497690334",
+   "members": []
+  },
+  {
+   "name": "Danone YoPro",
+   "brand": "Danone",
+   "keep": "ean:7354003368067",
+   "members": []
+  },
+  {
+   "name": "Kesam Mager Naturell",
+   "brand": "Kesam",
+   "keep": "tine:https://www.tine.no/merkevarer/kesam/produkter/kesam-mager-naturell",
+   "members": [
+    "ean:7038010006630"
+   ]
+  },
+  {
+   "name": "Kesam Naturell Laktosefri",
+   "brand": "Kesam",
+   "keep": "tine:https://www.tine.no/merkevarer/kesam/produkter/kesam-naturell-laktosefri",
+   "members": []
+  },
+  {
+   "name": "Kesam Mager Vanilje Uten Tilsatt Sukker",
+   "brand": "Kesam",
+   "keep": "ean:7038010070235",
+   "members": []
+  },
+  {
+   "name": "Kesam Mager Vanilje",
+   "brand": "Kesam",
+   "keep": "tine:https://www.tine.no/merkevarer/kesam/produkter/kesam-mager-vanilje",
+   "members": []
+  },
+  {
+   "name": "Kesam Vanilje Laktosefri",
+   "brand": "Kesam",
+   "keep": "tine:https://www.tine.no/merkevarer/kesam/produkter/kesam-vanilje-laktosefri",
+   "members": []
+  },
+  {
+   "name": "Cultura Naturell",
+   "brand": "Cultura",
+   "keep": "ean:7038010040474",
+   "members": []
+  },
+  {
+   "name": "Arla A-Fil Naturell",
+   "brand": "Arla",
+   "keep": "ean:7310865691774",
+   "members": [
+    "ean:7310865088291",
+    "ean:7310865692917"
+   ]
+  },
+  {
+   "name": "Arla Billinge",
+   "brand": "Arla",
+   "keep": "ean:2340413205219",
+   "members": [
+    "ean:2340384205232",
+    "ean:2340413108527",
+    "ean:7311875914938",
+    "ean:7311875905301"
+   ]
+  },
+  {
+   "name": "Arla Mild Yoghurt Blåbär",
+   "brand": "Arla",
+   "keep": "ean:4016241031228",
+   "members": []
+  },
+  {
+   "name": "Arla Mild Yoghurt Naturell",
+   "brand": "Arla",
+   "keep": "ean:4016241031211",
+   "members": []
+  },
+  {
+   "name": "Arla Grekisk Yoghurt",
+   "brand": "Arla",
+   "keep": "ean:7310865094490",
+   "members": []
+  },
+  {
+   "name": "Arla Humlan Ekologisk Ost",
+   "brand": "Arla",
+   "keep": "ean:2340397411996",
+   "members": [
+    "ean:2340397412375",
+    "ean:2340397412795",
+    "ean:7311870013131"
+   ]
+  },
+  {
+   "name": "Arla Hushållsost 31%",
+   "brand": "Arla",
+   "keep": "ean:2340381715161",
+   "members": []
+  },
+  {
+   "name": "Arla Keso Cottage Cheese Smaksatt 3,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865924032",
+   "members": []
+  },
+  {
+   "name": "Arla Keso Cottage Cheese Mellanmålsvariant 6,5%",
+   "brand": "Arla",
+   "keep": "ean:8310895074362",
+   "members": []
+  },
+  {
+   "name": "Arla Präst 31%",
+   "brand": "Arla",
+   "keep": "ean:2340415205859",
+   "members": [
+    "ean:2340415207525",
+    "ean:2340415206689",
+    "ean:2340415206764",
+    "ean:2340415207136",
+    "ean:2340415207440",
+    "ean:2340415207563",
+    "ean:2340415207921",
+    "ean:2340415206474",
+    "ean:2340415207730",
+    "ean:2340415207600",
+    "ean:7311871023054",
+    "ean:7311877014223",
+    "ean:2340393707086",
+    "ean:2340415206108",
+    "ean:2340415207013",
+    "ean:2340415207204",
+    "ean:2340415208409",
+    "ean:2340815216530",
+    "ean:2340815217766",
+    "ean:2340415206184",
+    "ean:2340415207099",
+    "ean:2340415207105",
+    "ean:2340415207419",
+    "ean:2340415208188",
+    "ean:2340393706966",
+    "ean:2340415206009",
+    "ean:2340415206467",
+    "ean:2340415206481",
+    "ean:2340415206986",
+    "ean:2340415207426",
+    "ean:2340415206757",
+    "ean:2340415207075",
+    "ean:2340415208096"
+   ]
+  },
+  {
+   "name": "Arla Laktosfri Lättmjölk 0,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865067944",
+   "members": [
+    "ean:7310865095732"
+   ]
+  },
+  {
+   "name": "Arla Ekologisk Laktosfri Mellanmjölk 1,5%",
+   "brand": "Arla",
+   "keep": "ean:7310865075192",
+   "members": []
+  },
+  {
+   "name": "Arla Mild Yoghurt 1,3%",
+   "brand": "Arla",
+   "keep": "ean:7310865889355",
+   "members": []
+  },
+  {
+   "name": "Arla Mjölk 1,3%",
+   "brand": "Arla",
+   "keep": "ean:7310865889409",
+   "members": []
+  },
+  {
+   "name": "Arla Ost 23%",
+   "brand": "Arla",
+   "keep": "ean:2340379312044",
+   "members": []
+  },
+  {
+   "name": "Arla Präst 31% Mellanlagrad",
+   "brand": "Arla",
+   "keep": "ean:2340415206634",
+   "members": [
+    "ean:2340393706508",
+    "ean:2340415206818",
+    "ean:2340415206993",
+    "ean:7311870656970",
+    "ean:2340415207310",
+    "ean:2340415207167",
+    "ean:2340415207709"
+   ]
+  },
+  {
+   "name": "Arla Protein Chocolate Drink",
+   "brand": "Arla",
+   "keep": "ean:5711953197529",
+   "members": []
+  },
+  {
+   "name": "Arla Protein Pudding Laktosfri",
+   "brand": "Arla",
+   "keep": "ean:5711953200403",
+   "members": [
+    "ean:4100290068004",
+    "ean:4100290025267",
+    "ean:4100290068011",
+    "ean:5711953200434",
+    "ean:5711953200496"
+   ]
+  },
+  {
+   "name": "Arla Protein Milkshake Laktosfri",
+   "brand": "Arla",
+   "keep": "ean:5711953068881",
+   "members": [
+    "ean:5711953204234",
+    "ean:5711953081354",
+    "ean:5711953081330"
+   ]
+  },
+  {
+   "name": "Arla Creme Fraiche Rucolapesto",
+   "brand": "Arla",
+   "keep": "ean:5711953066818",
+   "members": []
+  },
+  {
+   "name": "Arla Mild Yoghurt Slät Hallon",
+   "brand": "Arla",
+   "keep": "ean:7310865879592",
+   "members": []
+  },
+  {
+   "name": "Arla Svenskt Smör Ekologiskt",
+   "brand": "Arla",
+   "keep": "ean:7310865005267",
+   "members": []
+  },
+  {
+   "name": "Tine Appelsinjuice",
+   "brand": "Tine",
+   "keep": "ean:7038010007224",
+   "members": [
+    "ean:7038010007231",
+    "ean:7038010007293",
+    "ean:7038010008061",
+    "ean:7038010043635",
+    "ean:7038010043642",
+    "ean:7038010058721",
+    "ean:7038010067921",
+    "ean:7038010063282"
+   ]
+  },
+  {
+   "name": "Tine IsKaffe Caffe Gusto Vaniglia",
+   "brand": "Tine",
+   "keep": "ean:7038010069178",
+   "members": []
+  },
+  {
+   "name": "Tine Chèvre Haukeli",
+   "brand": "Tine",
+   "keep": "ean:7038010071799",
+   "members": [
+    "ean:7038010023811",
+    "ean:7038010054259",
+    "ean:7038010068591"
+   ]
+  },
+  {
+   "name": "Tine Lett Crème Fraîche 15%",
+   "brand": "Tine",
+   "keep": "ean:7038010072116",
+   "members": [
+    "ean:7038010072109"
+   ]
+  },
+  {
+   "name": "Tine Ekte Revet Lettost",
+   "brand": "Tine",
+   "keep": "kassalapp:9261",
+   "members": []
+  },
+  {
+   "name": "Tine Ekte Revet Ost Proteinrik",
+   "brand": "Tine",
+   "keep": "ean:7038010072086",
+   "members": []
+  },
+  {
+   "name": "Tine Ekte Revet Ost Norsk Mozzarella",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-revet-ost/produkter/tine-revet-ost-norsk-mozzarella",
+   "members": [
+    "kassalapp:66420",
+    "ean:7038010070075"
+   ]
+  },
+  {
+   "name": "Tine Go'morgen Yoghurt Nøtter",
+   "brand": "Tine",
+   "keep": "ean:7038010072468",
+   "members": []
+  },
+  {
+   "name": "Tine Gudbrandsdalsost Lettere",
+   "brand": "Tine",
+   "keep": "ean:7038010028892",
+   "members": [
+    "ean:7038010029271"
+   ]
+  },
+  {
+   "name": "Tine Helmelk Laktosefri",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-laktosefri/produkter/tine-laktosefri-helmelk-3-5-fett",
+   "members": []
+  },
+  {
+   "name": "Tine Iskaffe Mocha Laktosefri Uten Tilsatt Sukker",
+   "brand": "Tine",
+   "keep": "ean:7038010062988",
+   "members": [
+    "tights-discontinued:13875361"
+   ]
+  },
+  {
+   "name": "Tine Junior Yoghurt Mager",
+   "brand": "Tine",
+   "keep": "ean:7038010040313",
+   "members": []
+  },
+  {
+   "name": "Tine Kaffefløte",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-fl%C3%B8te/produkter/tine-kaffefl%C3%B8te",
+   "members": []
+  },
+  {
+   "name": "Tine Kremfløte Laktosefri",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-fl%C3%B8te/produkter/tine-kremfl%C3%B8te-laktosefri",
+   "members": [
+    "ean:7038010043314"
+   ]
+  },
+  {
+   "name": "Tine Kvitlin",
+   "brand": "Tine",
+   "keep": "norgesgruppen:23022242",
+   "members": []
+  },
+  {
+   "name": "Tine Lettmelk 0,5% Laktosefri",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-laktosefri/produkter/tine-laktosefri-lettmelk-0-5-fett",
+   "members": [
+    "ean:7038010052682",
+    "ean:7038010001987",
+    "tine:https://www.tine.no/merkevarer/tine-laktosefri/produkter/tine-laktosefri-lettmelk-0-5-fett-1,75L"
+   ]
+  },
+  {
+   "name": "Tine Lettmelk 1,0% Laktosefri",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-laktosefri/produkter/tine-laktosefri-lettmelk-1-2-fett",
+   "members": [
+    "tine:https://www.tine.no/merkevarer/tine-laktosefri/produkter/tine-laktosefri-lettmelk-1fett-1,75L"
+   ]
+  },
+  {
+   "name": "Tine Matfløte",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-fl%C3%B8te/produkter/tine-matfl%C3%B8te",
+   "members": [
+    "ean:7038010003615",
+    "ean:7038010043291"
+   ]
+  },
+  {
+   "name": "Tine Matfløte Lett",
+   "brand": "Tine",
+   "keep": "tine:https://www.tine.no/merkevarer/tine-fl%C3%B8te/produkter/tine-lett-matfl%C3%B8te",
+   "members": []
+  },
+  {
+   "name": "Tine Mylsa fra Vik",
+   "brand": "Tine",
+   "keep": "ean:7038010031502",
+   "members": []
+  },
+  {
+   "name": "Tine Pastasaus",
+   "brand": "Tine",
+   "keep": "ean:7038010073953",
+   "members": []
+  },
+  {
+   "name": "Tine Revet Ost Økonomipakke",
+   "brand": "Tine",
+   "keep": "ean:8037784062315",
+   "members": []
+  },
+  {
+   "name": "Tine Sveitserost",
+   "brand": "Tine",
+   "keep": "ean:2302173904801",
+   "members": []
+  },
+  {
+   "name": "Tine Yoghurt Gresk Type Naturell",
+   "brand": "Tine",
+   "keep": "ean:0048412068997",
+   "members": []
+  },
+  {
+   "name": "Synnøve Bearnaise",
+   "brand": "Synnøve",
+   "keep": "ean:7034280005625",
+   "members": [
+    "ean:7034280005632"
+   ]
+  },
+  {
+   "name": "Synnøve Granola Bringebær",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/glutenfri-granola-bringebaer/",
+   "members": [
+    "ean:7071319032085"
+   ]
+  },
+  {
+   "name": "Synnøve Gresk Yoghurt Frukt",
+   "brand": "Synnøve",
+   "keep": "ean:7034280009661",
+   "members": [
+    "kassalapp:68346",
+    "ean:7034280009654"
+   ]
+  },
+  {
+   "name": "Synnøve Gresk Yoghurt med Granola",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/gresk-yoghurt-vanilje-og-granola/",
+   "members": [
+    "kassalapp:3917",
+    "ean:7034280006301"
+   ]
+  },
+  {
+   "name": "Synnøve Gresk Yoghurt Honning og Pekannøtt",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/gresk-yoghurt-pekannotter-og-honning/",
+   "members": []
+  },
+  {
+   "name": "Synnøve Gresk Frozen Yoghurt",
+   "brand": "Synnøve",
+   "keep": "ean:7034280009104",
+   "members": []
+  },
+  {
+   "name": "Synnøve Glutenfri Grovbrød",
+   "brand": "Synnøve",
+   "keep": "ean:7071319032290",
+   "members": []
+  },
+  {
+   "name": "Synnøve Grovkrisp",
+   "brand": "Synnøve",
+   "keep": "ean:7034280001085",
+   "members": [
+    "ean:7034280003188",
+    "ean:7071319032023"
+   ]
+  },
+  {
+   "name": "Synnøve Gulost Mild og Fyldig",
+   "brand": "Synnøve",
+   "keep": "ean:2382664612927",
+   "members": []
+  },
+  {
+   "name": "Synnøve Glutenfri Gulrotkakemix",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/synnove-glutenfri-gulrotkake-mix/",
+   "members": []
+  },
+  {
+   "name": "Synnøve Glutenfri Havreringer",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/glutenfri-havreringer/",
+   "members": []
+  },
+  {
+   "name": "Synnøve Kjøleskapsgrøt",
+   "brand": "Synnøve",
+   "keep": "ean:7034280005342",
+   "members": [
+    "ean:7034280006585",
+    "ean:7034280006592"
+   ]
+  },
+  {
+   "name": "Synnøve Glutenfri Knekkebrød med Solsikkekjerner",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/glutenfri-knekkebrod-solsikkekjerner/",
+   "members": []
+  },
+  {
+   "name": "Synnøve Knekkebrød med Chia og Havre",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/knekkebrod-med-chia-og-havre/",
+   "members": []
+  },
+  {
+   "name": "Synnøve Knekkebrød med Gresskarkjerner",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/knekkebrod-med-gresskarkjerner/",
+   "members": [
+    "ean:7034280110244"
+   ]
+  },
+  {
+   "name": "Synnøve Kokt Skinke",
+   "brand": "Synnøve",
+   "keep": "ean:7025050021105",
+   "members": []
+  },
+  {
+   "name": "Synnøve Kyllingfilet Mild og Snill",
+   "brand": "Synnøve",
+   "keep": "ean:7025050019928",
+   "members": []
+  },
+  {
+   "name": "Synnøve Mild & Snill Prim",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/mild-og-snill-prim/",
+   "members": []
+  },
+  {
+   "name": "Synnøve Mini Salami",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/synnove-mini-salami/",
+   "members": []
+  },
+  {
+   "name": "Synnøve Glutenfri Pasta med Ostesaus",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/glutenfri-pasta-med-ostesaus/",
+   "members": []
+  },
+  {
+   "name": "Synnøve Glutenfri Pasta med Tomatsaus",
+   "brand": "Synnøve",
+   "keep": "synnove:https://www.synnove.no/produkt/glutenfri-pasta-med-tomatsaus/",
+   "members": []
+  },
+  {
+   "name": "Synnøve Protein Ostestenger",
+   "brand": "Synnøve",
+   "keep": "kassalapp:213545",
+   "members": []
+  },
+  {
+   "name": "Synnøve Rå Smoothie",
+   "brand": "Synnøve",
+   "keep": "kassalapp:25261",
+   "members": [
+    "ean:7034280009869"
+   ]
+  },
+  {
+   "name": "Synnøve Gresk Yoghurt Duo",
+   "brand": "Synnøve",
+   "keep": "ean:7034280004062",
+   "members": [
+    "ean:7034280003133",
+    "ean:7034280109989",
+    "ean:7034280110763",
+    "ean:7034280110770"
+   ]
+  },
+  {
+   "name": "Synnøve Gresk Yoghurt 5%",
+   "brand": "Synnøve",
+   "keep": "ean:7034280109996",
+   "members": []
+  },
+  {
+   "name": "Synnøve Gresk Yoghurt 2%",
+   "brand": "Synnøve",
+   "keep": "ean:7034281582002",
+   "members": []
+  },
+  {
+   "name": "Synnøve Yogrøt",
+   "brand": "Synnøve",
+   "keep": "ean:7034280002921",
+   "members": [
+    "ean:7034280002556",
+    "ean:7034280003157"
+   ]
+  },
+  {
+   "name": "Go'is Hadeland Iskrem",
+   "brand": "Go'is Hadeland",
+   "keep": "ean:7090062960667",
+   "members": [
+    "ean:7090062961046",
+    "ean:7090062960483",
+    "ean:7090062960636",
+    "ean:7090062960834",
+    "ean:7090062960018",
+    "ean:7090062960865",
+    "ean:7090062960605",
+    "ean:7090062960131",
+    "ean:7090062960896",
+    "ean:7090062960544",
+    "ean:7090062960513",
+    "ean:7090062960254",
+    "ean:7090062961015",
+    "ean:7090062960278",
+    "ean:7090062960926",
+    "ean:7090062960391"
+   ]
+  },
+  {
+   "name": "Go'is Hadeland Iskrem Sjokolade og Hasselnøtt",
+   "brand": "Go'is Hadeland",
+   "keep": "ean:7090062960308",
+   "members": [
+    "ean:7090062960421",
+    "ean:7090062960360"
+   ]
+  },
+  {
+   "name": "Go'is Hadeland Iskrem Pistasj",
+   "brand": "Go'is Hadeland",
+   "keep": "ean:7090062960223",
+   "members": []
+  },
+  {
+   "name": "Go'is Hadeland Iskrem Sitron Marengs",
+   "brand": "Go'is Hadeland",
+   "keep": "ean:7090062960452",
+   "members": []
+  },
+  {
+   "name": "Go'is Hadeland Iskrem Jordbær",
+   "brand": "Go'is Hadeland",
+   "keep": "ean:7090062960339",
+   "members": []
+  },
+  {
+   "name": "Go'is Hadeland Iskrem Mors Ostekake",
+   "brand": "Go'is Hadeland",
+   "keep": "ean:7090062960698",
+   "members": []
+  },
+  {
+   "name": "Go'is Hadeland Sorbet",
+   "brand": "Go'is Hadeland",
+   "keep": "ean:7090062960070",
+   "members": [
+    "ean:7090062960049",
+    "ean:7090062960162",
+    "ean:7090062960575"
+   ]
+  },
+  {
+   "name": "Go'is Hadeland Rabarbrasorbet",
+   "brand": "Go'is Hadeland",
+   "keep": "ean:7090062960193",
+   "members": []
+  },
+  {
+   "name": "Go'vegan Cheddar",
+   "brand": "Go'vegan",
+   "keep": "ean:7034280005984",
+   "members": []
+  },
+  {
+   "name": "Go'vegan Original",
+   "brand": "Go'vegan",
+   "keep": "ean:7034280006387",
+   "members": [
+    "ean:7034280008886"
+   ]
+  },
+  {
+   "name": "Go'vegan Revet",
+   "brand": "Go'vegan",
+   "keep": "ean:7034280000484",
+   "members": [
+    "ean:7034280007285",
+    "ean:7034280007292"
+   ]
+  },
+  {
+   "name": "Go'vegan Smøre",
+   "brand": "Go'vegan",
+   "keep": "ean:7034280003652",
+   "members": []
+  },
+  {
+   "name": "Go'vegan Kremet",
+   "brand": "Go'vegan",
+   "keep": "ean:7034280008718",
+   "members": []
+  },
+  {
+   "name": "Go'vegan Smak av Brunost",
+   "brand": "Go'vegan",
+   "keep": "ean:7034280008725",
+   "members": []
+  },
+  {
+   "name": "Go'vegan Havredrikk",
+   "brand": "Go'vegan",
+   "keep": "ean:7034280006646",
+   "members": []
+  },
+  {
+   "name": "Go'vegan Havredrikk Barista",
+   "brand": "Go'vegan",
+   "keep": "ean:7034280006653",
+   "members": []
+  },
+  {
+   "name": "Go'vegan Plantemargarin",
+   "brand": "Go'vegan",
+   "keep": "ean:7034280007414",
+   "members": [
+    "ean:7034280005052"
+   ]
+  },
+  {
+   "name": "Go'morgen Yoghurt Uten Tilsatt Sukker",
+   "brand": "Go'morgen",
+   "keep": "ean:7038010057571",
+   "members": []
+  },
+  {
+   "name": "Go'morgen Yoghurt med Nøtter",
+   "brand": "Go'morgen",
+   "keep": "ean:7038010068256",
+   "members": [
+    "ean:7038010008733",
+    "ean:7038010071102"
+   ]
+  },
+  {
+   "name": "Kavli Ekte Majones",
+   "brand": "Kavli",
+   "keep": "ean:7048840220076",
+   "members": [
+    "ean:7311440056605",
+    "ean:7311442124500",
+    "ean:7311442111302"
+   ]
+  },
+  {
+   "name": "Kavli Amerikansk Dressing",
+   "brand": "Kavli",
+   "keep": "ean:7311440056377",
+   "members": [
+    "ean:7311442162601",
+    "ean:7311442161604",
+    "ean:7311442162700",
+    "ean:7311440052157"
+   ]
+  },
+  {
+   "name": "Kavli Cheddarost",
+   "brand": "Kavli",
+   "keep": "ean:7311441165634",
+   "members": [
+    "ean:7311441165610",
+    "ean:7311441165504"
+   ]
+  },
+  {
+   "name": "Kavli Cheddar Dipp",
+   "brand": "Kavli",
+   "keep": "kavli:https://www.kavli.no/produkter/cheddar-dipp",
+   "members": [
+    "ean:7311441350108",
+    "ean:7311441350115",
+    "ean:7041810125098",
+    "ean:7041810129997",
+    "kavli:https://www.kavli.no/produkter/cheddar-jalapeno-dipp"
+   ]
+  },
+  {
+   "name": "Kavli Rekeost",
+   "brand": "Kavli",
+   "keep": "kavli:https://www.kavli.no/produkter/rekeost",
+   "members": []
+  },
+  {
+   "name": "Kavli Snack Pack",
+   "brand": "Kavli",
+   "keep": "ean:7041810014118",
+   "members": [
+    "ean:7041810002627",
+    "ean:7041810014125"
+   ]
+  },
+  {
+   "name": "Q Skyr Med Sukker",
+   "brand": "Q",
+   "keep": "ean:7048840290932",
+   "members": []
+  },
+  {
+   "name": "Q Planti",
+   "brand": "Q",
+   "keep": "ean:7048840202850",
+   "members": []
+  },
+  {
+   "name": "Q Proteinmelk Sjokolade",
+   "brand": "Q",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/q-proteinmelk-sjokolade",
+   "members": [
+    "ean:7048840225507"
+   ]
+  },
+  {
+   "name": "Q Proteinyoghurt Naturell",
+   "brand": "Q",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/q_proteinyoghurt_naturell",
+   "members": [
+    "ean:7048840225774"
+   ]
+  },
+  {
+   "name": "Q Proteinyoghurt",
+   "brand": "Q",
+   "keep": "q-meieriene:https://www.q-meieriene.no/produkter/q_proteinyoghurt_vanilje-copy",
+   "members": [
+    "ean:7048840226375",
+    "ean:7048840228102",
+    "ean:7048840226269",
+    "kassalapp:228946",
+    "ean:8048832226689",
+    "ean:7048840226689",
+    "q-meieriene:https://www.q-meieriene.no/produkter/q_proteinyoghurt_creamy-caramel"
+   ]
+  },
+  {
+   "name": "Valio Yoghurt Laktosfri",
+   "brand": "Valio",
+   "keep": "ean:6408432102486",
+   "members": [
+    "kassalapp:64569",
+    "kassalapp:64948",
+    "kassalapp:64563"
+   ]
+  },
+  {
+   "name": "Valio Profeel Proteinshake Laktosfri",
+   "brand": "Valio",
+   "keep": "ean:6408432003509",
+   "members": []
+  },
+  {
+   "name": "Valio Profeel Proteindrink Laktosfri",
+   "brand": "Valio",
+   "keep": "ean:6408430101283",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier A-fil Smaksatt",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867512107",
+   "members": []
+  },
+  {
+   "name": "Skånemejerier Chokladmjölk Mindre Socker",
+   "brand": "Skånemejerier",
+   "keep": "ean:7310867502320",
+   "members": []
+  },
+  {
+   "name": "Skyr Naturell",
+   "brand": "Skyr",
+   "keep": "ean:7048840222896",
+   "members": []
+  },
+  {
+   "name": "Lindahls Kvarg Vanilj Sockrad",
+   "brand": "Lindahls",
+   "keep": "ean:2000999514487",
+   "members": []
+  },
+  {
+   "name": "Lindahls Kvarg Yoghurt Vanilj",
+   "brand": "Lindahls",
+   "keep": "ean:7392672001472",
+   "members": []
+  },
+  {
+   "name": "Lindahls Kvargyoghurt",
+   "brand": "Lindahls",
+   "keep": "ean:7392672001489",
+   "members": []
+  },
+  {
+   "name": "Lindahls Proteindryck Collagen Laktosfri",
+   "brand": "Lindahls",
+   "keep": "ean:7310867004947",
+   "members": []
+  },
+  {
+   "name": "Jarlsberg XO 15+ Mnd",
+   "brand": "Jarlsberg",
+   "keep": "norgesgruppen:1211",
+   "members": []
+  },
+  {
+   "name": "Jarlsberg Reserve 5+ År",
+   "brand": "Jarlsberg",
+   "keep": "norgesgruppen:1020",
+   "members": []
+  },
+  {
+   "name": "Biola Yoghurt Lettere",
+   "brand": "Biola",
+   "keep": "ean:7038010003387",
+   "members": []
+  },
+  {
+   "name": "Piano Gelé Uten Tilsatt Sukker",
+   "brand": "Piano",
+   "keep": "ean:7038010068089",
+   "members": []
+  },
+  {
+   "name": "Piano Sjokoladepudding",
+   "brand": "Piano",
+   "keep": "tine:https://www.tine.no/merkevarer/piano/produkter/piano-sjokoladepudding",
+   "members": [
+    "ean:7038010035821",
+    "ean:7038010045103",
+    "ean:7038010068102"
+   ]
+  },
+  {
+   "name": "Piano Vaniljesaus Laktosefri",
+   "brand": "Piano",
+   "keep": "tine:https://www.tine.no/merkevarer/piano/produkter/piano-vaniljesaus-laktosefri",
+   "members": []
+  },
+  {
+   "name": "Rørosmeieriet Lettrømme 10%",
+   "brand": "Rørosmeieriet",
+   "keep": "ean:7090006470467",
+   "members": []
+  },
+  {
+   "name": "Rørosmeieriet Fruktyoghurt",
+   "brand": "Rørosmeieriet",
+   "keep": "ean:7090006470450",
+   "members": []
+  },
+  {
+   "name": "Rørosmeieriet Røros Smør",
+   "brand": "Rørosmeieriet",
+   "keep": "ean:7090006474045",
+   "members": []
+  },
+  {
+   "name": "Rørosmeieriet Yoghurt Naturell",
+   "brand": "Rørosmeieriet",
+   "keep": "ean:7090006471259",
+   "members": []
+  },
+  {
+   "name": "Activia Yoghurt Frokost",
+   "brand": "Activia",
+   "keep": "ean:7350000553635",
+   "members": [
+    "ean:7350000553642"
+   ]
+  },
+  {
+   "name": "Mellanlagrad Prästost",
+   "brand": "Arla",
+   "keep": "ean:2340415206788",
+   "members": []
+  },
+  {
+   "name": "Arla Protein Milk Drink",
+   "brand": "Arla",
+   "keep": "ean:5711953086182",
+   "members": [
+    "ean:5711953092411"
+   ]
+  },
+  {
+   "name": "Arla Protein Pudding Salt Karamell",
+   "brand": "Arla",
+   "keep": "ean:4100290077617",
+   "members": []
+  },
+  {
+   "name": "Arla Protein Pudding Sjokolade",
+   "brand": "Arla",
+   "keep": "ean:4100290080389",
+   "members": []
+  },
+  {
+   "name": "Arla Svenskt Smör Ekologisk",
+   "brand": "Arla",
+   "keep": "ean:7310865560759",
+   "members": []
+  },
+  {
+   "name": "Yoplait 0%",
+   "brand": "Yoplait",
+   "keep": "ean:7033330059540",
+   "members": [
+    "ean:7033330064759",
+    "ean:7033330064766",
+    "ean:7033330064780",
+    "ean:7033330064810",
+    "fjordland:https://www.fjordland.no/yoplait/produkter/yoplait-double-0-blabaer-4pk",
+    "fjordland:https://www.fjordland.no/yoplait/produkter/yoplait-double-0-ekte-vanilje-4pk",
+    "fjordland:https://www.fjordland.no/yoplait/produkter/yoplait-double-0-fersken-og-pasjonsfrukt-4pk",
+    "fjordland:https://www.fjordland.no/yoplait/produkter/yoplait-double-0-kirsebaer-4pk",
+    "fjordland:https://www.fjordland.no/yoplait/produkter/yoplait-double-0-yoghurt-mango-4pk",
+    "fjordland:https://www.fjordland.no/yoplait/produkter/yoplait-double-0-skogsbaer-4pk"
+   ]
+  },
+  {
+   "name": "Yoplait Double 0%",
+   "brand": "Yoplait",
+   "keep": "ean:7033330064704",
+   "members": [
+    "ean:8033161067676",
+    "ean:7033330064803",
+    "ean:7033330089318",
+    "ean:7033330089325",
+    "ean:7033330089332",
+    "ean:7033330088410",
+    "ean:7033330088922",
+    "ean:7033330088700",
+    "ean:7033330089059"
+   ]
+  },
+  {
+   "name": "Yoplait Gresk yoghurt",
+   "brand": "Yoplait",
+   "keep": "ean:7033330058802",
+   "members": []
+  },
+  {
+   "name": "Yoplait Kvarg",
+   "brand": "Yoplait",
+   "keep": "ean:7033330089509",
+   "members": [
+    "ean:7033330073546",
+    "ean:7033330089516",
+    "ean:7033330073553",
+    "ean:7033330089493",
+    "ean:7033330089769",
+    "fjordland:https://www.fjordland.no/yoplait/produkter/kvarg-bjornebaer-vanilje-420g",
+    "fjordland:https://www.fjordland.no/yoplait/produkter/kvarg-fersken-420g",
+    "fjordland:https://www.fjordland.no/yoplait/produkter/yoplait-kvarg-jordbaer-madagaskar-vanilje-800g",
+    "fjordland:https://www.fjordland.no/yoplait/produkter/yoplait-kvarg-madagaskar-vanilje",
+    "fjordland:https://www.fjordland.no/yoplait/produkter/kvarg-mango"
+   ]
+  },
+  {
+   "name": "Yoplait Safari",
+   "brand": "Yoplait",
+   "keep": "ean:7033330040197",
+   "members": [
+    "ean:7033330065718",
+    "ean:7033330065725",
+    "ean:7033330088427"
+   ]
+  },
+  {
+   "name": "Granola glutenfri Bringebær Synnøve",
+   "brand": "Synnøve",
+   "keep": "ean:7034280001566",
+   "members": []
+  },
+  {
+   "name": "Synnøve Gresk Frozen Yoghurt Salt Karamell",
+   "brand": "Synnøve",
+   "keep": "ean:7034280009111",
+   "members": []
+  },
+  {
+   "name": "Synnøve Gresk Yoghurt Banan",
+   "brand": "Synnøve",
+   "keep": "ean:7034280000019",
+   "members": []
+  },
+  {
+   "name": "Synnøve Gresk Yoghurt med Skogsbær og Granola",
+   "brand": "Synnøve",
+   "keep": "ean:7034280007339",
+   "members": []
+  },
+  {
+   "name": "Synnøve Gresk Yoghurt med Jordbær og Granola",
+   "brand": "Synnøve",
+   "keep": "ean:7034281578005",
+   "members": []
+  },
+  {
+   "name": "Synnøve Gresk Yoghurt Kokos Uten Tilsatt Sukker",
+   "brand": "Synnøve",
+   "keep": "ean:7034280002549",
+   "members": []
+  },
+  {
+   "name": "Synnøve Gresk Yoghurt Pekannøtter og Honning",
+   "brand": "Synnøve",
+   "keep": "ean:7034281572003",
+   "members": []
+  },
+  {
+   "name": "Synnøve Glutenfri Grovbrød med Gresskarfrø",
+   "brand": "Synnøve",
+   "keep": "ean:7071319032184",
+   "members": []
+  },
+  {
+   "name": "Grovkrisp knekkebrød",
+   "brand": "Synnøve",
+   "keep": "ean:7034280009937",
+   "members": []
+  },
+  {
+   "name": "Synnøve Grovkrisp Tynn Spelt",
+   "brand": "Synnøve",
+   "keep": "ean:7034280002983",
+   "members": []
+  },
+  {
+   "name": "Synnøve Grovkrisp Gresskarkjerner",
+   "brand": "Synnøve",
+   "keep": "ean:7034280003195",
+   "members": []
+  },
+  {
+   "name": "Gulrotkakemix",
+   "brand": "Synnøve",
+   "keep": "ean:7071319032269",
+   "members": []
+  },
+  {
+   "name": "Havreringer",
+   "brand": "Synnøve",
+   "keep": "ean:7071319034003",
+   "members": []
+  },
+  {
+   "name": "Pasta",
+   "brand": "Synnøve",
+   "keep": "ean:7071319033914",
+   "members": []
+  },
+  {
+   "name": "Pasta",
+   "brand": "Synnøve",
+   "keep": "ean:7071319033945",
+   "members": []
+  },
+  {
+   "name": "Prim Mild&Snill",
+   "brand": "Synnøve",
+   "keep": "ean:7034281166004",
+   "members": []
+  },
+  {
+   "name": "Premium appelsin juice med fruktkjøtt",
+   "brand": "Tine",
+   "keep": "ean:7038010045851",
+   "members": []
+  },
+  {
+   "name": "Helmelk",
+   "brand": "Tine",
+   "keep": "ean:7038010073120",
+   "members": []
+  },
+  {
+   "name": "Iskaffe Mocha",
+   "brand": "Tine",
+   "keep": "ean:7038010066115",
+   "members": []
+  },
+  {
+   "name": "Julebrunost Krydret",
+   "brand": "Tine",
+   "keep": "kassalapp:56026",
+   "members": []
+  },
+  {
+   "name": "Tine Kaffefløte 10%",
+   "brand": "Tine",
+   "keep": "ean:7038010043307",
+   "members": []
+  },
+  {
+   "name": "Kremfløte",
+   "brand": "Tine",
+   "keep": "ean:7038010071775",
+   "members": []
+  },
+  {
+   "name": "Kvitlin Geitost Kvit, Lagret 4+ Mnd",
+   "brand": "Tine",
+   "keep": "ean:2000623900006",
+   "members": []
+  },
+  {
+   "name": "Lettmelk 1%",
+   "brand": "Tine",
+   "keep": "ean:7038010002748",
+   "members": []
+  },
+  {
+   "name": "Tine Matfløte 18%",
+   "brand": "Tine",
+   "keep": "ean:7038010043321",
+   "members": [
+    "ean:7038010069260"
+   ]
+  },
+  {
+   "name": "Tine Matfløte Lett 10%",
+   "brand": "Tine",
+   "keep": "ean:7038010043338",
+   "members": []
+  },
+  {
+   "name": "Tine Pastasaus 12%",
+   "brand": "Tine",
+   "keep": "ean:7038010073960",
+   "members": []
+  },
+  {
+   "name": "Tine Yoghurt 3%",
+   "brand": "Tine",
+   "keep": "ean:7038010072628",
+   "members": []
+  },
+  {
+   "name": "Kavli Amerikansk Dressing Sriracha",
+   "brand": "Kavli",
+   "keep": "ean:7311442162755",
+   "members": []
+  },
+  {
+   "name": "Kavli Majonnäs",
+   "brand": "Kavli",
+   "keep": "ean:7350042722211",
+   "members": []
+  },
+  {
+   "name": "Kavli Rekeost 16%",
+   "brand": "Kavli",
+   "keep": "ean:7041810010028",
+   "members": []
+  },
+  {
+   "name": "Kavli Snack Pack 13%",
+   "brand": "Kavli",
+   "keep": "ean:7041810002610",
+   "members": []
+  },
+  {
+   "name": "Go'is Hadeland Iskrem Tiramisu",
+   "brand": "Go'is Hadeland",
+   "keep": "ean:7090062960759",
+   "members": []
+  },
+  {
+   "name": "Q Proteinmelk Sjokolade Laktosefri",
+   "brand": "Q",
+   "keep": "kassalapp:213473",
+   "members": []
+  },
+  {
+   "name": "Q Proteinyoghurt Naturell Laktosefri",
+   "brand": "Q",
+   "keep": "kassalapp:212712",
+   "members": []
+  },
+  {
+   "name": "Q Proteinyoghurt Laktosefri",
+   "brand": "Q",
+   "keep": "kassalapp:220025",
+   "members": []
+  },
+  {
+   "name": "Q Yoghurt 3%",
+   "brand": "Q",
+   "keep": "ean:7048840290116",
+   "members": []
+  },
+  {
+   "name": "Jarlsberg Gulost 22%",
+   "brand": "Jarlsberg",
+   "keep": "ean:0048613953368",
+   "members": []
+  },
+  {
+   "name": "Jarlsberg 16%",
+   "brand": "Jarlsberg",
+   "keep": "ean:7038010068553",
+   "members": []
+  },
+  {
+   "name": "Røros Blå Yoghurt Økologisk",
+   "brand": "Rørosmeieriet",
+   "keep": "ean:7090006473093",
+   "members": []
+  },
+  {
+   "name": "Røros Smør Økologisk 1% Havsalt",
+   "brand": "Rørosmeieriet",
+   "keep": "ean:7090006473055",
+   "members": []
+  },
+  {
+   "name": "Rørosmeieriet Yoghurt Naturell Økologisk",
+   "brand": "Rørosmeieriet",
+   "keep": "ean:7090006470405",
+   "members": []
+  },
+  {
+   "name": "Rørosmeieriet Yoghurt Tyttebær",
+   "brand": "Rørosmeieriet",
+   "keep": "ean:7090006471471",
+   "members": []
+  },
+  {
+   "name": "Valio Eila Slät yoghurt Päron & Vanilj",
+   "brand": "Valio",
+   "keep": "ean:6408432200946",
+   "members": []
+  },
+  {
+   "name": "Profeetta proteiinipirtelö mansikka",
+   "brand": "Valio",
+   "keep": "ean:6408430400317",
+   "members": []
+  },
+  {
+   "name": "Proteindrink Strawberry Valio PROfeel",
+   "brand": "Valio",
+   "keep": "ean:6408430101290",
+   "members": []
+  },
+  {
+   "name": "Jelly With Fruit Flavor",
+   "brand": "Piano",
+   "keep": "ean:7038010072741",
+   "members": []
+  },
+  {
+   "name": "Activia Yoghurt Lett",
+   "brand": "Activia",
+   "keep": "ean:7350000550382",
+   "members": []
+  },
+  {
+   "name": "Activia Leite Fermentado",
+   "brand": "Activia",
+   "keep": "ean:7341025124320",
+   "members": []
+  },
+  {
+   "name": "Lindahls Proteindryck Collagen",
+   "brand": "Lindahls",
+   "keep": "ean:7310867004862",
+   "members": []
+  }
+ ],
+ "drop": [
+  "ean:7068010038157",
+  "ean:7038010063602",
+  "ean:7038010063596",
+  "tights:874782",
+  "tights:874787",
+  "ean:2000123000008",
+  "ean:5711953036606",
+  "ean:2340379311849",
+  "ean:5711953180613",
+  "ean:2340375321309",
+  "ean:2340375322207",
+  "ean:7310865890726",
+  "ean:7310865004703",
+  "ean:2000999110481",
+  "tine:https://www.tine.no/merkevarer/tine-kremgo/produkter/tine-kremgo-ananas-mandarin",
+  "ean:2000676582600",
+  "tine:https://www.tine.no/merkevarer/tine-kremgo/produkter/tine-kremgo-chimichurri",
+  "ean:7038010043895",
+  "ean:7038010054471",
+  "ean:7038010063046",
+  "ean:7038010028106",
+  "ean:7038010040931",
+  "ean:7033330088397",
+  "ean:7038010028434",
+  "ean:7038010029646",
+  "ean:7038010026072",
+  "kassalapp:39071",
+  "ean:7038010052477",
+  "ean:7038010008511",
+  "ean:7038010029530",
+  "ean:7038010028397",
+  "ean:7038010056765",
+  "ean:7038010375811",
+  "ean:7038010001833",
+  "ean:7038010401510",
+  "ean:7038010062285",
+  "ean:2000784874901",
+  "ean:7038010044915",
+  "ean:7038010055683",
+  "ean:7038010041181",
+  "ean:7038010055652",
+  "ean:7038010055676",
+  "ean:7034280006202",
+  "ean:7034280005977",
+  "ean:7034280002501",
+  "ean:7034280005359",
+  "ean:7034280003911",
+  "ean:7034280003904",
+  "ean:2382664613078",
+  "ean:7034280009951",
+  "ean:7034280009852",
+  "ean:2382667205119",
+  "ean:7034280008121",
+  "ean:7034281576001",
+  "ean:7038010068911",
+  "ean:7038010008528",
+  "ean:7041810010509",
+  "ean:7041810010400",
+  "ean:7350026470541",
+  "ean:7048840208883",
+  "kassalapp:38398",
+  "ean:7048840202843",
+  "ean:7048840202836",
+  "ean:7350045310026",
+  "q-meieriene:https://www.q-meieriene.no/produkter/skyr-original-islandsk-yoghurt",
+  "ean:6408432001840",
+  "ean:6408432096105",
+  "ean:6408432001642",
+  "ean:0440032087851",
+  "ean:6408432000508",
+  "ean:6408432202292",
+  "ean:6408432102585",
+  "ean:2324542406334",
+  "ean:7310867541503",
+  "ean:7048840219735",
+  "life-no-discontinued:https://www.life.no/kosttilskudd/mineraler/multimineral/lindahls-cellbalans-150-tbl",
+  "ean:2302687810162",
+  "ean:2302436904760"
+ ],
+ "rebrand": [
+  {
+   "id": "ean:7038010071409",
+   "brand": "Tine"
+  }
+ ]
+}
