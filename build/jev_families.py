@@ -36,17 +36,34 @@ def state_for(members):
                          for m in members[:40]]}
 
 
+def load_answers():
+    """Jev answers keyed by the exact set of listings asked about."""
+    out = {}
+    if os.path.exists(ANSWERS):
+        for l in open(ANSWERS, encoding='utf-8'):
+            r = json.loads(l)
+            out[frozenset(r['members'])] = r['same_product']
+    return out
+
+
+def lookup(answered, members):
+    """Jev's answer for this exact set, or the answer of an accepted family that contains it; else None."""
+    m = frozenset(members)
+    if m in answered:
+        return answered[m]
+    hits = [p for s, p in answered.items() if p >= ACCEPT and m <= s]
+    return max(hits) if hits else None
+
+
 def run():
     import jev_categorize as jc
     if not jc.KEY:
         sys.exit('TYPESAFE_API_KEY not set')
     rows = {r['id']: r for r in fam.load_rows(ROOT + '/data')}
     cands = [c for c in json.load(open(CANDIDATES, encoding='utf-8')) if c['needs_check']]
-    done = set()
-    if os.path.exists(ANSWERS):
-        done = {json.loads(l)['key'] for l in open(ANSWERS, encoding='utf-8')}
-    todo = [c for c in cands if c['members'][0] not in done]
-    print('to do', len(todo), 'already', len(done), flush=True)
+    answered = load_answers()
+    todo = [c for c in cands if lookup(answered, c['members']) is None]
+    print('to do', len(todo), 'already answered', len(answered), flush=True)
     from concurrent.futures import ThreadPoolExecutor
     f = open(ANSWERS, 'a', encoding='utf-8')
 
@@ -67,23 +84,14 @@ def run():
 
 def write():
     rows = {r['id']: r for r in fam.load_rows(ROOT + '/data')}
-    answers, approved = {}, {}
-    if os.path.exists(ANSWERS):
-        for l in open(ANSWERS, encoding='utf-8'):
-            r = json.loads(l)
-            answers[r['key']] = r['same_product']
-            if r['same_product'] >= ACCEPT:
-                for i in r['members']:
-                    approved[i] = (frozenset(r['members']), r['same_product'])
+    answered = load_answers()
     out, missing, rejected = [], 0, 0
     for c in json.load(open(CANDIDATES, encoding='utf-8')):
         m = c['members']
         if not c['needs_check']:
             out.append({'members': m, 'jev': None})
             continue
-        p = answers.get(m[0])
-        if p is None and m[0] in approved and set(m) <= approved[m[0]][0]:
-            p = approved[m[0]][1]  # part of a family Jev already accepted
+        p = lookup(answered, m)
         if p is None:
             missing += 1
         if p is not None and p >= ACCEPT:
