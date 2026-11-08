@@ -58,7 +58,7 @@ class FullVariant(unittest.TestCase):
 
     def test_only_visible_norway_products_with_a_name(self):
         self.assertEqual(q(FULL, "select count(*) from products where trim(name) = ''")[0][0], 0)
-        self.assertGreater(q(FULL, 'select count(*) from products')[0][0], 100000)
+        self.assertGreater(q(FULL, 'select count(*) from products')[0][0], 90000)  # 98,931 on 2026-11-08 after families
 
     def test_unknown_nutrients_stay_null(self):
         # Unknown is never zero: some products must have no kcal at all.
@@ -280,6 +280,12 @@ class ZeroKcal(unittest.TestCase):
 
     def test_missing_written_as_zero_becomes_null(self):
         for pid in ('ean:7038010054471', 'kassalapp:40188'):
+            # A listing with no numbers may have joined its product line's family: then the family
+            # keeps its own numbers, and the zeros never reach it.
+            moved = q(FULL, 'select new_id from redirects where old_id = ?', pid)
+            if moved:
+                self.assertIsNotNone(q(FULL, 'select kcal from products where id = ?', moved[0][0])[0][0], pid)
+                continue
             rows = q(FULL, 'select kcal, protein_g, fat_g, carbs_g, data_quality, verified from products where id = ?', pid)
             self.assertEqual(len(rows), 1, pid)
             kcal, p, f, c, dq, verified = rows[0]
@@ -355,9 +361,17 @@ class Families(unittest.TestCase):
         pid = q(FULL, "select id from products where name = 'YT Proteinpudding'")[0][0]
         self.assertGreater(q(FULL, 'select count(*) from redirects where new_id = ?', pid)[0][0], 1)
 
-    def test_a_flavour_more_than_5_percent_off_stays_apart(self):
-        # YT Proteinyoghurt Naturell has 10 g protein against 9.2 to 9.3 for the flavoured ones.
-        self.assertTrue(q(FULL, "select 1 from products where name like 'Yt Proteinyoghurt Naturell%'"))
+    def test_a_listing_more_than_10_percent_off_stays_apart(self):
+        # YT Proteinyoghurt Mango&Pasjon has 6.6 g protein against 9.3 for the other flavours.
+        self.assertTrue(q(FULL, "select 1 from products where name like 'YT Proteinyoghurt Mango%'"))
+
+    def test_yt_proteinmelk_is_one_product(self):
+        # Max, 2026-11-08: Naturell, Kakao, "Protein Melk" and the 330 ml and 1 l packs are one product.
+        rows = q(FULL, "select name from products where brand in ('YT', 'Tine') "
+                       "and replace(lower(name), ' ', '') like '%proteinmelk%' and kcal between 40 and 50")
+        self.assertEqual([r[0] for r in rows], ['YT Proteinmelk'])
+        # The brand's own listing gives the numbers: Tine, per 100 ml.
+        self.assertEqual(q(FULL, "select source, per_100_unit from products where name = 'YT Proteinmelk'"), [('tine', 'ml')])
 
     def test_family_keeps_one_members_numbers(self):
         # Never an average: every family row has exactly the numbers of its own source listing.

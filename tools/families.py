@@ -25,8 +25,8 @@ import unicodedata
 from collections import defaultdict
 
 NUTRIENTS = ('kcal', 'protein_g', 'fat_g', 'sat_fat_g', 'carbs_g', 'sugars_g', 'fibre_g', 'salt_g')
-TOLERANCE = 0.05
-FLOOR = 0.5
+TOLERANCE = 0.10  # Max, 2026-11-08: flavours such as YT Proteinmelk Kakao (46) and Naturell (43) are one product
+FLOOR = 0.3  # grams or kcal; 2.1 vs 2.6 g protein is a different product (third review, 2026-11-08)
 
 _MARKS = re.compile(r'[®™©]')
 _SMALL = frozenset(('og', 'av', 'med', 'i', 'pa', 'på', 'til', 'uten', 'fra', 'for', 'och', 'with', 'and', 'of', 'the', 'in', 'en', 'et'))
@@ -115,42 +115,46 @@ def words(name):
     return re.findall(r'[0-9a-z]+', fold(strip_sizes(_MARKS.sub('', name or ''))))
 
 
-def close(a, b):
+def close(a, b, tolerance=None):
     if a['kcal'] is None or b['kcal'] is None:
         return False
     for n in NUTRIENTS:
         x, y = a[n], b[n]
         if x is None or y is None:
             continue
-        if abs(x - y) > max(TOLERANCE * max(abs(x), abs(y)), FLOOR):
+        if abs(x - y) > max((tolerance or TOLERANCE) * max(abs(x), abs(y)), FLOOR):
             return False
     return True
 
 
-# Words that mark a separate product, not a flavour (review of 200 families, 2026-11-08).
-# Listings join a family only when they carry the same set. Folded spelling (see fold()).
+# Words that mark a separate product the numbers cannot show (review of 200 families, 2026-11-08):
+# lactose-free milk has the same macros as regular milk. Zero, light, sugar-free and fat-free are
+# left to the numbers. Listings join a family only when they carry the same set. Folded spelling.
 _VARIANT_WORDS = {
     'laktosfri': 'lactose_free', 'laktosefri': 'lactose_free', 'laktosfritt': 'lactose_free', 'laktosefritt': 'lactose_free',
-    'lactosefree': 'lactose_free', 'zero': 'zero', 'light': 'light', 'lett': 'light', 'latt': 'light', 'lite': 'light',
-    'sukkerfri': 'sugar_free', 'sockerfri': 'sugar_free', 'sugarfree': 'sugar_free', 'usotet': 'sugar_free', 'osotad': 'sugar_free',
+    'lactosefree': 'lactose_free',
     'okologisk': 'organic', 'ekologisk': 'organic', 'oko': 'organic', 'eko': 'organic', 'organic': 'organic',
     'vegan': 'vegan', 'glutenfri': 'gluten_free', 'glutenfree': 'gluten_free', 'energy': 'energy',
     'rokt': 'smoked', 'urokt': 'unsmoked', 'marinert': 'marinated', 'marinerad': 'marinated', 'marinade': 'marinated',
     'grillmarinade': 'marinated', 'jomfru': 'virgin', 'virgin': 'virgin', 'kapsler': 'capsules', 'kapslar': 'capsules',
-    'capsules': 'capsules', 'koffeinfri': 'decaf', 'decaf': 'decaf', 'fettfri': 'fat_free', 'mager': 'lean',
+    'capsules': 'capsules', 'koffeinfri': 'decaf', 'decaf': 'decaf',
 }
 _VARIANT_PHRASES = {
-    'u sukker': 'sugar_free', 'uten sukker': 'sugar_free', 'utan socker': 'sugar_free', 'no sugar': 'sugar_free',
-    'sugar free': 'sugar_free', 'fat free': 'fat_free', 'lactose free': 'lactose_free', 'uten laktose': 'lactose_free',
+    'lactose free': 'lactose_free', 'uten laktose': 'lactose_free',
     'hele bonner': 'whole_beans', 'helt bonner': 'whole_beans',
 }
 _BUNDLE = re.compile(r'\s\+\s*[A-Za-zÆØÅæøå]|\bshaker\b|\bgaveeske\b|\bgift\s*box\b', re.I)
 NEAR_ZERO_KCAL = 5.0
 
 
+_VARIANT_STEMS = (('royk', 'smoked'), ('rokt', 'smoked'), ('premium', 'premium'), ('mariner', 'marinated'), ('marinad', 'marinated'), ('kryddad', 'seasoned'), ('krydret', 'seasoned'),
+                  ('lagret', 'aged'), ('lagrad', 'aged'), ('fylt', 'filled'), ('fylld', 'filled'), ('morad', 'tenderised'))
+
+
 def variant_marks(name, brand=None):
     toks = words(name) + words(brand)
     marks = {_VARIANT_WORDS[t] for t in toks if t in _VARIANT_WORDS}
+    marks |= {m for t in toks for stem, m in _VARIANT_STEMS if stem in t}
     text = ' ' + ' '.join(toks) + ' '
     marks |= {m for ph, m in _VARIANT_PHRASES.items() if ' ' + ph + ' ' in text}
     return frozenset(marks)
@@ -168,9 +172,16 @@ def compatible(a, b):
         return False
     if variant_marks(a['name'], a['brand']) != variant_marks(b['name'], b['brand']):
         return False
-    # Near-zero foods (diet drinks, coffee, tea) are always within 5%, so flavours must not decide.
-    if max(a['kcal'], b['kcal']) < NEAR_ZERO_KCAL and words(a['name']) != words(b['name']):
+    same_name = words(a['name']) == words(b['name'])
+    # Near-zero foods (diet drinks, coffee, tea) are always within 10%, so flavours must not decide.
+    if max(a['kcal'], b['kcal']) < NEAR_ZERO_KCAL and not same_name:
         return False
+    # Names that differ by more than size or spelling: one known brand for both (third review,
+    # 2026-11-08: "Pils", "Brie" and "Cheddar" from many makers; Tommi and Muscle NH2 whey).
+    if not same_name:
+        ka, kb = a.get('_bkey', _brand_key(a['brand'])), b.get('_bkey', _brand_key(b['brand']))
+        if not ka or ka != kb:
+            return False
     return True
 
 
@@ -184,13 +195,87 @@ def brands_agree(a, b):
     return ka is None or kb is None or ka == kb or ka in words(b['name']) or kb in words(a['name'])
 
 
+def join_compounds(toks, vocab):
+    """Join two neighbouring words when the joined word is used elsewhere: protein melk -> proteinmelk."""
+    out, i = [], 0
+    while i < len(toks):
+        if i + 1 < len(toks) and toks[i] + toks[i + 1] in vocab:
+            out.append(toks[i] + toks[i + 1])
+            i += 2
+        else:
+            out.append(toks[i])
+            i += 1
+    return out
+
+
+_DESCRIBING = frozenset((
+    'lett', 'light', 'lite', 'latt', 'mager', 'sur', 'soft', 'crispy', 'cheesy', 'ny', 'nye', 'new', 'premium',
+    'original', 'classic', 'klassisk', 'ekstra', 'extra', 'mini', 'maxi', 'big', 'stor', 'store', 'liten', 'sma',
+    'fersk', 'frisk', 'frossen', 'fryst', 'dypfryst', 'hel', 'hele', 'grov', 'fin', 'rokt', 'roykt', 'varmrokt',
+    'kaldrokt', 'gravet', 'tvadelad', 'zero', 'sukkerfri', 'fettfri', 'glutenfri', 'ekologisk', 'okologisk',
+))
+
+
+class Lines:
+    """The product line of a listing: its first product word, ignoring sizes, brand words and how
+    compound words are split. "YT® PROTEINMELK KAKAO - YT®", "Protein Melk" (brand YT) and
+    "Yt Proteinmelk Fettfri 1l Tine" are all the line `proteinmelk` (Max, 2026-11-08)."""
+
+    def __init__(self, rows):
+        name_count = defaultdict(int)
+        self.vocab = set()
+        for r in rows:
+            for t in words(r['name']):
+                name_count[t] += 1
+                if len(t) >= 4:
+                    self.vocab.add(t)
+        brand_count = defaultdict(int)
+        for r in rows:
+            w = tuple(words(r['brand']))
+            if w:
+                brand_count[w] += 1
+        # A brand written at the start of names (YT, First Price). Food words that are also a brand
+        # (Protein Company) are left alone: as a name word they are far more common than as a brand.
+        self.brands = sorted((b for b, n in brand_count.items()
+                              if n >= 3 and name_count[b[0]] <= 5 * n), key=len, reverse=True)
+
+    def brand_key(self, name, brand):
+        """The brand a listing is sold under: one named at the start of the name wins ("YT Proteinmelk",
+        shop brand Tine, is YT), else the brand field. First word only; None when unknown."""
+        b = self.brand_in_name(name) or ' '.join(words(brand))
+        return b.split()[0] if b else None
+
+    def brand_in_name(self, name):
+        """The known brand a name starts with ("Yt Proteinpudding ..." -> "yt"), or None."""
+        toks = join_compounds(words(name), self.vocab)
+        for b in self.brands:
+            if len(toks) > len(b) and tuple(toks[:len(b)]) == b:
+                return ' '.join(b)
+        return None
+
+    def line(self, name, brand):
+        own = set(join_compounds(words(brand), self.vocab))
+        core = [t for t in join_compounds(words(name), self.vocab) if t not in own]
+        for _ in range(2):
+            for b in self.brands:
+                if len(core) > len(b) and tuple(core[:len(b)]) == b:
+                    core = core[len(b):]
+                    break
+        # A describing word is not the product: "Grilstad Lett Gullsalami" is the line gullsalami.
+        while len(core) > 1 and (core[0] in _DESCRIBING or core[0] in _VARIANT_WORDS):
+            core = core[1:]
+        return core[0] if core else None
+
+
 def candidates(rows):
     """Lists of product ids that pass the family rule. Rows need id, name, brand, unit and the nutrients."""
+    lines = Lines(rows)
     groups = defaultdict(list)
     for r in rows:
-        w = words(r['name'])
-        if w and r['kcal'] is not None:
-            groups[(w[0], w[1] if len(w) > 1 else '', r['unit'])].append(r)
+        r['_bkey'] = lines.brand_key(r['name'], r['brand'])
+        key = lines.line(r['name'], r['brand'])
+        if key and r['kcal'] is not None:
+            groups[key].append(r)
     out = []
     for key in sorted(groups):
         left = sorted(groups[key], key=lambda r: r['id'])
@@ -211,14 +296,34 @@ def names_differ(names):
 
 
 def family_name(rep_name, names, brand=None):
-    """The words every member shares, in the representative's order; else the representative without sizes."""
+    """The words every member shares, in the order of the member name that holds the most of them
+    (the representative first on a tie); else the representative without sizes."""
     rep = strip_sizes(rep_name)
-    common = set(words(names[0]))
+    vocab = {t for n in names + [rep] for t in words(n) if len(t) >= 4}
+    common = set(join_compounds(words(names[0]), vocab))
     for n in names[1:]:
-        common &= set(words(n))
-    kept = [w for w in re.findall(r'\S+', rep) if words(w) and all(x in common for x in words(w))]
-    while kept and (fold(kept[-1]).strip('/&,') in _SMALL or kept[-1] in ('m/', 'u/', 'w/', '&', '+', '-')):
-        kept.pop()  # no dangling "med", "og" or "&" at the end
+        common &= set(join_compounds(words(n), vocab))
+    common |= set(words(brand))  # a listing may leave the brand out of its name ("Protein Melk", brand YT)
+
+    def shared(base):
+        raw = re.findall(r'\S+', strip_sizes(base))
+        kept, i = [], 0
+        while i < len(raw):
+            w = words(raw[i])
+            nxt = words(raw[i + 1]) if i + 1 < len(raw) else []
+            if w and len(w) == 1 and len(nxt) == 1 and w[0] + nxt[0] in common:
+                kept += raw[i:i + 2]
+                i += 2
+                continue
+            if w and all(x in common for x in w):
+                kept.append(raw[i])
+            i += 1
+        while kept and (fold(kept[-1]).strip('/&,') in _SMALL or kept[-1] in ('m/', 'u/', 'w/', '&', '+', '-')):
+            kept.pop()  # no dangling "med", "og" or "&" at the end
+        return kept
+
+    best = max([rep_name] + list(names), key=lambda n: len(join_compounds(words(' '.join(shared(n))), vocab)))
+    kept = shared(best)
     brand_only = set(words(' '.join(kept))) <= set(words(brand))
     if kept and not brand_only:
         return ' '.join(kept).strip(' ,-–')
