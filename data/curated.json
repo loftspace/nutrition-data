@@ -1,0 +1,218 @@
+{
+ "note": "Hand-curated product lines (Max, 2026-11-08: \"go through all the YT products manually\"). Applied before every other merge rule. keep = the listing whose numbers are shown (the brand's own data where it exists); members fold into it (redirects, barcodes, search words); drop = removed as broken data.",
+ "products": [
+  {
+   "name": "YT Proteinyoghurt",
+   "brand": "YT",
+   "keep": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinyoghurt-vanilje",
+   "members": [
+    "ean:7038010072390",
+    "ean:7038010070471",
+    "ean:7038010070143",
+    "ean:7038010070150",
+    "kassalapp:199717",
+    "kassalapp:213650",
+    "ean:7038010071386",
+    "ean:7038010071393",
+    "ean:7038010068997",
+    "ean:7038010068980",
+    "ean:7038010071904",
+    "kassalapp:213449",
+    "ean:7038010072383",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinyoghurt-bringeb%C3%A6r",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinyoghurt-bringeb%C3%A6r-180g",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinyoghurt-pasjonsfrukt",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinyoghurt-vanilje-180g",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinyoghurt-vanilje-stor"
+   ]
+  },
+  {
+   "name": "YT Proteinpudding",
+   "brand": "YT",
+   "keep": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinpudding-sjokolade",
+   "members": [
+    "ean:0048412064647",
+    "ean:0048450061844",
+    "kassalapp:40611",
+    "ean:7038010062346",
+    "ean:7038010063503",
+    "kassalapp:24481",
+    "ean:7038010064654",
+    "ean:7038010061844",
+    "ean:9800001106548",
+    "tights:728255",
+    "ean:7038010064647",
+    "tights:728257",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinpudding-vanilje"
+   ]
+  },
+  {
+   "name": "YT Proteinmelk",
+   "brand": "YT",
+   "keep": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinmelk-kakao",
+   "members": [
+    "ean:7038010073700",
+    "ean:7038010068133",
+    "ean:7038010068164",
+    "kassalapp:40188",
+    "ean:7038010068157",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinmelk-kakao-300ml",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinmelk-naturell"
+   ]
+  },
+  {
+   "name": "YT Proteinshake",
+   "brand": "YT",
+   "keep": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinshake-jordb%C3%A6r-banan",
+   "members": [
+    "ean:7038010064685",
+    "ean:7038010064692",
+    "tights:728260",
+    "kassalapp:226955",
+    "ean:7038010064678",
+    "ean:7038010061837",
+    "kassalapp:220130",
+    "ean:7038010070198",
+    "kassalapp:199724",
+    "ean:7038010071218",
+    "ean:7038010072925",
+    "tights-discontinued:14428094",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinshake-sjokolade",
+    "ean:7038010072376",
+    "tights-discontinued:14428092"
+   ]
+  },
+  {
+   "name": "YT Yoghurtdrikk Protein",
+   "brand": "YT",
+   "keep": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-yoghurtdrikk-bringeb%C3%A6r",
+   "members": [
+    "ean:7038010073106",
+    "ean:7038010073113",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-yoghurtdrikk-protein-mango-pasjonsfrukt"
+   ]
+  },
+  {
+   "name": "YT Proteindrikk",
+   "brand": "YT",
+   "keep": "ean:7038010071928",
+   "members": [
+    "ean:7038010071911"
+   ]
+  },
+  {
+   "name": "YT Restitusjonsdrikk",
+   "brand": "YT",
+   "keep": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-restitusjonsdrikk-kakao",
+   "members": [
+    "tights:520151",
+    "tights:531638",
+    "tights:520154",
+    "tights:531633",
+    "ean:7038010064302",
+    "tights-discontinued:12798544",
+    "ean:7038010004254",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-restitusjonsdrikk-jordb%C3%A6r-banan",
+    "ean:7038010004261",
+    "tights-discontinued:531642"
+   ]
+  },
+  {
+   "name": "YT Restitusjonsdrikk Pro",
+   "brand": "YT",
+   "keep": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-restitusjonsdrikk-kakao-PRO",
+   "members": [
+    "ean:7038010055546",
+    "tights-discontinued:13699214"
+   ]
+  },
+  {
+   "name": "YT Restitusjonsbar",
+   "brand": "YT",
+   "keep": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-restitusjonsbar-sjokolade-pean%C3%B8tt",
+   "members": [
+    "ean:7038010043550",
+    "ean:7038010057588",
+    "ean:7038010066634",
+    "tights:518744",
+    "ean:7038010045769",
+    "tights:518723",
+    "tights:517279"
+   ]
+  },
+  {
+   "name": "YT Proteinbar",
+   "brand": "YT",
+   "keep": "ean:7038010068041",
+   "members": [
+    "ean:7038010063923",
+    "ean:7038010063930",
+    "ean:9800001437543",
+    "tights-discontinued:2414219",
+    "ean:7038010680410",
+    "tights-discontinued:2414218",
+    "ean:7038010067631",
+    "ean:7038010676314",
+    "ean:9800001437536",
+    "ean:7038010067624",
+    "tights-discontinued:13703974",
+    "tights-discontinued:3868758",
+    "tights-discontinued:3868687",
+    "tights-discontinued:3868756"
+   ]
+  },
+  {
+   "name": "YT Energibar",
+   "brand": "YT",
+   "keep": "ean:7038010072406",
+   "members": [
+    "ean:7038010072413",
+    "ean:7038010066306",
+    "tights:518764",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-energibar-sjokolade",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-energibar-traneb%C3%A6r"
+   ]
+  },
+  {
+   "name": "YT Mellommåltidsbar",
+   "brand": "YT",
+   "keep": "ean:7038010045752",
+   "members": [
+    "tights:518752"
+   ]
+  },
+  {
+   "name": "YT Sportsdrikk",
+   "brand": "YT",
+   "keep": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-sportsdrikk-sitrus",
+   "members": [
+    "ean:7038010041525",
+    "ean:7038010063336",
+    "ean:7038010063343",
+    "ean:7038010069383",
+    "tights:518649",
+    "tights:520405",
+    "tine:https://www.tine.no/merkevarer/yt/produkter/yt-sportsdrikk-r%C3%B8de-b%C3%A6r"
+   ]
+  },
+  {
+   "name": "YT Sportsdrikkpulver",
+   "brand": "YT",
+   "keep": "ean:7038010064319",
+   "members": []
+  }
+ ],
+ "drop": [
+  "ean:7068010038157",
+  "ean:7038010063602",
+  "ean:7038010063596",
+  "tights:874782",
+  "tights:874787"
+ ],
+ "rebrand": [
+  {
+   "id": "ean:7038010071409",
+   "brand": "Tine"
+  }
+ ]
+}

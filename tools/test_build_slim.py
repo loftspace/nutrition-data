@@ -366,7 +366,7 @@ class Families(unittest.TestCase):
     def test_a_listing_more_than_10_percent_off_stays_apart(self):
         # YT Proteinyoghurt Mango&Pasjon (6.6 g protein) is never folded into YT Proteinyoghurt (9.3 g);
         # since 2026-11-08 the unverified shop row is dropped because Tine's verified line exists.
-        self.assertEqual(q(FULL, "select protein_g from products where name = 'YT Proteinyoghurt'"), [(9.3,)])
+        self.assertEqual(q(FULL, "select protein_g from products where name = 'YT Proteinyoghurt'"), [(9.2,)])  # curated: Tine Vanilje
 
     def test_yt_proteinmelk_is_one_product(self):
         # Max, 2026-11-08: Naturell, Kakao, "Protein Melk" and the 330 ml and 1 l packs are one product.
@@ -410,6 +410,25 @@ class Unverified(unittest.TestCase):
     def test_no_sizes_in_names(self):
         n = q(FULL, "select count(*) from products where name glob '*[0-9]g' or name glob '*[0-9] g' or name glob '*[0-9]ml'")[0][0]
         self.assertLess(n, 50)
+
+
+class CuratedYT(unittest.TestCase):
+    """data/curated.json: YT by hand (Max, 2026-11-08)."""
+
+    def test_one_clean_list(self):
+        names = [r[0] for r in q(FULL, "select name from products where brand = 'YT' order by name")]
+        self.assertEqual(names, sorted([
+            'YT Energibar', 'YT Mellommåltidsbar', 'YT Proteinbar', 'YT Proteindrikk', 'YT Proteinmelk',
+            'YT Proteinpudding', 'YT Proteinshake', 'YT Proteinyoghurt', 'YT Restitusjonsbar', 'YT Restitusjonsdrikk',
+            'YT Restitusjonsdrikk Pro', 'YT Sportsdrikk', 'YT Sportsdrikkpulver', 'YT Yoghurtdrikk Protein']))
+
+    def test_no_other_row_calls_itself_yt(self):
+        self.assertEqual(q(FULL, "select count(*) from products where (name like 'YT %' or name like 'Yt %') and brand != 'YT'")[0][0], 0)
+
+    def test_numbers_come_from_tine_and_barcodes_follow(self):
+        self.assertEqual(q(FULL, "select kcal, per_100_unit, source from products where name = 'YT Proteinmelk'"), [(46.0, 'ml', 'tine')])
+        pid = q(FULL, "select id from products where name = 'YT Proteinyoghurt'")[0][0]
+        self.assertEqual(q(FULL, "select product_id from product_eans where ean = '7038010071386'"), [(pid,)])
 
 
 class Tidy(unittest.TestCase):
