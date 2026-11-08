@@ -19,6 +19,9 @@ import sqlite3
 import sys
 import unicodedata
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import families as fam  # noqa: E402
+
 SCHEMA_VERSION = 2
 
 # Sources whose licences allow republishing (LICENSES.md, "open sources").
@@ -304,7 +307,113 @@ def read_shard(data_dir, manifest, table):
                 yield dict(zip(cols, json.loads(line)))
 
 
-def build(data_dir, out, db_version, variant='full', previous=None, built_at='', source_commit='', stats=None):
+def apply_families(kept, flags_by_id, families, short_brands=frozenset()):
+    """Fold each flavour family into its best listing (tools/families.py, contract: Families).
+
+    Returns (old id -> kept id, extra search text per kept id, per_100_unit per kept id).
+    The kept listing keeps its own numbers; nothing is averaged. Checked again here, after the
+    zero-kcal rule and the open-variant drops, so the 5% rule holds for the values in this file.
+    Then two passes: a listing with no numbers joins a family when its name matches a member's,
+    and families that end up with the same name and brand (sources disagreeing on one product,
+    such as a shop and the brand's own site) become one when their kcal is within 15%.
+    """
+    unit = {i: per_100_unit(kept[i]['pack_size'], kept[i]['name']) for i in kept}
+
+    def row(i):
+        r = {n: kept[i][n] for n in NUTRIENTS}
+        r.update(id=i, name=kept[i]['name'], brand=kept[i]['brand'], unit=unit[i])
+        return r
+
+    def rank(i):
+        p = kept[i]
+        kind = SOURCES[p['primary_source']][1]
+        return (p['kcal'] is not None, is_verified(p, flags_by_id[i], kind), kind != 'shop',
+                sum(p[n] is not None for n in NUTRIENTS), p['ean'] is not None)
+
+    def best(ids):
+        return max(sorted(ids), key=rank)  # max keeps the first (lowest id) on a tie
+
+    # 1. Families from data/families.json, re-checked against their best listing.
+    groups = []
+    taken = set()
+    for f in families:
+        ids = [i for i in f['members'] if i in kept and i not in taken and kept[i]['kcal'] is not None]
+        if len(ids) < 2:
+            continue
+        rep = best(ids)
+        ids = [i for i in ids if i == rep or (fam.compatible(row(i), row(rep)) and unit[i] == unit[rep])]
+        if len(ids) > 1:
+            groups.append(set(ids))
+            taken.update(ids)
+
+    # 2. A listing with no numbers joins the family whose member has the same name (sizes and case aside).
+    by_words = {}
+    for g in groups:
+        for i in g:
+            by_words.setdefault((' '.join(fam.words(kept[i]['name'])), unit[i]), set()).add(id(g))
+    gid = {id(g): g for g in groups}
+    for i in sorted(kept):
+        if i in taken or any(kept[i][n] is not None for n in NUTRIENTS):
+            continue
+        hit = by_words.get((' '.join(fam.words(kept[i]['name'])), unit[i]))
+        if hit and len(hit) == 1:
+            g = gid[next(iter(hit))]
+            if all(fam.brands_agree(row(i), row(m)) for m in g):
+                g.add(i)
+                taken.add(i)
+
+    # 3. Families with the same name and brand are one product whose sources disagree (a shop and the
+    #    brand's own site). Only when the winning listing is verified from a non-shop source, so the
+    #    brand's own numbers settle it; otherwise the 5% rule stands and they stay apart.
+    def name_of(g):
+        rep = best(g)
+        names = [fam.tidy_name(kept[i]['name'], kept[i]['brand'], short_brands) for i in sorted(g)]
+        return fam.family_name(fam.tidy_name(kept[rep]['name'], kept[rep]['brand'], short_brands), names, kept[rep]['brand'])
+
+    merged_groups = {}
+    for g in groups:
+        rep = best(g)
+        key = (' '.join(fam.words(name_of(g))), fam._brand_key(kept[rep]['brand']), unit[rep])
+        other = merged_groups.get(key)
+        if other is not None:
+            a, b = kept[best(other)]['kcal'], kept[rep]['kcal']
+            win = kept[best(other | g)]
+            trusted = is_verified(win, flags_by_id[win['id']], SOURCES[win['primary_source']][1]) and \
+                SOURCES[win['primary_source']][1] != 'shop'
+            same_variant = fam.variant_marks(kept[best(other)]['name'], kept[best(other)]['brand']) == \
+                fam.variant_marks(kept[rep]['name'], kept[rep]['brand'])
+            if trusted and same_variant and abs(a - b) <= 0.15 * max(a, b):
+                other.update(g)
+                continue
+            key = key + (rep,)
+        merged_groups[key] = g
+
+    moved, extra = {}, {}
+    for g in merged_groups.values():
+        rep = best(g)
+        p = kept[rep]
+        extra[rep] = ' '.join(x for i in sorted(g) for x in (kept[i]['name'], kept[i]['flavour']) if x)
+        p['name'] = name_of(g)
+        for col in ('pack_size', 'flavour'):
+            if len({kept[i][col] for i in g}) > 1:
+                p[col] = None
+        for i in g:
+            if i != rep:
+                moved[i] = rep
+                del kept[i]
+    return moved, extra, {i: unit[i] for i in kept}
+
+
+def _dedupe_words(text):
+    seen, out = set(), []
+    for w in text.split():
+        if w not in seen:
+            seen.add(w)
+            out.append(w)
+    return ' '.join(out)
+
+
+def build(data_dir, out, db_version, variant='full', previous=None, built_at='', source_commit='', stats=None, families=None):
     if variant not in ('full', 'open'):
         raise ValueError('variant must be full or open')
     if stats is None:
@@ -374,6 +483,15 @@ def build(data_dir, out, db_version, variant='full', previous=None, built_at='',
             if 'no_nutrition' not in flags:
                 flags.append('no_nutrition')
 
+    # Flavour families (data/families.json, made by build/jev_families.py). Contract: Families.
+    if families is None:
+        path = os.path.join(data_dir, 'families.json')
+        families = json.load(open(path, encoding='utf-8'))['families'] if os.path.exists(path) else []
+    short_brands = fam.capital_brands(p['brand'] for p in kept.values())
+    moved, extra_search, units = apply_families(kept, flags_by_id, families, short_brands)
+    stats['family_products'] = len(extra_search)
+    stats['family_members_folded'] = len(moved)
+
     if os.path.exists(out):
         os.remove(out)
     db = sqlite3.connect(out)
@@ -412,14 +530,16 @@ create table meta(key text primary key, value text not null);
         kind = SOURCES[p['primary_source']][1]
         derived = {
             'ean': canonical_ean(p['ean']),
-            'per_100_unit': per_100_unit(p['pack_size'], p['name']),
+            'per_100_unit': units[p['id']],
             'verified': is_verified(p, flags, kind),
             'data_quality': json.dumps(flags, ensure_ascii=False) if (flags or p['data_quality'] is not None) else None,
         }
         stats['verified'] += derived['verified']
         stats['per_100_ml'] += derived['per_100_unit'] == 'ml'
+        derived['name'] = fam.tidy_name(p['name'], p['brand'], short_brands)
+        derived['brand'] = fam.tidy_brand(p['brand'], short_brands)
         vals = [derived[c] if c in derived else p[_SHARD_NAME.get(c, c)] for c in PRODUCT_COLUMNS]
-        search = normalise(' '.join(x for x in (p['name'], p['brand'], p['flavour']) if x))
+        search = _dedupe_words(normalise(' '.join(x for x in (p['name'], p['brand'], p['flavour'], extra_search.get(p['id'])) if x)))
         rows.append(vals + [search])
     db.executemany('insert into products values (%s)' % ','.join('?' * (len(PRODUCT_COLUMNS) + 1)), rows)
 
@@ -428,6 +548,7 @@ create table meta(key text primary key, value text not null);
     pairs = [(e['product_id'], e['ean']) for e in read_shard(data_dir, manifest, 'product_eans')]
     pairs += [(pid, p['ean']) for pid, p in kept.items()]
     for pid, raw in pairs:
+        pid = moved.get(pid, pid)
         if pid not in kept:
             continue
         ean = canonical_ean(raw)
@@ -444,8 +565,10 @@ create table meta(key text primary key, value text not null);
         while new in merged and new not in seen:
             seen.add(new)
             new = merged[new]
+        new = moved.get(new, new)
         if new in kept:
             redirects[old] = new
+    redirects.update(moved)
 
     # Ids that were in the previous release and are gone now, with no successor: record them,
     # so an old favourite or log entry can tell "gone" from "unknown id".
