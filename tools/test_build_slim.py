@@ -380,7 +380,8 @@ class Families(unittest.TestCase):
         rows = q(FULL, 'select id, ' + ', '.join(build_slim.NUTRIENTS) + ' from products where id in (select new_id from redirects)')
         self.assertGreater(len(rows), 1000)
         for pid, *vals in rows:
-            if pid in src and src[pid]['kcal'] is not None:
+            # A row the zero-kcal rule emptied (all zeros became unknown) has no numbers to compare.
+            if pid in src and src[pid]['kcal'] is not None and any(v is not None for v in vals):
                 self.assertEqual(vals, [src[pid][n] for n in build_slim.NUTRIENTS], pid)
 
 

@@ -84,6 +84,7 @@ def run():
 
 def write():
     rows = {r['id']: r for r in fam.load_rows(ROOT + '/data')}
+    lines = fam.Lines(list(rows.values()))
     answered = load_answers()
     out, missing, rejected = [], 0, 0
     for c in json.load(open(CANDIDATES, encoding='utf-8')):
@@ -98,10 +99,10 @@ def write():
             out.append({'members': m, 'jev': p})
             continue
         rejected += p is not None
-        # Not accepted: keep only the plain duplicates (same name apart from size or case).
+        # Not accepted: keep only the plain duplicates (same words in any order, brand and size aside).
         by_name = defaultdict(list)
         for i in m:
-            by_name[' '.join(fam.words(rows[i]['name']))].append(i)
+            by_name[lines.core(rows[i]['name'], rows[i]['brand'])].append(i)
         out.extend({'members': g, 'jev': None} for g in by_name.values() if len(g) > 1)
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump({'rule': 'tools/families.py, Jev accept >= %.1f' % ACCEPT, 'families': out}, f, ensure_ascii=False, indent=0)

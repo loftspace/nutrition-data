@@ -330,6 +330,7 @@ def apply_families(kept, flags_by_id, families, short_brands=frozenset()):
         r.update(id=i, name=kept[i]['name'], brand=kept[i]['brand'], unit=unit[i])
         if lines is not None:
             r['_bkey'] = lines.brand_key(r['name'], r['brand'])
+            r['_core'] = lines.core(r['name'], r['brand'])
         return r
 
     def rank(i):
@@ -362,33 +363,41 @@ def apply_families(kept, flags_by_id, families, short_brands=frozenset()):
         names = [fam.tidy_name(kept[i]['name'], kept[i]['brand'], short_brands) for i in sorted(g)]
         return fam.family_name(fam.tidy_name(kept[rep]['name'], kept[rep]['brand'], short_brands), names, kept[rep]['brand'])
 
-    # 2. A listing with no numbers joins the family with a member of the same name (sizes and case aside),
-    #    when the brands agree (third review, 2026-11-08: joining by product line pulled in other foods).
-    by_words = {}
+    # 2. A listing with no numbers joins the product of the same brand and the same words (any order,
+    #    sizes aside) that has numbers: in its family if it has one, else the two become a family.
+    #    Listings with no numbers and no such product join each other. Nothing is lost: they have no
+    #    numbers, and their barcodes and names move to the row that has them (sweep, 2026-11-08).
+    in_group = {}
     for g in groups:
         for i in g:
-            by_words.setdefault(' '.join(fam.words(kept[i]['name'])), set()).add(id(g))
-    gid = {id(g): g for g in groups}
+            in_group[i] = g
+    by_core = defaultdict(list)
     for i in sorted(kept):
-        if i in taken or any(kept[i][n] is not None for n in NUTRIENTS):
+        r = row(i)
+        if r['_bkey'] and not fam.is_bundle(r['name']):
+            by_core[(r['_bkey'], r['_core'], fam.variant_marks(r['name'], r['brand']))].append(i)
+    for key in sorted(by_core, key=lambda k: (k[0], sorted(k[1]), sorted(k[2]))):
+        ids = by_core[key]
+        empty = [i for i in ids if i not in taken and all(kept[i][n] is None for n in NUTRIENTS)]
+        full = [i for i in ids if kept[i]['kcal'] is not None]
+        if not empty or len(ids) < 2:
             continue
-        me = row(i)
-        if not me['brand']:
-            me['brand'] = lines.brand_in_name(me['name'])  # "Yt Proteinpudding Sjokolade 190g" is YT's
-            if not me['brand']:
-                continue  # no brand at all: it could be anyone's
-        hit = [gid[k] for k in by_words.get(' '.join(fam.words(kept[i]['name'])), ())]
-        if fam.is_bundle(me['name']):
-            continue
-        mine = set(fam.join_compounds(fam.words(me['name']), lines.vocab)) | set(fam.words(me['brand']))
-        hit = sorted((g for g in hit if all(fam.brands_agree(me, row(m)) for m in g)
-                      and set(fam.join_compounds(fam.words(name_of(g)), lines.vocab)) <= mine
-                      and fam.variant_marks(me['name'], me['brand']) == fam.variant_marks(kept[best(g)]['name'], kept[best(g)]['brand'])),
-                     key=min)
-        # Several families of one brand are joined in step 3 anyway, so the first one will do.
-        if hit and len({fam._brand_key(kept[best(g)]['brand']) for g in hit}) == 1:
-            hit[0].add(i)
+        if full:
+            target = best(full)
+            g = in_group.get(target)
+            if g is None:
+                g = {target}
+                groups.append(g)
+                in_group[target] = g
+                taken.add(target)
+        else:
+            g = set()
+            groups.append(g)
+        for i in empty:
+            g.add(i)
+            in_group[i] = g
             taken.add(i)
+    groups = [g for g in groups if len(g) > 1]
 
     # 3. Families with the same name and brand are one product whose sources disagree (a shop and the
     #    brand's own site). Only when the winning listing is verified from a non-shop source, so the
@@ -399,12 +408,12 @@ def apply_families(kept, flags_by_id, families, short_brands=frozenset()):
     for g in groups:
         rep = best(g)
         line = lines.line(kept[rep]['name'], kept[rep]['brand'])
-        if line in fam.join_compounds(fam.words(name_of(g)), lines.vocab) or not fam.names_differ([kept[i]['name'] for i in g]):
+        if line in fam.join_compounds(fam.words(name_of(g)), lines.vocab) or not fam.names_differ_core([row(i)['_core'] for i in g]):
             checked.append(g)
             continue
         dups = defaultdict(set)
         for i in g:
-            dups[' '.join(fam.words(kept[i]['name']))].add(i)
+            dups[row(i)['_core']].add(i)
         checked += [d for d in dups.values() if len(d) > 1]
     groups = checked
 
@@ -423,7 +432,7 @@ def apply_families(kept, flags_by_id, families, short_brands=frozenset()):
             # Only for the same product: both families hold a listing of the same name (YT Proteinpudding
             # Sjokolade at Tights and at tine.no). Different flavour sets that ended up with one name stay apart.
             def listing_names(grp):
-                return {' '.join(fam.words(fam.tidy_name(kept[i]['name'], kept[i]['brand']))) for i in grp}
+                return {row(i)['_core'] for i in grp}
             shared = listing_names(other) & listing_names(g)
             if trusted and same_variant and key[1] and shared and fam.close(row(best(other)), row(rep), 0.15):
                 other.update(g)
