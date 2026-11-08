@@ -62,7 +62,7 @@ class FullVariant(unittest.TestCase):
 
     def test_unknown_nutrients_stay_null(self):
         # Unknown is never zero: some products must have no kcal at all.
-        self.assertGreater(q(FULL, 'select count(*) from products where kcal is null')[0][0], 0)
+        self.assertGreater(q(FULL, 'select count(*) from products where fibre_g is null')[0][0], 0)  # kcal is always known since 2026-11-08 (rows without it are dropped)
 
     def test_search_finds_norwegian_foods(self):
         for word in ('skyr', 'kjottdeig', 'havregryn'):
@@ -396,6 +396,13 @@ class Unverified(unittest.TestCase):
         n = q(FULL, 'select count(*) from products where verified = 0 and kcal is null and protein_g is null '
                     'and fat_g is null and carbs_g is null')[0][0]
         self.assertEqual(n, 0)
+
+    def test_yt_yoghurtdrikk_is_one_row_with_the_shop_row_folded_in(self):
+        rows = q(FULL, "select name, source from products where name like 'YT Yoghurtdrikk%' or name like 'YT Drikkeyoghurt%'")
+        self.assertEqual(rows, [('YT Yoghurtdrikk Protein', 'tine')])
+
+    def test_no_unverified_row_without_kcal(self):
+        self.assertEqual(q(FULL, 'select count(*) from products where verified = 0 and kcal is null')[0][0], 0)
 
     def test_yt_salt_karamell_from_a_shop_is_gone(self):
         self.assertEqual(q(FULL, "select count(*) from products where name like 'YT Protein Yoghurt Salt Karamell%'")[0][0], 0)
