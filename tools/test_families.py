@@ -301,5 +301,50 @@ class CompoundTails(unittest.TestCase):
         self.assertEqual(self.tails('lettmelk melk'), ['lettmelk', 'melk'])
 
 
+class Labels(unittest.TestCase):
+    """Max, 2026-11-09: every product shows brand and volume, and names follow one format."""
+
+    def label(self, sources, unit='ml'):
+        import build_slim
+        return build_slim.pack_label(sources, unit)
+
+    def test_one_size_is_written_the_same_way(self):
+        self.assertEqual(self.label([('1000ML', 'Lettmelk')]), '1 L')
+        self.assertEqual(self.label([('1,75L', 'Lettmelk')]), '1,75 L')
+        self.assertEqual(self.label([('5 dl', 'Fløte')]), '500 ml')
+        self.assertEqual(self.label([('500G', 'Ost')], 'g'), '500 g')
+        self.assertEqual(self.label([('1.5 kg', 'Ost')], 'g'), '1,5 kg')
+
+    def test_several_sizes_most_common_three_smallest_first(self):
+        src = [('1L', 'a'), ('1 l', 'b'), ('1,75L', 'c'), ('1,75L', 'd'), ('500ml', 'e'), ('500 ml', 'f'), ('250ml', 'g')]
+        self.assertEqual(self.label(src), '500 ml, 1 L, 1,75 L')
+
+    def test_size_comes_from_the_name_when_the_listing_has_none(self):
+        self.assertEqual(self.label([(None, 'Tine Lettmelk 1L')]), '1 L')
+
+    def test_nutrition_amounts_and_multipacks_are_not_sizes(self):
+        self.assertIsNone(self.label([(None, 'Skyr 20g Protein')], 'g'))
+        self.assertIsNone(self.label([(None, 'Yoghurt per 100g')], 'g'))
+        self.assertIsNone(self.label([('6 x 330 ml', 'Cola')]))
+        self.assertIsNone(self.label([('24 x 250ml', 'Red Bull')]))
+
+    def test_only_the_products_own_unit_when_listings_mix_units(self):
+        self.assertEqual(self.label([('1L', 'a'), ('1000g', 'b')]), '1 L')
+
+    def test_brand_goes_first_for_established_brands(self):
+        import build_slim
+        counts = {'Bjerke': 25, 'Tine': 200, 'Lille': 3}
+        self.assertEqual(build_slim.brand_first('Leverpostei Grov', 'Bjerke', counts), 'Bjerke Leverpostei Grov')
+        self.assertEqual(build_slim.brand_first('Tine Lettmelk', 'Tine', counts), 'Tine Lettmelk')
+        self.assertEqual(build_slim.brand_first('Lettmelk', 'Lille', counts), 'Lettmelk')
+        self.assertEqual(build_slim.brand_first('Skummet melk', None, counts), 'Skummet melk')
+
+    def test_percent_is_written_one_way(self):
+        import build_slim
+        self.assertEqual(build_slim.tidy_percent('Lettmelk 0.5 %'), 'Lettmelk 0,5%')
+        self.assertEqual(build_slim.tidy_percent('Gouda 28 %'), 'Gouda 28%')
+        self.assertEqual(build_slim.tidy_percent('Lettmelk 1,0%'), 'Lettmelk 1,0%')
+
+
 if __name__ == '__main__':
     unittest.main()
