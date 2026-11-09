@@ -12,6 +12,7 @@ fresh Linux checkout. The raw scraper output is not needed.
 """
 import argparse
 import gzip
+import collections
 import json
 import os
 import re
@@ -518,6 +519,63 @@ _NOT_COMPOUND = re.compile(
     r'gubbar|blabar|tranbar|vinbar|korsbar|bjornbar|krusbar|mullbar|holdbar|smorbar|formbar|skivbar|gangbar|bredbar|gojibar)$')
 
 
+_PACK_SIZE = re.compile(r'(?<![\d.,])(\d+(?:[.,]\d+)?)\s?(kg|gram|gr|g|l|dl|cl|ml)\b(?!\s*(?:protein|sukker|fett|fat|karbo|carb|fiber))', re.I)
+_MULTIPACK = re.compile(r'\d\s*[x×]\s*\d|\d\s*[x×]\s', re.I)
+_PACK_FACTOR = {'kg': ('g', 1000), 'gram': ('g', 1), 'gr': ('g', 1), 'g': ('g', 1), 'l': ('ml', 1000), 'dl': ('ml', 100), 'cl': ('ml', 10), 'ml': ('ml', 1)}
+
+
+def _pack_amounts(text):
+    """(unit, amount) for each single-pack size in the text. Multipacks and "per 100 g" are not sizes."""
+    if not text or _MULTIPACK.search(text):
+        return []
+    out = []
+    for m in _PACK_SIZE.finditer(text):
+        if text[:m.start()].lower().rstrip().endswith('per'):
+            continue
+        unit, factor = _PACK_FACTOR[m.group(2).lower()]
+        amount = float(m.group(1).replace(',', '.')) * factor
+        if (20 if unit == 'ml' else 5) <= amount <= 25000:
+            out.append((unit, round(amount)))
+    return out
+
+
+def _format_amount(unit, amount):
+    if amount < 1000:
+        return '%d %s' % (amount, unit)
+    big = ('%.2f' % (amount / 1000)).rstrip('0').rstrip('.').replace('.', ',')
+    return '%s %s' % (big, 'kg' if unit == 'g' else 'L')
+
+
+def pack_label(sources, unit):
+    """Up to three sizes across a product's listings, the most common ones, smallest first.
+
+    `sources` holds (pack_size, name) per listing; a listing's name is only read when it has no pack_size."""
+    counts = collections.Counter()
+    for pack, name in sources:
+        counts.update(set(_pack_amounts(pack) if pack else _pack_amounts(name)))
+    if any(u == unit for u, _ in counts):
+        counts = collections.Counter({k: v for k, v in counts.items() if k[0] == unit})
+    if not counts:
+        return None
+    top = sorted(counts, key=lambda k: (-counts[k], k[1]))[:3]
+    return ', '.join(_format_amount(u, a) for u, a in sorted(top, key=lambda k: k[1]))
+
+
+def brand_first(name, brand, counts, minimum=20):
+    """Established brands lead the name, so a set of products reads the same way."""
+    if not brand or counts.get(brand, 0) < minimum:
+        return name
+    if fam.fold(brand.split()[0]) in fam.fold(name):
+        return name
+    return '%s %s' % (brand, name)
+
+
+def tidy_percent(name):
+    """One way to write a percentage: `0,5%`."""
+    name = re.sub(r'(\d)\.(\d+)(\s*%)', r'\1,\2\3', name)
+    return re.sub(r'(\d)\s+%', r'\1%', name)
+
+
 def with_compound_tails(text):
     """`text` plus the food-word tails of its compound words, each tail once."""
     words = text.split()
@@ -627,6 +685,7 @@ def build(data_dir, out, db_version, variant='full', previous=None, built_at='',
     for rb in curated.get('rebrand', ()):
         if rb['id'] in kept:
             kept[rb['id']]['brand'] = rb['brand']
+    pack_sources = {i: (p['pack_size'], p['name']) for i, p in kept.items()}  # before names and sizes are merged away
     for cp in curated.get('products', ()):
         keep = cp['keep']
         if keep not in kept:
@@ -707,6 +766,10 @@ create table meta(key text primary key, value text not null);
     used = sorted({p['primary_source'] for p in kept.values()} | {'custom'})
     db.executemany('insert into sources values (?, ?, ?)', [(s,) + SOURCES[s] for s in used])
 
+    brand_counts = collections.Counter(fam.tidy_brand(p['brand'], short_brands) for p in kept.values() if p['brand'])
+    listings_of = defaultdict(list)
+    for old, new in moved.items():
+        listings_of[new].append(old)
     rows = []
     stats['verified'] = 0
     stats['per_100_ml'] = 0
@@ -721,8 +784,10 @@ create table meta(key text primary key, value text not null);
         }
         stats['verified'] += derived['verified']
         stats['per_100_ml'] += derived['per_100_unit'] == 'ml'
-        derived['name'] = fam.display_name(p['name'], p['brand'], lines, short_brands)
         derived['brand'] = fam.tidy_brand(p['brand'], short_brands)
+        derived['name'] = tidy_percent(brand_first(fam.display_name(p['name'], p['brand'], lines, short_brands), derived['brand'], brand_counts))
+        listings = [pack_sources[i] for i in [p['id']] + listings_of.get(p['id'], []) if i in pack_sources]
+        derived['pack_size'] = pack_label(listings, derived['per_100_unit']) or p['pack_size']
         vals = [derived[c] if c in derived else p[_SHARD_NAME.get(c, c)] for c in PRODUCT_COLUMNS]
         search = with_compound_tails(_dedupe_words(normalise(' '.join(x for x in (p['name'], p['brand'], p['flavour'], extra_search.get(p['id'])) if x))))
         rows.append(vals + [search])
