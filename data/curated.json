@@ -2113,7 +2113,7 @@
    "members": []
   },
   {
-   "name": "Tine IsKaffe Cappuccino Uten Tilsatt Sukker",
+   "name": "Tine Iskaffe Cappuccino Uten Tilsatt Sukker",
    "brand": "Tine",
    "keep": "tine:https://www.tine.no/merkevarer/tine-iskaffe/produkter/tine-iskaffe-cappuccino-uten-tilsatt-sukker",
    "members": [
@@ -2121,11 +2121,15 @@
    ]
   },
   {
-   "name": "Tine IsKaffe Cappuccino Original",
+   "name": "Tine Iskaffe Cappuccino Original",
    "brand": "Tine",
    "keep": "tine:https://www.tine.no/merkevarer/tine-iskaffe/produkter/tine-iskaffe-original-cappuccino",
    "members": [
-    "tine:https://www.tine.no/merkevarer/tine-iskaffe/produkter/tine-iskaffe-original-cappuccino-1L"
+    "tine:https://www.tine.no/merkevarer/tine-iskaffe/produkter/tine-iskaffe-original-cappuccino-1L",
+    "ean:7038010042454",
+    "ean:7038010068508",
+    "tights-discontinued:13875346",
+    "ean:7038010003813"
    ]
   },
   {
@@ -2296,7 +2300,7 @@
    "members": []
   },
   {
-   "name": "Tine Eple & Appelsinjuice",
+   "name": "Tine Eple og Appelsinjuice",
    "brand": "Tine",
    "keep": "ean:7038010071096",
    "members": []
@@ -2491,10 +2495,13 @@
    ]
   },
   {
-   "name": "Tine IsKaffe Gosto Brasileiro",
+   "name": "Tine Iskaffe Caffe Gosto Brasileiro",
    "brand": "Tine",
    "keep": "tine:https://www.tine.no/merkevarer/tine-iskaffe/produkter/tine-iskaffe-brasil",
-   "members": []
+   "members": [
+    "ean:7038010001321",
+    "tights-discontinued:13875176"
+   ]
   },
   {
    "name": "Tine Grapefruktjuice",
@@ -2599,16 +2606,6 @@
    "members": []
   },
   {
-   "name": "Tine Iskaffe Cappuccino",
-   "brand": "Tine",
-   "keep": "ean:7038010042454",
-   "members": [
-    "ean:7038010068508",
-    "tights-discontinued:13875346",
-    "ean:7038010003813"
-   ]
-  },
-  {
    "name": "Tine Iskaffe Dobbel Latte",
    "brand": "Tine",
    "keep": "ean:7038010071225",
@@ -2643,14 +2640,6 @@
    "brand": "Tine",
    "keep": "ean:7038010052545",
    "members": []
-  },
-  {
-   "name": "Tine Iskaffe Caffe Gosto Brasileiro",
-   "brand": "Tine",
-   "keep": "ean:7038010001321",
-   "members": [
-    "tights-discontinued:13875176"
-   ]
   },
   {
    "name": "Tine Iskaffe Espresso Macchiato",
@@ -3851,7 +3840,7 @@
    ]
   },
   {
-   "name": "Tine Yoghurt Med Sjokoladecrisp",
+   "name": "Tine Yoghurt med Sjokoladecrisp",
    "brand": "Tine",
    "keep": "ean:7038010071997",
    "members": [
@@ -4657,7 +4646,7 @@
    ]
   },
   {
-   "name": "Synnøve Revet Lett 16%",
+   "name": "Synnøve Revet Lett",
    "brand": "Synnøve",
    "keep": "synnove:https://www.synnove.no/produkt/synnove-revet-lett-170g/",
    "members": []
@@ -5074,7 +5063,7 @@
    "members": []
   },
   {
-   "name": "Kavli Hamburgerdressing Sourcream",
+   "name": "Kavli Hamburgerdressing Sour Cream",
    "brand": "Kavli",
    "keep": "ean:7311442162007",
    "members": []
@@ -6686,7 +6675,7 @@
    "members": []
   },
   {
-   "name": "Piano Sjokoladepudding Uten Tilsatt Sukker",
+   "name": "Piano Sjokoladepudding uten Tilsatt Sukker",
    "brand": "Piano",
    "keep": "tine:https://www.tine.no/merkevarer/piano/produkter/Piano%20Sjokoladepudding%20UTEN%20tilsatt%20sukker",
    "members": [
@@ -6715,7 +6704,7 @@
    ]
   },
   {
-   "name": "Piano Vaniljesaus Uten Tilsatt Sukker",
+   "name": "Piano Vaniljesaus uten Tilsatt Sukker",
    "brand": "Piano",
    "keep": "tine:https://www.tine.no/merkevarer/piano/produkter/piano-vaniljesaus-uten",
    "members": []
@@ -7148,7 +7137,7 @@
    ]
   },
   {
-   "name": "Tine IsKaffe Caffe Gusto Vaniglia",
+   "name": "Tine Iskaffe Caffe Gusto Vaniglia",
    "brand": "Tine",
    "keep": "ean:7038010069178",
    "members": []
@@ -7829,7 +7818,7 @@
    "members": []
   },
   {
-   "name": "Piano Gelé Uten Tilsatt Sukker",
+   "name": "Piano Gelé uten Tilsatt Sukker",
    "brand": "Piano",
    "keep": "ean:7038010068089",
    "members": []
@@ -8047,7 +8036,7 @@
    "members": []
   },
   {
-   "name": "Gulrotkakemix",
+   "name": "Synnøve Gulrotkakemix",
    "brand": "Synnøve",
    "keep": "ean:7071319032269",
    "members": []
@@ -8077,19 +8066,19 @@
    "members": []
   },
   {
-   "name": "Premium appelsin juice med fruktkjøtt",
+   "name": "Tine Premium Appelsinjuice med Fruktkjøtt",
    "brand": "Tine",
    "keep": "ean:7038010045851",
    "members": []
   },
   {
-   "name": "Iskaffe Mocha",
+   "name": "Tine Iskaffe Mocha",
    "brand": "Tine",
    "keep": "ean:7038010066115",
    "members": []
   },
   {
-   "name": "Julebrunost Krydret",
+   "name": "Tine Julebrunost Krydret",
    "brand": "Tine",
    "keep": "kassalapp:56026",
    "members": []
@@ -8241,7 +8230,7 @@
    "members": []
   },
   {
-   "name": "Jelly With Fruit Flavor",
+   "name": "Piano Jelly with Fruit Flavor",
    "brand": "Piano",
    "keep": "ean:7038010072741",
    "members": []
@@ -8981,7 +8970,7 @@
    "members": []
   },
   {
-   "name": "Coop Blåbærsyltetøy Uten Tilsatt Sukker",
+   "name": "Coop Blåbærsyltetøy uten Tilsatt Sukker",
    "brand": "Coop",
    "keep": "ean:7025110212221",
    "members": []
@@ -9986,7 +9975,7 @@
    ]
   },
   {
-   "name": "Coop Cookies And Cream Ice Cream",
+   "name": "Coop Cookies and Cream Ice Cream",
    "brand": "Coop",
    "keep": "ean:7340191186316",
    "members": []
@@ -12203,7 +12192,7 @@
    "members": []
   },
   {
-   "name": "Coop Gyros Saus",
+   "name": "Coop Gyrossaus",
    "brand": "Coop",
    "keep": "ean:7025110222305",
    "members": []
@@ -12553,7 +12542,7 @@
    "members": []
   },
   {
-   "name": "Coop Hot Kebabsaus",
+   "name": "Coop Kebabsaus Hot",
    "brand": "Coop",
    "keep": "ean:7025110222367",
    "members": []
@@ -12565,13 +12554,13 @@
    "members": []
   },
   {
-   "name": "Coop Hot Taco Sauce",
+   "name": "Coop Taco Sauce Hot",
    "brand": "Coop",
    "keep": "ean:7340191148741",
    "members": []
   },
   {
-   "name": "Coop Hot Xtra Tacosauce",
+   "name": "Coop Xtra Tacosauce Hot",
    "brand": "Coop",
    "keep": "ean:7340191142800",
    "members": []
@@ -12646,7 +12635,7 @@
    ]
   },
   {
-   "name": "Coop Husholdningssaft Uten Tilsatt Sukker",
+   "name": "Coop Husholdningssaft uten Tilsatt Sukker",
    "brand": "Coop",
    "keep": "ean:7025110168283",
    "members": []
@@ -12805,7 +12794,7 @@
    "members": []
   },
   {
-   "name": "Coop Iste Uten Sukker",
+   "name": "Coop Iste uten Sukker",
    "brand": "Coop",
    "keep": "ean:7025110210852",
    "members": [
@@ -14770,7 +14759,7 @@
    "members": []
   },
   {
-   "name": "Coop X-tra Milk Chocolate",
+   "name": "Coop Xtra Milk Chocolate",
    "brand": "Coop Xtra",
    "keep": "ean:7340011401971",
    "members": []
@@ -15238,19 +15227,19 @@
    "members": []
   },
   {
-   "name": "Coop Naturell Kalkunbryst",
+   "name": "Coop Kalkunbryst Naturell",
    "brand": "Coop",
    "keep": "ean:7025110106575",
    "members": []
   },
   {
-   "name": "Coop Naturell Kyllingbryst",
+   "name": "Coop Kyllingbryst Naturell",
    "brand": "Coop",
    "keep": "ean:7025110106636",
    "members": []
   },
   {
-   "name": "Coop Naturell Tofu",
+   "name": "Coop Tofu Naturell",
    "brand": "Coop",
    "keep": "ean:7300156596970",
    "members": [
@@ -15600,7 +15589,7 @@
    ]
   },
   {
-   "name": "Coop Orango Uten Tilsatt Sukker",
+   "name": "Coop Orango uten Tilsatt Sukker",
    "brand": "Coop",
    "keep": "ean:7025110180308",
    "members": [
@@ -16283,7 +16272,7 @@
    "members": []
   },
   {
-   "name": "Coop Pizza Het Texmex",
+   "name": "Coop Pizza Het",
    "brand": "Coop",
    "keep": "ean:7340011459934",
    "members": []
@@ -16505,7 +16494,7 @@
    "members": []
   },
   {
-   "name": "Coop Plant Battle Sweet Vs Sour",
+   "name": "Coop Plant Battle Sweet vs Sour",
    "brand": "Coop",
    "keep": "ean:7340191189102",
    "members": []
@@ -16778,7 +16767,7 @@
    "members": []
   },
   {
-   "name": "Coop Ekologisk Pumpasoppa Kokos Ingefära Röd Curry",
+   "name": "Coop Änglamark Ekologisk Pumpasoppa Kokos Ingefära Röd Curry",
    "brand": "Coop Änglamark",
    "keep": "ean:7300156574725",
    "members": []
@@ -16903,7 +16892,7 @@
    "members": []
   },
   {
-   "name": "Coop Ramen Suppe",
+   "name": "Coop Ramensuppe",
    "brand": "Coop",
    "keep": "ean:7090025494475",
    "members": []
@@ -17734,7 +17723,7 @@
    "members": []
   },
   {
-   "name": "Coop Sitron Sprudle",
+   "name": "Coop Sprudle Sitron",
    "brand": "Coop",
    "keep": "ean:7025110183118",
    "members": []
@@ -18379,7 +18368,7 @@
    "members": []
   },
   {
-   "name": "Coop Chips Sourcream & Onion",
+   "name": "Coop Chips Sour Cream & Onion",
    "brand": "Coop",
    "keep": "ean:7340191137172",
    "members": []
@@ -18532,7 +18521,7 @@
    "members": []
   },
   {
-   "name": "Coop Spicy Pizzasaus",
+   "name": "Coop Pizzasaus Spicy",
    "brand": "Coop",
    "keep": "ean:7025110213631",
    "members": []
@@ -18773,7 +18762,7 @@
    "members": []
   },
   {
-   "name": "Coop X-tra Stekta Köttbullar",
+   "name": "Coop Xtra Stekta Köttbullar",
    "brand": "Coop Xtra",
    "keep": "ean:7300156599377",
    "members": []
@@ -19096,7 +19085,7 @@
    "members": []
   },
   {
-   "name": "Coop Svinekjøtt Strimlet",
+   "name": "Coop Strimlet Svinekjøtt",
    "brand": "Coop",
    "keep": "ean:7025110228239",
    "members": []
@@ -19232,7 +19221,7 @@
    "members": []
   },
   {
-   "name": "Coop Taco Saus",
+   "name": "Coop Tacosaus",
    "brand": "Coop",
    "keep": "ean:7340011353911",
    "members": [
@@ -19702,7 +19691,7 @@
    "members": []
   },
   {
-   "name": "Coop Tyttebærsyltetøy Uten Tilsatt Sukker",
+   "name": "Coop Tyttebærsyltetøy uten Tilsatt Sukker",
    "brand": "Coop",
    "keep": "ean:7025110212252",
    "members": []
@@ -19932,7 +19921,7 @@
    "members": []
   },
   {
-   "name": "Coop Vegetardag Burger Røkt Smak",
+   "name": "Coop Vegetardag Burger Røkt",
    "brand": "Coop",
    "keep": "ean:7025110203335",
    "members": []
@@ -20064,7 +20053,7 @@
    "members": []
   },
   {
-   "name": "Coop Vitlök Kebabsås",
+   "name": "Coop Kebabsås Vitlök",
    "brand": "Coop",
    "keep": "ean:7300156595836",
    "members": []
@@ -20478,7 +20467,7 @@
    "members": []
   },
   {
-   "name": "Eldorado Balsamico Eddik Di Modena",
+   "name": "Eldorado Balsamico Eddik di Modena",
    "brand": "Eldorado",
    "keep": "ean:7035620019326",
    "members": []
@@ -20678,7 +20667,7 @@
    "members": []
   },
   {
-   "name": "Eldorado Bulgur & Hummussalat",
+   "name": "Eldorado Bulgur og Hummussalat",
    "brand": "Eldorado",
    "keep": "ean:7035620044885",
    "members": [
@@ -20808,7 +20797,7 @@
    "members": []
   },
   {
-   "name": "Eldorado Chilikreps Salat",
+   "name": "Eldorado Chilikrepssalat",
    "brand": "Eldorado",
    "keep": "ean:7035620067037",
    "members": [
@@ -20879,7 +20868,7 @@
    ]
   },
   {
-   "name": "Eldorado Chunky & Spicy Tomatsuppe",
+   "name": "Eldorado Chunky og Spicy Tomatsuppe",
    "brand": "Eldorado",
    "keep": "ean:7035620039072",
    "members": []
@@ -20935,7 +20924,7 @@
    "members": []
   },
   {
-   "name": "Eldorado Crabstick Salat",
+   "name": "Eldorado Crabsticksalat",
    "brand": "Eldorado",
    "keep": "ean:7035620065347",
    "members": [
@@ -21235,7 +21224,7 @@
    "members": []
   },
   {
-   "name": "Eldorado Ferdig Blandet Toppingmiks",
+   "name": "Eldorado Ferdigblandet Toppingmiks",
    "brand": "Eldorado",
    "keep": "ean:7035620048692",
    "members": []
@@ -21309,7 +21298,7 @@
    ]
   },
   {
-   "name": "Eldorado Fresh & Juicy",
+   "name": "Eldorado Fresh og Juicy",
    "brand": "Eldorado",
    "keep": "ean:7035620011542",
    "members": [
@@ -21842,7 +21831,7 @@
    ]
   },
   {
-   "name": "Eldorado Iste Uten Sukker",
+   "name": "Eldorado Iste uten Sukker",
    "brand": "Eldorado",
    "keep": "ean:7035620051272",
    "members": [
@@ -21947,7 +21936,7 @@
    "members": []
   },
   {
-   "name": "Eldorado Kalkon Bröstfilé",
+   "name": "Eldorado Kalkonbröstfilé",
    "brand": "Eldorado",
    "keep": "ean:2359748112666",
    "members": []
@@ -22188,7 +22177,7 @@
    "members": []
   },
   {
-   "name": "Eldorado Kyckling Innerfilé",
+   "name": "Eldorado Kycklinginnerfilé",
    "brand": "Eldorado",
    "keep": "ean:7311041007594",
    "members": []
@@ -22232,7 +22221,7 @@
    "members": []
   },
   {
-   "name": "Eldorado Kyckling Nuggets",
+   "name": "Eldorado Kycklingnuggets",
    "brand": "Eldorado",
    "keep": "ean:7311043011391",
    "members": [
@@ -22240,7 +22229,7 @@
    ]
   },
   {
-   "name": "Eldorado Kyckling Stekkorv",
+   "name": "Eldorado Kycklingstekkorv",
    "brand": "Eldorado",
    "keep": "ean:7340083456756",
    "members": []
@@ -22965,7 +22954,7 @@
    ]
   },
   {
-   "name": "Eldorado Påskebrus Uten Sukker",
+   "name": "Eldorado Påskebrus uten Sukker",
    "brand": "Eldorado",
    "keep": "ean:7035620047107",
    "members": [
@@ -23081,7 +23070,7 @@
    ]
   },
   {
-   "name": "Eldorado Pesto Alla Genovese",
+   "name": "Eldorado Pesto alla Genovese",
    "brand": "Eldorado",
    "keep": "ean:7311041029299",
    "members": [
@@ -23770,7 +23759,7 @@
    "members": []
   },
   {
-   "name": "Eldorado Sitronlimonade m/ingefær",
+   "name": "Eldorado Sitronlimonade med Ingefær",
    "brand": "Eldorado",
    "keep": "ean:7035620053993",
    "members": []
@@ -23969,7 +23958,7 @@
    "members": []
   },
   {
-   "name": "Eldorado Sojamarinerad Tofu Fast",
+   "name": "Eldorado Sojamarinerad Tofu",
    "brand": "Eldorado",
    "keep": "ean:7311043010394",
    "members": []
@@ -24142,7 +24131,7 @@
    "members": []
   },
   {
-   "name": "Eldorado Stille Vann u/kullsyre",
+   "name": "Eldorado Stille Vann uten Kullsyre",
    "brand": "Eldorado",
    "keep": "ean:7035620052927",
    "members": [
@@ -24223,7 +24212,7 @@
    "members": []
   },
   {
-   "name": "Eldorado Tacosaus",
+   "name": "Eldorado Tacosaus Sterk",
    "brand": "Eldorado",
    "keep": "ean:7035620066481",
    "members": [
@@ -25598,7 +25587,7 @@
    ]
   },
   {
-   "name": "Myprotein Økologisk Lucuma-pulver",
+   "name": "Myprotein Økologisk Lucumapulver",
    "brand": "Myprotein",
    "keep": "myprotein-discontinued:https://www.myprotein.no/sports-nutrition/oekologisk-lucuma-pulver/11147239.html",
    "members": []
@@ -25759,7 +25748,7 @@
    "members": []
   },
   {
-   "name": "Myprotein Organisk Kakaosmør-Knapper",
+   "name": "Myprotein Organisk Kakaosmørknapper",
    "brand": "Myprotein",
    "keep": "ean:5055936817319",
    "members": []
@@ -26053,7 +26042,7 @@
    "members": []
   },
   {
-   "name": "Myprotein Protein- & Bursdags-cupcakes",
+   "name": "Myprotein Protein- og Bursdagscupcakes",
    "brand": "Myprotein",
    "keep": "myprotein-discontinued:https://www.myprotein.no/sports-nutrition/protein-bursdags-cupcakes/11270981.html",
    "members": []
@@ -26130,7 +26119,7 @@
    "members": []
   },
   {
-   "name": "Myprotein Proteinmåltid Chilli Con Carne",
+   "name": "Myprotein Proteinmåltid Chilli con Carne",
    "brand": "Myprotein",
    "keep": "myprotein-discontinued:https://www.myprotein.no/sports-nutrition/protein-maaltid-chilli-con-carne/10984882.html",
    "members": []
@@ -26212,7 +26201,7 @@
    "members": []
   },
   {
-   "name": "Myprotein Protein Suppe",
+   "name": "Myprotein Proteinsuppe",
    "brand": "Myprotein",
    "keep": "myprotein-discontinued:https://www.myprotein.no/sports-nutrition/protein-suppe/10923725.html",
    "members": []
@@ -26665,7 +26654,7 @@
    "members": []
   },
   {
-   "name": "Myprotein Xanthan Gummi",
+   "name": "Myprotein Xanthangummi",
    "brand": "Myprotein",
    "keep": "ean:5055534304587",
    "members": []
@@ -26691,7 +26680,7 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Økologisk Ahornsirup",
+   "name": "Rema 1000 Ahornsirup Økologisk",
    "brand": "Rema 1000",
    "keep": "ean:5705830012852",
    "members": []
@@ -26739,7 +26728,7 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Økologisk Appelsinjuice",
+   "name": "Rema 1000 Appelsinjuice Økologisk",
    "brand": "Rema 1000",
    "keep": "ean:5705830019967",
    "members": []
@@ -27887,7 +27876,7 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Grønnsaks-Vårruller",
+   "name": "Rema 1000 Grønnsaksvårruller",
    "brand": "Rema 1000",
    "keep": "ean:7032069102145",
    "members": []
@@ -28107,7 +28096,7 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Havrekiks med Mælkechokolade",
+   "name": "Rema Havrekiks med Mælkechokolade",
    "brand": "Rema 1000",
    "keep": "ean:5705830013439",
    "members": []
@@ -28213,7 +28202,7 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Hylleblomst Saft",
+   "name": "Rema 1000 Hylleblomstsaft",
    "brand": "Rema 1000",
    "keep": "ean:5705830016355",
    "members": [
@@ -28265,7 +28254,7 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Jalapeno Mustard",
+   "name": "Rema 1000 Jalapeño Mustard",
    "brand": "Rema 1000",
    "keep": "ean:7032069108802",
    "members": []
@@ -28307,13 +28296,13 @@
    ]
   },
   {
-   "name": "Rema 1000 Jordbærgrød",
+   "name": "Rema Jordbærgrød",
    "brand": "Rema 1000",
    "keep": "ean:5705830015358",
    "members": []
   },
   {
-   "name": "Rema 1000 Jordbær Limonade",
+   "name": "Rema 1000 Jordbærlimonade",
    "brand": "Rema 1000",
    "keep": "ean:7032069738672",
    "members": []
@@ -28333,7 +28322,7 @@
    ]
   },
   {
-   "name": "Rema 1000 Juicy Burger Cheddar & Jalapeño",
+   "name": "Rema 1000 Juicy Burger Cheddar og Jalapeño",
    "brand": "Rema 1000",
    "keep": "ean:7024850017257",
    "members": [
@@ -28464,7 +28453,7 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Kjelepoppet Popcorn med Smak av Sour Cream & Onion",
+   "name": "Rema 1000 Kjelepoppet Popcorn med Smak av Sour Cream og Onion",
    "brand": "Rema 1000",
    "keep": "ean:7032069110775",
    "members": []
@@ -28518,7 +28507,7 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Økologisk Kokosdrikk Usøtet",
+   "name": "Rema 1000 Kokosdrikk Usøtet Økologisk",
    "brand": "Rema 1000",
    "keep": "ean:7032069731802",
    "members": []
@@ -28543,7 +28532,7 @@
    ]
   },
   {
-   "name": "Rema 1000 Økologisk Kokosmelk",
+   "name": "Rema 1000 Kokosmelk Økologisk",
    "brand": "Rema 1000",
    "keep": "ean:7032069105238",
    "members": []
@@ -28567,7 +28556,7 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Korean Style BBQ-Saus",
+   "name": "Rema 1000 Korean Style BBQ-saus",
    "brand": "Rema 1000",
    "keep": "ean:7032069103906",
    "members": []
@@ -28699,7 +28688,7 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Lakris Fudge",
+   "name": "Rema 1000 Lakrisfudge",
    "brand": "Rema 1000",
    "keep": "ean:7032069755433",
    "members": []
@@ -28735,7 +28724,7 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Laksefilet Hvitløk & Urter",
+   "name": "Rema 1000 Laksefilet Hvitløk og Urter",
    "brand": "Rema 1000",
    "keep": "kassalapp:47522",
    "members": []
@@ -28753,11 +28742,13 @@
    "members": [
     "ean:7032069739198",
     "ean:7072544000047",
-    "ean:7072544001150"
+    "ean:7072544001150",
+    "ean:7072544970852",
+    "ean:2374108207844"
    ]
   },
   {
-   "name": "Rema 1000 Økologisk Laksefilet",
+   "name": "Rema 1000 Laksefilet Økologisk",
    "brand": "Rema 1000",
    "keep": "ean:7032069102985",
    "members": [
@@ -28813,21 +28804,13 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Naturell Laksefilet",
-   "brand": "Rema 1000",
-   "keep": "ean:7072544970852",
-   "members": [
-    "ean:2374108207844"
-   ]
-  },
-  {
    "name": "Rema 1000 Lemonade med Ingefær",
    "brand": "Rema 1000",
    "keep": "ean:7032069105429",
    "members": []
   },
   {
-   "name": "Rema 1000 Leskedrikk Uten Sukker",
+   "name": "Rema 1000 Leskedrikk uten Sukker",
    "brand": "Rema 1000",
    "keep": "ean:7032069733509",
    "members": []
@@ -28981,7 +28964,7 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Økologisk Mandeldrikk",
+   "name": "Rema 1000 Mandeldrikk Økologisk",
    "brand": "Rema 1000",
    "keep": "ean:7032069731734",
    "members": []
@@ -29023,7 +29006,7 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Mango & Appelsin Smoothie",
+   "name": "Rema 1000 Mango og Appelsin Smoothie",
    "brand": "Rema 1000",
    "keep": "ean:7032069108512",
    "members": [
@@ -29123,7 +29106,7 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Mezzelune Sopp & Trøffel",
+   "name": "Rema 1000 Mezzelune Sopp og Trøffel",
    "brand": "Rema 1000",
    "keep": "ean:7032069101742",
    "members": []
@@ -29239,7 +29222,7 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Økologisk Mørk Sjokolade med Havsalt 72%",
+   "name": "Rema 1000 Mørk Sjokolade med Havsalt 72% Økologisk",
    "brand": "Rema 1000",
    "keep": "ean:7032069107249",
    "members": []
@@ -29284,7 +29267,7 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Naturell Grovkvernet Lakseburger",
+   "name": "Rema 1000 Lakseburger Naturell Grovkvernet",
    "brand": "Rema 1000",
    "keep": "ean:7032069738429",
    "members": []
@@ -29296,7 +29279,7 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Naturell Ørretfilet",
+   "name": "Rema 1000 Ørretfilet Naturell",
    "brand": "Rema 1000",
    "keep": "ean:7072544000078",
    "members": [
@@ -29433,7 +29416,7 @@
    ]
   },
   {
-   "name": "Rema 1000 Økologisk Extra Virgin Olivenolje",
+   "name": "Rema 1000 Olivenolje Extra Virgin Økologisk",
    "brand": "Rema 1000",
    "keep": "ean:7032069726044",
    "members": [
@@ -29638,7 +29621,7 @@
    ]
   },
   {
-   "name": "Rema 1000 Peanøtt & Karamell-kake",
+   "name": "Rema 1000 Peanøtt og Karamellkake",
    "brand": "Rema 1000",
    "keep": "ean:7032069760994",
    "members": []
@@ -29692,7 +29675,7 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Økologisk Pesto Basilikum",
+   "name": "Rema 1000 Pesto Basilikum Økologisk",
    "brand": "Rema 1000",
    "keep": "ean:7032069731277",
    "members": []
@@ -29934,7 +29917,7 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Rabarber & Hindbær",
+   "name": "Rema 1000 Rabarber og Hindbær",
    "brand": "Rema 1000",
    "keep": "ean:5705830014382",
    "members": []
@@ -30207,7 +30190,7 @@
    ]
   },
   {
-   "name": "Rema 1000 Salte Kjeks Ovnsbakt",
+   "name": "Rema Salte Kjeks Ovnsbakt",
    "brand": "Rema 1000",
    "keep": "ean:7032069736739",
    "members": []
@@ -30543,7 +30526,7 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Sød Fransk Sennep",
+   "name": "Rema Sød Fransk Sennep",
    "brand": "Rema 1000",
    "keep": "ean:5705830016386",
    "members": []
@@ -31124,7 +31107,7 @@
    "members": []
   },
   {
-   "name": "Rema 1000 Topping med Smak av Sjokolade & Hasselnøtter",
+   "name": "Rema 1000 Topping med Smak av Sjokolade og Hasselnøtter",
    "brand": "Rema 1000",
    "keep": "ean:7032069108321",
    "members": []
@@ -32497,7 +32480,7 @@
    "members": []
   },
   {
-   "name": "Gilde Chili Con Carne",
+   "name": "Gilde Chili con Carne",
    "brand": "Gilde",
    "keep": "ean:7039610005054",
    "members": []
@@ -32787,7 +32770,7 @@
    ]
   },
   {
-   "name": "Gilde Go & Mager Servelat",
+   "name": "Gilde Go og Mager Servelat",
    "brand": "Gilde",
    "keep": "ean:7037204755231",
    "members": [
@@ -32795,37 +32778,37 @@
    ]
   },
   {
-   "name": "Gilde Go & Mager Bacon",
+   "name": "Gilde Go og Mager Bacon",
    "brand": "Gilde",
    "keep": "ean:7037203632403",
    "members": []
   },
   {
-   "name": "Gilde Go & Mager Fersk Leverpostei",
+   "name": "Gilde Go og Mager Fersk Leverpostei",
    "brand": "Gilde",
    "keep": "ean:7037204195228",
    "members": []
   },
   {
-   "name": "Gilde Go & Mager Grillpølse",
+   "name": "Gilde Go og Mager Grillpølse",
    "brand": "Gilde",
    "keep": "ean:7037204651632",
    "members": []
   },
   {
-   "name": "Gilde Go & Mager Kjøttpølse uten Skinn",
+   "name": "Gilde Go og Mager Kjøttpølse uten Skinn",
    "brand": "Gilde",
    "keep": "ean:7037204655432",
    "members": []
   },
   {
-   "name": "Gilde Go & Mager Postei Ovnsbakt",
+   "name": "Gilde Go og Mager Postei Ovnsbakt",
    "brand": "Gilde",
    "keep": "ean:7037204194320",
    "members": []
   },
   {
-   "name": "Gilde Go & Mager Salami",
+   "name": "Gilde Go og Mager Salami",
    "brand": "Gilde",
    "keep": "ean:7037204190926",
    "members": [
@@ -32833,7 +32816,7 @@
    ]
   },
   {
-   "name": "Gilde Go & Mager Spekeskinke",
+   "name": "Gilde Go og Mager Spekeskinke",
    "brand": "Gilde",
    "keep": "ean:7037203633912",
    "members": [
@@ -32842,7 +32825,7 @@
    ]
   },
   {
-   "name": "Gilde Go & Mager Burger",
+   "name": "Gilde Go og Mager Burger",
    "brand": "Gilde",
    "keep": "ean:7037203642433",
    "members": []
@@ -32862,15 +32845,9 @@
    ]
   },
   {
-   "name": "Gilde Grillpølse Ost & Chili",
+   "name": "Gilde Grillpølse Ost og Chili",
    "brand": "Gilde",
    "keep": "ean:7037204658129",
-   "members": []
-  },
-  {
-   "name": "Gilde Røkt Gourmetlam Pinnekjøtt",
-   "brand": "Gilde",
-   "keep": "ean:2001120600000",
    "members": []
   },
   {
@@ -32995,13 +32972,13 @@
    "members": []
   },
   {
-   "name": "Gilde Hot Dogs Bacon & Ostepølse",
+   "name": "Gilde Hotdogs Bacon og Ostepølse",
    "brand": "Gilde",
    "keep": "ean:7037203634674",
    "members": []
   },
   {
-   "name": "Gilde Hotdogs Ost & Chili",
+   "name": "Gilde Hotdogs Ost og Chili",
    "brand": "Gilde",
    "keep": "ean:7037203631987",
    "members": []
@@ -33621,7 +33598,7 @@
    ]
   },
   {
-   "name": "Gilde Fin & Fersk Leverpostei",
+   "name": "Gilde Fin og Fersk Leverpostei",
    "brand": "Gilde",
    "keep": "ean:7037204195129",
    "members": []
@@ -33907,12 +33884,6 @@
     "ean:5035003643867",
     "ean:7037203643867"
    ]
-  },
-  {
-   "name": "Gilde Pinnekjøtt Lam Røkt",
-   "brand": "Gilde",
-   "keep": "kassalapp:57687",
-   "members": []
   },
   {
    "name": "Gilde Pizzabacon",
@@ -34734,14 +34705,8 @@
     "norgesgruppen:23012798",
     "norgesgruppen:23016201",
     "ean:2301279800000",
-    "ean:7037204651922"
-   ]
-  },
-  {
-   "name": "Gilde Wienerpølser",
-   "brand": "Gilde",
-   "keep": "ean:2301620113469",
-   "members": [
+    "ean:7037204651922",
+    "ean:2301620113469",
     "ean:2301620113544"
    ]
   },
@@ -34782,7 +34747,7 @@
    "members": []
   },
   {
-   "name": "Gilde XL Ost & Chili Grillpølse",
+   "name": "Gilde XL Ost og Chili Grillpølse",
    "brand": "Gilde",
    "keep": "kassalapp:20465",
    "members": []
@@ -34797,13 +34762,22 @@
    "name": "Gilde Pinnekjøtt av Lam",
    "brand": "Gilde",
    "keep": "ean:7037204194627",
-   "members": []
+   "members": [
+    "norgesgruppen:23010627",
+    "ean:2001693400007",
+    "ean:2000708400001",
+    "norgesgruppen:23011493",
+    "norgesgruppen:23017423"
+   ]
   },
   {
    "name": "Gilde Røkt Pinnekjøtt av Lam",
    "brand": "Gilde",
    "keep": "ean:7037204194726",
-   "members": []
+   "members": [
+    "kassalapp:57687",
+    "ean:2001120600000"
+   ]
   },
   {
    "name": "Gilde Salami Spekeskalk",
@@ -34873,7 +34847,7 @@
    "members": []
   },
   {
-   "name": "Gilde Grillskiver Lam med Fransk Smak",
+   "name": "Gilde Grillskiver Lam med Fransk",
    "brand": "Gilde",
    "keep": "ean:2301632300000",
    "members": []
@@ -34982,7 +34956,7 @@
    "members": []
   },
   {
-   "name": "Meny Pasta Arrabiata",
+   "name": "Meny Pasta Arrabbiata",
    "brand": "Meny",
    "keep": "ean:2000508463404",
    "members": [
@@ -35003,7 +34977,7 @@
    "members": []
   },
   {
-   "name": "Meny Oasen Pølsemakeri Bacon",
+   "name": "Meny Bacon",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "norgesgruppen:23896582",
    "members": [
@@ -35019,7 +34993,7 @@
    "members": []
   },
   {
-   "name": "Meny Oasen Pølsemakeri Baconpølse",
+   "name": "Meny Baconpølse",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "ean:7090046420040",
    "members": [
@@ -35079,7 +35053,7 @@
    "members": []
   },
   {
-   "name": "Meny Oasen Pølsemakeri Bayonnerull Kokt",
+   "name": "Meny Bayonnerull Kokt",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "norgesgruppen:23896588",
    "members": []
@@ -35091,7 +35065,7 @@
    "members": []
   },
   {
-   "name": "Meny BBQ-Saus",
+   "name": "Meny BBQ-saus",
    "brand": "Meny",
    "keep": "ean:7090049730108",
    "members": []
@@ -35123,7 +35097,7 @@
    ]
   },
   {
-   "name": "Meny Oasen Pølsemakeri Biffgrill",
+   "name": "Meny Biffgrill",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "norgesgruppen:23896558",
    "members": []
@@ -35147,7 +35121,7 @@
    "members": []
   },
   {
-   "name": "Meny Oasen Pølsemakeri Røkt Bogskinke",
+   "name": "Meny Røkt Bogskinke",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "norgesgruppen:23896546",
    "members": [
@@ -35265,7 +35239,7 @@
    "members": []
   },
   {
-   "name": "Meny Oasen Pølsemakeri Chilipølse",
+   "name": "Meny Chilipølse",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "ean:7090046420064",
    "members": [
@@ -35321,7 +35295,7 @@
    "members": []
   },
   {
-   "name": "Meny Oasen Pølsemakeri Danskrull",
+   "name": "Meny Danskrull",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "ean:0000023896512",
    "members": [
@@ -35354,7 +35328,7 @@
    "members": []
   },
   {
-   "name": "Meny Oasen Pølsemakeri Ekte Wienerpølser",
+   "name": "Meny Ekte Wienerpølser",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "norgesgruppen:23896557",
    "members": []
@@ -35528,7 +35502,7 @@
    ]
   },
   {
-   "name": "Meny Frøsnapper med ost og skinke",
+   "name": "Meny Frøsnapper med Ost og Skinke",
    "brand": "Meny",
    "keep": "ean:2000853559906",
    "members": []
@@ -35794,13 +35768,13 @@
    "members": []
   },
   {
-   "name": "Meny Julepølse med Kno",
+   "name": "Idsøe Julepølse med Kno",
    "brand": "Idsøe",
    "keep": "norgesgruppen:23864720",
    "members": []
   },
   {
-   "name": "Meny Julepølse Rå",
+   "name": "Idsøe Julepølse Rå",
    "brand": "Idsøe",
    "keep": "norgesgruppen:23864704",
    "members": []
@@ -36272,7 +36246,7 @@
    "members": []
   },
   {
-   "name": "Meny Mac and Cheese Angus",
+   "name": "Meny Kjøkken Mac and Cheese Angus",
    "brand": "Meny Kjøkken",
    "keep": "ean:2000786382305",
    "members": []
@@ -36420,13 +36394,13 @@
    ]
   },
   {
-   "name": "Meny Oasen Pølsemakeri Stekt oksestek",
+   "name": "Meny Stekt Oksestek",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "norgesgruppen:23896560",
    "members": []
   },
   {
-   "name": "Meny Omelett med ost og skinke",
+   "name": "Meny Omelett med Ost og Skinke",
    "brand": "Meny",
    "keep": "ean:2000689633603",
    "members": [
@@ -36452,7 +36426,7 @@
    "members": []
   },
   {
-   "name": "Meny Oasen Pølsemakeri Ostepølse",
+   "name": "Meny Ostepølse",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "ean:7090046420057",
    "members": [
@@ -36466,7 +36440,7 @@
    "members": []
   },
   {
-   "name": "Meny Panert svinesnitzel av flatbiff",
+   "name": "Meny Panert Svinesnitzel av Flatbiff",
    "brand": "Meny",
    "keep": "ean:2000744486700",
    "members": []
@@ -36480,7 +36454,7 @@
    ]
   },
   {
-   "name": "Meny Pannekake med flesk",
+   "name": "Meny Pannekake med Flesk",
    "brand": "Meny",
    "keep": "ean:2000680882604",
    "members": []
@@ -36533,7 +36507,7 @@
    "members": []
   },
   {
-   "name": "Meny Oasen Pølsemakeri Pepperskinke",
+   "name": "Meny Pepperskinke",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "norgesgruppen:23896576",
    "members": []
@@ -36557,7 +36531,7 @@
    "members": []
   },
   {
-   "name": "Meny Pizza Cectino med ost og skinke",
+   "name": "Meny Pizza Cectino med Ost og Skinke",
    "brand": "Meny",
    "keep": "ean:2000799339907",
    "members": [
@@ -36601,7 +36575,7 @@
    "members": []
   },
   {
-   "name": "Meny Oasen Pølsemakeri Urøkt pølse",
+   "name": "Meny Urøkt Pølse",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "norgesgruppen:23896545",
    "members": []
@@ -36653,7 +36627,7 @@
    "members": []
   },
   {
-   "name": "Meny Oasen Pølsemakeri Pusztagrill",
+   "name": "Meny Pusztagrill",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "ean:7090046420033",
    "members": [
@@ -36661,7 +36635,7 @@
    ]
   },
   {
-   "name": "Meny Raspeball/komle",
+   "name": "Meny Raspeball og Komle",
    "brand": "Meny",
    "keep": "ean:2100682811388",
    "members": []
@@ -36700,7 +36674,7 @@
    "members": []
   },
   {
-   "name": "Meny Oasen Pølsemakeri Røkeknoker",
+   "name": "Meny Røkeknoker",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "norgesgruppen:23896525",
    "members": [
@@ -36708,7 +36682,7 @@
    ]
   },
   {
-   "name": "Meny Oasen Pølsemakeri Røkepølse",
+   "name": "Meny Røkepølse",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "norgesgruppen:23896503",
    "members": []
@@ -36720,7 +36694,7 @@
    "members": []
   },
   {
-   "name": "Meny Rosmarin & Hvitløk Glaze",
+   "name": "Meny Rosmarin og Hvitløk Glaze",
    "brand": "Meny",
    "keep": "ean:5701239023093",
    "members": []
@@ -36738,7 +36712,7 @@
    "members": []
   },
   {
-   "name": "Meny Oasen Pølsemakeri Servelatpølse",
+   "name": "Meny Servelatpølse",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "ean:7090046420019",
    "members": [
@@ -36783,7 +36757,7 @@
    "members": []
   },
   {
-   "name": "Meny Oasen Pølsemakeri Røkt skinke",
+   "name": "Meny Røkt Skinke",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "norgesgruppen:23896535",
    "members": [
@@ -36800,7 +36774,7 @@
    ]
   },
   {
-   "name": "Meny Oasen Pølsemakeri Skinkestek",
+   "name": "Meny Skinkestek",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "norgesgruppen:23896533",
    "members": [
@@ -37100,7 +37074,7 @@
    "members": []
   },
   {
-   "name": "Meny Sushbrett",
+   "name": "Meny Sushibrett",
    "brand": "Meny",
    "keep": "ean:7033352519855",
    "members": []
@@ -37266,7 +37240,7 @@
    "members": []
   },
   {
-   "name": "Meny Svinecarre",
+   "name": "Meny Svinekarré",
    "brand": "Meny",
    "keep": "ean:2000556270702",
    "members": [
@@ -37409,7 +37383,7 @@
    "members": []
   },
   {
-   "name": "Meny Oasen Pølsemakeri Urtepølse",
+   "name": "Meny Urtepølse",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "norgesgruppen:23896509",
    "members": [
@@ -37455,7 +37429,7 @@
    ]
   },
   {
-   "name": "Meny Oasen Pølsemakeri Vossakorv",
+   "name": "Meny Vossakorv",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "ean:0000023896505",
    "members": [
@@ -37463,7 +37437,7 @@
    ]
   },
   {
-   "name": "Meny Wasabi & Ingefær",
+   "name": "Meny Wasabi og Ingefær",
    "brand": "Meny",
    "keep": "ean:2000559725407",
    "members": []
@@ -37475,13 +37449,13 @@
    "members": []
   },
   {
-   "name": "Meny Oasen Pølsemakeri Wienerpølse",
+   "name": "Meny Wienerpølse",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "norgesgruppen:23896504",
    "members": []
   },
   {
-   "name": "Meny Ytrefilet av storfe",
+   "name": "Meny Ytrefilet av Storfe",
    "brand": "Meny",
    "keep": "ean:2340083102467",
    "members": [
@@ -37511,7 +37485,9 @@
    "name": "Toro Bakemiks Gulrotkake",
    "brand": "Toro",
    "keep": "toro:https://www.toro.no/produkter/bakemiks-til-gulrotkake/",
-   "members": []
+   "members": [
+    "ean:7039010542524"
+   ]
   },
   {
    "name": "Toro Bali Nudelsuppe",
@@ -37610,7 +37586,7 @@
    "members": []
   },
   {
-   "name": "Toro Bolognese One-pot Gryte",
+   "name": "Toro Bolognese One-Pot Gryte",
    "brand": "Toro",
    "keep": "toro:https://www.toro.no/produkter/bolognese-one-pot-gryte/",
    "members": [
@@ -37724,7 +37700,7 @@
    "members": []
   },
   {
-   "name": "Toro Chili Con Carne Gryte",
+   "name": "Toro Chili con Carne Gryte",
    "brand": "Toro",
    "keep": "toro:https://www.toro.no/produkter/toro-chili-con-carne-gryte/",
    "members": [
@@ -37805,7 +37781,7 @@
    "members": []
   },
   {
-   "name": "Toro Fiskesuppe Lofoten",
+   "name": "Toro Fiskesuppe",
    "brand": "Toro",
    "keep": "toro:https://www.toro.no/produkter/toro-lofoten-fiskesuppe/",
    "members": [
@@ -37821,7 +37797,7 @@
    ]
   },
   {
-   "name": "Toro Fløte Gratinerte Poteter",
+   "name": "Toro Fløtegratinerte Poteter",
    "brand": "Toro",
    "keep": "ean:7037610041942",
    "members": []
@@ -37944,7 +37920,7 @@
    "members": []
   },
   {
-   "name": "Toro Grønnsaks Lasagne",
+   "name": "Toro Grønnsakslasagne",
    "brand": "Toro",
    "keep": "ean:7039010571357",
    "members": []
@@ -37990,16 +37966,12 @@
    "members": []
   },
   {
-   "name": "Toro Gulrotkake Mix",
-   "brand": "Toro",
-   "keep": "ean:7039010542524",
-   "members": []
-  },
-  {
    "name": "Toro Gulrotsuppe",
    "brand": "Toro",
    "keep": "toro:https://www.toro.no/produkter/gulrotsuppe-2/",
-   "members": []
+   "members": [
+    "ean:7039010558204"
+   ]
   },
   {
    "name": "Toro Gurkemeie",
@@ -38078,7 +38050,7 @@
    ]
   },
   {
-   "name": "Toro Italiensk One-pot Gryte",
+   "name": "Toro Italiensk One-Pot Gryte",
    "brand": "Toro",
    "keep": "toro:https://www.toro.no/produkter/italiensk-one-pot-gryte/",
    "members": [
@@ -38337,7 +38309,7 @@
    "members": []
   },
   {
-   "name": "Toro Sort Pepper",
+   "name": "Toro Pepper Sort",
    "brand": "Toro",
    "keep": "toro:https://www.toro.no/produkter/pepper-sort-malt-2/",
    "members": [
@@ -38388,7 +38360,8 @@
    "brand": "Toro",
    "keep": "toro:https://www.toro.no/produkter/oregano/",
    "members": [
-    "ean:7045516191067"
+    "ean:7045516191067",
+    "ean:7039019554788"
    ]
   },
   {
@@ -38411,13 +38384,9 @@
    "name": "Toro Piffikrydder",
    "brand": "Toro",
    "keep": "toro:https://www.toro.no/produkter/piffikrydder/",
-   "members": []
-  },
-  {
-   "name": "Toro Piffikrydder",
-   "brand": "Toro",
-   "keep": "ean:7045516004930",
-   "members": []
+   "members": [
+    "ean:7045516004930"
+   ]
   },
   {
    "name": "Toro Pizzakrydder",
@@ -38429,7 +38398,9 @@
    "name": "Toro Provencekrydder",
    "brand": "Toro",
    "keep": "toro:https://www.toro.no/produkter/provencekrydder/",
-   "members": []
+   "members": [
+    "ean:7045416191860"
+   ]
   },
   {
    "name": "Toro Rosmarin",
@@ -38486,7 +38457,7 @@
    "members": []
   },
   {
-   "name": "Toro Kyllingpanne Mild & Kremet",
+   "name": "Toro Kyllingpanne Mild og Kremet",
    "brand": "Toro",
    "keep": "ean:7039010522724",
    "members": []
@@ -38518,7 +38489,7 @@
    "members": []
   },
   {
-   "name": "Toro Lammesaus med urter og rødvin",
+   "name": "Toro Lammesaus med Urter og Rødvin",
    "brand": "Toro",
    "keep": "toro:https://www.toro.no/produkter/lammesaus-med-urter-rodvin/",
    "members": [
@@ -38679,12 +38650,6 @@
    "name": "Toro Natvigs Krydderblanding",
    "brand": "Toro",
    "keep": "toro:https://www.toro.no/produkter/natvigs-krydderblanding/",
-   "members": []
-  },
-  {
-   "name": "Toro Oregano Hel",
-   "brand": "Toro",
-   "keep": "ean:7039019554788",
    "members": []
   },
   {
@@ -38851,12 +38816,6 @@
    "name": "Toro Potetmos med Kjøtt",
    "brand": "Toro",
    "keep": "toro:https://www.toro.no/produkter/potetmos-med-kjott/",
-   "members": []
-  },
-  {
-   "name": "Toro Provence Krydder",
-   "brand": "Toro",
-   "keep": "ean:7045416191860",
    "members": []
   },
   {
@@ -39063,7 +39022,9 @@
    "brand": "Toro",
    "keep": "toro:https://www.toro.no/produkter/sjokoladeglasur-langpanne/",
    "members": [
-    "ean:7039010579599"
+    "ean:7039010579599",
+    "kassalapp:29867",
+    "ean:7037610204774"
    ]
   },
   {
@@ -39118,7 +39079,7 @@
    ]
   },
   {
-   "name": "Toro Snarkokt Ertestuing",
+   "name": "Toro Ertestuing Snarkokt",
    "brand": "Toro",
    "keep": "toro:https://www.toro.no/produkter/snarkokt-ertestuing/",
    "members": []
@@ -39138,7 +39099,7 @@
    "members": []
   },
   {
-   "name": "Toro Spagetti Carbonara",
+   "name": "Toro Spaghetti Carbonara",
    "brand": "Toro",
    "keep": "ean:7037610162630",
    "members": []
@@ -39182,7 +39143,7 @@
    ]
   },
   {
-   "name": "Toro Stroganoff Gryte",
+   "name": "Toro Stroganoffgryte",
    "brand": "Toro",
    "keep": "toro:https://www.toro.no/produkter/stroganoff-gryte-2/",
    "members": [
@@ -39197,12 +39158,6 @@
     "ean:7037610061957",
     "toro:https://www.toro.no/produkter/sukkerkulor/"
    ]
-  },
-  {
-   "name": "Toro Suppe Gulrot",
-   "brand": "Toro",
-   "keep": "ean:7039010558204",
-   "members": []
   },
   {
    "name": "Toro Szechuansuppe",
@@ -39297,7 +39252,7 @@
    ]
   },
   {
-   "name": "Toro Tomat Pølsegryte",
+   "name": "Toro Tomatpølsegryte",
    "brand": "Toro",
    "keep": "ean:7037610046831",
    "members": []
@@ -40653,13 +40608,13 @@
    ]
   },
   {
-   "name": "FCB Chocolate Peanut Butter",
+   "name": "First Class Brands of Sweden Chocolate Peanut Butter",
    "brand": "First Class Brands of Sweden",
    "keep": "ean:7350021422781",
    "members": []
   },
   {
-   "name": "FCB HealthyCo Sugar Free Chocolate Topping",
+   "name": "First Class Brands of Sweden HealthyCo Sugar Free Chocolate Topping",
    "brand": "First Class Brands of Sweden",
    "keep": "ean:7350021422408",
    "members": []
@@ -41636,7 +41591,7 @@
    "members": []
   },
   {
-   "name": "First Price Salt Kjeks",
+   "name": "First Price Saltkjeks",
    "brand": "First Price",
    "keep": "ean:7035620069451",
    "members": [
@@ -41652,7 +41607,7 @@
    ]
   },
   {
-   "name": "First Price Sandwich Is",
+   "name": "First Price Sandwichis",
    "brand": "First Price",
    "keep": "ean:7035620055072",
    "members": []
@@ -41754,7 +41709,7 @@
    ]
   },
   {
-   "name": "First Price Sommer Skinke",
+   "name": "First Price Sommerskinke",
    "brand": "First Price",
    "keep": "ean:2365614811830",
    "members": []
@@ -41766,7 +41721,7 @@
    "members": []
   },
   {
-   "name": "First Price Steke/bake Margarin",
+   "name": "First Price Steke/Bake Margarin",
    "brand": "First Price",
    "keep": "ean:7035620065224",
    "members": []
@@ -41975,13 +41930,13 @@
    "members": []
   },
   {
-   "name": "First Price Vann med kullsyre",
+   "name": "First Price Vann med Kullsyre",
    "brand": "First Price",
    "keep": "ean:7035620036576",
    "members": []
   },
   {
-   "name": "First Price Vann uten kullsyre",
+   "name": "First Price Vann uten Kullsyre",
    "brand": "First Price",
    "keep": "ean:7035620035852",
    "members": []
@@ -42070,7 +42025,7 @@
    "members": []
   },
   {
-   "name": "Jacobs Baconpølse med pepper og ost",
+   "name": "Jacobs Baconpølse med Pepper og Ost",
    "brand": "Jacobs",
    "keep": "ean:7035620051852",
    "members": []
@@ -42091,7 +42046,7 @@
    "members": []
   },
   {
-   "name": "Jacobs Utvalgte Balsamico Eddik",
+   "name": "Jacobs Utvalgte Balsamicoeddik",
    "brand": "Jacobs Utvalgte",
    "keep": "ean:7035620009471",
    "members": []
@@ -42115,7 +42070,7 @@
    ]
   },
   {
-   "name": "Jacobs Belgiske Trøfler med bringebær",
+   "name": "Jacobs Belgiske Trøfler med Bringebær",
    "brand": "Jacobs",
    "keep": "ean:7035620049842",
    "members": []
@@ -42277,7 +42232,7 @@
    "members": []
   },
   {
-   "name": "Jacobs Utvalgte Eplejuice med jordbær og bringebær",
+   "name": "Jacobs Utvalgte Eplejuice med Jordbær og Bringebær",
    "brand": "Jacobs Utvalgte",
    "keep": "ean:7039281546726",
    "members": []
@@ -42481,7 +42436,7 @@
    "members": []
   },
   {
-   "name": "Jacobs Utvalgte Gyoza med kylling",
+   "name": "Jacobs Utvalgte Gyoza med Kylling",
    "brand": "Jacobs Utvalgte",
    "keep": "ean:7035620046926",
    "members": []
@@ -42543,7 +42498,7 @@
    "members": []
   },
   {
-   "name": "Jacobs Indrefilet av svin",
+   "name": "Jacobs Indrefilet av Svin",
    "brand": "Jacobs",
    "keep": "ean:2365646702069",
    "members": [
@@ -42589,7 +42544,7 @@
    "members": []
   },
   {
-   "name": "Jacobs Utvalgte Juleskinke med sennep",
+   "name": "Jacobs Utvalgte Juleskinke med Sennep",
    "brand": "Jacobs Utvalgte",
    "keep": "ean:7035620021039",
    "members": []
@@ -42739,7 +42694,7 @@
    "members": []
   },
   {
-   "name": "Jacobs Utvalgte Røkt Laks med Mær",
+   "name": "Jacobs Utvalgte Røkt Laks",
    "brand": "Jacobs Utvalgte",
    "keep": "ean:7035620042713",
    "members": []
@@ -43468,7 +43423,7 @@
    ]
   },
   {
-   "name": "Jacobs Ytrefilet Av Kalv",
+   "name": "Jacobs Ytrefilet av Kalv",
    "brand": "Jacobs",
    "keep": "ean:2100781618970",
    "members": []
@@ -43578,7 +43533,7 @@
    "members": []
   },
   {
-   "name": "Jacobs Utvalgte Tropisk Aroma",
+   "name": "Jacobs Utvalgte Tropisk",
    "brand": "Jacobs Utvalgte",
    "keep": "ean:7040913336882",
    "members": [
@@ -43624,7 +43579,7 @@
    "members": []
   },
   {
-   "name": "Jacobs Våre smakfulle favoritter",
+   "name": "Jacobs Våre Smakfulle Favoritter",
    "brand": "Jacobs",
    "keep": "ean:7035620042034",
    "members": []
@@ -44688,7 +44643,7 @@
    "members": []
   },
   {
-   "name": "Folkets Storfestrimler Texmex",
+   "name": "Folkets Storfestrimler",
    "brand": "Folkets",
    "keep": "ean:7020098002017",
    "members": []
@@ -45497,19 +45452,19 @@
    "members": []
   },
   {
-   "name": "Findus Dagens Falafel med matvete",
+   "name": "Findus Dagens Falafel med Matvete",
    "brand": "Findus",
    "keep": "ean:7310500175287",
    "members": []
   },
   {
-   "name": "Findus Dagens Fisk med mandel",
+   "name": "Findus Dagens Fisk med Mandel",
    "brand": "Findus",
    "keep": "ean:7310500077000",
    "members": []
   },
   {
-   "name": "Findus Dagens Grillad Angusbiff med pommes stripes",
+   "name": "Findus Dagens Grillad Angusbiff med Pommes Stripes",
    "brand": "Findus",
    "keep": "ean:7310500123714",
    "members": []
@@ -45527,7 +45482,7 @@
    "members": []
   },
   {
-   "name": "Findus Dagens Lövtunn bit",
+   "name": "Findus Dagens Lövtunn Bit",
    "brand": "Findus",
    "keep": "ean:7310500040523",
    "members": []
@@ -45545,13 +45500,13 @@
    "members": []
   },
   {
-   "name": "Findus Dagens Panerad fisk med remoulad",
+   "name": "Findus Dagens Panerad Fisk med Remoulad",
    "brand": "Findus",
    "keep": "ean:7310500098586",
    "members": []
   },
   {
-   "name": "Findus Dagens Pannbiff med löksky",
+   "name": "Findus Dagens Pannbiff med Löksky",
    "brand": "Findus",
    "keep": "ean:7310500040134",
    "members": []
@@ -45569,13 +45524,13 @@
    "members": []
   },
   {
-   "name": "Findus Dagens Pasta med kyckling",
+   "name": "Findus Dagens Pasta med Kyckling",
    "brand": "Findus",
    "keep": "ean:7310500128481",
    "members": []
   },
   {
-   "name": "Findus Dagens Pasta tortellini & Pesto rosso",
+   "name": "Findus Dagens Pasta Tortellini & Pesto Rosso",
    "brand": "Findus",
    "keep": "ean:7310500183794",
    "members": []
@@ -45587,7 +45542,7 @@
    "members": []
   },
   {
-   "name": "Findus Dagens Rostad kycklingfilé",
+   "name": "Findus Dagens Rostad Kycklingfilé",
    "brand": "Findus",
    "keep": "ean:7310500109107",
    "members": []
@@ -45599,13 +45554,13 @@
    "members": []
   },
   {
-   "name": "Findus Dagens Thai kyckling med kokosmjölk",
+   "name": "Findus Dagens Thai Kyckling med Kokosmjölk",
    "brand": "Findus",
    "keep": "ean:7310500114934",
    "members": []
   },
   {
-   "name": "Findus Dagens Wallenbergare med potatismos",
+   "name": "Findus Dagens Wallenbergare med Potatismos",
    "brand": "Findus",
    "keep": "ean:7310500013824",
    "members": []
@@ -45631,7 +45586,7 @@
    "members": []
   },
   {
-   "name": "Findus Fina filéer av torsk",
+   "name": "Findus Fina Filéer av Torsk",
    "brand": "Findus",
    "keep": "ean:7310500123219",
    "members": [
@@ -45668,13 +45623,13 @@
    ]
   },
   {
-   "name": "Findus Fisk med topping",
+   "name": "Findus Fisk med Topping",
    "brand": "Findus",
    "keep": "ean:7310500178011",
    "members": []
   },
   {
-   "name": "Findus Fiskefilet Lettpanert Foccacia",
+   "name": "Findus Fiskefilet Lettpanert Focaccia",
    "brand": "Findus",
    "keep": "ean:7035119999009",
    "members": []
@@ -45768,13 +45723,13 @@
    "members": []
   },
   {
-   "name": "Findus Gräddstuvad oxpytt",
+   "name": "Findus Gräddstuvad Oxpytt",
    "brand": "Findus",
    "keep": "ean:7310500100852",
    "members": []
   },
   {
-   "name": "Findus Green Cuisine Pytt i panne",
+   "name": "Findus Green Cuisine Pytt i Panne",
    "brand": "Findus",
    "keep": "ean:7035110400818",
    "members": []
@@ -45786,7 +45741,7 @@
    "members": []
   },
   {
-   "name": "Findus Grønnsaks Nuggets",
+   "name": "Findus Grønnsaksnuggets",
    "brand": "Findus",
    "keep": "ean:7035110400054",
    "members": []
@@ -46087,7 +46042,7 @@
    "members": []
   },
   {
-   "name": "Findus RäkCrêpes",
+   "name": "Findus Räkcrêpes",
    "brand": "Findus",
    "keep": "ean:7310500034652",
    "members": []
@@ -46435,7 +46390,7 @@
    "members": []
   },
   {
-   "name": "Xtra Bacon med svor",
+   "name": "Xtra Bacon med Svor",
    "brand": "Xtra",
    "keep": "ean:7025110118080",
    "members": [
@@ -46503,7 +46458,7 @@
    ]
   },
   {
-   "name": "Xtra Brun lapskaus",
+   "name": "Xtra Brun Lapskaus",
    "brand": "Xtra",
    "keep": "ean:7025110197016",
    "members": []
@@ -46517,7 +46472,7 @@
    ]
   },
   {
-   "name": "Xtra Soft cakes",
+   "name": "Xtra Soft Cakes",
    "brand": "Xtra",
    "keep": "ean:7340011429180",
    "members": []
@@ -46535,7 +46490,7 @@
    "members": []
   },
   {
-   "name": "Xtra Chips paprika",
+   "name": "Xtra Chips Paprika",
    "brand": "Xtra",
    "keep": "ean:7025110217356",
    "members": []
@@ -46549,7 +46504,7 @@
    ]
   },
   {
-   "name": "Xtra Chunky salsa",
+   "name": "Xtra Chunky Salsa",
    "brand": "Xtra",
    "keep": "ean:6415711803774",
    "members": []
@@ -46567,7 +46522,7 @@
    "members": []
   },
   {
-   "name": "Xtra Cookies med sjokolade",
+   "name": "Xtra Cookies med Sjokolade",
    "brand": "Xtra",
    "keep": "ean:7340011495147",
    "members": []
@@ -46585,7 +46540,7 @@
    "members": []
   },
   {
-   "name": "Xtra Duo biscuits",
+   "name": "Xtra Duo Biscuits",
    "brand": "Xtra",
    "keep": "ean:7340191101005",
    "members": [
@@ -46673,7 +46628,7 @@
    ]
   },
   {
-   "name": "Xtra Fløteis vanilje",
+   "name": "Xtra Fløteis Vanilje",
    "brand": "Xtra",
    "keep": "ean:7025110150820",
    "members": []
@@ -46727,7 +46682,7 @@
    "members": []
   },
   {
-   "name": "Xtra Grillet kyllinglår",
+   "name": "Xtra Grillet Kyllinglår",
    "brand": "Xtra",
    "keep": "ean:7025110206251",
    "members": [
@@ -46735,7 +46690,7 @@
    ]
   },
   {
-   "name": "Xtra Grillet kylling",
+   "name": "Xtra Grillet Kylling",
    "brand": "Xtra",
    "keep": "ean:7025110213143",
    "members": [
@@ -46743,7 +46698,7 @@
    ]
   },
   {
-   "name": "Xtra Grillet vingemix kylling",
+   "name": "Xtra Grillet Vingemix Kylling",
    "brand": "Xtra",
    "keep": "ean:7025110161895",
    "members": []
@@ -46794,7 +46749,7 @@
    ]
   },
   {
-   "name": "Xtra Hakket makrell i tomatsaus",
+   "name": "Xtra Hakket Makrell i Tomatsaus",
    "brand": "Xtra",
    "keep": "ean:7025110109965",
    "members": []
@@ -46826,7 +46781,7 @@
    "members": []
   },
   {
-   "name": "Xtra Italiensk salat",
+   "name": "Xtra Italiensk Salat",
    "brand": "Xtra",
    "keep": "ean:7025110208149",
    "members": [
@@ -46846,7 +46801,7 @@
    "members": []
   },
   {
-   "name": "Xtra Røkt juleskinke",
+   "name": "Xtra Røkt Juleskinke",
    "brand": "Xtra",
    "keep": "ean:2020126900006",
    "members": []
@@ -46884,7 +46839,7 @@
    "members": []
   },
   {
-   "name": "Xtra Kevyt majoneesi",
+   "name": "Xtra Kevyt Majoneesi",
    "brand": "Xtra",
    "keep": "ean:7340011403470",
    "members": []
@@ -46924,13 +46879,13 @@
    "members": []
   },
   {
-   "name": "Xtra Kokt kylling",
+   "name": "Xtra Kokt Kylling",
    "brand": "Xtra",
    "keep": "ean:7340011477235",
    "members": []
   },
   {
-   "name": "Xtra Kokt skinke",
+   "name": "Xtra Kokt Skinke",
    "brand": "Xtra",
    "keep": "ean:7025110072023",
    "members": []
@@ -46942,13 +46897,13 @@
    "members": []
   },
   {
-   "name": "Xtra Krydret tynnribbe av svin",
+   "name": "Xtra Krydret Tynnribbe av Svin",
    "brand": "Xtra",
    "keep": "ean:2020229300000",
    "members": []
   },
   {
-   "name": "Xtra Røkt kylling",
+   "name": "Xtra Røkt Kylling",
    "brand": "Xtra",
    "keep": "ean:7300150000145",
    "members": []
@@ -46969,7 +46924,7 @@
    ]
   },
   {
-   "name": "Xtra Kylling vingeklubber",
+   "name": "Xtra Kylling Vingeklubber",
    "brand": "Xtra",
    "keep": "ean:7025110195326",
    "members": []
@@ -46993,7 +46948,7 @@
    "members": []
   },
   {
-   "name": "Xtra Røkt laks",
+   "name": "Xtra Røkt Laks",
    "brand": "Xtra",
    "keep": "ean:7025110229250",
    "members": [
@@ -47334,7 +47289,7 @@
    "members": []
   },
   {
-   "name": "Xtra Skivet Entrecote Storfe",
+   "name": "Xtra Skivet Entrecôte Storfe",
    "brand": "Xtra",
    "keep": "ean:7025110153111",
    "members": []
@@ -47545,7 +47500,7 @@
    "members": []
   },
   {
-   "name": "Prior Grillede Kyllinglår Sommervibber",
+   "name": "Prior Grillede Kyllinglår",
    "brand": "Prior",
    "keep": "ean:7039610005214",
    "members": []
@@ -47583,7 +47538,7 @@
    "members": []
   },
   {
-   "name": "Prior Kylling Hel",
+   "name": "Prior Hel Kylling",
    "brand": "Prior",
    "keep": "ean:2323626000000",
    "members": [
@@ -47592,7 +47547,9 @@
     "norgesgruppen:23232668",
     "norgesgruppen:23235110",
     "norgesgruppen:23236260",
-    "ean:2323551000007"
+    "ean:2323551000007",
+    "ean:2323266918642",
+    "ean:2323131000007"
    ]
   },
   {
@@ -47774,14 +47731,6 @@
    "members": []
   },
   {
-   "name": "Prior Kylling Salatkjøtt Grillet",
-   "brand": "Prior",
-   "keep": "ean:7039610005146",
-   "members": [
-    "ean:7039610006341"
-   ]
-  },
-  {
    "name": "Prior Kyllingbacon",
    "brand": "Prior",
    "keep": "ean:7039610003906",
@@ -47860,7 +47809,10 @@
    "name": "Prior Spiseklar Salatkjøtt",
    "brand": "Prior",
    "keep": "ean:7039610007744",
-   "members": []
+   "members": [
+    "ean:7039610005146",
+    "ean:7039610006341"
+   ]
   },
   {
    "name": "Prior Lårklubber Ferdig Grillet",
@@ -47873,14 +47825,6 @@
    "brand": "Prior",
    "keep": "ean:7039610004590",
    "members": []
-  },
-  {
-   "name": "Prior Hel Kylling",
-   "brand": "Prior",
-   "keep": "ean:2323266918642",
-   "members": [
-    "ean:2323131000007"
-   ]
   },
   {
    "name": "Prior Kyllingkarbonader",
@@ -47916,7 +47860,9 @@
    "members": [
     "ean:7039610013097",
     "ean:7039610013066",
-    "norgesgruppen:23235666"
+    "norgesgruppen:23235666",
+    "ean:7039610003739",
+    "ean:7039610028046"
    ]
   },
   {
@@ -47988,7 +47934,7 @@
    "members": []
   },
   {
-   "name": "Prior Kalkunfilet Natural",
+   "name": "Prior Kalkunfilet Naturell",
    "brand": "Prior",
    "keep": "ean:7039610024079",
    "members": []
@@ -48038,7 +47984,7 @@
    ]
   },
   {
-   "name": "Prior Paprika- og Chilipølse",
+   "name": "Prior Paprika og Chilipølse",
    "brand": "Prior",
    "keep": "ean:7039610024956",
    "members": []
@@ -48099,7 +48045,9 @@
    "name": "Fjordland Arne Brimis Grove Middagskaker",
    "brand": "Fjordland",
    "keep": "fjordland:https://www.fjordland.no/fjordland/produkter/arne-brimis-grove-middagskaker-565g",
-   "members": []
+   "members": [
+    "ean:7033330087192"
+   ]
   },
   {
    "name": "Fjordland Arne Brimis Lammelår",
@@ -48539,12 +48487,6 @@
    ]
   },
   {
-   "name": "Fjordland Middagskaker",
-   "brand": "Fjordland",
-   "keep": "ean:7033330087192",
-   "members": []
-  },
-  {
    "name": "Fjordland Mini Grøt Vaniljesmak",
    "brand": "Fjordland",
    "keep": "ean:7033330089295",
@@ -48575,7 +48517,7 @@
    ]
   },
   {
-   "name": "Fjordland Pasta med ost- og skinkesaus",
+   "name": "Fjordland Pasta med Ost- og Skinkesaus",
    "brand": "Fjordland",
    "keep": "fjordland:https://www.fjordland.no/fjordland/produkter/pasta-med-ost-og-skinkesaus-350g",
    "members": [
@@ -48583,7 +48525,7 @@
    ]
   },
   {
-   "name": "Fjordland Pasta med kjøttsaus",
+   "name": "Fjordland Pasta med Kjøttsaus",
    "brand": "Fjordland",
    "keep": "fjordland:https://www.fjordland.no/fjordland/produkter/pasta-med-kjottsaus-med-tomat-lok-og-urter-350g",
    "members": [
@@ -48591,7 +48533,7 @@
    ]
   },
   {
-   "name": "Fjordland Pasta Cheese & Bacon",
+   "name": "Fjordland Pasta Cheese og Bacon",
    "brand": "Fjordland",
    "keep": "kassalapp:25190",
    "members": []
@@ -48704,7 +48646,7 @@
    ]
   },
   {
-   "name": "Fjordland Risgrøt med sukker og kanel",
+   "name": "Fjordland Risgrøt med Sukker og Kanel",
    "brand": "Fjordland",
    "keep": "fjordland:https://www.fjordland.no/fjordland/produkter/risgrot-med-sukker-og-kanelpose-470g",
    "members": [
@@ -48712,7 +48654,7 @@
    ]
   },
   {
-   "name": "Fjordland Risgrøt med meierismør",
+   "name": "Fjordland Risgrøt med Meierismør",
    "brand": "Fjordland",
    "keep": "ean:7033330087093",
    "members": []
@@ -48756,13 +48698,13 @@
    "members": []
   },
   {
-   "name": "Fjordland Sunt & Godt",
+   "name": "Fjordland Sunt og Godt",
    "brand": "Fjordland",
    "keep": "ean:7033330087031",
    "members": []
   },
   {
-   "name": "Fjordland Svenske kjøttboller i fløtesaus",
+   "name": "Fjordland Svenske Kjøttboller i Fløtesaus",
    "brand": "Fjordland",
    "keep": "fjordland:https://www.fjordland.no/fjordland/produkter/svenske-kjottboller-flotesaus-566g",
    "members": [
@@ -48770,7 +48712,7 @@
    ]
   },
   {
-   "name": "Fjordland Svinekjøtt i fløtesaus",
+   "name": "Fjordland Svinekjøtt i Fløtesaus",
    "brand": "Fjordland",
    "keep": "fjordland:https://www.fjordland.no/fjordland/produkter/svinekjott-i-flotesaus-450g",
    "members": [
@@ -48778,7 +48720,7 @@
    ]
   },
   {
-   "name": "Fjordland Svinekjøtt i hoisin",
+   "name": "Fjordland Svinekjøtt i Hoisin",
    "brand": "Fjordland",
    "keep": "ean:7033330089165",
    "members": []
@@ -48828,7 +48770,7 @@
    "members": []
   },
   {
-   "name": "Fjordland Tex-mex Pastaform",
+   "name": "Fjordland Tex-Mex Pastaform",
    "brand": "Fjordland",
    "keep": "ean:7033330089523",
    "members": []
@@ -49021,7 +48963,7 @@
    ]
   },
   {
-   "name": "Nidar Favoritter Smash",
+   "name": "Nidar Favoritter",
    "brand": "Nidar",
    "keep": "nidar:https://www.nidar.no/produkt/nidar-favoritter-smash/",
    "members": []
@@ -49035,13 +48977,13 @@
    ]
   },
   {
-   "name": "Nidar Favoritter Stratos",
+   "name": "Nidar Favoritter",
    "brand": "Nidar",
    "keep": "nidar:https://www.nidar.no/produkt/nidar-favoritter-stratos-2/",
    "members": []
   },
   {
-   "name": "Nidar Favoritter Troika",
+   "name": "Nidar Favoritter",
    "brand": "Nidar",
    "keep": "nidar:https://www.nidar.no/produkt/nidar-favoritter-troika-2/",
    "members": []
@@ -49411,7 +49353,7 @@
    "members": []
   },
   {
-   "name": "Nidar Salte Ufo",
+   "name": "Nidar Salte UFO",
    "brand": "Nidar",
    "keep": "nidar:https://www.nidar.no/produkt/salte-ufo-3/",
    "members": [
@@ -50461,7 +50403,7 @@
    "members": []
   },
   {
-   "name": "Freia Krone-Is Nonstop",
+   "name": "Freia Krone-Is Non Stop",
    "brand": "Freia",
    "keep": "ean:7041012570009",
    "members": []
@@ -50642,7 +50584,7 @@
    "members": []
   },
   {
-   "name": "Freia Sjokolade Nisse",
+   "name": "Freia Sjokoladenisse",
    "brand": "Freia",
    "keep": "ean:7622201125004",
    "members": []
@@ -50698,7 +50640,7 @@
    ]
   },
   {
-   "name": "Freia Snø Perler",
+   "name": "Freia Snøperler",
    "brand": "Freia",
    "keep": "ean:7622210628817",
    "members": []
@@ -50730,7 +50672,7 @@
    "members": []
   },
   {
-   "name": "Freia Strøssel Daim",
+   "name": "Freia Strøssel",
    "brand": "Freia",
    "keep": "ean:7622300327958",
    "members": []
@@ -50959,7 +50901,7 @@
    "members": []
   },
   {
-   "name": "Mills Hummus med hint av kajenne",
+   "name": "Mills Hummus med Hint av Kajenne",
    "brand": "Mills",
    "keep": "ean:7036110011523",
    "members": []
@@ -50974,7 +50916,7 @@
    ]
   },
   {
-   "name": "Mills Italiensk Salat med skinke",
+   "name": "Mills Italiensk Salat med Skinke",
    "brand": "Mills",
    "keep": "mills:https://mills.no/mills/produkt/italiensk-salat-skinke/",
    "members": [
@@ -51069,7 +51011,7 @@
    ]
   },
   {
-   "name": "Mills Grov Leverpostei med rødbete",
+   "name": "Mills Grov Leverpostei med Rødbete",
    "brand": "Mills",
    "keep": "ean:7036110010960",
    "members": []
@@ -51111,7 +51053,7 @@
    ]
   },
   {
-   "name": "Mills Peanut Butter Søtt og salt",
+   "name": "Mills Peanut Butter Søtt og Salt",
    "brand": "Mills",
    "keep": "mills:https://mills.no/mills/produkt/peanut-butter-sott-salt/",
    "members": [
@@ -51164,7 +51106,7 @@
    ]
   },
   {
-   "name": "Mills Reke og Krepse Salat",
+   "name": "Mills Reke- og Krepsesalat",
    "brand": "Mills",
    "keep": "ean:7036110211350",
    "members": []
@@ -51276,7 +51218,7 @@
    "members": []
   },
   {
-   "name": "Vita Hjertego' Flytende",
+   "name": "Vita Hjertego Flytende",
    "brand": "Vita",
    "keep": "ean:7036110008936",
    "members": []
@@ -51478,7 +51420,7 @@
    "members": []
   },
   {
-   "name": "Spar Calsone med Skinke",
+   "name": "Spar Calzone med Skinke",
    "brand": "Spar",
    "keep": "ean:2000507969907",
    "members": []
@@ -52285,7 +52227,7 @@
    "members": []
   },
   {
-   "name": "Sørlandsdip",
+   "name": "Sørlandschips Sørlandsdip",
    "brand": "Sørlandschips",
    "keep": "ean:7071688001613",
    "members": []
@@ -52501,7 +52443,7 @@
    ]
   },
   {
-   "name": "Fanta Zero Raspberry",
+   "name": "Fanta Raspberry Zero",
    "brand": "Fanta",
    "keep": "ean:5000112640489",
    "members": [
@@ -52793,7 +52735,7 @@
    "members": []
   },
   {
-   "name": "Grandiosa Calzone Ost & Skinke",
+   "name": "Grandiosa Calzone Ost og Skinke",
    "brand": "Grandiosa",
    "keep": "grandiosa:https://www.grandiosa.no/produkter/calzone-ost-og-skinke/",
    "members": [
@@ -52842,7 +52784,7 @@
    "members": []
   },
   {
-   "name": "Grandiosa Delux Kjøttdeig, Bacon & Skinke",
+   "name": "Grandiosa Delux Kjøttdeig, Bacon og Skinke",
    "brand": "Grandiosa",
    "keep": "grandiosa:https://www.grandiosa.no/produkter/grandiosa-delux-kjottdeig-bacon-skinke/",
    "members": [
@@ -52856,7 +52798,7 @@
    "members": []
   },
   {
-   "name": "Grandiosa Delux Skinke & Mozzarella",
+   "name": "Grandiosa Delux Skinke og Mozzarella",
    "brand": "Grandiosa",
    "keep": "grandiosa:https://www.grandiosa.no/produkter/grandiosa-delux-skinke-mozzarella/",
    "members": [
@@ -52890,7 +52832,7 @@
    "members": []
   },
   {
-   "name": "Grandiosa Kjøttboller & Skinke",
+   "name": "Grandiosa Kjøttboller og Skinke",
    "brand": "Grandiosa",
    "keep": "grandiosa:https://www.grandiosa.no/produkter/grandiosa-kjottboller-skinke/",
    "members": [
@@ -52912,7 +52854,7 @@
    ]
   },
   {
-   "name": "Grandiosa X-tra Allt Mozzarella & Pesto",
+   "name": "Grandiosa X-tra Allt Mozzarella og Pesto",
    "brand": "Grandiosa",
    "keep": "ean:7310240071641",
    "members": []
@@ -52926,7 +52868,7 @@
    ]
   },
   {
-   "name": "Grandiosa Pan Pizza Texmex",
+   "name": "Grandiosa Pan Pizza",
    "brand": "Grandiosa",
    "keep": "ean:7039010065139",
    "members": []
@@ -53008,7 +52950,7 @@
    "members": []
   },
   {
-   "name": "Grandiosa Tynn Bunn Kylling & Pesto",
+   "name": "Grandiosa Tynn Bunn Kylling og Pesto",
    "brand": "Grandiosa",
    "keep": "ean:7039010560085",
    "members": []
@@ -53020,7 +52962,7 @@
    "members": []
   },
   {
-   "name": "Grandiosa Uten Paprika",
+   "name": "Grandiosa uten Paprika",
    "brand": "Grandiosa",
    "keep": "grandiosa:https://www.grandiosa.no/produkter/grandiosa-uten-paprika/",
    "members": [
@@ -53035,7 +52977,7 @@
    "members": []
   },
   {
-   "name": "Solo Fruktis",
+   "name": "Hennig-Olsen Solo Fruktis",
    "brand": "Hennig-Olsen",
    "keep": "ean:7041011336118",
    "members": [
@@ -53096,7 +53038,7 @@
    ]
   },
   {
-   "name": "Stabburet Ostepølse 3Xl Grov",
+   "name": "Stabburet Ostepølse 3XL Grov",
    "brand": "Stabburet",
    "keep": "openfoodfacts:04451431",
    "members": []
@@ -53481,7 +53423,7 @@
    "members": []
   },
   {
-   "name": "Kims Jorgens Favorittmix",
+   "name": "Kims Jørgens Favorittmix",
    "brand": "Kims",
    "keep": "ean:5701979975577",
    "members": []
@@ -53548,7 +53490,7 @@
    "members": []
   },
   {
-   "name": "Extra Fajitas Med Kylling",
+   "name": "Extra Fajitas med Kylling",
    "brand": "Extra",
    "keep": "ean:2000402635600",
    "members": []
@@ -53706,7 +53648,7 @@
    "members": []
   },
   {
-   "name": "Nortura Kjøttdeig av storfe",
+   "name": "Nortura Kjøttdeig av Storfe",
    "brand": "Nortura",
    "keep": "ean:7037203627317",
    "members": []
@@ -53730,7 +53672,7 @@
    "members": []
   },
   {
-   "name": "Nortura Mørbradbiff av storfe",
+   "name": "Nortura Mørbradbiff av Storfe",
    "brand": "Nortura",
    "keep": "ean:2000732000000",
    "members": []
@@ -53816,7 +53758,7 @@
    "members": []
   },
   {
-   "name": "Kiwi Elgkarbonader og potetmos",
+   "name": "Kiwi Elgkarbonader og Potetmos",
    "brand": "Kiwi",
    "keep": "openfoodfacts:1070553300252",
    "members": []
@@ -53828,7 +53770,7 @@
    "members": []
   },
   {
-   "name": "Kiwi Knute med pistasj",
+   "name": "Kiwi Knute med Pistasj",
    "brand": "Kiwi",
    "keep": "ean:7041614024221",
    "members": []
@@ -53858,13 +53800,13 @@
    "members": []
   },
   {
-   "name": "Kiwi Soppsuppe pepper og timian",
+   "name": "Kiwi Soppsuppe Pepper og Timian",
    "brand": "Kiwi",
    "keep": "ean:7055330032835",
    "members": []
   },
   {
-   "name": "Kiwi Tvistet solbolle",
+   "name": "Kiwi Tvistet Solbolle",
    "brand": "Kiwi",
    "keep": "ean:7041614024733",
    "members": []
@@ -54295,13 +54237,9 @@
    "name": "Coop Duopålegg",
    "brand": "Coop",
    "keep": "ean:7340191175143",
-   "members": []
-  },
-  {
-   "name": "Coop Duopålegg",
-   "brand": "Coop",
-   "keep": "ean:7340011484585",
-   "members": []
+   "members": [
+    "ean:7340011484585"
+   ]
   },
   {
    "name": "Coop Edamame",
@@ -54611,14 +54549,9 @@
    "brand": "Coop",
    "keep": "ean:7340011446958",
    "members": [
-    "ean:7340191159693"
+    "ean:7340191159693",
+    "ean:7340011469223"
    ]
-  },
-  {
-   "name": "Coop Lasagne",
-   "brand": "Coop",
-   "keep": "ean:7340011469223",
-   "members": []
   },
   {
    "name": "Coop Kvarg Lätt",
@@ -55143,13 +55076,8 @@
    "name": "Eldorado Kaviar",
    "brand": "Eldorado",
    "keep": "ean:7340083481093",
-   "members": []
-  },
-  {
-   "name": "Eldorado Kaviar",
-   "brand": "Eldorado",
-   "keep": "ean:7035620010880",
    "members": [
+    "ean:7035620010880",
     "ean:7311043011025"
    ]
   },
@@ -55157,13 +55085,9 @@
    "name": "Eldorado Kransekakemasse",
    "brand": "Eldorado",
    "keep": "ean:7035620027550",
-   "members": []
-  },
-  {
-   "name": "Eldorado Kransekakemasse",
-   "brand": "Eldorado",
-   "keep": "ean:7035620024696",
-   "members": []
+   "members": [
+    "ean:7035620024696"
+   ]
   },
   {
    "name": "Eldorado Kyckling Burgare",
@@ -55190,7 +55114,7 @@
    "members": []
   },
   {
-   "name": "Eldorado Kycklingköttbullar 347 kcal",
+   "name": "Eldorado Kycklingköttbullar",
    "brand": "Eldorado",
    "keep": "ean:7311043011377",
    "members": []
@@ -56217,14 +56141,9 @@
    "brand": "Gilde",
    "keep": "ean:7037204742323",
    "members": [
-    "ean:7037203643003"
+    "ean:7037203643003",
+    "ean:7037204742330"
    ]
-  },
-  {
-   "name": "Gilde Familieskinke",
-   "brand": "Gilde",
-   "keep": "ean:7037204742330",
-   "members": []
   },
   {
    "name": "Gilde Fårefilet Urtemarinert",
@@ -56287,17 +56206,6 @@
     "ean:2301218403545",
     "ean:2301007003574",
     "ean:2301007003116"
-   ]
-  },
-  {
-   "name": "Gilde Pinnekjøtt Lam",
-   "brand": "Gilde",
-   "keep": "norgesgruppen:23010627",
-   "members": [
-    "ean:2001693400007",
-    "ean:2000708400001",
-    "norgesgruppen:23011493",
-    "norgesgruppen:23017423"
    ]
   },
   {
@@ -56561,7 +56469,7 @@
    "members": []
   },
   {
-   "name": "Meny Fiskewok med fersk fisk",
+   "name": "Meny Fiskewok med Fersk Fisk",
    "brand": "Meny",
    "keep": "ean:2100988711054",
    "members": []
@@ -56722,7 +56630,7 @@
    ]
   },
   {
-   "name": "Meny Pølse og potetmos",
+   "name": "Meny Pølse og Potetmos",
    "brand": "Meny",
    "keep": "ean:2000685763809",
    "members": [
@@ -56738,7 +56646,7 @@
    "members": []
   },
   {
-   "name": "Meny Pytt i panne",
+   "name": "Meny Pytt i Panne",
    "brand": "Meny",
    "keep": "ean:2000677269609",
    "members": [
@@ -56761,7 +56669,7 @@
    "members": []
   },
   {
-   "name": "Meny Reker i majones",
+   "name": "Meny Reker i Majones",
    "brand": "Meny",
    "keep": "ean:7055330029071",
    "members": []
@@ -56773,7 +56681,7 @@
    "members": []
   },
   {
-   "name": "Meny Oasen Pølsemakeri Kokt skinke",
+   "name": "Meny Kokt Skinke",
    "brand": "Meny Oasen Pølsemakeri",
    "keep": "norgesgruppen:23896518",
    "members": []
@@ -56828,7 +56736,7 @@
    ]
   },
   {
-   "name": "Meny Tacobaguett",
+   "name": "Meny Tacobaguette",
    "brand": "Meny",
    "keep": "ean:2000658561906",
    "members": []
@@ -56940,7 +56848,7 @@
    "members": []
   },
   {
-   "name": "Toro Chili Con Carne",
+   "name": "Toro Chili con Carne",
    "brand": "Toro",
    "keep": "ean:7039010562980",
    "members": []
@@ -57161,15 +57069,7 @@
    ]
   },
   {
-   "name": "Toro Sjokoladeglasur til Langpanne",
-   "brand": "Toro",
-   "keep": "kassalapp:29867",
-   "members": [
-    "ean:7037610204774"
-   ]
-  },
-  {
-   "name": "Toro Stroganoff Gryte Lett",
+   "name": "Toro Stroganoffgryte Lett",
    "brand": "Toro",
    "keep": "ean:7037610045735",
    "members": []
@@ -57203,14 +57103,9 @@
    "brand": "Toro",
    "keep": "toro:https://www.toro.no/produkter/toro-thaisuppe/",
    "members": [
-    "ean:7039010610599"
+    "ean:7039010610599",
+    "ean:7039010502481"
    ]
-  },
-  {
-   "name": "Toro Thaisuppe",
-   "brand": "Toro",
-   "keep": "ean:7039010502481",
-   "members": []
   },
   {
    "name": "Toro Tikka Masala Kyllinggryte",
@@ -57218,7 +57113,8 @@
    "keep": "toro:https://www.toro.no/produkter/tikka-masala-kyllinggryte/",
    "members": [
     "ean:7039010541848",
-    "ean:7039010562102"
+    "ean:7039010562102",
+    "ean:7039010613125"
    ]
   },
   {
@@ -57231,7 +57127,9 @@
    "name": "Toro Tomatsuppe Meksikansk",
    "brand": "Toro",
    "keep": "toro:https://www.toro.no/produkter/toro-meksikansk-tomatsuppe/",
-   "members": []
+   "members": [
+    "ean:7039010610551"
+   ]
   },
   {
    "name": "Barebells Proteinbar Chewy",
@@ -57472,7 +57370,7 @@
    "members": []
   },
   {
-   "name": "FCB Aloe Vera Drink",
+   "name": "First Class Brands of Sweden Aloe Vera Drink",
    "brand": "First Class Brands of Sweden",
    "keep": "ean:7350021427083",
    "members": []
@@ -57499,7 +57397,9 @@
    "name": "First Price Fiskepinner",
    "brand": "First Price",
    "keep": "ean:7035620057137",
-   "members": []
+   "members": [
+    "ean:7311041013557"
+   ]
   },
   {
    "name": "First Price Fuglenøtter",
@@ -57564,13 +57464,9 @@
    "name": "First Price Pizza Skinke og Ost",
    "brand": "First Price",
    "keep": "ean:7035620027963",
-   "members": []
-  },
-  {
-   "name": "First Price Pizza Skinke og Ost",
-   "brand": "First Price",
-   "keep": "ean:7035620025303",
-   "members": []
+   "members": [
+    "ean:7035620025303"
+   ]
   },
   {
    "name": "First Price Skiveost 16%",
@@ -57588,13 +57484,9 @@
    "name": "First Price Spekeskinke",
    "brand": "First Price",
    "keep": "ean:7035620071430",
-   "members": []
-  },
-  {
-   "name": "First Price Spekeskinke",
-   "brand": "First Price",
-   "keep": "ean:7035620008283",
-   "members": []
+   "members": [
+    "ean:7035620008283"
+   ]
   },
   {
    "name": "First Price Tortilla Chips",
@@ -57613,19 +57505,15 @@
    "members": []
   },
   {
-   "name": "First Price Vårrull med kylling",
-   "brand": "First Price",
-   "keep": "ean:7035620057427",
-   "members": []
-  },
-  {
    "name": "First Price Vårrull med Kylling",
    "brand": "First Price",
-   "keep": "ean:7311041027585",
-   "members": []
+   "keep": "ean:7035620057427",
+   "members": [
+    "ean:7311041027585"
+   ]
   },
   {
-   "name": "Jacobs Utvalgte Bearnaisesaus (fast)",
+   "name": "Jacobs Utvalgte Bearnaisesaus",
    "brand": "Jacobs Utvalgte",
    "keep": "ean:7035620063763",
    "members": []
@@ -57655,7 +57543,7 @@
    "members": []
   },
   {
-   "name": "Jacobs Utvalgte Chorizo (norgesgruppen)",
+   "name": "Jacobs Utvalgte Chorizo",
    "brand": "Jacobs Utvalgte",
    "keep": "ean:7035620040238",
    "members": []
@@ -57679,7 +57567,7 @@
    "members": []
   },
   {
-   "name": "Jacobs Utvalgte Dessertsaus (konsentrat)",
+   "name": "Jacobs Utvalgte Dessertsaus Konsentrat",
    "brand": "Jacobs Utvalgte",
    "keep": "ean:7035620047732",
    "members": []
@@ -57691,7 +57579,7 @@
    "members": []
   },
   {
-   "name": "Jacobs Utvalgte Crispy Duck Kit med pannekake",
+   "name": "Jacobs Utvalgte Crispy Duck Kit med Pannekake",
    "brand": "Jacobs Utvalgte",
    "keep": "ean:7035620026232",
    "members": []
@@ -57703,13 +57591,13 @@
    "members": []
   },
   {
-   "name": "Jacobs Utvalgte Gløggmiks (A)",
+   "name": "Jacobs Utvalgte Gløggmiks A",
    "brand": "Jacobs Utvalgte",
    "keep": "ean:7035620024573",
    "members": []
   },
   {
-   "name": "Jacobs Utvalgte Gløggmiks (B)",
+   "name": "Jacobs Utvalgte Gløggmiks B",
    "brand": "Jacobs Utvalgte",
    "keep": "ean:7035620028137",
    "members": []
@@ -58287,7 +58175,9 @@
    "name": "Folkets Ribbenstek",
    "brand": "Folkets",
    "keep": "ean:2340341308860",
-   "members": []
+   "members": [
+    "ean:2340341300000"
+   ]
   },
   {
    "name": "Folkets Roastbiff",
@@ -58579,13 +58469,13 @@
    "members": []
   },
   {
-   "name": "Xtra Findelt tunfisk i olje",
+   "name": "Xtra Findelt Tunfisk i Olje",
    "brand": "Xtra",
    "keep": "ean:7340191128880",
    "members": []
   },
   {
-   "name": "Xtra Findelt tunfisk",
+   "name": "Xtra Findelt Tunfisk",
    "brand": "Xtra",
    "keep": "ean:7340191161511",
    "members": []
@@ -58678,14 +58568,6 @@
    "members": []
   },
   {
-   "name": "Prior Kylling Overlår",
-   "brand": "Prior",
-   "keep": "ean:7039610003739",
-   "members": [
-    "ean:7039610028046"
-   ]
-  },
-  {
    "name": "Prior Kyllingfilet Skivet Stekt",
    "brand": "Prior",
    "keep": "ean:7039610001766",
@@ -58706,12 +58588,6 @@
    "name": "Prior Kyllinglår",
    "brand": "Prior",
    "keep": "ean:7039610003586",
-   "members": []
-  },
-  {
-   "name": "Prior Kylling Nuggets",
-   "brand": "Prior",
-   "keep": "ean:7039610002848",
    "members": []
   },
   {
@@ -58789,7 +58665,8 @@
    "brand": "Fjordland",
    "keep": "fjordland:https://www.fjordland.no/fjordland/produkter/fiskeboller-i-hvit-saus-500g",
    "members": [
-    "ean:7033330087352"
+    "ean:7033330087352",
+    "ean:7033330088052"
    ]
   },
   {
@@ -58828,7 +58705,7 @@
    "members": []
   },
   {
-   "name": "Fjordland Laktosefri Risgrøt",
+   "name": "Fjordland Risgrøt Laktosefri",
    "brand": "Fjordland",
    "keep": "fjordland:https://www.fjordland.no/fjordland/produkter/laktosefri-risgrot-400g",
    "members": [
@@ -58845,11 +58722,12 @@
     "ean:7033330080605",
     "ean:7033330080636",
     "ean:7033330087765",
-    "ean:7038010080623"
+    "ean:7038010080623",
+    "ean:7033330089561"
    ]
   },
   {
-   "name": "Fjordland Svinestek med surkål",
+   "name": "Fjordland Svinestek med Surkål",
    "brand": "Fjordland",
    "keep": "fjordland:https://www.fjordland.no/fjordland/produkter/svinestek-surkal-poteter-tyttebaer-580g",
    "members": []
@@ -58964,7 +58842,9 @@
    "name": "Freia Kvikk Lunsj",
    "brand": "Freia",
    "keep": "ean:7622200974443",
-   "members": []
+   "members": [
+    "ean:7622202246173"
+   ]
   },
   {
    "name": "Freia Melkehjerter",
@@ -59005,7 +58885,12 @@
     "ean:7622201462710",
     "ean:7622201721817",
     "ean:7622202381195",
-    "ean:7622202857140"
+    "ean:7622202857140",
+    "ean:7622201120887",
+    "ean:7622202046476",
+    "ean:7622210655516",
+    "ean:7622210655714",
+    "ean:7622300249021"
    ]
   },
   {
@@ -59015,7 +58900,10 @@
    "members": [
     "ean:7622202265082",
     "ean:1722021265082",
-    "ean:7622210884305"
+    "ean:7622210884305",
+    "ean:7622202264634",
+    "ean:7622210546494",
+    "ean:7622210884275"
    ]
   },
   {
@@ -59726,7 +59614,7 @@
    ]
   },
   {
-   "name": "Grandiosa Kjøttdeig & Løk",
+   "name": "Grandiosa Kjøttdeig og Løk",
    "brand": "Grandiosa",
    "keep": "grandiosa:https://www.grandiosa.no/produkter/grandiosa-kjottdeig-lok/",
    "members": [
@@ -60371,7 +60259,7 @@
    "members": []
   },
   {
-   "name": "Coop Søtpotet og Paprika Suppe",
+   "name": "Coop Søtpotet og Paprikasuppe",
    "brand": "Coop",
    "keep": "ean:7025110220011",
    "members": []
@@ -60512,21 +60400,9 @@
    ]
   },
   {
-   "name": "Toro Tikka Masala",
-   "brand": "Toro",
-   "keep": "ean:7039010613125",
-   "members": []
-  },
-  {
    "name": "Toro Tomatsuppe Porsjon",
    "brand": "Toro",
    "keep": "ean:7037610211970",
-   "members": []
-  },
-  {
-   "name": "Toro Tomatsuppe Pose",
-   "brand": "Toro",
-   "keep": "ean:7039010610551",
    "members": []
   },
   {
@@ -60702,7 +60578,7 @@
    "members": []
   },
   {
-   "name": "Meny Biff Stroganoff Matbørsen",
+   "name": "Meny Biff Stroganoff",
    "brand": "Meny",
    "keep": "ean:2375353000006",
    "members": []
@@ -60722,7 +60598,7 @@
    "members": []
   },
   {
-   "name": "Meny Pasta Arrabiata",
+   "name": "Meny Pasta Arrabbiata",
    "brand": "Meny",
    "keep": "ean:2000508461004",
    "members": []
@@ -60767,7 +60643,7 @@
    "members": []
   },
   {
-   "name": "Meny Oasen Pølsemakeri Skinke",
+   "name": "Meny Skinke",
    "brand": "Meny",
    "keep": "norgesgruppen:23896530",
    "members": []
@@ -61237,23 +61113,6 @@
    "members": []
   },
   {
-   "name": "Freia Kvikk Lunsj",
-   "brand": "Freia",
-   "keep": "ean:7622202246173",
-   "members": []
-  },
-  {
-   "name": "Freia Melkesjokolade",
-   "brand": "Freia",
-   "keep": "ean:7622201120887",
-   "members": [
-    "ean:7622202046476",
-    "ean:7622210655516",
-    "ean:7622210655714",
-    "ean:7622300249021"
-   ]
-  },
-  {
    "name": "Freia Melkesjokolade Fizzy Bringebær og Marengs",
    "brand": "Freia",
    "keep": "ean:7622202016950",
@@ -61270,15 +61129,6 @@
    "brand": "Freia",
    "keep": "ean:7622210678546",
    "members": []
-  },
-  {
-   "name": "Freia Non Stop",
-   "brand": "Freia",
-   "keep": "ean:7622202264634",
-   "members": [
-    "ean:7622210546494",
-    "ean:7622210884275"
-   ]
   },
   {
    "name": "Freia Non Stop Jul",
@@ -61380,16 +61230,11 @@
    "members": []
   },
   {
-   "name": "Prior Kalkun-bryst",
-   "brand": "Prior",
-   "keep": "ean:2323568118702",
-   "members": []
-  },
-  {
    "name": "Prior Kalkunbryst",
    "brand": "Prior",
-   "keep": "norgesgruppen:23235238",
+   "keep": "ean:2323568118702",
    "members": [
+    "norgesgruppen:23235238",
     "norgesgruppen:23235681"
    ]
   },
@@ -61421,18 +61266,14 @@
    "name": "Prior Kyllingnuggets",
    "brand": "Prior",
    "keep": "ean:7039610027797",
-   "members": []
+   "members": [
+    "ean:7039610002848"
+   ]
   },
   {
    "name": "Prior Kyllingnuggets Panert",
    "brand": "Prior",
    "keep": "ean:7039610004736",
-   "members": []
-  },
-  {
-   "name": "Fjordland Fiskeboller",
-   "brand": "Fjordland",
-   "keep": "ean:7033330088052",
    "members": []
   },
   {
@@ -61442,19 +61283,13 @@
    "members": []
   },
   {
-   "name": "Fjordland Rømmegrøt",
-   "brand": "Fjordland",
-   "keep": "ean:7033330089561",
-   "members": []
-  },
-  {
    "name": "Folkets Pinnebog Hardangerlam",
    "brand": "Folkets",
    "keep": "ean:2365636600009",
    "members": []
   },
   {
-   "name": "Folkets Pinnekjøtt Urøkt Hardangerlam Ca Folkets",
+   "name": "Folkets Pinnekjøtt Urøkt Hardangerlam",
    "brand": "Folkets",
    "keep": "ean:2365657300001",
    "members": []
@@ -61466,7 +61301,7 @@
    "members": []
   },
   {
-   "name": "Folkets Skinkestek Benfri Surret Ca Folkets",
+   "name": "Folkets Skinkestek Benfri Surret",
    "brand": "Folkets",
    "keep": "ean:2340002300004",
    "members": []
@@ -61478,34 +61313,24 @@
    "members": []
   },
   {
-   "name": "Folkets Svin Grillribbe Krydret Folkets",
+   "name": "Folkets Svin Grillribbe Krydret",
    "brand": "Folkets",
    "keep": "ean:7020098001799",
    "members": []
   },
   {
-   "name": "Folkets Svin Nakkefilet Marinert Folkets",
+   "name": "Folkets Svin Nakkefilet Marinert",
    "brand": "Folkets",
    "keep": "ean:2340575200008",
    "members": []
   },
   {
-   "name": "Folkets Svin Ribbenstek Krydret i Stekepose Ca",
-   "brand": "Folkets",
-   "keep": "ean:2340341300000",
-   "members": []
-  },
-  {
-   "name": "Folkets Svin Tynnribbe Krydret Ca Folkets",
+   "name": "Folkets Svin Tynnribbe Krydret",
    "brand": "Folkets",
    "keep": "ean:2340310200003",
-   "members": []
-  },
-  {
-   "name": "Folkets Svin Tynnribbe Krydret Stekepose Julevibber",
-   "brand": "Folkets",
-   "keep": "ean:2340559400004",
-   "members": []
+   "members": [
+    "ean:2340559400004"
+   ]
   },
   {
    "name": "Folkets Svin Ytrefilet Marmorert",
@@ -61639,12 +61464,6 @@
    "members": []
   },
   {
-   "name": "First Price Fiskepinner MSC",
-   "brand": "First Price",
-   "keep": "ean:7311041013557",
-   "members": []
-  },
-  {
    "name": "First Price Pinnekjøtt Lam Urøkt",
    "brand": "First Price",
    "keep": "ean:2365673100005",
@@ -61711,7 +61530,7 @@
    "members": []
   },
   {
-   "name": "Stabburet Makrellfilet i tomatsaus med pepper",
+   "name": "Stabburet Makrellfilet i Tomatsaus med Pepper",
    "brand": "Stabburet",
    "keep": "ean:7039010016063",
    "members": []
@@ -61756,13 +61575,13 @@
    "members": []
   },
   {
-   "name": "Sørlandschips Anno 1991 BBQ, Paprika & Løk",
+   "name": "Sørlandschips Anno BBQ, Paprika & Løk",
    "brand": "Sørlandschips",
    "keep": "ean:7071688004812",
    "members": []
   },
   {
-   "name": "Melkesjokolade",
+   "name": "Sørlandschips Melkesjokolade",
    "brand": "Sørlandschips",
    "keep": "ean:7071688002061",
    "members": [
@@ -61788,13 +61607,13 @@
    "members": []
   },
   {
-   "name": "Lunsjkake",
+   "name": "Spar Lunsjkake",
    "brand": "Spar",
    "keep": "ean:2000673927909",
    "members": []
   },
   {
-   "name": "Lunsjkaker",
+   "name": "Spar Lunsjkaker",
    "brand": "Spar",
    "keep": "ean:2000673952604",
    "members": []
