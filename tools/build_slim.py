@@ -502,6 +502,37 @@ def apply_families(kept, flags_by_id, families, short_brands=frozenset(), review
     return moved, extra, {i: unit[i] for i in kept}
 
 
+# Norwegian compounds are one token, so `melk` would never find `lettmelk`. Food words at the end
+# of a longer word are added to search_text (normalised spelling). The remaining first part must
+# be at least 3 letters, and _NOT_COMPOUND holds words that only look like compounds.
+_COMPOUND_TAILS = (
+    'melk', 'mjolk', 'yoghurt', 'kvarg', 'ost', 'smor', 'romme', 'krem', 'brod', 'kjeks', 'kake', 'kaker', 'bolle', 'boller',
+    'vaffel', 'kylling', 'kalkun', 'skinke', 'polse', 'polser', 'bacon', 'filet', 'biff', 'kjott', 'deig', 'kjottdeig', 'laks',
+    'fisk', 'torsk', 'reker', 'saus', 'suppe', 'gryte', 'salat', 'pizza', 'pasta', 'ris', 'nudler', 'mel', 'gryn', 'musli',
+    'granola', 'bar', 'juice', 'saft', 'brus', 'vann', 'drikk', 'kaffe', 'sjokolade', 'chips', 'palegg', 'lok', 'potet', 'tomat',
+    'baer', 'pulver', 'olje', 'bonner', 'linser', 'dressing', 'majones', 'ketchup', 'sennep', 'pesto',
+)
+_NOT_COMPOUND = re.compile(
+    r'(?:most|brost|frost|kost|lakk?ris|baeris|pris|gris|kulinaris|farris|sparris|kapris|berberis|matris|bris|'
+    r'car(?:a)?mel|karamel|actimel|gammel|'
+    r'gubbar|blabar|tranbar|vinbar|korsbar|bjornbar|krusbar|mullbar|holdbar|smorbar|formbar|skivbar|gangbar|bredbar|gojibar)$')
+
+
+def with_compound_tails(text):
+    """`text` plus the food-word tails of its compound words, each tail once."""
+    words = text.split()
+    have = set(words)
+    extra = []
+    for w in words:
+        if _NOT_COMPOUND.search(w):
+            continue
+        for tail in _COMPOUND_TAILS:
+            if len(w) - len(tail) >= 3 and w.endswith(tail) and tail not in have:
+                have.add(tail)
+                extra.append(tail)
+    return ' '.join(words + extra)
+
+
 def _dedupe_words(text):
     seen, out = set(), []
     for w in text.split():
@@ -693,7 +724,7 @@ create table meta(key text primary key, value text not null);
         derived['name'] = fam.display_name(p['name'], p['brand'], lines, short_brands)
         derived['brand'] = fam.tidy_brand(p['brand'], short_brands)
         vals = [derived[c] if c in derived else p[_SHARD_NAME.get(c, c)] for c in PRODUCT_COLUMNS]
-        search = _dedupe_words(normalise(' '.join(x for x in (p['name'], p['brand'], p['flavour'], extra_search.get(p['id'])) if x)))
+        search = with_compound_tails(_dedupe_words(normalise(' '.join(x for x in (p['name'], p['brand'], p['flavour'], extra_search.get(p['id'])) if x))))
         rows.append(vals + [search])
     db.executemany('insert into products values (%s)' % ','.join('?' * (len(PRODUCT_COLUMNS) + 1)), rows)
 
