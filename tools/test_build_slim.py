@@ -12,6 +12,7 @@ import unittest
 
 sys.path.insert(0, os.path.dirname(__file__))
 import build_slim  # noqa: E402
+import cleanup  # noqa: E402
 
 HERE = os.path.dirname(__file__)
 DATA = os.path.join(HERE, '..', 'data')
@@ -385,7 +386,9 @@ class Families(unittest.TestCase):
         for pid, *vals in rows:
             # A row the zero-kcal rule emptied (all zeros became unknown) has no numbers to compare.
             if pid in src and src[pid]['kcal'] is not None and vals[0] is not None:
-                self.assertEqual(vals, [src[pid][n] for n in build_slim.NUTRIENTS], pid)
+                expected = dict(src[pid], serving_g=None)
+                cleanup.tidy_nutrients(expected, [])  # a side value that cannot be true is unknown
+                self.assertEqual(vals, [expected[n] for n in build_slim.NUTRIENTS], pid)
 
 
 class Unverified(unittest.TestCase):
@@ -439,6 +442,45 @@ class Tidy(unittest.TestCase):
     def test_no_trademark_signs_or_lowercase_short_brands(self):
         self.assertEqual(q(FULL, "select count(*) from products where name like '%®%' or name like '%™%'")[0][0], 0)
         self.assertEqual(q(FULL, "select count(*) from products where brand = 'yt'")[0][0], 0)
+
+
+class CleanUp(unittest.TestCase):
+    """tools/cleanup.py on the real list (Max, 2026-11-09)."""
+
+    def test_no_impossible_numbers(self):
+        self.assertEqual(q(FULL, 'select count(*) from products where kcal > 930 or protein_g > 100.5 or fat_g > 100.5 or carbs_g > 100.5')[0][0], 0)
+        self.assertEqual(q(FULL, 'select count(*) from products where protein_g + fat_g + carbs_g > 105')[0][0], 0)
+
+    def test_side_values_fit_their_parent(self):
+        self.assertEqual(q(FULL, 'select count(*) from products where sugars_g > carbs_g + 0.5 or sat_fat_g > fat_g + 0.5')[0][0], 0)
+
+    def test_no_foreign_scripts_or_names_without_letters(self):
+        names = [r[0] for r in q(FULL, 'select name from products')]
+        self.assertEqual([n for n in names if not any(c.isalpha() for c in n)], [])
+        self.assertEqual([n for n in names if cleanup.unusable(dict(name=n, brand=None))], [])
+
+    def test_one_spelling_per_brand(self):
+        book = {}
+        for (b,) in q(FULL, 'select distinct brand from products where brand is not null'):
+            book.setdefault(cleanup._key(b), []).append(b)
+        self.assertEqual({k: v for k, v in book.items() if len(v) > 1}, {})
+
+    def test_no_company_forms_or_html_in_brands(self):
+        self.assertEqual(q(FULL, "select count(*) from products where brand like '% as' or brand like '% ab' or brand like '%&amp;%'")[0][0], 0)
+
+    def test_no_sales_units_in_the_size(self):
+        self.assertEqual(q(FULL, "select count(*) from products where pack_size like '%pr kg%' or pack_size like '%pr stykk%'")[0][0], 0)
+
+    def test_no_empty_brackets(self):
+        self.assertEqual(q(FULL, "select count(*) from products where name like '%( )%' or name like '%()%'")[0][0], 0)
+
+    def test_folded_duplicates_redirect_and_stay_findable(self):
+        self.assertEqual(q(FULL, 'select count(*) from redirects where new_id not in (select id from products)')[0][0], 0)
+
+
+class Liter(unittest.TestCase):
+    def test_written_out_litres_are_sizes(self):
+        self.assertEqual(build_slim.pack_label([('1 liter', None)], 'ml'), '1 L')
 
 
 if __name__ == '__main__':
