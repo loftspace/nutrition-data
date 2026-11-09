@@ -23,6 +23,7 @@ from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import families as fam  # noqa: E402
+import cleanup  # noqa: E402
 
 SCHEMA_VERSION = 2
 
@@ -181,7 +182,7 @@ _SWEETENER_WORDS = frozenset((
 _SWEETENER_PHRASES = ('flavor drops', 'flavour drops', 'smaksdraper', 'zero drops', 'tasty drops')
 _WATER_SALT_WORDS = frozenset((
     'vann', 'vatten', 'vand', 'water', 'eau', 'aqua', 'isklar', 'farris', 'imsdal', 'bonaqua', 'olden',
-    'voss', 'evian', 'ramlosa', 'loka', 'pellegrino', 'sprudle',
+    'voss', 'evian', 'ramlosa', 'loka', 'pellegrino', 'sanpellegrino', 'sprudle',
     'salt', 'salz', 'sel',
 ))
 _WATER_SALT_SUFFIXES = ('vann', 'vatten', 'salt', 'salz')  # mineralvann, kildevann, havsalt, jodsalz
@@ -519,9 +520,9 @@ _NOT_COMPOUND = re.compile(
     r'gubbar|blabar|tranbar|vinbar|korsbar|bjornbar|krusbar|mullbar|holdbar|smorbar|formbar|skivbar|gangbar|bredbar|gojibar)$')
 
 
-_PACK_SIZE = re.compile(r'(?<![\d.,])(\d+(?:[.,]\d+)?)\s?(kg|gram|gr|g|l|dl|cl|ml)\b(?!\s*(?:protein|sukker|fett|fat|karbo|carb|fiber))', re.I)
+_PACK_SIZE = re.compile(r'(?<![\d.,])(\d+(?:[.,]\d+)?)\s?(kg|gram|gr|g|liter|litre|ltr|l|dl|cl|ml)\b(?!\s*(?:protein|sukker|fett|fat|karbo|carb|fiber))', re.I)
 _MULTIPACK = re.compile(r'\d\s*[x×]\s*\d|\d\s*[x×]\s', re.I)
-_PACK_FACTOR = {'kg': ('g', 1000), 'gram': ('g', 1), 'gr': ('g', 1), 'g': ('g', 1), 'l': ('ml', 1000), 'dl': ('ml', 100), 'cl': ('ml', 10), 'ml': ('ml', 1)}
+_PACK_FACTOR = {'kg': ('g', 1000), 'gram': ('g', 1), 'gr': ('g', 1), 'g': ('g', 1), 'liter': ('ml', 1000), 'litre': ('ml', 1000), 'ltr': ('ml', 1000), 'l': ('ml', 1000), 'dl': ('ml', 100), 'cl': ('ml', 10), 'ml': ('ml', 1)}
 
 
 def _pack_amounts(text):
@@ -565,7 +566,7 @@ def brand_first(name, brand, counts, minimum=20):
     """Established brands lead the name, so a set of products reads the same way."""
     if not brand or counts.get(brand, 0) < minimum:
         return name
-    if fam.fold(brand.split()[0]) in fam.fold(name):
+    if fam.fold(brand.split()[0]) in fam.fold(name) or cleanup.brand_in_name(brand, name):
         return name
     return '%s %s' % (brand, name)
 
@@ -629,6 +630,13 @@ def build(data_dir, out, db_version, variant='full', previous=None, built_at='',
     unknown = sorted({p['primary_source'] for p in kept.values()} - set(SOURCES))
     if unknown:
         raise ValueError('sources missing from SOURCES: %s' % ', '.join(unknown))
+
+    # Clean-up rules (cleanup.py): repaired names, deli text back in the name.
+    for p in kept.values():
+        p['brand'], p['pack_size'] = cleanup.swapped_fields(p['brand'], p['pack_size'])
+        p['name'] = cleanup.clean_name(p['name'], p['primary_source'])
+        if p['primary_source'] == 'norgesgruppen':
+            p['name'], p['pack_size'] = cleanup.counter_pack(p['name'], p['pack_size'])
 
     flags_by_id = {}
     for p in kept.values():
@@ -733,6 +741,37 @@ def build(data_dir, out, db_version, variant='full', previous=None, built_at='',
     moved.update(cur_moved)
     extra_search.update(cur_extra)
     units.update(cur_units)
+
+    # Clean-up rules (cleanup.py), on the merged list so curated rows are checked too. Brand spellings are
+    # joined only here: joined earlier, the unverified-twin rule above drops different products of one brand.
+    brand_book = cleanup.BrandBook(p['brand'] for p in kept.values())
+    for i in held:
+        kept[i]['name'] = cleanup.clean_name(kept[i]['name'], kept[i]['primary_source'])
+    for p in kept.values():
+        brand = brand_book.canon(p['brand'])
+        p['name'], p['brand'] = cleanup.percent_name(cleanup.rename_brand(p['name'], p['brand'], brand), brand), brand
+    unusable = [i for i, p in kept.items() if cleanup.unusable(p)]
+    impossible = [i for i, p in kept.items() if i not in set(unusable) and cleanup.impossible(p)]
+    for i in unusable + impossible:
+        del kept[i]
+        extra_search.pop(i, None)
+    moved = {old: new for old, new in moved.items() if new in kept}
+    stats['cleanup_unusable_dropped'] = len(unusable)
+    stats['cleanup_impossible_dropped'] = len(impossible)
+    for p in kept.values():
+        cleanup.tidy_nutrients(p, flags_by_id[p['id']])
+    ranked = sorted((dict(p, unit=units[i]) for i, p in kept.items() if i not in cur_keep),
+                    key=lambda p: (-_verified(p), -_KIND_RANK.get(SOURCES[p['primary_source']][1], 0),
+                                   -sum(p[n] is not None for n in NUTRIENTS), p['id']))
+    folded = cleanup.same_products(ranked)
+    for old, new in folded.items():
+        p = kept.pop(old)
+        words = [extra_search.get(new), extra_search.pop(old, None), p['name'], p['flavour']]
+        extra_search[new] = ' '.join(x for x in words if x)
+    moved = {old: folded.get(new, new) for old, new in moved.items()}
+    moved.update(folded)
+    stats['cleanup_duplicates_folded'] = len(folded)
+
     stats['family_products'] = len(extra_search)
     stats['family_members_folded'] = len(moved)
 
@@ -785,9 +824,9 @@ create table meta(key text primary key, value text not null);
         stats['verified'] += derived['verified']
         stats['per_100_ml'] += derived['per_100_unit'] == 'ml'
         derived['brand'] = fam.tidy_brand(p['brand'], short_brands)
-        derived['name'] = tidy_percent(brand_first(fam.display_name(p['name'], p['brand'], lines, short_brands), derived['brand'], brand_counts))
+        derived['name'] = tidy_percent(brand_first(cleanup.no_empty_brackets(fam.display_name(p['name'], p['brand'], lines, short_brands)), derived['brand'], brand_counts))
         listings = [pack_sources[i] for i in [p['id']] + listings_of.get(p['id'], []) if i in pack_sources]
-        derived['pack_size'] = pack_label(listings, derived['per_100_unit']) or p['pack_size']
+        derived['pack_size'] = pack_label(listings, derived['per_100_unit']) or cleanup.size_text(p['pack_size'])
         vals = [derived[c] if c in derived else p[_SHARD_NAME.get(c, c)] for c in PRODUCT_COLUMNS]
         search = with_compound_tails(_dedupe_words(normalise(' '.join(x for x in (p['name'], p['brand'], p['flavour'], extra_search.get(p['id'])) if x))))
         rows.append(vals + [search])
