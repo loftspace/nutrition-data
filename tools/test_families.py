@@ -275,5 +275,31 @@ class FamilyName(unittest.TestCase):
         self.assertEqual(fam.family_name('Mango Pudding 190g', ['Mango Pudding 190g', 'Vanilje Drikk']), 'Mango Pudding')
 
 
+class CompoundTails(unittest.TestCase):
+    """Norwegian compounds are one token: `melk` must find `lettmelk` (products-db.md, Search)."""
+
+    def tails(self, text):
+        import build_slim
+        return build_slim.with_compound_tails(text).split()
+
+    def test_food_word_at_the_end_is_added(self):
+        self.assertEqual(self.tails('tine lettmelk'), ['tine', 'lettmelk', 'melk'])
+        self.assertIn('ost', self.tails('synnove gulost'))
+        self.assertIn('saus', self.tails('toro tomatsaus'))
+
+    def test_every_known_tail_of_a_long_compound(self):
+        words = self.tails('prior kyllingkjottdeig')
+        self.assertIn('kjottdeig', words)
+        self.assertIn('deig', words)
+
+    def test_words_that_only_look_like_compounds_are_left_alone(self):
+        for w in ('frokost', 'eplemost', 'lakris', 'bunnpris', 'caramel', 'gammel', 'jordgubbar', 'langtidsholdbar', 'post'):
+            self.assertEqual(self.tails(w), [w], w)
+
+    def test_the_word_itself_is_not_repeated(self):
+        self.assertEqual(self.tails('melk'), ['melk'])
+        self.assertEqual(self.tails('lettmelk melk'), ['lettmelk', 'melk'])
+
+
 if __name__ == '__main__':
     unittest.main()
