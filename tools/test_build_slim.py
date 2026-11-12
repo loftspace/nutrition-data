@@ -381,7 +381,9 @@ class Families(unittest.TestCase):
         # Never an average: every family row has exactly the numbers of its own source listing.
         import families
         src = {r['id']: r for r in families.load_rows(DATA)}
-        rows = q(FULL, 'select id, ' + ', '.join(build_slim.NUTRIENTS) + ' from products where id in (select new_id from redirects)')
+        # A row corrected from a store label (data/checked.json) has the label's numbers instead.
+        rows = q(FULL, 'select id, ' + ', '.join(build_slim.NUTRIENTS) + " from products where id in (select new_id from redirects)"
+                 " and coalesce(data_quality, '') not like '%corrected_from_store%'")
         self.assertGreater(len(rows), 1000)
         for pid, *vals in rows:
             # A row the zero-kcal rule emptied (all zeros became unknown) has no numbers to compare.

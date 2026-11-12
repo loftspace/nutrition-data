@@ -24,6 +24,7 @@ from collections import defaultdict
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import families as fam  # noqa: E402
 import cleanup  # noqa: E402
+import checked  # noqa: E402
 
 SCHEMA_VERSION = 2
 
@@ -127,6 +128,10 @@ SOURCES = {
     'mmsports': ('MM Sports', 'shop'),
     'nordicpower-no': ('Nordic Power', 'shop'),
     'norgesgruppen': ('NorgesGruppen (Meny, Spar, Joker)', 'shop'),
+    # Store pages read for data/checked.json (2026-11-12). Shops, so never verified.
+    'oda': ('Oda', 'shop'),
+    'coop-no': ('Coop', 'shop'),
+    'rema-no': ('Rema 1000', 'shop'),
     'proteinbolaget': ('Proteinbolaget', 'shop'),
     'proteincompany-no': ('Protein Company', 'shop'),
     'proteinfabrikken': ('Proteinfabrikken', 'shop'),
@@ -162,7 +167,7 @@ SUSPECT_FLAGS = frozenset((
 INFO_FLAGS = frozenset((
     'missing_fibre', 'missing_salt', 'missing_kcal', 'missing_macros', 'ean_malformed',
     'ean_checksum_invalid', 'ingredients_discarded_junk', 'us_market_product', 'pure_compound',
-    'derived_canonical',
+    'derived_canonical', 'corrected_from_store',
 ))
 _FILLED = 'filled_from_'
 _DERIVED_CANONICAL = re.compile(r'derived_canonical_from_\d+_products$')
@@ -772,6 +777,10 @@ def build(data_dir, out, db_version, variant='full', previous=None, built_at='',
     moved.update(folded)
     stats['cleanup_duplicates_folded'] = len(folded)
 
+    # Store-checked fixes (data/checked.json, Max 2026-11-12), after every automatic rule.
+    checked_sizes, common = checked.apply(checked.load(data_dir), kept, moved, extra_search, flags_by_id, units, stats,
+                                           OPEN_SOURCES if variant == 'open' else None)
+
     stats['family_products'] = len(extra_search)
     stats['family_members_folded'] = len(moved)
 
@@ -794,7 +803,8 @@ create table products(
   status text,
   data_quality text,
   kcal real, protein_g real, fat_g real, sat_fat_g real, carbs_g real, sugars_g real, fibre_g real, salt_g real,
-  search_text text not null
+  search_text text not null,
+  common integer check (common in (1, 2, 3))
 );
 create table sources(slug text primary key, display_name text not null, kind text not null);
 create table product_eans(product_id text not null, ean text not null);
@@ -826,11 +836,11 @@ create table meta(key text primary key, value text not null);
         derived['brand'] = fam.tidy_brand(p['brand'], short_brands)
         derived['name'] = tidy_percent(brand_first(cleanup.no_empty_brackets(fam.display_name(p['name'], p['brand'], lines, short_brands)), derived['brand'], brand_counts))
         listings = [pack_sources[i] for i in [p['id']] + listings_of.get(p['id'], []) if i in pack_sources]
-        derived['pack_size'] = pack_label(listings, derived['per_100_unit']) or cleanup.size_text(p['pack_size'])
+        derived['pack_size'] = checked_sizes.get(p['id']) or pack_label(listings, derived['per_100_unit']) or cleanup.size_text(p['pack_size'])
         vals = [derived[c] if c in derived else p[_SHARD_NAME.get(c, c)] for c in PRODUCT_COLUMNS]
         search = with_compound_tails(_dedupe_words(normalise(' '.join(x for x in (p['name'], p['brand'], p['flavour'], extra_search.get(p['id'])) if x))))
-        rows.append(vals + [search])
-    db.executemany('insert into products values (%s)' % ','.join('?' * (len(PRODUCT_COLUMNS) + 1)), rows)
+        rows.append(vals + [search, common.get(p['id'])])
+    db.executemany('insert into products values (%s)' % ','.join('?' * (len(PRODUCT_COLUMNS) + 2)), rows)
 
     # Every barcode a product is known by, canonical. Two products may not share one.
     owner = {}
