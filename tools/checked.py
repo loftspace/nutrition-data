@@ -57,9 +57,11 @@ def validate(checked):
         n = a.get('nutrients') or {}
         if not a.get('source_url') or not (a.get('eans') or a.get('serving_g') or a.get('menu')) or any(n.get(k) is None for k in ('kcal', 'protein_g', 'fat_g', 'carbs_g')):
             raise ValueError('add needs source_url, eans (or menu: true for a restaurant item) and the four main numbers: %s' % a.get('id'))
+        if a.get('unit') == 'portion' and (not a.get('menu') or n.get('kcal', 0) > 3000):
+            raise ValueError('add %s: a per-portion item must be a menu item under 3000 kcal' % a.get('id'))
         if a.get('serving_g') is not None and not (0 < a['serving_g'] < 3000):
             raise ValueError('add %s: serving_g out of range' % a.get('id'))
-        if a.get('category') not in CATEGORIES or a.get('unit') not in ('g', 'ml'):
+        if a.get('category') not in CATEGORIES or a.get('unit') not in ('g', 'ml', 'portion'):
             raise ValueError('add %s: bad category or unit' % a.get('id'))
     for v in checked.get('common', {}).values():
         if v not in (1, 2, 3):
@@ -116,13 +118,30 @@ def apply(checked, kept, moved, extra_search, flags_by_id, units, stats, open_so
             zero.append(a['id'])  # all-zero means missing (Zero kcal rule): never add it from a label
             continue
         kept[a['id']] = {
-            'id': a['id'], 'name': a['name'], 'pack_size': None,
+            # Max, 2026-11-14: a restaurant item always says which chain it is from ("Godt Brød Kanelbolle").
+            'id': a['id'], 'name': a['name'] if not a.get('menu') or not a.get('brand') or a['brand'].lower() in a['name'].lower() else '%s %s' % (a['brand'], a['name']),
+            'pack_size': None,
             'brand': spelling.get(''.join((a.get('brand') or '').lower().split()), a.get('brand')),
             'ean': (a.get('eans') or [None])[0], 'flavour': None, 'category': a['category'], 'serving_g': a.get('serving_g'),
             'primary_source': a['source'], 'status': 'from_source', 'data_quality': None,
             **{k: n.get(k) for k in NUTRIENTS},
         }
         flags_by_id[a['id']] = ([] if n.get('fibre_g') is not None else ['missing_fibre']) + (['per100_derived_from_serving'] if a.get('derived') else [])
+        if a['unit'] == 'portion':
+            calc = 4 * n['protein_g'] + 4 * n['carbs_g'] + 9 * n['fat_g']
+            if abs(calc - n['kcal']) > max(20, 0.15 * n['kcal']):
+                del kept[a['id']]
+                impossible.append(a['id'])
+                continue
+            # A side value larger than its parent cannot be true (BK prints 60 g sugars in 56 g carbs): unknown.
+            row = kept[a['id']]
+            if row['sugars_g'] is not None and row['carbs_g'] is not None and row['sugars_g'] > row['carbs_g'] + .5:
+                row['sugars_g'] = None
+            if row['sat_fat_g'] is not None and row['fat_g'] is not None and row['sat_fat_g'] > row['fat_g'] + .5:
+                row['sat_fat_g'] = None
+            units[a['id']] = 'portion'
+            extra_search[a['id']] = ' '.join(a.get('also_known_as', ()))
+            continue
         if cleanup.impossible(kept[a['id']]):
             del kept[a['id']]
             impossible.append(a['id'])
