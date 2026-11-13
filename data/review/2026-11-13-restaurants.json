@@ -10993,5 +10993,1732 @@
     }
    }
   ]
+ },
+ "max_must_haves_2026_11_14": {
+  "raw": {
+   "items": [
+    {
+     "name": "Grand Chili Cheese Crispy Chicken",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 328,
+     "per100": {
+      "kcal": 257,
+      "protein_g": 9,
+      "fat_g": 14,
+      "sat_fat_g": 2.8,
+      "carbs_g": 23,
+      "sugars_g": 3.3,
+      "fibre_g": 1.4,
+      "salt_g": 1.4
+     },
+     "per_portion": {
+      "kcal": 841,
+      "protein_g": 29,
+      "fat_g": 45,
+      "sat_fat_g": 9.2,
+      "carbs_g": 74,
+      "sugars_g": 11,
+      "fibre_g": 29,
+      "salt_g": 4.6,
+      "note": "fibre 29 printed on page for portion; likely page error (per 100 g is 1,4 = 4,6 per portion), copied as printed"
+     }
+    },
+    {
+     "name": "Grand Chili Cheese Crispy Supreme",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 357,
+     "per100": {
+      "kcal": 280,
+      "protein_g": 8.9,
+      "fat_g": 17,
+      "sat_fat_g": 3.1,
+      "carbs_g": 21,
+      "sugars_g": 2.3,
+      "fibre_g": 2,
+      "salt_g": 1.4
+     },
+     "per_portion": {
+      "kcal": 998,
+      "protein_g": 32,
+      "fat_g": 61,
+      "sat_fat_g": 11,
+      "carbs_g": 74,
+      "sugars_g": 8.4,
+      "fibre_g": 7.2,
+      "salt_g": 4.9
+     }
+    },
+    {
+     "name": "Grand Chili Cheese Plant Beef",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 317,
+     "per100": {
+      "kcal": 277,
+      "protein_g": 10,
+      "fat_g": 17,
+      "sat_fat_g": 6.5,
+      "carbs_g": 19,
+      "sugars_g": 2.8,
+      "fibre_g": 1.7,
+      "salt_g": 1.2
+     },
+     "per_portion": {
+      "kcal": 877,
+      "protein_g": 32,
+      "fat_g": 54,
+      "sat_fat_g": 21,
+      "carbs_g": 62,
+      "sugars_g": 8.8,
+      "fibre_g": 5.5,
+      "salt_g": 3.9
+     }
+    },
+    {
+     "name": "Onion mayonnaise dip",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 35,
+     "per100": {
+      "kcal": 609,
+      "protein_g": 1,
+      "fat_g": 65,
+      "sat_fat_g": 4.8,
+      "carbs_g": 4.6,
+      "sugars_g": 3,
+      "fibre_g": 0,
+      "salt_g": 1.4
+     },
+     "per_portion": {
+      "kcal": 213,
+      "protein_g": 0.4,
+      "fat_g": 23,
+      "sat_fat_g": 1.7,
+      "carbs_g": 1.6,
+      "sugars_g": 1,
+      "fibre_g": 0,
+      "salt_g": 0.49
+     }
+    },
+    {
+     "name": "Fish Deluxe Parmesan",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 289.2,
+     "per100": {
+      "kcal": 235,
+      "protein_g": 9.4,
+      "fat_g": 13.5,
+      "sat_fat_g": 2.4,
+      "carbs_g": 18.7,
+      "sugars_g": 2.1,
+      "fibre_g": 0.7,
+      "salt_g": 0.7
+     },
+     "per_portion": {
+      "kcal": 678,
+      "protein_g": 27.3,
+      "fat_g": 39.2,
+      "sat_fat_g": 6.9,
+      "carbs_g": 54.1,
+      "sugars_g": 6.2,
+      "fibre_g": 1.9,
+      "salt_g": 2.1
+     }
+    },
+    {
+     "name": "Fish Deluxe Buffalo",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 272,
+     "per100": {
+      "kcal": 230,
+      "protein_g": 7.9,
+      "fat_g": 12.9,
+      "sat_fat_g": 1,
+      "carbs_g": 20.2,
+      "sugars_g": 2.3,
+      "fibre_g": 0.7,
+      "salt_g": 1
+     },
+     "per_portion": {
+      "kcal": 627,
+      "protein_g": 21.4,
+      "fat_g": 35.1,
+      "sat_fat_g": 2.6,
+      "carbs_g": 54.9,
+      "sugars_g": 6.3,
+      "fibre_g": 1.8,
+      "salt_g": 2.7
+     }
+    },
+    {
+     "name": "Salad Wrap Burger",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 285,
+     "per100": {
+      "kcal": 194.4,
+      "protein_g": 9.2,
+      "fat_g": 15.9,
+      "sat_fat_g": 6.6,
+      "carbs_g": 3.6,
+      "sugars_g": 1.9,
+      "fibre_g": 0.4,
+      "salt_g": 0.9
+     },
+     "per_portion": {
+      "kcal": 554.1,
+      "protein_g": 26.2,
+      "fat_g": 45.3,
+      "sat_fat_g": 18.7,
+      "carbs_g": 10.3,
+      "sugars_g": 5.5,
+      "fibre_g": 1,
+      "salt_g": 2.5
+     }
+    },
+    {
+     "name": "Maxoumi",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 210,
+     "per100": {
+      "kcal": 284,
+      "protein_g": 9.5,
+      "fat_g": 19.3,
+      "sat_fat_g": 5.7,
+      "carbs_g": 17.6,
+      "sugars_g": 4.3,
+      "fibre_g": 1,
+      "salt_g": 1.1
+     },
+     "per_portion": {
+      "kcal": 596,
+      "protein_g": 20,
+      "fat_g": 40.6,
+      "sat_fat_g": 11.9,
+      "carbs_g": 37,
+      "sugars_g": 9.1,
+      "fibre_g": 2.1,
+      "salt_g": 2.4
+     }
+    },
+    {
+     "name": "Dobbel Maxoumi",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 270,
+     "per100": {
+      "kcal": 310,
+      "protein_g": 12.5,
+      "fat_g": 22.6,
+      "sat_fat_g": 8.2,
+      "carbs_g": 14,
+      "sugars_g": 3.6,
+      "fibre_g": 0.8,
+      "salt_g": 1.4
+     },
+     "per_portion": {
+      "kcal": 836,
+      "protein_g": 33.9,
+      "fat_g": 61.1,
+      "sat_fat_g": 22.1,
+      "carbs_g": 37.8,
+      "sugars_g": 9.7,
+      "fibre_g": 2.1,
+      "salt_g": 3.9
+     }
+    },
+    {
+     "name": "Crispy Supreme Parmesan",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 253.2,
+     "per100": {
+      "kcal": 294,
+      "protein_g": 10.4,
+      "fat_g": 19.8,
+      "sat_fat_g": 3.4,
+      "carbs_g": 18.7,
+      "sugars_g": 2.3,
+      "fibre_g": 1.9,
+      "salt_g": 1.1
+     },
+     "per_portion": {
+      "kcal": 744,
+      "protein_g": 26.2,
+      "fat_g": 50.1,
+      "sat_fat_g": 8.6,
+      "carbs_g": 47.4,
+      "sugars_g": 5.9,
+      "fibre_g": 4.9,
+      "salt_g": 2.8
+     }
+    },
+    {
+     "name": "Crispy Supreme Buffalo",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 244,
+     "per100": {
+      "kcal": 279,
+      "protein_g": 8.4,
+      "fat_g": 18.5,
+      "sat_fat_g": 1.7,
+      "carbs_g": 20,
+      "sugars_g": 2.7,
+      "fibre_g": 2,
+      "salt_g": 1.4
+     },
+     "per_portion": {
+      "kcal": 681,
+      "protein_g": 20.4,
+      "fat_g": 45.1,
+      "sat_fat_g": 4.2,
+      "carbs_g": 48.7,
+      "sugars_g": 6.5,
+      "fibre_g": 4.9,
+      "salt_g": 3.5
+     }
+    },
+    {
+     "name": "Salad Wrap Plant Beef",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 338,
+     "per100": {
+      "kcal": 218,
+      "protein_g": 12.3,
+      "fat_g": 15.7,
+      "sat_fat_g": 8.6,
+      "carbs_g": 6.9,
+      "sugars_g": 1.8,
+      "fibre_g": 0.1,
+      "salt_g": 0.9
+     },
+     "per_portion": {
+      "kcal": 738,
+      "protein_g": 41.5,
+      "fat_g": 53.2,
+      "sat_fat_g": 29.1,
+      "carbs_g": 23.2,
+      "sugars_g": 6,
+      "fibre_g": 0.4,
+      "salt_g": 3
+     }
+    },
+    {
+     "name": "Mung Bean Burger",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 262.2,
+     "per100": {
+      "kcal": 222.07,
+      "protein_g": 6.92,
+      "fat_g": 10.11,
+      "sat_fat_g": 1.7,
+      "carbs_g": 23.63,
+      "sugars_g": 2.82,
+      "fibre_g": 3.14,
+      "salt_g": 0.93
+     },
+     "per_portion": {
+      "kcal": 582.28,
+      "protein_g": 18.14,
+      "fat_g": 26.52,
+      "sat_fat_g": 4.47,
+      "carbs_g": 61.95,
+      "sugars_g": 7.41,
+      "fibre_g": 8.23,
+      "salt_g": 2.43
+     }
+    },
+    {
+     "name": "Dobbel Original Plant Beef",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 365,
+     "per100": {
+      "kcal": 261.2,
+      "protein_g": 12.2,
+      "fat_g": 17.7,
+      "sat_fat_g": 7.2,
+      "carbs_g": 12.7,
+      "sugars_g": 1.2,
+      "fibre_g": 1.5,
+      "salt_g": 0.8
+     },
+     "per_portion": {
+      "kcal": 953.3,
+      "protein_g": 44.6,
+      "fat_g": 64.5,
+      "sat_fat_g": 26.4,
+      "carbs_g": 46.4,
+      "sugars_g": 4.3,
+      "fibre_g": 5.3,
+      "salt_g": 3
+     }
+    },
+    {
+     "name": "Crispy Green Nuggets 9 st",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 171,
+     "per100": {
+      "kcal": 386,
+      "protein_g": 17.2,
+      "fat_g": 26.5,
+      "sat_fat_g": 2.5,
+      "carbs_g": 20.1,
+      "sugars_g": 0.7,
+      "fibre_g": 3.6,
+      "salt_g": 2
+     },
+     "per_portion": {
+      "kcal": 535,
+      "protein_g": 23.8,
+      "fat_g": 36.7,
+      "sat_fat_g": 3.5,
+      "carbs_g": 27.9,
+      "sugars_g": 1,
+      "fibre_g": 5,
+      "salt_g": 2.8
+     }
+    },
+    {
+     "name": "Crispy Green Nuggets 6 st",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 92.4,
+     "per100": {
+      "kcal": 357,
+      "protein_g": 15.9,
+      "fat_g": 24.5,
+      "sat_fat_g": 2.3,
+      "carbs_g": 18.6,
+      "sugars_g": 0.6,
+      "fibre_g": 3.3,
+      "salt_g": 1.8
+     },
+     "per_portion": {
+      "kcal": 440,
+      "protein_g": 19.6,
+      "fat_g": 30.2,
+      "sat_fat_g": 2.9,
+      "carbs_g": 22.9,
+      "sugars_g": 0.8,
+      "fibre_g": 4.1,
+      "salt_g": 2.3
+     }
+    },
+    {
+     "name": "Grand Chicken Parmesan",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 296.2,
+     "per100": {
+      "kcal": 262,
+      "protein_g": 11,
+      "fat_g": 16.1,
+      "sat_fat_g": 2.7,
+      "carbs_g": 18.2,
+      "sugars_g": 1.9,
+      "fibre_g": 0.7,
+      "salt_g": 1
+     },
+     "per_portion": {
+      "kcal": 776,
+      "protein_g": 32.7,
+      "fat_g": 47.8,
+      "sat_fat_g": 8.1,
+      "carbs_g": 53.8,
+      "sugars_g": 5.8,
+      "fibre_g": 2.1,
+      "salt_g": 3.1
+     }
+    },
+    {
+     "name": "Grand Chicken Buffalo",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 290.5,
+     "per100": {
+      "kcal": 250,
+      "protein_g": 9.3,
+      "fat_g": 15.1,
+      "sat_fat_g": 1.3,
+      "carbs_g": 18.9,
+      "sugars_g": 2.2,
+      "fibre_g": 0.7,
+      "salt_g": 1.3
+     },
+     "per_portion": {
+      "kcal": 726,
+      "protein_g": 27,
+      "fat_g": 43.7,
+      "sat_fat_g": 3.8,
+      "carbs_g": 55,
+      "sugars_g": 6.3,
+      "fibre_g": 2.2,
+      "salt_g": 3.9
+     }
+    },
+    {
+     "name": "Grilled Chicken Parmesan",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 267,
+     "per100": {
+      "kcal": 220,
+      "protein_g": 12,
+      "fat_g": 13,
+      "sat_fat_g": 3.2,
+      "carbs_g": 13,
+      "sugars_g": 2.2,
+      "fibre_g": 1.2,
+      "salt_g": 1.2
+     },
+     "per_portion": {
+      "kcal": 586.44,
+      "protein_g": 31.25,
+      "fat_g": 35.41,
+      "sat_fat_g": 8.46,
+      "carbs_g": 35.48,
+      "sugars_g": 5.74,
+      "fibre_g": 3.11,
+      "salt_g": 3.3
+     }
+    },
+    {
+     "name": "Grilled Chicken Buffalo",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 267,
+     "per100": {
+      "kcal": 203,
+      "protein_g": 9.6,
+      "fat_g": 12,
+      "sat_fat_g": 1.6,
+      "carbs_g": 14,
+      "sugars_g": 2.5,
+      "fibre_g": 1.1,
+      "salt_g": 1.5
+     },
+     "per_portion": {
+      "kcal": 542.13,
+      "protein_g": 25.51,
+      "fat_g": 31.43,
+      "sat_fat_g": 4.22,
+      "carbs_g": 37.51,
+      "sugars_g": 6.65,
+      "fibre_g": 3.02,
+      "salt_g": 3.96
+     }
+    },
+    {
+     "name": "Chicken Jr.",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 125,
+     "per100": {
+      "kcal": 237.86,
+      "protein_g": 9.55,
+      "fat_g": 11.89,
+      "sat_fat_g": 1.31,
+      "carbs_g": 23.04,
+      "sugars_g": 2.26,
+      "fibre_g": 0.92,
+      "salt_g": 0.96
+     },
+     "per_portion": {
+      "kcal": 297.32,
+      "protein_g": 11.93,
+      "fat_g": 14.87,
+      "sat_fat_g": 1.63,
+      "carbs_g": 28.8,
+      "sugars_g": 2.82,
+      "fibre_g": 1.15,
+      "salt_g": 1.2
+     }
+    },
+    {
+     "name": "Green Kale Caesar Bowl",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 380,
+     "per100": {
+      "kcal": 248,
+      "protein_g": 11.5,
+      "fat_g": 12.2,
+      "sat_fat_g": 2,
+      "carbs_g": 24,
+      "sugars_g": 3.1,
+      "fibre_g": 2.4,
+      "salt_g": 1.2
+     },
+     "per_portion": {
+      "kcal": 943,
+      "protein_g": 43.6,
+      "fat_g": 46.2,
+      "sat_fat_g": 7.8,
+      "carbs_g": 91.3,
+      "sugars_g": 11.9,
+      "fibre_g": 9,
+      "salt_g": 4.5
+     }
+    },
+    {
+     "name": "Sesame & Ginger Bowl",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 417,
+     "per100": {
+      "kcal": 195,
+      "protein_g": 9.2,
+      "fat_g": 7.1,
+      "sat_fat_g": 0.7,
+      "carbs_g": 24,
+      "sugars_g": 4.5,
+      "fibre_g": 2.5,
+      "salt_g": 1.2
+     },
+     "per_portion": {
+      "kcal": 815,
+      "protein_g": 38.4,
+      "fat_g": 29.6,
+      "sat_fat_g": 3,
+      "carbs_g": 99.9,
+      "sugars_g": 18.8,
+      "fibre_g": 10.5,
+      "salt_g": 5.2
+     }
+    },
+    {
+     "name": "Premium Shake Jordbær (Strawberry)",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "drinks",
+     "unit": "ml",
+     "portion_g": 399,
+     "per100": {
+      "kcal": 126,
+      "protein_g": 3.1,
+      "fat_g": 5.3,
+      "sat_fat_g": 4.3,
+      "carbs_g": 14,
+      "sugars_g": 13.7,
+      "fibre_g": 0.2,
+      "salt_g": 0.2
+     },
+     "per_portion": {
+      "kcal": 502.8,
+      "protein_g": 12.3,
+      "fat_g": 20.9,
+      "sat_fat_g": 17,
+      "carbs_g": 55.9,
+      "sugars_g": 54.7,
+      "fibre_g": 0.9,
+      "salt_g": 0.8
+     }
+    },
+    {
+     "name": "Premium Shake Espresso karamell (Espresso Caramel)",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "drinks",
+     "unit": "ml",
+     "portion_g": 369,
+     "per100": {
+      "kcal": 145.9,
+      "protein_g": 3.5,
+      "fat_g": 6.2,
+      "sat_fat_g": 4.9,
+      "carbs_g": 19.4,
+      "sugars_g": 17.1,
+      "fibre_g": 0,
+      "salt_g": 0.3
+     },
+     "per_portion": {
+      "kcal": 538.4,
+      "protein_g": 13,
+      "fat_g": 22.6,
+      "sat_fat_g": 18,
+      "carbs_g": 71.4,
+      "sugars_g": 63.1,
+      "fibre_g": 0,
+      "salt_g": 1
+     }
+    },
+    {
+     "name": "Dubai Style Chocolate",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "drinks",
+     "unit": "ml",
+     "portion_g": 391,
+     "per100": {
+      "kcal": 219,
+      "protein_g": 4,
+      "fat_g": 12,
+      "sat_fat_g": 6.2,
+      "carbs_g": 23,
+      "sugars_g": 22,
+      "fibre_g": 0.2,
+      "salt_g": 0.2
+     },
+     "per_portion": {
+      "kcal": 858,
+      "protein_g": 16,
+      "fat_g": 48,
+      "sat_fat_g": 24,
+      "carbs_g": 91,
+      "sugars_g": 86,
+      "fibre_g": 1,
+      "salt_g": 0.7
+     }
+    },
+    {
+     "name": "Strawberry Mango Boba",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "drinks",
+     "unit": "ml",
+     "portion_g": 354,
+     "per100": {
+      "kcal": 63.45,
+      "protein_g": 0.01,
+      "fat_g": 0,
+      "sat_fat_g": 0,
+      "carbs_g": 12.35,
+      "sugars_g": 9.57,
+      "fibre_g": 0.13,
+      "salt_g": 0
+     },
+     "per_portion": {
+      "kcal": 224.6,
+      "protein_g": 0.05,
+      "fat_g": 0,
+      "sat_fat_g": 0,
+      "carbs_g": 43.71,
+      "sugars_g": 33.86,
+      "fibre_g": 0.45,
+      "salt_g": 0.53
+     }
+    },
+    {
+     "name": "Tropical Passion Boba",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "drinks",
+     "unit": "ml",
+     "portion_g": 354,
+     "per100": {
+      "kcal": 63.71,
+      "protein_g": 0.02,
+      "fat_g": 0,
+      "sat_fat_g": 0,
+      "carbs_g": 11.91,
+      "sugars_g": 9.14,
+      "fibre_g": 0.13,
+      "salt_g": 0.15
+     },
+     "per_portion": {
+      "kcal": 225.52,
+      "protein_g": 0.09,
+      "fat_g": 0,
+      "sat_fat_g": 0,
+      "carbs_g": 42.17,
+      "sugars_g": 32.34,
+      "fibre_g": 0.46,
+      "salt_g": 0.53
+     }
+    },
+    {
+     "name": "Blueberry Blizz",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "drinks",
+     "unit": "ml",
+     "portion_g": 306,
+     "per100": {
+      "kcal": 53,
+      "protein_g": 0.23,
+      "fat_g": 0.23,
+      "sat_fat_g": 0,
+      "carbs_g": 12,
+      "sugars_g": 12,
+      "fibre_g": 0.2,
+      "salt_g": 0.01
+     },
+     "per_portion": {
+      "kcal": 162,
+      "protein_g": 0.7,
+      "fat_g": 0.7,
+      "sat_fat_g": 0,
+      "carbs_g": 37,
+      "sugars_g": 36,
+      "fibre_g": 0.7,
+      "salt_g": 0.02
+     }
+    },
+    {
+     "name": "Strawberry Breeze",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "drinks",
+     "unit": "ml",
+     "portion_g": 298,
+     "per100": {
+      "kcal": 54.36,
+      "protein_g": 0.23,
+      "fat_g": 0.23,
+      "sat_fat_g": 0,
+      "carbs_g": 12.25,
+      "sugars_g": 12.1,
+      "fibre_g": 0.23,
+      "salt_g": 0
+     },
+     "per_portion": {
+      "kcal": 162,
+      "protein_g": 0.7,
+      "fat_g": 0.7,
+      "sat_fat_g": 0,
+      "carbs_g": 36.5,
+      "sugars_g": 36.05,
+      "fibre_g": 0.7,
+      "salt_g": 0.01
+     }
+    },
+    {
+     "name": "Passion Pop",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "drinks",
+     "unit": "ml",
+     "portion_g": null,
+     "per100": {
+      "kcal": 45.79,
+      "protein_g": 0.24,
+      "fat_g": 0.23,
+      "sat_fat_g": 0,
+      "carbs_g": 10.33,
+      "sugars_g": 20.37,
+      "fibre_g": 0.24,
+      "salt_g": 0.01
+     },
+     "per_portion": {
+      "kcal": 136.44,
+      "protein_g": 0.73,
+      "fat_g": 0.7,
+      "sat_fat_g": 0,
+      "carbs_g": 30.8,
+      "sugars_g": 60.72,
+      "fibre_g": 0.71,
+      "salt_g": 0.02,
+      "note": "page prints portion weight 0 and sugars higher than carbs; copied as printed"
+     }
+    },
+    {
+     "name": "Pink Peach (Premium Smoothie)",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "drinks",
+     "unit": "ml",
+     "portion_g": 480,
+     "per100": {
+      "kcal": 52.88,
+      "protein_g": 0.28,
+      "fat_g": 0.15,
+      "sat_fat_g": 0.02,
+      "carbs_g": 12.05,
+      "sugars_g": 10.65,
+      "fibre_g": 1.15,
+      "salt_g": 0
+     },
+     "per_portion": {
+      "kcal": 253.8,
+      "protein_g": 1.33,
+      "fat_g": 0.7,
+      "sat_fat_g": 0.07,
+      "carbs_g": 57.85,
+      "sugars_g": 51.11,
+      "fibre_g": 5.52,
+      "salt_g": 0
+     }
+    },
+    {
+     "name": "Mucho Mango",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "drinks",
+     "unit": "ml",
+     "portion_g": 500,
+     "per100": {
+      "kcal": 47,
+      "protein_g": 0.6,
+      "fat_g": 0.3,
+      "sat_fat_g": 0,
+      "carbs_g": 9.9,
+      "sugars_g": 9.5,
+      "fibre_g": 1,
+      "salt_g": 0
+     },
+     "per_portion": {
+      "kcal": 233,
+      "protein_g": 3.1,
+      "fat_g": 1.3,
+      "sat_fat_g": 0.2,
+      "carbs_g": 49.7,
+      "sugars_g": 47.7,
+      "fibre_g": 5.1,
+      "salt_g": 0
+     }
+    },
+    {
+     "name": "Very Berry",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "drinks",
+     "unit": "ml",
+     "portion_g": 500,
+     "per100": {
+      "kcal": 45,
+      "protein_g": 0.6,
+      "fat_g": 0.1,
+      "sat_fat_g": 0,
+      "carbs_g": 9.9,
+      "sugars_g": 9.4,
+      "fibre_g": 0.9,
+      "salt_g": 0
+     },
+     "per_portion": {
+      "kcal": 227,
+      "protein_g": 2.9,
+      "fat_g": 0.7,
+      "sat_fat_g": 0,
+      "carbs_g": 49.7,
+      "sugars_g": 47.1,
+      "fibre_g": 4.3,
+      "salt_g": 0
+     }
+    },
+    {
+     "name": "Kivik Fruktdrikk Appelsin",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "drinks",
+     "unit": "ml",
+     "portion_g": 250,
+     "per100": {
+      "kcal": 40,
+      "protein_g": 0,
+      "fat_g": 0,
+      "sat_fat_g": 0,
+      "carbs_g": 9.5,
+      "sugars_g": 9.5,
+      "fibre_g": 0.1,
+      "salt_g": 0
+     },
+     "per_portion": {
+      "kcal": 100,
+      "protein_g": 0,
+      "fat_g": 0,
+      "sat_fat_g": 0,
+      "carbs_g": 23.75,
+      "sugars_g": 23.75,
+      "fibre_g": 0.25,
+      "salt_g": 0
+     }
+    },
+    {
+     "name": "Kivik Fruktdrikk Eple",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "drinks",
+     "unit": "ml",
+     "portion_g": 250,
+     "per100": {
+      "kcal": 40,
+      "protein_g": 0,
+      "fat_g": 0,
+      "sat_fat_g": 0,
+      "carbs_g": 9.5,
+      "sugars_g": 9.5,
+      "fibre_g": 0.1,
+      "salt_g": 0
+     },
+     "per_portion": {
+      "kcal": 100,
+      "protein_g": 0,
+      "fat_g": 0,
+      "sat_fat_g": 0,
+      "carbs_g": 23.75,
+      "sugars_g": 23.75,
+      "fibre_g": 0.25,
+      "salt_g": 0
+     }
+    },
+    {
+     "name": "Creole fries - Liten",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "other_food",
+     "unit": "g",
+     "portion_g": 201.2,
+     "per100": {
+      "kcal": 153,
+      "protein_g": 2.1,
+      "fat_g": 8.9,
+      "sat_fat_g": 0.9,
+      "carbs_g": 15.2,
+      "sugars_g": 1.6,
+      "fibre_g": 0.1,
+      "salt_g": 0.7
+     },
+     "per_portion": {
+      "kcal": 308,
+      "protein_g": 4.3,
+      "fat_g": 17.9,
+      "sat_fat_g": 1.9,
+      "carbs_g": 30.5,
+      "sugars_g": 3.2,
+      "fibre_g": 0.2,
+      "salt_g": 1.4
+     }
+    },
+    {
+     "name": "Creole fries - Stor",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "other_food",
+     "unit": "g",
+     "portion_g": 251.2,
+     "per100": {
+      "kcal": 153,
+      "protein_g": 2.2,
+      "fat_g": 8.3,
+      "sat_fat_g": 0.9,
+      "carbs_g": 16.3,
+      "sugars_g": 1.4,
+      "fibre_g": 0.1,
+      "salt_g": 0.6
+     },
+     "per_portion": {
+      "kcal": 385,
+      "protein_g": 5.6,
+      "fat_g": 20.8,
+      "sat_fat_g": 2.2,
+      "carbs_g": 41,
+      "sugars_g": 3.5,
+      "fibre_g": 0.2,
+      "salt_g": 1.5
+     }
+    },
+    {
+     "name": "Eplebiter",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": 100,
+     "per100": {
+      "kcal": 52,
+      "protein_g": 0.3,
+      "fat_g": 0.1,
+      "sat_fat_g": null,
+      "carbs_g": 12.4,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per_portion": {
+      "kcal": 52,
+      "protein_g": 0.3,
+      "fat_g": 0.1,
+      "sat_fat_g": null,
+      "carbs_g": 12.4,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     }
+    },
+    {
+     "name": "Bringebærpai",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": 90,
+     "per100": {
+      "kcal": 280,
+      "protein_g": 3.9,
+      "fat_g": 14,
+      "sat_fat_g": 8.8,
+      "carbs_g": 32,
+      "sugars_g": 13,
+      "fibre_g": 1.6,
+      "salt_g": 0.5
+     },
+     "per_portion": {
+      "kcal": 252,
+      "protein_g": 3.5,
+      "fat_g": 12.6,
+      "sat_fat_g": 7.9,
+      "carbs_g": 28.8,
+      "sugars_g": 11.7,
+      "fibre_g": 1.4,
+      "salt_g": 0.4
+     }
+    },
+    {
+     "name": "Smelteost (Smelt Cheddardipp)",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 30,
+     "per100": {
+      "kcal": 140,
+      "protein_g": 2,
+      "fat_g": 11,
+      "sat_fat_g": 1.5,
+      "carbs_g": 8,
+      "sugars_g": 2,
+      "fibre_g": 0,
+      "salt_g": 1
+     },
+     "per_portion": {
+      "kcal": 42,
+      "protein_g": 0.6,
+      "fat_g": 3.3,
+      "sat_fat_g": 0.5,
+      "carbs_g": 2.4,
+      "sugars_g": 0.6,
+      "fibre_g": 0,
+      "salt_g": 0.3,
+      "note": "mapping of Smelt Cheddardipp to Smelteost is an assumption by name"
+     }
+    },
+    {
+     "name": "Brooklyn Tribute",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 32,
+     "per100": {
+      "kcal": 604,
+      "protein_g": 1.2,
+      "fat_g": 63,
+      "sat_fat_g": 4.7,
+      "carbs_g": 8.1,
+      "sugars_g": 6,
+      "fibre_g": 0,
+      "salt_g": 1.8
+     },
+     "per_portion": {
+      "kcal": 193.28,
+      "protein_g": 0.38,
+      "fat_g": 20.16,
+      "sat_fat_g": 1.5,
+      "carbs_g": 2.59,
+      "sugars_g": 1.92,
+      "fibre_g": 0,
+      "salt_g": 0.58
+     }
+    },
+    {
+     "name": "Aiolidressing (Aioli)",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 30,
+     "per100": {
+      "kcal": 690,
+      "protein_g": 0.9,
+      "fat_g": 78,
+      "sat_fat_g": 5.9,
+      "carbs_g": 0.5,
+      "sugars_g": 0.2,
+      "fibre_g": 0,
+      "salt_g": 0.9
+     },
+     "per_portion": {
+      "kcal": 207,
+      "protein_g": 0.3,
+      "fat_g": 23.4,
+      "sat_fat_g": 1.8,
+      "carbs_g": 0.2,
+      "sugars_g": 0.1,
+      "fibre_g": 0,
+      "salt_g": 0.3
+     }
+    },
+    {
+     "name": "Bearnaise",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 35,
+     "per100": {
+      "kcal": 690,
+      "protein_g": 0.9,
+      "fat_g": 77,
+      "sat_fat_g": 5.8,
+      "carbs_g": 0,
+      "sugars_g": 0.1,
+      "fibre_g": 1,
+      "salt_g": 1.2
+     },
+     "per_portion": {
+      "kcal": 241.5,
+      "protein_g": 0.3,
+      "fat_g": 27,
+      "sat_fat_g": 2,
+      "carbs_g": 0.1,
+      "sugars_g": 0,
+      "fibre_g": 0.4,
+      "salt_g": 0.4
+     }
+    },
+    {
+     "name": "Green & Garlic",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 35,
+     "per100": {
+      "kcal": 610,
+      "protein_g": 1.2,
+      "fat_g": 66,
+      "sat_fat_g": 4.7,
+      "carbs_g": 4.3,
+      "sugars_g": 1.3,
+      "fibre_g": 1,
+      "salt_g": 0.9
+     },
+     "per_portion": {
+      "kcal": 213.5,
+      "protein_g": 0.4,
+      "fat_g": 23.1,
+      "sat_fat_g": 1.7,
+      "carbs_g": 1.5,
+      "sugars_g": 0.5,
+      "fibre_g": 0.4,
+      "salt_g": 0.3
+     }
+    },
+    {
+     "name": "Original-dressing (MAX Original)",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 35,
+     "per100": {
+      "kcal": 510,
+      "protein_g": 1.1,
+      "fat_g": 53,
+      "sat_fat_g": 3.9,
+      "carbs_g": 8.8,
+      "sugars_g": 6.8,
+      "fibre_g": 1,
+      "salt_g": 0.8
+     },
+     "per_portion": {
+      "kcal": 178.5,
+      "protein_g": 0.4,
+      "fat_g": 18.6,
+      "sat_fat_g": 1.4,
+      "carbs_g": 3.1,
+      "sugars_g": 2.4,
+      "fibre_g": 0.4,
+      "salt_g": 0.3
+     }
+    },
+    {
+     "name": "BBQ",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 35,
+     "per100": {
+      "kcal": 130,
+      "protein_g": 1.1,
+      "fat_g": 0.5,
+      "sat_fat_g": 0.2,
+      "carbs_g": 31,
+      "sugars_g": 28,
+      "fibre_g": 0,
+      "salt_g": 0.9
+     },
+     "per_portion": {
+      "kcal": 45.5,
+      "protein_g": 0.39,
+      "fat_g": 0.18,
+      "sat_fat_g": 0.07,
+      "carbs_g": 10.85,
+      "sugars_g": 9.8,
+      "fibre_g": 0,
+      "salt_g": 0.32
+     }
+    },
+    {
+     "name": "Hot Creole",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 35,
+     "per100": {
+      "kcal": 480,
+      "protein_g": 0.8,
+      "fat_g": 48,
+      "sat_fat_g": 3.4,
+      "carbs_g": 13.4,
+      "sugars_g": 11,
+      "fibre_g": 1,
+      "salt_g": 1.7
+     },
+     "per_portion": {
+      "kcal": 168,
+      "protein_g": 0.3,
+      "fat_g": 16.8,
+      "sat_fat_g": 1.2,
+      "carbs_g": 4.7,
+      "sugars_g": 3.9,
+      "fibre_g": 0.4,
+      "salt_g": 0.6
+     }
+    },
+    {
+     "name": "Sweet & Sour",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 35,
+     "per100": {
+      "kcal": 120,
+      "protein_g": 0.3,
+      "fat_g": 0,
+      "sat_fat_g": 0,
+      "carbs_g": 28,
+      "sugars_g": 25,
+      "fibre_g": 1,
+      "salt_g": 1.6
+     },
+     "per_portion": {
+      "kcal": 42,
+      "protein_g": 0.11,
+      "fat_g": 0,
+      "sat_fat_g": 0,
+      "carbs_g": 9.8,
+      "sugars_g": 8.75,
+      "fibre_g": 0.35,
+      "salt_g": 0.56
+     }
+    },
+    {
+     "name": "Sourcream & pepper",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 40,
+     "per100": {
+      "kcal": 610,
+      "protein_g": 0.8,
+      "fat_g": 67,
+      "sat_fat_g": 5.4,
+      "carbs_g": 3.3,
+      "sugars_g": 2,
+      "fibre_g": 0,
+      "salt_g": 1.4
+     },
+     "per_portion": {
+      "kcal": 244,
+      "protein_g": 0.3,
+      "fat_g": 26.8,
+      "sat_fat_g": 2.2,
+      "carbs_g": 1.3,
+      "sugars_g": 0.8,
+      "fibre_g": 0,
+      "salt_g": 0.6
+     }
+    },
+    {
+     "name": "Honey Curry",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 35,
+     "per100": {
+      "kcal": 490,
+      "protein_g": 1.3,
+      "fat_g": 46,
+      "sat_fat_g": 3.2,
+      "carbs_g": 19,
+      "sugars_g": 17,
+      "fibre_g": 1,
+      "salt_g": 1.6
+     },
+     "per_portion": {
+      "kcal": 171.5,
+      "protein_g": 0.5,
+      "fat_g": 16.1,
+      "sat_fat_g": 1.1,
+      "carbs_g": 6.7,
+      "sugars_g": 6,
+      "fibre_g": 0.4,
+      "salt_g": 0.6
+     }
+    },
+    {
+     "name": "Umamidressing (Umami)",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 30,
+     "per100": {
+      "kcal": 650,
+      "protein_g": 0.9,
+      "fat_g": 69,
+      "sat_fat_g": 5.6,
+      "carbs_g": 3.3,
+      "sugars_g": 3.1,
+      "fibre_g": 0,
+      "salt_g": 1.4
+     },
+     "per_portion": {
+      "kcal": 195,
+      "protein_g": 0.3,
+      "fat_g": 20.7,
+      "sat_fat_g": 1.7,
+      "carbs_g": 1,
+      "sugars_g": 0.9,
+      "fibre_g": 0,
+      "salt_g": 0.4
+     }
+    },
+    {
+     "name": "Plantebasert majones",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 30,
+     "per100": {
+      "kcal": 360,
+      "protein_g": 0.5,
+      "fat_g": 35,
+      "sat_fat_g": 2.5,
+      "carbs_g": 11,
+      "sugars_g": 6,
+      "fibre_g": 0.5,
+      "salt_g": 1.1
+     },
+     "per_portion": {
+      "kcal": 108,
+      "protein_g": 0.15,
+      "fat_g": 10.5,
+      "sat_fat_g": 0.75,
+      "carbs_g": 3.3,
+      "sugars_g": 1.8,
+      "fibre_g": 0.15,
+      "salt_g": 0.33
+     }
+    },
+    {
+     "name": "Iced Latte",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "drinks",
+     "unit": "ml",
+     "portion_g": 294,
+     "per100": {
+      "kcal": 42.86,
+      "protein_g": 3.33,
+      "fat_g": 1.43,
+      "sat_fat_g": 0.95,
+      "carbs_g": 4.68,
+      "sugars_g": 4.67,
+      "fibre_g": 0,
+      "salt_g": 0.1
+     },
+     "per_portion": {
+      "kcal": 126,
+      "protein_g": 9.8,
+      "fat_g": 4.2,
+      "sat_fat_g": 2.8,
+      "carbs_g": 13.76,
+      "sugars_g": 13.72,
+      "fibre_g": 0,
+      "salt_g": 0.28
+     }
+    },
+    {
+     "name": "Iced caramel latte",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "drinks",
+     "unit": "ml",
+     "portion_g": 359,
+     "per100": {
+      "kcal": 95.32,
+      "protein_g": 3.08,
+      "fat_g": 1.72,
+      "sat_fat_g": 0.95,
+      "carbs_g": 17.3,
+      "sugars_g": 15.11,
+      "fibre_g": 0,
+      "salt_g": 0.12
+     },
+     "per_portion": {
+      "kcal": 342.19,
+      "protein_g": 11.05,
+      "fat_g": 6.19,
+      "sat_fat_g": 3.42,
+      "carbs_g": 62.1,
+      "sugars_g": 54.25,
+      "fibre_g": 0,
+      "salt_g": 0.44
+     }
+    },
+    {
+     "name": "Iced vanilla latte",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "drinks",
+     "unit": "ml",
+     "portion_g": 320,
+     "per100": {
+      "kcal": 67.08,
+      "protein_g": 3.06,
+      "fat_g": 1.31,
+      "sat_fat_g": 0.88,
+      "carbs_g": 11.12,
+      "sugars_g": 11.1,
+      "fibre_g": 0,
+      "salt_g": 0.09
+     },
+     "per_portion": {
+      "kcal": 214.66,
+      "protein_g": 9.8,
+      "fat_g": 4.2,
+      "sat_fat_g": 2.8,
+      "carbs_g": 35.58,
+      "sugars_g": 35.53,
+      "fibre_g": 0,
+      "salt_g": 0.29
+     }
+    },
+    {
+     "name": "Iced chocolate latte",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "drinks",
+     "unit": "ml",
+     "portion_g": 241.5,
+     "per100": {
+      "kcal": 92.28,
+      "protein_g": 2.93,
+      "fat_g": 1.27,
+      "sat_fat_g": 0.83,
+      "carbs_g": 17.62,
+      "sugars_g": 17.29,
+      "fibre_g": 0.28,
+      "salt_g": 0.1
+     },
+     "per_portion": {
+      "kcal": 331.27,
+      "protein_g": 10.5,
+      "fat_g": 4.55,
+      "sat_fat_g": 3,
+      "carbs_g": 63.27,
+      "sugars_g": 62.05,
+      "fibre_g": 1.01,
+      "salt_g": 0.37
+     }
+    },
+    {
+     "name": "Iced Matcha Latte",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "drinks",
+     "unit": "ml",
+     "portion_g": 290,
+     "per100": {
+      "kcal": 67,
+      "protein_g": 1.3,
+      "fat_g": 2.7,
+      "sat_fat_g": 0.3,
+      "carbs_g": 7.5,
+      "sugars_g": 4.5,
+      "fibre_g": 0.9,
+      "salt_g": 0.15
+     },
+     "per_portion": {
+      "kcal": 194,
+      "protein_g": 3.8,
+      "fat_g": 7.9,
+      "sat_fat_g": 1,
+      "carbs_g": 22,
+      "sugars_g": 13,
+      "fibre_g": 2.7,
+      "salt_g": 0.44
+     }
+    },
+    {
+     "name": "Iced Matcha Strawberry Latte",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "drinks",
+     "unit": "ml",
+     "portion_g": 314,
+     "per100": {
+      "kcal": 87,
+      "protein_g": 1.2,
+      "fat_g": 2.5,
+      "sat_fat_g": 0.3,
+      "carbs_g": 13,
+      "sugars_g": 10,
+      "fibre_g": 0.9,
+      "salt_g": 0.14
+     },
+     "per_portion": {
+      "kcal": 275,
+      "protein_g": 3.8,
+      "fat_g": 7.9,
+      "sat_fat_g": 1,
+      "carbs_g": 42,
+      "sugars_g": 33,
+      "fibre_g": 2.7,
+      "salt_g": 0.45
+     }
+    },
+    {
+     "name": "Iced Matcha Vanilla Latte",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "drinks",
+     "unit": "ml",
+     "portion_g": 314,
+     "per100": {
+      "kcal": 87,
+      "protein_g": 1.2,
+      "fat_g": 2.5,
+      "sat_fat_g": 0.35,
+      "carbs_g": 13,
+      "sugars_g": 10,
+      "fibre_g": 0.9,
+      "salt_g": 0.14
+     },
+     "per_portion": {
+      "kcal": 276,
+      "protein_g": 3.8,
+      "fat_g": 7.9,
+      "sat_fat_g": 1,
+      "carbs_g": 42,
+      "sugars_g": 33,
+      "fibre_g": 2.7,
+      "salt_g": 0.45
+     }
+    },
+    {
+     "name": "Iced Matcha Espresso & Vanilla Latte",
+     "url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
+     "category": "drinks",
+     "unit": "ml",
+     "portion_g": 328,
+     "per100": {
+      "kcal": 84,
+      "protein_g": 1.2,
+      "fat_g": 2.4,
+      "sat_fat_g": 0.3,
+      "carbs_g": 13,
+      "sugars_g": 10,
+      "fibre_g": 0.8,
+      "salt_g": 0.14
+     },
+     "per_portion": {
+      "kcal": 276,
+      "protein_g": 3.8,
+      "fat_g": 7.9,
+      "sat_fat_g": 1,
+      "carbs_g": 42,
+      "sugars_g": 33,
+      "fibre_g": 2.7,
+      "salt_g": 0.45
+     }
+    }
+   ],
+   "not_found": [
+    "Fanta No Sugar",
+    "Majones (regular; only Plantebasert majones listed)",
+    "Chocolate Dip",
+    "Strawberry Dip",
+    "Caramel Dip"
+   ]
+  },
+  "added": [
+   "Grand Chili Cheese Crispy Chicken",
+   "Grand Chili Cheese Crispy Supreme",
+   "Grand Chili Cheese Plant Beef",
+   "Onion mayonnaise dip",
+   "Fish Deluxe Parmesan",
+   "Fish Deluxe Buffalo",
+   "Salad Wrap Burger",
+   "Maxoumi",
+   "Dobbel Maxoumi",
+   "Crispy Supreme Parmesan",
+   "Crispy Supreme Buffalo",
+   "Salad Wrap Plant Beef",
+   "Mung Bean Burger",
+   "Dobbel Original Plant Beef",
+   "Crispy Green Nuggets 9 st",
+   "Crispy Green Nuggets 6 st",
+   "Grand Chicken Parmesan",
+   "Grand Chicken Buffalo",
+   "Grilled Chicken Parmesan",
+   "Grilled Chicken Buffalo",
+   "Chicken Jr.",
+   "Green Kale Caesar Bowl",
+   "Sesame & Ginger Bowl",
+   "Premium Shake Jordbær (Strawberry)",
+   "Premium Shake Espresso karamell (Espresso Caramel)",
+   "Dubai Style Chocolate",
+   "Strawberry Mango Boba",
+   "Tropical Passion Boba",
+   "Blueberry Blizz",
+   "Strawberry Breeze",
+   "Passion Pop",
+   "Pink Peach (Premium Smoothie)",
+   "Mucho Mango",
+   "Very Berry",
+   "Kivik Fruktdrikk Appelsin",
+   "Kivik Fruktdrikk Eple",
+   "Creole fries - Liten",
+   "Creole fries - Stor",
+   "Eplebiter",
+   "Bringebærpai",
+   "Smelteost (Smelt Cheddardipp)",
+   "Brooklyn Tribute",
+   "Aiolidressing (Aioli)",
+   "Bearnaise",
+   "Green & Garlic",
+   "Original-dressing (MAX Original)",
+   "BBQ",
+   "Hot Creole",
+   "Sweet & Sour",
+   "Sourcream & pepper",
+   "Honey Curry",
+   "Umamidressing (Umami)",
+   "Plantebasert majones",
+   "Iced Latte",
+   "Iced caramel latte",
+   "Iced vanilla latte",
+   "Iced chocolate latte",
+   "Iced Matcha Latte",
+   "Iced Matcha Strawberry Latte",
+   "Iced Matcha Vanilla Latte",
+   "Iced Matcha Espresso & Vanilla Latte"
+  ],
+  "skipped": []
  }
 }
