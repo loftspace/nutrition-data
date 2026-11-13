@@ -1,5 +1,5 @@
 {
- "note": "Round Q, 2026-11-14 (/next items 1, 4, 6): same-name groups, held review items and unbranded meat. Sonnet decided, code checked; these failed the checks or were unsure.",
+ "note": "Round Q, 2026-11-14 (/next items 1, 4, 6): same-name groups, held review items and unbranded meat. Sonnet decided, code checked; these failed the checks or were unsure. Round R (2026-11-14) settled part of this list in code; what is left needs a person or a label.",
  "stats": {
   "auto fold ok": 71,
   "auto fold target is a new addition": 9,
@@ -21,51 +21,6 @@
   "brand row updated (M)": 31
  },
  "held": [
-  {
-   "id": "store:5029396738569",
-   "into": "store:5029396322782",
-   "why": "code fold refused: target is a new addition"
-  },
-  {
-   "id": "store:7030019544366",
-   "into": "store:7030019544359",
-   "why": "code fold refused: target is a new addition"
-  },
-  {
-   "id": "store:7033850008509",
-   "into": "store:7033850007625",
-   "why": "code fold refused: target is a new addition"
-  },
-  {
-   "id": "store:7310350131020",
-   "into": "store:7310350118175",
-   "why": "code fold refused: target is a new addition"
-  },
-  {
-   "id": "store:7037210121815",
-   "into": "store:7037210120719",
-   "why": "code fold refused: target is a new addition"
-  },
-  {
-   "id": "store:7043180114122",
-   "into": "store:7043180114023",
-   "why": "code fold refused: target is a new addition"
-  },
-  {
-   "id": "store:7030019545639",
-   "into": "store:7030019545622",
-   "why": "code fold refused: target is a new addition"
-  },
-  {
-   "id": "store:7044610876658",
-   "into": "store:7044610876313",
-   "why": "code fold refused: target is a new addition"
-  },
-  {
-   "id": "store:5707196263077",
-   "into": "store:5707196165890",
-   "why": "code fold refused: target is a new addition"
-  },
   {
    "id": "nordicpower-no:https://nordicpower.no/produkt/clear-whey-isolate-500g/",
    "into": "apex-no:https://apex.no/produkt/clear-whey-isolate-i-500g/",
@@ -283,11 +238,6 @@
    "reason": "same cut, kcal 117 vs 118"
   },
   {
-   "id": "ean:7055330020627",
-   "why": "same name, agent unsure",
-   "reason": "kcal 123 vs 111 (11%), no words to tell them apart"
-  },
-  {
    "id": "norgesgruppen:7255",
    "into": "ean:2000725500005",
    "why": "agent said fold, code refused: numbers differ",
@@ -498,11 +448,6 @@
    "id": "ean:4770209049051",
    "why": "same name, agent unsure",
    "reason": "fat 6 vs 8.1, 297 vs 328 kcal"
-  },
-  {
-   "id": "ean:5902296002230",
-   "why": "same name, agent unsure",
-   "reason": "32 vs 15 kcal, no words"
   },
   {
    "id": "ean:4823097816660",
@@ -758,11 +703,6 @@
    "reason": "kcal within 7%"
   },
   {
-   "id": "store:7025441018455",
-   "why": "same name, agent unsure",
-   "reason": "numbers differ about 4x, no words"
-  },
-  {
    "id": "norgesgruppen:6300",
    "why": "same name, agent unsure",
    "reason": "no words or pack, numbers differ"
@@ -777,11 +717,6 @@
    "id": "ean:7029161132323",
    "why": "same name, agent unsure",
    "reason": "sugars 1.6 vs 13, no words"
-  },
-  {
-   "id": "ean:7029161127916",
-   "why": "same name, agent unsure",
-   "reason": "fat 4.6 vs 14, no words"
   },
   {
    "id": "ean:7029993010028",
@@ -812,11 +747,6 @@
    "reason": "numbers within about 10%"
   },
   {
-   "id": "ean:7032069731055",
-   "why": "same name, agent unsure",
-   "reason": "numbers differ, nothing to tell apart"
-  },
-  {
    "id": "ean:7032069739280",
    "why": "same name, agent unsure",
    "reason": "34 vs 189 kcal, probably berries vs jam, no data to say"
@@ -838,11 +768,6 @@
    "reason": "260 vs 558 kcal, nothing to tell apart"
   },
   {
-   "id": "ean:7037203636128",
-   "why": "same name, agent unsure",
-   "reason": "numbers differ over 10%, same 300 g, nothing to tell apart"
-  },
-  {
    "id": "ean:7037203640149",
    "into": "ean:7037206100008",
    "why": "agent said fold, code refused: numbers differ",
@@ -858,11 +783,6 @@
    "id": "ean:7037210121235",
    "why": "same name, agent unsure",
    "reason": "81 kcal, no pack or words to tell apart"
-  },
-  {
-   "id": "ean:7070841003365",
-   "why": "same name, agent unsure",
-   "reason": "numbers differ 15%, pack sizes overlap, nothing to tell apart"
   },
   {
    "id": "ean:7037421061962",
@@ -887,11 +807,6 @@
    "reason": "529 vs 366 kcal, pack sizes overlap, nothing to tell apart"
   },
   {
-   "id": "ean:7039010016094",
-   "why": "same name, agent unsure",
-   "reason": "183 vs 114 kcal, nothing to tell apart"
-  },
-  {
    "id": "openfoodfacts:0070390100163",
    "why": "same name, agent unsure",
    "reason": "156 vs 246 kcal, no pack size or words to tell apart"
@@ -911,11 +826,6 @@
    "id": "ean:8712738027403",
    "why": "same name, agent unsure",
    "reason": "207 vs 50 kcal (maybe dried), no words"
-  },
-  {
-   "id": "ean:7040518507779",
-   "why": "same name, agent unsure",
-   "reason": "37 vs 46 kcal, same words, no pack size"
   },
   {
    "id": "ean:7613287302038",
@@ -948,11 +858,6 @@
    "id": "norgesgruppen:6918",
    "why": "same name, agent unsure",
    "reason": "no label to tell apart"
-  },
-  {
-   "id": "ean:7052930009106",
-   "why": "same name, agent unsure",
-   "reason": "207 vs 352 kcal, no label"
   },
   {
    "id": "ean:7090012723274",
@@ -990,11 +895,6 @@
    "reason": "same fondant, kcal equal"
   },
   {
-   "id": "ean:7071319030197",
-   "why": "same name, agent unsure",
-   "reason": "37 vs 45 kcal, same pack, no words"
-  },
-  {
    "id": "ean:7072175800696",
    "why": "same name, agent unsure",
    "reason": "fat 8.3 vs 6.8, no distinguishing words"
@@ -1024,11 +924,6 @@
    "into": "ean:7073313000190",
    "why": "agent said fold, code refused: numbers differ",
    "reason": "444 vs 436 kcal, pack sizes only"
-  },
-  {
-   "id": "ean:7090013751214",
-   "why": "same name, agent unsure",
-   "reason": "299 vs 217 kcal, same pack size 300 g, no words"
   },
   {
    "id": "tights-discontinued:186622",
@@ -1117,11 +1012,6 @@
    "reason": "same kcal, pack size only"
   },
   {
-   "id": "ean:7090061080281",
-   "why": "same name, agent unsure",
-   "reason": "same words and pack; fat and sugar differ about 10%"
-  },
-  {
    "id": "ean:7300156584809",
    "why": "same name, agent unsure",
    "reason": "different numbers, no distinguishing words"
@@ -1192,11 +1082,6 @@
    "id": "ean:7310960044147",
    "why": "same name, agent unsure",
    "reason": "kcal and fat differ about 13 to 25%"
-  },
-  {
-   "id": "ean:7310960044109",
-   "why": "same name, agent unsure",
-   "reason": "kcal 176 vs 247, no words"
   },
   {
    "id": "ean:7310960044239",
@@ -1300,11 +1185,6 @@
    "id": "ean:7312690800246",
    "why": "same name, agent unsure",
    "reason": "kcal 260 vs 338, no distinguishing words"
-  },
-  {
-   "id": "ean:7312930000634",
-   "why": "same name, agent unsure",
-   "reason": "kcal 401, words only almondy kake"
   },
   {
    "id": "ean:7312930009385",
@@ -1819,11 +1699,6 @@
    "reason": "within 2%, pack size only"
   },
   {
-   "id": "ean:8001250013859",
-   "why": "same name, agent unsure",
-   "reason": "protein, carbs and fat differ, same pack, no words"
-  },
-  {
    "id": "ean:8001250099198",
    "into": "ean:8001250016522",
    "why": "agent said fold, code refused: numbers differ",
@@ -1898,24 +1773,9 @@
    "reason": "flavour unknown, 124 kcal"
   },
   {
-   "id": "ean:8711327374904",
-   "why": "same name, agent unsure",
-   "reason": "flavour unknown, 230 kcal"
-  },
-  {
    "id": "ean:8711327483262",
    "why": "same name, agent unsure",
    "reason": "flavour unknown, 303 kcal, 80 ml"
-  },
-  {
-   "id": "ean:8711327485471",
-   "why": "same name, agent unsure",
-   "reason": "flavour unknown, 3STK pack"
-  },
-  {
-   "id": "ean:8711327626386",
-   "why": "same name, agent unsure",
-   "reason": "flavour unknown, 227 kcal"
   },
   {
    "id": "ean:8711521975112",
@@ -2273,11 +2133,6 @@
    "reason": "178 vs 226 kcal, no words"
   },
   {
-   "id": "ean:7032069736883",
-   "why": "same name, agent unsure",
-   "reason": "45 vs 73 kcal, no words"
-  },
-  {
    "id": "ean:7046280029358",
    "why": "same name, agent unsure",
    "reason": "269 kcal, no words"
@@ -2310,11 +2165,6 @@
    "reason": "240 vs 299 kcal, no words"
   },
   {
-   "id": "ean:7090046151722",
-   "why": "same name, agent unsure",
-   "reason": "51 vs 43 kcal, 17% gap, no words"
-  },
-  {
    "id": "ean:2000783866709",
    "into": "ean:2000783852795",
    "why": "agent said fold, code refused: numbers differ",
@@ -2324,11 +2174,6 @@
    "id": "ean:7046280029372",
    "why": "same name, agent unsure",
    "reason": "159 vs 236 kcal, no words"
-  },
-  {
-   "id": "ean:7035620043352",
-   "why": "same name, agent unsure",
-   "reason": "264 vs 316 kcal, fat 6.6 vs 11"
   },
   {
    "id": "ean:7310500187747",
@@ -2350,16 +2195,6 @@
    "id": "ean:7311043030354",
    "why": "same name, agent unsure",
    "reason": "85 vs 67 kcal, no words"
-  },
-  {
-   "id": "ean:7035620039614",
-   "why": "same name, agent unsure",
-   "reason": "273 vs 308 kcal, fat 6.8 vs 11"
-  },
-  {
-   "id": "ean:7032069735282",
-   "why": "same name, agent unsure",
-   "reason": "43 vs 35 kcal, no words"
   },
   {
    "id": "ean:7055330028449",
@@ -2505,11 +2340,6 @@
    "reason": "kcal 30 vs 21, odd barcode, no words"
   },
   {
-   "id": "ean:7340191125650",
-   "why": "same name, agent unsure",
-   "reason": "kcal 104 vs 130, no distinguishing words"
-  },
-  {
    "id": "ean:7340191184022",
    "into": "ean:7340191125650",
    "why": "agent said fold, code refused: numbers differ",
@@ -2585,11 +2415,6 @@
    "id": "ean:7090006868561",
    "why": "same name, agent unsure",
    "reason": "numbers differ, same pack, same words"
-  },
-  {
-   "id": "ean:7032069737569",
-   "why": "same name, agent unsure",
-   "reason": "numbers differ, no pack or words to tell apart"
   },
   {
    "id": "ean:7032069760826",
@@ -2721,32 +2546,9 @@
    "reason": "kcal 130 vs 119"
   },
   {
-   "id": "store:7036110212227",
-   "why": "same name, agent unsure",
-   "reason": "kcal 175 vs 155, sugars differ, no variant words"
-  },
-  {
-   "id": "store:7058040691408",
-   "into": "store:7058040444400",
-   "why": "agent said fold, code refused: target is a new addition",
-   "reason": "kcal 513 vs 476, within 8%"
-  },
-  {
-   "id": "store:7311310045623",
-   "into": "store:7311310031039",
-   "why": "agent said fold, code refused: target is a new addition",
-   "reason": "kcal 291 vs 297"
-  },
-  {
    "id": "store:8585002445612",
    "why": "same name, agent unsure",
    "reason": "kcal 5 vs 13, no variant words"
-  },
-  {
-   "id": "store:3046920001557",
-   "into": "store:3046920001489",
-   "why": "agent said fold, code refused: target is a new addition",
-   "reason": "kcal 560 vs 551"
   },
   {
    "id": "store:7041614007262",
@@ -2760,19 +2562,9 @@
    "reason": "kcal 66 vs 57, no variant words"
   },
   {
-   "id": "store:8003938008522",
-   "why": "same name, agent unsure",
-   "reason": "kcal 274 vs 233, fat differs, no variant words"
-  },
-  {
    "id": "store:0000023877097",
    "why": "same name, agent unsure",
    "reason": "kcal 148 vs 208, no variant words"
-  },
-  {
-   "id": "store:7055330036802",
-   "why": "same name, agent unsure",
-   "reason": "kcal 109 vs 171, no variant words"
   },
   {
    "id": "store:4251097407999",
@@ -2787,12 +2579,6 @@
    "reason": "identical to the row above"
   },
   {
-   "id": "store:4251097408026",
-   "into": "store:4251097402918",
-   "why": "agent said fold, code refused: target is a new addition",
-   "reason": "kcal 304 vs 283"
-  },
-  {
    "id": "store:4251097408057",
    "into": "store:4251097402970",
    "why": "agent said fold, code refused: numbers differ",
@@ -2805,28 +2591,10 @@
    "reason": "kcal 574 vs 586"
   },
   {
-   "id": "store:7041111136557",
-   "into": "store:7041111135802",
-   "why": "agent said fold, code refused: target is a new addition",
-   "reason": "kcal 515 vs 517"
-  },
-  {
    "id": "store:7340005403363",
    "into": "store:7340005403349",
    "why": "agent said fold, code refused: numbers differ",
    "reason": "kcal 540 vs 500, within 8%"
-  },
-  {
-   "id": "store:7340005407156",
-   "into": "store:7340005403349",
-   "why": "agent said fold, code refused: target is a new addition",
-   "reason": "kcal 538 vs 500"
-  },
-  {
-   "id": "store:7037421067797",
-   "into": "store:7037421067469",
-   "why": "agent said fold, code refused: target is a new addition",
-   "reason": "kcal 463 vs 440"
   },
   {
    "id": "store:7090053790211",
@@ -2838,12 +2606,6 @@
    "into": "store:7025110101570",
    "why": "agent said fold, code refused: numbers differ",
    "reason": "within ~10%, no distinguishing words"
-  },
-  {
-   "id": "store:7025110193520",
-   "into": "store:7025110101570",
-   "why": "agent said fold, code refused: target is a new addition",
-   "reason": "within ~10% on kcal, protein and fat"
   },
   {
    "id": "store:7032069737439",
@@ -2885,11 +2647,6 @@
    },
    "why": "agent unsure",
    "reason": "Generic bar may be Toffee Crunchy; flavour not stated"
-  },
-  {
-   "id": "ean:5765228124758",
-   "into": "ean:5765228126882",
-   "why": "agent said fold, code refused: variant words differ"
   },
   {
    "item": {
@@ -3324,11 +3081,6 @@
    "reason": "Both corn-chicken breast fillet; sugars differ, cannot tell if same"
   },
   {
-   "id": "ean:4260183213604",
-   "into": "ean:4260183213178",
-   "why": "agent said fold, code refused: variant words differ"
-  },
-  {
    "item": {
     "kind": "duplicate?",
     "why": "duplicate? Mild vs plain yoghurt, same numbers",
@@ -3536,11 +3288,6 @@
   {
    "id": "ean:2560037793484",
    "into": "ean:7350037193484",
-   "why": "agent said fold, code refused: variant words differ"
-  },
-  {
-   "id": "helsam-dk:https://helsam.dk/products/kakaopulver-o-dragon",
-   "into": "ean:3800225476836",
    "why": "agent said fold, code refused: variant words differ"
   },
   {
@@ -4277,11 +4024,6 @@
    "reason": "DK vs NO label, protein and sugars differ"
   },
   {
-   "id": "ean:7640104953135",
-   "into": "ean:7640104952619",
-   "why": "agent said fold, code refused: variant words differ"
-  },
-  {
    "item": {
     "kind": "duplicate?",
     "why": "duplicate? Same Parmesan 30%; 12 month variant unsure",
@@ -4388,11 +4130,6 @@
    },
    "why": "agent unsure",
    "reason": "Äkta line vs plain, numbers differ"
-  },
-  {
-   "id": "ean:9004617071997",
-   "into": "ean:9004617071485",
-   "why": "agent said fold, code refused: variant words differ"
   },
   {
    "item": {
@@ -7305,111 +7042,6 @@
    "reason": "Lasagne 142 vs 118 kcal; large gap, may be a different recipe or size."
   },
   {
-   "ean": "0000023813432",
-   "rows": [
-    "ean:0000023759695",
-    "ean:7025110164377"
-   ],
-   "why": "barcode given to two rows by different rounds: a person decides"
-  },
-  {
-   "ean": "0000023860224",
-   "rows": [
-    "ean:0000023759695",
-    "ean:7025110164377",
-    "norgesgruppen:20833907"
-   ],
-   "why": "barcode given to two rows by different rounds: a person decides"
-  },
-  {
-   "ean": "0000023545314",
-   "rows": [
-    "ean:2067600900008",
-    "matvaretabellen:04.024"
-   ],
-   "why": "barcode given to two rows by different rounds: a person decides"
-  },
-  {
-   "ean": "0000023545617",
-   "rows": [
-    "ean:2067600900008",
-    "matvaretabellen:04.024"
-   ],
-   "why": "barcode given to two rows by different rounds: a person decides"
-  },
-  {
-   "ean": "0000023812607",
-   "rows": [
-    "ean:2067600900008",
-    "matvaretabellen:04.024"
-   ],
-   "why": "barcode given to two rows by different rounds: a person decides"
-  },
-  {
-   "ean": "0000023812609",
-   "rows": [
-    "ean:2067600900008",
-    "matvaretabellen:04.024"
-   ],
-   "why": "barcode given to two rows by different rounds: a person decides"
-  },
-  {
-   "ean": "0000023835024",
-   "rows": [
-    "ean:2301290802601",
-    "matvaretabellen:03.054"
-   ],
-   "why": "barcode given to two rows by different rounds: a person decides"
-  },
-  {
-   "ean": "0000023402223",
-   "rows": [
-    "ean:2301411000008",
-    "norgesgruppen:23800448"
-   ],
-   "why": "barcode given to two rows by different rounds: a person decides"
-  },
-  {
-   "ean": "0000023865889",
-   "rows": [
-    "ean:2386588918905",
-    "matvaretabellen:04.038"
-   ],
-   "why": "barcode given to two rows by different rounds: a person decides"
-  },
-  {
-   "ean": "0000023642632",
-   "rows": [
-    "ean:7023539700725",
-    "ean:7032069104712"
-   ],
-   "why": "barcode given to two rows by different rounds: a person decides"
-  },
-  {
-   "ean": "0000023861090",
-   "rows": [
-    "matvaretabellen:04.117",
-    "norgesgruppen:23861011"
-   ],
-   "why": "barcode given to two rows by different rounds: a person decides"
-  },
-  {
-   "ean": "7033352770683",
-   "rows": [
-    "matvaretabellen:04.256",
-    "store:7033352769533"
-   ],
-   "why": "barcode given to two rows by different rounds: a person decides"
-  },
-  {
-   "ean": "7090041530058",
-   "rows": [
-    "norgesgruppen:23642608",
-    "norgesgruppen:23833932"
-   ],
-   "why": "barcode given to two rows by different rounds: a person decides"
-  },
-  {
    "ean": "8712566121496",
    "rows": [
     "store:8712566121458",
@@ -7433,5 +7065,14 @@
    ],
    "why": "barcode given to two rows by different rounds: a person decides"
   }
- ]
+ ],
+ "round_r": {
+  "a: addition merged into existing row": 17,
+  "d: renamed from the shop name": 29,
+  "c: Ø/Økologisk fold": 5,
+  "b: barcode given to the closest row": 13,
+  "e: dropped": 1,
+  "e: category drinks": 2,
+  "e: category protein drink": 2
+ }
 }

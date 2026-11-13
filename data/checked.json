@@ -13,6 +13,26 @@
    "name": "Vegan Protein 300 g, 500 g"
   },
   {
+   "id": "barebells-no:https://barebells.com/product/caffe-caramello/",
+   "source_url": "https://barebells.com (protein milkshake)",
+   "category": "protein_drink_or_dessert"
+  },
+  {
+   "id": "barebells-no:https://barebells.com/product/classic-cola/",
+   "source_url": "https://barebells.com (protein water)",
+   "category": "drinks"
+  },
+  {
+   "id": "barebells-no:https://barebells.com/product/milkshake-cookies-and-cream/",
+   "source_url": "https://barebells.com (protein milkshake)",
+   "category": "protein_drink_or_dessert"
+  },
+  {
+   "id": "barebells-no:https://barebells.com/product/raspberry-fizz/",
+   "source_url": "https://barebells.com (protein water)",
+   "category": "drinks"
+  },
+  {
    "id": "bodypower:https://www.bodypower.se/varumarken/vitamin-well/vitamin-well-electrolytes-citron-lime-sockerfri-500ml",
    "nutrients": {
     "fibre_g": 0.0
@@ -163,6 +183,8 @@
    "id": "ean:0000023759695",
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13): unbranded counter product",
    "add_eans": [
+    "0000023813432",
+    "0000023860224",
     "7042541902330"
    ]
   },
@@ -1246,7 +1268,13 @@
   },
   {
    "id": "ean:2067600900008",
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13): unbranded counter product"
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13): unbranded counter product",
+   "add_eans": [
+    "0000023545314",
+    "0000023545617",
+    "0000023812607",
+    "0000023812609"
+   ]
   },
   {
    "id": "ean:2082919800009",
@@ -1457,7 +1485,10 @@
   },
   {
    "id": "ean:2301290802601",
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13): unbranded counter product"
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13): unbranded counter product",
+   "add_eans": [
+    "0000023835024"
+   ]
   },
   {
    "id": "ean:2301290802663",
@@ -1496,7 +1527,10 @@
   },
   {
    "id": "ean:2301411000008",
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13): unbranded counter product"
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13): unbranded counter product",
+   "add_eans": [
+    "0000023402223"
+   ]
   },
   {
    "id": "ean:2301550900009",
@@ -2126,7 +2160,10 @@
   },
   {
    "id": "ean:2386588918905",
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13): unbranded counter product"
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13): unbranded counter product",
+   "add_eans": [
+    "0000023865889"
+   ]
   },
   {
    "id": "ean:2387706300008",
@@ -5071,6 +5108,11 @@
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
+   "id": "ean:5902296002230",
+   "source_url": "https://kassal.app (barcode 5902296002230, 2026-11-14)",
+   "name": "Kedainiu Surkål Østeuropeiske Delikatesser"
+  },
+  {
    "id": "ean:5902768514049",
    "name": "Vigo Kombucha Detox Shot Økologisk",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
@@ -5608,7 +5650,8 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13): unbranded counter product",
    "add_eans": [
     "0000023642186",
-    "0000023642617"
+    "0000023642617",
+    "0000023642632"
    ]
   },
   {
@@ -6249,6 +6292,11 @@
    "source_url": "https://meny.no/varer/bakevarer-og-kjeks/torket-frukt-og-notter/svisker/svisker-7029123164560"
   },
   {
+   "id": "ean:7029161127916",
+   "source_url": "https://kassal.app (barcode 7029161127916, 2026-11-14)",
+   "name": "Mesterbakeren Ostebaguette m Ost/skinke 230g"
+  },
+  {
    "id": "ean:7030019502328",
    "nutrients": {
     "fibre_g": 0.0
@@ -6617,6 +6665,11 @@
    ]
   },
   {
+   "id": "ean:7032069731055",
+   "source_url": "https://kassal.app (barcode 7032069731055, 2026-11-14)",
+   "name": "Kolonihagen Pizzasaus Økologisk 280g"
+  },
+  {
    "id": "ean:7032069732144",
    "nutrients": {
     "kcal": 373.0,
@@ -6644,6 +6697,11 @@
    "source_url": "our DB"
   },
   {
+   "id": "ean:7032069735282",
+   "source_url": "https://kassal.app (barcode 7032069735282, 2026-11-14)",
+   "name": "Rema 1000 Appelsinjuice uten Fruktkjøtt 1l"
+  },
+  {
    "id": "ean:7032069736364",
    "name": "Rema 1000 Majones",
    "source_url": "https://spar.no/varer/"
@@ -6655,6 +6713,16 @@
     "427 g"
    ],
    "source_url": "https://kassal.app/vare/75130-pizza-nduja-427g-rema-1000-7032069736425"
+  },
+  {
+   "id": "ean:7032069736883",
+   "source_url": "https://kassal.app (barcode 7032069736883, 2026-11-14)",
+   "name": "Rema 1000 Tzatziki 180g"
+  },
+  {
+   "id": "ean:7032069737569",
+   "source_url": "https://kassal.app (barcode 7032069737569, 2026-11-14)",
+   "name": "Rema 1000 Juleskinke Skivet m/Honning 170g Julens Klassiker"
   },
   {
    "id": "ean:7032069738856",
@@ -7474,6 +7542,11 @@
    }
   },
   {
+   "id": "ean:7035620039614",
+   "source_url": "https://kassal.app (barcode 7035620039614, 2026-11-14)",
+   "name": "Eldorado Tortelloni Ost 250g"
+  },
+  {
    "id": "ean:7035620040221",
    "nutrients": {
     "kcal": 229.0,
@@ -7527,6 +7600,11 @@
    "id": "ean:7035620042881",
    "name": "Fiskemannen Blåskjell i Lake Msc",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
+  },
+  {
+   "id": "ean:7035620043352",
+   "source_url": "https://kassal.app (barcode 7035620043352, 2026-11-14)",
+   "name": "Eldorado Tortelloni Kylling&Bacon 250g"
   },
   {
    "id": "ean:7035620043567",
@@ -8146,6 +8224,11 @@
    }
   },
   {
+   "id": "ean:7037203636128",
+   "source_url": "https://kassal.app (barcode 7037203636128, 2026-11-14)",
+   "name": "Gilde Hverdagslam Strimler 300g"
+  },
+  {
    "id": "ean:7037203639723",
    "sizes": [
     "50 g",
@@ -8737,6 +8820,11 @@
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
+   "id": "ean:7039010016094",
+   "source_url": "https://kassal.app (barcode 7039010016094, 2026-11-14)",
+   "name": "Nora Jordbærsyltetøy lett Squeezy,"
+  },
+  {
    "id": "ean:7039010019590",
    "name": "Grandiosa Nybakt",
    "source_url": "https://meny.no/varer//middag/pizzaretter/pizza/grandiosa-pizza-7039010019590"
@@ -9304,6 +9392,11 @@
    "id": "ean:7040518507427",
    "name": "Smoothie Mango&Pasjon",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
+  },
+  {
+   "id": "ean:7040518507779",
+   "source_url": "https://kassal.app (barcode 7040518507779, 2026-11-14)",
+   "name": "Cevita Vinterjuice Plomme&Eple&Druer 1l"
   },
   {
    "id": "ean:7040518515453",
@@ -10721,6 +10814,11 @@
    }
   },
   {
+   "id": "ean:7052930009106",
+   "source_url": "https://kassal.app (barcode 7052930009106, 2026-11-14)",
+   "name": "Kuraas Kebab The Original 350gr Aramso"
+  },
+  {
    "id": "ean:7052930009755",
    "add_eans": [
     "7052930009731"
@@ -10873,6 +10971,11 @@
    "id": "ean:7055330020351",
    "name": "Medisterkaker &Julepølser",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
+  },
+  {
+   "id": "ean:7055330020627",
+   "source_url": "https://kassal.app (barcode 7055330020627, 2026-11-14)",
+   "name": "Meny Pasta Bolognese 1kg"
   },
   {
    "id": "ean:7055330020887",
@@ -11430,6 +11533,11 @@
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
+   "id": "ean:7070841003365",
+   "source_url": "https://kassal.app (barcode 7070841003365, 2026-11-14)",
+   "name": "Lerum Bringebærsyltetøy 800g"
+  },
+  {
    "id": "ean:7070841003433",
    "name": "Lerum Kirsebærsyltetøy u/Sukker",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
@@ -11634,6 +11742,11 @@
     "salt_g": 0.01
    },
    "source_url": "https://meny.no/varer/meieri-egg/plantebasert-drikke/nottedrikk/mylk-blabaer-7071319027388"
+  },
+  {
+   "id": "ean:7071319030197",
+   "source_url": "https://kassal.app (barcode 7071319030197, 2026-11-14)",
+   "name": "Berit Mylk Havre 1l"
   },
   {
    "id": "ean:7071319033914",
@@ -12401,6 +12514,11 @@
    "id": "ean:7090013750859",
    "name": "Lerstang Kylling Lårfilet Paprika Spiseklar",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
+  },
+  {
+   "id": "ean:7090013751214",
+   "source_url": "https://kassal.app (barcode 7090013751214, 2026-11-14)",
+   "name": "Grøstadburger Krydret"
   },
   {
    "id": "ean:7090013751368",
@@ -13280,6 +13398,11 @@
    "source_url": "https://meny.no/varer/ost/gulost/pepperknoll-7090045600320"
   },
   {
+   "id": "ean:7090046151722",
+   "source_url": "https://kassal.app (barcode 7090046151722, 2026-11-14)",
+   "name": "Godtesjuk Fanta Grape"
+  },
+  {
    "id": "ean:7090046316381",
    "nutrients": {
     "sat_fat_g": 0.2
@@ -13651,6 +13774,11 @@
    "id": "ean:7090059840514",
    "name": "Baker nilsen Pepperkakedeig Gl.Fri",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
+  },
+  {
+   "id": "ean:7090061080281",
+   "source_url": "https://kassal.app (barcode 7090061080281, 2026-11-14)",
+   "name": "Odin chocolate Odin Luksussjokolade 45%"
   },
   {
    "id": "ean:7090062530006",
@@ -14229,6 +14357,11 @@
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
+   "id": "ean:7310960044109",
+   "source_url": "https://kassal.app (barcode 7310960044109, 2026-11-14)",
+   "name": "Gorbys Pirog Margherita"
+  },
+  {
    "id": "ean:7310960044222",
    "source_url": "own row data (round Q, same-name check)",
    "name": "Dafgårds Spagetti Bolognese 400 g"
@@ -14540,6 +14673,11 @@
    "id": "ean:7312930000382",
    "source_url": "own row data (round Q, same-name check)",
    "name": "Mandelkake Daim"
+  },
+  {
+   "id": "ean:7312930000634",
+   "source_url": "https://kassal.app (barcode 7312930000634, 2026-11-14)",
+   "name": "Almondy Mandelkake 400g"
   },
   {
    "id": "ean:7312930009279",
@@ -14951,6 +15089,11 @@
    "id": "ean:7340191111431",
    "source_url": "own row data (round Q, same-name check)",
    "name": "Coop Vita Bönor i Tomatsås 390 g"
+  },
+  {
+   "id": "ean:7340191125650",
+   "source_url": "https://kassal.app (barcode 7340191125650, 2026-11-14)",
+   "name": "Coop Edamame Beans"
   },
   {
    "id": "ean:7340191129948",
@@ -15970,6 +16113,11 @@
    "id": "ean:8001020110054",
    "name": "Tortelloni m/Fire Oster",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
+  },
+  {
+   "id": "ean:8001250013859",
+   "source_url": "https://kassal.app (barcode 8001250013859, 2026-11-14)",
+   "name": "De Cecco Gnocchi Glutenfri 500g"
   },
   {
    "id": "ean:8001860257803",
@@ -17075,6 +17223,11 @@
    "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/benjerrys-8711327374171"
   },
   {
+   "id": "ean:8711327374904",
+   "source_url": "https://kassal.app (barcode 8711327374904, 2026-11-14)",
+   "name": "Ben&Jerry's Non Dairy Cookies On Cookie"
+  },
+  {
    "id": "ean:8711327386334",
    "nutrients": {
     "kcal": 240.0,
@@ -17098,6 +17251,11 @@
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
+   "id": "ean:8711327485471",
+   "source_url": "https://kassal.app (barcode 8711327485471, 2026-11-14)",
+   "name": "Ben&Jerry's Cookie Dough Peace Pop"
+  },
+  {
    "id": "ean:8711327569201",
    "name": "Choice Soyais Kroneis Toffee Cone",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
@@ -17106,6 +17264,11 @@
    "id": "ean:8711327610835",
    "source_url": "own row data (round Q, same-name check)",
    "name": "Magnum 225 g"
+  },
+  {
+   "id": "ean:8711327626386",
+   "source_url": "https://kassal.app (barcode 8711327626386, 2026-11-14)",
+   "name": "Ben&jerry's 465ml Non Dairy Cookies On Cookie"
   },
   {
    "id": "ean:8711327626638",
@@ -17788,7 +17951,8 @@
    "id": "matvaretabellen:04.117",
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13): unbranded counter product",
    "add_eans": [
-    "0000023861011"
+    "0000023861011",
+    "0000023861090"
    ]
   },
   {
@@ -17798,6 +17962,7 @@
     "0000023858097",
     "0000023902901",
     "0000023902902",
+    "7033352770683",
     "7090072150133"
    ]
   },
@@ -19253,7 +19418,10 @@
   },
   {
    "id": "norgesgruppen:23642608",
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13): unbranded counter product"
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13): unbranded counter product",
+   "add_eans": [
+    "7090041530058"
+   ]
   },
   {
    "id": "norgesgruppen:23656041",
@@ -22351,9 +22519,78 @@
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
+   "id": "store:3046920001557",
+   "source_url": "https://meny.no/varer//snacks-godteri/konfekt/creation-dessert-3046920001489",
+   "nutrients": {
+    "kcal": 551.0,
+    "protein_g": 4.6,
+    "fat_g": 34.0,
+    "sat_fat_g": 20.0,
+    "carbs_g": 53.0,
+    "sugars_g": 49.0,
+    "fibre_g": null,
+    "salt_g": 0.15
+   },
+   "add_eans": [
+    "3046920001489"
+   ]
+  },
+  {
    "id": "store:4001686536742",
    "name": "Kastanjer Maoam",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
+  },
+  {
+   "id": "store:4251097408026",
+   "source_url": "https://meny.no/varer//snacks-godteri/snacks/beef-jerky/beef-jerky-4251097402918",
+   "nutrients": {
+    "kcal": 283.0,
+    "protein_g": 38.8,
+    "fat_g": 3.0,
+    "sat_fat_g": 0.4,
+    "carbs_g": 25.1,
+    "sugars_g": 24.3,
+    "fibre_g": null,
+    "salt_g": 3.4
+   },
+   "add_eans": [
+    "4251097402918"
+   ]
+  },
+  {
+   "id": "store:5029396738569",
+   "source_url": "https://meny.no/varer//drikke/brus/fentimans-curiosity-5029396322782",
+   "nutrients": {
+    "kcal": 19.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 4.0,
+    "sugars_g": 3.9,
+    "fibre_g": 0.0,
+    "salt_g": 0.01
+   },
+   "add_eans": [
+    "5029396322782",
+    "5029396738569"
+   ]
+  },
+  {
+   "id": "store:5707196263077",
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
+   "nutrients": {
+    "kcal": 133.0,
+    "protein_g": 17.0,
+    "fat_g": 6.0,
+    "sat_fat_g": 2.4,
+    "carbs_g": 2.5,
+    "sugars_g": 0.5,
+    "fibre_g": null,
+    "salt_g": 1.5
+   },
+   "add_eans": [
+    "5707196165890"
+   ]
   },
   {
    "id": "store:6416453028418",
@@ -22376,9 +22613,124 @@
    "source_url": "https://kassal.app/vare/17045-coop-filtermalt-kaffe-bla-250g-7025110040282"
   },
   {
+   "id": "store:7025110193520",
+   "source_url": "https://kassal.app/vare/97192-coop-kjottkaker-720g-7025110101570",
+   "nutrients": {
+    "kcal": 174.0,
+    "protein_g": 12.0,
+    "fat_g": 13.0,
+    "sat_fat_g": 5.6,
+    "carbs_g": 4.7,
+    "sugars_g": 1.1,
+    "fibre_g": 0.0,
+    "salt_g": 1.5
+   },
+   "add_eans": [
+    "7025110101570"
+   ]
+  },
+  {
+   "id": "store:7025441018455",
+   "source_url": "https://kassal.app (barcode 7025441018455, 2026-11-14)",
+   "name": "Askim Gaveeske 2pk"
+  },
+  {
+   "id": "store:7030019544366",
+   "source_url": "https://meny.no/varer//drikke/brus/faxe-kondi-7030019544359",
+   "nutrients": {
+    "kcal": 1.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": null,
+    "salt_g": 0.07
+   },
+   "add_eans": [
+    "7030019544359",
+    "7030019544366"
+   ]
+  },
+  {
+   "id": "store:7030019545639",
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
+   "nutrients": {
+    "kcal": 28.0,
+    "protein_g": 0.5,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "fibre_g": null,
+    "salt_g": 0.02
+   },
+   "add_eans": [
+    "7030019545622"
+   ]
+  },
+  {
+   "id": "store:7033850008509",
+   "source_url": "https://meny.no/varer//drikke/julebrus/rudolf-nissens-7033850007625",
+   "nutrients": {
+    "kcal": 1.2,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.3,
+    "sugars_g": 0.3,
+    "fibre_g": 0.0,
+    "salt_g": 0.0
+   },
+   "add_eans": [
+    "7033850007625",
+    "7033850008509",
+    "7033850009193"
+   ]
+  },
+  {
    "id": "store:7035620064463",
    "name": "Medisterkaker Folkets",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
+  },
+  {
+   "id": "store:7036110212227",
+   "source_url": "https://kassal.app (barcode 7036110212227, 2026-11-14)",
+   "name": "Mills Julesild 3x240g Delikat"
+  },
+  {
+   "id": "store:7037210121815",
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
+   "nutrients": {
+    "kcal": 268.0,
+    "protein_g": 4.8,
+    "fat_g": 9.3,
+    "sat_fat_g": 6.9,
+    "carbs_g": 41.0,
+    "sugars_g": 22.0,
+    "fibre_g": null,
+    "salt_g": 1.0
+   },
+   "add_eans": [
+    "7037210120719"
+   ]
+  },
+  {
+   "id": "store:7037421067797",
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
+   "nutrients": {
+    "kcal": 440.0,
+    "protein_g": 3.8,
+    "fat_g": 22.0,
+    "sat_fat_g": 20.0,
+    "carbs_g": 55.0,
+    "sugars_g": 47.0,
+    "fibre_g": null,
+    "salt_g": 0.1
+   },
+   "add_eans": [
+    "7037421067469"
+   ]
   },
   {
    "id": "store:7038010067341",
@@ -22392,6 +22744,23 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
    "add_eans": [
     "7039770000111"
+   ]
+  },
+  {
+   "id": "store:7041111136557",
+   "source_url": "https://meny.no/varer//snacks-godteri/notter/notteblanding/notti-frutti-7041111135802",
+   "nutrients": {
+    "kcal": 517.0,
+    "protein_g": 12.0,
+    "fat_g": 31.0,
+    "sat_fat_g": 13.0,
+    "carbs_g": 47.0,
+    "sugars_g": 40.0,
+    "fibre_g": 3.2,
+    "salt_g": 0.22
+   },
+   "add_eans": [
+    "7041111135802"
    ]
   },
   {
@@ -22412,6 +22781,40 @@
    "id": "store:7041614026478",
    "name": "Riskrem Meny",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
+  },
+  {
+   "id": "store:7043180114122",
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
+   "nutrients": {
+    "kcal": 162.0,
+    "protein_g": 19.0,
+    "fat_g": 7.4,
+    "sat_fat_g": 2.1,
+    "carbs_g": 3.5,
+    "sugars_g": 1.0,
+    "fibre_g": null,
+    "salt_g": 1.8
+   },
+   "add_eans": [
+    "7043180114023"
+   ]
+  },
+  {
+   "id": "store:7044610876658",
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
+   "nutrients": {
+    "kcal": 2.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.1,
+    "sugars_g": 0.1,
+    "fibre_g": 0.0,
+    "salt_g": 0.06
+   },
+   "add_eans": [
+    "7044610876313"
+   ]
   },
   {
    "id": "store:7044613876273",
@@ -22449,6 +22852,11 @@
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
+   "id": "store:7055330036802",
+   "source_url": "https://kassal.app (barcode 7055330036802, 2026-11-14)",
+   "name": "Juletallerken 490g Fersk&ferdig"
+  },
+  {
    "id": "store:7058040661807",
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
    "add_eans": [
@@ -22457,6 +22865,24 @@
     "7058040449207",
     "7058040615206",
     "7058040705204"
+   ]
+  },
+  {
+   "id": "store:7058040691408",
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekepolser/salami/dansk-salami-7058040444400",
+   "nutrients": {
+    "kcal": 476.0,
+    "protein_g": 16.0,
+    "fat_g": 46.0,
+    "sat_fat_g": 16.0,
+    "carbs_g": 1.0,
+    "sugars_g": 0.0,
+    "fibre_g": null,
+    "salt_g": 4.0
+   },
+   "add_eans": [
+    "7058040444400",
+    "7058040628107"
    ]
   },
   {
@@ -22549,9 +22975,67 @@
    "source_url": "https://meny.no/varer/barneprodukter/barnedessert/fruktmums-jordbaer-7310100708885"
   },
   {
+   "id": "store:7310350131020",
+   "source_url": "https://meny.no/varer//snacks-godteri/godteri/godtblandet-7310350118175",
+   "nutrients": {
+    "kcal": 351.0,
+    "protein_g": 0.5,
+    "fat_g": 0.3,
+    "sat_fat_g": 0.2,
+    "carbs_g": 86.0,
+    "sugars_g": 59.0,
+    "fibre_g": null,
+    "salt_g": 0.16
+   },
+   "add_eans": [
+    "7310350118175"
+   ]
+  },
+  {
    "id": "store:7311070016109",
    "name": "Lussekatter Pagen",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
+  },
+  {
+   "id": "store:7311310045623",
+   "source_url": "https://meny.no/varer//middag/taco/tacokryddermix/taco-spice-mix-7311310031039",
+   "nutrients": {
+    "kcal": 297.0,
+    "protein_g": 10.0,
+    "fat_g": 6.0,
+    "sat_fat_g": 0.7,
+    "carbs_g": 44.0,
+    "sugars_g": 20.0,
+    "fibre_g": 12.0,
+    "salt_g": 15.8
+   },
+   "add_eans": [
+    "7311310031015",
+    "7311310031039"
+   ]
+  },
+  {
+   "id": "store:7340005407156",
+   "source_url": "https://meny.no/varer//snacks-godteri/snacks/ostesnacks/cheez-ballz-7340005403349",
+   "nutrients": {
+    "kcal": 500.0,
+    "protein_g": 9.0,
+    "fat_g": 30.0,
+    "sat_fat_g": 4.6,
+    "carbs_g": 53.0,
+    "sugars_g": 3.3,
+    "fibre_g": null,
+    "salt_g": 0.84
+   },
+   "add_eans": [
+    "7340005403349",
+    "7340005404162"
+   ]
+  },
+  {
+   "id": "store:8003938008522",
+   "source_url": "https://kassal.app (barcode 8003938008522, 2026-11-14)",
+   "name": "Tiramisu 500g Bonta Divina"
   },
   {
    "id": "synnove:https://www.synnove.no/produkt/flotemys/",
@@ -29146,6 +29630,31 @@
    "id": "ean:7037120012173",
    "into": "ean:7037120009296",
    "why": "duplicate (round Q held): Mack Isbjørn Lite is Mack Lite, identical numbers"
+  },
+  {
+   "id": "ean:5765228124758",
+   "into": "ean:5765228126882",
+   "why": "duplicate (round R): Ø is short for Økologisk"
+  },
+  {
+   "id": "ean:4260183213604",
+   "into": "ean:4260183213178",
+   "why": "duplicate (round R): Ø is short for Økologisk"
+  },
+  {
+   "id": "helsam-dk:https://helsam.dk/products/kakaopulver-o-dragon",
+   "into": "ean:3800225476836",
+   "why": "duplicate (round R): Ø is short for Økologisk"
+  },
+  {
+   "id": "ean:7640104953135",
+   "into": "ean:7640104952619",
+   "why": "duplicate (round R): Ø is short for Økologisk"
+  },
+  {
+   "id": "ean:9004617071997",
+   "into": "ean:9004617071485",
+   "why": "duplicate (round R): Ø is short for Økologisk"
   }
  ],
  "drop": [
@@ -29316,6 +29825,10 @@
   {
    "id": "ean:7040518520907",
    "why": "kcal 209 per 100 g is impossible with 10.7 g carbs, 0.5 g protein, 0.3 g fat (about 45 kcal)."
+  },
+  {
+   "id": "ean:7015500002693",
+   "why": "0 kcal with 5 g protein on a bread: the numbers cannot be true (nutrition-data #5)"
   }
  ],
  "add": [
@@ -38159,29 +38672,6 @@
    "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekeskinker/spekeskinke/spekeskinke-i-bit-23046277"
   },
   {
-   "id": "store:7058040444400",
-   "name": "Dansk Salami",
-   "brand": "Grilstad",
-   "category": "other_food",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7058040444400",
-    "7058040628107"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 476.0,
-    "fat_g": 46.0,
-    "sat_fat_g": 16.0,
-    "carbs_g": 1.0,
-    "sugars_g": 0.0,
-    "protein_g": 16.0,
-    "salt_g": 4.0
-   },
-   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekepolser/salami/dansk-salami-7058040444400"
-  },
-  {
    "id": "store:7058040634801",
    "name": "Jubelsalami Lett",
    "brand": "Grilstad",
@@ -40099,30 +40589,6 @@
    "source_url": "https://meny.no/varer//middagstilbehor/marinader-og-bbq-saus/marinade/marinade-allround-7311310029500"
   },
   {
-   "id": "store:7311310031039",
-   "name": "Taco Spice Mix St.Maria",
-   "brand": "Santa Maria",
-   "category": "ready_meals_sauces",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7311310031015",
-    "7311310031039"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 297.0,
-    "fat_g": 6.0,
-    "sat_fat_g": 0.7,
-    "carbs_g": 44.0,
-    "sugars_g": 20.0,
-    "fibre_g": 12.0,
-    "protein_g": 10.0,
-    "salt_g": 15.8
-   },
-   "source_url": "https://meny.no/varer//middag/taco/tacokryddermix/taco-spice-mix-7311310031039"
-  },
-  {
    "id": "store:7311310031329",
    "name": "Taco Spice Mix Hot Cayenne St.Maria",
    "brand": "Santa Maria",
@@ -41626,28 +42092,6 @@
     "salt_g": 0.32
    },
    "source_url": "https://meny.no/varer//snacks-godteri/konfekt/teddy-milk-gift-tag-4000539720345"
-  },
-  {
-   "id": "store:3046920001489",
-   "name": "Creation Dessert Praline",
-   "brand": "Lindt",
-   "category": "snacks_sweets",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "3046920001489"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 551.0,
-    "fat_g": 34.0,
-    "sat_fat_g": 20.0,
-    "carbs_g": 53.0,
-    "sugars_g": 49.0,
-    "protein_g": 4.6,
-    "salt_g": 0.15
-   },
-   "source_url": "https://meny.no/varer//snacks-godteri/konfekt/creation-dessert-3046920001489"
   },
   {
    "id": "store:3046920001557",
@@ -46774,30 +47218,6 @@
    "source_url": "https://meny.no/varer//drikke/brus/fanta-peach-49000033939"
   },
   {
-   "id": "store:5029396322782",
-   "name": "Fentimans Curiosity Cola 0% flaske",
-   "brand": null,
-   "category": "drinks",
-   "unit": "ml",
-   "sizes": [],
-   "eans": [
-    "5029396322782",
-    "5029396738569"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 19.0,
-    "fat_g": 0.0,
-    "sat_fat_g": 0.0,
-    "carbs_g": 4.0,
-    "sugars_g": 3.9,
-    "fibre_g": 0.0,
-    "protein_g": 0.0,
-    "salt_g": 0.01
-   },
-   "source_url": "https://meny.no/varer//drikke/brus/fentimans-curiosity-5029396322782"
-  },
-  {
    "id": "store:5056784900062",
    "name": "Monster Pacific Punch",
    "brand": null,
@@ -47706,29 +48126,6 @@
    "source_url": "https://meny.no/varer//drikke/ol-og-cider/alkoholfritt-ol/santa-clausthaler-7030019527390"
   },
   {
-   "id": "store:7030019544359",
-   "name": "Faxe Kondi Pink Lemonade boks",
-   "brand": null,
-   "category": "drinks",
-   "unit": "ml",
-   "sizes": [],
-   "eans": [
-    "7030019544359",
-    "7030019544366"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 1.0,
-    "fat_g": 0.0,
-    "sat_fat_g": 0.0,
-    "carbs_g": 0.0,
-    "sugars_g": 0.0,
-    "protein_g": 0.0,
-    "salt_g": 0.07
-   },
-   "source_url": "https://meny.no/varer//drikke/brus/faxe-kondi-7030019544359"
-  },
-  {
    "id": "store:7030019544861",
    "name": "Faxe Kondi Pink Lemonade flaske",
    "brand": null,
@@ -47983,31 +48380,6 @@
     "salt_g": 0.0
    },
    "source_url": "https://meny.no/varer//drikke/julebrus/rudolf-nissens-7033850006178"
-  },
-  {
-   "id": "store:7033850007625",
-   "name": "Rudolf & Nissens Julebrus Lett flaske",
-   "brand": null,
-   "category": "drinks",
-   "unit": "ml",
-   "sizes": [],
-   "eans": [
-    "7033850007625",
-    "7033850008509",
-    "7033850009193"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 1.2,
-    "fat_g": 0.0,
-    "sat_fat_g": 0.0,
-    "carbs_g": 0.3,
-    "sugars_g": 0.3,
-    "fibre_g": 0.0,
-    "protein_g": 0.0,
-    "salt_g": 0.0
-   },
-   "source_url": "https://meny.no/varer//drikke/julebrus/rudolf-nissens-7033850007625"
   },
   {
    "id": "store:7033850009162",
@@ -59327,28 +59699,6 @@
    "source_url": "https://meny.no/varer//snacks-godteri/snacks/beef-jerky/beef-jerky-4251097402888"
   },
   {
-   "id": "store:4251097402918",
-   "name": "Beef Jerky Sweet&Hot Jack Link's",
-   "brand": null,
-   "category": "snacks_sweets",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "4251097402918"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 283.0,
-    "fat_g": 3.0,
-    "sat_fat_g": 0.4,
-    "carbs_g": 25.1,
-    "sugars_g": 24.3,
-    "protein_g": 38.8,
-    "salt_g": 3.4
-   },
-   "source_url": "https://meny.no/varer//snacks-godteri/snacks/beef-jerky/beef-jerky-4251097402918"
-  },
-  {
    "id": "store:4251097402970",
    "name": "Beef Jerky Teriyaki Jack Link's",
    "brand": null,
@@ -60369,29 +60719,6 @@
     "salt_g": 0.4
    },
    "source_url": "https://meny.no/varer//snacks-godteri/notter/yoghurtnotter/yoghurtnotter-7041111125988"
-  },
-  {
-   "id": "store:7041111135802",
-   "name": "Nøtti Frutti Yoghurt Dln",
-   "brand": null,
-   "category": "snacks_sweets",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7041111135802"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 517.0,
-    "fat_g": 31.0,
-    "sat_fat_g": 13.0,
-    "carbs_g": 47.0,
-    "sugars_g": 40.0,
-    "fibre_g": 3.2,
-    "protein_g": 12.0,
-    "salt_g": 0.22
-   },
-   "source_url": "https://meny.no/varer//snacks-godteri/notter/notteblanding/notti-frutti-7041111135802"
   },
   {
    "id": "store:7041111135826",
@@ -61749,28 +62076,6 @@
    "source_url": "https://meny.no/varer//snacks-godteri/godteri/godtblandet-7310350106844"
   },
   {
-   "id": "store:7310350118175",
-   "name": "Godt&Blandet Original Malaco",
-   "brand": null,
-   "category": "snacks_sweets",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7310350118175"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 351.0,
-    "fat_g": 0.3,
-    "sat_fat_g": 0.2,
-    "carbs_g": 86.0,
-    "sugars_g": 59.0,
-    "protein_g": 0.5,
-    "salt_g": 0.16
-   },
-   "source_url": "https://meny.no/varer//snacks-godteri/godteri/godtblandet-7310350118175"
-  },
-  {
    "id": "store:7310350119752",
    "name": "Salt Sild Malaco",
    "brand": null,
@@ -61969,29 +62274,6 @@
     "salt_g": 1.8
    },
    "source_url": "https://meny.no/varer//snacks-godteri/snacks/ostesnacks/cheez-cruncherz-7340005403233"
-  },
-  {
-   "id": "store:7340005403349",
-   "name": "Cheez Ballz Olw",
-   "brand": null,
-   "category": "snacks_sweets",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7340005403349",
-    "7340005404162"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 500.0,
-    "fat_g": 30.0,
-    "sat_fat_g": 4.6,
-    "carbs_g": 53.0,
-    "sugars_g": 3.3,
-    "protein_g": 9.0,
-    "salt_g": 0.84
-   },
-   "source_url": "https://meny.no/varer//snacks-godteri/snacks/ostesnacks/cheez-ballz-7340005403349"
   },
   {
    "id": "store:7340005403363",
@@ -66548,28 +66830,6 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
-   "id": "store:7037210120719",
-   "name": "Sandwich Pepperkake Diplom-Is",
-   "brand": null,
-   "category": "snacks_sweets",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7037210120719"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 268.0,
-    "fat_g": 9.3,
-    "sat_fat_g": 6.9,
-    "carbs_g": 41.0,
-    "sugars_g": 22.0,
-    "protein_g": 4.8,
-    "salt_g": 1.0
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
    "id": "store:7037210121945",
    "name": "Gigant Salt Karamell Diplom-Is",
    "brand": "Diplom-Is",
@@ -67029,28 +67289,6 @@
     "sugars_g": 0.1,
     "protein_g": 19.0,
     "salt_g": 1.1
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:7043180114023",
-   "name": "Kylling Lårfilet Spiseklar Tex-Mex Dsh",
-   "brand": null,
-   "category": "meat_fish",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7043180114023"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 162.0,
-    "fat_g": 7.4,
-    "sat_fat_g": 2.1,
-    "carbs_g": 3.5,
-    "sugars_g": 1.0,
-    "protein_g": 19.0,
-    "salt_g": 1.8
    },
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -68726,28 +68964,6 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
-   "id": "store:7037421067469",
-   "name": "Kokosboller Berthas",
-   "brand": null,
-   "category": "snacks_sweets",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7037421067469"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 440.0,
-    "fat_g": 22.0,
-    "sat_fat_g": 20.0,
-    "carbs_g": 55.0,
-    "sugars_g": 47.0,
-    "protein_g": 3.8,
-    "salt_g": 0.1
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
    "id": "store:7037421067797",
    "name": "Kokosboller Berthas",
    "brand": null,
@@ -70367,28 +70583,6 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
-   "id": "store:7030019545622",
-   "name": "Grevens Cider Fiery Mango boks",
-   "brand": null,
-   "category": "drinks",
-   "unit": "ml",
-   "sizes": [],
-   "eans": [
-    "7030019545622"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 28.0,
-    "fat_g": 0.5,
-    "sat_fat_g": 0.0,
-    "carbs_g": 0.5,
-    "sugars_g": 0.5,
-    "protein_g": 0.5,
-    "salt_g": 0.02
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
    "id": "store:7030019545639",
    "name": "Grevens Cider Fiery Mango boks",
    "brand": null,
@@ -70613,29 +70807,6 @@
     "fibre_g": 0.6,
     "protein_g": 0.6,
     "salt_g": 0.1
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:7044610876313",
-   "name": "Farris Frus Bringebær flaske",
-   "brand": null,
-   "category": "drinks",
-   "unit": "ml",
-   "sizes": [],
-   "eans": [
-    "7044610876313"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 2.0,
-    "fat_g": 0.0,
-    "sat_fat_g": 0.0,
-    "carbs_g": 0.1,
-    "sugars_g": 0.1,
-    "fibre_g": 0.0,
-    "protein_g": 0.0,
-    "salt_g": 0.06
    },
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -71758,28 +71929,6 @@
     "sugars_g": 0.2,
     "protein_g": 23.0,
     "salt_g": 0.1
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:5707196165890",
-   "name": "Pulled Pork Langtidskokt Tulip",
-   "brand": null,
-   "category": "meat_fish",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "5707196165890"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 133.0,
-    "fat_g": 6.0,
-    "sat_fat_g": 2.4,
-    "carbs_g": 2.5,
-    "sugars_g": 0.5,
-    "protein_g": 17.0,
-    "salt_g": 1.5
    },
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -75980,29 +76129,6 @@
     "sugars_g": 0.5
    },
    "source_url": "https://kassal.app/vare/22426-coop-kjottkaker-12kg-7025110173072"
-  },
-  {
-   "id": "store:7025110101570",
-   "name": "Coop Kjøttkaker",
-   "brand": "Coop",
-   "category": "other_food",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7025110101570"
-   ],
-   "source": "kassalapp",
-   "nutrients": {
-    "kcal": 174.0,
-    "fat_g": 13.0,
-    "carbs_g": 4.7,
-    "fibre_g": 0.0,
-    "sat_fat_g": 5.6,
-    "protein_g": 12.0,
-    "salt_g": 1.5,
-    "sugars_g": 1.1
-   },
-   "source_url": "https://kassal.app/vare/97192-coop-kjottkaker-720g-7025110101570"
   },
   {
    "id": "store:7025110144980",
@@ -92027,7 +92153,6 @@
   "store:8410076483515": 2,
   "store:8410076410115": 2,
   "store:8410076420947": 2,
-  "store:7311310031039": 2,
   "store:7311312002075": 2,
   "store:7311312008084": 2,
   "store:7311310046606": 2,
@@ -92098,8 +92223,6 @@
   "store:4251097402888": 2,
   "store:7041111155473": 2,
   "store:7310350132874": 2,
-  "store:7310350118175": 2,
-  "store:7340005403349": 2,
   "store:7039317008587": 2,
   "store:0070177077563": 2,
   "store:4000177032749": 2,
@@ -92181,6 +92304,8 @@
   "ean:8076808060654": 2,
   "ean:7004784221241": 2,
   "norgesgruppen:23504082": 2,
-  "norgesgruppen:23753283": 2
+  "norgesgruppen:23753283": 2,
+  "store:7311310045623": 2,
+  "store:7340005407156": 2
  }
 }
