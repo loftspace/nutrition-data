@@ -398,9 +398,20 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "ean:2060205100002",
+   "add_eans": [
+    "0000023602051"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:2060229400003",
    "add_eans": [
-    "0000023602294"
+    "0000023602281",
+    "0000023602294",
+    "0000023602295",
+    "0000023602296",
+    "0000023602297"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -422,6 +433,13 @@
    "id": "ean:2086730365068",
    "add_eans": [
     "0000020867303"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2181740010530",
+   "add_eans": [
+    "0000020817420"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -679,6 +697,13 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "ean:2360291200007",
+   "add_eans": [
+    "0000023602912"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:2365620600008",
    "add_eans": [
     "0000023656012",
@@ -690,6 +715,13 @@
    "id": "ean:2365624100009",
    "add_eans": [
     "0000023656241"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2365636600009",
+   "add_eans": [
+    "0000023518190"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -1796,6 +1828,13 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "ean:7030660365570",
+   "add_eans": [
+    "7030660365662"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:7030660372073",
    "add_eans": [
     "7030660372080"
@@ -2679,6 +2718,7 @@
    },
    "add_eans": [
     "7039317005579",
+    "7039317008297",
     "7039317008372",
     "7039317008679",
     "7039317008686",
@@ -3297,6 +3337,13 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "ean:7072934000152",
+   "add_eans": [
+    "7072934000404"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:7073313039701",
    "add_eans": [
     "5056784924020"
@@ -3382,6 +3429,13 @@
    }
   },
   {
+   "id": "ean:7090018350597",
+   "add_eans": [
+    "0000023752041"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:7090023904280",
    "add_eans": [
     "0000023860470"
@@ -3412,6 +3466,13 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "ean:7090040560094",
+   "add_eans": [
+    "7090040561398"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:7090040910134",
    "add_eans": [
     "0000023889082"
@@ -3429,6 +3490,13 @@
    "id": "ean:7090040910806",
    "add_eans": [
     "7090040913289"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:7090042143097",
+   "add_eans": [
+    "7090042140102"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -4671,6 +4739,13 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "norgesgruppen:20817440",
+   "add_eans": [
+    "0000020817440"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "norgesgruppen:20830143",
    "add_eans": [
     "0000020830143"
@@ -4716,6 +4791,41 @@
    "id": "norgesgruppen:20833917",
    "add_eans": [
     "0000020833917"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:20857311",
+   "add_eans": [
+    "0000020857311"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:20857322",
+   "add_eans": [
+    "0000020857322"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:20857328",
+   "add_eans": [
+    "0000020857328"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:20857334",
+   "add_eans": [
+    "0000020857334"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:20857335",
+   "add_eans": [
+    "0000020857335"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -4849,7 +4959,8 @@
   {
    "id": "norgesgruppen:23132137",
    "add_eans": [
-    "0000023132137"
+    "0000023132137",
+    "0000023132143"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -4871,6 +4982,13 @@
    "id": "norgesgruppen:23288144",
    "add_eans": [
     "0000023288144"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23420082",
+   "add_eans": [
+    "0000023420082"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -4913,6 +5031,13 @@
    "id": "norgesgruppen:23518140",
    "add_eans": [
     "0000023518140"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23518180",
+   "add_eans": [
+    "0000023518180"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -4994,6 +5119,27 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "norgesgruppen:23534060",
+   "add_eans": [
+    "0000023534060"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23534091",
+   "add_eans": [
+    "0000023534091"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23534092",
+   "add_eans": [
+    "0000023534092"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "norgesgruppen:23536006",
    "add_eans": [
     "0000023536006"
@@ -5026,6 +5172,48 @@
    "add_eans": [
     "0000023551409",
     "0000023551410"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23555805",
+   "add_eans": [
+    "0000023555805"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23561701",
+   "add_eans": [
+    "0000023561701"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23561707",
+   "add_eans": [
+    "0000023561707"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23561715",
+   "add_eans": [
+    "0000023561715"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23561721",
+   "add_eans": [
+    "0000023561721"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23561733",
+   "add_eans": [
+    "0000023561733"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -5086,9 +5274,86 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "norgesgruppen:23602011",
+   "add_eans": [
+    "0000023602011"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602016",
+   "add_eans": [
+    "0000023602016"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "norgesgruppen:23602023",
    "add_eans": [
     "0000023602023"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602031",
+   "add_eans": [
+    "0000023602031"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602207",
+   "add_eans": [
+    "0000023602207"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602222",
+   "add_eans": [
+    "0000023602222"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602224",
+   "add_eans": [
+    "0000023602224"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602301",
+   "add_eans": [
+    "0000023602302"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602330",
+   "add_eans": [
+    "0000023602330"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602347",
+   "add_eans": [
+    "0000023602419"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602350",
+   "add_eans": [
+    "0000023602350"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602363",
+   "add_eans": [
+    "0000023602363"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -5100,9 +5365,88 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "norgesgruppen:23602399",
+   "add_eans": [
+    "0000023602399"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602402",
+   "add_eans": [
+    "0000023602402"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602404",
+   "add_eans": [
+    "0000023602404"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602471",
+   "add_eans": [
+    "0000023602471"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602475",
+   "add_eans": [
+    "0000023602475"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602476",
+   "add_eans": [
+    "0000023602476"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602477",
+   "add_eans": [
+    "0000023602477"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "norgesgruppen:23602478",
    "add_eans": [
     "0000023602478"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602493",
+   "add_eans": [
+    "0000023602493"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602648",
+   "add_eans": [
+    "0000023602648"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602653",
+   "add_eans": [
+    "0000023602497",
+    "0000023602616",
+    "0000023602653"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602664",
+   "add_eans": [
+    "0000023602664"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -5111,6 +5455,27 @@
    "add_eans": [
     "0000023602680",
     "0000023602961"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602682",
+   "add_eans": [
+    "0000023602682"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602683",
+   "add_eans": [
+    "0000023602683"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602691",
+   "add_eans": [
+    "0000023602691"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -5126,6 +5491,41 @@
    "add_eans": [
     "0000023602774",
     "0000023602784"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602904",
+   "add_eans": [
+    "0000023602904"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602910",
+   "add_eans": [
+    "0000023602910"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602918",
+   "add_eans": [
+    "0000023602918"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602936",
+   "add_eans": [
+    "0000023602936"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602948",
+   "add_eans": [
+    "0000023602948"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -6147,9 +6547,51 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "norgesgruppen:23752006",
+   "add_eans": [
+    "0000023752006"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "norgesgruppen:23752007",
    "add_eans": [
     "0000023752007"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23752014",
+   "add_eans": [
+    "0000023752082"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23752053",
+   "add_eans": [
+    "0000023752053"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23752079",
+   "add_eans": [
+    "0000023752079"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23752080",
+   "add_eans": [
+    "0000023752080"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23752089",
+   "add_eans": [
+    "0000023752089"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -6247,6 +6689,20 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "norgesgruppen:23802240",
+   "add_eans": [
+    "0000023802240"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23802241",
+   "add_eans": [
+    "0000023802241"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "norgesgruppen:23806088",
    "add_eans": [
     "0000023806088"
@@ -6279,6 +6735,14 @@
    "id": "norgesgruppen:23811953",
    "add_eans": [
     "0000023811953"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23811975",
+   "add_eans": [
+    "0000023811975",
+    "0000023811977"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -6349,6 +6813,27 @@
     "0000023824681",
     "0000023824684",
     "0000023824687"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23827101",
+   "add_eans": [
+    "0000023827101"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23827109",
+   "add_eans": [
+    "0000023827109"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23830483",
+   "add_eans": [
+    "0000023830483"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -6665,6 +7150,20 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "norgesgruppen:23876711",
+   "add_eans": [
+    "0000023876711"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23876713",
+   "add_eans": [
+    "0000023876713"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "norgesgruppen:23877057",
    "add_eans": [
     "0000023877057"
@@ -6711,6 +7210,27 @@
    "id": "norgesgruppen:23889412",
    "add_eans": [
     "0000023889412"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23891507",
+   "add_eans": [
+    "0000023891507"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23891515",
+   "add_eans": [
+    "0000023891515"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23891526",
+   "add_eans": [
+    "0000023891526"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -7123,6 +7643,13 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "norgesgruppen:23907104",
+   "add_eans": [
+    "0000023907104"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "norgesgruppen:23911602",
    "add_eans": [
     "0000023911602",
@@ -7275,6 +7802,13 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "store:0000023013423",
+   "add_eans": [
+    "0000023013439"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "store:0000023021406",
    "add_eans": [
     "0000023021406",
@@ -7285,6 +7819,7 @@
   {
    "id": "store:0000023026871",
    "add_eans": [
+    "0000023021482",
     "0000023027196",
     "0000023027252"
    ],
@@ -7301,6 +7836,13 @@
    "id": "store:0000023504001",
    "add_eans": [
     "0000023877048"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "store:0000023656742",
+   "add_eans": [
+    "0000023656764"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -7333,10 +7875,24 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "store:6415600598217",
+   "add_eans": [
+    "6415600598224"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "store:6416453028418",
    "add_eans": [
     "6416453028210",
     "6416453028562"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "store:7033050330059",
+   "add_eans": [
+    "7033050830047"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -7356,9 +7912,45 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "store:7044610871110",
+   "add_eans": [
+    "7044610871226"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "store:7044610874500",
+   "add_eans": [
+    "7044611874509"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "store:7044610874517",
+   "add_eans": [
+    "7044611874516"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "store:7044610877167",
+   "add_eans": [
+    "7044611877166"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "store:7044610877365",
    "add_eans": [
     "7044611877364"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "store:7044613876273",
+   "add_eans": [
+    "7044610877952",
+    "7044610877969"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -7396,6 +7988,13 @@
    "add_eans": [
     "7039317005531",
     "7300400383004"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "store:7310070003430",
+   "add_eans": [
+    "7310070004208"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -7459,6 +8058,7 @@
   {
    "id": "synnove:https://www.synnove.no/produkt/lett-gulost-40-prosent-mindre-fett/",
    "add_eans": [
+    "0000023826673",
     "0000023826676"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
@@ -46445,6 +47045,3534 @@
     "salt_g": 0.27
    },
    "source_url": "https://meny.no/varer//snacks-godteri/godteri/party-mix-8723400871194"
+  },
+  {
+   "id": "store:0000023896946",
+   "name": "Syltet Rødløk",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023896946"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 240.0,
+    "fat_g": 0.3,
+    "sat_fat_g": 0.0,
+    "carbs_g": 55.0,
+    "sugars_g": 43.0,
+    "protein_g": 2.5,
+    "salt_g": 2.0
+   },
+   "source_url": "https://spar.no/varer//bakeartikler-og-kjeks/baking/ovrig-baking/syltet-rodlok-23896946"
+  },
+  {
+   "id": "store:7035456605526",
+   "name": "Bakeblanding Av Bygg Halvgrov Foccacia",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7035456605526"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 332.0,
+    "fat_g": 1.6,
+    "sat_fat_g": 0.2,
+    "carbs_g": 63.8,
+    "sugars_g": 0.5,
+    "fibre_g": 14.4,
+    "protein_g": 11.8,
+    "salt_g": 1.8
+   },
+   "source_url": "https://spar.no/varer//bakeartikler-og-kjeks/mel-og-gryn/mel/bakeblanding-7035456605526"
+  },
+  {
+   "id": "store:7052660108209",
+   "name": "Egg Glaze Spray fra Frittg.Høns",
+   "brand": null,
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7052660108209"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 70.0,
+    "fat_g": 5.0,
+    "sat_fat_g": 1.5,
+    "carbs_g": 0.2,
+    "sugars_g": 0.2,
+    "fibre_g": 0.0,
+    "protein_g": 6.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://spar.no/varer//bakeartikler-og-kjeks/baking/kakepynt/egg-glaze-spray-7052660108209"
+  },
+  {
+   "id": "store:7071864016776",
+   "name": "Cookies Milk Choco Aunt Mabels",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7071864016776"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 419.0,
+    "fat_g": 15.0,
+    "sat_fat_g": 5.9,
+    "carbs_g": 65.3,
+    "sugars_g": 37.2,
+    "fibre_g": 1.4,
+    "protein_g": 4.5,
+    "salt_g": 1.1
+   },
+   "source_url": "https://spar.no/varer//bakeartikler-og-kjeks/kjeks/cookies/cookies-milk-choco-7071864016776"
+  },
+  {
+   "id": "store:7090042235341",
+   "name": "Zefir Baltika",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7090042235341"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 370.0,
+    "fat_g": 5.3,
+    "sat_fat_g": 5.1,
+    "carbs_g": 79.0,
+    "sugars_g": 72.7,
+    "protein_g": 1.1,
+    "salt_g": 0.2
+   },
+   "source_url": "https://spar.no/varer//bakeartikler-og-kjeks/kjeks/sotkjeks/zefir-7090042235341"
+  },
+  {
+   "id": "store:4771138191187",
+   "name": "Brød Palangos",
+   "brand": null,
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "4771138191187"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 250.0,
+    "fat_g": 1.01,
+    "sat_fat_g": 0.14,
+    "carbs_g": 52.14,
+    "sugars_g": 1.93,
+    "fibre_g": 4.07,
+    "protein_g": 6.04,
+    "salt_g": 0.81
+   },
+   "source_url": "https://spar.no/varer//brod-og-bakervarer/brod/brod-4771138191187"
+  },
+  {
+   "id": "store:7035020002539",
+   "name": "Mors Grovbrød",
+   "brand": null,
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7035020002539"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 259.0,
+    "fat_g": 4.5,
+    "sat_fat_g": 0.6,
+    "carbs_g": 42.0,
+    "sugars_g": 2.1,
+    "fibre_g": 6.2,
+    "protein_g": 9.6,
+    "salt_g": 0.99
+   },
+   "source_url": "https://spar.no/varer//brod-og-bakervarer/brod/mors-grovbrod-7035020002539"
+  },
+  {
+   "id": "store:7037421062808",
+   "name": "Brownies m/Sjokoladebiter Berthas",
+   "brand": null,
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7037421062808"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 474.0,
+    "fat_g": 27.0,
+    "sat_fat_g": 14.0,
+    "carbs_g": 53.0,
+    "sugars_g": 36.0,
+    "protein_g": 3.8,
+    "salt_g": 0.84
+   },
+   "source_url": "https://spar.no/varer//brod-og-bakervarer/kaker/brownie/brownies-7037421062808"
+  },
+  {
+   "id": "store:7041614020124",
+   "name": "Proffe Burgerbrød Små",
+   "brand": null,
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7041614020124"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 277.0,
+    "fat_g": 3.8,
+    "sat_fat_g": 0.5,
+    "carbs_g": 50.9,
+    "sugars_g": 4.0,
+    "fibre_g": 2.7,
+    "protein_g": 8.7,
+    "salt_g": 0.69
+   },
+   "source_url": "https://spar.no/varer//brod-og-bakervarer/hamburgerbrod/proffe-burgerbrod-7041614020124"
+  },
+  {
+   "id": "store:7041614023934",
+   "name": "Flødeboller m/Juleskum",
+   "brand": null,
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7041614023934"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 392.0,
+    "fat_g": 13.1,
+    "sat_fat_g": 12.5,
+    "carbs_g": 63.4,
+    "sugars_g": 52.9,
+    "fibre_g": 2.8,
+    "protein_g": 3.3,
+    "salt_g": 0.05
+   },
+   "source_url": "https://spar.no/varer//brod-og-bakervarer/kaker/ovrige-kaker/flodeboller-7041614023934"
+  },
+  {
+   "id": "store:7047860002518",
+   "name": "Klikavring Hamstad Bakeri",
+   "brand": null,
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7047860002518"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 260.0,
+    "fat_g": 5.0,
+    "sat_fat_g": 2.1,
+    "carbs_g": 42.0,
+    "sugars_g": 10.5,
+    "protein_g": 9.5,
+    "salt_g": 0.5
+   },
+   "source_url": "https://spar.no/varer//brod-og-bakervarer/tort-brod/kavring/klikavring-7047860002518"
+  },
+  {
+   "id": "store:7054260010333",
+   "name": "Smultringer 10 stykk",
+   "brand": null,
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7054260010333"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 280.0,
+    "fat_g": 6.9,
+    "sat_fat_g": 1.9,
+    "carbs_g": 47.0,
+    "sugars_g": 24.0,
+    "protein_g": 7.1,
+    "salt_g": 0.27
+   },
+   "source_url": "https://spar.no/varer//brod-og-bakervarer/boller-og-smakaker/donuts/smultringer-10-stykk-7054260010333"
+  },
+  {
+   "id": "store:7054260012757",
+   "name": "Fløtekake Liten",
+   "brand": null,
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7054260012757"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 291.0,
+    "fat_g": 19.0,
+    "sat_fat_g": 12.0,
+    "carbs_g": 25.0,
+    "sugars_g": 19.0,
+    "protein_g": 4.7,
+    "salt_g": 0.46
+   },
+   "source_url": "https://spar.no/varer//brod-og-bakervarer/kaker/flotekake/flotekake-liten-7054260012757"
+  },
+  {
+   "id": "store:7071864022494",
+   "name": "Cookies Choco&Banan Aunt Mabels",
+   "brand": null,
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7071864022494"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 406.0,
+    "fat_g": 14.0,
+    "sat_fat_g": 5.0,
+    "carbs_g": 64.2,
+    "sugars_g": 35.1,
+    "fibre_g": 1.8,
+    "protein_g": 4.3,
+    "salt_g": 1.0
+   },
+   "source_url": "https://spar.no/varer//brod-og-bakervarer/boller-og-smakaker/muffins/cookies-chocobanan-7071864022494"
+  },
+  {
+   "id": "store:7072036007233",
+   "name": "Smiling Bread Smart Choice",
+   "brand": null,
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7072036007233"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 279.0,
+    "fat_g": 1.5,
+    "sat_fat_g": 1.1,
+    "carbs_g": 59.0,
+    "sugars_g": 11.0,
+    "protein_g": 7.4,
+    "salt_g": 0.25
+   },
+   "source_url": "https://spar.no/varer//brod-og-bakervarer/loff/smiling-bread-7072036007233"
+  },
+  {
+   "id": "store:7090018640001",
+   "name": "Solemdalslefser",
+   "brand": null,
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7090018640001"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 419.0,
+    "fat_g": 28.0,
+    "sat_fat_g": 15.0,
+    "carbs_g": 37.0,
+    "sugars_g": 16.0,
+    "protein_g": 4.7,
+    "salt_g": 0.3
+   },
+   "source_url": "https://spar.no/varer//brod-og-bakervarer/lefser/solemdalslefser-7090018640001"
+  },
+  {
+   "id": "store:7090018640025",
+   "name": "Mors Tynnlefse",
+   "brand": null,
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7090018640025"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 440.0,
+    "fat_g": 28.0,
+    "sat_fat_g": 18.0,
+    "carbs_g": 43.0,
+    "sugars_g": 20.0,
+    "protein_g": 4.2,
+    "salt_g": 0.6
+   },
+   "source_url": "https://spar.no/varer//brod-og-bakervarer/lefser/mors-tynnlefse-7090018640025"
+  },
+  {
+   "id": "store:7090023170012",
+   "name": "Sunnfjordlefse Håjen",
+   "brand": null,
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7090023170012"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 758.0,
+    "fat_g": 50.0,
+    "sat_fat_g": 31.0,
+    "carbs_g": 68.0,
+    "sugars_g": 27.0,
+    "protein_g": 9.0,
+    "salt_g": 1.0
+   },
+   "source_url": "https://spar.no/varer//brod-og-bakervarer/lefser/sunnfjordlefse-7090023170012"
+  },
+  {
+   "id": "store:7090023170067",
+   "name": "Natronkake Håjen",
+   "brand": null,
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7090023170067"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 283.0,
+    "fat_g": 7.0,
+    "sat_fat_g": 3.3,
+    "carbs_g": 45.0,
+    "sugars_g": 6.2,
+    "protein_g": 8.3,
+    "salt_g": 0.2
+   },
+   "source_url": "https://spar.no/varer//brod-og-bakervarer/kaker/ovrige-kaker/natronkake-7090023170067"
+  },
+  {
+   "id": "store:0016229000554",
+   "name": "Longan i Sirup Aroy-D",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0016229000554"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 80.0,
+    "fat_g": 0.9,
+    "sat_fat_g": 0.0,
+    "carbs_g": 18.0,
+    "sugars_g": 18.0,
+    "protein_g": 0.0,
+    "salt_g": 0.09
+   },
+   "source_url": "https://spar.no/varer//dessert/hermetisk-frukt-og-baer/ovrig-hermetisk-frukt-og-baer/longan-i-sirup-16229000554"
+  },
+  {
+   "id": "store:7090060500216",
+   "name": "Brunostis",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7090060500216"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 151.0,
+    "fat_g": 6.0,
+    "sat_fat_g": 4.0,
+    "carbs_g": 21.0,
+    "sugars_g": 21.0,
+    "protein_g": 3.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//dessert/is/dessertis/brunostis-7090060500216"
+  },
+  {
+   "id": "store:8006922025956",
+   "name": "Iskrem Caramello Salato G7",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "8006922025956"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 255.0,
+    "fat_g": 10.0,
+    "sat_fat_g": 7.7,
+    "carbs_g": 38.0,
+    "sugars_g": 30.0,
+    "protein_g": 2.8,
+    "salt_g": 0.55
+   },
+   "source_url": "https://spar.no/varer//dessert/is/smais/iskrem-caramello-8006922025956"
+  },
+  {
+   "id": "store:4000177032749",
+   "name": "Capri-Sun Orange 200mlx10stk",
+   "brand": null,
+   "category": "drinks",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "4000177032749"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 39.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 7.0,
+    "sugars_g": 7.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//drikke/leskedrikk/capri-sun-4000177032749"
+  },
+  {
+   "id": "store:5029396738569",
+   "name": "Fentimans Curiosity Cola 0% flaske",
+   "brand": null,
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "5029396738569"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 19.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 4.0,
+    "sugars_g": 3.9,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.01
+   },
+   "source_url": "https://spar.no/varer//drikke/brus/fentimans-curiosity-5029396738569"
+  },
+  {
+   "id": "store:5060072970026",
+   "name": "Vanilla Chai Latte Drink Me Chai",
+   "brand": null,
+   "category": "drinks",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5060072970026"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 454.0,
+    "fat_g": 15.3,
+    "sat_fat_g": 13.7,
+    "carbs_g": 70.2,
+    "sugars_g": 64.3,
+    "fibre_g": 1.1,
+    "protein_g": 8.4,
+    "salt_g": 0.93
+   },
+   "source_url": "https://spar.no/varer//drikke/te/vanilla-chai-latte-5060072970026"
+  },
+  {
+   "id": "store:5410228292784",
+   "name": "Corona Cero 0,33lx6 flaske",
+   "brand": null,
+   "category": "drinks",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5410228292784"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 17.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 3.9,
+    "sugars_g": 0.7,
+    "protein_g": 0.4,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//drikke/ol-og-cider/alkoholfritt-ol/corona-cero-5410228292784"
+  },
+  {
+   "id": "store:5900956100593",
+   "name": "Bringebærsaft Herbapol",
+   "brand": null,
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "5900956100593"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 330.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 83.0,
+    "sugars_g": 80.0,
+    "protein_g": 0.0,
+    "salt_g": 0.5
+   },
+   "source_url": "https://spar.no/varer//drikke/saft/bringebaersaft-5900956100593"
+  },
+  {
+   "id": "store:0070177077563",
+   "name": "Earl Grey Tea 25pos Twinings",
+   "brand": null,
+   "category": "drinks",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0070177077563",
+    "0070177176914"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 1.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//drikke/te/earl-grey-tea-70177077563"
+  },
+  {
+   "id": "store:0070177087807",
+   "name": "Lady Grey Te Twinings",
+   "brand": null,
+   "category": "drinks",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0070177087807"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 1.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//drikke/te/lady-grey-te-70177087807"
+  },
+  {
+   "id": "store:7030019544366",
+   "name": "Faxe Kondi Pink Lemonade boks",
+   "brand": null,
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7030019544366"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 1.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.07
+   },
+   "source_url": "https://spar.no/varer//drikke/brus/faxe-kondi-7030019544366"
+  },
+  {
+   "id": "store:7030019545202",
+   "name": "Grevens Julecider u/Sukker Bringebær 0,5lx6 boks",
+   "brand": null,
+   "category": "drinks",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7030019545202"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 28.0,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "fibre_g": 0.5,
+    "protein_g": 0.5,
+    "salt_g": 0.06
+   },
+   "source_url": "https://spar.no/varer//drikke/ol-og-cider/cider/grevens-julecider-7030019545202"
+  },
+  {
+   "id": "store:7033050830160",
+   "name": "Uten Lite boks",
+   "brand": null,
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7033050830160"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 17.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 3.5,
+    "sugars_g": 1.8,
+    "fibre_g": 0.0,
+    "protein_g": 0.3,
+    "salt_g": 0.01
+   },
+   "source_url": "https://spar.no/varer//drikke/ol-og-cider/alkoholfritt-ol/uten-lite-7033050830160"
+  },
+  {
+   "id": "store:7033850007656",
+   "name": "Rudolf&Nissens Julebrus",
+   "brand": null,
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7033850006208",
+    "7033850007656",
+    "7033850008394"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 45.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 11.2,
+    "sugars_g": 11.2,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//drikke/julebrus/rudolfnissens-7033850007656"
+  },
+  {
+   "id": "store:7033850008509",
+   "name": "Rudolf & Nissens Julebrus Lett flaske",
+   "brand": null,
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7033850008509",
+    "7033850009193"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 1.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.3,
+    "sugars_g": 0.3,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//drikke/julebrus/rudolf-nissens-7033850008509"
+  },
+  {
+   "id": "store:7035260006670",
+   "name": "Type Blanda flaske Brænne",
+   "brand": null,
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7035260006670"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 47.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 11.6,
+    "sugars_g": 11.6,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//drikke/saft/type-blanda-7035260006670"
+  },
+  {
+   "id": "store:7072712013954",
+   "name": "No Worries Pilsner 0,33lx6 boks",
+   "brand": null,
+   "category": "drinks",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7072712013954"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 24.8,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 5.5,
+    "sugars_g": 5.3,
+    "protein_g": 0.3,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//drikke/ol-og-cider/alkoholfritt-ol/no-worries-pilsner-7072712013954"
+  },
+  {
+   "id": "store:7072934000558",
+   "name": "Sider Paradis Alkoholfri Øko Skarbø",
+   "brand": null,
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7072934000558",
+    "7072934000565"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 42.0,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.0,
+    "carbs_g": 10.2,
+    "sugars_g": 10.2,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//drikke/ol-og-cider/alkoholfri-cider/sider-paradis-7072934000558"
+  },
+  {
+   "id": "store:7072934000572",
+   "name": "Paradis Rosésider Alkoholfri Øko Skarbø",
+   "brand": null,
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7072934000572",
+    "7072934000589"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 42.0,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.0,
+    "carbs_g": 10.2,
+    "sugars_g": 10.2,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//drikke/ol-og-cider/alkoholfri-cider/paradis-rosesider-7072934000572"
+  },
+  {
+   "id": "store:7090046153986",
+   "name": "Mountain Dew Voltage boks",
+   "brand": null,
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7090046153986"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 52.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 13.0,
+    "sugars_g": 13.0,
+    "protein_g": 0.0,
+    "salt_g": 0.04
+   },
+   "source_url": "https://spar.no/varer//drikke/energidrikke/mountain-dew-voltage-7090046153986"
+  },
+  {
+   "id": "store:7090052960646",
+   "name": "Eplekyss Raud Aroma Økologisk",
+   "brand": null,
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7090052960646"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 42.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 10.2,
+    "sugars_g": 10.2,
+    "fibre_g": 0.3,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//drikke/juice/eplekyss-7090052960646"
+  },
+  {
+   "id": "store:8712857984649",
+   "name": "Lemon Slice boks Fruit.B X Tropical",
+   "brand": null,
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "8712857984649"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 51.0,
+    "fat_g": 0.01,
+    "sat_fat_g": 0.0,
+    "carbs_g": 12.53,
+    "sugars_g": 11.7,
+    "protein_g": 0.14,
+    "salt_g": 0.01
+   },
+   "source_url": "https://spar.no/varer//drikke/brus/lemon-slice-8712857984649"
+  },
+  {
+   "id": "store:8712857984663",
+   "name": "Pineapple Slice boks Fruit.B X Tropical",
+   "brand": null,
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "8712857984663"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 51.0,
+    "fat_g": 0.01,
+    "sat_fat_g": 0.0,
+    "carbs_g": 12.79,
+    "sugars_g": 12.08,
+    "protein_g": 0.05,
+    "salt_g": 0.01
+   },
+   "source_url": "https://spar.no/varer//drikke/brus/pineapple-slice-8712857984663"
+  },
+  {
+   "id": "store:7053290011013",
+   "name": "Gaveeske 1",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7053290011013"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 327.0,
+    "fat_g": 22.0,
+    "sat_fat_g": 13.9,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 29.0,
+    "salt_g": 4.9
+   },
+   "source_url": "https://spar.no/varer//hus-og-hjem/sesong-og-fest/matgave/gaveeske-7053290011013"
+  },
+  {
+   "id": "store:0000023016201",
+   "name": "Wienerpølse Gilde",
+   "brand": "Nortura",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023016201"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 227.0,
+    "fat_g": 18.0,
+    "sat_fat_g": 6.7,
+    "carbs_g": 5.2,
+    "sugars_g": 0.6,
+    "protein_g": 10.0,
+    "salt_g": 1.7
+   },
+   "source_url": "https://spar.no/varer//kjott/polser/wienerpolser/wienerpolse-23016201"
+  },
+  {
+   "id": "store:0000023896922",
+   "name": "Hvit Bacalao Gange Rolv Heimelaga",
+   "brand": null,
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023896922"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 157.0,
+    "fat_g": 9.0,
+    "sat_fat_g": 4.1,
+    "carbs_g": 9.2,
+    "sugars_g": 1.6,
+    "protein_g": 9.0,
+    "salt_g": 2.5
+   },
+   "source_url": "https://spar.no/varer//middag/fiskeretter/bacalao/hvit-bacalao-23896922"
+  },
+  {
+   "id": "store:0000023896923",
+   "name": "Lapskaus Saltkjøtt Gange Rolv",
+   "brand": null,
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023896923"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 59.0,
+    "fat_g": 0.8,
+    "sat_fat_g": 0.2,
+    "carbs_g": 6.4,
+    "sugars_g": 1.4,
+    "protein_g": 6.3,
+    "salt_g": 1.6
+   },
+   "source_url": "https://spar.no/varer//middag/ferdigretter/gryterett-ferdig/lapskaus-saltkjott-23896923"
+  },
+  {
+   "id": "store:0000023896926",
+   "name": "Rød Bacalao Gange Rolv Heimelaga",
+   "brand": null,
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023896926"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 151.0,
+    "fat_g": 6.2,
+    "sat_fat_g": 1.5,
+    "carbs_g": 7.2,
+    "sugars_g": 3.7,
+    "protein_g": 15.9,
+    "salt_g": 4.1
+   },
+   "source_url": "https://spar.no/varer//middag/fiskeretter/bacalao/rod-bacalao-23896926"
+  },
+  {
+   "id": "store:0000023896942",
+   "name": "Potetball Gange Rolv Heimelaga",
+   "brand": null,
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023896942"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 147.0,
+    "fat_g": 1.1,
+    "sat_fat_g": 0.3,
+    "carbs_g": 29.5,
+    "sugars_g": 1.5,
+    "protein_g": 4.7,
+    "salt_g": 1.7
+   },
+   "source_url": "https://spar.no/varer//middag/ferdigretter/ferdigmaltid/potetball-23896942"
+  },
+  {
+   "id": "store:0000023896945",
+   "name": "Stekt Ris m/Kylling Gange Rolv",
+   "brand": null,
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023896945"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 132.0,
+    "fat_g": 1.2,
+    "sat_fat_g": 0.3,
+    "carbs_g": 21.8,
+    "sugars_g": 1.5,
+    "protein_g": 7.9,
+    "salt_g": 0.3
+   },
+   "source_url": "https://spar.no/varer//middag/ferdigretter/ferdigmaltid/stekt-ris-23896945"
+  },
+  {
+   "id": "store:3113010125827",
+   "name": "Andeconfit Larnaudie",
+   "brand": null,
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "3113010125827"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 260.0,
+    "fat_g": 18.0,
+    "sat_fat_g": 5.8,
+    "carbs_g": 0.4,
+    "sugars_g": 0.4,
+    "fibre_g": 0.0,
+    "protein_g": 26.0,
+    "salt_g": 1.2
+   },
+   "source_url": "https://spar.no/varer//middag/middagshermetikk/andeconfit-3113010125827"
+  },
+  {
+   "id": "store:5900783010683",
+   "name": "Suppe Bønner i Tomatsaus Pudliszki",
+   "brand": null,
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5900783010683"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 68.0,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.1,
+    "carbs_g": 9.6,
+    "sugars_g": 2.8,
+    "fibre_g": 4.8,
+    "protein_g": 3.7,
+    "salt_g": 1.0
+   },
+   "source_url": "https://spar.no/varer//middag/supper/ovrige-supper/suppe-5900783010683"
+  },
+  {
+   "id": "store:7044710030066",
+   "name": "Poteter Kokte",
+   "brand": null,
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7044710030066"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 80.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 18.0,
+    "sugars_g": 0.5,
+    "protein_g": 1.8,
+    "salt_g": 0.5
+   },
+   "source_url": "https://spar.no/varer//middag/potetretter/kokt-potet/poteter-kokte-7044710030066"
+  },
+  {
+   "id": "store:7044713200367",
+   "name": "Pommes Zig-Zag",
+   "brand": null,
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7044713200367"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 217.0,
+    "fat_g": 7.9,
+    "sat_fat_g": 0.7,
+    "carbs_g": 32.9,
+    "sugars_g": 0.1,
+    "protein_g": 2.8,
+    "salt_g": 0.1
+   },
+   "source_url": "https://spar.no/varer//middag/potetretter/pommes-frites/pommes-zig-zag-7044713200367"
+  },
+  {
+   "id": "store:7090016036646",
+   "name": "Grøtris Hvit Økologisk Manna",
+   "brand": null,
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7090016036646"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 354.0,
+    "fat_g": 0.4,
+    "sat_fat_g": 0.0,
+    "carbs_g": 80.0,
+    "sugars_g": 0.0,
+    "fibre_g": 1.0,
+    "protein_g": 6.7,
+    "salt_g": 0.01
+   },
+   "source_url": "https://spar.no/varer//middag/grot/risgrot/grotris-hvit-7090016036646"
+  },
+  {
+   "id": "store:7090042235433",
+   "name": "Vareniki m/Quark",
+   "brand": null,
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7090042235433"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 162.0,
+    "fat_g": 0.7,
+    "sat_fat_g": 0.1,
+    "carbs_g": 29.0,
+    "sugars_g": 6.1,
+    "protein_g": 9.8,
+    "salt_g": 0.58
+   },
+   "source_url": "https://spar.no/varer//middag/ferdigretter/ferdigmaltid/vareniki-m-quark-7090042235433"
+  },
+  {
+   "id": "store:7090042235648",
+   "name": "Pelmeni m/Svin Baltika",
+   "brand": null,
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7090042235648"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 201.0,
+    "fat_g": 6.5,
+    "sat_fat_g": 0.9,
+    "carbs_g": 26.0,
+    "sugars_g": 3.0,
+    "protein_g": 10.0,
+    "salt_g": 0.67
+   },
+   "source_url": "https://spar.no/varer//middag/ferdigretter/dumpling/pelmeni-m-svin-7090042235648"
+  },
+  {
+   "id": "store:0016229001711",
+   "name": "Kokosnøtt Melk Aroy-D",
+   "brand": null,
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "0016229001711"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 185.0,
+    "fat_g": 19.0,
+    "sat_fat_g": 17.0,
+    "carbs_g": 2.0,
+    "sugars_g": 2.0,
+    "protein_g": 1.6,
+    "salt_g": 0.05
+   },
+   "source_url": "https://spar.no/varer//middagstilbehor/kokosmelk/kokosnott-melk-16229001711"
+  },
+  {
+   "id": "store:0016229906207",
+   "name": "Red Curry Paste Aroy-D",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0016229906207"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 103.0,
+    "fat_g": 3.43,
+    "sat_fat_g": 0.42,
+    "carbs_g": 14.0,
+    "sugars_g": 4.19,
+    "fibre_g": 9.85,
+    "protein_g": 3.92,
+    "salt_g": 4.6
+   },
+   "source_url": "https://spar.no/varer//middagstilbehor/sauser/asiatiske-sauser/currysaus/red-curry-paste-16229906207"
+  },
+  {
+   "id": "store:0016229906474",
+   "name": "Panang Curry Paste Aroy-D",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0016229906474"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 203.0,
+    "fat_g": 9.79,
+    "sat_fat_g": 2.25,
+    "carbs_g": 25.8,
+    "sugars_g": 20.0,
+    "fibre_g": 5.8,
+    "protein_g": 2.94,
+    "salt_g": 7.56
+   },
+   "source_url": "https://spar.no/varer//middagstilbehor/sauser/asiatiske-sauser/currysaus/panang-curry-paste-16229906474"
+  },
+  {
+   "id": "store:4013200105549",
+   "name": "Grønn Chilli i Lake Liakada",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "4013200105549"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 22.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 4.6,
+    "sugars_g": 0.0,
+    "protein_g": 0.7,
+    "salt_g": 4.1
+   },
+   "source_url": "https://spar.no/varer//middagstilbehor/hermetisk-gront/hermetisk-chili/gronn-chilli-4013200105549"
+  },
+  {
+   "id": "store:4030011090307",
+   "name": "Surkål i Bøtte Kimchi Euro-Asia",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "4030011090307"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 22.0,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.0,
+    "carbs_g": 4.4,
+    "sugars_g": 1.9,
+    "protein_g": 0.9,
+    "salt_g": 1.9
+   },
+   "source_url": "https://spar.no/varer//middagstilbehor/hermetisk-gront/surkal/surkal-i-botte-4030011090307"
+  },
+  {
+   "id": "store:4804888804028",
+   "name": "Marinating Mix Mama Sita's",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "4804888804028"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 344.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 85.0,
+    "sugars_g": 80.0,
+    "protein_g": 0.5,
+    "salt_g": 14.2
+   },
+   "source_url": "https://spar.no/varer//middagstilbehor/marinader-og-bbq-saus/marinade/marinating-mix-4804888804028"
+  },
+  {
+   "id": "store:7037610230339",
+   "name": "Kyllingbuljong Saltredusert Toro",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7037610230339"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 2.0,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.2,
+    "sugars_g": 0.1,
+    "fibre_g": 0.0,
+    "protein_g": 0.2,
+    "salt_g": 0.25
+   },
+   "source_url": "https://spar.no/varer//middagstilbehor/kraft-og-buljong/buljong/kyllingbuljong-7037610230339"
+  },
+  {
+   "id": "store:7052860000822",
+   "name": "Ketchup Bergbys",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7052860000822"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 70.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 17.7,
+    "sugars_g": 11.0,
+    "fibre_g": 0.0,
+    "protein_g": 1.1,
+    "salt_g": 1.5
+   },
+   "source_url": "https://spar.no/varer//middagstilbehor/ketchup-og-sennep/ketchup/ketchup-7052860000822"
+  },
+  {
+   "id": "store:7090046153993",
+   "name": "Mountain Dew Baja Cabo Citrus boks",
+   "brand": null,
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7090046153993"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 50.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 12.0,
+    "sugars_g": 12.0,
+    "protein_g": 0.0,
+    "salt_g": 0.04
+   },
+   "source_url": "https://spar.no/varer//middagstilbehor/krydder/ovrig-krydder/mountain-dew-7090046153993"
+  },
+  {
+   "id": "store:7090046940548",
+   "name": "Honning&Chiliglaze Gange Rolv Heimelaga",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7090046940548"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 335.0,
+    "fat_g": 0.22,
+    "sat_fat_g": 0.05,
+    "carbs_g": 79.31,
+    "sugars_g": 78.91,
+    "protein_g": 1.16,
+    "salt_g": 0.02
+   },
+   "source_url": "https://spar.no/varer//middagstilbehor/sauser/ovrig-saus/honningchiliglaze-7090046940548"
+  },
+  {
+   "id": "store:8850030112011",
+   "name": "Satay Seasoning Mix Lobo",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8850030112011"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 401.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 2.0,
+    "carbs_g": 63.5,
+    "sugars_g": 57.2,
+    "protein_g": 8.6,
+    "salt_g": 9.1
+   },
+   "source_url": "https://spar.no/varer//middagstilbehor/krydder/ovrig-krydder/satay-seasoning-mix-8850030112011"
+  },
+  {
+   "id": "store:3228020481471",
+   "name": "Camembert Kuvert President",
+   "brand": null,
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "3228020481471"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 256.0,
+    "fat_g": 20.0,
+    "sat_fat_g": 14.0,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "fibre_g": 0.0,
+    "protein_g": 19.0,
+    "salt_g": 1.3
+   },
+   "source_url": "https://spar.no/varer//ost/hvitmuggost/camembert-kuvert-3228020481471"
+  },
+  {
+   "id": "store:5056114210731",
+   "name": "Cheddar Engelsk Bit Singletons",
+   "brand": null,
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5056114210731"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 427.0,
+    "fat_g": 37.0,
+    "sat_fat_g": 25.0,
+    "carbs_g": 1.0,
+    "sugars_g": 0.5,
+    "protein_g": 23.0,
+    "salt_g": 1.4
+   },
+   "source_url": "https://spar.no/varer//ost/gulost/cheddar-engelsk-5056114210731"
+  },
+  {
+   "id": "store:0000020864001",
+   "name": "Bjørnstadsylta",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000020864001"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 251.0,
+    "fat_g": 14.5,
+    "sat_fat_g": 0.3,
+    "carbs_g": 1.2,
+    "sugars_g": 0.0,
+    "protein_g": 25.0,
+    "salt_g": 3.0
+   },
+   "source_url": "https://spar.no/varer//palegg-og-frokost/kjottpalegg/sylte/bjornstadsylta-20864001"
+  },
+  {
+   "id": "store:0000023586425",
+   "name": "Bacon m/Svor i Bit",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023586425"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 382.0,
+    "fat_g": 36.4,
+    "sat_fat_g": 15.2,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 13.6,
+    "salt_g": 1.6
+   },
+   "source_url": "https://spar.no/varer//palegg-og-frokost/bacon/bacon-m-svor-23586425"
+  },
+  {
+   "id": "store:0000023602271",
+   "name": "Fenalår hel m/Ben",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023602271"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 253.0,
+    "fat_g": 16.3,
+    "sat_fat_g": 7.3,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 26.9,
+    "salt_g": 8.7
+   },
+   "source_url": "https://spar.no/varer//palegg-og-frokost/spekemat/fenalar/fenalar-hel-23602271"
+  },
+  {
+   "id": "store:0000023602272",
+   "name": "Fenalår Av Lam m/Ben Helt",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023602272"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 253.0,
+    "fat_g": 16.3,
+    "sat_fat_g": 7.3,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 26.9,
+    "salt_g": 8.7
+   },
+   "source_url": "https://spar.no/varer//palegg-og-frokost/spekemat/fenalar/fenalar-av-lam-23602272"
+  },
+  {
+   "id": "store:0000023775807",
+   "name": "Mørpinner Brudevoll",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023775807"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 405.0,
+    "fat_g": 33.9,
+    "sat_fat_g": 4.5,
+    "carbs_g": 1.7,
+    "sugars_g": 1.0,
+    "protein_g": 24.3,
+    "salt_g": 3.7
+   },
+   "source_url": "https://spar.no/varer//palegg-og-frokost/spekemat/spekepolser/morrpolse/morpinner-23775807"
+  },
+  {
+   "id": "store:0000023812603",
+   "name": "Kryddersildfilet Gjendemsjø Fisk",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023812603"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 224.0,
+    "fat_g": 10.6,
+    "sat_fat_g": 2.0,
+    "carbs_g": 24.5,
+    "sugars_g": 22.0,
+    "protein_g": 7.6,
+    "salt_g": 3.7
+   },
+   "source_url": "https://spar.no/varer//palegg-og-frokost/fiskepalegg/sild-ansjos/kryddersildfilet-23812603"
+  },
+  {
+   "id": "store:0000023896939",
+   "name": "Kryddersmør",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023896939"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 582.0,
+    "fat_g": 63.5,
+    "sat_fat_g": 28.1,
+    "carbs_g": 1.5,
+    "sugars_g": 0.6,
+    "protein_g": 1.0,
+    "salt_g": 1.2
+   },
+   "source_url": "https://spar.no/varer//palegg-og-frokost/smor-margarin-og-matfett/kryddersmor/kryddersmor-23896939"
+  },
+  {
+   "id": "store:0000023896950",
+   "name": "Kokt Skinke Ekte Gange Rolv",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023896950"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 185.0,
+    "fat_g": 13.5,
+    "sat_fat_g": 4.6,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 15.7,
+    "salt_g": 4.1
+   },
+   "source_url": "https://spar.no/varer//palegg-og-frokost/kjottpalegg/paleggskinker/kokte-skinker/kokt-skinke-23896950"
+  },
+  {
+   "id": "store:7025050023239",
+   "name": "Skinke Lettrøkt Honningmarinert Finsbråten",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025050023239"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 104.0,
+    "fat_g": 1.6,
+    "sat_fat_g": 0.5,
+    "carbs_g": 1.6,
+    "sugars_g": 0.6,
+    "protein_g": 20.0,
+    "salt_g": 1.8
+   },
+   "source_url": "https://spar.no/varer//palegg-og-frokost/kjottpalegg/paleggskinker/kokte-skinker/skinke-lettrokt-7025050023239"
+  },
+  {
+   "id": "store:7031370006289",
+   "name": "Juleskinke Badsturøkt skivet Hanssens",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7031370006289"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 199.0,
+    "fat_g": 14.3,
+    "sat_fat_g": 4.9,
+    "carbs_g": 0.2,
+    "sugars_g": 0.1,
+    "protein_g": 17.4,
+    "salt_g": 1.9
+   },
+   "source_url": "https://spar.no/varer//palegg-og-frokost/kjottpalegg/ovrig-kjottpalegg/juleskinke-7031370006289"
+  },
+  {
+   "id": "store:7053290005197",
+   "name": "Kryddersalami",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7053290005197"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 378.0,
+    "fat_g": 31.5,
+    "sat_fat_g": 10.8,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 23.2,
+    "salt_g": 3.86
+   },
+   "source_url": "https://spar.no/varer//palegg-og-frokost/spekemat/spekepolser/salami/kryddersalami-7053290005197"
+  },
+  {
+   "id": "store:7053290005500",
+   "name": "Salami Al Pesto",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7053290005500"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 378.0,
+    "fat_g": 31.5,
+    "sat_fat_g": 10.8,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 23.2,
+    "salt_g": 3.86
+   },
+   "source_url": "https://spar.no/varer//palegg-og-frokost/spekemat/spekepolser/salami/salami-al-pesto-7053290005500"
+  },
+  {
+   "id": "store:7090010570047",
+   "name": "Rognebærgele Romstad Gård",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7090010570047"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 178.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 44.6,
+    "sugars_g": 44.6,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//palegg-og-frokost/syltetoy/rognebaergele-7090010570047"
+  },
+  {
+   "id": "store:7090021320044",
+   "name": "Bringebærsyltetøy Valldal Safteri",
+   "brand": null,
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7090021320044"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 172.0,
+    "fat_g": 0.2,
+    "sat_fat_g": 0.0,
+    "carbs_g": 45.0,
+    "sugars_g": 41.3,
+    "protein_g": 0.4,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//palegg-og-frokost/syltetoy/bringebaersyltetoy-7090021320044"
+  },
+  {
+   "id": "store:7090021320204",
+   "name": "Valldalyltetøy Valldal Safteri",
+   "brand": null,
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7090021320204"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 122.0,
+    "fat_g": 0.3,
+    "sat_fat_g": 0.0,
+    "carbs_g": 30.5,
+    "sugars_g": 30.5,
+    "protein_g": 0.5,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//palegg-og-frokost/syltetoy/valldalyltetoy-7090021320204"
+  },
+  {
+   "id": "store:7090042235662",
+   "name": "Sild Baltisk i Olje m/Krydder Baltika",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7090042235662"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 271.0,
+    "fat_g": 23.0,
+    "sat_fat_g": 3.4,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 16.0,
+    "salt_g": 1.4
+   },
+   "source_url": "https://spar.no/varer//palegg-og-frokost/fiskepalegg/sild-ansjos/sild-baltisk-7090042235662"
+  },
+  {
+   "id": "store:0034000114702",
+   "name": "Reese's Pieces Box",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0034000114702"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 467.0,
+    "fat_g": 23.3,
+    "sat_fat_g": 20.0,
+    "carbs_g": 63.3,
+    "sugars_g": 53.3,
+    "protein_g": 10.0,
+    "salt_g": 0.29
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/sjokolade/reeses-34000114702"
+  },
+  {
+   "id": "store:3497917003830",
+   "name": "Potetchips m/Dijon Sennep&Chilli Bret",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "3497917003830"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 527.0,
+    "fat_g": 32.0,
+    "sat_fat_g": 2.7,
+    "carbs_g": 51.0,
+    "sugars_g": 1.4,
+    "fibre_g": 4.8,
+    "protein_g": 6.4,
+    "salt_g": 1.4
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/snacks/chips/potetchips-3497917003830"
+  },
+  {
+   "id": "store:4001686536742",
+   "name": "Kastanjer Maoam",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "4001686536742"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 408.0,
+    "fat_g": 5.1,
+    "sat_fat_g": 2.5,
+    "carbs_g": 90.0,
+    "sugars_g": 70.0,
+    "protein_g": 0.7,
+    "salt_g": 0.05
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/godteri/kastanjer-4001686536742"
+  },
+  {
+   "id": "store:4037400345970",
+   "name": "Party Fred Katjes",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "4037400345970"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 351.0,
+    "fat_g": 0.2,
+    "sat_fat_g": 0.1,
+    "carbs_g": 85.0,
+    "sugars_g": 60.0,
+    "protein_g": 1.4,
+    "salt_g": 0.06
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/godteri/party-fred-4037400345970"
+  },
+  {
+   "id": "store:4037400345987",
+   "name": "Pop Mix Katjes",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "4037400345987"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 346.0,
+    "fat_g": 0.2,
+    "sat_fat_g": 0.1,
+    "carbs_g": 84.0,
+    "sugars_g": 51.0,
+    "protein_g": 0.3,
+    "salt_g": 0.32
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/godteri/pop-mix-4037400345987"
+  },
+  {
+   "id": "store:4037400346069",
+   "name": "Al Paka Cola Katjes",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "4037400346069"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 354.0,
+    "fat_g": 0.2,
+    "sat_fat_g": 0.1,
+    "carbs_g": 86.0,
+    "sugars_g": 59.0,
+    "protein_g": 0.1,
+    "salt_g": 0.02
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/godteri/al-paka-cola-4037400346069"
+  },
+  {
+   "id": "store:4251097420035",
+   "name": "Beef Jerky Original Jack Link's",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "4251097420035"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 275.0,
+    "fat_g": 4.0,
+    "sat_fat_g": 1.8,
+    "carbs_g": 18.8,
+    "sugars_g": 16.5,
+    "protein_g": 41.0,
+    "salt_g": 5.6
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/snacks/beef-jerky/beef-jerky-4251097420035"
+  },
+  {
+   "id": "store:4262393724727",
+   "name": "Sweet Flash Sour Duo Squeeze",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "4262393724727"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 459.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 112.0,
+    "sugars_g": 68.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/godteri/sweet-flash-4262393724727"
+  },
+  {
+   "id": "store:4750127300748",
+   "name": "Potetchips m/Rømme og Dill Smak",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "4750127300748"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 534.0,
+    "fat_g": 29.0,
+    "sat_fat_g": 3.0,
+    "carbs_g": 61.0,
+    "sugars_g": 1.3,
+    "protein_g": 7.3,
+    "salt_g": 1.5
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/snacks/chips/potetchips-4750127300748"
+  },
+  {
+   "id": "store:4820026701264",
+   "name": "Halva Zolotoi Vek",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "4820026701264"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 566.0,
+    "fat_g": 38.8,
+    "sat_fat_g": 3.6,
+    "carbs_g": 40.6,
+    "sugars_g": 34.0,
+    "protein_g": 13.5,
+    "salt_g": 0.16
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/snacks/chips/halva-4820026701264"
+  },
+  {
+   "id": "store:5099872018157",
+   "name": "Choco Truffles Salte",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5099872018157"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 510.0,
+    "fat_g": 30.0,
+    "sat_fat_g": 19.0,
+    "carbs_g": 53.0,
+    "sugars_g": 46.0,
+    "fibre_g": 1.5,
+    "protein_g": 4.1,
+    "salt_g": 0.59
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/konfekt/choco-truffles-salte-5099872018157"
+  },
+  {
+   "id": "store:5099872018232",
+   "name": "Baileys Chocolate Truffles Strawberries & Cream",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5099872018232"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 509.0,
+    "fat_g": 30.0,
+    "sat_fat_g": 18.0,
+    "carbs_g": 53.0,
+    "sugars_g": 46.0,
+    "fibre_g": 1.3,
+    "protein_g": 4.3,
+    "salt_g": 0.13
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/konfekt/baileys-chocolate-5099872018232"
+  },
+  {
+   "id": "store:5099872018621",
+   "name": "Baileys Chocolate Truffles Birthday Cake",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5099872018621"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 522.0,
+    "fat_g": 32.8,
+    "sat_fat_g": 19.8,
+    "carbs_g": 49.0,
+    "sugars_g": 47.0,
+    "fibre_g": 0.04,
+    "protein_g": 4.72,
+    "salt_g": 0.17
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/konfekt/baileys-chocolate-5099872018621"
+  },
+  {
+   "id": "store:5099872018997",
+   "name": "Baileys Chocolate Opera Box",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5099872018997"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 526.0,
+    "fat_g": 33.0,
+    "sat_fat_g": 20.0,
+    "carbs_g": 50.0,
+    "sugars_g": 46.0,
+    "fibre_g": 2.1,
+    "protein_g": 4.6,
+    "salt_g": 0.23
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/konfekt/baileys-chocolate-5099872018997"
+  },
+  {
+   "id": "store:5900102029594",
+   "name": "Konfekter Mieszanka Mango Wawel",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5900102029594"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 351.0,
+    "fat_g": 7.9,
+    "sat_fat_g": 4.8,
+    "carbs_g": 68.0,
+    "sugars_g": 55.0,
+    "protein_g": 1.2,
+    "salt_g": 0.03
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/konfekt/konfekter-5900102029594"
+  },
+  {
+   "id": "store:5904310231527",
+   "name": "Spiner Candy Johny Bee®",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5904310231527"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 356.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 89.0,
+    "sugars_g": 83.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/godteri/spiner-candy-5904310231527"
+  },
+  {
+   "id": "store:5904917030493",
+   "name": "Bananas Spray",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "5904917030493"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 135.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 33.0,
+    "sugars_g": 33.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/godteri/bananas-spray-5904917030493"
+  },
+  {
+   "id": "store:5904917031629",
+   "name": "Candy Lip Johny Bee",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5904917031629"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 402.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 98.6,
+    "sugars_g": 71.2,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/godteri/candy-lip-5904917031629"
+  },
+  {
+   "id": "store:5904917032145",
+   "name": "Juicy Worms Johny Bee®",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5904917032145"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 359.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 93.0,
+    "sugars_g": 74.5,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/godteri/juicy-worms-5904917032145"
+  },
+  {
+   "id": "store:5904917032176",
+   "name": "Splash Brush Johny Bee®",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5904917032176"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 272.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 68.0,
+    "sugars_g": 60.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/godteri/splash-brush-5904917032176"
+  },
+  {
+   "id": "store:5904917032299",
+   "name": "Dip Sandwich Johny Bee®",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5904917032299"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 361.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 84.0,
+    "sugars_g": 83.0,
+    "protein_g": 5.0,
+    "salt_g": 0.05
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/godteri/dip-sandwich-5904917032299"
+  },
+  {
+   "id": "store:5904917032633",
+   "name": "Johny Bee Pop Star Dipper",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5904917032633"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 356.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 89.0,
+    "sugars_g": 83.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/godteri/johny-bee-5904917032633"
+  },
+  {
+   "id": "store:5904917033241",
+   "name": "Fruit Spray Johny Bee®",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "5904917033241"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 218.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 52.6,
+    "sugars_g": 46.7,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/godteri/fruit-spray-5904917033241"
+  },
+  {
+   "id": "store:6939495510470",
+   "name": "Candy Spray Fire Blaster Johny Bee®",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "6939495510470"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 180.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 45.0,
+    "sugars_g": 15.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/godteri/candy-spray-6939495510470"
+  },
+  {
+   "id": "store:6970738800408",
+   "name": "Syrin Gel Mada Sweet",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "6970738800408"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 256.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 64.0,
+    "sugars_g": 40.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/godteri/syrin-gel-6970738800408"
+  },
+  {
+   "id": "store:7039317008587",
+   "name": "Kims Potetgull Paprika Kick",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7039317008587"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 520.0,
+    "fat_g": 31.0,
+    "sat_fat_g": 2.8,
+    "carbs_g": 54.0,
+    "sugars_g": 2.1,
+    "fibre_g": 4.2,
+    "protein_g": 5.0,
+    "salt_g": 1.4
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/snacks/chips/kims-potetgull-7039317008587"
+  },
+  {
+   "id": "store:7090059341431",
+   "name": "Krazy Krønsj Fru Nelik",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7090059341431"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 514.0,
+    "fat_g": 27.0,
+    "sat_fat_g": 16.0,
+    "carbs_g": 62.0,
+    "sugars_g": 51.0,
+    "protein_g": 5.7,
+    "salt_g": 1.5
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/sjokolade/krazy-kronsj-7090059341431"
+  },
+  {
+   "id": "store:0071570020507",
+   "name": "Edit Bean Boozled pose Jelly Belly",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0071570020507"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 364.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 91.0,
+    "sugars_g": 66.0,
+    "protein_g": 0.0,
+    "salt_g": 0.14
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/godteri/edit-bean-boozled-71570020507"
+  },
+  {
+   "id": "store:0071720539446",
+   "name": "Junior Mints Theather Box",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0071720539446"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 423.0,
+    "fat_g": 7.7,
+    "sat_fat_g": 5.8,
+    "carbs_g": 88.5,
+    "sugars_g": 80.8,
+    "protein_g": 1.9,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/sjokolade/junior-mints-71720539446"
+  },
+  {
+   "id": "store:0079200558338",
+   "name": "Rainbow Video Box Nerds",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0079200558338"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 385.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 92.31,
+    "sugars_g": 92.31,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/godteri/rainbow-video-box-79200558338"
+  },
+  {
+   "id": "store:0079200616007",
+   "name": "Grape & Strawberry Video Box Nerds",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0079200616007"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 385.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 92.31,
+    "sugars_g": 92.31,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/godteri/grape-strawberry-79200616007"
+  },
+  {
+   "id": "store:0000080696018",
+   "name": "Suprise Egg Hello Kitty",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000080696018"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 550.0,
+    "fat_g": 32.3,
+    "sat_fat_g": 19.4,
+    "carbs_g": 58.0,
+    "sugars_g": 57.5,
+    "protein_g": 5.7,
+    "salt_g": 0.2
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/godteri/suprise-egg-80696018"
+  },
+  {
+   "id": "store:9002859099311",
+   "name": "Mozartkuler Maitre Truffout",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "9002859099311"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 485.0,
+    "fat_g": 23.0,
+    "sat_fat_g": 8.2,
+    "carbs_g": 61.0,
+    "sugars_g": 59.0,
+    "fibre_g": 4.5,
+    "protein_g": 6.2,
+    "salt_g": 0.03
+   },
+   "source_url": "https://spar.no/varer//snacks-og-godteri/godteri/mozartkuler-9002859099311"
+  },
+  {
+   "id": "store:4820205872358",
+   "name": "Ekler Plombir Kyiv Bkk",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "4820205872358"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 362.0,
+    "fat_g": 21.1,
+    "sat_fat_g": 4.4,
+    "carbs_g": 34.3,
+    "sugars_g": 21.1,
+    "protein_g": 8.7,
+    "salt_g": 0.25
+   },
+   "source_url": "https://spar.no/varer//bakerivarer/boller-og-smakaker/donuts/ekler-4820205872358"
+  },
+  {
+   "id": "store:4820205873546",
+   "name": "Ekler Franske Kyiv Bkk",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "4820205873546"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 256.0,
+    "fat_g": 10.0,
+    "sat_fat_g": 2.7,
+    "carbs_g": 35.1,
+    "sugars_g": 19.1,
+    "protein_g": 6.4,
+    "salt_g": 0.18
+   },
+   "source_url": "https://spar.no/varer//bakerivarer/boller-og-smakaker/donuts/ekler-franske-4820205873546"
+  },
+  {
+   "id": "store:8414139006130",
+   "name": "Mini Tostas Svart Trøffel",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8414139006130"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 378.0,
+    "fat_g": 8.9,
+    "sat_fat_g": 1.2,
+    "carbs_g": 63.1,
+    "sugars_g": 4.9,
+    "fibre_g": 3.9,
+    "protein_g": 9.3,
+    "salt_g": 2.75
+   },
+   "source_url": "https://spar.no/varer//bakerivarer/knekkebrod/mini-tostas-8414139006130"
+  },
+  {
+   "id": "store:4770175046092",
+   "name": "Iskrem Dessert m/Vaniljesmak",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "4770175046092"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 365.0,
+    "fat_g": 23.4,
+    "sat_fat_g": 15.5,
+    "carbs_g": 25.7,
+    "sugars_g": 25.3,
+    "protein_g": 12.8,
+    "salt_g": 0.05
+   },
+   "source_url": "https://spar.no/varer//dessert/is/smais/iskrem-dessert-4770175046092"
+  },
+  {
+   "id": "store:5710926310132",
+   "name": "Iced Espresso Cream Caramel",
+   "brand": null,
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "5710926310132"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 51.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 12.7,
+    "sugars_g": 12.7,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//drikkevarer/iskaffe/iced-espresso-5710926310132"
+  },
+  {
+   "id": "store:5901356072473",
+   "name": "Vaffel Rull m/Salt Karamell Tago",
+   "brand": null,
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5901356072473"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 518.0,
+    "fat_g": 26.0,
+    "sat_fat_g": 10.0,
+    "carbs_g": 66.0,
+    "sugars_g": 46.0,
+    "protein_g": 3.6,
+    "salt_g": 0.58
+   },
+   "source_url": "https://spar.no/varer//kaker-bakevarer/kjeks/sotkjeks/vaffel-rull-5901356072473"
+  },
+  {
+   "id": "store:8008685002953",
+   "name": "Cantucci Mandler",
+   "brand": null,
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8008685002953"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 450.0,
+    "fat_g": 16.0,
+    "sat_fat_g": 1.6,
+    "carbs_g": 66.0,
+    "sugars_g": 33.0,
+    "protein_g": 9.9,
+    "salt_g": 0.3
+   },
+   "source_url": "https://spar.no/varer//kaker-bakevarer/kjeks/sotkjeks/cantucci-8008685002953"
+  },
+  {
+   "id": "store:5900344018110",
+   "name": "Sild i Fløtesaus Lisner",
+   "brand": null,
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5900344018110"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 296.0,
+    "fat_g": 26.7,
+    "sat_fat_g": 4.5,
+    "carbs_g": 7.8,
+    "sugars_g": 6.5,
+    "protein_g": 6.0,
+    "salt_g": 1.4
+   },
+   "source_url": "https://spar.no/varer//middag/fiskeretter/hermetisk-fisk-og-sjomat/ovrig-hermetisk-sjomat/sild-i-flotesaus-5900344018110"
+  },
+  {
+   "id": "store:7090042235365",
+   "name": "Pelmeni m/Kalkun Baltika",
+   "brand": null,
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7090042235365"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 226.0,
+    "fat_g": 7.4,
+    "sat_fat_g": 2.5,
+    "carbs_g": 28.0,
+    "sugars_g": 2.6,
+    "fibre_g": 2.2,
+    "protein_g": 11.0,
+    "salt_g": 0.65
+   },
+   "source_url": "https://spar.no/varer//middag/ferdigretter/dumpling/pelmeni-m-kalkun-7090042235365"
+  },
+  {
+   "id": "store:7090042235754",
+   "name": "Pelemeni Litauisk Koldunia Baltika",
+   "brand": null,
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7090042235754"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 259.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 3.8,
+    "carbs_g": 29.0,
+    "sugars_g": 2.5,
+    "fibre_g": 2.5,
+    "protein_g": 8.0,
+    "salt_g": 1.12
+   },
+   "source_url": "https://spar.no/varer//middag/ferdigretter/ferdigmaltid/pelemeni-litauisk-7090042235754"
+  },
+  {
+   "id": "store:7090069260135",
+   "name": "Set Eld Chili Saus Veldig Sterk",
+   "brand": null,
+   "category": "ready_meals_sauces",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7090069260135"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 85.0,
+    "fat_g": 5.3,
+    "sat_fat_g": 0.0,
+    "carbs_g": 7.8,
+    "sugars_g": 0.0,
+    "fibre_g": 1.9,
+    "protein_g": 1.9,
+    "salt_g": 1.3
+   },
+   "source_url": "https://spar.no/varer//middag/middag-kit/gryterett-kit/set-eld-chili-saus-7090069260135"
+  },
+  {
+   "id": "store:5410425300015",
+   "name": "Sjokoladetrøfler m/Melkesjokolade",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5410425300015"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 569.0,
+    "fat_g": 38.0,
+    "sat_fat_g": 28.0,
+    "carbs_g": 50.0,
+    "sugars_g": 49.0,
+    "protein_g": 6.9,
+    "salt_g": 0.2
+   },
+   "source_url": "https://spar.no/varer//middagstilbehor/matoljer/ovrig-matolje/sjokoladetrofler-5410425300015"
+  },
+  {
+   "id": "store:7043570005078",
+   "name": "Topping Corny Street Food",
+   "brand": null,
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7043570005078"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 511.0,
+    "fat_g": 54.0,
+    "sat_fat_g": 4.43,
+    "carbs_g": 6.8,
+    "sugars_g": 2.3,
+    "fibre_g": 0.6,
+    "protein_g": 2.0,
+    "salt_g": 0.69
+   },
+   "source_url": "https://spar.no/varer//middagstilbehor/dressinger/ovrig-dressing/topping-corny-7043570005078"
+  },
+  {
+   "id": "store:7056950041399",
+   "name": "Bearnaise Dressing Slåtto",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7056950041399"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 479.0,
+    "fat_g": 52.6,
+    "sat_fat_g": 4.1,
+    "carbs_g": 0.4,
+    "sugars_g": 0.2,
+    "protein_g": 1.1,
+    "salt_g": 0.83
+   },
+   "source_url": "https://spar.no/varer//middagstilbehor/dressinger/ovrig-dressing/bearnaise-dressing-7056950041399"
+  },
+  {
+   "id": "store:7311310046569",
+   "name": "Red Curry Paste St.Maria",
+   "brand": null,
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311310046569"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 102.0,
+    "fat_g": 1.4,
+    "sat_fat_g": 0.3,
+    "carbs_g": 20.0,
+    "sugars_g": 7.1,
+    "protein_g": 2.7,
+    "salt_g": 8.5
+   },
+   "source_url": "https://spar.no/varer//middagstilbehor/sauser/asiatiske-sauser/currysaus/red-curry-paste-7311310046569"
+  },
+  {
+   "id": "store:0000023863012",
+   "name": "Høvding Sverre Xo Orkladal Ysteri",
+   "brand": null,
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023863012"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 422.0,
+    "fat_g": 39.2,
+    "sat_fat_g": 25.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 27.0,
+    "salt_g": 2.3
+   },
+   "source_url": "https://spar.no/varer//ost/kittmodnede-oster/kittmodnet-ost/hovding-sverre-23863012"
+  },
+  {
+   "id": "store:0010700021526",
+   "name": "Milk Duds Big Box",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0010700021526"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 436.0,
+    "fat_g": 15.0,
+    "sat_fat_g": 9.0,
+    "carbs_g": 69.0,
+    "sugars_g": 51.0,
+    "protein_g": 6.0,
+    "salt_g": 0.64
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/sjokolade/milk-duds-10700021526"
+  },
+  {
+   "id": "store:3481291032838",
+   "name": "Cocoa Collection Classic",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "3481291032838"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 600.0,
+    "fat_g": 45.7,
+    "sat_fat_g": 39.1,
+    "carbs_g": 40.8,
+    "sugars_g": 39.0,
+    "protein_g": 4.2,
+    "salt_g": 0.1
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/sjokolade/cocoa-collection-3481291032838"
+  },
+  {
+   "id": "store:4770350023887",
+   "name": "Brødchips Mørk m/Trippel Ost",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "4770350023887"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 518.0,
+    "fat_g": 31.0,
+    "sat_fat_g": 2.0,
+    "carbs_g": 50.0,
+    "sugars_g": 11.0,
+    "fibre_g": 8.3,
+    "protein_g": 6.8,
+    "salt_g": 1.8
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/snacks/chips/brodchips-4770350023887"
+  },
+  {
+   "id": "store:5410425300039",
+   "name": "Sjokoladetrøfler med Mørk Sjokoladeflak",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5410425300039"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 565.0,
+    "fat_g": 40.0,
+    "sat_fat_g": 30.0,
+    "carbs_g": 45.0,
+    "sugars_g": 42.0,
+    "protein_g": 4.6,
+    "salt_g": 0.01
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/konfekt/sjokoladetrofler-5410425300039"
+  },
+  {
+   "id": "store:5413777460048",
+   "name": "Mørk Sjok&Havsalt m/Stevia Perlege",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5413777460048"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 470.0,
+    "fat_g": 36.4,
+    "sat_fat_g": 21.7,
+    "carbs_g": 14.8,
+    "sugars_g": 2.0,
+    "fibre_g": 36.5,
+    "protein_g": 6.0,
+    "salt_g": 0.41
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/sjokolade/mork-sjokhavsalt-5413777460048"
+  },
+  {
+   "id": "store:5413777464299",
+   "name": "Sjokolade Mørk m/Stevia Perlege",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5413777464299"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 472.0,
+    "fat_g": 36.5,
+    "sat_fat_g": 21.8,
+    "carbs_g": 14.9,
+    "sugars_g": 2.0,
+    "fibre_g": 36.6,
+    "protein_g": 6.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/sjokolade/sjokolade-mork-5413777464299"
+  },
+  {
+   "id": "store:5413777464305",
+   "name": "Sjokolade Mørk Appelsin Perlege",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5413777464305"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 469.0,
+    "fat_g": 35.7,
+    "sat_fat_g": 21.3,
+    "carbs_g": 16.3,
+    "sugars_g": 3.3,
+    "fibre_g": 36.0,
+    "protein_g": 6.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/sjokolade/sjokolade-mork-5413777464305"
+  },
+  {
+   "id": "store:5413777464312",
+   "name": "Sjokolade Mørk Blåb. m/Stevia Perlege",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5413777464312"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 469.0,
+    "fat_g": 33.9,
+    "sat_fat_g": 19.8,
+    "carbs_g": 22.1,
+    "sugars_g": 5.1,
+    "fibre_g": 33.0,
+    "protein_g": 6.1,
+    "salt_g": 0.05
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/sjokolade/sjokolade-mork-5413777464312"
+  },
+  {
+   "id": "store:5413777464350",
+   "name": "Melkesjokolade Hasselnøtter Perlege",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5413777464350"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 507.0,
+    "fat_g": 38.9,
+    "sat_fat_g": 21.8,
+    "carbs_g": 20.9,
+    "sugars_g": 10.2,
+    "fibre_g": 27.3,
+    "protein_g": 7.7,
+    "salt_g": 0.63
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/sjokolade/melkesjokolade-5413777464350"
+  },
+  {
+   "id": "store:5705706011569",
+   "name": "Lakridsfudge i pose",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5705706011569"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 425.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 5.5,
+    "carbs_g": 81.0,
+    "sugars_g": 65.0,
+    "protein_g": 0.8,
+    "salt_g": 0.72
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/godteri/lakridsfudge-i-pose-5705706011569"
+  },
+  {
+   "id": "store:5705706020264",
+   "name": "Sure Kirsebær i pose",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5705706020264"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 313.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 72.0,
+    "sugars_g": 57.0,
+    "protein_g": 6.2,
+    "salt_g": 0.05
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/godteri/sure-kirsebaer-i-pose-5705706020264"
+  },
+  {
+   "id": "store:5705706022114",
+   "name": "Choco Cream Mix i pose",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5705706022114"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 427.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 7.7,
+    "carbs_g": 76.0,
+    "sugars_g": 64.0,
+    "protein_g": 2.7,
+    "salt_g": 0.13
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/godteri/choco-cream-5705706022114"
+  },
+  {
+   "id": "store:5705706023012",
+   "name": "Ananas Vingummi i pose",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5705706023012"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 313.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 72.0,
+    "sugars_g": 57.0,
+    "protein_g": 6.2,
+    "salt_g": 0.05
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/tyggegummi/ananas-vingummi-5705706023012"
+  },
+  {
+   "id": "store:5904917031568",
+   "name": "Super Long Necklaces Johny Bee®",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5904917031568"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 362.0,
+    "fat_g": 1.0,
+    "sat_fat_g": 0.2,
+    "carbs_g": 90.5,
+    "sugars_g": 73.2,
+    "protein_g": 0.3,
+    "salt_g": 0.01
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/godteri/super-long-necklaces-5904917031568"
+  },
+  {
+   "id": "store:6931722310655",
+   "name": "Whistle Car Pop Johny Bee®",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "6931722310655"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 402.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 98.6,
+    "sugars_g": 71.2,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/godteri/whistle-car-pop-6931722310655"
+  },
+  {
+   "id": "store:7350000750188",
+   "name": "Gresskarfrø m/Tacosmak",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7350000750188"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 545.0,
+    "fat_g": 46.0,
+    "sat_fat_g": 9.8,
+    "carbs_g": 9.2,
+    "sugars_g": 0.0,
+    "fibre_g": 6.0,
+    "protein_g": 34.5,
+    "salt_g": 11.2
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/snacks/chips/gresskarfro-7350000750188"
+  },
+  {
+   "id": "store:7350160521499",
+   "name": "Strawberry & Caramel",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7350160521499"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 404.0,
+    "fat_g": 6.15,
+    "sat_fat_g": 5.8,
+    "carbs_g": 86.5,
+    "sugars_g": 72.0,
+    "protein_g": 0.16,
+    "salt_g": 0.41
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/godteri/strawberry-caramel-7350160521499"
+  },
+  {
+   "id": "store:7393077181653",
+   "name": "Skalle Hallon/Lakrits Bubs",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7393077181653"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 353.0,
+    "fat_g": 0.2,
+    "sat_fat_g": 0.2,
+    "carbs_g": 86.0,
+    "sugars_g": 45.0,
+    "protein_g": 0.0,
+    "salt_g": 0.2
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/godteri/skalle-7393077181653"
+  },
+  {
+   "id": "store:8410576005019",
+   "name": "Fizz Wizz Jordbær",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8410576005019"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 400.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 100.0,
+    "sugars_g": 100.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/godteri/fizz-wizz-8410576005019"
+  },
+  {
+   "id": "store:8414139005010",
+   "name": "Gourmet Chips Iberico Skinke",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8414139005010"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 456.0,
+    "fat_g": 27.1,
+    "sat_fat_g": 3.3,
+    "carbs_g": 42.8,
+    "sugars_g": 2.3,
+    "protein_g": 7.0,
+    "salt_g": 0.89
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/snacks/chips/gourmet-chips-8414139005010"
+  },
+  {
+   "id": "store:8414139006352",
+   "name": "Gourmetchips Iberico Chorizo",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8414139006352"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 544.0,
+    "fat_g": 27.0,
+    "sat_fat_g": 14.5,
+    "carbs_g": 50.0,
+    "sugars_g": 4.0,
+    "protein_g": 6.7,
+    "salt_g": 2.0
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/snacks/chips/gourmetchips-8414139006352"
+  },
+  {
+   "id": "store:8437001799138",
+   "name": "Brain Licker Bitz",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8437001799138"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 380.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 95.0,
+    "sugars_g": 86.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/godteri/brain-licker-8437001799138"
+  },
+  {
+   "id": "store:8717438744377",
+   "name": "Lakris Pellets Menthol Barkleys",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8717438744377"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 344.0,
+    "fat_g": 4.1,
+    "sat_fat_g": 3.93,
+    "carbs_g": 66.5,
+    "sugars_g": 14.5,
+    "protein_g": 7.7,
+    "salt_g": 0.26
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/godteri/lakris-8717438744377"
+  },
+  {
+   "id": "store:8717438744414",
+   "name": "Lakris Pellets Salmiak Barkleys",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8717438744414"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 360.0,
+    "fat_g": 0.06,
+    "sat_fat_g": 0.06,
+    "carbs_g": 89.6,
+    "sugars_g": 87.8,
+    "protein_g": 0.01,
+    "salt_g": 0.03
+   },
+   "source_url": "https://spar.no/varer//snacks-godteri/godteri/lakris-8717438744414"
   }
  ],
  "common": {
