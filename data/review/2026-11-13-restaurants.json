@@ -7796,5 +7796,1246 @@
    "name": "Fiesta Bowl (salat, uten dressing)",
    "why": "chain held for review (no Norwegian data, could not be checked, or no portion weights)"
   }
- ]
+ ],
+ "mcdonalds_must_haves_2026_11_14": {
+  "raw": {
+   "items": [
+    {
+     "name": "Big Arch",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/big-arch.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 1121,
+      "kcal": 269,
+      "protein_g": 15,
+      "fat_g": 17,
+      "sat_fat_g": 6.9,
+      "carbs_g": 13,
+      "sugars_g": 4,
+      "fibre_g": 1,
+      "salt_g": 1
+     },
+     "per_portion": {
+      "kj": 4530,
+      "kcal": 1087,
+      "protein_g": 59,
+      "fat_g": 70,
+      "sat_fat_g": 27.73,
+      "carbs_g": 53,
+      "sugars_g": 15,
+      "fibre_g": 4.18,
+      "salt_g": 4.22
+     }
+    },
+    {
+     "name": "Double Big Tasty Bacon (site name: Dobbel Big Tasty Bacon)",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/dobbel-big-tast-bacon.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 1075,
+      "kcal": 258,
+      "protein_g": 15,
+      "fat_g": 17,
+      "sat_fat_g": 6.7,
+      "carbs_g": 12,
+      "sugars_g": 2.7,
+      "fibre_g": 0.7,
+      "salt_g": 1.3
+     },
+     "per_portion": {
+      "kj": 4312,
+      "kcal": 1034,
+      "protein_g": 60,
+      "fat_g": 66,
+      "sat_fat_g": 27,
+      "carbs_g": 48,
+      "sugars_g": 11,
+      "fibre_g": 3,
+      "salt_g": 5.1
+     }
+    },
+    {
+     "name": "Big Tasty Bacon (site name: Big Tasty Bacon Beef)",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/big-tasty-bacon-beef.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 1028,
+      "kcal": 247,
+      "protein_g": 14,
+      "fat_g": 16,
+      "sat_fat_g": 5.7,
+      "carbs_g": 12,
+      "sugars_g": 3.1,
+      "fibre_g": 1.1,
+      "salt_g": 1
+     },
+     "per_portion": {
+      "kj": 3230,
+      "kcal": 775,
+      "protein_g": 43,
+      "fat_g": 49,
+      "sat_fat_g": 18,
+      "carbs_g": 38,
+      "sugars_g": 9.6,
+      "fibre_g": 3.4,
+      "salt_g": 3.1
+     }
+    },
+    {
+     "name": "Dobbel Quarter Pounder",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/dobbel-quarter-pounder.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 1096.5,
+      "kcal": 262.8,
+      "protein_g": 17.8,
+      "fat_g": 15.5,
+      "sat_fat_g": 7.2,
+      "carbs_g": 12.5,
+      "sugars_g": 3.3,
+      "fibre_g": 1,
+      "salt_g": 1
+     },
+     "per_portion": {
+      "kj": 3329,
+      "kcal": 798,
+      "protein_g": 54,
+      "fat_g": 47,
+      "sat_fat_g": 22,
+      "carbs_g": 38,
+      "sugars_g": 10,
+      "fibre_g": 3,
+      "salt_g": 3
+     }
+    },
+    {
+     "name": "McFeast",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/mcfeast.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 908,
+      "kcal": 217,
+      "protein_g": 12,
+      "fat_g": 12,
+      "sat_fat_g": 4.6,
+      "carbs_g": 15,
+      "sugars_g": 4.3,
+      "fibre_g": 1.4,
+      "salt_g": 0.9
+     },
+     "per_portion": {
+      "kj": 2345,
+      "kcal": 561,
+      "protein_g": 30,
+      "fat_g": 31,
+      "sat_fat_g": 12,
+      "carbs_g": 39,
+      "sugars_g": 11,
+      "fibre_g": 3.5,
+      "salt_g": 2.4
+     }
+    },
+    {
+     "name": "Hamburger Crisp",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/hamburger-crisp.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 899,
+      "kcal": 214,
+      "protein_g": 11,
+      "fat_g": 7,
+      "sat_fat_g": 3,
+      "carbs_g": 24,
+      "sugars_g": 7,
+      "fibre_g": 2,
+      "salt_g": 1
+     },
+     "per_portion": {
+      "kj": 1106,
+      "kcal": 263,
+      "protein_g": 14,
+      "fat_g": 9,
+      "sat_fat_g": 3.69,
+      "carbs_g": 30,
+      "sugars_g": 8,
+      "fibre_g": 2.48,
+      "salt_g": 1.19
+     }
+    },
+    {
+     "name": "Chicken Salsa",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/chicken-salsa.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 1039,
+      "kcal": 248,
+      "protein_g": 9.8,
+      "fat_g": 11,
+      "sat_fat_g": 1.5,
+      "carbs_g": 27,
+      "sugars_g": 5.1,
+      "fibre_g": 1.9,
+      "salt_g": 1.2
+     },
+     "per_portion": {
+      "kj": 1485,
+      "kcal": 354,
+      "protein_g": 14,
+      "fat_g": 15,
+      "sat_fat_g": 2.2,
+      "carbs_g": 38,
+      "sugars_g": 7.3,
+      "fibre_g": 2.7,
+      "salt_g": 1.7
+     }
+    },
+    {
+     "name": "Big Chicken Salsa",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/big-chicken-salsa.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 992,
+      "kcal": 236,
+      "protein_g": 11,
+      "fat_g": 10,
+      "sat_fat_g": 1.4,
+      "carbs_g": 26,
+      "sugars_g": 5,
+      "fibre_g": 2.1,
+      "salt_g": 1
+     },
+     "per_portion": {
+      "kj": 2053,
+      "kcal": 489,
+      "protein_g": 22,
+      "fat_g": 20,
+      "sat_fat_g": 2.94,
+      "carbs_g": 54,
+      "sugars_g": 11,
+      "fibre_g": 4.28,
+      "salt_g": 2.07
+     }
+    },
+    {
+     "name": "McCrispy Deluxe",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/mccrispy-deluxe.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 984,
+      "kcal": 236,
+      "protein_g": 8.8,
+      "fat_g": 11,
+      "sat_fat_g": 2.3,
+      "carbs_g": 24,
+      "sugars_g": 3.9,
+      "fibre_g": 1.4,
+      "salt_g": 1.2
+     },
+     "per_portion": {
+      "kj": 2810,
+      "kcal": 674,
+      "protein_g": 25,
+      "fat_g": 32,
+      "sat_fat_g": 6.5,
+      "carbs_g": 68,
+      "sugars_g": 11,
+      "fibre_g": 3.9,
+      "salt_g": 3.3
+     }
+    },
+    {
+     "name": "Chicken McFeast",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/chicken-mcfeast.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 852,
+      "kcal": 203,
+      "protein_g": 9,
+      "fat_g": 9,
+      "sat_fat_g": 1.8,
+      "carbs_g": 21,
+      "sugars_g": 4,
+      "fibre_g": 1.8,
+      "salt_g": 1.1
+     },
+     "per_portion": {
+      "kj": 2169,
+      "kcal": 518,
+      "protein_g": 24,
+      "fat_g": 22,
+      "sat_fat_g": 4.69,
+      "carbs_g": 53,
+      "sugars_g": 11,
+      "fibre_g": 4.58,
+      "salt_g": 2.9
+     }
+    },
+    {
+     "name": "McVeggie Spicy",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/mcveggie-spicy.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 1003,
+      "kcal": 240,
+      "protein_g": 8,
+      "fat_g": 12,
+      "sat_fat_g": 2,
+      "carbs_g": 23,
+      "sugars_g": 4,
+      "fibre_g": 3,
+      "salt_g": 1
+     },
+     "per_portion": {
+      "kj": 2418,
+      "kcal": 579,
+      "protein_g": 20,
+      "fat_g": 30,
+      "sat_fat_g": 4.87,
+      "carbs_g": 55,
+      "sugars_g": 9,
+      "fibre_g": 7.32,
+      "salt_g": 2.45
+     }
+    },
+    {
+     "name": "Veggie Nuggets 6 pk (site name: Vegetar Nuggets 6pk)",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/vegetar-nuggets-6pk.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 1272,
+      "kcal": 305,
+      "protein_g": 12,
+      "fat_g": 17,
+      "sat_fat_g": 1.4,
+      "carbs_g": 24,
+      "sugars_g": 1.1,
+      "fibre_g": 4.6,
+      "salt_g": 1.3
+     },
+     "per_portion": {
+      "kj": 1404,
+      "kcal": 337,
+      "protein_g": 13,
+      "fat_g": 19,
+      "sat_fat_g": 1.5,
+      "carbs_g": 26,
+      "sugars_g": 1.2,
+      "fibre_g": 5.1,
+      "salt_g": 1.4
+     },
+     "note": "Per 100 g also identical on the 9 pk page (portion 2106 kJ / 505 kcal)."
+    },
+    {
+     "name": "Chicken McNuggets 4 pk",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/chicken-mcnuggets-4pk.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 1011,
+      "kcal": 241,
+      "protein_g": 16,
+      "fat_g": 12,
+      "sat_fat_g": 1.4,
+      "carbs_g": 18,
+      "sugars_g": 1,
+      "fibre_g": 0.9,
+      "salt_g": 1.1
+     },
+     "per_portion": {
+      "kj": 768,
+      "kcal": 183,
+      "protein_g": 12,
+      "fat_g": 9,
+      "sat_fat_g": 1.06,
+      "carbs_g": 14,
+      "sugars_g": null,
+      "fibre_g": 0.67,
+      "salt_g": 0.86
+     },
+     "note": "Confirmed 241 kcal per 100 g. The 6 pk page was not opened."
+    },
+    {
+     "name": "McWrap Salsa Chicken (site name: McWrap Chicken Salsa)",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/mcwrap-chicken-salsa.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 907,
+      "kcal": 217,
+      "protein_g": 8.7,
+      "fat_g": 9.7,
+      "sat_fat_g": 1.4,
+      "carbs_g": 22.7,
+      "sugars_g": 3.6,
+      "fibre_g": 1.6,
+      "salt_g": 1
+     },
+     "per_portion": {
+      "kj": 2273,
+      "kcal": 543,
+      "protein_g": 21.7,
+      "fat_g": 24.4,
+      "sat_fat_g": 3.5,
+      "carbs_g": 56.9,
+      "sugars_g": 9.1,
+      "fibre_g": 4,
+      "salt_g": 2.52
+     }
+    },
+    {
+     "name": "McWrap Classic Chicken",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/mcwrap-chicken.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 930,
+      "kcal": 222,
+      "protein_g": 9.6,
+      "fat_g": 9.8,
+      "sat_fat_g": 1.4,
+      "carbs_g": 23,
+      "sugars_g": 1.3,
+      "fibre_g": 1.6,
+      "salt_g": 1
+     },
+     "per_portion": {
+      "kj": 2029,
+      "kcal": 484,
+      "protein_g": 21,
+      "fat_g": 21.4,
+      "sat_fat_g": 3,
+      "carbs_g": 50.1,
+      "sugars_g": 2.9,
+      "fibre_g": 3.5,
+      "salt_g": 2.21
+     }
+    },
+    {
+     "name": "Hot Wings",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/hot-wings.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 1189.3,
+      "kcal": 284.5,
+      "protein_g": 23.8,
+      "fat_g": 17.9,
+      "sat_fat_g": 3.2,
+      "carbs_g": 5.2,
+      "sugars_g": 0.1,
+      "fibre_g": 1,
+      "salt_g": 1.3
+     },
+     "per_portion": {
+      "kj": 999,
+      "kcal": 239,
+      "protein_g": 20,
+      "fat_g": 15,
+      "sat_fat_g": 2.7,
+      "carbs_g": 4.4,
+      "sugars_g": null,
+      "fibre_g": 0.8,
+      "salt_g": 1.1
+     }
+    },
+    {
+     "name": "Chili Cheese Tops 4 pk",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/chili-cheese-tops-4pk.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 1068.6,
+      "kcal": 255.7,
+      "protein_g": 10.6,
+      "fat_g": 13.6,
+      "sat_fat_g": 4.6,
+      "carbs_g": 22.9,
+      "sugars_g": 4.6,
+      "fibre_g": 1,
+      "salt_g": 1.9
+     },
+     "per_portion": {
+      "kj": 748,
+      "kcal": 179,
+      "protein_g": 7.4,
+      "fat_g": 9.5,
+      "sat_fat_g": 3.2,
+      "carbs_g": 16,
+      "sugars_g": 3.2,
+      "fibre_g": 0.7,
+      "salt_g": 1.3
+     }
+    },
+    {
+     "name": "MacFries medium",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/macfries-medium.html",
+     "unit": "g",
+     "category": "snacks_sweets",
+     "per100": {
+      "kj": 1200,
+      "kcal": 286.8,
+      "protein_g": 3.6,
+      "fat_g": 13.2,
+      "sat_fat_g": 1.3,
+      "carbs_g": 36,
+      "sugars_g": 0.3,
+      "fibre_g": 3.6,
+      "salt_g": 0.4
+     },
+     "per_portion": {
+      "kj": 1368,
+      "kcal": 327,
+      "protein_g": 4.1,
+      "fat_g": 15,
+      "sat_fat_g": 1.5,
+      "carbs_g": 41,
+      "sugars_g": null,
+      "fibre_g": 4.1,
+      "salt_g": 0.47
+     }
+    },
+    {
+     "name": "Søtpotet Fries medium",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/sotpotet-fries-medium.html",
+     "unit": "g",
+     "category": "snacks_sweets",
+     "per100": {
+      "kj": 1014.8,
+      "kcal": 243,
+      "protein_g": 2.9,
+      "fat_g": 12.6,
+      "sat_fat_g": 1.2,
+      "carbs_g": 27.4,
+      "sugars_g": 12.6,
+      "fibre_g": 4.7,
+      "salt_g": 0.5
+     },
+     "per_portion": {
+      "kj": 1370,
+      "kcal": 328,
+      "protein_g": 3.9,
+      "fat_g": 17,
+      "sat_fat_g": 1.6,
+      "carbs_g": 37,
+      "sugars_g": 17,
+      "fibre_g": 6.3,
+      "salt_g": 0.61
+     }
+    },
+    {
+     "name": "Hvitløk Dip",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/hvitlk-dip.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 2685.7,
+      "kcal": 654.9,
+      "protein_g": 1.3,
+      "fat_g": 70.3,
+      "sat_fat_g": 5.7,
+      "carbs_g": 3.1,
+      "sugars_g": 1.8,
+      "fibre_g": 0.4,
+      "salt_g": 1.1
+     },
+     "per_portion": {
+      "kj": 611,
+      "kcal": 149,
+      "protein_g": 0.3,
+      "fat_g": 16,
+      "sat_fat_g": 1.3,
+      "carbs_g": 0.7,
+      "sugars_g": 0.4,
+      "fibre_g": 0.1,
+      "salt_g": 0.26
+     }
+    },
+    {
+     "name": "Chili Mayo (site name: Chili Dip)",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/chili-dip.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 1625.3,
+      "kcal": 391,
+      "protein_g": 0.8,
+      "fat_g": 37.9,
+      "sat_fat_g": 3.3,
+      "carbs_g": 12.2,
+      "sugars_g": 10.2,
+      "fibre_g": 0.4,
+      "salt_g": 1.9
+     },
+     "per_portion": {
+      "kj": 399,
+      "kcal": 96,
+      "protein_g": 0.2,
+      "fat_g": 9.3,
+      "sat_fat_g": 0.8,
+      "carbs_g": 3,
+      "sugars_g": 2.5,
+      "fibre_g": 0.1,
+      "salt_g": 0.46
+     },
+     "note": "Assumed to be the mayo-type chili dip (fat 37.9 per 100 g). There is no product called Chili Mayo on the site. The separate Hot Chili Dip is a sweet chili sauce, see next item."
+    },
+    {
+     "name": "Hot Chili Dip",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/hot-chili-dip.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 584.3,
+      "kcal": 139.1,
+      "protein_g": 1,
+      "fat_g": 0.3,
+      "sat_fat_g": 0,
+      "carbs_g": 32,
+      "sugars_g": 25.7,
+      "fibre_g": 1,
+      "salt_g": 2.6
+     },
+     "per_portion": {
+      "kj": 168,
+      "kcal": 40,
+      "protein_g": 0.3,
+      "fat_g": 0.1,
+      "sat_fat_g": null,
+      "carbs_g": 9.2,
+      "sugars_g": 7.4,
+      "fibre_g": 0.3,
+      "salt_g": 0.76
+     }
+    },
+    {
+     "name": "Cheddar Dip",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/cheddar-dip.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 1641,
+      "kcal": 397,
+      "protein_g": 3.3,
+      "fat_g": 41,
+      "sat_fat_g": 4.1,
+      "carbs_g": 5,
+      "sugars_g": 3.7,
+      "fibre_g": 0.4,
+      "salt_g": 3.1
+     },
+     "per_portion": {
+      "kj": 397,
+      "kcal": 96,
+      "protein_g": 0.8,
+      "fat_g": 9.8,
+      "sat_fat_g": 1,
+      "carbs_g": 1.2,
+      "sugars_g": 0.9,
+      "fibre_g": 0.1,
+      "salt_g": 0.74
+     }
+    },
+    {
+     "name": "McFeast Dip (Majones)",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/mcfeast-dip.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 1504,
+      "kcal": 364,
+      "protein_g": 0.8,
+      "fat_g": 37.6,
+      "sat_fat_g": 3.2,
+      "carbs_g": 6,
+      "sugars_g": 1.6,
+      "fibre_g": 0.4,
+      "salt_g": 1.9
+     },
+     "per_portion": {
+      "kj": 376,
+      "kcal": 91,
+      "protein_g": 0.2,
+      "fat_g": 9.4,
+      "sat_fat_g": 0.8,
+      "carbs_g": 1.5,
+      "sugars_g": 0.4,
+      "fibre_g": 0.1,
+      "salt_g": 0.47
+     }
+    },
+    {
+     "name": "Sursøt Dip",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/surst-dip.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 732,
+      "kcal": 173,
+      "protein_g": 0.3,
+      "fat_g": 1,
+      "sat_fat_g": 0,
+      "carbs_g": 41,
+      "sugars_g": 33,
+      "fibre_g": 0,
+      "salt_g": 1.1
+     },
+     "per_portion": {
+      "kj": 216,
+      "kcal": 51,
+      "protein_g": 0.1,
+      "fat_g": 0.3,
+      "sat_fat_g": null,
+      "carbs_g": 12,
+      "sugars_g": 9.8,
+      "fibre_g": null,
+      "salt_g": 0.31
+     }
+    },
+    {
+     "name": "BBQ Dip",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/bbq-dip.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 719.2,
+      "kcal": 171.2,
+      "protein_g": 1,
+      "fat_g": 1.4,
+      "sat_fat_g": 0,
+      "carbs_g": 37.7,
+      "sugars_g": 31.8,
+      "fibre_g": 1.4,
+      "salt_g": 1.9
+     },
+     "per_portion": {
+      "kj": 210,
+      "kcal": 50,
+      "protein_g": 0.3,
+      "fat_g": 0.4,
+      "sat_fat_g": null,
+      "carbs_g": 11,
+      "sugars_g": 9.3,
+      "fibre_g": 0.4,
+      "salt_g": 0.55
+     }
+    },
+    {
+     "name": "Karri Dip",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/karri-dip.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 683.5,
+      "kcal": 161.6,
+      "protein_g": 1,
+      "fat_g": 1.7,
+      "sat_fat_g": 0,
+      "carbs_g": 33.7,
+      "sugars_g": 25.3,
+      "fibre_g": 0.7,
+      "salt_g": 1
+     },
+     "per_portion": {
+      "kj": 203,
+      "kcal": 48,
+      "protein_g": 0.3,
+      "fat_g": 0.5,
+      "sat_fat_g": null,
+      "carbs_g": 10,
+      "sugars_g": 7.5,
+      "fibre_g": 0.2,
+      "salt_g": 0.3
+     }
+    },
+    {
+     "name": "Sennep Dip",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/sennep-dip.html",
+     "unit": "g",
+     "category": "ready_meals_sauces",
+     "per100": {
+      "kj": 916,
+      "kcal": 220,
+      "protein_g": 2,
+      "fat_g": 12,
+      "sat_fat_g": 1.2,
+      "carbs_g": 26,
+      "sugars_g": 19.6,
+      "fibre_g": 0,
+      "salt_g": 1.8
+     },
+     "per_portion": {
+      "kj": 229,
+      "kcal": 55,
+      "protein_g": 0.5,
+      "fat_g": 3,
+      "sat_fat_g": 0.3,
+      "carbs_g": 6.5,
+      "sugars_g": 4.9,
+      "fibre_g": null,
+      "salt_g": 0.46
+     }
+    },
+    {
+     "name": "Coca-Cola medium",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/coca-cola-medium.html",
+     "unit": "ml",
+     "category": "drinks",
+     "per100": {
+      "kj": 174,
+      "kcal": 40.9,
+      "protein_g": 0,
+      "fat_g": 0,
+      "sat_fat_g": 0,
+      "carbs_g": 10.1,
+      "sugars_g": 10.1,
+      "fibre_g": 0,
+      "salt_g": 0
+     },
+     "per_portion": {
+      "kj": 723,
+      "kcal": 170,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": 42,
+      "sugars_g": 42,
+      "fibre_g": null,
+      "salt_g": null
+     }
+    },
+    {
+     "name": "Fanta Zero medium",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/fanta-zero-m.html",
+     "unit": "ml",
+     "category": "drinks",
+     "per100": {
+      "kj": 12,
+      "kcal": 3,
+      "protein_g": 0,
+      "fat_g": 0,
+      "sat_fat_g": 0,
+      "carbs_g": 1,
+      "sugars_g": 1,
+      "fibre_g": 0,
+      "salt_g": 0
+     },
+     "per_portion": {
+      "kj": 48,
+      "kcal": 12,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": 2,
+      "sugars_g": 2,
+      "fibre_g": null,
+      "salt_g": 0.04
+     }
+    },
+    {
+     "name": "Fanta Exotic medium",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/fanta-exotic-medium.html",
+     "unit": "ml",
+     "category": "drinks",
+     "per100": {
+      "kj": 216,
+      "kcal": 51,
+      "protein_g": 0,
+      "fat_g": 0,
+      "sat_fat_g": 0,
+      "carbs_g": 12.6,
+      "sugars_g": 12.6,
+      "fibre_g": 0,
+      "salt_g": 0
+     },
+     "per_portion": {
+      "kj": 906,
+      "kcal": 214,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": 53,
+      "sugars_g": 53,
+      "fibre_g": null,
+      "salt_g": null
+     }
+    },
+    {
+     "name": "Sweet & Spicy X Sprite Zero medium",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/sweet-spicy-x-sprite-zero-medium.html",
+     "unit": "ml",
+     "category": "drinks",
+     "per100": {
+      "kj": 6,
+      "kcal": 1,
+      "protein_g": 0,
+      "fat_g": 0,
+      "sat_fat_g": 0,
+      "carbs_g": 0,
+      "sugars_g": 0,
+      "fibre_g": 0,
+      "salt_g": 0
+     },
+     "per_portion": {
+      "kj": 23,
+      "kcal": 5,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": 0.16
+     }
+    },
+    {
+     "name": "Sprite Zero medium",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/sprite-zero-medium.html",
+     "unit": "ml",
+     "category": "drinks",
+     "per100": {
+      "kj": 5,
+      "kcal": 1,
+      "protein_g": 0,
+      "fat_g": 0,
+      "sat_fat_g": 0,
+      "carbs_g": 0,
+      "sugars_g": 0,
+      "fibre_g": 0,
+      "salt_g": 0
+     },
+     "per_portion": {
+      "kj": 20,
+      "kcal": 4,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": 0.16
+     }
+    },
+    {
+     "name": "God Morgon Appelsinjuice",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/god-morgen-juice-appelsin.html",
+     "unit": "ml",
+     "category": "drinks",
+     "per100": {
+      "kj": 191,
+      "kcal": 45,
+      "protein_g": 0.7,
+      "fat_g": 0.5,
+      "sat_fat_g": 0,
+      "carbs_g": 9.2,
+      "sugars_g": 9.2,
+      "fibre_g": 0,
+      "salt_g": 0
+     },
+     "per_portion": {
+      "kj": null,
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "note": "Page shows only one value column (the per 100 grams column). Per portion column is blank."
+    },
+    {
+     "name": "God Morgon Eplejuice",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/god-morgen-juice-eple.html",
+     "unit": "ml",
+     "category": "drinks",
+     "per100": {
+      "kj": 191,
+      "kcal": 45,
+      "protein_g": 0.5,
+      "fat_g": 0.5,
+      "sat_fat_g": 0,
+      "carbs_g": 10,
+      "sugars_g": 10,
+      "fibre_g": 0,
+      "salt_g": 0
+     },
+     "per_portion": {
+      "kj": null,
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "note": "Page shows only one value column (the per 100 grams column). Per portion column is blank."
+    },
+    {
+     "name": "Lettmelk 0,5% (250 ml)",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/lettmelk-250ml.html",
+     "unit": "ml",
+     "category": "dairy_eggs",
+     "per100": {
+      "kj": 155,
+      "kcal": 37,
+      "protein_g": 3.7,
+      "fat_g": 0.5,
+      "sat_fat_g": 0.3,
+      "carbs_g": 4.7,
+      "sugars_g": 4.7,
+      "fibre_g": 0,
+      "salt_g": 0.1
+     },
+     "per_portion": {
+      "kj": 465,
+      "kcal": 111,
+      "protein_g": 11,
+      "fat_g": 1.5,
+      "sat_fat_g": 0.9,
+      "carbs_g": 14,
+      "sugars_g": 14,
+      "fibre_g": null,
+      "salt_g": 0.3
+     }
+    },
+    {
+     "name": "Milkshake Jordbær medium",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/milkshake-jordbaer-medium.html",
+     "unit": "ml",
+     "category": "drinks",
+     "per100": {
+      "kj": 479,
+      "kcal": 113,
+      "protein_g": 3.2,
+      "fat_g": 2.2,
+      "sat_fat_g": 1.5,
+      "carbs_g": 21,
+      "sugars_g": 18,
+      "fibre_g": 0,
+      "salt_g": 0.1
+     },
+     "per_portion": {
+      "kj": 1503,
+      "kcal": 356,
+      "protein_g": 9.9,
+      "fat_g": 7,
+      "sat_fat_g": 4.8,
+      "carbs_g": 66,
+      "sugars_g": 57,
+      "fibre_g": null,
+      "salt_g": 0.35
+     }
+    },
+    {
+     "name": "Milkshake Vanilje medium",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/milkshake-vanilje-medium.html",
+     "unit": "ml",
+     "category": "drinks",
+     "per100": {
+      "kj": 472,
+      "kcal": 112,
+      "protein_g": 3.2,
+      "fat_g": 2.2,
+      "sat_fat_g": 1.5,
+      "carbs_g": 21,
+      "sugars_g": 18,
+      "fibre_g": 0,
+      "salt_g": 0.1
+     },
+     "per_portion": {
+      "kj": 1483,
+      "kcal": 351,
+      "protein_g": 9.9,
+      "fat_g": 7,
+      "sat_fat_g": 4.8,
+      "carbs_g": 65,
+      "sugars_g": 55,
+      "fibre_g": null,
+      "salt_g": 0.35
+     }
+    },
+    {
+     "name": "Milkshake Sjokolade medium",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/milkshake-sjokolade-medium.html",
+     "unit": "ml",
+     "category": "drinks",
+     "per100": {
+      "kj": 480,
+      "kcal": 114,
+      "protein_g": 3.5,
+      "fat_g": 2.4,
+      "sat_fat_g": 1.6,
+      "carbs_g": 20,
+      "sugars_g": 17,
+      "fibre_g": 0.3,
+      "salt_g": 0.2
+     },
+     "per_portion": {
+      "kj": 1507,
+      "kcal": 357,
+      "protein_g": 11,
+      "fat_g": 7.5,
+      "sat_fat_g": 5.1,
+      "carbs_g": 64,
+      "sugars_g": 52,
+      "fibre_g": 0.9,
+      "salt_g": 0.51
+     }
+    },
+    {
+     "name": "Kanelbolle",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/kanelbolle.html",
+     "unit": "g",
+     "category": "snacks_sweets",
+     "per100": {
+      "kj": 1537,
+      "kcal": 365,
+      "protein_g": 7,
+      "fat_g": 12,
+      "sat_fat_g": 4.5,
+      "carbs_g": 56,
+      "sugars_g": 23,
+      "fibre_g": 2.7,
+      "salt_g": 0.7
+     },
+     "per_portion": {
+      "kj": 1153,
+      "kcal": 274,
+      "protein_g": 5,
+      "fat_g": 9,
+      "sat_fat_g": 3.38,
+      "carbs_g": 42,
+      "sugars_g": 17,
+      "fibre_g": 2.03,
+      "salt_g": 0.56
+     }
+    },
+    {
+     "name": "Sjokolade Muffin",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/sjokolade-muffins.html",
+     "unit": "g",
+     "category": "snacks_sweets",
+     "per100": {
+      "kj": 1776,
+      "kcal": 425,
+      "protein_g": 5.6,
+      "fat_g": 23,
+      "sat_fat_g": 4.2,
+      "carbs_g": 47,
+      "sugars_g": 28,
+      "fibre_g": 2,
+      "salt_g": 1.2
+     },
+     "per_portion": {
+      "kj": null,
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "note": "Page shows only one value column (the per 100 grams column). Per portion column is blank."
+    },
+    {
+     "name": "McDonut Sukker (Donut Sukker)",
+     "url": "https://www.mcdonalds.com/no/nb-no/produkt/mcdonut-sukker.html",
+     "unit": "g",
+     "category": "snacks_sweets",
+     "per100": {
+      "kj": 1406,
+      "kcal": 336,
+      "protein_g": 6.6,
+      "fat_g": 14.6,
+      "sat_fat_g": 6.2,
+      "carbs_g": 44,
+      "sugars_g": 13,
+      "fibre_g": 1.8,
+      "salt_g": 0.7
+     },
+     "per_portion": {
+      "kj": 703,
+      "kcal": 168,
+      "protein_g": 3.3,
+      "fat_g": 7.3,
+      "sat_fat_g": 3.1,
+      "carbs_g": 22,
+      "sugars_g": 6.5,
+      "fibre_g": 0.9,
+      "salt_g": 0.35
+     }
+    }
+   ],
+   "not_found": []
+  },
+  "added": [
+   "Big Arch",
+   "Double Big Tasty Bacon",
+   "Big Tasty Bacon",
+   "Dobbel Quarter Pounder",
+   "McFeast",
+   "Hamburger Crisp",
+   "Chicken Salsa",
+   "Big Chicken Salsa",
+   "McCrispy Deluxe",
+   "Chicken McFeast",
+   "McVeggie Spicy",
+   "Veggie Nuggets 6 pk",
+   "McWrap Salsa Chicken",
+   "McWrap Classic Chicken",
+   "Hot Wings",
+   "Chili Cheese Tops 4 pk",
+   "MacFries medium",
+   "Søtpotet Fries medium",
+   "Hvitløk Dip",
+   "Chili Mayo",
+   "Hot Chili Dip",
+   "Cheddar Dip",
+   "McFeast Dip (Majones)",
+   "Sursøt Dip",
+   "BBQ Dip",
+   "Karri Dip",
+   "Sennep Dip",
+   "Fanta Zero medium",
+   "Fanta Exotic medium",
+   "Sweet & Spicy X Sprite Zero medium",
+   "Sprite Zero medium",
+   "God Morgon Appelsinjuice",
+   "God Morgon Eplejuice",
+   "Lettmelk 0,5% (250 ml)",
+   "Milkshake Jordbær medium",
+   "Milkshake Vanilje medium",
+   "Milkshake Sjokolade medium",
+   "Kanelbolle",
+   "Sjokolade Muffin",
+   "McDonut Sukker (Donut Sukker)"
+  ],
+  "skipped": [
+   [
+    "Chicken McNuggets 4 pk",
+    "same as an existing row"
+   ],
+   [
+    "Coca-Cola medium",
+    "same id"
+   ]
+  ]
+ }
 }
