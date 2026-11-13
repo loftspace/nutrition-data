@@ -137,6 +137,8 @@ SOURCES = {
     'dominos-no': ("Domino's Pizza", 'brand'),
     'pizzabakeren': ('Pizzabakeren', 'brand'),
     'starbucks-no': ('Starbucks', 'brand'),
+    'kaffebrenneriet': ('Kaffebrenneriet', 'brand'),
+    'godt-brod': ('Godt Brød', 'brand'),
     'proteinbolaget': ('Proteinbolaget', 'shop'),
     'proteincompany-no': ('Protein Company', 'shop'),
     'proteinfabrikken': ('Proteinfabrikken', 'shop'),

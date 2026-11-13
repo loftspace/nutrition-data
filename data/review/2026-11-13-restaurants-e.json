@@ -1,0 +1,2157 @@
+{
+ "note": "Restaurant and kiosk menus, 2026-11-13 (Max: McDonald's, Domino's and other chains; Norwegian data first). Everything the agents found is kept here. Only chains with Norwegian data and a fully passed spot check went into checked.json.",
+ "chains": [
+  {
+   "key": "egon",
+   "chain": "Egon",
+   "data_country": "NO",
+   "notes": "No published nutrition found for Egon. Checked egon.no, /menyen, /nymeny and a site-restricted search. None show kcal or macro values or link to a nutrition or allergen PDF. Reviews say an allergen overview exists as a printed or in-restaurant menu, but it has no nutrition values and is not online. Searches for Sweden, Denmark and UK data found nothing (Egon is a Norwegian chain). No items returned, since values must not be estimated.",
+   "source_urls": [
+    "https://www.egon.no",
+    "https://www.egon.no/menyen",
+    "https://egon.no/nymeny"
+   ],
+   "items": [],
+   "spot_check": []
+  },
+  {
+   "key": "dollydimples",
+   "chain": "Dolly Dimple's",
+   "data_country": "NO",
+   "notes": "No official nutrition found for Dolly Dimple's. dolly.no has no nutrition page or PDF; its FAQ says to ask the store about allergens/ingredients. Product pages on dolly.no (e.g. /product/10013) list only allergens and price, and redirect to the order.ninito.com menu, which returned no menu text or nutrition when fetched (it may be JS-rendered, so I could not rule out values behind it). Searches found no nutrition PDF. The chain is Norway-only, so there is no SE/DK/UK backup. The only values seen were third-party user-entered entries on mylog.no (e.g. Bankers 213 kcal/100 g, 125 g portion). I did not use them because they are not published by the chain and the snippet was incomplete. Returning no items rather than guessing.",
+   "source_urls": [
+    "https://dolly.no",
+    "https://order.ninito.com/no/group/dolly-dimples",
+    "https://dolly.no/product/10013"
+   ],
+   "items": [],
+   "spot_check": []
+  },
+  {
+   "key": "joejuice",
+   "chain": "Joe & the Juice",
+   "data_country": "NO",
+   "notes": "No items returned. joejuice.com (Norwegian pages and /allergens) answered HTTP 429 on every WebFetch (4 tries), so I could not read any official nutrition page. Searches found no official Norwegian nutrition PDF. Only third-party values turned up: mylog.no (Norwegian user diary, e.g. Pick me up 180 kcal per 340 g), FatSecret, fddb and Deliveroo UK listings. They are crowd-sourced or from other countries and conflict with each other (Joe's Club Sandwich 415 to 449 kcal per 100 g, 430 kcal per serving), so I did not use them. The official source to retry is https://www.joejuice.com/allergens, with the Norwegian menu pages, later or from a browser tool. A 2021 airport menu PDF (US) exists but is old and not Norwegian.",
+   "source_urls": [
+    "https://www.joejuice.com/allergens",
+    "https://www.mylog.no/matvaretabell/28657",
+    "https://www.fatsecret.co.uk/calories-nutrition/joe-the-juice"
+   ],
+   "items": [],
+   "spot_check": []
+  },
+  {
+   "key": "kaffebrenneriet",
+   "chain": "Kaffebrenneriet",
+   "data_country": "NO",
+   "notes": "Source: per-product nutrition pages on kaffebrenneriet.no (/mat-kategori/naeringsinnhold?ProductID=...). They print only per 100 g plus \"Vekt ca X g\"; no per-portion values are printed, so per_portion is all null (not computed). Drinks and coffee drinks pages have no nutrition published. Not collected: ice cream, chocolate and cookies categories, other scones, muffins, tekake sjokolade, pepperkakebar, hasselnøttbar, KokoKrønsj, Speltgrøt, Kaldgrøt. Gulrotkake (1252 g), Sjokoladekake (1136 g) and Suksesskake (800 g) list the weight of a whole cake, so sure=false. Kardemommebolle at 175 g looks high, sure=false. Kcal values copied as printed (with decimals); kJ omitted.",
+   "source_urls": [
+    "https://www.kaffebrenneriet.no/mat",
+    "https://www.kaffebrenneriet.no/mat-kategori/bakervarer",
+    "https://www.kaffebrenneriet.no/mat-kategori/sandwich-yoghurt",
+    "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD235"
+   ],
+   "items": [
+    {
+     "name": "Kanelbolle",
+     "category": "bread_cereal_grain",
+     "unit": "g",
+     "portion_g": 108,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 427.78,
+      "protein_g": 6.39,
+      "fat_g": 19.63,
+      "sat_fat_g": 12.31,
+      "carbs_g": 55.19,
+      "sugars_g": 24.35,
+      "fibre_g": 2.31,
+      "salt_g": 0.83
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD235",
+     "country": "NO",
+     "sure": true
+    },
+    {
+     "name": "Kardemommebolle",
+     "category": "bread_cereal_grain",
+     "unit": "g",
+     "portion_g": 175,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 260,
+      "protein_g": 6.11,
+      "fat_g": 9.31,
+      "sat_fat_g": 5.65,
+      "carbs_g": 37.03,
+      "sugars_g": 14.11,
+      "fibre_g": 1.71,
+      "salt_g": 0.86
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD981",
+     "country": "NO",
+     "sure": false,
+     "note": "Weight 175 g looks high for a bun."
+    },
+    {
+     "name": "Sjokoladeknute",
+     "category": "bread_cereal_grain",
+     "unit": "g",
+     "portion_g": 108,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 334.26,
+      "protein_g": 5.28,
+      "fat_g": 10.65,
+      "sat_fat_g": 5.94,
+      "carbs_g": 49.91,
+      "sugars_g": 21.94,
+      "fibre_g": 0.93,
+      "salt_g": 0.83
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD236",
+     "country": "NO",
+     "sure": true
+    },
+    {
+     "name": "Croissant",
+     "category": "bread_cereal_grain",
+     "unit": "g",
+     "portion_g": 74,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 587.82,
+      "protein_g": 8.19,
+      "fat_g": 40.32,
+      "sat_fat_g": 25.58,
+      "carbs_g": 48.54,
+      "sugars_g": 8.62,
+      "fibre_g": 2.04,
+      "salt_g": 1.15
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD201",
+     "country": "NO",
+     "sure": true
+    },
+    {
+     "name": "Mandelcroissantsnurr",
+     "category": "bread_cereal_grain",
+     "unit": "g",
+     "portion_g": 108,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 269.44,
+      "protein_g": 7.13,
+      "fat_g": 12.87,
+      "sat_fat_g": 6.48,
+      "carbs_g": 30.37,
+      "sugars_g": 19.54,
+      "fibre_g": 0.93,
+      "salt_g": 0.56
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD902",
+     "country": "NO",
+     "sure": true
+    },
+    {
+     "name": "Blåbærmuffins",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": 139,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 425.9,
+      "protein_g": 3.38,
+      "fat_g": 21.37,
+      "sat_fat_g": 12.95,
+      "carbs_g": 54.17,
+      "sugars_g": 28.49,
+      "fibre_g": 2.16,
+      "salt_g": 1.01
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD232",
+     "country": "NO",
+     "sure": true
+    },
+    {
+     "name": "Cookie Chocolate Chip",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": 70,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 438.57,
+      "protein_g": 5.43,
+      "fat_g": 20.14,
+      "sat_fat_g": 12.29,
+      "carbs_g": 57.71,
+      "sugars_g": 37.86,
+      "fibre_g": 1.86,
+      "salt_g": 1
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD247",
+     "country": "NO",
+     "sure": true
+    },
+    {
+     "name": "Rosinscones",
+     "category": "bread_cereal_grain",
+     "unit": "g",
+     "portion_g": 100,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 407,
+      "protein_g": 6.8,
+      "fat_g": 20.1,
+      "sat_fat_g": 12.3,
+      "carbs_g": 48.1,
+      "sugars_g": 20,
+      "fibre_g": 3.2,
+      "salt_g": 0.7
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD243",
+     "country": "NO",
+     "sure": true
+    },
+    {
+     "name": "Tekake sitron",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": 86,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 317.44,
+      "protein_g": 6.05,
+      "fat_g": 10.7,
+      "sat_fat_g": 5.93,
+      "carbs_g": 48.84,
+      "sugars_g": 32.56,
+      "fibre_g": 0.93,
+      "salt_g": 0.35
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD233",
+     "country": "NO",
+     "sure": true
+    },
+    {
+     "name": "Havrekjeks",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": 70,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 395.71,
+      "protein_g": 5.71,
+      "fat_g": 16.14,
+      "sat_fat_g": 9.29,
+      "carbs_g": 55.57,
+      "sugars_g": 32.43,
+      "fibre_g": 3,
+      "salt_g": 0.71
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD246",
+     "country": "NO",
+     "sure": true
+    },
+    {
+     "name": "New York Cheesecake",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": 140,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 316.43,
+      "protein_g": 5.14,
+      "fat_g": 21.93,
+      "sat_fat_g": 13.29,
+      "carbs_g": 24.36,
+      "sugars_g": 19.29,
+      "fibre_g": 0.29,
+      "salt_g": 0.57
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD251",
+     "country": "NO",
+     "sure": true
+    },
+    {
+     "name": "Gulrotkake",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": 1252,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 361.1,
+      "protein_g": 4.29,
+      "fat_g": 20.4,
+      "sat_fat_g": 9.6,
+      "carbs_g": 39.16,
+      "sugars_g": 29.7,
+      "fibre_g": 1.2,
+      "salt_g": 0.58
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD543",
+     "country": "NO",
+     "sure": false,
+     "note": "Printed weight is a whole cake; slice weight not given."
+    },
+    {
+     "name": "Sjokoladekake",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": 1136,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 445.51,
+      "protein_g": 4.63,
+      "fat_g": 28.94,
+      "sat_fat_g": 17.54,
+      "carbs_g": 40.88,
+      "sugars_g": 40.38,
+      "fibre_g": 1.41,
+      "salt_g": 0.31
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD542",
+     "country": "NO",
+     "sure": false,
+     "note": "Printed weight is a whole cake; slice weight not given."
+    },
+    {
+     "name": "Suksesskake",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": 800,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 439.13,
+      "protein_g": 8.13,
+      "fat_g": 27.46,
+      "sat_fat_g": 10.51,
+      "carbs_g": 38.71,
+      "sugars_g": 36.81,
+      "fibre_g": 2.25,
+      "salt_g": 0.11
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD250",
+     "country": "NO",
+     "sure": false,
+     "note": "Printed weight is a whole cake; slice weight not given."
+    },
+    {
+     "name": "Bananbrød",
+     "category": "bread_cereal_grain",
+     "unit": "g",
+     "portion_g": 74,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 337.84,
+      "protein_g": 4.86,
+      "fat_g": 16.62,
+      "sat_fat_g": 8.11,
+      "carbs_g": 41.35,
+      "sugars_g": 25.27,
+      "fibre_g": 1.76,
+      "salt_g": 0.14
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD240",
+     "country": "NO",
+     "sure": true
+    },
+    {
+     "name": "Røkelaks & Egg (sandwich)",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 224,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 220.54,
+      "protein_g": 10.45,
+      "fat_g": 10.58,
+      "sat_fat_g": 1.5,
+      "carbs_g": 19.55,
+      "sugars_g": 0.54,
+      "fibre_g": 3.13,
+      "salt_g": 1.12
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD779",
+     "country": "NO",
+     "sure": true
+    },
+    {
+     "name": "Serrano Reserva & Provolone (sandwich)",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 175,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 241.71,
+      "protein_g": 14.06,
+      "fat_g": 8.06,
+      "sat_fat_g": 3.37,
+      "carbs_g": 27.09,
+      "sugars_g": 1.14,
+      "fibre_g": 2.29,
+      "salt_g": 2.11
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD896",
+     "country": "NO",
+     "sure": true
+    },
+    {
+     "name": "Jarlsberg & Setesdalsmør (sandwich)",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 180,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 263.89,
+      "protein_g": 11.72,
+      "fat_g": 12.78,
+      "sat_fat_g": 6.94,
+      "carbs_g": 24,
+      "sugars_g": 0.39,
+      "fibre_g": 3.89,
+      "salt_g": 1.22
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD870",
+     "country": "NO",
+     "sure": true
+    },
+    {
+     "name": "Kylling & pesto (sandwich)",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 201,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 266.67,
+      "protein_g": 13.53,
+      "fat_g": 10.85,
+      "sat_fat_g": 2.49,
+      "carbs_g": 27.86,
+      "sugars_g": 0.8,
+      "fibre_g": 1.74,
+      "salt_g": 1.09
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD171",
+     "country": "NO",
+     "sure": true
+    },
+    {
+     "name": "Torshovskinke (sandwich)",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 160,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 246.88,
+      "protein_g": 13.63,
+      "fat_g": 7.38,
+      "sat_fat_g": 3.75,
+      "carbs_g": 29.75,
+      "sugars_g": 1.94,
+      "fibre_g": 3.5,
+      "salt_g": 1.5
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD253",
+     "country": "NO",
+     "sure": true
+    },
+    {
+     "name": "Müslibrød (sandwich)",
+     "category": "bread_cereal_grain",
+     "unit": "g",
+     "portion_g": 135,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 303.7,
+      "protein_g": 8.07,
+      "fat_g": 10.89,
+      "sat_fat_g": 5.19,
+      "carbs_g": 40.59,
+      "sugars_g": 12.22,
+      "fibre_g": 5.85,
+      "salt_g": 0.89
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD254",
+     "country": "NO",
+     "sure": true
+    },
+    {
+     "name": "Quiche spinat & feta",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "portion_g": 172,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 265.12,
+      "protein_g": 9.01,
+      "fat_g": 21.45,
+      "sat_fat_g": 12.79,
+      "carbs_g": 8.6,
+      "sugars_g": 1.22,
+      "fibre_g": 0.7,
+      "salt_g": 0.76
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD260",
+     "country": "NO",
+     "sure": true
+    },
+    {
+     "name": "Yoghurt",
+     "category": "dairy_eggs",
+     "unit": "g",
+     "portion_g": 197,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 74.11,
+      "protein_g": 6.8,
+      "fat_g": 1.57,
+      "sat_fat_g": 0.01,
+      "carbs_g": 8.58,
+      "sugars_g": 4.62,
+      "fibre_g": 0.51,
+      "salt_g": 0
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD743",
+     "country": "NO",
+     "sure": true
+    },
+    {
+     "name": "Klassisk Granola",
+     "category": "bread_cereal_grain",
+     "unit": "g",
+     "portion_g": 40,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 407.5,
+      "protein_g": 7.5,
+      "fat_g": 13.5,
+      "sat_fat_g": 1.25,
+      "carbs_g": 61.5,
+      "sugars_g": 41.75,
+      "fibre_g": 6.25,
+      "salt_g": 0
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD319",
+     "country": "NO",
+     "sure": true,
+     "note": "40 g is probably the granola topping portion."
+    },
+    {
+     "name": "Chiapudding",
+     "category": "dairy_eggs",
+     "unit": "g",
+     "portion_g": 173,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 163.58,
+      "protein_g": 4.74,
+      "fat_g": 10.58,
+      "sat_fat_g": 6.24,
+      "carbs_g": 9.48,
+      "sugars_g": 6.82,
+      "fibre_g": 7.46,
+      "salt_g": 0.12
+     },
+     "source_url": "https://www.kaffebrenneriet.no/mat-kategori/naeringsinnhold?ProductID=PROD258",
+     "country": "NO",
+     "sure": true
+    }
+   ],
+   "spot_check": [
+    {
+     "index": 0,
+     "confirmed": true,
+     "reason": "Page prints Kanelbolle, 'Vekt ca 108g', and per 100g: 427,78 kcal (1789,82 kJ), protein 6,39 g, fat 19,63 g, sat fat 12,31 g, carbs 55,19 g, sugars 24,35 g, fibre 2,31 g, salt 0,83 g. All match. Norwegian labels and .no domain confirm NO. Caveat: the fetched content did not show the ProductID, so the link from PROD235 to this item rests on the product name."
+    },
+    {
+     "index": 5,
+     "confirmed": true,
+     "reason": "Page prints Blåbærmuffins, 'Vekt ca 139g', and per 100g: 425,90 kcal (1781,96 kJ), protein 3,38 g, fat 21,37 g, sat fat 12,95 g, carbs 54,17 g, sugars 28,49 g, fibre 2,16 g, salt 1,01 g. All match. Norwegian labels and .no domain confirm NO. Caveat: ProductID not visible on the page; matched by name and table."
+    },
+    {
+     "index": 10,
+     "confirmed": true,
+     "reason": "Page prints New York Cheesecake, 'Vekt ca 140g', and per 100g: 316,43 kcal (1323,94 kJ), protein 5,14 g, fat 21,93 g, sat fat 13,29 g, carbs 24,36 g, sugars 19,29 g, fibre 0,29 g, salt 0,57 g. All match. Norwegian labels and .no domain confirm NO. Caveat: ProductID not visible on the page; matched by name."
+    },
+    {
+     "index": 15,
+     "confirmed": true,
+     "reason": "Page prints Røkelaks & Egg, 'Vekt ca 224g', and per 100g: 220,54 kcal (922,72 kJ), protein 10,45 g, fat 10,58 g, sat fat 1,50 g, carbs 19,55 g, sugars 0,54 g, fibre 3,13 g, salt 1,12 g. All match. Norwegian labels and .no domain confirm NO. Caveat: ProductID not visible on the page; matched by name."
+    },
+    {
+     "index": 20,
+     "confirmed": true,
+     "reason": "Page prints Müslibrød, 'Vekt ca 135g', and per 100g: 303,70 kcal (1270,70 kJ), protein 8,07 g, fat 10,89 g, sat fat 5,19 g, carbs 40,59 g, sugars 12,22 g, fibre 5,85 g, salt 0,89 g. All match. Norwegian labels and .no domain confirm NO. Caveat: ProductID not visible on the page; matched by name."
+    },
+    {
+     "index": 24,
+     "confirmed": true,
+     "reason": "Page prints Chiapudding, 'Vekt ca 173g', and per 100g: 163,58 kcal (684,43 kJ), protein 4,74 g, fat 10,58 g, sat fat 6,24 g, carbs 9,48 g, sugars 6,82 g, fibre 7,46 g, salt 0,12 g. All match. Norwegian labels and .no domain confirm NO. Caveat: ProductID not visible on the page; matched by name."
+    }
+   ]
+  },
+  {
+   "key": "waynes",
+   "chain": "Waynes Coffee",
+   "data_country": "NO",
+   "notes": "No items returned: I could not read full nutrition tables. Waynes product pages exist (waynescoffee.no/produkt/... and waynescoffee.com/product/...) and seem to carry nutrition and allergens per product, but the site is a JavaScript single-page app (Base44). WebFetch returns only the page title, and waynescoffee.no fails with a TLS error. waynes.se refuses connections. I found no nutrition PDF. I stopped probing the site's JS bundle and API after the permission system denied that step. WebSearch snippets mention values for some items (for example apple pie 248 kcal per portion / 230 per 100 g, blueberry cheesecake 405 / 300, scones 577 / 828, ciabatta chicken and bacon 649, spinach and feta pie 710, Caesar salad about 510). These are summaries, partly Swedish site, with no complete nutrient set or portion weights, so I did not record them. To finish: render the product pages in a headless browser, or ask Waynes for a nutrition sheet. Candidate pages: waynescoffee.no/produkt/supercino-rodbeta/, and on waynescoffee.com: appelpaj, blabarscheesecake, kanelbulle, lasagne, caesarsallad, raksallad, cookieshake, wrap-med-kyckling-cashewrora, ciabatta-med-kyckling-bacon, paj-med-spenat-fetaost, scones-med-cream-cheese-marmelad.",
+   "source_urls": [
+    "https://www.waynescoffee.no/produkt/supercino-rodbeta/",
+    "https://www.waynescoffee.com/product/appelpaj/",
+    "https://www.waynescoffee.com/product/blabarscheesecake/"
+   ],
+   "items": [],
+   "spot_check": []
+  },
+  {
+   "key": "godtbrod",
+   "chain": "Godt Brød",
+   "data_country": "NO",
+   "notes": "Godt Brød is a bakery chain, not a restaurant. Norwegian product pages on godtbrod.no print nutrition per 100 g only. No piece or loaf weights and no per-portion values are printed, so per_portion is empty, portion_g is null and every item is sure=false. No nutrition PDF found. Values were read via WebFetch summaries of the pages and may carry transcription risk. Several pages show identical values (Kanelknute vs Skillingsbolle; Loff vs Rundstykke lyst), possibly copied. Mandelcroissant and Sesamrundstykke have empty nutrition sections. Salt is the printed salt figure (sodium also printed). Coffee drinks and other breads (Frørik, Sesambrød, Lørdagsbrød, etc.) were not fetched. No backup-country data was used.",
+   "source_urls": [
+    "https://www.godtbrod.no/boller",
+    "https://www.godtbrod.no/brod",
+    "https://www.godtbrod.no/rundstykker"
+   ],
+   "items": [
+    {
+     "name": "Kardemommebolle",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {},
+     "per100": {
+      "kcal": 462,
+      "protein_g": 7.2,
+      "fat_g": 20.7,
+      "sat_fat_g": 9.3,
+      "carbs_g": 59.6,
+      "sugars_g": 18.8,
+      "fibre_g": 3.5,
+      "salt_g": 0.4
+     },
+     "source_url": "https://www.godtbrod.no/kardemommebolle",
+     "country": "NO",
+     "sure": false,
+     "note": "Per 100 g only; no piece weight printed. kJ 1936."
+    },
+    {
+     "name": "Mandelbolle",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {},
+     "per100": {
+      "kcal": 457,
+      "protein_g": 8.9,
+      "fat_g": 16.9,
+      "sat_fat_g": 3.9,
+      "carbs_g": 65.3,
+      "sugars_g": 21.2,
+      "fibre_g": 3.4,
+      "salt_g": 0.42
+     },
+     "source_url": "https://www.godtbrod.no/mandelbolle",
+     "country": "NO",
+     "sure": false,
+     "note": "Per 100 g only; no piece weight. kJ 1910."
+    },
+    {
+     "name": "Skillingsbolle med Rørossmør",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {},
+     "per100": {
+      "kcal": 306,
+      "protein_g": 5.3,
+      "fat_g": 11.7,
+      "sat_fat_g": 7.3,
+      "carbs_g": 45.1,
+      "sugars_g": 13.2,
+      "fibre_g": 1.2,
+      "salt_g": 0.12
+     },
+     "source_url": "https://www.godtbrod.no/skillingsbolle-med-rorossmor",
+     "country": "NO",
+     "sure": false,
+     "note": "Per 100 g only; no piece weight. kJ 1280."
+    },
+    {
+     "name": "Kanelknute med smør øko",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {},
+     "per100": {
+      "kcal": 306,
+      "protein_g": 5.3,
+      "fat_g": 11.7,
+      "sat_fat_g": 7.3,
+      "carbs_g": 45.1,
+      "sugars_g": 13.2,
+      "fibre_g": 1.2,
+      "salt_g": 0.12
+     },
+     "source_url": "https://www.godtbrod.no/kanelknute-med-smor-oko",
+     "country": "NO",
+     "sure": false,
+     "note": "Values identical to Skillingsbolle med Rørossmør page; possibly copied. No piece weight."
+    },
+    {
+     "name": "Sommerbolle",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {},
+     "per100": {
+      "kcal": 307,
+      "protein_g": 5.4,
+      "fat_g": 8.6,
+      "sat_fat_g": 1.3,
+      "carbs_g": 50,
+      "sugars_g": 16.4,
+      "fibre_g": 1.8,
+      "salt_g": 0.33
+     },
+     "source_url": "https://www.godtbrod.no/sommerbolle",
+     "country": "NO",
+     "sure": false,
+     "note": "Per 100 g only; seasonal; no piece weight. kJ 1283."
+    },
+    {
+     "name": "Prinsessebolle",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {},
+     "per100": {
+      "kcal": 293,
+      "protein_g": 5.4,
+      "fat_g": 6,
+      "sat_fat_g": 0.9,
+      "carbs_g": 51.9,
+      "sugars_g": 18.7,
+      "fibre_g": 2.3,
+      "salt_g": 0.34
+     },
+     "source_url": "https://www.godtbrod.no/prinsessebolle",
+     "country": "NO",
+     "sure": false,
+     "note": "Per 100 g only; no piece weight. kJ 1225."
+    },
+    {
+     "name": "Fylt bolle",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {},
+     "per100": {
+      "kcal": 269,
+      "protein_g": 5.1,
+      "fat_g": 6,
+      "sat_fat_g": 0.9,
+      "carbs_g": 46.3,
+      "sugars_g": 14.3,
+      "fibre_g": 2.2,
+      "salt_g": 0.27
+     },
+     "source_url": "https://www.godtbrod.no/fylte-boller",
+     "country": "NO",
+     "sure": false,
+     "note": "Per 100 g only; filling varies; no piece weight. kJ 1129."
+    },
+    {
+     "name": "Skolebolle",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {},
+     "per100": {
+      "kcal": 281,
+      "protein_g": 5.3,
+      "fat_g": 6.7,
+      "sat_fat_g": 1.5,
+      "carbs_g": 47.7,
+      "sugars_g": 14.7,
+      "fibre_g": 1.8,
+      "salt_g": 0.28
+     },
+     "source_url": "https://www.godtbrod.no/skolebolle",
+     "country": "NO",
+     "sure": false,
+     "note": "Per 100 g only; no piece weight. kJ 1175."
+    },
+    {
+     "name": "Rosinbolle stor",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {},
+     "per100": {
+      "kcal": 311,
+      "protein_g": 5.4,
+      "fat_g": 5.6,
+      "sat_fat_g": 0.5,
+      "carbs_g": 56.9,
+      "sugars_g": 24.2,
+      "fibre_g": 3.2,
+      "salt_g": 0.31
+     },
+     "source_url": "https://www.godtbrod.no/rosinbolle-stor",
+     "country": "NO",
+     "sure": false,
+     "note": "Per 100 g only; no piece weight. kJ 1300."
+    },
+    {
+     "name": "Hvetebolle",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {},
+     "per100": {
+      "kcal": 308,
+      "protein_g": 6.2,
+      "fat_g": 6.9,
+      "sat_fat_g": 0.6,
+      "carbs_g": 52.7,
+      "sugars_g": 11.8,
+      "fibre_g": 2.2,
+      "salt_g": 0.34
+     },
+     "source_url": "https://www.godtbrod.no/hvetebolle",
+     "country": "NO",
+     "sure": false,
+     "note": "Per 100 g only; no piece weight. kJ 1287."
+    },
+    {
+     "name": "Croissant",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {},
+     "per100": {
+      "kcal": 360,
+      "protein_g": 5.7,
+      "fat_g": 19.3,
+      "sat_fat_g": 12.5,
+      "carbs_g": 39.3,
+      "sugars_g": 8.1,
+      "fibre_g": 1.6,
+      "salt_g": 1.43
+     },
+     "source_url": "https://www.godtbrod.no/croissant",
+     "country": "NO",
+     "sure": false,
+     "note": "Per 100 g only; no piece weight. kJ 1505."
+    },
+    {
+     "name": "Pain au chocolat",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {},
+     "per100": {
+      "kcal": 398,
+      "protein_g": 5.8,
+      "fat_g": 23,
+      "sat_fat_g": 14.7,
+      "carbs_g": 40.6,
+      "sugars_g": 15.8,
+      "fibre_g": 3.2,
+      "salt_g": 1.1
+     },
+     "source_url": "https://www.godtbrod.no/pain-au-chocolate",
+     "country": "NO",
+     "sure": false,
+     "note": "Per 100 g only; no piece weight. kJ 1664."
+    },
+    {
+     "name": "Grov scones",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {},
+     "per100": {
+      "kcal": 260,
+      "protein_g": 6.9,
+      "fat_g": 10,
+      "sat_fat_g": 3.7,
+      "carbs_g": 33.1,
+      "sugars_g": 9.3,
+      "fibre_g": 5,
+      "salt_g": 1.27
+     },
+     "source_url": "https://www.godtbrod.no/scones-grov",
+     "country": "NO",
+     "sure": false,
+     "note": "Per 100 g only; no piece weight. kJ 1087."
+    },
+    {
+     "name": "Mandelcroissant",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {},
+     "per100": {},
+     "source_url": "https://www.godtbrod.no/mandelcroissant",
+     "country": "NO",
+     "sure": false,
+     "note": "Nutrition heading on page is empty; no values published."
+    },
+    {
+     "name": "Surdeigsbrød",
+     "category": "bread_cereal_grain",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {},
+     "per100": {
+      "kcal": 213,
+      "protein_g": 6.2,
+      "fat_g": 0.7,
+      "sat_fat_g": 0.1,
+      "carbs_g": 41.1,
+      "sugars_g": 0.6,
+      "fibre_g": 2.7,
+      "salt_g": 1.1
+     },
+     "source_url": "https://www.godtbrod.no/surdeigsbrod",
+     "country": "NO",
+     "sure": false,
+     "note": "Per 100 g only; no loaf/slice weight. kJ 890."
+    },
+    {
+     "name": "Loff",
+     "category": "bread_cereal_grain",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {},
+     "per100": {
+      "kcal": 243,
+      "protein_g": 6.7,
+      "fat_g": 2.1,
+      "sat_fat_g": 0.2,
+      "carbs_g": 46.4,
+      "sugars_g": 0.6,
+      "fibre_g": 2.3,
+      "salt_g": 0.9
+     },
+     "source_url": "https://www.godtbrod.no/loff",
+     "country": "NO",
+     "sure": false,
+     "note": "Per 100 g only; no weight. Values identical to Rundstykke lyst page. kJ 1016."
+    },
+    {
+     "name": "Rundstykke lyst",
+     "category": "bread_cereal_grain",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {},
+     "per100": {
+      "kcal": 243,
+      "protein_g": 6.7,
+      "fat_g": 2.1,
+      "sat_fat_g": 0.2,
+      "carbs_g": 46.4,
+      "sugars_g": 0.6,
+      "fibre_g": 2.3,
+      "salt_g": 0.9
+     },
+     "source_url": "https://www.godtbrod.no/rundstykke-lyst",
+     "country": "NO",
+     "sure": false,
+     "note": "Per 100 g only; no piece weight. Identical to Loff page. kJ 1016."
+    },
+    {
+     "name": "Rundstykke grovt",
+     "category": "bread_cereal_grain",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {},
+     "per100": {
+      "kcal": 247,
+      "protein_g": 6.7,
+      "fat_g": 3.1,
+      "sat_fat_g": 0.3,
+      "carbs_g": 44.8,
+      "sugars_g": 0.7,
+      "fibre_g": 3.9,
+      "salt_g": 0.99
+     },
+     "source_url": "https://www.godtbrod.no/rundstykke-grovt",
+     "country": "NO",
+     "sure": false,
+     "note": "Per 100 g only; no piece weight. kJ 1032."
+    },
+    {
+     "name": "Focaccia",
+     "category": "bread_cereal_grain",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {},
+     "per100": {
+      "kcal": 240,
+      "protein_g": 6.6,
+      "fat_g": 2.8,
+      "sat_fat_g": 0.4,
+      "carbs_g": 44.2,
+      "sugars_g": 0.6,
+      "fibre_g": 2.5,
+      "salt_g": 1.33
+     },
+     "source_url": "https://www.godtbrod.no/focaccia",
+     "country": "NO",
+     "sure": false,
+     "note": "Per 100 g only; no piece weight. Salt printed as '1,33' without unit. kJ 1003."
+    },
+    {
+     "name": "Müslibrød",
+     "category": "bread_cereal_grain",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {},
+     "per100": {
+      "kcal": 305,
+      "protein_g": 9.8,
+      "fat_g": 10.9,
+      "sat_fat_g": 1.3,
+      "carbs_g": 37.9,
+      "sugars_g": 6.8,
+      "fibre_g": 6.9,
+      "salt_g": 0.52
+     },
+     "source_url": "https://www.godtbrod.no/muslibrod",
+     "country": "NO",
+     "sure": false,
+     "note": "Per 100 g only; no loaf weight. kJ 1275."
+    },
+    {
+     "name": "Sesamrundstykke",
+     "category": "bread_cereal_grain",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {},
+     "per100": {},
+     "source_url": "https://www.godtbrod.no/sesamrundstykke",
+     "country": "NO",
+     "sure": false,
+     "note": "Nutrition heading on page is empty; no values published."
+    }
+   ],
+   "spot_check": [
+    {
+     "index": 0,
+     "confirmed": true,
+     "reason": "Godt Brød page (Norwegian, NO) prints 'Næringsinnhold per 100 g' with kcal 462 (kJ 1936), protein 7,2, carbs 59,6, sugars 18,8, fat 20,7, sat fat 9,3, fibre 3,5, and salt 0,4 g. All match. No piece weight is printed, so portion_g null is correct."
+    },
+    {
+     "index": 4,
+     "confirmed": true,
+     "reason": "Godt Brød page (Norwegian, NO) prints per 100 g: kcal 307 (kJ 1283), protein 5,4, carbs 50,0, sugars 16,4, fat 8,6, sat fat 1,3, fibre 1,8, salt 0,33 g. All match. No piece weight is printed, so portion_g null is correct."
+    },
+    {
+     "index": 8,
+     "confirmed": true,
+     "reason": "Godt Brød page (Norwegian, NO) prints per 100 g: kcal 311 (kJ 1300), protein 5,4, carbs 56,9, sugars 24,2, fat 5,6, sat fat 0,5, fibre 3,2, salt 0,31 g. All match. No piece weight is printed, so portion_g null is correct."
+    },
+    {
+     "index": 12,
+     "confirmed": true,
+     "reason": "Godt Brød page (Norwegian, NO) prints per 100 g: kcal 260 (kJ 1087), protein 6,9, carbs 33,1, sugars 9,3, fat 10,0, sat fat 3,7, fibre 5,0, salt 1,27 g. All match. No piece weight is printed, so portion_g null is correct."
+    },
+    {
+     "index": 16,
+     "confirmed": true,
+     "reason": "Godt Brød page (Norwegian, NO) prints per 100 g: kcal 243 (kJ 1016), protein 6,7, carbs 46,4, sugars 0,6, fat 2,1, sat fat 0,2, fibre 2,3, salt 0,90 g (sodium 0,35 g). All match. No piece weight is printed, so portion_g null is correct."
+    },
+    {
+     "index": 20,
+     "confirmed": false,
+     "reason": "Page is Norwegian (NO) but the nutrition section has only a heading and the line 'Næringsinformasjonen under gjelder for et produkt uten endringer.' No kcal, kJ, fat, carb, protein or salt values are printed. The item's zero-value per100 is unsupported, and the entry should not be stored as data."
+    }
+   ]
+  },
+  {
+   "key": "bakerhansen",
+   "chain": "Baker Hansen / Bakers",
+   "data_country": "NO",
+   "notes": "Only 1 item found. Baker Hansen (bakerhansen.no) product pages list allergens only; just Kanelbolle prints nutrition (per 100 g, no piece weight). Checked and found no nutrition: Croissant, Skolebrød, Kardemommebolle, Hvetebolle, Rosinbolle, Muffins, Bagels, Jubileumsbolle. No nutrition PDF found; the site points to post@bakerhansen.no for info. Bakers (bakers.no) was unreachable (ECONNREFUSED on both bakers.no and www.bakers.no); web search found no official Bakers nutrition page. Third-party data (matoppskrift.no, matvaretabellen.no, mylog.no) is not official chain data and was not used. No Swedish/Danish/UK backup was found for either chain. Remaining Baker Hansen pages (breads, other buns, scones) were not all checked, so more nutrition may exist on a few of them.",
+   "source_urls": [
+    "https://www.bakerhansen.no/produkt/kanelbolle/",
+    "https://www.bakerhansen.no/produktkategori/bakevarer/"
+   ],
+   "items": [
+    {
+     "name": "Kanelbolle",
+     "category": "snacks_sweets",
+     "unit": "g",
+     "portion_g": null,
+     "per_portion": {
+      "kcal": null,
+      "protein_g": null,
+      "fat_g": null,
+      "sat_fat_g": null,
+      "carbs_g": null,
+      "sugars_g": null,
+      "fibre_g": null,
+      "salt_g": null
+     },
+     "per100": {
+      "kcal": 304,
+      "kj": 1282,
+      "protein_g": 6.7,
+      "fat_g": 9.6,
+      "sat_fat_g": 4.7,
+      "carbs_g": 48,
+      "sugars_g": 14,
+      "fibre_g": null,
+      "salt_g": 0.33
+     },
+     "source_url": "https://www.bakerhansen.no/produkt/kanelbolle/",
+     "country": "NO",
+     "sure": false,
+     "note": "Per 100 g printed on the product page; piece weight not printed, so no per-portion values. sure=false because portion weight is missing."
+    }
+   ],
+   "spot_check": [
+    {
+     "index": 0,
+     "confirmed": false,
+     "reason": "The per-100 g values match the source at bakerhansen.no/produkt/kanelbolle/: 1282 kJ / 304 kcal, protein 6.7 g, fat 9.6 g, saturated fat 4.7 g, carbs 48 g, sugars 14 g, salt 0.33 g, with fibre not printed. Country NO is correct (Norwegian page, NOK prices, Baker Hansen AS in Norway). The source does not print a piece or portion weight, so the spec's requirement that it prints the portion weight cannot be met. The record's null portion_g and null per_portion are accurate to the source, and sure=false is the right flag."
+    }
+   ]
+  },
+  {
+   "key": "tgif",
+   "chain": "TGI Fridays Norway",
+   "data_country": "NO",
+   "notes": "No nutrition data found for TGI Fridays Norway. fridays.no menu pages (main-menu, lunch-menu, drinks-menu, afterwork_menu) list allergens in Norwegian only, with no kcal, no nutrition values, no portion weights and no nutrition PDF links. Searches for a Norwegian nutrition or allergen PDF found nothing. A UK backup exists: tgifridays.co.uk menu PDFs print kcal per dish only (no protein, fat, carbs, salt or portion weights, as far as search snippets show), and the UK recipes and menu differ from Norway (for example, the Mozzarella Dippers kcal changed between UK menu versions). The UK Core PDF could not be parsed by WebFetch (binary stream). Because kcal-only UK values cannot be matched to the current Norwegian menu and have no portion weights, I returned no items rather than guess. Third-party sites (mylog, fatsecret) are user-maintained and were not used. Possible follow-up: extract UK PDF text with pdftotext (saved copy at C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Documents-Claude-Github-Makro\\1869626e-2a48-4b10-b394-c99638cb99e3\\tool-results\\webfetch-1794586482995-dgvuyj.pdf) and import kcal-only UK items with sure=false if wanted.",
+   "source_urls": [
+    "https://fridays.no",
+    "https://fridays.no/main-menu/",
+    "https://www.tgifridays.co.uk/sites/default/files/2026-03/TGI%20Core_web.pdf"
+   ],
+   "items": [],
+   "spot_check": []
+  },
+  {
+   "key": "burgerking2",
+   "chain": "Burger King",
+   "data_country": "NO",
+   "notes": "No items collected. Norway does publish a nutrition PDF: https://burgerking.no/services/pdf/download/nutrition (found via search; the snippet says it is about 1,181 days old, so roughly 3 years). burgerking.no is an Angular single-page app. WebFetch and a plain download returned only the empty HTML shell (4,350 bytes, content-type text/html), not the PDF or its data. I tried to read the site's JavaScript bundle for the underlying API or PDF path, but the permission classifier denied that action, so I stopped and did not work around it. burgerking.se is the same kind of app shell, and I found no Swedish, Danish or UK Burger King nutrition PDF. Only third-party figures turned up (mylog.no, MyFitnessPal, fatsecret, spisetips.no, US-based sites). They conflict with each other (for example, Whopper 608 to 678 kcal) and none is the chain's own printed data, so I did not use them. Burger King Lithuania (burgerking.lt) and Cyprus (burgerking.com.cy) publish per-item nutrition on their menu pages. I did not use them because they are outside the allowed backup countries (SE, DK, UK). Suggested next step: have a person with a browser download the Norwegian PDF, or allow reading burgerking.no's JS bundle to find the PDF or API URL, then re-run.",
+   "source_urls": [
+    "https://burgerking.no/services/pdf/download/nutrition",
+    "https://burgerking.no/menu",
+    "https://spisetips.no/burger-king-naeringsinnhold/"
+   ],
+   "items": [],
+   "spot_check": []
+  },
+  {
+   "key": "sushi",
+   "chain": "Sabi Sushi and Yo! Sushi (Norway)",
+   "data_country": "GB",
+   "notes": "Sabi Sushi: no nutrition published. sabi.no and nettbutikk.sabi.no have a JS-rendered menu and an allergen page (/allergener) with no kcal or macros; no nutrition PDF found; search found only allergen tags per dish. No items returned for Sabi.\nYo! Sushi: has an Oslo restaurant (Østbanehallen) but I found no Norwegian nutrition source (yosushi.no does not resolve). The only published numbers are the UK Yo! Sushi dine-in allergen and nutrition page (menus.tenkites.com/yosushi/allergenpageyosushi). It gives per-serving values, no portion weights and no per 100 g. All items are backup data from GB with sure=false, and it is not confirmed they are on the Norwegian menu. Source columns: kJ, kcal, fat, saturates, sugars, salt, protein, carb, starch, fibre. Values were parsed from page text by script, so a name-to-row mismatch is possible (popcorn shrimp the least certain). Not included: items where the name could not be matched reliably (for example prawn crackers had two differing rows).",
+   "source_urls": [
+    "https://menus.tenkites.com/yosushi/allergenpageyosushi",
+    "https://yosushi.com/allergens",
+    "https://yosushi.com/restaurants/oslo-central-station",
+    "https://nettbutikk.sabi.no/allergener",
+    "https://sabi.no"
+   ],
+   "items": [
+    {
+     "name": "salmon nigiri",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "per_portion": {
+      "kcal": 149,
+      "protein_g": 5.9,
+      "fat_g": 5.6,
+      "sat_fat_g": 0.7,
+      "carbs_g": 18.8,
+      "sugars_g": 2.4,
+      "fibre_g": 0.2,
+      "salt_g": 0.6
+     },
+     "portion_g": null,
+     "per100": {},
+     "source_url": "https://menus.tenkites.com/yosushi/allergenpageyosushi",
+     "country": "GB",
+     "sure": false,
+     "note": "UK Yo! Sushi dine-in menu, per serving; no portion weight printed; not confirmed on Norwegian menu"
+    },
+    {
+     "name": "tuna nigiri",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "per_portion": {
+      "kcal": 114,
+      "protein_g": 8.9,
+      "fat_g": 0.5,
+      "sat_fat_g": 0.1,
+      "carbs_g": 18.8,
+      "sugars_g": 2.5,
+      "fibre_g": 0.4,
+      "salt_g": 0.6
+     },
+     "portion_g": null,
+     "per100": {},
+     "source_url": "https://menus.tenkites.com/yosushi/allergenpageyosushi",
+     "country": "GB",
+     "sure": false,
+     "note": "UK data, per serving; no weight"
+    },
+    {
+     "name": "salmon maki",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "per_portion": {
+      "kcal": 197,
+      "protein_g": 6.2,
+      "fat_g": 4.8,
+      "sat_fat_g": 0.6,
+      "carbs_g": 28.4,
+      "sugars_g": 3.6,
+      "fibre_g": 0.9,
+      "salt_g": 0.9
+     },
+     "portion_g": null,
+     "per100": {},
+     "source_url": "https://menus.tenkites.com/yosushi/allergenpageyosushi",
+     "country": "GB",
+     "sure": false,
+     "note": "UK data, per serving; no weight"
+    },
+    {
+     "name": "salmon sashimi",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "per_portion": {
+      "kcal": 176,
+      "protein_g": 12.2,
+      "fat_g": 13.8,
+      "sat_fat_g": 1.7,
+      "carbs_g": 1.2,
+      "sugars_g": 0.4,
+      "fibre_g": 0.4,
+      "salt_g": 0.2
+     },
+     "portion_g": null,
+     "per100": {},
+     "source_url": "https://menus.tenkites.com/yosushi/allergenpageyosushi",
+     "country": "GB",
+     "sure": false,
+     "note": "UK data, per serving; no weight"
+    },
+    {
+     "name": "nigiri 'n' maki mix",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "per_portion": {
+      "kcal": 274,
+      "protein_g": 9.9,
+      "fat_g": 6.8,
+      "sat_fat_g": 0.9,
+      "carbs_g": 40.4,
+      "sugars_g": 5.3,
+      "fibre_g": 1.2,
+      "salt_g": 1.2
+     },
+     "portion_g": null,
+     "per100": {},
+     "source_url": "https://menus.tenkites.com/yosushi/allergenpageyosushi",
+     "country": "GB",
+     "sure": false,
+     "note": "UK data, per serving; no weight"
+    },
+    {
+     "name": "salmon top hits",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "per_portion": {
+      "kcal": 320,
+      "protein_g": 13.9,
+      "fat_g": 14.2,
+      "sat_fat_g": 1.8,
+      "carbs_g": 32.2,
+      "sugars_g": 5,
+      "fibre_g": 1.2,
+      "salt_g": 1.4
+     },
+     "portion_g": null,
+     "per100": {},
+     "source_url": "https://menus.tenkites.com/yosushi/allergenpageyosushi",
+     "country": "GB",
+     "sure": false,
+     "note": "UK data, per serving; no weight"
+    },
+    {
+     "name": "crunchy california roll",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "per_portion": {
+      "kcal": 296,
+      "protein_g": 4.1,
+      "fat_g": 17.6,
+      "sat_fat_g": 2.5,
+      "carbs_g": 29,
+      "sugars_g": 6.8,
+      "fibre_g": 1.3,
+      "salt_g": 1.5
+     },
+     "portion_g": null,
+     "per100": {},
+     "source_url": "https://menus.tenkites.com/yosushi/allergenpageyosushi",
+     "country": "GB",
+     "sure": false,
+     "note": "UK data, per serving; no weight"
+    },
+    {
+     "name": "yo roll",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "per_portion": {
+      "kcal": 192,
+      "protein_g": 6.4,
+      "fat_g": 7.5,
+      "sat_fat_g": 1,
+      "carbs_g": 22.6,
+      "sugars_g": 3.9,
+      "fibre_g": 0.9,
+      "salt_g": 1
+     },
+     "portion_g": null,
+     "per100": {},
+     "source_url": "https://menus.tenkites.com/yosushi/allergenpageyosushi",
+     "country": "GB",
+     "sure": false,
+     "note": "UK data, per serving; no weight"
+    },
+    {
+     "name": "dynamite roll",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "per_portion": {
+      "kcal": 245,
+      "protein_g": 4.7,
+      "fat_g": 12.7,
+      "sat_fat_g": 2.1,
+      "carbs_g": 26.9,
+      "sugars_g": 6.6,
+      "fibre_g": 1.1,
+      "salt_g": 1.2
+     },
+     "portion_g": null,
+     "per100": {},
+     "source_url": "https://menus.tenkites.com/yosushi/allergenpageyosushi",
+     "country": "GB",
+     "sure": false,
+     "note": "UK data, per serving; no weight"
+    },
+    {
+     "name": "salmon dragon roll",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "per_portion": {
+      "kcal": 230,
+      "protein_g": 7,
+      "fat_g": 11.4,
+      "sat_fat_g": 1.3,
+      "carbs_g": 23,
+      "sugars_g": 3.3,
+      "fibre_g": 0.9,
+      "salt_g": 0.9
+     },
+     "portion_g": null,
+     "per100": {},
+     "source_url": "https://menus.tenkites.com/yosushi/allergenpageyosushi",
+     "country": "GB",
+     "sure": false,
+     "note": "UK data, per serving; no weight"
+    },
+    {
+     "name": "avocado maki",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "per_portion": {
+      "kcal": 202,
+      "protein_g": 2.8,
+      "fat_g": 6.4,
+      "sat_fat_g": 1.1,
+      "carbs_g": 29,
+      "sugars_g": 3.8,
+      "fibre_g": 1.7,
+      "salt_g": 0.9
+     },
+     "portion_g": null,
+     "per100": {},
+     "source_url": "https://menus.tenkites.com/yosushi/allergenpageyosushi",
+     "country": "GB",
+     "sure": false,
+     "note": "UK data, per serving; no weight"
+    },
+    {
+     "name": "hoisin duck roll",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "per_portion": {
+      "kcal": 159,
+      "protein_g": 5.9,
+      "fat_g": 1.4,
+      "sat_fat_g": 0.6,
+      "carbs_g": 28.9,
+      "sugars_g": 8.7,
+      "fibre_g": 0.8,
+      "salt_g": 1
+     },
+     "portion_g": null,
+     "per100": {},
+     "source_url": "https://menus.tenkites.com/yosushi/allergenpageyosushi",
+     "country": "GB",
+     "sure": false,
+     "note": "UK data, per serving; no weight"
+    },
+    {
+     "name": "korean bbq chicken roll",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "per_portion": {
+      "kcal": 163,
+      "protein_g": 6.2,
+      "fat_g": 3.6,
+      "sat_fat_g": 0.3,
+      "carbs_g": 24.8,
+      "sugars_g": 5.7,
+      "fibre_g": 1,
+      "salt_g": 1
+     },
+     "portion_g": null,
+     "per100": {},
+     "source_url": "https://menus.tenkites.com/yosushi/allergenpageyosushi",
+     "country": "GB",
+     "sure": false,
+     "note": "UK data, per serving; no weight"
+    },
+    {
+     "name": "classic edamame",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "per_portion": {
+      "kcal": 129,
+      "protein_g": 12.3,
+      "fat_g": 4.7,
+      "sat_fat_g": 0.7,
+      "carbs_g": 5.9,
+      "sugars_g": 2.8,
+      "fibre_g": 7.5,
+      "salt_g": 1
+     },
+     "portion_g": null,
+     "per100": {},
+     "source_url": "https://menus.tenkites.com/yosushi/allergenpageyosushi",
+     "country": "GB",
+     "sure": false,
+     "note": "UK data, per serving; no weight"
+    },
+    {
+     "name": "chicken teriyaki donburi",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "per_portion": {
+      "kcal": 664,
+      "protein_g": 43.9,
+      "fat_g": 14.3,
+      "sat_fat_g": 3.7,
+      "carbs_g": 91.2,
+      "sugars_g": 15.7,
+      "fibre_g": 1.2,
+      "salt_g": 3.8
+     },
+     "portion_g": null,
+     "per100": {},
+     "source_url": "https://menus.tenkites.com/yosushi/allergenpageyosushi",
+     "country": "GB",
+     "sure": false,
+     "note": "UK data, per serving; no weight"
+    },
+    {
+     "name": "chicken dashi ramen",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "per_portion": {
+      "kcal": 644,
+      "protein_g": 43.3,
+      "fat_g": 16.2,
+      "sat_fat_g": 4.2,
+      "carbs_g": 77.4,
+      "sugars_g": 15.3,
+      "fibre_g": 5,
+      "salt_g": 9.7
+     },
+     "portion_g": null,
+     "per100": {},
+     "source_url": "https://menus.tenkites.com/yosushi/allergenpageyosushi",
+     "country": "GB",
+     "sure": false,
+     "note": "UK data, per serving; no weight"
+    },
+    {
+     "name": "korean chicken bao",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "per_portion": {
+      "kcal": 321,
+      "protein_g": 10.8,
+      "fat_g": 13.6,
+      "sat_fat_g": 2.6,
+      "carbs_g": 38.8,
+      "sugars_g": 14.9,
+      "fibre_g": 0.8,
+      "salt_g": 1
+     },
+     "portion_g": null,
+     "per100": {},
+     "source_url": "https://menus.tenkites.com/yosushi/allergenpageyosushi",
+     "country": "GB",
+     "sure": false,
+     "note": "UK data, per serving; no weight"
+    },
+    {
+     "name": "popcorn shrimp",
+     "category": "ready_meals_sauces",
+     "unit": "g",
+     "per_portion": {
+      "kcal": 427,
+      "protein_g": 14,
+      "fat_g": 27.8,
+      "sat_fat_g": 2.3,
+      "carbs_g": 27.1,
+      "sugars_g": 15.4,
+      "fibre_g": 0,
+      "salt_g": 2.4
+     },
+     "portion_g": null,
+     "per100": {},
+     "source_url": "https://menus.tenkites.com/yosushi/allergenpageyosushi",
+     "country": "GB",
+     "sure": false,
+     "note": "UK data, per serving; no weight; row parsed from page text, name match somewhat uncertain"
+    },
+    {
+     "name": "steamed rice",
+     "category": "bread_cereal_grain",
+     "unit": "g",
+     "per_portion": {
+      "kcal": 264,
+      "protein_g": 4.3,
+      "fat_g": 0.3,
+      "sat_fat_g": 0,
+      "carbs_g": 61.2,
+      "sugars_g": 0.2,
+      "fibre_g": 0.7,
+      "salt_g": 0
+     },
+     "portion_g": null,
+     "per100": {},
+     "source_url": "https://menus.tenkites.com/yosushi/allergenpageyosushi",
+     "country": "GB",
+     "sure": false,
+     "note": "UK data, per serving; no weight"
+    }
+   ],
+   "spot_check": [
+    {
+     "index": 0,
+     "confirmed": true,
+     "reason": "Source row 'salmon nigiri' prints 623 kJ, 149 kcal, fat 5.6, sat 0.7, sugars 2.4, salt 0.6, protein 5.9, carb 18.8, fibre 0.2, per serving. All values match. No portion weight is printed (record null, consistent). Page is UK (Belfast, Heathrow, Selfridges Manchester menus); no Norway content, so the Norwegian menu is still unconfirmed."
+    },
+    {
+     "index": 3,
+     "confirmed": true,
+     "reason": "Source row 'salmon sashimi' prints 731 kJ, 176 kcal, fat 13.8, sat 1.7, sugars 0.4, salt 0.2, protein 12.2, carb 1.2, fibre 0.4, per serving. All values match. No weight printed. UK source only; Norway not confirmed."
+    },
+    {
+     "index": 7,
+     "confirmed": true,
+     "reason": "Source row 'yo roll' prints 759 kJ, 192 kcal, fat 7.5, sat 1.0, sugars 3.9, salt 1.0, protein 6.4, carb 22.6, fibre 0.9, per serving. All values match. No weight printed. UK source only; Norway not confirmed."
+    },
+    {
+     "index": 11,
+     "confirmed": true,
+     "reason": "Source row 'hoisin duck roll' prints 627 kJ, 159 kcal, fat 1.4, sat 0.6, sugars 8.7, salt 1.0, protein 5.9, carb 28.9, fibre 0.8, per serving. All values match. No weight printed. UK source only; Norway not confirmed."
+    },
+    {
+     "index": 15,
+     "confirmed": true,
+     "reason": "Source row 'chicken dashi ramen' prints 2,685 kJ, 644 kcal, fat 16.2, sat 4.2, sugars 15.3, salt 9.7, protein 43.3, carb 77.4, fibre 5.0, per serving. All values match. No weight printed. UK source only; Norway not confirmed."
+    },
+    {
+     "index": 18,
+     "confirmed": true,
+     "reason": "Source row 'steamed rice' prints 1,105 kJ, 264 kcal, fat 0.3, sat 0.0, sugars 0.2, salt 0.0, protein 4.3, carb 61.2, fibre 0.7, per serving. All values match. No weight printed. UK source only; Norway not confirmed."
+    }
+   ]
+  }
+ ],
+ "applied": [
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Kanelbolle",
+   "id": "kaffebrenneriet:kanelbolle"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Kardemommebolle",
+   "id": "kaffebrenneriet:kardemommebolle"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Sjokoladeknute",
+   "id": "kaffebrenneriet:sjokoladeknute"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Croissant",
+   "id": "kaffebrenneriet:croissant"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Mandelcroissantsnurr",
+   "id": "kaffebrenneriet:mandelcroissantsnurr"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Blåbærmuffins",
+   "id": "kaffebrenneriet:blabaermuffins"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Cookie Chocolate Chip",
+   "id": "kaffebrenneriet:cookie-chocolate-chip"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Rosinscones",
+   "id": "kaffebrenneriet:rosinscones"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Tekake sitron",
+   "id": "kaffebrenneriet:tekake-sitron"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Havrekjeks",
+   "id": "kaffebrenneriet:havrekjeks"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "New York Cheesecake",
+   "id": "kaffebrenneriet:new-york-cheesecake"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Gulrotkake",
+   "id": "kaffebrenneriet:gulrotkake"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Sjokoladekake",
+   "id": "kaffebrenneriet:sjokoladekake"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Suksesskake",
+   "id": "kaffebrenneriet:suksesskake"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Bananbrød",
+   "id": "kaffebrenneriet:bananbrod"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Røkelaks & Egg (sandwich)",
+   "id": "kaffebrenneriet:rokelaks-egg-sandwich"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Serrano Reserva & Provolone (sandwich)",
+   "id": "kaffebrenneriet:serrano-reserva-provolone-sandwich"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Jarlsberg & Setesdalsmør (sandwich)",
+   "id": "kaffebrenneriet:jarlsberg-setesdalsmor-sandwich"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Kylling & pesto (sandwich)",
+   "id": "kaffebrenneriet:kylling-pesto-sandwich"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Torshovskinke (sandwich)",
+   "id": "kaffebrenneriet:torshovskinke-sandwich"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Müslibrød (sandwich)",
+   "id": "kaffebrenneriet:muslibrod-sandwich"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Quiche spinat & feta",
+   "id": "kaffebrenneriet:quiche-spinat-feta"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Yoghurt",
+   "id": "kaffebrenneriet:yoghurt"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Klassisk Granola",
+   "id": "kaffebrenneriet:klassisk-granola"
+  },
+  {
+   "chain": "kaffebrenneriet",
+   "name": "Chiapudding",
+   "id": "kaffebrenneriet:chiapudding"
+  },
+  {
+   "chain": "godtbrod",
+   "name": "Kardemommebolle",
+   "id": "godt-brod:kardemommebolle"
+  },
+  {
+   "chain": "godtbrod",
+   "name": "Mandelbolle",
+   "id": "godt-brod:mandelbolle"
+  },
+  {
+   "chain": "godtbrod",
+   "name": "Skillingsbolle med Rørossmør",
+   "id": "godt-brod:skillingsbolle-med-rorossmor"
+  },
+  {
+   "chain": "godtbrod",
+   "name": "Kanelknute med smør øko",
+   "id": "godt-brod:kanelknute-med-smor-oko"
+  },
+  {
+   "chain": "godtbrod",
+   "name": "Sommerbolle",
+   "id": "godt-brod:sommerbolle"
+  },
+  {
+   "chain": "godtbrod",
+   "name": "Prinsessebolle",
+   "id": "godt-brod:prinsessebolle"
+  },
+  {
+   "chain": "godtbrod",
+   "name": "Fylt bolle",
+   "id": "godt-brod:fylt-bolle"
+  },
+  {
+   "chain": "godtbrod",
+   "name": "Skolebolle",
+   "id": "godt-brod:skolebolle"
+  },
+  {
+   "chain": "godtbrod",
+   "name": "Rosinbolle stor",
+   "id": "godt-brod:rosinbolle-stor"
+  },
+  {
+   "chain": "godtbrod",
+   "name": "Hvetebolle",
+   "id": "godt-brod:hvetebolle"
+  },
+  {
+   "chain": "godtbrod",
+   "name": "Croissant",
+   "id": "godt-brod:croissant"
+  },
+  {
+   "chain": "godtbrod",
+   "name": "Pain au chocolat",
+   "id": "godt-brod:pain-au-chocolat"
+  },
+  {
+   "chain": "godtbrod",
+   "name": "Grov scones",
+   "id": "godt-brod:grov-scones"
+  },
+  {
+   "chain": "godtbrod",
+   "name": "Surdeigsbrød",
+   "id": "godt-brod:surdeigsbrod"
+  },
+  {
+   "chain": "godtbrod",
+   "name": "Loff",
+   "id": "godt-brod:loff"
+  },
+  {
+   "chain": "godtbrod",
+   "name": "Rundstykke lyst",
+   "id": "godt-brod:rundstykke-lyst"
+  },
+  {
+   "chain": "godtbrod",
+   "name": "Rundstykke grovt",
+   "id": "godt-brod:rundstykke-grovt"
+  },
+  {
+   "chain": "godtbrod",
+   "name": "Focaccia",
+   "id": "godt-brod:focaccia"
+  },
+  {
+   "chain": "godtbrod",
+   "name": "Müslibrød",
+   "id": "godt-brod:muslibrod"
+  }
+ ],
+ "held": [
+  {
+   "chain": "godtbrod",
+   "name": "Mandelcroissant",
+   "why": "no per-100 values and no portion size"
+  },
+  {
+   "chain": "godtbrod",
+   "name": "Sesamrundstykke",
+   "why": "spot check failed"
+  },
+  {
+   "chain": "bakerhansen",
+   "name": "Kanelbolle",
+   "why": "chain held for review (no Norwegian data, could not be checked, or no portion weights)"
+  },
+  {
+   "chain": "sushi",
+   "name": "salmon nigiri",
+   "why": "chain held for review (no Norwegian data, could not be checked, or no portion weights)"
+  },
+  {
+   "chain": "sushi",
+   "name": "tuna nigiri",
+   "why": "chain held for review (no Norwegian data, could not be checked, or no portion weights)"
+  },
+  {
+   "chain": "sushi",
+   "name": "salmon maki",
+   "why": "chain held for review (no Norwegian data, could not be checked, or no portion weights)"
+  },
+  {
+   "chain": "sushi",
+   "name": "salmon sashimi",
+   "why": "chain held for review (no Norwegian data, could not be checked, or no portion weights)"
+  },
+  {
+   "chain": "sushi",
+   "name": "nigiri 'n' maki mix",
+   "why": "chain held for review (no Norwegian data, could not be checked, or no portion weights)"
+  },
+  {
+   "chain": "sushi",
+   "name": "salmon top hits",
+   "why": "chain held for review (no Norwegian data, could not be checked, or no portion weights)"
+  },
+  {
+   "chain": "sushi",
+   "name": "crunchy california roll",
+   "why": "chain held for review (no Norwegian data, could not be checked, or no portion weights)"
+  },
+  {
+   "chain": "sushi",
+   "name": "yo roll",
+   "why": "chain held for review (no Norwegian data, could not be checked, or no portion weights)"
+  },
+  {
+   "chain": "sushi",
+   "name": "dynamite roll",
+   "why": "chain held for review (no Norwegian data, could not be checked, or no portion weights)"
+  },
+  {
+   "chain": "sushi",
+   "name": "salmon dragon roll",
+   "why": "chain held for review (no Norwegian data, could not be checked, or no portion weights)"
+  },
+  {
+   "chain": "sushi",
+   "name": "avocado maki",
+   "why": "chain held for review (no Norwegian data, could not be checked, or no portion weights)"
+  },
+  {
+   "chain": "sushi",
+   "name": "hoisin duck roll",
+   "why": "chain held for review (no Norwegian data, could not be checked, or no portion weights)"
+  },
+  {
+   "chain": "sushi",
+   "name": "korean bbq chicken roll",
+   "why": "chain held for review (no Norwegian data, could not be checked, or no portion weights)"
+  },
+  {
+   "chain": "sushi",
+   "name": "classic edamame",
+   "why": "chain held for review (no Norwegian data, could not be checked, or no portion weights)"
+  },
+  {
+   "chain": "sushi",
+   "name": "chicken teriyaki donburi",
+   "why": "chain held for review (no Norwegian data, could not be checked, or no portion weights)"
+  },
+  {
+   "chain": "sushi",
+   "name": "chicken dashi ramen",
+   "why": "chain held for review (no Norwegian data, could not be checked, or no portion weights)"
+  },
+  {
+   "chain": "sushi",
+   "name": "korean chicken bao",
+   "why": "chain held for review (no Norwegian data, could not be checked, or no portion weights)"
+  },
+  {
+   "chain": "sushi",
+   "name": "popcorn shrimp",
+   "why": "chain held for review (no Norwegian data, could not be checked, or no portion weights)"
+  },
+  {
+   "chain": "sushi",
+   "name": "steamed rice",
+   "why": "chain held for review (no Norwegian data, could not be checked, or no portion weights)"
+  }
+ ]
+}
