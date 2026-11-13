@@ -143,6 +143,7 @@ SOURCES = {
     'subway-uk': ('Subway (UK numbers)', 'brand'),
     'mcdonalds-no': ("McDonald's", 'brand'),
     'peppes': ('Peppes Pizza', 'brand'),
+    'espresso-house': ('Espresso House', 'brand'),
     # Burger King Norway prints values per portion only; stored per portion (Makro decision 42).
     'burgerking-no': ('Burger King', 'brand'),
     'proteinbolaget': ('Proteinbolaget', 'shop'),
@@ -847,7 +848,7 @@ create table meta(key text primary key, value text not null);
         stats['verified'] += derived['verified']
         stats['per_100_ml'] += derived['per_100_unit'] == 'ml'
         derived['brand'] = fam.tidy_brand(p['brand'], short_brands)
-        derived['name'] = tidy_percent(brand_first(cleanup.no_empty_brackets(fam.display_name(p['name'], p['brand'], lines, short_brands)), derived['brand'], brand_counts))
+        derived['name'] = tidy_percent(brand_first(cleanup.no_empty_brackets(fam.display_name(p['name'], p['brand'], lines, short_brands, p.get('name_checked'))), derived['brand'], brand_counts))
         listings = [pack_sources[i] for i in [p['id']] + listings_of.get(p['id'], []) if i in pack_sources]
         derived['pack_size'] = checked_sizes.get(p['id']) or pack_label(listings, derived['per_100_unit']) or cleanup.size_text(p['pack_size'])
         vals = [derived[c] if c in derived else p[_SHARD_NAME.get(c, c)] for c in PRODUCT_COLUMNS]
@@ -860,6 +861,10 @@ create table meta(key text primary key, value text not null);
     pairs = [(e['product_id'], e['ean']) for e in read_shard(data_dir, manifest, 'product_eans')]
     pairs += [(pid, p['ean']) for pid, p in kept.items()]
     pairs += [(pid, e) for pid, p in kept.items() for e in p.get('extra_eans', ())]  # checked.json add_eans
+    # checked.json take_eans: a barcode on the wrong row moves to the row that takes it.
+    taken = {canonical_ean(e): pid for pid, p in kept.items() for e in p.get('take_eans', ())}
+    pairs = [(pid, e) for pid, e in pairs if taken.get(canonical_ean(e), moved.get(pid, pid)) == moved.get(pid, pid)]
+    pairs += [(pid, e) for e, pid in taken.items()]
     for pid, raw in pairs:
         pid = moved.get(pid, pid)
         if pid not in kept:

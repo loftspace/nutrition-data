@@ -9,7 +9,7 @@ checked.json:
   fixes:  [{id, name?, category?, sizes?: ["150 g", "300 g"], nutrients?: {kcal: 268, fibre_g: null, ...}, source_url}]
           a null nutrient means the label does not give it: the value becomes unknown, never 0
           add_eans: barcodes the shops sell this same product under that the data did not know (scanning finds it)
-x
+          take_eans: barcodes that sit on the wrong row; they move to this row (an add with take_eans: true takes its own eans)
   drop:   [{id, why}]                  numbers that cannot be true (salt 12 g in fish cakes); the id goes to removed
   add:    [{id, name, brand, category, unit, sizes, eans, nutrients, source, source_url, serving_g?, derived?, menu?}]
           menu: true for a restaurant menu item (no barcode)
@@ -123,7 +123,7 @@ def apply(checked, kept, moved, extra_search, flags_by_id, units, stats, open_so
             'pack_size': None,
             'brand': spelling.get(''.join((a.get('brand') or '').lower().split()), a.get('brand')),
             'ean': (a.get('eans') or [None])[0], 'flavour': None, 'category': a['category'], 'serving_g': a.get('serving_g'),
-            'primary_source': a['source'], 'status': 'from_source', 'data_quality': None,
+            'primary_source': a['source'], 'status': 'from_source', 'data_quality': None, 'name_checked': True,
             **{k: n.get(k) for k in NUTRIENTS},
         }
         flags_by_id[a['id']] = ([] if n.get('fibre_g') is not None else ['missing_fibre']) + (['per100_derived_from_serving'] if a.get('derived') else [])
@@ -149,6 +149,8 @@ def apply(checked, kept, moved, extra_search, flags_by_id, units, stats, open_so
         cleanup.tidy_nutrients(kept[a['id']], flags_by_id[a['id']])
         units[a['id']] = a['unit']
         extra_search[a['id']] = ' '.join(a.get('also_known_as', ()))
+        if a.get('take_eans'):
+            kept[a['id']]['take_eans'] = list(a['eans'])
     sizes = {a['id']: ', '.join(a['sizes']) for a in checked.get('add', ()) if a.get('sizes') and a['id'] in kept}
     fixed = 0
     for f in checked.get('fixes', ()):
@@ -159,10 +161,13 @@ def apply(checked, kept, moved, extra_search, flags_by_id, units, stats, open_so
         if f.get('name'):
             extra_search[f['id']] = ' '.join(x for x in (extra_search.get(f['id']), p['name']) if x)
             p['name'] = f['name']
+            p['name_checked'] = True
         if f.get('category'):
             p['category'] = f['category']
         if f.get('add_eans'):
             p['extra_eans'] = list(p.get('extra_eans', ())) + list(f['add_eans'])
+        if f.get('take_eans'):
+            p['take_eans'] = list(p.get('take_eans', ())) + list(f['take_eans'])
         if f.get('sizes'):
             sizes[f['id']] = ', '.join(f['sizes'])
         n = f.get('nutrients')

@@ -1,0 +1,7437 @@
+{
+ "note": "Round Q, 2026-11-14 (/next items 1, 4, 6): same-name groups, held review items and unbranded meat. Sonnet decided, code checked; these failed the checks or were unsure.",
+ "stats": {
+  "auto fold ok": 71,
+  "auto fold target is a new addition": 9,
+  "name fold numbers differ": 213,
+  "name fold ok": 110,
+  "name unsure": 288,
+  "rename ok": 325,
+  "rename refused": 3,
+  "name fold target is a new addition": 8,
+  "held not_duplicate": 218,
+  "held unsure": 102,
+  "held fold variant words differ": 28,
+  "held fold ok": 5,
+  "held new ok": 92,
+  "held update ok": 11,
+  "meat ok": 207,
+  "meat no generic": 117,
+  "brand row kept (M)": 17,
+  "brand row updated (M)": 31
+ },
+ "held": [
+  {
+   "id": "store:5029396738569",
+   "into": "store:5029396322782",
+   "why": "code fold refused: target is a new addition"
+  },
+  {
+   "id": "store:7030019544366",
+   "into": "store:7030019544359",
+   "why": "code fold refused: target is a new addition"
+  },
+  {
+   "id": "store:7033850008509",
+   "into": "store:7033850007625",
+   "why": "code fold refused: target is a new addition"
+  },
+  {
+   "id": "store:7310350131020",
+   "into": "store:7310350118175",
+   "why": "code fold refused: target is a new addition"
+  },
+  {
+   "id": "store:7037210121815",
+   "into": "store:7037210120719",
+   "why": "code fold refused: target is a new addition"
+  },
+  {
+   "id": "store:7043180114122",
+   "into": "store:7043180114023",
+   "why": "code fold refused: target is a new addition"
+  },
+  {
+   "id": "store:7030019545639",
+   "into": "store:7030019545622",
+   "why": "code fold refused: target is a new addition"
+  },
+  {
+   "id": "store:7044610876658",
+   "into": "store:7044610876313",
+   "why": "code fold refused: target is a new addition"
+  },
+  {
+   "id": "store:5707196263077",
+   "into": "store:5707196165890",
+   "why": "code fold refused: target is a new addition"
+  },
+  {
+   "id": "nordicpower-no:https://nordicpower.no/produkt/clear-whey-isolate-500g/",
+   "into": "apex-no:https://apex.no/produkt/clear-whey-isolate-i-500g/",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same pack, numbers within about 6%"
+  },
+  {
+   "id": "goldenathlete:https://goldenathlete.se/sv/cream-of-rice",
+   "why": "same name, agent unsure",
+   "reason": "carbs 69.8 vs 83; identical numbers to the Swedish Supplements chocolate row, but its words name no flavour"
+  },
+  {
+   "id": "nordicpower-no:https://nordicpower.no/produkt/cream-of-rice-1000g/",
+   "into": "apex-no:https://apex.no/produkt/cream-of-rice-i-1kg/",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 346 equal, protein within 15% but same plain 1 kg product"
+  },
+  {
+   "id": "ean:5711657026026",
+   "why": "same name, agent unsure",
+   "reason": "36 kcal vs 107 for the same name, flavour and pack; probably prepared drink values, no words to tell apart"
+  },
+  {
+   "id": "ean:7350069383921",
+   "into": "bodypower:https://www.bodypower.se/kosttillskott-1/livsmedel/grot-gryn-1/swedish-supplements-cream-of-rice-heavenly-rich-chocolate-1kg",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "vanilla gelato flavour of the same recipe, kcal 346 vs 340, within 10%"
+  },
+  {
+   "id": "ean:5711657018472",
+   "why": "same name, agent unsure",
+   "reason": "136 kcal vs 203, words list three flavours so cannot tell which"
+  },
+  {
+   "id": "ean:5711657023711",
+   "into": "tights:516176",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "150 vs 167 kcal, within about 10%"
+  },
+  {
+   "id": "tights:516176",
+   "why": "same name, agent unsure",
+   "reason": "167 kcal, no flavour in its words, differs from first row by 18%"
+  },
+  {
+   "id": "ean:5744002360414",
+   "why": "same name, agent unsure",
+   "reason": "31 vs 39 kcal and different fat, same product name; about 20% apart"
+  },
+  {
+   "id": "sportkost:https://www.sportkost.se/kosttillskott/proteinpulver/vassleprotein/vassleproteinkoncentrat/swedish-supplements-lifestyle-whey-mixmatch-3x900g",
+   "into": "bodypower:https://www.bodypower.se/kosttillskott-1/protein/proteinpulver/swedish-supplements-lifestyle-whey-banana-split-900g",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "multipack of same recipe, kcal 385 vs 382"
+  },
+  {
+   "id": "tights:123682",
+   "why": "same name, agent unsure",
+   "reason": "kcal 383 vs 343 (12%) and fat 6 vs 0.8, same name and pack"
+  },
+  {
+   "id": "gymgrossisten:https://www.gymgrossisten.no/start-strong-pro/BUNDLESTARTSTRONGPRO.html",
+   "into": "bodystore-dk:https://www.bodystore.dk/start-strong-pro/BUNDLESTARTSTRONGPRO.html",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same bundle code, numbers within 4%"
+  },
+  {
+   "id": "bodystore:SETBSVASSLECREATINE",
+   "into": "bodystore-se:SETBSVASSLECREATINE",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same set code, same kcal"
+  },
+  {
+   "id": "proteinfabrikken:https://www.proteinfabrikken.no/grass-fed-whey-protein-isolate-750-g-stainless-steel-shaker-white/SETGWSHAKE.html",
+   "into": "bodystore-se:SETGWSHAKE",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same set code, same kcal"
+  },
+  {
+   "id": "ean:7315122034783",
+   "why": "same name, agent unsure",
+   "reason": "466 vs 507 kcal, fat 19 vs 26; no words or pack size to tell apart"
+  },
+  {
+   "id": "ean:4056489669074",
+   "why": "same name, agent unsure",
+   "reason": "146 vs 176 kcal, fat 5.2 vs 8.3; no words or pack size to tell apart"
+  },
+  {
+   "id": "norgesgruppen:23877024",
+   "why": "same name, agent unsure",
+   "reason": "196 kcal, fat 14, salt 0.6; about 14% off, no distinguishing words"
+  },
+  {
+   "id": "ean:7310960040989",
+   "into": "ean:0000031027045",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 183 vs 196, same product"
+  },
+  {
+   "id": "ean:0000054033993",
+   "why": "same name, agent unsure",
+   "reason": "1 kcal vs 18 kcal; probably zero vs regular version but no words say so"
+  },
+  {
+   "id": "ean:0702162611178",
+   "why": "same name, agent unsure",
+   "reason": "generic sushi, 295 vs 149 kcal, no words"
+  },
+  {
+   "id": "norgesgruppen:31104",
+   "why": "same name, agent unsure",
+   "reason": "0.1 kcal, looks like bad data"
+  },
+  {
+   "id": "ean:7350021425638",
+   "into": "ean:0000084752222",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same product, kcal 501 vs 531"
+  },
+  {
+   "id": "ean:0090478005621",
+   "into": "norgesgruppen:90478008509",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same drink, 38.2 vs 38 kcal"
+  },
+  {
+   "id": "ean:0709032404496",
+   "why": "same name, agent unsure",
+   "reason": "258 vs 305 kcal, no words to tell apart"
+  },
+  {
+   "id": "ean:0700083676801",
+   "why": "same name, agent unsure",
+   "reason": "17 kcal vs 3, has sugar; probably a sugared version but no words say so"
+  },
+  {
+   "id": "ean:6416344413569",
+   "into": "ean:7611612221702",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "sugar-free, 2 vs 3 kcal"
+  },
+  {
+   "id": "nordicpower-no:https://nordicpower.no/produkt/whey-protein-deluxe-2kg/",
+   "into": "ean:0702811133006",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 368 vs 387, protein 73 vs 70, within about 5%"
+  },
+  {
+   "id": "ean:0736532140036",
+   "why": "same name, agent unsure",
+   "reason": "180 vs 92 kcal, no words or pack size to tell apart"
+  },
+  {
+   "id": "ean:0736532230195",
+   "why": "same name, agent unsure",
+   "reason": "111 vs 370 kcal, possibly a ready drink, no words to tell apart"
+  },
+  {
+   "id": "ean:0855564003048",
+   "into": "ean:0855564003024",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal, fat and carbs identical; first row only lacks protein"
+  },
+  {
+   "id": "ean:0855564003062",
+   "why": "same name, agent unsure",
+   "reason": "499 kcal, fat 28, salt 1.5; probably another flavour but no words say so"
+  },
+  {
+   "id": "ean:1306461804799",
+   "into": "ean:7340001805055",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "393 vs 389 kcal"
+  },
+  {
+   "id": "ean:7033550601222",
+   "into": "ean:17041614004077",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "305 vs 302 kcal"
+  },
+  {
+   "id": "tillskottsbolaget:https://www.tillskottsbolaget.se/sv/12-x-propud-proteinbar-55-g-not-creme",
+   "into": "ean:17350068295413",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same 55 g bar, 436 vs 421 kcal"
+  },
+  {
+   "id": "norgesgruppen:6667",
+   "why": "same name, agent unsure",
+   "reason": "282 vs 237 kcal, fat 6.5 vs 1.2; no words to tell apart"
+  },
+  {
+   "id": "ean:7340191117303",
+   "into": "matvaretabellen:06.107",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "plain almonds, kcal within 8%"
+  },
+  {
+   "id": "ean:2000492400003",
+   "into": "matvaretabellen:06.107",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "plain almonds, kcal within 9%"
+  },
+  {
+   "id": "ean:2000561200008",
+   "into": "norgesgruppen:5612",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same product; its numbers are broken (4 kcal, per kg error)"
+  },
+  {
+   "id": "norgesgruppen:6812",
+   "into": "ean:2000681200001",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same cut, kcal 117 vs 118"
+  },
+  {
+   "id": "ean:7055330020627",
+   "why": "same name, agent unsure",
+   "reason": "kcal 123 vs 111 (11%), no words to tell them apart"
+  },
+  {
+   "id": "norgesgruppen:7255",
+   "into": "ean:2000725500005",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 106 vs 107"
+  },
+  {
+   "id": "norgesgruppen:7355",
+   "into": "ean:2000735500002",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 124 vs 115, within about 7%"
+  },
+  {
+   "id": "norgesgruppen:7467",
+   "why": "same name, agent unsure",
+   "reason": "kcal 384 vs 332 and fat 36.6 vs 29, no words to separate"
+  },
+  {
+   "id": "ean:2100793413143",
+   "why": "same name, agent unsure",
+   "reason": "kcal 196 vs 282, no distinguishing words"
+  },
+  {
+   "id": "ean:2000892459908",
+   "why": "same name, agent unsure",
+   "reason": "kcal 421 vs 499; pack size lists two sizes (70 g, 250 g), no flavour words"
+  },
+  {
+   "id": "ean:2000902528709",
+   "why": "same name, agent unsure",
+   "reason": "kcal 257 vs 227 (12%), no distinguishing words"
+  },
+  {
+   "id": "ean:2096718144554",
+   "into": "ean:2091769169112",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 195 vs 214, within 9%"
+  },
+  {
+   "id": "ean:2307116808024",
+   "new_name": "Guldfågeln Majskyckling Bröstfilé",
+   "why": "rename refused: words not in the row's own data",
+   "reason": "words say brlstfile (brostfile); 120 vs 160 kcal"
+  },
+  {
+   "id": "ean:7313940012617",
+   "into": "ean:2307136108203",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 160 both, same recipe"
+  },
+  {
+   "id": "ean:2307984013476",
+   "why": "same name, agent unsure",
+   "reason": "kcal 180 vs 120, no distinguishing words"
+  },
+  {
+   "id": "ean:7340083434709",
+   "why": "same name, agent unsure",
+   "reason": "kcal 100 vs 120, no distinguishing words"
+  },
+  {
+   "id": "ean:2310860912503",
+   "why": "same name, agent unsure",
+   "reason": "kcal 370 vs 231, no distinguishing words"
+  },
+  {
+   "id": "ean:7340023809826",
+   "into": "ean:2313197805906",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 122 vs 123"
+  },
+  {
+   "id": "ean:2319117113434",
+   "why": "same name, agent unsure",
+   "reason": "kcal 191 vs 145, no distinguishing words"
+  },
+  {
+   "id": "ean:2319118316612",
+   "why": "same name, agent unsure",
+   "reason": "kcal 172 vs 130, no distinguishing words"
+  },
+  {
+   "id": "ean:2319232109541",
+   "why": "same name, agent unsure",
+   "reason": "kcal 102 vs 122, no distinguishing words"
+  },
+  {
+   "id": "ean:2319228108947",
+   "why": "same name, agent unsure",
+   "reason": "kcal 160 vs 122, no distinguishing words"
+  },
+  {
+   "id": "ean:2319316106404",
+   "why": "same name, agent unsure",
+   "reason": "kcal 21 looks like broken data, no words"
+  },
+  {
+   "id": "ean:2320321610466",
+   "into": "ean:2320074507419",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 110 vs 120, within 9%"
+  },
+  {
+   "id": "ean:7300200054005",
+   "why": "same name, agent unsure",
+   "reason": "kcal 130 vs 185, no distinguishing words"
+  },
+  {
+   "id": "ean:2332815117702",
+   "why": "same name, agent unsure",
+   "reason": "kcal 150 vs 103, no distinguishing words"
+  },
+  {
+   "id": "ean:7300328531006",
+   "why": "same name, agent unsure",
+   "reason": "kcal 120 vs 160, no distinguishing words"
+  },
+  {
+   "id": "norgesgruppen:23877075",
+   "why": "same name, agent unsure",
+   "reason": "kcal 110 with carbs 3.3 suggests marinated; no words to confirm"
+  },
+  {
+   "id": "ean:7350025545554",
+   "into": "ean:2354873004787",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 98 vs 91, within 8%"
+  },
+  {
+   "id": "ean:2355022610385",
+   "why": "same name, agent unsure",
+   "reason": "fat 20 vs 12, no words tell it apart"
+  },
+  {
+   "id": "ean:2355022209138",
+   "why": "same name, agent unsure",
+   "reason": "numbers about 2/3 of first, no distinguishing words"
+  },
+  {
+   "id": "ean:7090006864402",
+   "why": "same name, agent unsure",
+   "reason": "212 vs 176 kcal, no words"
+  },
+  {
+   "id": "ean:7393193003211",
+   "why": "same name, agent unsure",
+   "reason": "190 vs 94 kcal, no words"
+  },
+  {
+   "id": "ean:2371586606510",
+   "why": "same name, agent unsure",
+   "reason": "fat 4 vs 2.7, only word is eu"
+  },
+  {
+   "id": "ean:3800233780543",
+   "why": "same name, agent unsure",
+   "reason": "fat 40 vs 50, identical words"
+  },
+  {
+   "id": "ean:5401009000018",
+   "into": "ean:4000007009354",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "only kcal, no other nutrients, same fruit"
+  },
+  {
+   "id": "ean:4001686018620",
+   "why": "same name, agent unsure",
+   "reason": "protein 0.5, sugars 62, likely another flavour, no words"
+  },
+  {
+   "id": "ean:7010015258887",
+   "why": "same name, agent unsure",
+   "reason": "499 vs 464 kcal, fat 24 vs 18, first has flavour words"
+  },
+  {
+   "id": "ean:4056489770299",
+   "into": "ean:4056489265658",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "472 vs 446 kcal, same recipe"
+  },
+  {
+   "id": "ean:4056489767916",
+   "why": "same name, agent unsure",
+   "reason": "276 vs 460 kcal, no words"
+  },
+  {
+   "id": "ean:4335619115385",
+   "why": "same name, agent unsure",
+   "reason": "123 vs 99 kcal, fat 4.1 vs 1.7"
+  },
+  {
+   "id": "ean:7331044008657",
+   "why": "same name, agent unsure",
+   "reason": "190 vs 230 kcal, no words"
+  },
+  {
+   "id": "ean:4335619115828",
+   "into": "ean:4335619115408",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "99 vs 99 kcal"
+  },
+  {
+   "id": "ean:7350024600438",
+   "into": "ean:4390314401225",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "390 vs 371 kcal, within about 5%"
+  },
+  {
+   "id": "ean:4770209049051",
+   "why": "same name, agent unsure",
+   "reason": "fat 6 vs 8.1, 297 vs 328 kcal"
+  },
+  {
+   "id": "ean:5902296002230",
+   "why": "same name, agent unsure",
+   "reason": "32 vs 15 kcal, no words"
+  },
+  {
+   "id": "ean:4823097816660",
+   "why": "same name, agent unsure",
+   "reason": "181 vs 272 kcal, no words"
+  },
+  {
+   "id": "ean:5000112643763",
+   "why": "same name, agent unsure",
+   "reason": "0.4 kcal, probably a zero drink but no words say so"
+  },
+  {
+   "id": "ean:5060402906312",
+   "why": "same name, agent unsure",
+   "reason": "351 kcal, protein 33, likely a protein bar, no words"
+  },
+  {
+   "id": "ean:5010338404475",
+   "why": "same name, agent unsure",
+   "reason": "57 vs 73 kcal, no words"
+  },
+  {
+   "id": "ean:5021554986706",
+   "why": "same name, agent unsure",
+   "reason": "protein 8.8 vs 0.1, sizes differ"
+  },
+  {
+   "id": "ean:5029396739030",
+   "why": "same name, agent unsure",
+   "reason": "29 vs 20 kcal, no words"
+  },
+  {
+   "id": "ean:5053990107384",
+   "into": "ean:5053990138753",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same recipe, kcal within 4%"
+  },
+  {
+   "id": "ean:7340191149311",
+   "why": "same name, agent unsure",
+   "reason": "numbers differ a lot, no brand or words to tell apart"
+  },
+  {
+   "id": "ean:7070097075314",
+   "into": "ean:5076497081230",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same product, kcal within 4%"
+  },
+  {
+   "id": "ean:7311070003970",
+   "why": "same name, agent unsure",
+   "reason": "302 kcal vs 257, no words to tell apart"
+  },
+  {
+   "id": "ean:7311070007404",
+   "into": "ean:5311270008609",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "252 vs 257 kcal"
+  },
+  {
+   "id": "ean:7311043014101",
+   "into": "ean:5346483493386",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same kcal"
+  },
+  {
+   "id": "ean:5411211404320",
+   "into": "matvaretabellen:03.463",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 8%"
+  },
+  {
+   "id": "store:7055330034150",
+   "into": "matvaretabellen:03.463",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 3%"
+  },
+  {
+   "id": "ean:5745000038183",
+   "why": "same name, agent unsure",
+   "reason": "4 vs 36 kcal, identical words, likely bad data"
+  },
+  {
+   "id": "ean:5701073062524",
+   "into": "ean:5701073061503",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 2%"
+  },
+  {
+   "id": "ean:5714126000022",
+   "into": "ean:5704297111412",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same recipe, other pack, kcal within 7%"
+  },
+  {
+   "id": "ean:5704297113522",
+   "into": "ean:5704297113508",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 4%"
+  },
+  {
+   "id": "ean:5704297173021",
+   "into": "ean:5704297173007",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 1%"
+  },
+  {
+   "id": "ean:5707293051256",
+   "into": "ean:5707293051249",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 4%"
+  },
+  {
+   "id": "ean:5707293053113",
+   "into": "ean:5707293053106",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same kcal"
+  },
+  {
+   "id": "ean:5708636869545",
+   "into": "ean:5708636444117",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same kcal"
+  },
+  {
+   "id": "ean:5710858802934",
+   "into": "ean:5710858802910",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 5%"
+  },
+  {
+   "id": "ean:5711657025197",
+   "into": "ean:5711657011473",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 1%"
+  },
+  {
+   "id": "ean:5711657025210",
+   "into": "ean:5711657011473",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 4%, flavours of one recipe"
+  },
+  {
+   "id": "ean:5711657015761",
+   "into": "ean:5711657015747",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 4%, flavour"
+  },
+  {
+   "id": "ean:7310401007168",
+   "why": "same name, agent unsure",
+   "reason": "41 vs 17 kcal, possibly regular vs zero, no words to tell apart"
+  },
+  {
+   "id": "ean:5712081105202",
+   "into": "ean:5712081101204",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 3%"
+  },
+  {
+   "id": "ean:5712622160080",
+   "into": "ean:5712622160042",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 10%, pack size only"
+  },
+  {
+   "id": "ean:5740001202007",
+   "why": "same name, agent unsure",
+   "reason": "numbers differ a lot, no brand or words to tell apart"
+  },
+  {
+   "id": "ean:5765228396957",
+   "why": "same name, agent unsure",
+   "reason": "numbers differ a lot (360 vs 100 kcal), no words tell them apart"
+  },
+  {
+   "id": "ean:5999076267224",
+   "why": "same name, agent unsure",
+   "reason": "protein 76 vs 68, no distinguishing words"
+  },
+  {
+   "id": "ean:7999876223039",
+   "why": "same name, agent unsure",
+   "reason": "words list many flavours, numbers differ"
+  },
+  {
+   "id": "ean:6409630008839",
+   "why": "same name, agent unsure",
+   "reason": "numbers differ a lot, no words"
+  },
+  {
+   "id": "ean:7020568001649",
+   "into": "ean:7020568001632",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 7%, same pack"
+  },
+  {
+   "id": "ean:7020655525966",
+   "why": "same name, agent unsure",
+   "reason": "kcal 352 vs 246, no words"
+  },
+  {
+   "id": "ean:7021860017062",
+   "why": "same name, agent unsure",
+   "reason": "protein differs 33%, only pack size differs"
+  },
+  {
+   "id": "ean:7021990008411",
+   "why": "same name, agent unsure",
+   "reason": "kcal does not match fat, data looks wrong"
+  },
+  {
+   "id": "ean:7057370031564",
+   "why": "same name, agent unsure",
+   "reason": "numbers differ, no words"
+  },
+  {
+   "id": "ean:7024850027942",
+   "why": "same name, agent unsure",
+   "reason": "kcal 225 vs 267, no words"
+  },
+  {
+   "id": "ean:7024850028055",
+   "into": "ean:7024850018841",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 3%"
+  },
+  {
+   "id": "ean:7024850083269",
+   "why": "same name, agent unsure",
+   "reason": "kcal 153 vs 244, no words"
+  },
+  {
+   "id": "ean:7025110153562",
+   "why": "same name, agent unsure",
+   "reason": "kcal 170 vs 276, no words"
+  },
+  {
+   "id": "ean:7311041077344",
+   "why": "same name, agent unsure",
+   "reason": "27 vs 2 kcal, no words"
+  },
+  {
+   "id": "ean:7025110216441",
+   "into": "ean:7025110181800",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 6%"
+  },
+  {
+   "id": "ean:7025110217370",
+   "into": "ean:0000011011798",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 7%"
+  },
+  {
+   "id": "store:7025441018455",
+   "why": "same name, agent unsure",
+   "reason": "numbers differ about 4x, no words"
+  },
+  {
+   "id": "norgesgruppen:6300",
+   "why": "same name, agent unsure",
+   "reason": "no words or pack, numbers differ"
+  },
+  {
+   "id": "ean:7070622011817",
+   "into": "ean:7029121011811",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 2%"
+  },
+  {
+   "id": "ean:7029161132323",
+   "why": "same name, agent unsure",
+   "reason": "sugars 1.6 vs 13, no words"
+  },
+  {
+   "id": "ean:7029161127916",
+   "why": "same name, agent unsure",
+   "reason": "fat 4.6 vs 14, no words"
+  },
+  {
+   "id": "ean:7029993010028",
+   "why": "same name, agent unsure",
+   "reason": "kcal differs 15%, no words"
+  },
+  {
+   "id": "ean:7030019532103",
+   "into": "ean:7030019532073",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same kcal, other pack size"
+  },
+  {
+   "id": "ean:7031204644144",
+   "into": "matvaretabellen:03.152",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "numbers within about 10%"
+  },
+  {
+   "id": "ean:7032069103029",
+   "why": "same name, agent unsure",
+   "reason": "numbers differ, no words or pack size to tell apart"
+  },
+  {
+   "id": "kassalapp:31527",
+   "into": "ean:7032069105382",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "numbers within about 10%"
+  },
+  {
+   "id": "ean:7032069731055",
+   "why": "same name, agent unsure",
+   "reason": "numbers differ, nothing to tell apart"
+  },
+  {
+   "id": "ean:7032069739280",
+   "why": "same name, agent unsure",
+   "reason": "34 vs 189 kcal, probably berries vs jam, no data to say"
+  },
+  {
+   "id": "ean:7055330034570",
+   "into": "ean:7035620039683",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within about 8%, pack sizes of one recipe"
+  },
+  {
+   "id": "ean:7035620052040",
+   "why": "same name, agent unsure",
+   "reason": "numbers differ, same 460 g, nothing to tell apart"
+  },
+  {
+   "id": "ean:7315200590989",
+   "why": "same name, agent unsure",
+   "reason": "260 vs 558 kcal, nothing to tell apart"
+  },
+  {
+   "id": "ean:7037203636128",
+   "why": "same name, agent unsure",
+   "reason": "numbers differ over 10%, same 300 g, nothing to tell apart"
+  },
+  {
+   "id": "ean:7037203640149",
+   "into": "ean:7037206100008",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "fat, carbs, protein and salt identical; kcal likely a data error"
+  },
+  {
+   "id": "ean:7037203641757",
+   "into": "ean:7037204742132",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "numbers within about 5% of the sliced 120 g row"
+  },
+  {
+   "id": "ean:7037210121235",
+   "why": "same name, agent unsure",
+   "reason": "81 kcal, no pack or words to tell apart"
+  },
+  {
+   "id": "ean:7070841003365",
+   "why": "same name, agent unsure",
+   "reason": "numbers differ 15%, pack sizes overlap, nothing to tell apart"
+  },
+  {
+   "id": "ean:7037421061962",
+   "into": "ean:7037421061337",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "numbers nearly equal"
+  },
+  {
+   "id": "ean:8037420067711",
+   "into": "ean:7037421067582",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "numbers within about 5%"
+  },
+  {
+   "id": "ean:7090054420001",
+   "why": "same name, agent unsure",
+   "reason": "fat 14 vs 24, nothing to tell apart"
+  },
+  {
+   "id": "ean:7037421098838",
+   "why": "same name, agent unsure",
+   "reason": "529 vs 366 kcal, pack sizes overlap, nothing to tell apart"
+  },
+  {
+   "id": "ean:7039010016094",
+   "why": "same name, agent unsure",
+   "reason": "183 vs 114 kcal, nothing to tell apart"
+  },
+  {
+   "id": "openfoodfacts:0070390100163",
+   "why": "same name, agent unsure",
+   "reason": "156 vs 246 kcal, no pack size or words to tell apart"
+  },
+  {
+   "id": "ean:7040511829724",
+   "into": "ean:7039281553571",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same kcal and carbs"
+  },
+  {
+   "id": "norgesgruppen:9287",
+   "why": "same name, agent unsure",
+   "reason": "201 vs 159 kcal, no label to tell apart"
+  },
+  {
+   "id": "ean:8712738027403",
+   "why": "same name, agent unsure",
+   "reason": "207 vs 50 kcal (maybe dried), no words"
+  },
+  {
+   "id": "ean:7040518507779",
+   "why": "same name, agent unsure",
+   "reason": "37 vs 46 kcal, same words, no pack size"
+  },
+  {
+   "id": "ean:7613287302038",
+   "why": "same name, agent unsure",
+   "reason": "4 kcal vs 182 kcal, same pack, no words"
+  },
+  {
+   "id": "ringnes:https://www.ringnes.no/produkter/tuborg/tuborg-lite/",
+   "why": "same name, agent unsure",
+   "reason": "words mix several variants (raspberry twist), numbers per 100 ml vs first row"
+  },
+  {
+   "id": "ean:7044610874487",
+   "into": "ean:7044610872988",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same pack, kcal 25 vs 23"
+  },
+  {
+   "id": "ean:7045386167001",
+   "why": "same name, agent unsure",
+   "reason": "216 vs 258 kcal, no label"
+  },
+  {
+   "id": "norgesgruppen:8729",
+   "into": "ean:7046280016167",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same product, within about 10%"
+  },
+  {
+   "id": "norgesgruppen:6918",
+   "why": "same name, agent unsure",
+   "reason": "no label to tell apart"
+  },
+  {
+   "id": "ean:7052930009106",
+   "why": "same name, agent unsure",
+   "reason": "207 vs 352 kcal, no label"
+  },
+  {
+   "id": "ean:7090012723274",
+   "into": "ean:7053365670077",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same pack, within 10%"
+  },
+  {
+   "id": "ean:7090012723250",
+   "into": "ean:7053365670121",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same recipe, close numbers"
+  },
+  {
+   "id": "ean:7056120509131",
+   "into": "ean:7056120506956",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 360 vs 352"
+  },
+  {
+   "id": "ean:7057370031373",
+   "into": "ean:7057370025174",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 107 vs 111"
+  },
+  {
+   "id": "openfoodfacts:14778526",
+   "why": "same name, agent unsure",
+   "reason": "425 vs 194 kcal, same pack, no words"
+  },
+  {
+   "id": "ean:7070099751339",
+   "into": "ean:7070099751094",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same fondant, kcal equal"
+  },
+  {
+   "id": "ean:7071319030197",
+   "why": "same name, agent unsure",
+   "reason": "37 vs 45 kcal, same pack, no words"
+  },
+  {
+   "id": "ean:7072175800696",
+   "why": "same name, agent unsure",
+   "reason": "fat 8.3 vs 6.8, no distinguishing words"
+  },
+  {
+   "id": "ean:7072200001081",
+   "why": "same name, agent unsure",
+   "reason": "much leaner (1.6 g fat), no words to tell apart"
+  },
+  {
+   "id": "ean:7072615015864",
+   "why": "same name, agent unsure",
+   "reason": "153 vs 105 kcal, no words to tell apart"
+  },
+  {
+   "id": "norgesgruppen:8963",
+   "why": "same name, agent unsure",
+   "reason": "277 vs 182 kcal, same pack, no words"
+  },
+  {
+   "id": "norgesgruppen:8964",
+   "why": "same name, agent unsure",
+   "reason": "590 kcal, no words"
+  },
+  {
+   "id": "ean:7090046126645",
+   "into": "ean:7073313000190",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "444 vs 436 kcal, pack sizes only"
+  },
+  {
+   "id": "ean:7090013751214",
+   "why": "same name, agent unsure",
+   "reason": "299 vs 217 kcal, same pack size 300 g, no words"
+  },
+  {
+   "id": "tights-discontinued:186622",
+   "why": "same name, agent unsure",
+   "reason": "same kcal and fat but carbs 10 vs 37; words mention mandler & havsalt multipack"
+  },
+  {
+   "id": "sportkost:https://www.sportkost.se/halsokost/livsmedel-1/bakning/sukrin-sirup-gold-325g",
+   "into": "ean:7090017541989",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "161 vs 149 kcal, same product in other pack"
+  },
+  {
+   "id": "tights-discontinued:14097940",
+   "into": "ean:7090017654016",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same 6 kcal, multipack of same product"
+  },
+  {
+   "id": "tights-discontinued:3748594",
+   "into": "ean:7090017654016",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "3x pack of same product"
+  },
+  {
+   "id": "ean:7090046146476",
+   "into": "ean:7090046136439",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "340 vs 360 kcal, same protein, pack size only"
+  },
+  {
+   "id": "tights-discontinued:4267195",
+   "into": "ean:7090046139461",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "558 vs 579 kcal, same pack"
+  },
+  {
+   "id": "norgesgruppen:9241",
+   "into": "ean:7090046511212",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "256 vs 240 kcal, within 7%"
+  },
+  {
+   "id": "ean:7090046940234",
+   "why": "same name, agent unsure",
+   "reason": "salt values look wrong; no words to tell apart"
+  },
+  {
+   "id": "ean:7090046940333",
+   "why": "same name, agent unsure",
+   "reason": "208 kcal and odd salt value; no words"
+  },
+  {
+   "id": "ean:7090049243554",
+   "new_name": "SunnRask Frysetørket Papaya",
+   "why": "rename refused: words not in the row's own data",
+   "reason": "words: papayabiter"
+  },
+  {
+   "id": "ean:7090049243578",
+   "new_name": "SunnRask Frysetørket Fersken",
+   "why": "rename refused: words not in the row's own data",
+   "reason": "words: ferskenskiver"
+  },
+  {
+   "id": "tights-discontinued:2527579",
+   "into": "ean:7090049243066",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same carbs, 3x500g pack of same product"
+  },
+  {
+   "id": "tights-discontinued:1365503",
+   "into": "ean:7090049246456",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "695 vs 691 kcal"
+  },
+  {
+   "id": "tights-discontinued:4159937",
+   "why": "same name, agent unsure",
+   "reason": "75 vs 233 kcal; words say 3x pack, numbers conflict"
+  },
+  {
+   "id": "ean:7090049280092",
+   "into": "ean:7090049280054",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same kcal, pack size only"
+  },
+  {
+   "id": "ean:7090061080281",
+   "why": "same name, agent unsure",
+   "reason": "same words and pack; fat and sugar differ about 10%"
+  },
+  {
+   "id": "ean:7300156584809",
+   "why": "same name, agent unsure",
+   "reason": "different numbers, no distinguishing words"
+  },
+  {
+   "id": "ean:7300327541006",
+   "why": "same name, agent unsure",
+   "reason": "kcal and fat differ a lot, no distinguishing words"
+  },
+  {
+   "id": "ean:7310350119790",
+   "why": "same name, agent unsure",
+   "reason": "words list many flavours; numbers differ"
+  },
+  {
+   "id": "ean:7801620855161",
+   "into": "ean:7310070005281",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "both zero-calorie 7UP Zero"
+  },
+  {
+   "id": "ean:7310070008299",
+   "why": "same name, agent unsure",
+   "reason": "near zero kcal, likely a Free/Zero variant, no words"
+  },
+  {
+   "id": "ean:7310070381903",
+   "why": "same name, agent unsure",
+   "reason": "19 kcal, likely reduced sugar variant, no words"
+  },
+  {
+   "id": "ean:7393914000208",
+   "why": "same name, agent unsure",
+   "reason": "numbers differ about 20%, no distinguishing words"
+  },
+  {
+   "id": "ean:7310240406702",
+   "into": "ean:7310240001846",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal, fat and carbs within 3%"
+  },
+  {
+   "id": "ean:7310401041834",
+   "why": "same name, agent unsure",
+   "reason": "2 kcal, likely sugar-free, not stated in words"
+  },
+  {
+   "id": "ean:7310401057941",
+   "why": "same name, agent unsure",
+   "reason": "1 kcal, likely zero variant, not stated in words"
+  },
+  {
+   "id": "ean:7310470061306",
+   "why": "same name, agent unsure",
+   "reason": "same pack, fat much higher, no words"
+  },
+  {
+   "id": "ean:7310861011484",
+   "why": "same name, agent unsure",
+   "reason": "same pack, fat 2.3 vs 3.7, no words"
+  },
+  {
+   "id": "ean:7310960044154",
+   "why": "same name, agent unsure",
+   "reason": "same pack as first, numbers differ"
+  },
+  {
+   "id": "ean:7310960044147",
+   "why": "same name, agent unsure",
+   "reason": "kcal and fat differ about 13 to 25%"
+  },
+  {
+   "id": "ean:7310960044109",
+   "why": "same name, agent unsure",
+   "reason": "kcal 176 vs 247, no words"
+  },
+  {
+   "id": "ean:7310960044239",
+   "why": "same name, agent unsure",
+   "reason": "kcal 12% above first, no words"
+  },
+  {
+   "id": "ean:7310960051398",
+   "why": "same name, agent unsure",
+   "reason": "fat 4.7 vs 7.7, no distinguishing words"
+  },
+  {
+   "id": "ean:7340083468452",
+   "into": "ean:7311043003334",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 617 vs 624, same recipe name"
+  },
+  {
+   "id": "ean:7340083481291",
+   "why": "same name, agent unsure",
+   "reason": "kcal 66 vs 98, no distinguishing words"
+  },
+  {
+   "id": "ean:7340083437564",
+   "into": "ean:7311043013081",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 158 vs 161"
+  },
+  {
+   "id": "ean:7311043025466",
+   "into": "ean:7311043015276",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 45 vs 46"
+  },
+  {
+   "id": "ean:7340083430244",
+   "why": "same name, agent unsure",
+   "reason": "kcal 86 vs 38, no distinguishing words"
+  },
+  {
+   "id": "ean:7340083430237",
+   "why": "same name, agent unsure",
+   "reason": "kcal 109 vs 43, no distinguishing words"
+  },
+  {
+   "id": "ean:7311043025350",
+   "why": "same name, agent unsure",
+   "reason": "kcal 338 vs 402, no distinguishing words"
+  },
+  {
+   "id": "ean:7340083465413",
+   "why": "same name, agent unsure",
+   "reason": "kcal 43 vs 51, no distinguishing words"
+  },
+  {
+   "id": "ean:7311070004137",
+   "into": "ean:7311070003857",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 287 vs 271, pack sizes of one recipe"
+  },
+  {
+   "id": "ean:7350126081821",
+   "into": "ean:7311171004135",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 266 vs 249"
+  },
+  {
+   "id": "ean:7311312001177",
+   "into": "ean:7311310035464",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 166 vs 182, same product"
+  },
+  {
+   "id": "ean:7311311014017",
+   "into": "ean:7311310048310",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 160 vs 176, same spice mix"
+  },
+  {
+   "id": "ean:7312631410435",
+   "why": "same name, agent unsure",
+   "reason": "kcal 426 vs 480, same pack, no distinguishing words"
+  },
+  {
+   "id": "ean:7311364840618",
+   "into": "ean:7311360000313",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 260 vs 250"
+  },
+  {
+   "id": "ean:7312690208097",
+   "why": "same name, agent unsure",
+   "reason": "kcal 330 vs 280, no distinguishing words"
+  },
+  {
+   "id": "ean:7312690201357",
+   "why": "same name, agent unsure",
+   "reason": "kcal 150 vs 190, no distinguishing words"
+  },
+  {
+   "id": "ean:7312690800246",
+   "why": "same name, agent unsure",
+   "reason": "kcal 260 vs 338, no distinguishing words"
+  },
+  {
+   "id": "ean:7312930000634",
+   "why": "same name, agent unsure",
+   "reason": "kcal 401, words only almondy kake"
+  },
+  {
+   "id": "ean:7312930009385",
+   "into": "ean:7312930000382",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "daim variant, kcal 446 vs 456"
+  },
+  {
+   "id": "ean:7313160005000",
+   "into": "ean:7313160004997",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same kcal/fat/carbs, salt is bad data"
+  },
+  {
+   "id": "ean:7313160020232",
+   "into": "ean:7313160004997",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "within ~10%"
+  },
+  {
+   "id": "ean:7313592400206",
+   "why": "same name, agent unsure",
+   "reason": "170 vs 120 kcal, no distinguishing words"
+  },
+  {
+   "id": "ean:7314060079344",
+   "why": "same name, agent unsure",
+   "reason": "40 vs 50 kcal, no words"
+  },
+  {
+   "id": "ean:7314320041067",
+   "why": "same name, agent unsure",
+   "reason": "390 vs 260 kcal, only pack size 1 kg differs"
+  },
+  {
+   "id": "ean:7314710810525",
+   "why": "same name, agent unsure",
+   "reason": "fat and carbs differ >10%, no words"
+  },
+  {
+   "id": "openfoodfacts-nordic-global:0314720633329",
+   "why": "same name, agent unsure",
+   "reason": "40 vs 30 kcal, no words"
+  },
+  {
+   "id": "ean:7350051285547",
+   "why": "same name, agent unsure",
+   "reason": "fat 3.2 vs 14, no words"
+  },
+  {
+   "id": "ean:7315120010420",
+   "why": "same name, agent unsure",
+   "reason": "503 vs 34 kcal, different product, no words"
+  },
+  {
+   "id": "ean:7315122051728",
+   "why": "same name, agent unsure",
+   "reason": "556 vs 462 kcal, no words"
+  },
+  {
+   "id": "ean:7315122019216",
+   "why": "same name, agent unsure",
+   "reason": "protein 7.9 vs 11, no words"
+  },
+  {
+   "id": "ean:7316150375145",
+   "why": "same name, agent unsure",
+   "reason": "fat 15 vs 1.4, no distinguishing words"
+  },
+  {
+   "id": "ean:7317661714720",
+   "why": "same name, agent unsure",
+   "reason": "12-15% apart, no words"
+  },
+  {
+   "id": "ean:7318690033073",
+   "why": "same name, agent unsure",
+   "reason": "protein 2.8 vs 1.8, no words"
+  },
+  {
+   "id": "ean:7318690497035",
+   "into": "ean:7318690007630",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal, fat, carbs within ~5%"
+  },
+  {
+   "id": "ean:7318690491811",
+   "why": "same name, agent unsure",
+   "reason": "134 vs 113 kcal, fat 8 vs 5.8"
+  },
+  {
+   "id": "ean:7318690502319",
+   "into": "ean:7318690018391",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "within ~10%"
+  },
+  {
+   "id": "ean:7318690094012",
+   "into": "ean:7318690028406",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal and carbs within ~5%"
+  },
+  {
+   "id": "ean:7318690513544",
+   "into": "ean:7318690032120",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "within ~3%"
+  },
+  {
+   "id": "ean:7318690656753",
+   "into": "ean:7318690038580",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal and fat within ~3%"
+  },
+  {
+   "id": "ean:7318693800252",
+   "why": "same name, agent unsure",
+   "reason": "20 vs 12.7 kcal, no words"
+  },
+  {
+   "id": "ean:7318690054863",
+   "why": "same name, agent unsure",
+   "reason": "130 vs 240 kcal, no words"
+  },
+  {
+   "id": "ean:7318690517771",
+   "why": "same name, agent unsure",
+   "reason": "206 kcal, between the others, no words"
+  },
+  {
+   "id": "ean:7318690162575",
+   "into": "ean:7318690069232",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "within ~5%"
+  },
+  {
+   "id": "ean:7318690112051",
+   "why": "same name, agent unsure",
+   "reason": "272 vs 217 kcal, no words"
+  },
+  {
+   "id": "ean:7318690497356",
+   "into": "ean:7318690079699",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 1%"
+  },
+  {
+   "id": "ean:7318690497363",
+   "into": "ean:7318690079699",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 1%"
+  },
+  {
+   "id": "ean:7318690081548",
+   "why": "same name, agent unsure",
+   "reason": "carbs 11 vs 5.9, protein 11 vs 14"
+  },
+  {
+   "id": "ean:7318690497165",
+   "why": "same name, agent unsure",
+   "reason": "337 vs 269 kcal, no words"
+  },
+  {
+   "id": "ean:7318690156178",
+   "why": "same name, agent unsure",
+   "reason": "82 vs 99 kcal, no words"
+  },
+  {
+   "id": "ean:7318690095316",
+   "why": "same name, agent unsure",
+   "reason": "carbs 3 vs 8.7, salt 4.5 vs 1.97, no words"
+  },
+  {
+   "id": "ean:7318690499534",
+   "why": "same name, agent unsure",
+   "reason": "190 kcal, fat 9.9, no words"
+  },
+  {
+   "id": "ean:7318690179177",
+   "into": "ean:7318690125181",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "about 10%, same pack size"
+  },
+  {
+   "id": "ean:7318690125952",
+   "into": "ean:7318690125891",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "within ~8%"
+  },
+  {
+   "id": "ean:7318690507567",
+   "why": "same name, agent unsure",
+   "reason": "86 vs 70 kcal, no words to tell them apart"
+  },
+  {
+   "id": "ean:7318690522423",
+   "why": "same name, agent unsure",
+   "reason": "356 vs 400 kcal, no distinguishing words"
+  },
+  {
+   "id": "ean:7318690186687",
+   "into": "ean:7318690127963",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 259 vs 258.7"
+  },
+  {
+   "id": "ean:7318690692126",
+   "into": "ean:7318690142010",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "about 10% apart"
+  },
+  {
+   "id": "ean:7318690513087",
+   "why": "same name, agent unsure",
+   "reason": "59.75 vs 250 kcal, no words"
+  },
+  {
+   "id": "ean:7318690166788",
+   "into": "ean:7318690150572",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "161 vs 170 kcal"
+  },
+  {
+   "id": "ean:7318690507550",
+   "why": "same name, agent unsure",
+   "reason": "62 vs 73 kcal, fat 2.8 vs 4.0, no words"
+  },
+  {
+   "id": "ean:7330247550321",
+   "why": "same name, agent unsure",
+   "reason": "protein 7 vs 17, fat 19 vs 25, no words"
+  },
+  {
+   "id": "ean:7318690526223",
+   "why": "same name, agent unsure",
+   "reason": "219 vs 250 kcal, no distinguishing words"
+  },
+  {
+   "id": "ean:7318690658313",
+   "why": "same name, agent unsure",
+   "reason": "211 vs 250 kcal, no words"
+  },
+  {
+   "id": "ean:7318690491941",
+   "why": "same name, agent unsure",
+   "reason": "174 vs 233 kcal, no distinguishing words"
+  },
+  {
+   "id": "ean:7318690513711",
+   "why": "same name, agent unsure",
+   "reason": "276 vs 367 kcal, no words"
+  },
+  {
+   "id": "ean:7318690519393",
+   "into": "ean:7318690496595",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "552 vs 516 kcal, same flavour"
+  },
+  {
+   "id": "ean:7318690497219",
+   "why": "same name, agent unsure",
+   "reason": "292 vs 181 kcal, no words or brand"
+  },
+  {
+   "id": "ean:7318690514718",
+   "why": "same name, agent unsure",
+   "reason": "75 vs 113 kcal, no words"
+  },
+  {
+   "id": "ean:7322550092216",
+   "why": "same name, agent unsure",
+   "reason": "146 vs 48 kcal, no words"
+  },
+  {
+   "id": "ean:7350058684817",
+   "why": "same name, agent unsure",
+   "reason": "94 vs 182 kcal, no words"
+  },
+  {
+   "id": "ean:7330797077866",
+   "into": "ean:7330792077762",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "198 vs 200 kcal"
+  },
+  {
+   "id": "ean:7331217014027",
+   "why": "same name, agent unsure",
+   "reason": "65 vs 130 kcal, no words"
+  },
+  {
+   "id": "ean:7340000300254",
+   "into": "ean:7340000300230",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "359 vs 362 kcal"
+  },
+  {
+   "id": "ean:7340001805765",
+   "into": "ean:7340001804850",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "387 vs 384 kcal, protein 72 vs 73"
+  },
+  {
+   "id": "ean:7340023809659",
+   "into": "ean:7340023126527",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "108 vs 107 kcal"
+  },
+  {
+   "id": "ean:7716278024138",
+   "into": "ean:7340028805830",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "336 vs 362 kcal, same flavour"
+  },
+  {
+   "id": "ean:7340052540592",
+   "why": "same name, agent unsure",
+   "reason": "250 vs 219 kcal, fat 21 vs 15, no words"
+  },
+  {
+   "id": "ean:7350000550399",
+   "why": "same name, agent unsure",
+   "reason": "25 vs 40 kcal, no words"
+  },
+  {
+   "id": "ean:7340083468513",
+   "why": "same name, agent unsure",
+   "reason": "210 vs 250 kcal; first has crudo words, second none"
+  },
+  {
+   "id": "ean:7340083468506",
+   "into": "ean:7340083428845",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "380 vs 341 kcal, about 10%"
+  },
+  {
+   "id": "ean:7340104742141",
+   "why": "same name, agent unsure",
+   "reason": "protein 71 vs 50, no words"
+  },
+  {
+   "id": "ean:7340224401751",
+   "into": "ean:7340130603362",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "379 vs 381 kcal, protein 76 vs 74"
+  },
+  {
+   "id": "ean:7340138812346",
+   "into": "ean:7340138809742",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 211 vs 199, same product"
+  },
+  {
+   "id": "ean:7340191169920",
+   "why": "same name, agent unsure",
+   "reason": "kcal 89 vs 77, no distinguishing words"
+  },
+  {
+   "id": "ean:7350027798583",
+   "why": "same name, agent unsure",
+   "reason": "kcal 151 vs 270, no distinguishing words"
+  },
+  {
+   "id": "ean:7350028549214",
+   "why": "same name, agent unsure",
+   "reason": "words list many flavours, cannot tell which"
+  },
+  {
+   "id": "ean:7350028549375",
+   "why": "same name, agent unsure",
+   "reason": "words list many flavours, cannot tell which"
+  },
+  {
+   "id": "ean:7350029735661",
+   "into": "ean:7350029730048",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 414 vs 404"
+  },
+  {
+   "id": "ean:7350037195730",
+   "into": "ean:7350037191770",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 266 vs 277"
+  },
+  {
+   "id": "ean:7350042722242",
+   "into": "max-burgers:brooklyn-tribute",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same product, kcal 600 vs 604"
+  },
+  {
+   "id": "ean:7350044340116",
+   "why": "same name, agent unsure",
+   "reason": "kcal 219 vs 356, same pack and words"
+  },
+  {
+   "id": "ean:7350046227842",
+   "into": "ean:7350046221116",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 684 vs 649, pack sizes of one product"
+  },
+  {
+   "id": "ean:7350046227330",
+   "into": "ean:7350046229877",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 371 vs 383"
+  },
+  {
+   "id": "ean:7350058337201",
+   "into": "ean:7350058336754",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "near zero kcal, same drink"
+  },
+  {
+   "id": "ean:7350061454162",
+   "why": "same name, agent unsure",
+   "reason": "kcal 426 vs 372, fat 10 vs 4, no words"
+  },
+  {
+   "id": "ean:7350065514084",
+   "why": "same name, agent unsure",
+   "reason": "kcal 131 vs 114, no words"
+  },
+  {
+   "id": "ean:7350069384454",
+   "into": "ean:7350069383723",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 368 vs 382"
+  },
+  {
+   "id": "ean:7350080250103",
+   "why": "same name, agent unsure",
+   "reason": "kcal 9.6 vs 25, no words"
+  },
+  {
+   "id": "ean:7350094823126",
+   "into": "ean:7350094820453",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 380 vs 365"
+  },
+  {
+   "id": "ean:7350099240799",
+   "into": "ean:7350099240614",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 371 vs 354, pack sizes"
+  },
+  {
+   "id": "ean:7350106200471",
+   "why": "same name, agent unsure",
+   "reason": "kcal 216 vs 194 (11%), fat differs, no words"
+  },
+  {
+   "id": "ean:7350109010107",
+   "into": "ean:7350109010046",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 367 vs 400"
+  },
+  {
+   "id": "ean:7350132948118",
+   "into": "ean:7350132941584",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 379 vs 370"
+  },
+  {
+   "id": "ean:7350132948040",
+   "into": "ean:7350132945339",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 381 vs 371"
+  },
+  {
+   "id": "ean:7393997199103",
+   "into": "ean:7350135372101",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 420 vs 444"
+  },
+  {
+   "id": "ean:7391835001458",
+   "into": "kungmarkatta:https://www.kungmarkatta.se/produkter/ris-gryn-och-pasta/bovetekross/",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 340 vs 350"
+  },
+  {
+   "id": "ean:7392055251326",
+   "why": "same name, agent unsure",
+   "reason": "kcal 250 vs 330, no words"
+  },
+  {
+   "id": "ean:7395368125117",
+   "into": "norgesgruppen:1142",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same kcal, protein, fat"
+  },
+  {
+   "id": "ean:7611612222372",
+   "why": "same name, agent unsure",
+   "reason": "44 kcal vs 376, likely a drink, but no words or pack size to tell them apart"
+  },
+  {
+   "id": "ean:7613035962965",
+   "why": "same name, agent unsure",
+   "reason": "118 vs 63 kcal, no distinguishing words"
+  },
+  {
+   "id": "ean:7622300725457",
+   "into": "ean:7622201384517",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "540 vs 536 kcal"
+  },
+  {
+   "id": "ean:7622210807274",
+   "into": "ean:7622210578433",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "within 2%, pack size only"
+  },
+  {
+   "id": "ean:8001250013859",
+   "why": "same name, agent unsure",
+   "reason": "protein, carbs and fat differ, same pack, no words"
+  },
+  {
+   "id": "ean:8001250099198",
+   "into": "ean:8001250016522",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "within 2%"
+  },
+  {
+   "id": "ean:8002469551767",
+   "why": "same name, agent unsure",
+   "reason": "232 vs 123 kcal, no words or pack size"
+  },
+  {
+   "id": "ean:8008743047667",
+   "into": "ean:8008743004301",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "546 vs 502, about 9%"
+  },
+  {
+   "id": "ean:8032615271638",
+   "into": "ean:8032615270013",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same numbers"
+  },
+  {
+   "id": "ean:8410159301033",
+   "into": "ean:8410159301019",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same recipe, other pack"
+  },
+  {
+   "id": "ean:8684154701505",
+   "into": "ean:8682084414335",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "522 vs 562, about 7%"
+  },
+  {
+   "id": "ean:8710508145821",
+   "into": "ean:8710508145814",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "within 3%"
+  },
+  {
+   "id": "ean:8710605025439",
+   "into": "ean:8710605018691",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "199 vs 214, within 7%"
+  },
+  {
+   "id": "ean:8711200316625",
+   "into": "ean:8711200316571",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "216 vs 210"
+  },
+  {
+   "id": "norgesgruppen:76840600038",
+   "into": "ean:8711200316571",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same kcal, same pack"
+  },
+  {
+   "id": "ean:8711327317925",
+   "why": "same name, agent unsure",
+   "reason": "flavour unknown, 225 kcal, no words"
+  },
+  {
+   "id": "ean:8711327370913",
+   "why": "same name, agent unsure",
+   "reason": "flavour unknown, 136 kcal"
+  },
+  {
+   "id": "ean:8711327373365",
+   "why": "same name, agent unsure",
+   "reason": "flavour unknown, 124 kcal"
+  },
+  {
+   "id": "ean:8711327374904",
+   "why": "same name, agent unsure",
+   "reason": "flavour unknown, 230 kcal"
+  },
+  {
+   "id": "ean:8711327483262",
+   "why": "same name, agent unsure",
+   "reason": "flavour unknown, 303 kcal, 80 ml"
+  },
+  {
+   "id": "ean:8711327485471",
+   "why": "same name, agent unsure",
+   "reason": "flavour unknown, 3STK pack"
+  },
+  {
+   "id": "ean:8711327626386",
+   "why": "same name, agent unsure",
+   "reason": "flavour unknown, 227 kcal"
+  },
+  {
+   "id": "ean:8711521975112",
+   "into": "ean:8711521975105",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "432 vs 444 kcal"
+  },
+  {
+   "id": "ean:8854404005732",
+   "into": "ean:8854404005206",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "within 3%"
+  },
+  {
+   "id": "gymgrossisten-se:https://www.gymgrossisten.com/protein-recipe-duo/BUNDLEPRD.html",
+   "why": "same name, agent unsure",
+   "reason": "615 vs 396 kcal, bundle contents unknown"
+  },
+  {
+   "id": "gymgrossisten-se:https://www.gymgrossisten.com/protein-shake-kit/BUNDLEWHEYPROMILK.html",
+   "why": "same name, agent unsure",
+   "reason": "68 vs 396 kcal, likely prepared with milk, not verified"
+  },
+  {
+   "id": "gymgrossisten:https://www.gymgrossisten.no/serious-mass-gainer-2727-g-kreatinpulver-300-g/SETGAINERCREATINE.html",
+   "into": "gymgrossisten-se:https://www.gymgrossisten.com/serious-mass-gainer-2727-g-kreatinpulver-300-g/SETGAINERCREATINE.html",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same numbers, carbs missing"
+  },
+  {
+   "id": "proteinfabrikken:https://www.proteinfabrikken.no/dag--og-natt-pakken/BUNDLEDANACH.html",
+   "into": "gymgrossisten:https://www.gymgrossisten.no/dag--og-natt-pakken/SETDANACH.html",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "379 vs 358 kcal, same protein"
+  },
+  {
+   "id": "norgesgruppen:6450",
+   "why": "same name, agent unsure",
+   "reason": "113.7 kcal, 0 protein, looks broken or a different product"
+  },
+  {
+   "id": "norgesgruppen:9450",
+   "into": "matvaretabellen:03.164",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "222 vs 198, about 12% but same recipe type, pack 1 kg"
+  },
+  {
+   "id": "norgesgruppen:6372",
+   "why": "same name, agent unsure",
+   "reason": "244 vs 178 kcal, no words to tell apart"
+  },
+  {
+   "id": "norgesgruppen:1243",
+   "into": "matvaretabellen:04.398",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "75 vs 85 kcal, similar macros"
+  },
+  {
+   "id": "norgesgruppen:8278",
+   "why": "same name, agent unsure",
+   "reason": "196 kcal, fat 12.4, differs a lot, no words"
+  },
+  {
+   "id": "norgesgruppen:2672",
+   "why": "same name, agent unsure",
+   "reason": "numbers differ a lot, no words or pack size to tell apart"
+  },
+  {
+   "id": "norgesgruppen:6295",
+   "why": "same name, agent unsure",
+   "reason": "numbers differ a lot, no distinguishing words"
+  },
+  {
+   "id": "norgesgruppen:1535",
+   "why": "same name, agent unsure",
+   "reason": "numbers differ a lot, no distinguishing words"
+  },
+  {
+   "id": "norgesgruppen:31515",
+   "into": "matvaretabellen:10.172",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 92 vs 94"
+  },
+  {
+   "id": "norgesgruppen:2463",
+   "into": "norgesgruppen:2038",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "within 1%"
+  },
+  {
+   "id": "norgesgruppen:2659",
+   "into": "norgesgruppen:2063",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 421 vs 436"
+  },
+  {
+   "id": "norgesgruppen:2895",
+   "why": "same name, agent unsure",
+   "reason": "kcal 15% apart, no distinguishing words"
+  },
+  {
+   "id": "norgesgruppen:2186",
+   "why": "same name, agent unsure",
+   "reason": "fat 18 vs 14, no distinguishing words"
+  },
+  {
+   "id": "norgesgruppen:5658",
+   "why": "same name, agent unsure",
+   "reason": "same 72 g pack as 2174 but numbers differ"
+  },
+  {
+   "id": "norgesgruppen:2537",
+   "into": "norgesgruppen:2287",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 248 vs 252"
+  },
+  {
+   "id": "norgesgruppen:23015131",
+   "why": "same name, agent unsure",
+   "reason": "kcal 351 vs 235, different flavour likely but no words"
+  },
+  {
+   "id": "store:0000023504013",
+   "into": "norgesgruppen:23504082",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 179 vs 177"
+  },
+  {
+   "id": "norgesgruppen:7618",
+   "why": "same name, agent unsure",
+   "reason": "kcal 311 vs 227, no distinguishing words"
+  },
+  {
+   "id": "norgesgruppen:23823536",
+   "why": "same name, agent unsure",
+   "reason": "numbers differ 12%, same pack, no words"
+  },
+  {
+   "id": "norgesgruppen:32503",
+   "why": "same name, agent unsure",
+   "reason": "kcal 375 vs 299, no words"
+  },
+  {
+   "id": "norgesgruppen:9041",
+   "into": "norgesgruppen:2601",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "within 4%"
+  },
+  {
+   "id": "norgesgruppen:9312",
+   "why": "same name, agent unsure",
+   "reason": "kcal 364, no words"
+  },
+  {
+   "id": "norgesgruppen:9780",
+   "why": "same name, agent unsure",
+   "reason": "kcal 248 vs 218 (13%) in first, same pack 140 g, no words"
+  },
+  {
+   "id": "norgesgruppen:5892",
+   "why": "same name, agent unsure",
+   "reason": "kcal 240 vs 352, no words"
+  },
+  {
+   "id": "store:7055330029385",
+   "into": "norgesgruppen:31516",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 67 vs 74, about 10%"
+  },
+  {
+   "id": "norgesgruppen:34000005154",
+   "into": "norgesgruppen:34000005116",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 5%"
+  },
+  {
+   "id": "norgesgruppen:38099",
+   "why": "same name, agent unsure",
+   "reason": "placeholder-like numbers, no words"
+  },
+  {
+   "id": "norgesgruppen:5104",
+   "why": "same name, agent unsure",
+   "reason": "generic name, no words"
+  },
+  {
+   "id": "norgesgruppen:5105",
+   "why": "same name, agent unsure",
+   "reason": "generic name, no words"
+  },
+  {
+   "id": "norgesgruppen:5107",
+   "why": "same name, agent unsure",
+   "reason": "generic name, no words"
+  },
+  {
+   "id": "norgesgruppen:9267",
+   "into": "norgesgruppen:5134",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 149 vs 152"
+  },
+  {
+   "id": "store:7090030269617",
+   "why": "same name, agent unsure",
+   "reason": "kcal 211 vs 133, no words"
+  },
+  {
+   "id": "norgesgruppen:7386",
+   "into": "norgesgruppen:6257",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 5%"
+  },
+  {
+   "id": "norgesgruppen:7845",
+   "into": "norgesgruppen:6257",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 5%"
+  },
+  {
+   "id": "norgesgruppen:9418",
+   "into": "norgesgruppen:6257",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 5%"
+  },
+  {
+   "id": "norgesgruppen:6521",
+   "into": "norgesgruppen:6502",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 5%"
+  },
+  {
+   "id": "norgesgruppen:7167",
+   "why": "same name, agent unsure",
+   "reason": "kcal 177 vs 150, no words"
+  },
+  {
+   "id": "norgesgruppen:8268",
+   "why": "same name, agent unsure",
+   "reason": "kcal 213 vs 55, no words"
+  },
+  {
+   "id": "norgesgruppen:8224",
+   "why": "same name, agent unsure",
+   "reason": "kcal 136 vs 109, no words"
+  },
+  {
+   "id": "norgesgruppen:7315",
+   "into": "norgesgruppen:7078",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 117 vs 118"
+  },
+  {
+   "id": "norgesgruppen:7699",
+   "why": "same name, agent unsure",
+   "reason": "kcal 184 vs 311, no words"
+  },
+  {
+   "id": "norgesgruppen:7425",
+   "why": "same name, agent unsure",
+   "reason": "numbers differ a lot, same pack, no words"
+  },
+  {
+   "id": "norgesgruppen:7820",
+   "into": "norgesgruppen:7818",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 2%"
+  },
+  {
+   "id": "norgesgruppen:79344077955",
+   "into": "norgesgruppen:79344047958",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 7%"
+  },
+  {
+   "id": "norgesgruppen:79344065587",
+   "why": "same name, agent unsure",
+   "reason": "kcal 502 vs 452, no words to tell apart"
+  },
+  {
+   "id": "norgesgruppen:79581188018",
+   "why": "same name, agent unsure",
+   "reason": "1.1 kcal vs 47, probably zero version but no words say so"
+  },
+  {
+   "id": "norgesgruppen:79581188025",
+   "why": "same name, agent unsure",
+   "reason": "11 kcal vs 1.1, no words"
+  },
+  {
+   "id": "norgesgruppen:79581995296",
+   "into": "norgesgruppen:79581188025",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "11.2 vs 11.22 kcal, only pack size differs"
+  },
+  {
+   "id": "norgesgruppen:8209",
+   "why": "same name, agent unsure",
+   "reason": "360 vs 306 kcal, no words"
+  },
+  {
+   "id": "norgesgruppen:8742",
+   "why": "same name, agent unsure",
+   "reason": "200 vs 307 kcal, no words"
+  },
+  {
+   "id": "norgesgruppen:9093",
+   "why": "same name, agent unsure",
+   "reason": "89 vs 66 kcal, no words"
+  },
+  {
+   "id": "norgesgruppen:9648",
+   "why": "same name, agent unsure",
+   "reason": "88 vs 50 kcal, no words"
+  },
+  {
+   "id": "norgesgruppen:98304100250",
+   "why": "same name, agent unsure",
+   "reason": "salt and carbs differ, no flavour words"
+  },
+  {
+   "id": "norgesgruppen:98304100465",
+   "why": "same name, agent unsure",
+   "reason": "500 kcal, protein 14, no words"
+  },
+  {
+   "id": "norgesgruppen:98304100502",
+   "why": "same name, agent unsure",
+   "reason": "395 kcal, no words"
+  },
+  {
+   "id": "tights:73545",
+   "into": "tights:1405574",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same whey, pack size only"
+  },
+  {
+   "id": "tights:85458",
+   "into": "tights:1405574",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same whey, pack size only"
+  },
+  {
+   "id": "ean:7392672001540",
+   "why": "same name, agent unsure",
+   "reason": "fat 10 vs 5, no words"
+  },
+  {
+   "id": "ean:7032069715437",
+   "why": "same name, agent unsure",
+   "reason": "188 vs 134 kcal, likely different jam type, words identical"
+  },
+  {
+   "id": "ean:7032069739785",
+   "why": "same name, agent unsure",
+   "reason": "178 vs 226 kcal, no words"
+  },
+  {
+   "id": "ean:7032069736883",
+   "why": "same name, agent unsure",
+   "reason": "45 vs 73 kcal, no words"
+  },
+  {
+   "id": "ean:7046280029358",
+   "why": "same name, agent unsure",
+   "reason": "269 kcal, no words"
+  },
+  {
+   "id": "norgesgruppen:23406037",
+   "why": "same name, agent unsure",
+   "reason": "220 vs 385 kcal, no words"
+  },
+  {
+   "id": "ean:7311043015795",
+   "into": "ean:7311043001293",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 180 vs 182"
+  },
+  {
+   "id": "ean:7340083460555",
+   "into": "ean:7311043001293",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 190 vs 182, within 5%"
+  },
+  {
+   "id": "ean:7340083493775",
+   "why": "same name, agent unsure",
+   "reason": "254 kcal, fat 20, no words"
+  },
+  {
+   "id": "ean:7340083479137",
+   "why": "same name, agent unsure",
+   "reason": "240 vs 299 kcal, no words"
+  },
+  {
+   "id": "ean:7090046151722",
+   "why": "same name, agent unsure",
+   "reason": "51 vs 43 kcal, 17% gap, no words"
+  },
+  {
+   "id": "ean:2000783866709",
+   "into": "ean:2000783852795",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "282 vs 288 kcal"
+  },
+  {
+   "id": "ean:7046280029372",
+   "why": "same name, agent unsure",
+   "reason": "159 vs 236 kcal, no words"
+  },
+  {
+   "id": "ean:7035620043352",
+   "why": "same name, agent unsure",
+   "reason": "264 vs 316 kcal, fat 6.6 vs 11"
+  },
+  {
+   "id": "ean:7310500187747",
+   "why": "same name, agent unsure",
+   "reason": "127 vs 105 kcal, no words"
+  },
+  {
+   "id": "ean:7055330017764",
+   "into": "ean:2000670024601",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "74 vs 68 kcal"
+  },
+  {
+   "id": "ean:7032069755358",
+   "why": "same name, agent unsure",
+   "reason": "155 vs 114 kcal, no words"
+  },
+  {
+   "id": "ean:7311043030354",
+   "why": "same name, agent unsure",
+   "reason": "85 vs 67 kcal, no words"
+  },
+  {
+   "id": "ean:7035620039614",
+   "why": "same name, agent unsure",
+   "reason": "273 vs 308 kcal, fat 6.8 vs 11"
+  },
+  {
+   "id": "ean:7032069735282",
+   "why": "same name, agent unsure",
+   "reason": "43 vs 35 kcal, no words"
+  },
+  {
+   "id": "ean:7055330028449",
+   "why": "same name, agent unsure",
+   "reason": "324 vs 260 kcal, no words"
+  },
+  {
+   "id": "ean:7340191162273",
+   "why": "same name, agent unsure",
+   "reason": "129 vs 107 kcal, no words"
+  },
+  {
+   "id": "ean:2301202203502",
+   "into": "ean:7037206100046",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "259 vs 238 kcal, within 10%"
+  },
+  {
+   "id": "ean:7310865093370",
+   "why": "same name, agent unsure",
+   "reason": "79 vs 36 kcal, no words"
+  },
+  {
+   "id": "ean:7340191100701",
+   "into": "ean:7340011493860",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "531 vs 555 kcal"
+  },
+  {
+   "id": "ean:7340191100749",
+   "into": "ean:7340011493860",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "520 vs 555 kcal, within 7%"
+  },
+  {
+   "id": "ean:7340191182776",
+   "why": "same name, agent unsure",
+   "reason": "92 vs 77 kcal, no words"
+  },
+  {
+   "id": "ean:7025110197313",
+   "why": "same name, agent unsure",
+   "reason": "51 vs 40 kcal, first is frozen big blueberries"
+  },
+  {
+   "id": "ean:7310861000709",
+   "why": "same name, agent unsure",
+   "reason": "60 vs 50 kcal, no words"
+  },
+  {
+   "id": "ean:7340083482816",
+   "into": "ean:7340083459740",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same recipe, kcal within 3%"
+  },
+  {
+   "id": "ean:7340083482786",
+   "into": "ean:7311041004579",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 380 vs 384, same product"
+  },
+  {
+   "id": "ean:7311041000083",
+   "into": "ean:7311040084794",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same product, kcal within 8%"
+  },
+  {
+   "id": "ean:7300156507396",
+   "into": "ean:7300156503084",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 50 vs 55, same product"
+  },
+  {
+   "id": "ean:7035620062896",
+   "into": "ean:7035620047015",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same sauce, different pack size"
+  },
+  {
+   "id": "ean:7350056793146",
+   "why": "same name, agent unsure",
+   "reason": "kcal 131 vs 57, no distinguishing words or pack size"
+  },
+  {
+   "id": "ean:7025110188687",
+   "why": "same name, agent unsure",
+   "reason": "kcal 215 vs 251, same pack, no distinguishing words"
+  },
+  {
+   "id": "ean:7300156578730",
+   "into": "ean:7025110227058",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 11%, same name and no distinguishing words"
+  },
+  {
+   "id": "ean:7035620065958",
+   "into": "ean:7035620001154",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 170 vs 182, within 7%"
+  },
+  {
+   "id": "ean:2000508463404",
+   "why": "same name, agent unsure",
+   "reason": "kcal 159 vs 112, no usable distinguishing words"
+  },
+  {
+   "id": "ean:7035620015311",
+   "why": "same name, agent unsure",
+   "reason": "same pack and words, kcal 193 vs 144"
+  },
+  {
+   "id": "ean:7037203641535",
+   "why": "same name, agent unsure",
+   "reason": "both 700 g, kcal 137 vs 193, no distinguishing words"
+  },
+  {
+   "id": "ean:5059883485072",
+   "into": "ean:5059883479026",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "numbers within 5%, same hydrate powder"
+  },
+  {
+   "id": "ean:7340191168824",
+   "into": "ean:7340011447559",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 470 vs 446, same 200 g product"
+  },
+  {
+   "id": "ean:7032069732229",
+   "into": "ean:7032069104101",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same recipe, similar macros"
+  },
+  {
+   "id": "ean:7310861000693",
+   "why": "same name, agent unsure",
+   "reason": "kcal 40 vs 50, no distinguishing words"
+  },
+  {
+   "id": "ean:9080693718599",
+   "why": "same name, agent unsure",
+   "reason": "kcal 30 vs 21, odd barcode, no words"
+  },
+  {
+   "id": "ean:7340191125650",
+   "why": "same name, agent unsure",
+   "reason": "kcal 104 vs 130, no distinguishing words"
+  },
+  {
+   "id": "ean:7340191184022",
+   "into": "ean:7340191125650",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 103 vs 104, same product"
+  },
+  {
+   "id": "ean:2000673932101",
+   "into": "ean:2000673927909",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 245 vs 261, within 7%"
+  },
+  {
+   "id": "ean:2000561677114",
+   "why": "same name, agent unsure",
+   "reason": "kcal 152 vs 298, no distinguishing words"
+  },
+  {
+   "id": "ean:7340191149830",
+   "why": "same name, agent unsure",
+   "reason": "numbers differ a lot, no pack size, words give no tell-apart term"
+  },
+  {
+   "id": "toro:https://www.toro.no/produkter/glutenfri-bali-kyllinggryte/",
+   "into": "toro:https://www.toro.no/produkter/bali-kyllinggryte-3/",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same gluten-free recipe, kcal within 10%"
+  },
+  {
+   "id": "ean:7340011442950",
+   "why": "same name, agent unsure",
+   "reason": "kcal differs 25%, no pack size, words only translations"
+  },
+  {
+   "id": "ean:7340083435683",
+   "into": "ean:2359742711339",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same kcal and fat"
+  },
+  {
+   "id": "ean:7340191148574",
+   "into": "ean:7340191126800",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same product, kcal within 5%"
+  },
+  {
+   "id": "ean:7340083435959",
+   "why": "same name, agent unsure",
+   "reason": "kcal differs 12%, carbs differ, no pack size"
+  },
+  {
+   "id": "ean:7025167001625",
+   "into": "ean:7025167000994",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same focaccia, kcal within 5%"
+  },
+  {
+   "id": "ean:7350132945278",
+   "why": "same name, agent unsure",
+   "reason": "store words list many flavours, cannot tell which one"
+  },
+  {
+   "id": "ean:7311043021673",
+   "why": "same name, agent unsure",
+   "reason": "kcal halves, no pack size or distinguishing words"
+  },
+  {
+   "id": "ean:7025110200792",
+   "into": "ean:7300156503985",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same plain asparagus, no distinguishing words"
+  },
+  {
+   "id": "ean:7090006868561",
+   "why": "same name, agent unsure",
+   "reason": "numbers differ, same pack, same words"
+  },
+  {
+   "id": "ean:7032069737569",
+   "why": "same name, agent unsure",
+   "reason": "numbers differ, no pack or words to tell apart"
+  },
+  {
+   "id": "ean:7032069760826",
+   "why": "same name, agent unsure",
+   "reason": "differs from first row, no pack or words to tell apart"
+  },
+  {
+   "id": "ean:7040280012365",
+   "into": "ean:7032069760826",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal within 4% of row 2"
+  },
+  {
+   "id": "ean:2340384205409",
+   "into": "ean:7311877015626",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same kcal, fat and salt, unverified"
+  },
+  {
+   "id": "ean:7300156596543",
+   "why": "same name, agent unsure",
+   "reason": "kcal differs 13%, only word is sallad"
+  },
+  {
+   "id": "ean:7340191143258",
+   "into": "ean:7340011495116",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same whole grain rice, kcal within 4%"
+  },
+  {
+   "id": "ean:7041610031117",
+   "into": "ean:7033550604506",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same pack and brand, kcal within 10%"
+  },
+  {
+   "id": "ean:4056489065548",
+   "why": "same name, agent unsure",
+   "reason": "kcal differs 15%, no pack size"
+  },
+  {
+   "id": "ean:7340191149304",
+   "why": "same name, agent unsure",
+   "reason": "very different numbers, same pack, same words"
+  },
+  {
+   "id": "ean:7032069732267",
+   "into": "ean:7032069715727",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same pizza, kcal within 10%"
+  },
+  {
+   "id": "ean:7340191154063",
+   "why": "same name, agent unsure",
+   "reason": "kcal differs 19%, no pack or words to tell apart"
+  },
+  {
+   "id": "ean:2359772706770",
+   "into": "ean:2359749307559",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same fat level, kcal within 3%"
+  },
+  {
+   "id": "ean:7055330029071",
+   "into": "ean:7055330008373",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 388 vs 392, same recipe"
+  },
+  {
+   "id": "ean:7340191178014",
+   "into": "ean:7340191124394",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal and fat match"
+  },
+  {
+   "id": "ean:7300156577603",
+   "into": "ean:7025110192752",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same kcal and fat, other pack size"
+  },
+  {
+   "id": "ean:7340083491948",
+   "why": "same name, agent unsure",
+   "reason": "kcal 20 vs 25, no words to tell them apart"
+  },
+  {
+   "id": "ean:7300156587633",
+   "into": "ean:7025110151315",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 227 vs 234"
+  },
+  {
+   "id": "ean:2000658561906",
+   "why": "same name, agent unsure",
+   "reason": "kcal 249 vs 462, words give no variant"
+  },
+  {
+   "id": "ean:7318690138099",
+   "why": "same name, agent unsure",
+   "reason": "kcal 80 vs 71 and protein differ, no variant words"
+  },
+  {
+   "id": "ean:7037204177385",
+   "into": "ean:7037203641320",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "same product, other pack size"
+  },
+  {
+   "id": "ean:7318690502098",
+   "into": "ean:7318690160946",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 60 vs 55, same fat"
+  },
+  {
+   "id": "ean:2000685765308",
+   "why": "same name, agent unsure",
+   "reason": "kcal 260 vs 184, words give no variant"
+  },
+  {
+   "id": "ean:2000692574900",
+   "into": "ean:2000285379905",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 371 vs 409, same product"
+  },
+  {
+   "id": "toro:https://www.toro.no/produkter/meksikansk-gryte/",
+   "into": "ean:7039010621144",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 130 vs 119"
+  },
+  {
+   "id": "store:7036110212227",
+   "why": "same name, agent unsure",
+   "reason": "kcal 175 vs 155, sugars differ, no variant words"
+  },
+  {
+   "id": "store:7058040691408",
+   "into": "store:7058040444400",
+   "why": "agent said fold, code refused: target is a new addition",
+   "reason": "kcal 513 vs 476, within 8%"
+  },
+  {
+   "id": "store:7311310045623",
+   "into": "store:7311310031039",
+   "why": "agent said fold, code refused: target is a new addition",
+   "reason": "kcal 291 vs 297"
+  },
+  {
+   "id": "store:8585002445612",
+   "why": "same name, agent unsure",
+   "reason": "kcal 5 vs 13, no variant words"
+  },
+  {
+   "id": "store:3046920001557",
+   "into": "store:3046920001489",
+   "why": "agent said fold, code refused: target is a new addition",
+   "reason": "kcal 560 vs 551"
+  },
+  {
+   "id": "store:7041614007262",
+   "into": "store:7041614006388",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 270 vs 272"
+  },
+  {
+   "id": "store:0024000160465",
+   "why": "same name, agent unsure",
+   "reason": "kcal 66 vs 57, no variant words"
+  },
+  {
+   "id": "store:8003938008522",
+   "why": "same name, agent unsure",
+   "reason": "kcal 274 vs 233, fat differs, no variant words"
+  },
+  {
+   "id": "store:0000023877097",
+   "why": "same name, agent unsure",
+   "reason": "kcal 148 vs 208, no variant words"
+  },
+  {
+   "id": "store:7055330036802",
+   "why": "same name, agent unsure",
+   "reason": "kcal 109 vs 171, no variant words"
+  },
+  {
+   "id": "store:4251097407999",
+   "into": "store:4251097402888",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 275 vs 253"
+  },
+  {
+   "id": "store:4251097420035",
+   "into": "store:4251097402888",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "identical to the row above"
+  },
+  {
+   "id": "store:4251097408026",
+   "into": "store:4251097402918",
+   "why": "agent said fold, code refused: target is a new addition",
+   "reason": "kcal 304 vs 283"
+  },
+  {
+   "id": "store:4251097408057",
+   "into": "store:4251097402970",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 285 vs 271"
+  },
+  {
+   "id": "store:7041111138124",
+   "into": "store:7041111125988",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 574 vs 586"
+  },
+  {
+   "id": "store:7041111136557",
+   "into": "store:7041111135802",
+   "why": "agent said fold, code refused: target is a new addition",
+   "reason": "kcal 515 vs 517"
+  },
+  {
+   "id": "store:7340005403363",
+   "into": "store:7340005403349",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "kcal 540 vs 500, within 8%"
+  },
+  {
+   "id": "store:7340005407156",
+   "into": "store:7340005403349",
+   "why": "agent said fold, code refused: target is a new addition",
+   "reason": "kcal 538 vs 500"
+  },
+  {
+   "id": "store:7037421067797",
+   "into": "store:7037421067469",
+   "why": "agent said fold, code refused: target is a new addition",
+   "reason": "kcal 463 vs 440"
+  },
+  {
+   "id": "store:7090053790211",
+   "why": "same name, agent unsure",
+   "reason": "kcal 173 vs 122, no variant words"
+  },
+  {
+   "id": "store:7025110173072",
+   "into": "store:7025110101570",
+   "why": "agent said fold, code refused: numbers differ",
+   "reason": "within ~10%, no distinguishing words"
+  },
+  {
+   "id": "store:7025110193520",
+   "into": "store:7025110101570",
+   "why": "agent said fold, code refused: target is a new addition",
+   "reason": "within ~10% on kcal, protein and fat"
+  },
+  {
+   "id": "store:7032069737439",
+   "why": "same name, agent unsure",
+   "reason": "kcal 16% and carbs 50% higher, but no words, pack size or label to tell them apart"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Toffee Crunchy vs generic protein bar flavour unknown",
+    "row": {
+     "id": "ean:5060751994787",
+     "name": "Optimum Protein Bar",
+     "brand": "Optimum Nutrition",
+     "pack_size": "70 g",
+     "source": "gymgrossisten",
+     "verified": 0,
+     "kcal": 327.0,
+     "protein_g": 31.0,
+     "fat_g": 10.0,
+     "carbs_g": 24.0,
+     "sugars_g": 2.8,
+     "salt_g": 1.2
+    },
+    "keep": {
+     "id": "ean:5060469987583",
+     "name": "Optimum Nutrition Toffee Crunchy Protein Bar",
+     "brand": "Optimum Nutrition",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 327.692322,
+     "protein_g": 30.76923,
+     "fat_g": 10.307693,
+     "carbs_g": 24.615385,
+     "sugars_g": 2.769231,
+     "salt_g": 1.230769
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Generic bar may be Toffee Crunchy; flavour not stated"
+  },
+  {
+   "id": "ean:5765228124758",
+   "into": "ean:5765228126882",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Generic Core Bar vs peanut butter flavour",
+    "row": {
+     "id": "bodystore-discontinued:FP9789-054R",
+     "name": "Barebells Core Bar",
+     "brand": "Barebells",
+     "pack_size": "35 g, 40 g",
+     "source": "bodystore-discontinued",
+     "verified": 0,
+     "kcal": 386.0,
+     "protein_g": 34.0,
+     "fat_g": 18.0,
+     "carbs_g": 29.0,
+     "sugars_g": 2.8,
+     "salt_g": 0.52
+    },
+    "keep": {
+     "id": "kassalapp:9220",
+     "name": "Barebells Core Bar Peanut Butter",
+     "brand": "Barebells",
+     "pack_size": "35 g",
+     "source": "kassalapp",
+     "verified": 0,
+     "kcal": 386.0,
+     "protein_g": 34.0,
+     "fat_g": 18.0,
+     "carbs_g": 29.0,
+     "sugars_g": 2.8,
+     "salt_g": 0.52
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Generic Core Bar row has same numbers as Peanut Butter but flavour unknown"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "variant words differ: Coop Kassler Rimmad og Varmrökt vs Coop Kassler",
+    "row": {
+     "id": "ean:2317258505712",
+     "name": "Coop Kassler Rimmad og Varmrökt",
+     "brand": "Coop",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 130.0,
+     "protein_g": 19.0,
+     "fat_g": 5.6,
+     "carbs_g": 1.9,
+     "sugars_g": 0.5,
+     "salt_g": 0.005875
+    },
+    "keep": {
+     "id": "ean:2317258505170",
+     "name": "Coop Kassler",
+     "brand": "Coop",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 130.0,
+     "protein_g": 19.0,
+     "fat_g": 5.6,
+     "carbs_g": 1.9,
+     "sugars_g": 0.5,
+     "salt_g": 5.0
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Unclear if the plain kassler is the brine-cured smoked one"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "variant words differ: Nybergs Deli Julskinka vs Nybergs Deli Julskinka Färdigkokt",
+    "row": {
+     "id": "ean:2371540026460",
+     "name": "Nybergs Deli Julskinka",
+     "brand": "Nybergs Deli",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 190.0,
+     "protein_g": 21.0,
+     "fat_g": 11.0,
+     "carbs_g": 2.0,
+     "sugars_g": 2.0,
+     "salt_g": 2.2625
+    },
+    "keep": {
+     "id": "ean:2371540026941",
+     "name": "Nybergs Deli Julskinka Färdigkokt",
+     "brand": "Nybergs Deli",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 190.0,
+     "protein_g": 21.0,
+     "fat_g": 11.0,
+     "carbs_g": 2.0,
+     "sugars_g": 2.0,
+     "salt_g": 2.2625
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Plain julskinka may be the same pre-cooked ham"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "variant words differ: Nybergs Deli Helgskinka vs Nybergs Deli Helgskinka Färdigkokt",
+    "row": {
+     "id": "ean:2371545122600",
+     "name": "Nybergs Deli Helgskinka",
+     "brand": "Nybergs Deli",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 190.0,
+     "protein_g": 21.0,
+     "fat_g": 11.0,
+     "carbs_g": 2.0,
+     "sugars_g": 2.0,
+     "salt_g": 2.2625
+    },
+    "keep": {
+     "id": "ean:2371545121788",
+     "name": "Nybergs Deli Helgskinka Färdigkokt",
+     "brand": "Nybergs Deli",
+     "pack_size": "2,78 kg",
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 190.0,
+     "protein_g": 21.0,
+     "fat_g": 11.0,
+     "carbs_g": 2.0,
+     "sugars_g": 2.0,
+     "salt_g": 2.3
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Plain helgskinka may be the same pre-cooked ham"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "variant words differ: Garant Kassler Rökt med alspån vs Garant Kassler",
+    "row": {
+     "id": "ean:2359773305934",
+     "name": "Garant Kassler Rökt med alspån",
+     "brand": "Garant",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 98.0,
+     "protein_g": 20.0,
+     "fat_g": 1.5,
+     "carbs_g": 1.8,
+     "sugars_g": 1.8,
+     "salt_g": 3.0475
+    },
+    "keep": {
+     "id": "ean:2359773305187",
+     "name": "Garant Kassler",
+     "brand": "Garant",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 98.0,
+     "protein_g": 20.0,
+     "fat_g": 1.5,
+     "carbs_g": 1.8,
+     "sugars_g": 1.8,
+     "salt_g": 3.05
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Plain kassler may also be smoked; unknown"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Same eggs indoor free range; outdoor hens and unspecified Svenska agg unsure",
+    "row": {
+     "id": "ean:7340083474675",
+     "name": "Garant Svenska ägg",
+     "brand": "Garant",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 140.0,
+     "protein_g": 12.0,
+     "fat_g": 9.7,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "salt_g": 0.4
+    },
+    "keep": {
+     "id": "ean:7311041064337",
+     "name": "Garant Ägg",
+     "brand": "Garant",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 140.0,
+     "protein_g": 12.0,
+     "fat_g": 9.7,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "salt_g": 0.3925
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Same numbers, but Svenska ägg does not say which husbandry; not proven same"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "variant words differ: Garant Bacon Rökt & Skivat vs Garant Bacon",
+    "row": {
+     "id": "ean:7340083497353",
+     "name": "Garant Bacon Rökt & Skivat",
+     "brand": "Garant",
+     "pack_size": "140 g",
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 260.0,
+     "protein_g": 17.0,
+     "fat_g": 21.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "salt_g": 2.2
+    },
+    "keep": {
+     "id": "ean:7311043001354",
+     "name": "Garant Bacon",
+     "brand": "Garant",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 260.0,
+     "protein_g": 17.0,
+     "fat_g": 21.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "salt_g": 2.1625
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Same numbers, but plain bacon may be unsmoked/unsliced"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "variant words differ: Scan Kassler vs Scan Kassler Varmrökt Rimmad",
+    "row": {
+     "id": "ean:0624116108506",
+     "name": "Scan Kassler",
+     "brand": "Scan",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 110.0,
+     "protein_g": 16.0,
+     "fat_g": 4.9,
+     "carbs_g": 0.7,
+     "sugars_g": 0.7,
+     "salt_g": 2.5575
+    },
+    "keep": {
+     "id": "ean:2320719109428",
+     "name": "Scan Kassler Varmrökt Rimmad",
+     "brand": "Scan",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 110.0,
+     "protein_g": 16.0,
+     "fat_g": 4.9,
+     "carbs_g": 0.7,
+     "sugars_g": 0.7,
+     "salt_g": 2.5575
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Identical numbers, but plain Kassler lacks the varmrökt/rimmad detail"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Vague name, numbers match marinated fillet",
+    "row": {
+     "id": "ean:2320321610107",
+     "name": "Scan Svensk",
+     "brand": "Scan",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 120.0,
+     "protein_g": 18.0,
+     "fat_g": 5.3,
+     "carbs_g": 0.9,
+     "sugars_g": 0.5,
+     "salt_g": 1.6725
+    },
+    "keep": {
+     "id": "ean:2320321610329",
+     "name": "Scan Svensk Ytterfilé Mörarinerad med Gräddig Svampsås",
+     "brand": "Scan",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 120.0,
+     "protein_g": 18.0,
+     "fat_g": 5.3,
+     "carbs_g": 0.9,
+     "sugars_g": 0.5,
+     "salt_g": 1.6725
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Vague name, numbers match the marinated fillet but unproven"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "variant words differ: Lidl Fläskytterfile vs Lidl Fläskytterfilé, mörmarinerad",
+    "row": {
+     "id": "ean:2371581011555",
+     "name": "Lidl Fläskytterfile",
+     "brand": "Lidl",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 112.0,
+     "protein_g": 17.0,
+     "fat_g": 4.0,
+     "carbs_g": 2.0,
+     "sugars_g": 2.0,
+     "salt_g": 1.2775
+    },
+    "keep": {
+     "id": "ean:2371581009224",
+     "name": "Lidl Fläskytterfilé, mörmarinerad",
+     "brand": "Lidl",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 112.0,
+     "protein_g": 17.0,
+     "fat_g": 4.0,
+     "carbs_g": 2.0,
+     "sugars_g": 2.0,
+     "salt_g": 1.2775
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Identical numbers, but marinated is not stated on the plain row"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "variant words differ: Brødr Ringstad Pinnekjøtt Av Lam Røkt ca. vs Brødr Ringstad Pinnekjøtt",
+    "row": {
+     "id": "ean:2371520500003",
+     "name": "Brødr Ringstad Pinnekjøtt Av Lam Røkt ca.",
+     "brand": "Brødr Ringstad",
+     "pack_size": "1,5 kg",
+     "source": "kassalapp",
+     "verified": 0,
+     "kcal": 448.0,
+     "protein_g": 29.8,
+     "fat_g": 37.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "salt_g": 3.7
+    },
+    "keep": {
+     "id": "norgesgruppen:23715203",
+     "name": "Brødr Ringstad Pinnekjøtt",
+     "brand": "Brødr Ringstad",
+     "pack_size": "1,5 kg",
+     "source": "norgesgruppen",
+     "verified": 0,
+     "kcal": 448.0,
+     "protein_g": 29.8,
+     "fat_g": 37.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "salt_g": 3.7
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Identical numbers, but Røkt is stated only on one row"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Majskyckling breast fillet variants",
+    "row": {
+     "id": "ean:7313940011856",
+     "name": "Guldfågeln Majskyckling Innerfilé",
+     "brand": "Guldfågeln",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 120.0,
+     "protein_g": 23.0,
+     "fat_g": 3.0,
+     "carbs_g": 0.5,
+     "sugars_g": 0.5,
+     "salt_g": 0.1975
+    },
+    "keep": {
+     "id": "ean:2307116808024",
+     "name": "Guldfågeln Majskyckling",
+     "brand": "Guldfågeln",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 120.0,
+     "protein_g": 23.0,
+     "fat_g": 3.0,
+     "carbs_g": 0.5,
+     "sugars_g": 0.0,
+     "salt_g": 0.1975
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Both corn-chicken breast fillet; sugars differ, cannot tell if same"
+  },
+  {
+   "id": "ean:4260183213604",
+   "into": "ean:4260183213178",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Mild vs plain yoghurt, same numbers",
+    "row": {
+     "id": "ean:7310865866424",
+     "name": "Arla Mild Yoghurt Naturell 3,0%",
+     "brand": "Arla",
+     "pack_size": "1,5 kg",
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 58.0,
+     "protein_g": 3.5,
+     "fat_g": 3.0,
+     "carbs_g": 3.7,
+     "sugars_g": 3.7,
+     "salt_g": 0.0875
+    },
+    "keep": {
+     "id": "ean:7310865866356",
+     "name": "Arla Yoghurt Naturell 3,0%",
+     "brand": "Arla",
+     "pack_size": "1 kg",
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 58.0,
+     "protein_g": 3.5,
+     "fat_g": 3.0,
+     "carbs_g": 3.7,
+     "sugars_g": 3.7,
+     "salt_g": 0.09
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Mild yoghurt may be a separate line from plain"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Kremet vs Kremet Blomkålssoppa, slightly different values",
+    "row": {
+     "id": "ean:7037610021630",
+     "name": "Orkla Foods Norge Kremet",
+     "brand": "Orkla Foods Norge",
+     "pack_size": "65 g, 67 g",
+     "source": "openfoodfacts",
+     "verified": 1,
+     "kcal": 31.0,
+     "protein_g": 1.5,
+     "fat_g": 0.7,
+     "carbs_g": 4.7,
+     "sugars_g": 1.3,
+     "salt_g": 0.8
+    },
+    "keep": {
+     "id": "ean:7037610030038",
+     "name": "Orkla Foods Norge Kremet Blomkålsuppe",
+     "brand": "Orkla Foods Norge",
+     "pack_size": "65 g",
+     "source": "openfoodfacts",
+     "verified": 1,
+     "kcal": 31.0,
+     "protein_g": 1.6,
+     "fat_g": 0.6,
+     "carbs_g": 4.6,
+     "sugars_g": 1.3,
+     "salt_g": 0.86
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Truncated name Kremet, numbers close to blomkål soup but not identical"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Summer edition flavour unclear",
+    "row": {
+     "id": "ean:0000090456268",
+     "name": "Red Bull Summer edition",
+     "brand": "Red Bull",
+     "pack_size": "250 ml",
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 45.0,
+     "protein_g": 0.0,
+     "fat_g": 0.0,
+     "carbs_g": 11.0,
+     "sugars_g": 11.0,
+     "salt_g": 0.1
+    },
+    "keep": {
+     "id": "ean:0000090446955",
+     "name": "Red Bull The Summer Edition Dragefruktsmak",
+     "brand": "Red Bull",
+     "pack_size": "250 ml",
+     "source": "openfoodfacts",
+     "verified": 1,
+     "kcal": 45.0,
+     "protein_g": 0.0,
+     "fat_g": 0.0,
+     "carbs_g": 11.0,
+     "sugars_g": 11.0,
+     "salt_g": 0.1
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Summer edition flavour unclear"
+  },
+  {
+   "id": "ean:5707196238907",
+   "into": "ean:5707196306828",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "variant words differ: Gjendemsjø Hel Kaldrøkt Makrell vs Makrell hel",
+    "row": {
+     "id": "ean:2081260700006",
+     "name": "Gjendemsjø Hel Kaldrøkt Makrell",
+     "brand": "Gjendemsjø",
+     "pack_size": null,
+     "source": "kassalapp",
+     "verified": 0,
+     "kcal": 295.0,
+     "protein_g": 19.5,
+     "fat_g": 24.1,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "salt_g": 2.0
+    },
+    "keep": {
+     "id": "norgesgruppen:23812607",
+     "name": "Makrell hel",
+     "brand": "Gjendemsjø",
+     "pack_size": "250 g, 350 g",
+     "source": "norgesgruppen",
+     "verified": 0,
+     "kcal": 295.0,
+     "protein_g": 19.5,
+     "fat_g": 24.1,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "salt_g": 2.0
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Likely same smoked mackerel but not certain"
+  },
+  {
+   "id": "ean:4032499738160",
+   "into": "ean:7032069738160",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "id": "ean:2313516412167",
+   "into": "ean:2313516411382",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? boneless vs plain pork neck, identical values",
+    "row": {
+     "id": "ean:2385903709723",
+     "name": "Fläskkarre Benfri",
+     "brand": "Danish Crown",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 170.0,
+     "protein_g": 18.0,
+     "fat_g": 11.0,
+     "carbs_g": 0.0,
+     "sugars_g": null,
+     "salt_g": 0.1375
+    },
+    "keep": {
+     "id": "ean:2385903711306",
+     "name": "Fläskkarré",
+     "brand": "Danish Crown",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 170.0,
+     "protein_g": 18.0,
+     "fat_g": 11.0,
+     "carbs_g": 0.0,
+     "sugars_g": null,
+     "salt_g": 0.1375
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Boneless vs plain, identical numbers but different EANs"
+  },
+  {
+   "id": "ean:2389370700009",
+   "into": "norgesgruppen:23893707",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "id": "ean:2389371300000",
+   "into": "norgesgruppen:23893708",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "id": "ean:2560037793484",
+   "into": "ean:7350037193484",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "id": "helsam-dk:https://helsam.dk/products/kakaopulver-o-dragon",
+   "into": "ean:3800225476836",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? energy gel; Pro version unsure",
+    "row": {
+     "id": "ean:5059883468969",
+     "name": "Myprotein Pro The Energy Gel",
+     "brand": "Myprotein",
+     "pack_size": null,
+     "source": "myprotein",
+     "verified": 0,
+     "kcal": 195.0,
+     "protein_g": 0.0,
+     "fat_g": 0.0,
+     "carbs_g": 50.0,
+     "sugars_g": 16.666667,
+     "salt_g": 0.4
+    },
+    "keep": {
+     "id": "ean:5059883468945",
+     "name": "Myprotein The Energy Gel",
+     "brand": "Myprotein",
+     "pack_size": null,
+     "source": "myprotein-uk",
+     "verified": 0,
+     "kcal": 195.0,
+     "protein_g": 0.0,
+     "fat_g": 0.0,
+     "carbs_g": 50.0,
+     "sugars_g": 16.666667,
+     "salt_g": 0.4
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Pro version may be same recipe"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Mild vs plain butter chicken unclear",
+    "row": {
+     "id": "ean:5011308303279",
+     "name": "Patak's Butter Chicken Cooking Sauce",
+     "brand": "Patak's",
+     "pack_size": "450 g",
+     "source": "norgesgruppen",
+     "verified": 0,
+     "kcal": 101.0,
+     "protein_g": 1.1,
+     "fat_g": 6.6,
+     "carbs_g": 8.7,
+     "sugars_g": 4.9,
+     "salt_g": 0.59
+    },
+    "keep": {
+     "id": "ean:5011308302210",
+     "name": "Patak's Mild Butter Chicken",
+     "brand": "Patak's",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 101.0,
+     "protein_g": 1.1,
+     "fat_g": 6.6,
+     "carbs_g": 8.7,
+     "sugars_g": 4.9,
+     "salt_g": 0.58
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Mild vs plain unclear"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "variant words differ: Rømer Surkål i glas Ø vs Rømer Surkål I Glas Økologisk",
+    "row": {
+     "id": "ean:5708636185386",
+     "name": "Rømer Surkål i glas Ø",
+     "brand": "Rømer",
+     "pack_size": null,
+     "source": "helsam-dk",
+     "verified": 0,
+     "kcal": 16.3,
+     "protein_g": 0.9,
+     "fat_g": 0.1,
+     "carbs_g": 4.3,
+     "sugars_g": 0.1,
+     "salt_g": 1.66
+    },
+    "keep": {
+     "id": "ean:5708636185393",
+     "name": "Rømer Surkål I Glas Økologisk",
+     "brand": "Rømer",
+     "pack_size": "360 g",
+     "source": "helsam-dk",
+     "verified": 0,
+     "kcal": 16.3,
+     "protein_g": 0.9,
+     "fat_g": 0.1,
+     "carbs_g": 4.3,
+     "sugars_g": 0.1,
+     "salt_g": 1.66
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Same product likely but different EANs and pack size"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Generic slices may be same cheddar flavour",
+    "row": {
+     "id": "ean:5202390015359",
+     "name": "Violife slices",
+     "brand": "Violife",
+     "pack_size": "200 g",
+     "source": "helsekost-no",
+     "verified": 0,
+     "kcal": 296.0,
+     "protein_g": 0.1,
+     "fat_g": 23.0,
+     "carbs_g": 22.0,
+     "sugars_g": 0.0,
+     "salt_g": 2.3
+    },
+    "keep": {
+     "id": "ean:5202390015380",
+     "name": "Violife Slices Cheddar Flavour 23%",
+     "brand": "Violife",
+     "pack_size": "200 g",
+     "source": "helsekost-no",
+     "verified": 0,
+     "kcal": 296.0,
+     "protein_g": 0.1,
+     "fat_g": 23.0,
+     "carbs_g": 22.0,
+     "sugars_g": 0.0,
+     "salt_g": 2.3
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Generic vs named cheddar flavour, unclear"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Vegarizo vs Gourmet unclear",
+    "row": {
+     "id": "ean:5420005754633",
+     "name": "Vegarizo Gourmet",
+     "brand": "Vegan deli",
+     "pack_size": "90 g",
+     "source": "norgesgruppen",
+     "verified": 0,
+     "kcal": 175.0,
+     "protein_g": 11.65,
+     "fat_g": 11.7,
+     "carbs_g": 3.2,
+     "sugars_g": 0.6,
+     "salt_g": 1.95
+    },
+    "keep": {
+     "id": "ean:5420005753650",
+     "name": "Vegarizo",
+     "brand": "Vegan deli",
+     "pack_size": "90 g",
+     "source": "norgesgruppen",
+     "verified": 0,
+     "kcal": 175.0,
+     "protein_g": 11.65,
+     "fat_g": 11.7,
+     "carbs_g": 3.2,
+     "sugars_g": 0.6,
+     "salt_g": 1.95
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Gourmet vs plain unclear"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Nude may be the mango sorbet; unclear",
+    "row": {
+     "id": "ean:7041013150118",
+     "name": "Hennig-Olsen Nude",
+     "brand": "Hennig-Olsen",
+     "pack_size": "500 ml",
+     "source": "hennig-olsen",
+     "verified": 1,
+     "kcal": 115.0,
+     "protein_g": 0.4,
+     "fat_g": 0.2,
+     "carbs_g": 27.3,
+     "sugars_g": 27.2,
+     "salt_g": 0.02
+    },
+    "keep": {
+     "id": "ean:7041015201115",
+     "name": "Hennig-Olsen Nude Mango Sorbet 80% frukt",
+     "brand": "Hennig-Olsen",
+     "pack_size": "500 ml",
+     "source": "hennig-olsen",
+     "verified": 1,
+     "kcal": 115.0,
+     "protein_g": 0.5,
+     "fat_g": 0.3,
+     "carbs_g": 27.0,
+     "sugars_g": 26.9,
+     "salt_g": 0.04
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Nude may be the mango sorbet"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Energy shot vs apple flavour unclear",
+    "row": {
+     "id": "ean:7313619002468",
+     "name": "Godmorgon Äpple",
+     "brand": "Godmorgon",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 46.0,
+     "protein_g": 0.0,
+     "fat_g": 0.0,
+     "carbs_g": 11.0,
+     "sugars_g": 10.0,
+     "salt_g": 0.0
+    },
+    "keep": {
+     "id": "ean:7313619002284",
+     "name": "Godmorgon Energy Shot - Apple, Dragon Fruit, Guava",
+     "brand": "Godmorgon",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 46.0,
+     "protein_g": 0.0,
+     "fat_g": 0.0,
+     "carbs_g": 11.0,
+     "sugars_g": 10.0,
+     "salt_g": 0.0
+    }
+   },
+   "why": "agent unsure",
+   "reason": "same numbers, flavour naming unclear"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Generic fruit bar vs vanilla mango",
+    "row": {
+     "id": "ean:5707653000856",
+     "name": "Frugt stang",
+     "brand": "Castus",
+     "pack_size": "20 g",
+     "source": "openfoodfacts",
+     "verified": 1,
+     "kcal": 326.0,
+     "protein_g": 2.0,
+     "fat_g": 3.5,
+     "carbs_g": 64.0,
+     "sugars_g": 56.0,
+     "salt_g": 0.0
+    },
+    "keep": {
+     "id": "ean:5707653006087",
+     "name": "Frugt Stang Vanilje Og Mango",
+     "brand": "Castus",
+     "pack_size": null,
+     "source": "openfoodfacts",
+     "verified": 1,
+     "kcal": 330.0,
+     "protein_g": 2.0,
+     "fat_g": 3.5,
+     "carbs_g": 65.0,
+     "sugars_g": 60.0,
+     "salt_g": 0.0
+    }
+   },
+   "why": "agent unsure",
+   "reason": "generic vs vanilla mango, numbers differ"
+  },
+  {
+   "id": "ean:5713162100666",
+   "into": "ean:5713162000058",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "id": "ean:5744001421024",
+   "into": "ean:5744001420065",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "id": "ean:5744001420980",
+   "into": "ean:5744001420157",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "id": "ean:5744001420942",
+   "into": "ean:5744001420171",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "id": "ean:8008698010402",
+   "into": "ean:8008698003947",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "id": "ean:7023860067085",
+   "into": "ean:7023860067580",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Same Mild og Fyldig 29%; Fyldig Gulost may be same",
+    "row": {
+     "id": "ean:2382664613054",
+     "name": "Synnøve Fyldig Gulost 29%",
+     "brand": "Synnøve",
+     "pack_size": null,
+     "source": "openfoodfacts",
+     "verified": 1,
+     "kcal": 365.0,
+     "protein_g": 26.0,
+     "fat_g": 29.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "salt_g": 1.18
+    },
+    "keep": {
+     "id": "ean:2382664612927",
+     "name": "Synnøve Gulost Mild og Fyldig 29%",
+     "brand": "Synnøve",
+     "pack_size": "1,31 kg",
+     "source": "openfoodfacts",
+     "verified": 1,
+     "kcal": 365.0,
+     "protein_g": 26.0,
+     "fat_g": 29.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "salt_g": 1.18
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Fyldig vs Mild og Fyldig may be separate"
+  },
+  {
+   "id": "ean:7034280001566",
+   "into": "synnove:https://www.synnove.no/produkt/glutenfri-granola-bringebaer/",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "id": "ean:7071319033945",
+   "into": "synnove:https://www.synnove.no/produkt/glutenfri-pasta-med-ostesaus/",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "id": "ean:7071319032269",
+   "into": "synnove:https://www.synnove.no/produkt/synnove-glutenfri-gulrotkake-mix/",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Smoked salmon vs salmon, same numbers",
+    "row": {
+     "id": "ean:7035620049644",
+     "name": "Jacobs Utvalgte Laks",
+     "brand": "Jacobs Utvalgte",
+     "pack_size": "540 g",
+     "source": "kassalapp",
+     "verified": 0,
+     "kcal": 231.0,
+     "protein_g": 23.2,
+     "fat_g": 14.7,
+     "carbs_g": 1.5,
+     "sugars_g": 1.5,
+     "salt_g": 3.0
+    },
+    "keep": {
+     "id": "ean:7035620027284",
+     "name": "Jacobs Utvalgte Røkt Laks",
+     "brand": "Jacobs Utvalgte",
+     "pack_size": "100 g, 240 g, 270 g",
+     "source": "kassalapp",
+     "verified": 0,
+     "kcal": 231.0,
+     "protein_g": 23.2,
+     "fat_g": 14.7,
+     "carbs_g": 1.5,
+     "sugars_g": 1.5,
+     "salt_g": 3.0
+    }
+   },
+   "why": "agent unsure",
+   "reason": "smoked vs unspecified salmon"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Frozen blueberries, maybe cultivated variant",
+    "row": {
+     "id": "ean:7311043014170",
+     "name": "Eldorado Odlade Blåbär Djupfrysta",
+     "brand": "Eldorado",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 0,
+     "kcal": 45.0,
+     "protein_g": 0.6,
+     "fat_g": 0.6,
+     "carbs_g": 6.1,
+     "sugars_g": 5.9,
+     "salt_g": 0.01
+    },
+    "keep": {
+     "id": "ean:7340083443183",
+     "name": "Eldorado Blåbär Djupfrysta",
+     "brand": "Eldorado",
+     "pack_size": null,
+     "source": "openfoodfacts",
+     "verified": 1,
+     "kcal": 45.0,
+     "protein_g": 0.6,
+     "fat_g": 0.6,
+     "carbs_g": 6.1,
+     "sugars_g": 5.9,
+     "salt_g": 0.0
+    }
+   },
+   "why": "agent unsure",
+   "reason": "odlade vs plain blueberries, likely same but unverified"
+  },
+  {
+   "id": "ean:7037610057332",
+   "into": "toro:https://www.toro.no/produkter/glutenfri-grov-melblanding/",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "id": "ean:7037610057134",
+   "into": "toro:https://www.toro.no/produkter/glutenfri-lys-melblanding/",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Sugar-free variant uncertain",
+    "row": {
+     "id": "ean:7038010055515",
+     "name": "Vaniljesaus",
+     "brand": "Piano",
+     "pack_size": "500 ml",
+     "source": "norgesgruppen",
+     "verified": 0,
+     "kcal": 94.0,
+     "protein_g": 3.3,
+     "fat_g": 5.2,
+     "carbs_g": 7.1,
+     "sugars_g": 4.3,
+     "salt_g": 0.14
+    },
+    "keep": {
+     "id": "tine:https://www.tine.no/merkevarer/piano/produkter/piano-vaniljesaus-uten",
+     "name": "Piano Vaniljesaus uten Tilsatt Sukker",
+     "brand": "Piano",
+     "pack_size": "2 L",
+     "source": "tine",
+     "verified": 1,
+     "kcal": 94.0,
+     "protein_g": 3.3,
+     "fat_g": 5.2,
+     "carbs_g": 7.1,
+     "sugars_g": 4.3,
+     "salt_g": 0.14
+    }
+   },
+   "why": "agent unsure",
+   "reason": "sugar-free variant may differ"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "variant words differ: Granola vs Bare Bra Granola",
+    "row": {
+     "id": "ean:7039010578547",
+     "name": "Granola Kakao&Bringebær",
+     "brand": "Bare bra",
+     "pack_size": "430 g",
+     "source": "norgesgruppen",
+     "verified": 0,
+     "kcal": 378.0,
+     "protein_g": 11.0,
+     "fat_g": 8.0,
+     "carbs_g": 52.0,
+     "sugars_g": 3.6,
+     "salt_g": 0.33
+    },
+    "keep": {
+     "id": "ean:7039010555654",
+     "name": "Bare Bra Granola",
+     "brand": "Bare bra",
+     "pack_size": "450 g",
+     "source": "kassalapp",
+     "verified": 0,
+     "kcal": 378.0,
+     "protein_g": 11.0,
+     "fat_g": 8.0,
+     "carbs_g": 52.0,
+     "sugars_g": 3.6,
+     "salt_g": 0.33
+    }
+   },
+   "why": "agent unsure",
+   "reason": "different names, same numbers"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Brasil vs Vivenza Brasil, maybe same",
+    "row": {
+     "id": "ean:7040913337599",
+     "name": "Cotw Vivenza Brasil",
+     "brand": "Cotw",
+     "pack_size": "250 g",
+     "source": "norgesgruppen",
+     "verified": 0,
+     "kcal": 2.0,
+     "protein_g": 0.28,
+     "fat_g": 0.05,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "salt_g": null
+    },
+    "keep": {
+     "id": "ean:7040913337421",
+     "name": "Cotw Brasil",
+     "brand": "Cotw",
+     "pack_size": "340 g",
+     "source": "norgesgruppen",
+     "verified": 0,
+     "kcal": 2.0,
+     "protein_g": 0.28,
+     "fat_g": 0.05,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "salt_g": 0.0
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Vivenza Brasil vs Brasil unclear"
+  },
+  {
+   "id": "tights-discontinued:1464331",
+   "into": "ean:7090046141600",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "variant words differ: Monster Fit Kat Sukkerfri Kjekssjokolade - PAKKETILBUD vs Monster Fit Kat Kjekssjokolade",
+    "row": {
+     "id": "tights-discontinued:802455",
+     "name": "Monster Fit Kat Sukkerfri Kjekssjokolade - PAKKETILBUD",
+     "brand": "Monster Supersnacks",
+     "pack_size": null,
+     "source": "tights-discontinued",
+     "verified": 0,
+     "kcal": 479.0,
+     "protein_g": 6.6,
+     "fat_g": 35.0,
+     "carbs_g": 51.0,
+     "sugars_g": 6.6,
+     "salt_g": 0.23
+    },
+    "keep": {
+     "id": "ean:7090046146131",
+     "name": "Monster Fit Kat Kjekssjokolade",
+     "brand": "Monster Supersnacks",
+     "pack_size": "65 g",
+     "source": "tights",
+     "verified": 0,
+     "kcal": 490.0,
+     "protein_g": 6.6,
+     "fat_g": 35.0,
+     "carbs_g": 51.0,
+     "sugars_g": 6.5,
+     "salt_g": 0.2
+    }
+   },
+   "why": "agent unsure",
+   "reason": "kcal 479 vs 490, may be older recipe"
+  },
+  {
+   "id": "tights-discontinued:10656065",
+   "into": "ean:9102222027177",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "id": "tights-discontinued:10568310",
+   "into": "ean:9102222030191",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "id": "tights-discontinued:12798594",
+   "into": "ean:9102222030191",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "id": "ean:7310070010636",
+   "into": "ean:7310070010506",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "id": "kassalapp:19355",
+   "into": "ean:7090052030028",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "variant words differ: Stjärnägg Extra Stora Ägg vs Stjärnägg Ägg Stora+",
+    "row": {
+     "id": "ean:7332489207506",
+     "name": "Extra Stora Ägg",
+     "brand": "Stjärnägg",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 140.0,
+     "protein_g": 12.0,
+     "fat_g": 9.7,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "salt_g": 0.3925
+    },
+    "keep": {
+     "id": "ean:7332489004860",
+     "name": "Ägg Stora+",
+     "brand": "Stjärnägg",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 140.0,
+     "protein_g": 12.0,
+     "fat_g": 9.7,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "salt_g": 0.3925
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Extra Stora vs Stora+ size grades unclear"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Eggs, carbs differ",
+    "row": {
+     "id": "ean:7394122002107",
+     "name": "Ägg",
+     "brand": "Byns Gårdar",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 140.0,
+     "protein_g": 12.5,
+     "fat_g": 9.7,
+     "carbs_g": 0.5,
+     "sugars_g": null,
+     "salt_g": 0.35
+    },
+    "keep": {
+     "id": "ean:7394122002060",
+     "name": "Dala Ägg",
+     "brand": "Byns Gårdar",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 140.0,
+     "protein_g": 12.5,
+     "fat_g": 9.7,
+     "carbs_g": 0.25,
+     "sugars_g": null,
+     "salt_g": null
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Dala Ägg vs Ägg, different EAN, carbs differ"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Nan 2 drinkable, protein differs",
+    "row": {
+     "id": "ean:8445290749079",
+     "name": "Drikkeklar Tilskudsblanding 2",
+     "brand": "Nan",
+     "pack_size": "200 ml",
+     "source": "matas-dk",
+     "verified": 0,
+     "kcal": 67.0,
+     "protein_g": 1.1,
+     "fat_g": 3.2,
+     "carbs_g": 8.3,
+     "sugars_g": 8.3,
+     "salt_g": 0.0
+    },
+    "keep": {
+     "id": "ean:7613036275965",
+     "name": "Nan 2 Drikkeklar",
+     "brand": "Nan",
+     "pack_size": "200 ml",
+     "source": "norgesgruppen",
+     "verified": 0,
+     "kcal": 67.0,
+     "protein_g": 1.3,
+     "fat_g": 3.2,
+     "carbs_g": 8.2,
+     "sugars_g": 4.9,
+     "salt_g": 0.06
+    }
+   },
+   "why": "agent unsure",
+   "reason": "DK vs NO label, protein and sugars differ"
+  },
+  {
+   "id": "ean:7640104953135",
+   "into": "ean:7640104952619",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Same Parmesan 30%; 12 month variant unsure",
+    "row": {
+     "id": "ean:8010721981689",
+     "name": "Parmareggio Parmesan Trekant 12 Mnd 30%",
+     "brand": "Parmareggio",
+     "pack_size": "200 g",
+     "source": "kassalapp",
+     "verified": 0,
+     "kcal": 402.0,
+     "protein_g": 32.0,
+     "fat_g": 30.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "salt_g": 1.6
+    },
+    "keep": {
+     "id": "ean:8010721977385",
+     "name": "Parmareggio Parmesan Trekant 30%",
+     "brand": "Parmareggio",
+     "pack_size": "150 g, 200 g, 250 g",
+     "source": "norgesgruppen",
+     "verified": 0,
+     "kcal": 402.0,
+     "protein_g": 32.0,
+     "fat_g": 30.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "salt_g": 1.6
+    }
+   },
+   "why": "agent unsure",
+   "reason": "12 month age variant unconfirmed"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Spelt spaghetti, names unclear",
+    "row": {
+     "id": "ean:8013885051649",
+     "name": "Castagno spelt",
+     "brand": "Castagno",
+     "pack_size": "500 g",
+     "source": "helsekost-no",
+     "verified": 0,
+     "kcal": 356.0,
+     "protein_g": 11.0,
+     "fat_g": 2.0,
+     "carbs_g": 72.0,
+     "sugars_g": 3.2,
+     "salt_g": 0.0
+    },
+    "keep": {
+     "id": "ean:8013885051625",
+     "name": "Castagno Spelt Spaghetti Hvid Økologisk",
+     "brand": "Castagno",
+     "pack_size": "500 g",
+     "source": "helsam-dk",
+     "verified": 0,
+     "kcal": 356.0,
+     "protein_g": 11.0,
+     "fat_g": 2.0,
+     "carbs_g": 72.0,
+     "sugars_g": 3.2,
+     "salt_g": 0.0
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Name unclear, could be another pasta shape"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Plain Greek yoghurt vs Äkta, numbers slightly differ",
+    "row": {
+     "id": "ean:7350056793146",
+     "name": "Larsa Äkta Grekisk Yoghurt",
+     "brand": "Larsa",
+     "pack_size": null,
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 57.0,
+     "protein_g": 9.3,
+     "fat_g": 0.0,
+     "carbs_g": 4.9,
+     "sugars_g": 3.6,
+     "salt_g": 0.1075
+    },
+    "keep": {
+     "id": "ean:7350056793160",
+     "name": "Larsa Grekisk Yoghurt",
+     "brand": "Larsa",
+     "pack_size": "500 g",
+     "source": "openfoodfacts-nordic-global",
+     "verified": 1,
+     "kcal": 56.0,
+     "protein_g": 9.3,
+     "fat_g": 0.0,
+     "carbs_g": 4.7,
+     "sugars_g": 3.4,
+     "salt_g": 0.0975
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Äkta line vs plain, numbers differ"
+  },
+  {
+   "id": "ean:9004617071997",
+   "into": "ean:9004617071485",
+   "why": "agent said fold, code refused: variant words differ"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Lammestek vs lammestek av lar, unclear",
+    "row": {
+     "id": "norgesgruppen:23016418",
+     "name": "Lammestek Av Lår",
+     "brand": "Gourmetlam",
+     "pack_size": "1,1 kg",
+     "source": "norgesgruppen",
+     "verified": 0,
+     "kcal": 189.0,
+     "protein_g": 19.0,
+     "fat_g": 12.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "salt_g": 0.8
+    },
+    "keep": {
+     "id": "norgesgruppen:23010584",
+     "name": "Lammestek",
+     "brand": "Gourmetlam",
+     "pack_size": "1,3 kg, 1,5 kg",
+     "source": "norgesgruppen",
+     "verified": 0,
+     "kcal": 184.0,
+     "protein_g": 19.0,
+     "fat_g": 12.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "salt_g": 0.2
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Av lår may be a different cut, numbers differ"
+  },
+  {
+   "item": {
+    "kind": "duplicate?",
+    "why": "duplicate? Generic Nocco Electrolyte vs Lemon Lime flavour, unclear",
+    "row": {
+     "id": "tillskottsbolaget:https://www.tillskottsbolaget.se/sv/24-x-nocco-electrolyte-355-ml-lemon-lime",
+     "name": "Nocco Electrolyte Lemon Lime",
+     "brand": "Nocco",
+     "pack_size": "355 ml",
+     "source": "tillskottsbolaget",
+     "verified": 0,
+     "kcal": 3.1,
+     "protein_g": 0.0,
+     "fat_g": 0.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "salt_g": 0.02
+    },
+    "keep": {
+     "id": "ean:7340131607185",
+     "name": "Nocco Electrolyte",
+     "brand": "Nocco",
+     "pack_size": "355 ml",
+     "source": "kassalapp",
+     "verified": 0,
+     "kcal": 3.0,
+     "protein_g": 0.0,
+     "fat_g": 0.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "salt_g": 0.02
+    }
+   },
+   "why": "agent unsure",
+   "reason": "Flavour link unconfirmed"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Julesild, row has different numbers and size, recipe may differ",
+    "shop": {
+     "ean": "7035620051487",
+     "title": "Julesild",
+     "subtitle": "365g Fiskemannen",
+     "label": {
+      "kcal": 168.0,
+      "fat_g": 7.9,
+      "sat_fat_g": 1.55,
+      "carbs_g": 16.0,
+      "sugars_g": 14.8,
+      "fibre_g": 0.0,
+      "protein_g": 8.16,
+      "salt_g": 1.8
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7035620032561",
+      "name": "Fiskemannen Julesild",
+      "brand": "Fiskemannen",
+      "pack_size": "380 g",
+      "kcal": 158.0,
+      "protein_g": 2.3,
+      "fat_g": 4.5,
+      "carbs_g": 27.0,
+      "sugars_g": 20.0,
+      "salt_g": 1.8,
+      "source": "norgesgruppen",
+      "verified": 0
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Different size and numbers, may be new recipe"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Skinnless mackerel fillet in tomato 170g; row numbers differ, variant unclear",
+    "shop": {
+     "ean": "7027110214847",
+     "title": "Makrellfilet",
+     "subtitle": "Skinnfri i Tomat 170g King Oscar",
+     "label": {
+      "kcal": 228.0,
+      "fat_g": 18.0,
+      "sat_fat_g": 3.8,
+      "carbs_g": 3.5,
+      "sugars_g": 3.5,
+      "fibre_g": 0.0,
+      "protein_g": 13.0,
+      "salt_g": 1.0
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7027110001683",
+      "name": "King Oscar Makrellfilet",
+      "brand": "King Oscar",
+      "pack_size": "160 g",
+      "kcal": 193.0,
+      "protein_g": 13.0,
+      "fat_g": 14.0,
+      "carbs_g": 3.5,
+      "sugars_g": 3.5,
+      "salt_g": 0.9825,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Skinnfri in tomato not confirmed against our generic row"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "12-pack Krone-Is Sjokolade; our row is 125 ml single with different numbers (310 vs 305). Cannot confirm same recipe.",
+    "shop": {
+     "ean": "7041018240005",
+     "title": "Krone-Is Sjokolade",
+     "subtitle": "Multipack 12stk Hennig Olsen",
+     "label": {
+      "kcal": 310.0,
+      "fat_g": 17.3,
+      "sat_fat_g": 11.9,
+      "carbs_g": 33.5,
+      "sugars_g": 24.9,
+      "protein_g": 4.4,
+      "salt_g": 0.2
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7041011279118",
+      "name": "Hennig-Olsen Krone-Is Sjokolade",
+      "brand": "Hennig-Olsen",
+      "pack_size": "125 ml",
+      "kcal": 305.0,
+      "protein_g": 4.1,
+      "fat_g": 16.1,
+      "carbs_g": 35.5,
+      "sugars_g": 27.4,
+      "salt_g": 0.2,
+      "source": "hennig-olsen",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Multipack with slightly newer numbers, recipe unconfirmed"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Krone-Is Sjokolade 145 ml; numbers differ from our 125 ml row (297 vs 305), size-specific recipe possible.",
+    "shop": {
+     "ean": "7041011200006",
+     "title": "Krone-Is",
+     "subtitle": "Sjokolade 145ml Hennig Olsen",
+     "label": {
+      "kcal": 297.0,
+      "fat_g": 16.5,
+      "sat_fat_g": 11.4,
+      "carbs_g": 32.1,
+      "sugars_g": 24.7,
+      "protein_g": 4.4,
+      "salt_g": 0.2
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7041011278111",
+      "name": "Krone-Is Hennig Olsen",
+      "brand": "Hennig-Olsen",
+      "pack_size": "125 ml, 145 ml",
+      "kcal": 263.0,
+      "protein_g": 3.5,
+      "fat_g": 11.3,
+      "carbs_g": 36.3,
+      "sugars_g": 28.5,
+      "salt_g": 0.18,
+      "source": "hennig-olsen",
+      "verified": 1
+     },
+     {
+      "id": "ean:7041011279118",
+      "name": "Hennig-Olsen Krone-Is Sjokolade",
+      "brand": "Hennig-Olsen",
+      "pack_size": "125 ml",
+      "kcal": 305.0,
+      "protein_g": 4.1,
+      "fat_g": 16.1,
+      "carbs_g": 35.5,
+      "sugars_g": 27.4,
+      "salt_g": 0.2,
+      "source": "hennig-olsen",
+      "verified": 1
+     },
+     {
+      "id": "ean:7041011280114",
+      "name": "Krone-Is Nonstop Hennig Olsen",
+      "brand": "Hennig-Olsen",
+      "pack_size": "125 ml, 145 ml",
+      "kcal": 326.0,
+      "protein_g": 4.0,
+      "fat_g": 16.6,
+      "carbs_g": 39.5,
+      "sugars_g": 31.5,
+      "salt_g": 0.19,
+      "source": "hennig-olsen",
+      "verified": 1
+     },
+     {
+      "id": "ean:7041013250115",
+      "name": "Hennig-Olsen Idyll Krone-is Jordbær Plantebasert",
+      "brand": "Hennig-Olsen",
+      "pack_size": "6stk",
+      "kcal": 272.0,
+      "protein_g": 1.3,
+      "fat_g": 12.0,
+      "carbs_g": 39.3,
+      "sugars_g": 24.7,
+      "salt_g": 0.14,
+      "source": "hennig-olsen",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "145 ml numbers differ from 125 ml row"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Litago Is chocolate 1.2 l; our Litago Is row has no flavour and different fat (6.2 vs 8.6).",
+    "shop": {
+     "ean": "7037210119614",
+     "title": "Litago Is",
+     "subtitle": "Sjokoladesmak 1,2l Diplom-Is",
+     "label": {
+      "kcal": 182.0,
+      "fat_g": 8.6,
+      "sat_fat_g": 5.6,
+      "carbs_g": 22.0,
+      "sugars_g": 20.0,
+      "protein_g": 3.8,
+      "salt_g": 0.15
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7037210119188",
+      "name": "Diplom-Is Litago Is",
+      "brand": "Diplom-Is",
+      "pack_size": null,
+      "kcal": 181.0,
+      "protein_g": 3.8,
+      "fat_g": 6.2,
+      "carbs_g": 27.0,
+      "sugars_g": 23.0,
+      "salt_g": 0.0325,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Flavour and fat differ"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Lollipop Favoritter 1.2 l is close to store row Lollipop Is 1.2 L (118/0.5/29/25 vs 117/0.5/28/25) but flavour mix not confirmed.",
+    "shop": {
+     "ean": "7037210118426",
+     "title": "Lollipop",
+     "subtitle": "Favoritter1,2l Diplom-Is",
+     "label": {
+      "kcal": 117.0,
+      "fat_g": 0.5,
+      "sat_fat_g": 0.3,
+      "carbs_g": 28.0,
+      "sugars_g": 25.0,
+      "protein_g": 0.5,
+      "salt_g": 0.01
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7037210110055",
+      "name": "Diplom-Is Lollipop",
+      "brand": "Diplom-Is",
+      "pack_size": "62 g",
+      "kcal": 120.0,
+      "protein_g": 0.5,
+      "fat_g": 3.4,
+      "carbs_g": 22.0,
+      "sugars_g": 22.0,
+      "salt_g": 0.01,
+      "source": "openfoodfacts",
+      "verified": 1
+     },
+     {
+      "id": "ean:7037210121150",
+      "name": "Diplom-Is Lollipop",
+      "brand": "Diplom-Is",
+      "pack_size": "8 x 52 g",
+      "kcal": 98.07692,
+      "protein_g": 0.961538,
+      "fat_g": 0.961538,
+      "carbs_g": 23.076923,
+      "sugars_g": 23.076923,
+      "salt_g": 0.019231,
+      "source": "openfoodfacts",
+      "verified": 1
+     },
+     {
+      "id": "ean:7037210121235",
+      "name": "Diplom-Is Lollipop",
+      "brand": "Diplom-Is",
+      "pack_size": null,
+      "kcal": 81.0,
+      "protein_g": 0.0,
+      "fat_g": 0.0,
+      "carbs_g": 20.0,
+      "sugars_g": 20.0,
+      "salt_g": null,
+      "source": "openfoodfacts",
+      "verified": 1
+     },
+     {
+      "id": "ean:7340146507111",
+      "name": "Diplom-Is Lollipop",
+      "brand": "Diplom-Is",
+      "pack_size": "80 g",
+      "kcal": 332.0,
+      "protein_g": 0.5,
+      "fat_g": 0.5,
+      "carbs_g": 82.0,
+      "sugars_g": 70.0,
+      "salt_g": 0.64,
+      "source": "openfoodfacts",
+      "verified": 1
+     },
+     {
+      "id": "store:7037210119690",
+      "name": "Diplom-Is Lollipop Is",
+      "brand": "Diplom-Is",
+      "pack_size": "1,2 L",
+      "kcal": 118.0,
+      "protein_g": 0.5,
+      "fat_g": 0.5,
+      "carbs_g": 29.0,
+      "sugars_g": 25.0,
+      "salt_g": 0.01,
+      "source": "norgesgruppen",
+      "verified": 0
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Close to store row but different EAN and flavour mix"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Bottle version has different numbers (39 kcal, 9 sugar) than can labels; may be a separate variant.",
+    "shop": {
+     "ean": "7044610806204",
+     "title": "Ringnes Vørterøl",
+     "subtitle": "0,33lx6 flaske",
+     "label": {
+      "kcal": 39.0,
+      "fat_g": 0.0,
+      "sat_fat_g": 0.0,
+      "carbs_g": 9.0,
+      "sugars_g": 9.0,
+      "fibre_g": 0.0,
+      "protein_g": 0.4,
+      "salt_g": 0.0
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ringnes:https://www.ringnes.no/produkter/ringnes/ringnes-voerteroel/",
+      "name": "Ringnes Vørterøl",
+      "brand": "Ringnes",
+      "pack_size": null,
+      "kcal": 38.0,
+      "protein_g": 0.5,
+      "fat_g": 0.0,
+      "carbs_g": 9.7,
+      "sugars_g": 7.0,
+      "salt_g": 0.0,
+      "source": "ringnes",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Bottle vs unspecified, numbers differ"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Same brand and name as our row but 14-pack 770 g with different numbers (258 vs 241); may be a different recipe.",
+    "shop": {
+     "ean": "7045386068506",
+     "title": "Wienerpølser",
+     "subtitle": "14stk 770g Leiv Vidar",
+     "label": {
+      "kcal": 258.0,
+      "fat_g": 20.0,
+      "sat_fat_g": 7.8,
+      "carbs_g": 7.4,
+      "sugars_g": 1.2,
+      "protein_g": 12.0,
+      "salt_g": 1.6
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7045386067202",
+      "name": "Leiv Vidar Wienerpølser",
+      "brand": "Leiv Vidar",
+      "pack_size": "550 g, 1,1 kg",
+      "kcal": 241.0,
+      "protein_g": 11.4,
+      "fat_g": 18.0,
+      "carbs_g": 7.8,
+      "sugars_g": 1.2,
+      "salt_g": 1.6725,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Different pack, numbers differ"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Grilstad Chorizo; our same-name row has implausible salt and other numbers, cannot settle.",
+    "shop": {
+     "ean": "7058040657305",
+     "title": "Chorizo",
+     "subtitle": "100g Grilstad",
+     "label": {
+      "kcal": 419.0,
+      "fat_g": 37.0,
+      "sat_fat_g": 12.5,
+      "carbs_g": 2.3,
+      "sugars_g": 2.2,
+      "protein_g": 20.0,
+      "salt_g": 4.7
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7058040660701",
+      "name": "Grilstad Hot Chorizo",
+      "brand": "Grilstad",
+      "pack_size": "100 g",
+      "kcal": 421.0,
+      "protein_g": 20.0,
+      "fat_g": 36.0,
+      "carbs_g": 3.2,
+      "sugars_g": 2.2,
+      "salt_g": 4.6,
+      "source": "norgesgruppen",
+      "verified": 0
+     },
+     {
+      "id": "ean:7058040685605",
+      "name": "Grilstad Chorizo Pølser",
+      "brand": "Grilstad",
+      "pack_size": "3 x 80 g",
+      "kcal": 270.0,
+      "protein_g": 14.0,
+      "fat_g": 23.0,
+      "carbs_g": 3.9,
+      "sugars_g": 1.2,
+      "salt_g": 1.8,
+      "source": "openfoodfacts",
+      "verified": 1
+     },
+     {
+      "id": "ean:7331868182229",
+      "name": "Grilstad Chorizo",
+      "brand": "Grilstad",
+      "pack_size": null,
+      "kcal": 458.0,
+      "protein_g": 25.0,
+      "fat_g": 39.0,
+      "carbs_g": 2.0,
+      "sugars_g": 2.0,
+      "salt_g": 24.5875,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Our same-name row has implausible salt"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Bacon variant of Spekepolse hel; our three rows lack variant info and none clearly match",
+    "shop": {
+     "ean": "7058040458506",
+     "title": "Spekepølse hel",
+     "subtitle": "Bacon 220g Grilstad",
+     "label": {
+      "kcal": 412.0,
+      "fat_g": 34.0,
+      "sat_fat_g": 12.0,
+      "carbs_g": 1.3,
+      "sugars_g": 0.3,
+      "protein_g": 25.0,
+      "salt_g": 5.2
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7058040434401",
+      "name": "Grilstad Spekepølse hel",
+      "brand": "Grilstad",
+      "pack_size": "220 g",
+      "kcal": 436.0,
+      "protein_g": 27.0,
+      "fat_g": 36.0,
+      "carbs_g": 1.6,
+      "sugars_g": 1.1,
+      "salt_g": 5.0,
+      "source": "norgesgruppen",
+      "verified": 0
+     },
+     {
+      "id": "ean:7058040454805",
+      "name": "Grilstad Spekepølse hel",
+      "brand": "Grilstad",
+      "pack_size": "220 g",
+      "kcal": 466.0,
+      "protein_g": 24.0,
+      "fat_g": 41.0,
+      "carbs_g": 1.0,
+      "sugars_g": 0.0,
+      "salt_g": 5.5,
+      "source": "norgesgruppen",
+      "verified": 0
+     },
+     {
+      "id": "ean:7058040454904",
+      "name": "Grilstad Spekepølse hel",
+      "brand": "Grilstad",
+      "pack_size": "220 g",
+      "kcal": 438.0,
+      "protein_g": 23.0,
+      "fat_g": 38.0,
+      "carbs_g": 1.4,
+      "sugars_g": 0.0,
+      "salt_g": 5.0,
+      "source": "norgesgruppen",
+      "verified": 0
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Bacon variant not identifiable among rows"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Label flavour not stated; our row is garlic Krutonger, numbers similar",
+    "shop": {
+     "ean": "7023026707237",
+     "title": "Krutonger",
+     "subtitle": "280g Bama",
+     "label": {
+      "kcal": 494.0,
+      "fat_g": 20.3,
+      "sat_fat_g": 2.0,
+      "carbs_g": 66.4,
+      "sugars_g": 3.2,
+      "fibre_g": 2.7,
+      "protein_g": 10.1,
+      "salt_g": 1.2
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7039281551195",
+      "name": "Bama Krutonger Hvitløk",
+      "brand": "Bama",
+      "pack_size": null,
+      "kcal": 481.0,
+      "protein_g": 10.0,
+      "fat_g": 21.0,
+      "carbs_g": 61.0,
+      "sugars_g": 3.7,
+      "salt_g": null,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Flavour not stated on label"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Caj P BBQ oil garlic vs Haugen-Gruppen garlic and herbs marinade; brand and recipe link unclear",
+    "shop": {
+     "ean": "7315200590835",
+     "title": "Bbq Oil Garlic",
+     "subtitle": "250ml Caj P",
+     "label": {
+      "kcal": 323.0,
+      "fat_g": 34.7,
+      "sat_fat_g": 2.5,
+      "carbs_g": 3.6,
+      "sugars_g": 0.8,
+      "fibre_g": 0.0,
+      "protein_g": 0.7,
+      "salt_g": 6.8
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7315200591030",
+      "name": "Haugen-Gruppen Marinade & BBQ oil - garlic & herbs",
+      "brand": "Haugen-Gruppen",
+      "pack_size": null,
+      "kcal": 288.0,
+      "protein_g": 0.5,
+      "fat_g": 31.0,
+      "carbs_g": 3.4,
+      "sugars_g": 1.7,
+      "salt_g": null,
+      "source": "openfoodfacts-nordic-global",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Brand and recipe link unclear"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Our Ben&Jerry's rows have no flavour in the name; cannot tell which is Cookie Dough",
+    "shop": {
+     "ean": "0076840600021",
+     "title": "Ben&Jerry's",
+     "subtitle": "Cookie Dough 500ml",
+     "label": {
+      "kcal": 270.0,
+      "fat_g": 15.0,
+      "sat_fat_g": 9.0,
+      "carbs_g": 30.0,
+      "sugars_g": 25.0,
+      "protein_g": 4.0,
+      "salt_g": 0.17
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:8711200316571",
+      "name": "Ben&Jerry's",
+      "brand": "Ben & Jerry's",
+      "pack_size": "500 ml",
+      "kcal": 210.0,
+      "protein_g": 3.5,
+      "fat_g": 7.0,
+      "carbs_g": 33.0,
+      "sugars_g": 23.0,
+      "salt_g": 0.51,
+      "source": "norgesgruppen",
+      "verified": 0
+     },
+     {
+      "id": "ean:8711200316625",
+      "name": "Ben&Jerry's",
+      "brand": "Ben & Jerry's",
+      "pack_size": "500 ml",
+      "kcal": 216.0,
+      "protein_g": 4.6,
+      "fat_g": 6.7,
+      "carbs_g": 34.0,
+      "sugars_g": 24.0,
+      "salt_g": 0.15,
+      "source": "norgesgruppen",
+      "verified": 0
+     },
+     {
+      "id": "ean:8711200589272",
+      "name": "Ben&Jerry's",
+      "brand": "Ben & Jerry's",
+      "pack_size": "465 ml, 500 ml",
+      "kcal": 260.0,
+      "protein_g": 4.0,
+      "fat_g": 14.0,
+      "carbs_g": 29.0,
+      "sugars_g": 26.0,
+      "salt_g": 0.16,
+      "source": "norgesgruppen",
+      "verified": 0
+     },
+     {
+      "id": "ean:8711200590810",
+      "name": "Ben&Jerry's",
+      "brand": "Ben & Jerry's",
+      "pack_size": "500 ml",
+      "kcal": 320.0,
+      "protein_g": 6.0,
+      "fat_g": 22.0,
+      "carbs_g": 25.0,
+      "sugars_g": 22.0,
+      "salt_g": 0.49,
+      "source": "norgesgruppen",
+      "verified": 0
+     },
+     {
+      "id": "ean:8711327317925",
+      "name": "Ben&Jerry's",
+      "brand": "Ben & Jerry's",
+      "pack_size": "100 ml",
+      "kcal": 225.0,
+      "protein_g": 3.0,
+      "fat_g": 11.0,
+      "carbs_g": 27.0,
+      "sugars_g": 20.0,
+      "salt_g": 0.11,
+      "source": "norgesgruppen",
+      "verified": 0
+     },
+     {
+      "id": "ean:8711327370708",
+      "name": "Ben & Jerry's Chocolate Fudge Brownie",
+      "brand": "Ben & Jerry's",
+      "pack_size": "465 ml",
+      "kcal": 217.0,
+      "protein_g": 3.7,
+      "fat_g": 11.0,
+      "carbs_g": 25.0,
+      "sugars_g": 24.0,
+      "salt_g": 0.2,
+      "source": "norgesgruppen",
+      "verified": 0
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Flavour cannot be matched to our rows"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Our Fazer Palle Kuling has no variant; Fruit Coins may be the same but numbers differ",
+    "shop": {
+     "ean": "6416453041288",
+     "title": "Palle Kuling",
+     "subtitle": "Fruit Coins 90g",
+     "label": {
+      "kcal": 364.0,
+      "fat_g": 0.0,
+      "sat_fat_g": 0.0,
+      "carbs_g": 86.0,
+      "sugars_g": 59.0,
+      "protein_g": 3.6,
+      "salt_g": 0.41
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:6416453041387",
+      "name": "Fazer Palle Kuling",
+      "brand": "Fazer",
+      "pack_size": null,
+      "kcal": 367.0,
+      "protein_g": 4.2,
+      "fat_g": 0.5,
+      "carbs_g": 87.0,
+      "sugars_g": 57.0,
+      "salt_g": 0.0,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Variant not confirmed"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Berthas Sjokoladekake 360g vs Baxt Sjokoladekake with no size; numbers close but brand and size unclear",
+    "shop": {
+     "ean": "7037421062365",
+     "title": "Sjokoladekake",
+     "subtitle": "360g Berthas",
+     "label": {
+      "kcal": 447.0,
+      "fat_g": 24.0,
+      "sat_fat_g": 8.6,
+      "carbs_g": 54.0,
+      "sugars_g": 36.0,
+      "protein_g": 4.6,
+      "salt_g": 0.93
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7037421060880",
+      "name": "Baxt Sjokoladekake",
+      "brand": "Baxt",
+      "pack_size": null,
+      "kcal": 430.0,
+      "protein_g": 4.6,
+      "fat_g": 23.0,
+      "carbs_g": 52.0,
+      "sugars_g": 35.0,
+      "salt_g": 1.0825,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Berthas vs Baxt brand, different EAN, numbers differ"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Berthas Doble Sjokoflarn 380g vs Baxt Doble Sjokoflarn 360g; close numbers but different pack and brand name",
+    "shop": {
+     "ean": "7037421091402",
+     "title": "Doble Sjokoflarn",
+     "subtitle": "380g Berthas",
+     "label": {
+      "kcal": 500.0,
+      "fat_g": 26.0,
+      "sat_fat_g": 16.5,
+      "carbs_g": 59.0,
+      "sugars_g": 40.3,
+      "protein_g": 5.1,
+      "salt_g": 1.0
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7037421061559",
+      "name": "Baxt Doble Sjokoflarn",
+      "brand": "Baxt",
+      "pack_size": "360 g",
+      "kcal": 509.0,
+      "protein_g": 4.0,
+      "fat_g": 27.0,
+      "carbs_g": 61.0,
+      "sugars_g": 41.0,
+      "salt_g": 0.78,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Different pack and brand name"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Berthas Pepperkaker 300g; our Baxt Pepperkaker has different numbers and no size",
+    "shop": {
+     "ean": "7037421097565",
+     "title": "Pepperkaker",
+     "subtitle": "300g Berthas",
+     "label": {
+      "kcal": 434.0,
+      "fat_g": 15.1,
+      "sat_fat_g": 1.2,
+      "carbs_g": 68.6,
+      "sugars_g": 31.9,
+      "protein_g": 6.1,
+      "salt_g": 1.5
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7037421097619",
+      "name": "Baxt Pepperkaker",
+      "brand": "Baxt",
+      "pack_size": null,
+      "kcal": 454.0,
+      "protein_g": 4.9,
+      "fat_g": 15.5,
+      "carbs_g": 72.5,
+      "sugars_g": 32.200001,
+      "salt_g": 1.6,
+      "source": "openfoodfacts",
+      "verified": 1
+     },
+     {
+      "id": "ean:7037421097657",
+      "name": "Baxt Bertil Pepperkaker",
+      "brand": "Baxt",
+      "pack_size": null,
+      "kcal": 435.0,
+      "protein_g": 6.1,
+      "fat_g": 16.200001,
+      "carbs_g": 66.0,
+      "sugars_g": 26.200001,
+      "salt_g": 0.89,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Two Baxt rows, neither clearly the same"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Same name Formloff but fat 3.9 vs 1.5 and no brand on our row",
+    "shop": {
+     "ean": "7041614008122",
+     "title": "Formloff",
+     "subtitle": "Skåret 600g Bakehuset",
+     "label": {
+      "kcal": 262.0,
+      "fat_g": 3.9,
+      "sat_fat_g": 0.5,
+      "carbs_g": 47.1,
+      "sugars_g": 0.3,
+      "fibre_g": 3.0,
+      "protein_g": 8.3,
+      "salt_g": 0.96
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7033550601925",
+      "name": "Formloff",
+      "brand": "Bakehuset Nord-Norge",
+      "pack_size": null,
+      "kcal": 240.0,
+      "protein_g": 9.5,
+      "fat_g": 1.5,
+      "carbs_g": 47.0,
+      "sugars_g": 1.0,
+      "salt_g": 0.9725,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Brand differs (Nord-Norge), fat differs a lot"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Cheesecake 8 pieces; our row is generic frozen cheesecake with no brand",
+    "shop": {
+     "ean": "7041614010538",
+     "title": "Ostekake",
+     "subtitle": "8bit 890g Bakehuset",
+     "label": {
+      "kcal": 337.0,
+      "fat_g": 22.5,
+      "sat_fat_g": 13.0,
+      "carbs_g": 28.3,
+      "sugars_g": 22.2,
+      "fibre_g": 1.8,
+      "protein_g": 4.2,
+      "salt_g": 0.47
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7033550606159",
+      "name": "Ostekake - Dypfryst",
+      "brand": "Bakehuset Nord-Norge",
+      "pack_size": null,
+      "kcal": 340.0,
+      "protein_g": 3.8,
+      "fat_g": 21.0,
+      "carbs_g": 32.900002,
+      "sugars_g": 21.299999,
+      "salt_g": 0.3925,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Brand differs, size unknown"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Brioche Gourmet 500 g vs our 600 g, numbers differ",
+    "shop": {
+     "ean": "7071848103225",
+     "title": "Brioche Gourmet",
+     "subtitle": "500g United Bakeries",
+     "label": {
+      "kcal": 276.0,
+      "fat_g": 6.0,
+      "sat_fat_g": 2.7,
+      "carbs_g": 48.0,
+      "sugars_g": 19.0,
+      "fibre_g": 1.8,
+      "protein_g": 6.5,
+      "salt_g": 0.66
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7090004034098",
+      "name": "Brioche Gourmet United Bakeries",
+      "brand": "United bakeries norway",
+      "pack_size": "600 g",
+      "kcal": 276.0,
+      "protein_g": 5.7,
+      "fat_g": 7.4,
+      "carbs_g": 46.599998,
+      "sugars_g": 21.799999,
+      "salt_g": null,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "500 g vs 600 g, numbers differ"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Holmsens burnt almonds 400 g vs our 100 g row; label carbs look odd",
+    "shop": {
+     "ean": "7036230001275",
+     "title": "Mandler Brente",
+     "subtitle": "400g Holmsens",
+     "label": {
+      "kcal": 581.0,
+      "fat_g": 37.07,
+      "sat_fat_g": 2.8,
+      "carbs_g": 53.73,
+      "sugars_g": 29.7,
+      "protein_g": 15.92,
+      "salt_g": 0.0
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7032069739426",
+      "name": "Brente Mandler",
+      "brand": "R",
+      "pack_size": null,
+      "kcal": 541.0,
+      "protein_g": 16.0,
+      "fat_g": 38.0,
+      "carbs_g": 29.0,
+      "sugars_g": 25.0,
+      "salt_g": 1.8675,
+      "source": "openfoodfacts",
+      "verified": 1
+     },
+     {
+      "id": "ean:7036230001268",
+      "name": "Holmsens Brente Mandler",
+      "brand": "Holmsens",
+      "pack_size": "100 g",
+      "kcal": 543.0,
+      "protein_g": 16.0,
+      "fat_g": 37.0,
+      "carbs_g": 32.0,
+      "sugars_g": 30.0,
+      "salt_g": 0.0,
+      "source": "norgesgruppen",
+      "verified": 0
+     },
+     {
+      "id": "ean:7041111126343",
+      "name": "Brente Mandler",
+      "brand": "Nøttefabrikken",
+      "pack_size": "190 g",
+      "kcal": 560.0,
+      "protein_g": 13.0,
+      "fat_g": 33.0,
+      "carbs_g": 49.0,
+      "sugars_g": 37.0,
+      "salt_g": 0.0,
+      "source": "openfoodfacts",
+      "verified": 1
+     },
+     {
+      "id": "ean:7041111137141",
+      "name": "Den Lille Nøttefabrikken Brente Mandler",
+      "brand": "Den Lille Nøttefabrikken",
+      "pack_size": "160 g, 2,5 kg",
+      "kcal": 590.0,
+      "protein_g": 17.0,
+      "fat_g": 42.0,
+      "carbs_g": 33.0,
+      "sugars_g": 25.0,
+      "salt_g": 1.9,
+      "source": "norgesgruppen",
+      "verified": 0
+     },
+     {
+      "id": "ean:7041111140615",
+      "name": "Mandler Brente",
+      "brand": "Dln",
+      "pack_size": "160 g",
+      "kcal": 564.0,
+      "protein_g": 15.0,
+      "fat_g": 39.0,
+      "carbs_g": 37.0,
+      "sugars_g": 32.0,
+      "salt_g": 0.05,
+      "source": "kassalapp",
+      "verified": 0
+     },
+     {
+      "id": "ean:7072719017245",
+      "name": "Brente Mandler",
+      "brand": "Cemo",
+      "pack_size": "160 g",
+      "kcal": 527.0,
+      "protein_g": 16.0,
+      "fat_g": 36.0,
+      "carbs_g": 30.0,
+      "sugars_g": 29.0,
+      "salt_g": 0.6,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "400 g EAN, label carbs odd"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Hansa Julebrus Lett exists but row has no pack size and several Lett EANs share these numbers",
+    "shop": {
+     "ean": "7030019527482",
+     "title": "Hansa Julebrus",
+     "subtitle": "Lett 1,5l flaske",
+     "label": {
+      "kcal": 1.0,
+      "fat_g": 0.0,
+      "sat_fat_g": 0.0,
+      "carbs_g": 0.1,
+      "sugars_g": 0.1,
+      "fibre_g": 0.0,
+      "protein_g": 0.0,
+      "salt_g": 0.0
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7030019527543",
+      "name": "Hansa Julebrus",
+      "brand": "Hansa",
+      "pack_size": "330 ml, 1,5 L",
+      "kcal": 40.0,
+      "protein_g": 0.0,
+      "fat_g": 0.0,
+      "carbs_g": 10.0,
+      "sugars_g": 10.0,
+      "salt_g": 0.01,
+      "source": "openfoodfacts",
+      "verified": 1
+     },
+     {
+      "id": "ean:7030019537047",
+      "name": "Hansa Julebrus Lett",
+      "brand": "Hansa",
+      "pack_size": null,
+      "kcal": 0.0,
+      "protein_g": 0.0,
+      "fat_g": 0.0,
+      "carbs_g": 0.1,
+      "sugars_g": 0.1,
+      "salt_g": 0.01,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Several competing Lett rows, pack-specific EAN"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Lett can, row has no pack size, numbers differ (rounded 0.5 values)",
+    "shop": {
+     "ean": "7030019534619",
+     "title": "Hansa Julebrus Lett",
+     "subtitle": "0,33l boks",
+     "label": {
+      "kcal": 1.0,
+      "fat_g": 0.5,
+      "sat_fat_g": 0.0,
+      "carbs_g": 0.5,
+      "sugars_g": 0.0,
+      "fibre_g": 0.0,
+      "protein_g": 0.5,
+      "salt_g": 0.02
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7030019537047",
+      "name": "Hansa Julebrus Lett",
+      "brand": "Hansa",
+      "pack_size": null,
+      "kcal": 0.0,
+      "protein_g": 0.0,
+      "fat_g": 0.0,
+      "carbs_g": 0.1,
+      "sugars_g": 0.1,
+      "salt_g": 0.01,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Several competing Lett rows"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Lett 6pk of cans, same ambiguity",
+    "shop": {
+     "ean": "7030019534626",
+     "title": "Hansa Julebrus Lett",
+     "subtitle": "0,33l boks 6pk",
+     "label": {
+      "kcal": 1.0,
+      "fat_g": 0.5,
+      "sat_fat_g": 0.0,
+      "carbs_g": 0.5,
+      "sugars_g": 0.0,
+      "fibre_g": 0.0,
+      "protein_g": 0.5,
+      "salt_g": 0.02
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7030019537047",
+      "name": "Hansa Julebrus Lett",
+      "brand": "Hansa",
+      "pack_size": null,
+      "kcal": 0.0,
+      "protein_g": 0.0,
+      "fat_g": 0.0,
+      "carbs_g": 0.1,
+      "sugars_g": 0.1,
+      "salt_g": 0.01,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Several competing Lett rows"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Lett 0.33 bottle; row Hansa Julebrus Lett has no pack size, numbers close but several EANs compete",
+    "shop": {
+     "ean": "7030019537030",
+     "title": "Hansa Julebrus",
+     "subtitle": "Lett 0,33l flaske",
+     "label": {
+      "kcal": 1.0,
+      "fat_g": 0.0,
+      "sat_fat_g": 0.0,
+      "carbs_g": 0.1,
+      "sugars_g": 0.1,
+      "fibre_g": 0.0,
+      "protein_g": 0.0,
+      "salt_g": 0.0
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7030019527543",
+      "name": "Hansa Julebrus",
+      "brand": "Hansa",
+      "pack_size": "330 ml, 1,5 L",
+      "kcal": 40.0,
+      "protein_g": 0.0,
+      "fat_g": 0.0,
+      "carbs_g": 10.0,
+      "sugars_g": 10.0,
+      "salt_g": 0.01,
+      "source": "openfoodfacts",
+      "verified": 1
+     },
+     {
+      "id": "ean:7030019537047",
+      "name": "Hansa Julebrus Lett",
+      "brand": "Hansa",
+      "pack_size": null,
+      "kcal": 0.0,
+      "protein_g": 0.0,
+      "fat_g": 0.0,
+      "carbs_g": 0.1,
+      "sugars_g": 0.1,
+      "salt_g": 0.01,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Several competing Lett rows"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Lett Sleek can; matches Lett row only if same item, pack unknown",
+    "shop": {
+     "ean": "7030019543208",
+     "title": "Hansa Julebrus",
+     "subtitle": "Lett 0,33l boks Sleek",
+     "label": {
+      "kcal": 1.0,
+      "fat_g": 0.5,
+      "sat_fat_g": 0.0,
+      "carbs_g": 0.5,
+      "sugars_g": 0.0,
+      "fibre_g": 0.0,
+      "protein_g": 0.5,
+      "salt_g": 0.02
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7030019527543",
+      "name": "Hansa Julebrus",
+      "brand": "Hansa",
+      "pack_size": "330 ml, 1,5 L",
+      "kcal": 40.0,
+      "protein_g": 0.0,
+      "fat_g": 0.0,
+      "carbs_g": 10.0,
+      "sugars_g": 10.0,
+      "salt_g": 0.01,
+      "source": "openfoodfacts",
+      "verified": 1
+     },
+     {
+      "id": "ean:7030019537047",
+      "name": "Hansa Julebrus Lett",
+      "brand": "Hansa",
+      "pack_size": null,
+      "kcal": 0.0,
+      "protein_g": 0.0,
+      "fat_g": 0.0,
+      "carbs_g": 0.1,
+      "sugars_g": 0.1,
+      "salt_g": 0.01,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Several competing Lett rows"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Lett Sleek can 10pk, same ambiguity",
+    "shop": {
+     "ean": "7030019543215",
+     "title": "Hansa Julebrus",
+     "subtitle": "Lett 0,33lx10 boks Sleek",
+     "label": {
+      "kcal": 1.0,
+      "fat_g": 0.5,
+      "sat_fat_g": 0.0,
+      "carbs_g": 0.5,
+      "sugars_g": 0.0,
+      "fibre_g": 0.0,
+      "protein_g": 0.5,
+      "salt_g": 0.02
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7030019527543",
+      "name": "Hansa Julebrus",
+      "brand": "Hansa",
+      "pack_size": "330 ml, 1,5 L",
+      "kcal": 40.0,
+      "protein_g": 0.0,
+      "fat_g": 0.0,
+      "carbs_g": 10.0,
+      "sugars_g": 10.0,
+      "salt_g": 0.01,
+      "source": "openfoodfacts",
+      "verified": 1
+     },
+     {
+      "id": "ean:7030019537047",
+      "name": "Hansa Julebrus Lett",
+      "brand": "Hansa",
+      "pack_size": null,
+      "kcal": 0.0,
+      "protein_g": 0.0,
+      "fat_g": 0.0,
+      "carbs_g": 0.1,
+      "sugars_g": 0.1,
+      "salt_g": 0.01,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Several competing Lett rows"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Lett bottle 4pk, same ambiguity",
+    "shop": {
+     "ean": "7030019545394",
+     "title": "Hansa Julebrus",
+     "subtitle": "Lett 0,33lx4 flaske",
+     "label": {
+      "kcal": 1.0,
+      "fat_g": 0.0,
+      "sat_fat_g": 0.0,
+      "carbs_g": 0.1,
+      "sugars_g": 0.1,
+      "fibre_g": 0.0,
+      "protein_g": 0.0,
+      "salt_g": 0.0
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7030019527543",
+      "name": "Hansa Julebrus",
+      "brand": "Hansa",
+      "pack_size": "330 ml, 1,5 L",
+      "kcal": 40.0,
+      "protein_g": 0.0,
+      "fat_g": 0.0,
+      "carbs_g": 10.0,
+      "sugars_g": 10.0,
+      "salt_g": 0.01,
+      "source": "openfoodfacts",
+      "verified": 1
+     },
+     {
+      "id": "ean:7030019537047",
+      "name": "Hansa Julebrus Lett",
+      "brand": "Hansa",
+      "pack_size": null,
+      "kcal": 0.0,
+      "protein_g": 0.0,
+      "fat_g": 0.0,
+      "carbs_g": 0.1,
+      "sugars_g": 0.1,
+      "salt_g": 0.01,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Several competing Lett rows"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Aass uten juleøl 6pk; same product as row but pack barcode, single bottle EAN is better match",
+    "shop": {
+     "ean": "7033050318309",
+     "title": "Aass uten Juleøl",
+     "subtitle": "0,33lx6 flaske",
+     "label": {
+      "kcal": 27.0,
+      "fat_g": 0.0,
+      "sat_fat_g": 0.0,
+      "carbs_g": 5.3,
+      "sugars_g": 2.9,
+      "fibre_g": 0.0,
+      "protein_g": 0.3,
+      "salt_g": 0.01
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7033050830122",
+      "name": "Aass UTEN alkoholfritt juleøl",
+      "brand": "Aass",
+      "pack_size": "330 ml",
+      "kcal": 26.0,
+      "protein_g": 0.4,
+      "fat_g": 0.0,
+      "carbs_g": 5.3,
+      "sugars_g": 2.9,
+      "salt_g": 0.01,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Pack EAN of a product we already have as single bottle"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Plain Aass uten; could be lys lager row or juleøl row",
+    "shop": {
+     "ean": "7033050718314",
+     "title": "Aass uten",
+     "subtitle": "0,33l flaske",
+     "label": {
+      "kcal": 24.4,
+      "fat_g": 0.0,
+      "sat_fat_g": 0.0,
+      "carbs_g": 5.0,
+      "sugars_g": 2.5,
+      "fibre_g": 0.0,
+      "protein_g": 0.4,
+      "salt_g": 0.01
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7033050830061",
+      "name": "Aass Uten, akoholfri lys lager",
+      "brand": "Aass bryggeri",
+      "pack_size": "330 ml",
+      "kcal": 26.0,
+      "protein_g": 0.4,
+      "fat_g": 0.0,
+      "carbs_g": 5.2,
+      "sugars_g": 3.0,
+      "salt_g": 0.01,
+      "source": "openfoodfacts",
+      "verified": 1
+     },
+     {
+      "id": "ean:7033050830122",
+      "name": "Aass UTEN alkoholfritt juleøl",
+      "brand": "Aass",
+      "pack_size": "330 ml",
+      "kcal": 26.0,
+      "protein_g": 0.4,
+      "fat_g": 0.0,
+      "carbs_g": 5.3,
+      "sugars_g": 2.9,
+      "salt_g": 0.01,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Could match either Aass row"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Same Lerum solbærsirup but 51 kcal vs our 306 (concentrate vs diluted?), cannot settle",
+    "shop": {
+     "ean": "7070841003150",
+     "title": "Solbærsirup",
+     "subtitle": "0,75l Lerum",
+     "label": {
+      "kcal": 51.0,
+      "fat_g": 0.1,
+      "sat_fat_g": 0.0,
+      "carbs_g": 12.5,
+      "sugars_g": 12.5,
+      "protein_g": 0.1,
+      "salt_g": 0.0
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7070841001552",
+      "name": "Lerum Solbærsirup",
+      "brand": "Lerum",
+      "pack_size": "1,5 L",
+      "kcal": 306.0,
+      "protein_g": 0.6,
+      "fat_g": 0.6,
+      "carbs_g": 75.0,
+      "sugars_g": 75.0,
+      "salt_g": 0.0,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Concentrate vs diluted, cannot settle"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Same Lerum solbærsirup 1,5l but 51 vs our 306 kcal, cannot settle",
+    "shop": {
+     "ean": "7070841003280",
+     "title": "Solbærsirup",
+     "subtitle": "1,5l Lerum",
+     "label": {
+      "kcal": 51.0,
+      "fat_g": 0.1,
+      "sat_fat_g": 0.0,
+      "carbs_g": 12.5,
+      "sugars_g": 12.5,
+      "protein_g": 0.1,
+      "salt_g": 0.0
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7070841001552",
+      "name": "Lerum Solbærsirup",
+      "brand": "Lerum",
+      "pack_size": "1,5 L",
+      "kcal": 306.0,
+      "protein_g": 0.6,
+      "fat_g": 0.6,
+      "carbs_g": 75.0,
+      "sugars_g": 75.0,
+      "salt_g": 0.0,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Concentrate vs diluted, cannot settle"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Same name and brand but 35 vs 48 kcal, our row has no pack size or sugar info",
+    "shop": {
+     "ean": "7073185000915",
+     "title": "Perlende Tyttebær",
+     "subtitle": "0,33l boks Røros Mineralvann",
+     "label": {
+      "kcal": 35.0,
+      "fat_g": 0.0,
+      "sat_fat_g": 0.0,
+      "carbs_g": 8.6,
+      "sugars_g": 8.5,
+      "protein_g": 0.0,
+      "salt_g": 0.02
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7073185000113",
+      "name": "Perlende Tyttebær",
+      "brand": "Røros Mineralvann",
+      "pack_size": null,
+      "kcal": 48.0,
+      "protein_g": 0.2,
+      "fat_g": 0.2,
+      "carbs_g": 11.0,
+      "sugars_g": 11.0,
+      "salt_g": 0.0,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Numbers differ, cannot settle"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Same name and brand but 35 vs 48 kcal, 4-pack; cannot settle",
+    "shop": {
+     "ean": "7073185001240",
+     "title": "Perlende Tyttebær",
+     "subtitle": "4 X 0,33l boks Røros Drikkeri",
+     "label": {
+      "kcal": 35.0,
+      "fat_g": 0.0,
+      "sat_fat_g": 0.0,
+      "carbs_g": 8.6,
+      "sugars_g": 8.5,
+      "protein_g": 0.0,
+      "salt_g": 0.02
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7073185000113",
+      "name": "Perlende Tyttebær",
+      "brand": "Røros Mineralvann",
+      "pack_size": null,
+      "kcal": 48.0,
+      "protein_g": 0.2,
+      "fat_g": 0.2,
+      "carbs_g": 11.0,
+      "sugars_g": 11.0,
+      "salt_g": 0.0,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Numbers differ, cannot settle"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Jarritos Pineapple but brand differs (Paafyll) and 47 vs 38 kcal",
+    "shop": {
+     "ean": "0090478410043",
+     "title": "Pineapple",
+     "subtitle": "370ml flaske Jarritos",
+     "label": {
+      "kcal": 47.0,
+      "fat_g": 0.0,
+      "sat_fat_g": 0.0,
+      "carbs_g": 11.7,
+      "sugars_g": 11.7,
+      "fibre_g": 0.0,
+      "protein_g": 0.0,
+      "salt_g": 0.05
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:0090478001128",
+      "name": "Jarritos Pineapple",
+      "brand": "Paafyll",
+      "pack_size": null,
+      "kcal": 38.0,
+      "protein_g": 0.0,
+      "fat_g": 0.0,
+      "carbs_g": 9.5,
+      "sugars_g": 9.5,
+      "salt_g": null,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Brand and numbers differ"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Skakkelaks same brand, but 'i bit' cut and numbers differ (228 vs 243 kcal); variant unclear",
+    "shop": {
+     "ean": "0000020873259",
+     "title": "Skakkelaks",
+     "subtitle": "i Bit Ca350g Skakke Røykeri",
+     "label": {
+      "kcal": 228.0,
+      "fat_g": 14.9,
+      "sat_fat_g": 2.01,
+      "carbs_g": 0.7,
+      "sugars_g": 0.4,
+      "protein_g": 22.8,
+      "salt_g": 4.49
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:0000023873230",
+      "name": "Skakkelaks",
+      "brand": "Skakke røykeri",
+      "pack_size": "150 g, 350 g",
+      "kcal": 243.0,
+      "protein_g": 23.2,
+      "fat_g": 16.6,
+      "carbs_g": 0.5,
+      "sugars_g": 0.4,
+      "salt_g": 2.85,
+      "source": "norgesgruppen",
+      "verified": 0
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Cut variant unclear"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Mydland spareribs Black Pepper vs Marinert Forkokt row; numbers close but flavour not confirmed.",
+    "shop": {
+     "ean": "0000023288171",
+     "title": "Spareribs Forkokt",
+     "subtitle": "Black Pepper Ca1kg Mydland",
+     "label": {
+      "kcal": 242.0,
+      "fat_g": 19.4,
+      "sat_fat_g": 7.3,
+      "carbs_g": 0.26,
+      "sugars_g": 0.15,
+      "protein_g": 16.6,
+      "salt_g": 0.94
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:2328817510252",
+      "name": "Mydland Spareribs Marinert Forkokt",
+      "brand": "Mydland",
+      "pack_size": null,
+      "kcal": 244.0,
+      "protein_g": 17.0,
+      "fat_g": 20.0,
+      "carbs_g": 0.4,
+      "sugars_g": 0.24,
+      "salt_g": 1.5725,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Flavour not confirmed"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Tulip Taco 500g vs our Taco 525g row; numbers differ, maybe different recipe.",
+    "shop": {
+     "ean": "5707196172157",
+     "title": "Pulled Pork",
+     "subtitle": "Taco 500g",
+     "label": {
+      "kcal": 159.0,
+      "fat_g": 8.0,
+      "sat_fat_g": 3.0,
+      "carbs_g": 4.3,
+      "sugars_g": 2.2,
+      "protein_g": 17.0,
+      "salt_g": 2.2
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:5707196263107",
+      "name": "Pulled Pork Taco",
+      "brand": "Danish crown norway",
+      "pack_size": "525 g",
+      "kcal": 137.0,
+      "protein_g": 16.0,
+      "fat_g": 6.0,
+      "carbs_g": 4.0,
+      "sugars_g": 1.5,
+      "salt_g": 0.0055,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Maybe different recipe"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Mydland kjottdeig 400g vs storfe og svin row; type not stated.",
+    "shop": {
+     "ean": "7072350072535",
+     "title": "Kjøttdeig",
+     "subtitle": "400g Mydland",
+     "label": {
+      "kcal": 189.0,
+      "fat_g": 13.2,
+      "sat_fat_g": 0.0,
+      "carbs_g": 0.0,
+      "sugars_g": 0.0,
+      "fibre_g": 0.0,
+      "protein_g": 17.5,
+      "salt_g": 0.9
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7072350072597",
+      "name": "Mydland Kjøttdeig Storfe Og Svin",
+      "brand": "Mydland",
+      "pack_size": null,
+      "kcal": 223.0,
+      "protein_g": 17.0,
+      "fat_g": 17.0,
+      "carbs_g": 0.0,
+      "sugars_g": null,
+      "salt_g": 0.25,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Type not stated"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Holte andebryst frys vs our Holte andebryst row; numbers differ a lot.",
+    "shop": {
+     "ean": "0000023733260",
+     "title": "Andebryst",
+     "subtitle": "Frys Ca400g Holte Gård",
+     "label": {
+      "kcal": 338.0,
+      "fat_g": 37.3,
+      "sat_fat_g": 2.9,
+      "carbs_g": 0.0,
+      "sugars_g": 0.0,
+      "protein_g": 13.1,
+      "salt_g": 0.1
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:2373321003523",
+      "name": "Andebryst",
+      "brand": "Holte",
+      "pack_size": null,
+      "kcal": 206.0,
+      "protein_g": 17.9,
+      "fat_g": 14.5,
+      "carbs_g": 1.0,
+      "sugars_g": null,
+      "salt_g": null,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Frozen vs unknown, numbers differ a lot"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Garsand plain andebryst frys vs generic row; numbers differ.",
+    "shop": {
+     "ean": "0000023853741",
+     "title": "Andebryst",
+     "subtitle": "Frys Ca350g Gårdsand",
+     "label": {
+      "kcal": 216.0,
+      "fat_g": 16.2,
+      "sat_fat_g": 4.9,
+      "carbs_g": 0.0,
+      "sugars_g": 0.0,
+      "protein_g": 17.5,
+      "salt_g": 0.2
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:2350400903523",
+      "name": "Andebryst",
+      "brand": "Gårdsand",
+      "pack_size": "300 g, 1,2 kg",
+      "kcal": 182.0,
+      "protein_g": 19.0,
+      "fat_g": 11.8,
+      "carbs_g": 0.0,
+      "sugars_g": 0.0,
+      "salt_g": 0.1975,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Numbers differ, weight-based EAN"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Garsand plain andebryst vs generic row; numbers differ.",
+    "shop": {
+     "ean": "0000023877053",
+     "title": "Andebryst",
+     "subtitle": "220-340g Gårdsand",
+     "label": {
+      "kcal": 216.0,
+      "fat_g": 16.2,
+      "sat_fat_g": 4.9,
+      "carbs_g": 0.0,
+      "sugars_g": 0.0,
+      "protein_g": 17.5,
+      "salt_g": 0.2
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:2350400903523",
+      "name": "Andebryst",
+      "brand": "Gårdsand",
+      "pack_size": "300 g, 1,2 kg",
+      "kcal": 182.0,
+      "protein_g": 19.0,
+      "fat_g": 11.8,
+      "carbs_g": 0.0,
+      "sugars_g": 0.0,
+      "salt_g": 0.1975,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Numbers differ, weight-based EAN"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Eng Fugl frozen kyllingfilet; rows are unspecified variants with different numbers.",
+    "shop": {
+     "ean": "7072821001927",
+     "title": "Kyllingfilet",
+     "subtitle": "Frys 1kg Eng Fugl",
+     "label": {
+      "kcal": 104.0,
+      "fat_g": 1.9,
+      "sat_fat_g": 1.9,
+      "carbs_g": 0.32,
+      "sugars_g": 0.03,
+      "protein_g": 21.0,
+      "salt_g": 0.42
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7072821005130",
+      "name": "Saftig og smakfull Kyllingfilet",
+      "brand": "Eng Fugl",
+      "pack_size": null,
+      "kcal": 92.0,
+      "protein_g": 18.0,
+      "fat_g": 1.7,
+      "carbs_g": 0.63,
+      "sugars_g": 0.06,
+      "salt_g": 0.7075,
+      "source": "openfoodfacts",
+      "verified": 1
+     },
+     {
+      "id": "ean:7072821005888",
+      "name": "Kyllingfilet",
+      "brand": "Eng Fugl",
+      "pack_size": null,
+      "kcal": 112.0,
+      "protein_g": 23.0,
+      "fat_g": 2.1,
+      "carbs_g": 0.0,
+      "sugars_g": 0.0,
+      "salt_g": 0.0975,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Frozen 1kg label matches neither row; generic row is close but protein/carbs differ"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Ost og skinkesalat very close numbers, but brand Gronn&Frisk vs Bama",
+    "shop": {
+     "ean": "7023026061308",
+     "title": "Ost og Skinkesalat",
+     "subtitle": "255g Grønn&Frisk",
+     "label": {
+      "kcal": 133.0,
+      "fat_g": 10.0,
+      "sat_fat_g": 2.7,
+      "carbs_g": 4.9,
+      "sugars_g": 4.1,
+      "fibre_g": 0.8,
+      "protein_g": 5.4,
+      "salt_g": 0.9
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7023026061315",
+      "name": "Bama Ost Og Skinkesalat",
+      "brand": "Bama",
+      "pack_size": null,
+      "kcal": 132.0,
+      "protein_g": 5.4,
+      "fat_g": 10.0,
+      "carbs_g": 4.6,
+      "sugars_g": 3.9,
+      "salt_g": 0.0,
+      "source": "openfoodfacts",
+      "verified": 1
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Near-identical numbers and adjacent EAN, but brand differs (Gronn&Frisk vs Bama)"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Maggi/Nestle klar gronnsaksbuljong; ours may be diluted values, unclear",
+    "shop": {
+     "ean": "8585002438027",
+     "title": "Grønnsaksbuljong",
+     "subtitle": "5l Klar Maggi",
+     "label": {
+      "kcal": 13.0,
+      "fat_g": 0.3,
+      "sat_fat_g": 0.0,
+      "carbs_g": 2.4,
+      "sugars_g": 0.8,
+      "fibre_g": 0.0,
+      "protein_g": 0.2,
+      "salt_g": 1.9
+     }
+    },
+    "our_rows": [
+     {
+      "id": "store:8585002445650",
+      "name": "Nestlé Grønnsaksbuljong Klar",
+      "brand": "Nestlé",
+      "pack_size": null,
+      "kcal": 6.0,
+      "protein_g": 0.5,
+      "fat_g": 0.5,
+      "carbs_g": 0.9,
+      "sugars_g": 0.5,
+      "salt_g": 0.63,
+      "source": "norgesgruppen",
+      "verified": 0
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Maggi vs Nestle brand, different EAN, possible concentrate vs diluted values"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "Jader gardsskinke vs generic 9cm row, cannot confirm",
+    "shop": {
+     "ean": "7020915221300",
+     "title": "Gårdsskinke",
+     "subtitle": "Svinelår skiver 500g Jæder",
+     "label": {
+      "kcal": 120.0,
+      "fat_g": 5.0,
+      "sat_fat_g": 1.5,
+      "carbs_g": 1.0,
+      "sugars_g": 0.4,
+      "protein_g": 18.0,
+      "salt_g": 1.3
+     }
+    },
+    "our_rows": [
+     {
+      "id": "kassalapp:41246",
+      "name": "Gårdsskinke 9cm",
+      "brand": "Jæder",
+      "pack_size": null,
+      "kcal": 129.0,
+      "protein_g": 17.0,
+      "fat_g": 6.0,
+      "carbs_g": 0.0,
+      "sugars_g": 0.0,
+      "salt_g": 0.0,
+      "source": "kassalapp",
+      "verified": 0
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Same brand and similar product but different EAN and pack form"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "same name, different numbers: new recipe or a different product?",
+    "shop": {
+     "ean": "3760049798142",
+     "title": "Coop Brioche Pølsebrød 270g",
+     "label": {
+      "kcal": 343.0,
+      "fat_g": 11.0,
+      "carbs_g": 52.0,
+      "fibre_g": 2.0,
+      "sat_fat_g": 1.8,
+      "protein_g": 7.6,
+      "salt_g": 1.2,
+      "sugars_g": 9.4
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7300156589798",
+      "name": "Coop Brioche Pølsebrød",
+      "brand": "Coop",
+      "pack_size": null,
+      "source": "openfoodfacts-nordic-global",
+      "verified": 1,
+      "kcal": 330.0,
+      "protein_g": 9.511111,
+      "fat_g": 10.0,
+      "carbs_g": 50.0,
+      "sugars_g": 12.0,
+      "salt_g": 1.177778
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Same name but different makers/EANs and numbers"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "same name, different numbers: new recipe or a different product?",
+    "shop": {
+     "ean": "7025110100740",
+     "title": "Coop Røkte Kjøttpølser uten Skinn 1kg",
+     "label": {
+      "kcal": 244.0,
+      "fat_g": 20.0,
+      "carbs_g": 5.6,
+      "fibre_g": 0.0,
+      "sat_fat_g": 7.8,
+      "protein_g": 9.9,
+      "salt_g": 1.7,
+      "sugars_g": 0.1
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7025110227225",
+      "name": "Coop Røkte Kjøttpølser",
+      "brand": "Coop",
+      "pack_size": null,
+      "source": "openfoodfacts",
+      "verified": 1,
+      "kcal": 255.0,
+      "protein_g": 10.0,
+      "fat_g": 20.0,
+      "carbs_g": 6.4,
+      "sugars_g": 0.9,
+      "salt_g": 0.00425
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Skinless 1kg variant vs ours, numbers differ"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "same name, different numbers: new recipe or a different product?",
+    "shop": {
+     "ean": "7025165009081",
+     "title": "Coop Fløterull 550g",
+     "label": {
+      "kcal": 315.0,
+      "fat_g": 15.0,
+      "carbs_g": 42.0,
+      "sat_fat_g": 9.1,
+      "protein_g": 2.9,
+      "salt_g": 0.35,
+      "sugars_g": 34.0
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:2100946611907",
+      "name": "Coop Fløterull",
+      "brand": "Coop",
+      "pack_size": null,
+      "source": "openfoodfacts",
+      "verified": 1,
+      "kcal": 316.0,
+      "protein_g": 3.9,
+      "fat_g": 24.200001,
+      "carbs_g": 21.0,
+      "sugars_g": 21.0,
+      "salt_g": 0.0975
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Same name, fat and carbs differ a lot"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "same name, different numbers: new recipe or a different product?",
+    "shop": {
+     "ean": "7025165017437",
+     "title": "Coop Lettstekt Frøloff 670g",
+     "label": {
+      "kcal": 254.0,
+      "fat_g": 3.4,
+      "carbs_g": 46.5,
+      "fibre_g": 2.6,
+      "sat_fat_g": 0.4,
+      "protein_g": 7.8,
+      "salt_g": 1.3,
+      "sugars_g": 1.0
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7025165012449",
+      "name": "Coop Lettstekt Frøloff",
+      "brand": "Coop",
+      "pack_size": null,
+      "source": "openfoodfacts",
+      "verified": 1,
+      "kcal": 269.0,
+      "protein_g": 9.7,
+      "fat_g": 3.4,
+      "carbs_g": 48.0,
+      "sugars_g": 0.8,
+      "salt_g": 1.0825
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Same name, similar but different numbers and EAN"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "same name, different numbers: new recipe or a different product?",
+    "shop": {
+     "ean": "7025110097835",
+     "title": "Coop Svenske Kjøttboller 1kg",
+     "label": {
+      "kcal": 206.0,
+      "fat_g": 14.0,
+      "carbs_g": 9.0,
+      "fibre_g": 0.0,
+      "sat_fat_g": 4.76,
+      "protein_g": 11.0,
+      "salt_g": 1.6,
+      "sugars_g": 1.0
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7025110184757",
+      "name": "Coop Svenske Kjøttboller",
+      "brand": "Coop",
+      "pack_size": "360 g, 600 g",
+      "source": "openfoodfacts",
+      "verified": 1,
+      "kcal": 220.0,
+      "protein_g": 11.0,
+      "fat_g": 16.0,
+      "carbs_g": 6.2,
+      "sugars_g": 0.1,
+      "salt_g": 1.5
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Same name, numbers differ somewhat, 1kg pack"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "same name, different numbers: new recipe or a different product?",
+    "shop": {
+     "ean": "7025110213549",
+     "title": "Coop Italienske Kjøttboller 120g",
+     "label": {
+      "kcal": 224.0,
+      "fat_g": 17.0,
+      "carbs_g": 3.8,
+      "fibre_g": 0.0,
+      "sat_fat_g": 6.0,
+      "protein_g": 14.0,
+      "salt_g": 1.6,
+      "sugars_g": 0.4
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7025110088390",
+      "name": "Coop Italienske Kjøttboller",
+      "brand": "Coop",
+      "pack_size": "360 g",
+      "source": "openfoodfacts",
+      "verified": 1,
+      "kcal": 215.0,
+      "protein_g": 12.0,
+      "fat_g": 17.0,
+      "carbs_g": 4.0,
+      "sugars_g": 0.5,
+      "salt_g": 1.5
+     },
+     {
+      "id": "ean:7025110188687",
+      "name": "Coop Italienske Kjøttboller",
+      "brand": "Coop",
+      "pack_size": "360 g",
+      "source": "openfoodfacts",
+      "verified": 1,
+      "kcal": 251.0,
+      "protein_g": 16.0,
+      "fat_g": 19.0,
+      "carbs_g": 3.9,
+      "sugars_g": 0.2,
+      "salt_g": 1.8
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Two own rows with different numbers, label matches neither"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "same name, different numbers: new recipe or a different product?",
+    "shop": {
+     "ean": "7025110192042",
+     "title": "Coop Sukkererter 150g",
+     "label": {
+      "kcal": 42.0,
+      "fat_g": 0.1,
+      "carbs_g": 5.3,
+      "fibre_g": 2.9,
+      "sat_fat_g": 0.0,
+      "protein_g": 3.5,
+      "salt_g": 0.0,
+      "sugars_g": 4.1
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7025110206961",
+      "name": "Coop Sukkererter",
+      "brand": "Coop",
+      "pack_size": null,
+      "source": "openfoodfacts",
+      "verified": 1,
+      "kcal": 28.0,
+      "protein_g": 2.33,
+      "fat_g": 0.0667,
+      "carbs_g": 3.53,
+      "sugars_g": 2.73,
+      "salt_g": null
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Same name, numbers differ clearly"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "same name, different numbers: new recipe or a different product?",
+    "shop": {
+     "ean": "7025110151162",
+     "title": "Coop Burgerdressing 410g",
+     "label": {
+      "kcal": 510.0,
+      "fat_g": 54.0,
+      "carbs_g": 6.1,
+      "sat_fat_g": 3.9,
+      "protein_g": 0.8,
+      "salt_g": 0.8,
+      "sugars_g": 6.0
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7340011438557",
+      "name": "Coop Burgerdressing Original",
+      "brand": "Coop",
+      "pack_size": "260 g",
+      "source": "openfoodfacts-nordic-global",
+      "verified": 1,
+      "kcal": 495.0,
+      "protein_g": 0.9,
+      "fat_g": 51.0,
+      "carbs_g": 7.4,
+      "sugars_g": 6.1,
+      "salt_g": 1.3
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Burgerdressing vs Original, close but not clear"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "same name, different numbers: new recipe or a different product?",
+    "shop": {
+     "ean": "7025110095534",
+     "title": "Coop Nypesyltetøy 500g",
+     "label": {
+      "kcal": 165.0,
+      "fat_g": 0.3,
+      "carbs_g": 41.0,
+      "sat_fat_g": 0.0,
+      "protein_g": 0.5,
+      "salt_g": 0.0,
+      "sugars_g": 39.0
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7025110224552",
+      "name": "Coop Nypesyltetøy",
+      "brand": "Coop",
+      "pack_size": "370 g",
+      "source": "openfoodfacts",
+      "verified": 1,
+      "kcal": 142.0,
+      "protein_g": 0.4,
+      "fat_g": 0.3,
+      "carbs_g": 33.0,
+      "sugars_g": 33.0,
+      "salt_g": 0.0
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Same name, sugar and kcal differ"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "same name, different numbers: new recipe or a different product?",
+    "shop": {
+     "ean": "7025110080257",
+     "title": "Coop Bringebærsyltetøy 800g",
+     "label": {
+      "kcal": 192.0,
+      "fat_g": 0.2,
+      "carbs_g": 46.0,
+      "sat_fat_g": 0.0,
+      "protein_g": 0.4,
+      "salt_g": 0.0,
+      "sugars_g": 46.0
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7025167000925",
+      "name": "Coop Berlinerbolle med Bringebærsyltetøy",
+      "brand": "Coop",
+      "pack_size": null,
+      "source": "openfoodfacts",
+      "verified": 1,
+      "kcal": 301.0,
+      "protein_g": 6.0,
+      "fat_g": 10.0,
+      "carbs_g": 45.0,
+      "sugars_g": 22.0,
+      "salt_g": 0.4925
+     },
+     {
+      "id": "ean:7025110221087",
+      "name": "Coop Bringebærsyltetøy",
+      "brand": "Coop",
+      "pack_size": "370 g",
+      "source": "openfoodfacts",
+      "verified": 1,
+      "kcal": 134.0,
+      "protein_g": 0.7,
+      "fat_g": 0.2,
+      "carbs_g": 31.0,
+      "sugars_g": 31.0,
+      "salt_g": 0.0
+     },
+     {
+      "id": "ean:7025110219374",
+      "name": "Coop Most Bringebærsyltetøy",
+      "brand": "Coop",
+      "pack_size": null,
+      "source": "openfoodfacts",
+      "verified": 1,
+      "kcal": 172.0,
+      "protein_g": 0.4,
+      "fat_g": 0.2,
+      "carbs_g": 41.0,
+      "sugars_g": 41.0,
+      "salt_g": 0.0
+     },
+     {
+      "id": "ean:7025110189479",
+      "name": "Coop Lett Bringebærsyltetøy",
+      "brand": "Coop",
+      "pack_size": "370 g, 500 g",
+      "source": "openfoodfacts",
+      "verified": 1,
+      "kcal": 51.0,
+      "protein_g": 0.4,
+      "fat_g": 0.2,
+      "carbs_g": 4.1,
+      "sugars_g": 4.1,
+      "salt_g": 0.0
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "800g label matches no own row exactly"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "same name, different numbers: new recipe or a different product?",
+    "shop": {
+     "ean": "2020179300006",
+     "title": "Coop Lammelår 1,9kg",
+     "label": {
+      "kcal": 180.0,
+      "fat_g": 11.6,
+      "carbs_g": 0.0,
+      "fibre_g": 0.0,
+      "sat_fat_g": 5.2,
+      "protein_g": 19.1,
+      "salt_g": 0.15,
+      "sugars_g": 0.0
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:2320179315421",
+      "name": "Coop Lammelår i Skiver",
+      "brand": "Coop",
+      "pack_size": null,
+      "source": "openfoodfacts",
+      "verified": 1,
+      "kcal": 181.0,
+      "protein_g": 19.0,
+      "fat_g": 12.0,
+      "carbs_g": 0.0,
+      "sugars_g": null,
+      "salt_g": 0.1975
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Whole leg vs sliced, numbers close"
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "same name, different numbers: new recipe or a different product?",
+    "shop": {
+     "ean": "7025869150027",
+     "title": "Reker i Lake 4x1,5kg Finny Extra",
+     "label": {
+      "kcal": 78.0,
+      "fat_g": 1.15,
+      "carbs_g": 1.0,
+      "sat_fat_g": 1.0,
+      "protein_g": 16.4,
+      "salt_g": 2.5,
+      "sugars_g": 1.0
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7025861002027",
+      "name": "Finny Sirevåg Reker i Lake",
+      "brand": "Finny sirevaag",
+      "pack_size": "383 g",
+      "source": "kassalapp",
+      "verified": 0,
+      "kcal": 78.0,
+      "protein_g": 16.0,
+      "fat_g": 1.15,
+      "carbs_g": 0.2,
+      "sugars_g": 0.0,
+      "salt_g": 2.0
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Same kcal and fat as our Finny reker i lake, but 'Extra' 1.5 kg catering pack with different carbs and salt."
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "same name, different numbers: new recipe or a different product?",
+    "shop": {
+     "ean": "7032069732786",
+     "title": "Pizzabunn 2x150g Rema 1000",
+     "label": {
+      "kcal": 230.0,
+      "fat_g": 1.3,
+      "carbs_g": 45.0,
+      "fibre_g": 0.5,
+      "sat_fat_g": 0.1,
+      "protein_g": 6.6,
+      "salt_g": 1.0,
+      "sugars_g": 1.1
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7032069733615",
+      "name": "Rema 1000 Pizzabunn",
+      "brand": "Rema 1000",
+      "pack_size": "550 g",
+      "source": "openfoodfacts",
+      "verified": 1,
+      "kcal": 273.0,
+      "protein_g": 7.2,
+      "fat_g": 4.3,
+      "carbs_g": 45.0,
+      "sugars_g": 1.3,
+      "salt_g": 1.2
+     },
+     {
+      "id": "ean:7032069736906",
+      "name": "Rema Ekte Italiensk Pizzabunn",
+      "brand": "Rema 1000",
+      "pack_size": null,
+      "source": "openfoodfacts",
+      "verified": 1,
+      "kcal": 267.0,
+      "protein_g": 9.2,
+      "fat_g": 4.2,
+      "carbs_g": 47.0,
+      "sugars_g": 1.5,
+      "salt_g": 1.475
+     },
+     {
+      "id": "ean:7032069106945",
+      "name": "Rema Pizzabunn",
+      "brand": "Rema 1000",
+      "pack_size": null,
+      "source": "openfoodfacts",
+      "verified": 1,
+      "kcal": 243.0,
+      "protein_g": 8.3,
+      "fat_g": 2.2,
+      "carbs_g": 46.0,
+      "sugars_g": 0.5,
+      "salt_g": 1.5725
+     },
+     {
+      "id": "ean:7032069733608",
+      "name": "Rema Fullkorn Pizzabunn",
+      "brand": "Rema 1000",
+      "pack_size": "550 g",
+      "source": "openfoodfacts",
+      "verified": 1,
+      "kcal": 249.0,
+      "protein_g": 8.1,
+      "fat_g": 5.1,
+      "carbs_g": 40.0,
+      "sugars_g": 0.8,
+      "salt_g": 0.835
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Three plain pizza base rows with differing numbers and unknown pack; 2x150 g label matches none clearly."
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "same name, different numbers: new recipe or a different product?",
+    "shop": {
+     "ean": "7032069719657",
+     "title": "Makrell I Tomat 2x110g, 220 g",
+     "label": {
+      "kcal": 189.0,
+      "fat_g": 12.0,
+      "carbs_g": 2.9,
+      "fibre_g": 0.5,
+      "sat_fat_g": 3.1,
+      "protein_g": 17.0,
+      "salt_g": 0.65,
+      "sugars_g": 2.9
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7032069760819",
+      "name": "Rema Makrell i Tomat",
+      "brand": "Rema 1000",
+      "pack_size": null,
+      "source": "openfoodfacts",
+      "verified": 1,
+      "kcal": 164.0,
+      "protein_g": 13.0,
+      "fat_g": 11.0,
+      "carbs_g": 2.8,
+      "sugars_g": 2.8,
+      "salt_g": 0.965
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Same name but kcal 189 vs 164 and protein 17 vs 13; could be a newer recipe or another pack."
+  },
+  {
+   "item": {
+    "kind": "same-name-other-numbers",
+    "why": "same name, different numbers: new recipe or a different product?",
+    "shop": {
+     "ean": "7032069735909",
+     "title": "Lasagne Bolognese 350g Rema 1000",
+     "label": {
+      "kcal": 142.0,
+      "fat_g": 6.1,
+      "carbs_g": 14.0,
+      "fibre_g": 0.9,
+      "sat_fat_g": 3.4,
+      "protein_g": 7.4,
+      "salt_g": 0.9,
+      "sugars_g": 3.5
+     }
+    },
+    "our_rows": [
+     {
+      "id": "ean:7032069107737",
+      "name": "Rema Lasagne Bolognese",
+      "brand": "Rema 1000",
+      "pack_size": null,
+      "source": "openfoodfacts",
+      "verified": 1,
+      "kcal": 118.0,
+      "protein_g": 5.4,
+      "fat_g": 3.3,
+      "carbs_g": 16.0,
+      "sugars_g": 3.0,
+      "salt_g": 0.7975
+     }
+    ]
+   },
+   "why": "agent unsure",
+   "reason": "Lasagne 142 vs 118 kcal; large gap, may be a different recipe or size."
+  },
+  {
+   "ean": "0000023813432",
+   "rows": [
+    "ean:0000023759695",
+    "ean:7025110164377"
+   ],
+   "why": "barcode given to two rows by different rounds: a person decides"
+  },
+  {
+   "ean": "0000023860224",
+   "rows": [
+    "ean:0000023759695",
+    "ean:7025110164377",
+    "norgesgruppen:20833907"
+   ],
+   "why": "barcode given to two rows by different rounds: a person decides"
+  },
+  {
+   "ean": "0000023545314",
+   "rows": [
+    "ean:2067600900008",
+    "matvaretabellen:04.024"
+   ],
+   "why": "barcode given to two rows by different rounds: a person decides"
+  },
+  {
+   "ean": "0000023545617",
+   "rows": [
+    "ean:2067600900008",
+    "matvaretabellen:04.024"
+   ],
+   "why": "barcode given to two rows by different rounds: a person decides"
+  },
+  {
+   "ean": "0000023812607",
+   "rows": [
+    "ean:2067600900008",
+    "matvaretabellen:04.024"
+   ],
+   "why": "barcode given to two rows by different rounds: a person decides"
+  },
+  {
+   "ean": "0000023812609",
+   "rows": [
+    "ean:2067600900008",
+    "matvaretabellen:04.024"
+   ],
+   "why": "barcode given to two rows by different rounds: a person decides"
+  },
+  {
+   "ean": "0000023835024",
+   "rows": [
+    "ean:2301290802601",
+    "matvaretabellen:03.054"
+   ],
+   "why": "barcode given to two rows by different rounds: a person decides"
+  },
+  {
+   "ean": "0000023402223",
+   "rows": [
+    "ean:2301411000008",
+    "norgesgruppen:23800448"
+   ],
+   "why": "barcode given to two rows by different rounds: a person decides"
+  },
+  {
+   "ean": "0000023865889",
+   "rows": [
+    "ean:2386588918905",
+    "matvaretabellen:04.038"
+   ],
+   "why": "barcode given to two rows by different rounds: a person decides"
+  },
+  {
+   "ean": "0000023642632",
+   "rows": [
+    "ean:7023539700725",
+    "ean:7032069104712"
+   ],
+   "why": "barcode given to two rows by different rounds: a person decides"
+  },
+  {
+   "ean": "0000023861090",
+   "rows": [
+    "matvaretabellen:04.117",
+    "norgesgruppen:23861011"
+   ],
+   "why": "barcode given to two rows by different rounds: a person decides"
+  },
+  {
+   "ean": "7033352770683",
+   "rows": [
+    "matvaretabellen:04.256",
+    "store:7033352769533"
+   ],
+   "why": "barcode given to two rows by different rounds: a person decides"
+  },
+  {
+   "ean": "7090041530058",
+   "rows": [
+    "norgesgruppen:23642608",
+    "norgesgruppen:23833932"
+   ],
+   "why": "barcode given to two rows by different rounds: a person decides"
+  },
+  {
+   "ean": "8712566121496",
+   "rows": [
+    "store:8712566121458",
+    "store:8712566121496"
+   ],
+   "why": "barcode given to two rows by different rounds: a person decides"
+  },
+  {
+   "ean": "8712566246182",
+   "rows": [
+    "store:8712566121458",
+    "store:8712566246182"
+   ],
+   "why": "barcode given to two rows by different rounds: a person decides"
+  },
+  {
+   "ean": "7038010069703",
+   "rows": [
+    "store:7038010069697",
+    "store:7038010069703"
+   ],
+   "why": "barcode given to two rows by different rounds: a person decides"
+  }
+ ]
+}
