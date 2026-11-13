@@ -132,6 +132,13 @@ SOURCES = {
     'oda': ('Oda', 'shop'),
     'coop-no': ('Coop', 'shop'),
     'rema-no': ('Rema 1000', 'shop'),
+    # Restaurant menus, from each chain's own Norwegian nutrition pages or PDFs (2026-11-13).
+    'max-burgers': ('MAX Burgers', 'brand'),
+    'dominos-no': ("Domino's Pizza", 'brand'),
+    'pizzabakeren': ('Pizzabakeren', 'brand'),
+    'starbucks-no': ('Starbucks', 'brand'),
+    'kaffebrenneriet': ('Kaffebrenneriet', 'brand'),
+    'godt-brod': ('Godt Brød', 'brand'),
     'proteinbolaget': ('Proteinbolaget', 'shop'),
     'proteincompany-no': ('Protein Company', 'shop'),
     'proteinfabrikken': ('Proteinfabrikken', 'shop'),
@@ -846,6 +853,7 @@ create table meta(key text primary key, value text not null);
     owner = {}
     pairs = [(e['product_id'], e['ean']) for e in read_shard(data_dir, manifest, 'product_eans')]
     pairs += [(pid, p['ean']) for pid, p in kept.items()]
+    pairs += [(pid, e) for pid, p in kept.items() for e in p.get('extra_eans', ())]  # checked.json add_eans
     for pid, raw in pairs:
         pid = moved.get(pid, pid)
         if pid not in kept:

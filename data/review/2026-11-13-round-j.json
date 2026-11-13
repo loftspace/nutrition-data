@@ -1,0 +1,3758 @@
+{
+ "note": "Round J, 2026-11-13: shop barcodes whose name matches one of our rows but whose numbers differ (held in rounds F to I). Sonnet decided per item; label numbers come from the shop data, never from a model. Rows from a brand's own site are held for a person.",
+ "verdicts": [
+  {
+   "ean": "7038010055676",
+   "verdict": "new_product",
+   "reason": "Plain vanilla yoghurt 500g; rows are Greek type and lactose-free"
+  },
+  {
+   "ean": "7038010028434",
+   "verdict": "update_row",
+   "row_id": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-fl%C3%B8temysost",
+   "reason": "Fløtemysost 26% fat, numbers close"
+  },
+  {
+   "ean": "7038010029646",
+   "verdict": "update_row",
+   "row_id": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-fl%C3%B8temysost",
+   "reason": "Sliced Fløtemysost 26%, same product, pack 130 g listed"
+  },
+  {
+   "ean": "7038010028397",
+   "verdict": "update_row",
+   "row_id": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-gudbrandsdalsost-g35",
+   "reason": "G35 is the 28% Gudbrandsdalsost, 500 g listed"
+  },
+  {
+   "ean": "7038010029530",
+   "verdict": "update_row",
+   "row_id": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-gudbrandsdalsost-g35",
+   "reason": "Sliced G35 = Gudbrandsdalsost 28%, 130 g listed"
+  },
+  {
+   "ean": "0000023026796",
+   "verdict": "new_product",
+   "reason": "Plain Norvegia; rows are other products"
+  },
+  {
+   "ean": "7394376616945",
+   "verdict": "new_product",
+   "reason": "Turkish-style Havregurt 500g, row is a different Oatly product with very different numbers"
+  },
+  {
+   "ean": "7038010008511",
+   "verdict": "new_product",
+   "reason": "Specific flavour Mango/Banan and muesli; no flavour match"
+  },
+  {
+   "ean": "7038010008528",
+   "verdict": "new_product",
+   "reason": "Specific flavour Melon and muesli; no flavour match"
+  },
+  {
+   "ean": "7034280010872",
+   "verdict": "unsure",
+   "reason": "Same name and size but brand not given on our row and numbers differ a lot"
+  },
+  {
+   "ean": "7034280010889",
+   "verdict": "new_product",
+   "reason": "Spicy variant, row is plain"
+  },
+  {
+   "ean": "0000023235110",
+   "verdict": "new_product",
+   "reason": "Salt/pepper seasoned chicken, rows are plain or grilled"
+  },
+  {
+   "ean": "7050122170115",
+   "verdict": "update_row",
+   "row_id": "ean:7050122170092",
+   "reason": "Maarud Bacongull, same product, newer numbers"
+  },
+  {
+   "ean": "5701073041383",
+   "verdict": "new_product",
+   "reason": "Chocolate flavour glaze, row is red"
+  },
+  {
+   "ean": "5701073064122",
+   "verdict": "new_product",
+   "reason": "White glaze, row is red"
+  },
+  {
+   "ean": "5701073064146",
+   "verdict": "new_product",
+   "reason": "Green glaze, row is red"
+  },
+  {
+   "ean": "7041614007262",
+   "verdict": "new_product",
+   "reason": "Reale grove burger bread, rows are Bakehuset"
+  },
+  {
+   "ean": "0000023656124",
+   "verdict": "new_product",
+   "reason": "Row is the lean (mager) cut with much lower fat"
+  },
+  {
+   "ean": "7035620064432",
+   "verdict": "unsure",
+   "reason": "Smoked salmon piece, rows have different numbers and unclear variant"
+  },
+  {
+   "ean": "7035620022036",
+   "verdict": "new_product",
+   "reason": "Juleskinke with clove, row is with mustard"
+  },
+  {
+   "ean": "0000023656923",
+   "verdict": "new_product",
+   "reason": "Unsmoked whole-side pinnekjøtt, no matching row"
+  },
+  {
+   "ean": "7033352772281",
+   "verdict": "update_row",
+   "row_id": "ean:2376069204290",
+   "reason": "Lerøy Torsk Naturell; our row numbers are about half, likely wrong"
+  },
+  {
+   "ean": "0000023701807",
+   "verdict": "update_row",
+   "row_id": "ean:2376069306048",
+   "reason": "Lerøy lettsaltet torsk, close numbers"
+  },
+  {
+   "ean": "7035620051487",
+   "verdict": "unsure",
+   "reason": "Julesild, row has different numbers and size, recipe may differ"
+  },
+  {
+   "ean": "7035620056680",
+   "verdict": "new_product",
+   "reason": "Plain scampi, row is pepper and garlic butter"
+  },
+  {
+   "ean": "7035620066191",
+   "verdict": "unsure",
+   "reason": "Ginger scampi; row is Unil brand, not Fiskemannen"
+  },
+  {
+   "ean": "7035620071911",
+   "verdict": "unsure",
+   "reason": "Fiskekaker 65% 350g; row is 500g with different carbs"
+  },
+  {
+   "ean": "7035620005329",
+   "verdict": "update_row",
+   "row_id": "ean:7035620055935",
+   "reason": "Fiskemannen smoked salmon sliced 100g, same product"
+  },
+  {
+   "ean": "7035620070440",
+   "verdict": "update_row",
+   "row_id": "ean:7035620055935",
+   "reason": "Fiskemannen smoked salmon sliced, same product, larger pack"
+  },
+  {
+   "ean": "7035620050541",
+   "verdict": "new_product",
+   "reason": "Torsk and hyse burger, rows are chorizo and cheese"
+  },
+  {
+   "ean": "7035620048074",
+   "verdict": "update_row",
+   "row_id": "ean:7035620022296",
+   "reason": "Fiskemannen Fiskekaker 500g, same product"
+  },
+  {
+   "ean": "7035620029141",
+   "verdict": "new_product",
+   "reason": "Cooked scampi 41/50 shell-off, no matching row"
+  },
+  {
+   "ean": "7035620039393",
+   "verdict": "unsure",
+   "reason": "Fiskekaker 400g, same name as 500g row but different numbers"
+  },
+  {
+   "ean": "7035620049873",
+   "verdict": "new_product",
+   "reason": "Torsk and bacon burger, no matching row"
+  },
+  {
+   "ean": "7035620024405",
+   "verdict": "new_product",
+   "reason": "Cooked scampi 21/25, no matching row"
+  },
+  {
+   "ean": "7027110215530",
+   "verdict": "update_row",
+   "row_id": "ean:7027110108443",
+   "reason": "Skinnfri makrell in tomato sauce; numbers nearly identical"
+  },
+  {
+   "ean": "7027110214847",
+   "verdict": "unsure",
+   "reason": "Skinnless mackerel fillet in tomato 170g; row numbers differ, variant unclear"
+  },
+  {
+   "ean": "7027110222460",
+   "verdict": "new_product",
+   "reason": "Sardines in tomato, row is tomato and chili"
+  },
+  {
+   "ean": "7027110223382",
+   "verdict": "update_row",
+   "row_id": "ean:7027110111900",
+   "reason": "King Oscar tuna tomato and basil 85g"
+  },
+  {
+   "ean": "7027110095521",
+   "verdict": "update_row",
+   "row_id": "ean:7027110111900",
+   "reason": "King Oscar tuna tomato and basil 85g"
+  },
+  {
+   "ean": "7027110217985",
+   "verdict": "unsure",
+   "reason": "Chili mackerel 110g; nearby rows differ in size and numbers"
+  },
+  {
+   "ean": "7027110220954",
+   "verdict": "new_product",
+   "reason": "Mediterranean mackerel fillet, row is plain"
+  },
+  {
+   "ean": "7027110223566",
+   "verdict": "new_product",
+   "reason": "Tuna in sunflower oil, no matching row"
+  },
+  {
+   "ean": "7027110114826",
+   "verdict": "new_product",
+   "reason": "Grovrevet tuna tomato, different from tomato and basil row"
+  },
+  {
+   "ean": "7027110223078",
+   "verdict": "new_product",
+   "reason": "Sun-dried tomato variant, row is chili garlic"
+  },
+  {
+   "ean": "7041810010400",
+   "verdict": "update_row",
+   "row_id": "ean:7041810010028",
+   "reason": "Kavli Rekeost 175g, same product and fat level"
+  },
+  {
+   "ean": "7041011350008",
+   "verdict": "new_product",
+   "reason": "Snackis 150ml, row is choc-caramel flavour"
+  },
+  {
+   "ean": "7041011830005",
+   "verdict": "new_product",
+   "reason": "Crème Mandel, no almond row"
+  },
+  {
+   "ean": "7041015220116",
+   "verdict": "new_product",
+   "reason": "Idyll strawberry 500ml tub, row is 6-pack sticks"
+  },
+  {
+   "ean": "7041011277114",
+   "verdict": "update_row",
+   "row_id": "ean:7041011280114",
+   "reason": "Krone-Is Nonstop 145ml, same product"
+  },
+  {
+   "ean": "7041015018119",
+   "verdict": "new_product",
+   "reason": "Blackberry and Eggelikoer flavour; no such row."
+  },
+  {
+   "ean": "7041011620002",
+   "verdict": "new_product",
+   "reason": "Friskis Melon single; our rows are other Friskis products."
+  },
+  {
+   "ean": "7041018240005",
+   "verdict": "unsure",
+   "reason": "12-pack Krone-Is Sjokolade; our row is 125 ml single with different numbers (310 vs 305). Cannot confirm same recipe."
+  },
+  {
+   "ean": "7041011200006",
+   "verdict": "unsure",
+   "reason": "Krone-Is Sjokolade 145 ml; numbers differ from our 125 ml row (297 vs 305), size-specific recipe possible."
+  },
+  {
+   "ean": "7041011260000",
+   "verdict": "new_product",
+   "reason": "Peanut flavour; no such row."
+  },
+  {
+   "ean": "7041011280008",
+   "verdict": "new_product",
+   "reason": "Vanilla and chocolate flavour; no matching row."
+  },
+  {
+   "ean": "7037210005016",
+   "verdict": "unsure",
+   "reason": "Diplom-Is Krone-Is chocolate 125 ml; our Diplom row is sparse with other numbers, unclear if same."
+  },
+  {
+   "ean": "7037210121754",
+   "verdict": "new_product",
+   "reason": "Litago strawberry; our Litago row has no flavour and different numbers."
+  },
+  {
+   "ean": "7037210120436",
+   "verdict": "new_product",
+   "reason": "Royal Is strawberry and meringue; no row with this flavour."
+  },
+  {
+   "ean": "7037210119362",
+   "verdict": "new_product",
+   "reason": "Royal dark chocolate stick; our row is lemon and dark chocolate."
+  },
+  {
+   "ean": "7037210120665",
+   "verdict": "new_product",
+   "reason": "Royal Trippel liquorice; our rows are other Trippel."
+  },
+  {
+   "ean": "7037210120719",
+   "verdict": "new_product",
+   "reason": "Gingerbread sandwich; no such row."
+  },
+  {
+   "ean": "7037210008673",
+   "verdict": "unsure",
+   "reason": "Diplom-Is Krone-Is chocolate 6-pack; similar to other Diplom rows but numbers differ and sparse row."
+  },
+  {
+   "ean": "7037210121945",
+   "verdict": "new_product",
+   "reason": "Gigant salted caramel; our row is a different Gigant."
+  },
+  {
+   "ean": "7037210121648",
+   "verdict": "new_product",
+   "reason": "Dream strawberry 640 ml; our row is mango and passion fruit."
+  },
+  {
+   "ean": "7037210121631",
+   "verdict": "new_product",
+   "reason": "Dream mango and passion 640 ml tub; our row is a 75 g stick with different numbers."
+  },
+  {
+   "ean": "7037210121624",
+   "verdict": "new_product",
+   "reason": "Dream vanilla; no row."
+  },
+  {
+   "ean": "7037210119614",
+   "verdict": "unsure",
+   "reason": "Litago Is chocolate 1.2 l; our Litago Is row has no flavour and different fat (6.2 vs 8.6)."
+  },
+  {
+   "ean": "7037210118143",
+   "verdict": "new_product",
+   "reason": "Dream choco chip cookie dough; no row."
+  },
+  {
+   "ean": "7037210118877",
+   "verdict": "new_product",
+   "reason": "Royal hazelnut and chocolate; no row with this flavour."
+  },
+  {
+   "ean": "7037210119492",
+   "verdict": "new_product",
+   "reason": "Royal baked apples; no row."
+  },
+  {
+   "ean": "7037210120016",
+   "verdict": "new_product",
+   "reason": "Royal salted caramel 0.5 l; our caramel row is a mini stick."
+  },
+  {
+   "ean": "7037210120429",
+   "verdict": "new_product",
+   "reason": "Royal Trippel chocolate 6-pack; numbers differ from other Trippel rows."
+  },
+  {
+   "ean": "7037210121815",
+   "verdict": "new_product",
+   "reason": "Gingerbread sandwich 6pk; no such row."
+  },
+  {
+   "ean": "7037210118426",
+   "verdict": "unsure",
+   "reason": "Lollipop Favoritter 1.2 l is close to store row Lollipop Is 1.2 L (118/0.5/29/25 vs 117/0.5/28/25) but flavour mix not confirmed."
+  },
+  {
+   "ean": "7037210118150",
+   "verdict": "new_product",
+   "reason": "Dream Belgian chocolate; no row."
+  },
+  {
+   "ean": "7037210118174",
+   "verdict": "new_product",
+   "reason": "Dream vanilla bean; no row."
+  },
+  {
+   "ean": "7037210118181",
+   "verdict": "new_product",
+   "reason": "Dream strawberry splash; no row."
+  },
+  {
+   "ean": "7037210119508",
+   "verdict": "new_product",
+   "reason": "Dream choco truffles; no row."
+  },
+  {
+   "ean": "7037210120443",
+   "verdict": "new_product",
+   "reason": "Dream lemon; no row."
+  },
+  {
+   "ean": "7037210118167",
+   "verdict": "new_product",
+   "reason": "Dream caramel brownie; no row."
+  },
+  {
+   "ean": "7044611874936",
+   "verdict": "update_row",
+   "row_id": "ringnes:https://www.ringnes.no/produkter/ringnes/ringnes-voerteroel/",
+   "reason": "Same Ringnes Vorterol; label numbers near ours (38 kcal) with more accurate carbs and sugar."
+  },
+  {
+   "ean": "7044610874937",
+   "verdict": "update_row",
+   "row_id": "ringnes:https://www.ringnes.no/produkter/ringnes/ringnes-voerteroel/",
+   "reason": "Same Ringnes Vorterol can; identical numbers to the 6-pack label."
+  },
+  {
+   "ean": "7044610806204",
+   "verdict": "unsure",
+   "reason": "Bottle version has different numbers (39 kcal, 9 sugar) than can labels; may be a separate variant."
+  },
+  {
+   "ean": "7044610875958",
+   "verdict": "new_product",
+   "reason": "Julebrus Lett (light) is a different product from our regular Julebrus."
+  },
+  {
+   "ean": "0000023026618",
+   "verdict": "update_row",
+   "row_id": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-vellagret-m-skorpe",
+   "reason": "Norvegia Vellagret 1 kg matches this row (1 kg pack listed); numbers nearly equal (351 vs 360). Not the Ekstra variant."
+  },
+  {
+   "ean": "7043180081028",
+   "verdict": "new_product",
+   "reason": "Ready-to-eat Butter Chicken flavour; no row."
+  },
+  {
+   "ean": "7043180087020",
+   "verdict": "new_product",
+   "reason": "Indian strips; our 500 g row is a tomato flavour."
+  },
+  {
+   "ean": "7043180114122",
+   "verdict": "new_product",
+   "reason": "Tex-Mex flavour 325 g; no row."
+  },
+  {
+   "ean": "7043180081127",
+   "verdict": "new_product",
+   "reason": "BBQ flavour; no row."
+  },
+  {
+   "ean": "7043180114023",
+   "verdict": "new_product",
+   "reason": "Tex-Mex flavour 200 g; no row."
+  },
+  {
+   "ean": "7043180054220",
+   "verdict": "new_product",
+   "reason": "Sun-dried tomato fried chicken fillet; our rows are plain fried/sliced."
+  },
+  {
+   "ean": "7043180080922",
+   "verdict": "new_product",
+   "reason": "Taco flavour; no row."
+  },
+  {
+   "ean": "7045386068506",
+   "verdict": "unsure",
+   "reason": "Same brand and name as our row but 14-pack 770 g with different numbers (258 vs 241); may be a different recipe."
+  },
+  {
+   "ean": "7058040661807",
+   "verdict": "new_product",
+   "reason": "Plain Jubelsalami; our row is taco flavour."
+  },
+  {
+   "ean": "7058040449108",
+   "verdict": "new_product",
+   "reason": "Plain Jubelsalami; our row is taco flavour."
+  },
+  {
+   "ean": "7058040689900",
+   "verdict": "update_row",
+   "row_id": "ean:7058040614308",
+   "reason": "Same Gronderfar product; our salt value 0.0125 is clearly wrong, other numbers close."
+  },
+  {
+   "ean": "7058040657305",
+   "verdict": "unsure",
+   "reason": "Grilstad Chorizo; our same-name row has implausible salt and other numbers, cannot settle."
+  },
+  {
+   "ean": "7058040705204",
+   "verdict": "new_product",
+   "reason": "Plain Jubelsalami; our row is taco flavour."
+  },
+  {
+   "ean": "7058040210500",
+   "verdict": "unsure",
+   "reason": "Grilstad Salami 300 g; our Salami 100 g row has very different numbers."
+  },
+  {
+   "ean": "7058040623102",
+   "verdict": "new_product",
+   "reason": "Jubelsalami Lovtynn; our row is taco flavour"
+  },
+  {
+   "ean": "7058040702708",
+   "verdict": "new_product",
+   "reason": "Chorizo ternet 120g; our rows are hot chorizo, sausages or other recipe"
+  },
+  {
+   "ean": "7058040458506",
+   "verdict": "unsure",
+   "reason": "Bacon variant of Spekepolse hel; our three rows lack variant info and none clearly match"
+  },
+  {
+   "ean": "7058040448408",
+   "verdict": "new_product",
+   "reason": "Jubelsalami bordpakning; our row is taco flavour"
+  },
+  {
+   "ean": "7058040671004",
+   "verdict": "new_product",
+   "reason": "Chorizo i ring 200g; no matching row"
+  },
+  {
+   "ean": "7058040430908",
+   "verdict": "unsure",
+   "reason": "Brand Stranda, our XL row is Grilstad; numbers close but brand and size differ"
+  },
+  {
+   "ean": "7058040449207",
+   "verdict": "new_product",
+   "reason": "Jubelsalami 175g; our row is taco flavour"
+  },
+  {
+   "ean": "7058040630506",
+   "verdict": "update_row",
+   "row_id": "ean:7058040634405",
+   "reason": "Same Grilstad Rodvinspolse, newer numbers"
+  },
+  {
+   "ean": "7058040432407",
+   "verdict": "new_product",
+   "reason": "Jubelsalami Krydder; our row is taco flavour"
+  },
+  {
+   "ean": "7058040615206",
+   "verdict": "new_product",
+   "reason": "Jubelsalami bordpakning 135g; our row is taco flavour"
+  },
+  {
+   "ean": "7058040628503",
+   "verdict": "new_product",
+   "reason": "Butcher Burger Cheddar variant; our row is plain"
+  },
+  {
+   "ean": "7058040434005",
+   "verdict": "new_product",
+   "reason": "Salami Lev Litt Lettere light variant; no matching row"
+  },
+  {
+   "ean": "7058040412508",
+   "verdict": "new_product",
+   "reason": "Lev Litt Lettere chicken burger, very different numbers from our Kyllingburger"
+  },
+  {
+   "ean": "7023026707237",
+   "verdict": "unsure",
+   "reason": "Label flavour not stated; our row is garlic Krutonger, numbers similar"
+  },
+  {
+   "ean": "7310130011467",
+   "verdict": "new_product",
+   "reason": "Strawberry granola 400g; our rows are generic or other sizes"
+  },
+  {
+   "ean": "7310130010507",
+   "verdict": "new_product",
+   "reason": "Papaya gluten-free musli; no such row"
+  },
+  {
+   "ean": "7044416016869",
+   "verdict": "new_product",
+   "reason": "Roasted oat and cranberry musli; no such row"
+  },
+  {
+   "ean": "7310130006272",
+   "verdict": "new_product",
+   "reason": "Strawberry and sea buckthorn granola; our rows are generic"
+  },
+  {
+   "ean": "7310130011245",
+   "verdict": "new_product",
+   "reason": "Apple and raisin granola; our rows are generic"
+  },
+  {
+   "ean": "8410076482570",
+   "verdict": "update_row",
+   "row_id": "ean:8410083482570",
+   "reason": "Old El Paso Tortilla Chips Cheese, same product, near-identical barcode, newer numbers"
+  },
+  {
+   "ean": "8076809580144",
+   "verdict": "update_row",
+   "row_id": "ean:8076808060654",
+   "reason": "Barilla Farfalle 500g, same product, numbers nearly identical"
+  },
+  {
+   "ean": "8076800035650",
+   "verdict": "new_product",
+   "reason": "5 kg catering pack, different size from our 500 g row"
+  },
+  {
+   "ean": "7315200590835",
+   "verdict": "unsure",
+   "reason": "Caj P BBQ oil garlic vs Haugen-Gruppen garlic and herbs marinade; brand and recipe link unclear"
+  },
+  {
+   "ean": "5740200001012",
+   "verdict": "new_product",
+   "reason": "Tholstrup Castello Blue, our row is Arla organic"
+  },
+  {
+   "ean": "4001724022398",
+   "verdict": "new_product",
+   "reason": "Gluten-free mozzarella pizza; no matching row"
+  },
+  {
+   "ean": "7041111157484",
+   "verdict": "update_row",
+   "row_id": "ean:7041111118522",
+   "reason": "Dent Salt Lakris 24g, same Brynild product, numbers close"
+  },
+  {
+   "ean": "8712566121496",
+   "verdict": "unsure",
+   "reason": "Vegetable fond; our generic Knorr Fond du Chef row has no flavour"
+  },
+  {
+   "ean": "8714100370902",
+   "verdict": "new_product",
+   "reason": "Carbonara flavour; our rows are other flavours"
+  },
+  {
+   "ean": "8714100683064",
+   "verdict": "new_product",
+   "reason": "Bolognese flavour; our rows are other flavours"
+  },
+  {
+   "ean": "8712566246182",
+   "verdict": "unsure",
+   "reason": "Fish fond; our generic Knorr Fond du Chef row has no flavour"
+  },
+  {
+   "ean": "5053827188586",
+   "verdict": "new_product",
+   "reason": "Blackcurrant Special K variant; our row is original"
+  },
+  {
+   "ean": "5053827188616",
+   "verdict": "new_product",
+   "reason": "Coconut Special K variant; our row is original"
+  },
+  {
+   "ean": "8445292428026",
+   "verdict": "new_product",
+   "reason": "Quinoa banana flavour; our row is generic"
+  },
+  {
+   "ean": "8445292084987",
+   "verdict": "new_product",
+   "reason": "Mango banana flavour; our row is generic"
+  },
+  {
+   "ean": "8445292428187",
+   "verdict": "new_product",
+   "reason": "Exotic fruits flavour; our row is generic"
+  },
+  {
+   "ean": "8445292428729",
+   "verdict": "new_product",
+   "reason": "Apple red berry flavour; our row is generic"
+  },
+  {
+   "ean": "8445292085564",
+   "verdict": "new_product",
+   "reason": "God Natt 6m flavour; our row is generic"
+  },
+  {
+   "ean": "8445292428484",
+   "verdict": "new_product",
+   "reason": "God Natt 1 year flavour; our row is generic"
+  },
+  {
+   "ean": "8445292062381",
+   "verdict": "new_product",
+   "reason": "Prune flavour; our row is generic"
+  },
+  {
+   "ean": "8445292085083",
+   "verdict": "new_product",
+   "reason": "God Natt 8m flavour; our row is generic"
+  },
+  {
+   "ean": "8445290553911",
+   "verdict": "new_product",
+   "reason": "Pear and banana flavour; our row is generic with different numbers"
+  },
+  {
+   "ean": "8445290553065",
+   "verdict": "new_product",
+   "reason": "Apple and banana flavour; our row is generic with different numbers"
+  },
+  {
+   "ean": "7613287402554",
+   "verdict": "new_product",
+   "reason": "Big apple smoothie 110g; our row is generic with different numbers"
+  },
+  {
+   "ean": "7613035605893",
+   "verdict": "new_product",
+   "reason": "Apple raspberry flavour; our row is generic"
+  },
+  {
+   "ean": "7613033881824",
+   "verdict": "new_product",
+   "reason": "Apple pear flavour; our row is generic"
+  },
+  {
+   "ean": "8445291078932",
+   "verdict": "new_product",
+   "reason": "Nan Pro 1 powder; our rows are ready-to-drink or multi-stage"
+  },
+  {
+   "ean": "8445291084711",
+   "verdict": "new_product",
+   "reason": "Nan Pro 2 powder 800g; our row is a liquid form"
+  },
+  {
+   "ean": "5900020035714",
+   "verdict": "new_product",
+   "reason": "Plain gluten-free corn flakes; our row is choco"
+  },
+  {
+   "ean": "7613038160023",
+   "verdict": "new_product",
+   "reason": "Nan Pro 3 powder; no matching row"
+  },
+  {
+   "ean": "7613038155463",
+   "verdict": "new_product",
+   "reason": "Nan Pro 4 powder; no matching row"
+  },
+  {
+   "ean": "3046920043489",
+   "verdict": "new_product",
+   "reason": "Creme Brulee flavour; our rows are other Creation flavours"
+  },
+  {
+   "ean": "3046920028363",
+   "verdict": "new_product",
+   "reason": "85% dark; no matching row"
+  },
+  {
+   "ean": "3046920028004",
+   "verdict": "new_product",
+   "reason": "70% dark; our generic Excellence row has different numbers and no variant stated"
+  },
+  {
+   "ean": "3046920028721",
+   "verdict": "new_product",
+   "reason": "99% dark; no matching row"
+  },
+  {
+   "ean": "0000090474118",
+   "verdict": "new_product",
+   "reason": "Sugar-free Pink Edition; our rows are other sugared editions"
+  },
+  {
+   "ean": "5060639122295",
+   "verdict": "new_product",
+   "reason": "Monster Espresso Milk; no matching row"
+  },
+  {
+   "ean": "5060639122325",
+   "verdict": "new_product",
+   "reason": "Monster Espresso Vanilla; no matching row"
+  },
+  {
+   "ean": "7044610876672",
+   "verdict": "new_product",
+   "reason": "Eple&Kiwi 1.5l; no matching flavour row"
+  },
+  {
+   "ean": "7044610876665",
+   "verdict": "unsure",
+   "reason": "Our generic 'Farris Frus' 500 ml has no flavour stated; could be Eple&Kiwi but cannot confirm"
+  },
+  {
+   "ean": "7044614877125",
+   "verdict": "new_product",
+   "reason": "Eple&Kiwi 6-pack cans; no matching row"
+  },
+  {
+   "ean": "7044613877126",
+   "verdict": "new_product",
+   "reason": "Eple&Kiwi 0.33l can; no matching row"
+  },
+  {
+   "ean": "7394376624025",
+   "verdict": "new_product",
+   "reason": "Coconut flavour iKaffe; other rows are different variants"
+  },
+  {
+   "ean": "7394376615740",
+   "verdict": "update_row",
+   "row_id": "ean:7394376616716",
+   "reason": "Oatly Havregurt 1 kg naturell is the same product; label has newer numbers"
+  },
+  {
+   "ean": "7394376616723",
+   "verdict": "new_product",
+   "reason": "Vanilla variant; our row is plain"
+  },
+  {
+   "ean": "0076840600021",
+   "verdict": "unsure",
+   "reason": "Our Ben&Jerry's rows have no flavour in the name; cannot tell which is Cookie Dough"
+  },
+  {
+   "ean": "8711327480445",
+   "verdict": "new_product",
+   "reason": "Ruby Berries and Cream; our row is Caramel Billionaire"
+  },
+  {
+   "ean": "5056051802266",
+   "verdict": "new_product",
+   "reason": "Truffle & Salt flavour; our row is Sea Salt"
+  },
+  {
+   "ean": "5056051802419",
+   "verdict": "new_product",
+   "reason": "Veg Crisps; different flavour"
+  },
+  {
+   "ean": "5056051802440",
+   "verdict": "new_product",
+   "reason": "Sweet potato; different flavour"
+  },
+  {
+   "ean": "5060042641406",
+   "verdict": "new_product",
+   "reason": "Cider Vinegar; different flavour"
+  },
+  {
+   "ean": "5060042641413",
+   "verdict": "new_product",
+   "reason": "Sweet Chilli; different flavour"
+  },
+  {
+   "ean": "5060042641420",
+   "verdict": "new_product",
+   "reason": "Sea Salt & Black Pepper differs from plain Sea Salt"
+  },
+  {
+   "ean": "5060042641437",
+   "verdict": "new_product",
+   "reason": "Cheddar; different flavour"
+  },
+  {
+   "ean": "0048327203520",
+   "verdict": "new_product",
+   "reason": "Ybarra brand; our row is Haugen-Gruppen Kreta"
+  },
+  {
+   "ean": "6416453020344",
+   "verdict": "new_product",
+   "reason": "Dumle Smooth 41g bar; no matching row"
+  },
+  {
+   "ean": "6416453055414",
+   "verdict": "new_product",
+   "reason": "Boo Sour variant; not in our rows"
+  },
+  {
+   "ean": "6416453051195",
+   "verdict": "new_product",
+   "reason": "Sour Foams variant; not in our rows"
+  },
+  {
+   "ean": "6416453041288",
+   "verdict": "unsure",
+   "reason": "Our Fazer Palle Kuling has no variant; Fruit Coins may be the same but numbers differ"
+  },
+  {
+   "ean": "7350020724114",
+   "verdict": "new_product",
+   "reason": "Peach Paradise flavour; our rows are other Froosh products"
+  },
+  {
+   "ean": "7350020720017",
+   "verdict": "new_product",
+   "reason": "Mango Mania flavour; not in our rows"
+  },
+  {
+   "ean": "7350020720093",
+   "verdict": "new_product",
+   "reason": "Tropical Twist flavour; not in our rows"
+  },
+  {
+   "ean": "7350020729225",
+   "verdict": "new_product",
+   "reason": "Apple Pear Vanilla; not in our rows"
+  },
+  {
+   "ean": "7350153720359",
+   "verdict": "new_product",
+   "reason": "Pineapple Peach Passion; not in our rows"
+  },
+  {
+   "ean": "7350153720007",
+   "verdict": "new_product",
+   "reason": "Strawberry Sea buckthorn Apple 750ml; not in our rows"
+  },
+  {
+   "ean": "7350153720045",
+   "verdict": "new_product",
+   "reason": "Mango Passion 750ml; not in our rows"
+  },
+  {
+   "ean": "6416453039711",
+   "verdict": "new_product",
+   "reason": "Soft&Salt variant; not in our rows"
+  },
+  {
+   "ean": "7020568000185",
+   "verdict": "new_product",
+   "reason": "Baker Nilsen; our rows are other brands"
+  },
+  {
+   "ean": "7037421053264",
+   "verdict": "unsure",
+   "reason": "Berthas Sjokoflarn Doble 300g vs Baxt Doble Sjokoflarn 360g; brand relation and recipe differ, numbers far apart"
+  },
+  {
+   "ean": "7037421061641",
+   "verdict": "new_product",
+   "reason": "Lys sjokoladekake variant; our row is Baxt generic"
+  },
+  {
+   "ean": "7037421061832",
+   "verdict": "new_product",
+   "reason": "With glaze variant; different"
+  },
+  {
+   "ean": "7037421062204",
+   "verdict": "new_product",
+   "reason": "Tutti Frutti 6pk; different"
+  },
+  {
+   "ean": "7037421062365",
+   "verdict": "unsure",
+   "reason": "Berthas Sjokoladekake 360g vs Baxt Sjokoladekake with no size; numbers close but brand and size unclear"
+  },
+  {
+   "ean": "7037421067469",
+   "verdict": "new_product",
+   "reason": "Kokosboller 20pk; our row is Juleskum 96 g"
+  },
+  {
+   "ean": "7037421067797",
+   "verdict": "new_product",
+   "reason": "Kokosboller 20 pcs; our row is Juleskum"
+  },
+  {
+   "ean": "7037421091402",
+   "verdict": "unsure",
+   "reason": "Berthas Doble Sjokoflarn 380g vs Baxt Doble Sjokoflarn 360g; close numbers but different pack and brand name"
+  },
+  {
+   "ean": "7037421091488",
+   "verdict": "new_product",
+   "reason": "Gluten-free pepperkaker; our rows are regular"
+  },
+  {
+   "ean": "7037421097565",
+   "verdict": "unsure",
+   "reason": "Berthas Pepperkaker 300g; our Baxt Pepperkaker has different numbers and no size"
+  },
+  {
+   "ean": "7041611054788",
+   "verdict": "new_product",
+   "reason": "Catering 1.64 kg size recipe; our rows are different products"
+  },
+  {
+   "ean": "7041611054801",
+   "verdict": "new_product",
+   "reason": "Catering 3.4 kg size recipe; our rows are different products"
+  },
+  {
+   "ean": "7041611054894",
+   "verdict": "new_product",
+   "reason": "Passion cheesecake; our row is plain frozen ostekake"
+  },
+  {
+   "ean": "7041611055587",
+   "verdict": "new_product",
+   "reason": "Large catering cake with picture, different from our rows"
+  },
+  {
+   "ean": "7041611055600",
+   "verdict": "new_product",
+   "reason": "30 piece catering cake, not in our rows"
+  },
+  {
+   "ean": "7041611059127",
+   "verdict": "new_product",
+   "reason": "Passion fruit cheesecake 2pk, ours is a different plain frozen cheesecake"
+  },
+  {
+   "ean": "7041611059912",
+   "verdict": "new_product",
+   "reason": "Passion fruit cheesecake 1kg, different variant"
+  },
+  {
+   "ean": "7041614005657",
+   "verdict": "unsure",
+   "reason": "Brand Bakerens vs Bakehuset and twisted variant; likely same range but not clear"
+  },
+  {
+   "ean": "7041614006135",
+   "verdict": "unsure",
+   "reason": "Bergensk skillingsbolle may be a variant of our plain Skillingsbolle; numbers differ"
+  },
+  {
+   "ean": "7041614006234",
+   "verdict": "new_product",
+   "reason": "Mini hamburger bun 4pk, ours is Mini Brioche, different recipe"
+  },
+  {
+   "ean": "7041614006579",
+   "verdict": "update_row",
+   "row_id": "ean:7033550606166",
+   "reason": "Same Bakehuset Smorloff; label has newer numbers"
+  },
+  {
+   "ean": "7041614007248",
+   "verdict": "new_product",
+   "reason": "Plain 6pk burger bun, ours are brioche and sesame"
+  },
+  {
+   "ean": "7041614008122",
+   "verdict": "unsure",
+   "reason": "Same name Formloff but fat 3.9 vs 1.5 and no brand on our row"
+  },
+  {
+   "ean": "7041614009242",
+   "verdict": "update_row",
+   "row_id": "openfoodfacts:05749668",
+   "reason": "Donut with sugar 50 g matches, numbers close"
+  },
+  {
+   "ean": "7041614009471",
+   "verdict": "new_product",
+   "reason": "Spelt burger bun, not in our rows"
+  },
+  {
+   "ean": "7041614009495",
+   "verdict": "update_row",
+   "row_id": "openfoodfacts:05749585",
+   "reason": "Donut with vanilla filling, 71 g vs 70 g, numbers close"
+  },
+  {
+   "ean": "7041614010309",
+   "verdict": "new_product",
+   "reason": "Regular brioche burger bun 6pk, ours is mini brioche"
+  },
+  {
+   "ean": "7041614010521",
+   "verdict": "new_product",
+   "reason": "8 piece chocolate cake, different from our rows"
+  },
+  {
+   "ean": "7041614010538",
+   "verdict": "unsure",
+   "reason": "Cheesecake 8 pieces; our row is generic frozen cheesecake with no brand"
+  },
+  {
+   "ean": "7041614020414",
+   "verdict": "unsure",
+   "reason": "God Sondag baked-together grovbrod may be a variant of our Bakehuset Grovbrod 750 g"
+  },
+  {
+   "ean": "7041614022982",
+   "verdict": "new_product",
+   "reason": "Garlic and cheese focaccia, different flavour"
+  },
+  {
+   "ean": "7041614023545",
+   "verdict": "update_row",
+   "row_id": "ean:7033550601239",
+   "reason": "Bakehuset Hveteboller, 4 pieces matches 400 g pack"
+  },
+  {
+   "ean": "7041614024030",
+   "verdict": "new_product",
+   "reason": "2pk donut 114 g, no matching variant"
+  },
+  {
+   "ean": "7041614024443",
+   "verdict": "new_product",
+   "reason": "Ham and cheese baguette, different from plain fine baguette"
+  },
+  {
+   "ean": "7041614024450",
+   "verdict": "new_product",
+   "reason": "Coarse ham and cheese baguette"
+  },
+  {
+   "ean": "7041614024474",
+   "verdict": "new_product",
+   "reason": "Chicken curry baguette"
+  },
+  {
+   "ean": "7041614024481",
+   "verdict": "new_product",
+   "reason": "Shrimp and egg baguette"
+  },
+  {
+   "ean": "7041614025617",
+   "verdict": "new_product",
+   "reason": "Seasonal frozen marzipan cake, different from existing variants"
+  },
+  {
+   "ean": "7041614025815",
+   "verdict": "new_product",
+   "reason": "Baguette with ribberull, different filling"
+  },
+  {
+   "ean": "7071479504927",
+   "verdict": "new_product",
+   "reason": "Coarse baguette with shrimp and egg, not in our rows"
+  },
+  {
+   "ean": "7071848022540",
+   "verdict": "new_product",
+   "reason": "Brioche sandwich bread, different product"
+  },
+  {
+   "ean": "7071848103225",
+   "verdict": "unsure",
+   "reason": "Brioche Gourmet 500 g vs our 600 g, numbers differ"
+  },
+  {
+   "ean": "7071848103232",
+   "verdict": "new_product",
+   "reason": "Chocolate brioche gourmet variant"
+  },
+  {
+   "ean": "7071848108626",
+   "verdict": "new_product",
+   "reason": "Easter foam flavour"
+  },
+  {
+   "ean": "7071848108640",
+   "verdict": "new_product",
+   "reason": "Coconut flavour"
+  },
+  {
+   "ean": "7071848108657",
+   "verdict": "new_product",
+   "reason": "Hazelnut flavour"
+  },
+  {
+   "ean": "7071848108664",
+   "verdict": "new_product",
+   "reason": "Gammel Daws flavour"
+  },
+  {
+   "ean": "7071848108671",
+   "verdict": "new_product",
+   "reason": "Raspberry liquorice flavour"
+  },
+  {
+   "ean": "7071848108794",
+   "verdict": "new_product",
+   "reason": "17 May edition"
+  },
+  {
+   "ean": "7071848109197",
+   "verdict": "new_product",
+   "reason": "Punch flavour"
+  },
+  {
+   "ean": "7311070006353",
+   "verdict": "new_product",
+   "reason": "Cardamom gifflar, ours is choco caramel"
+  },
+  {
+   "ean": "7311070019896",
+   "verdict": "new_product",
+   "reason": "Gingerbread gifflar"
+  },
+  {
+   "ean": "7350028543779",
+   "verdict": "new_product",
+   "reason": "Flax and rosemary corn cakes, ours is taco"
+  },
+  {
+   "ean": "7350028546893",
+   "verdict": "new_product",
+   "reason": "Pizza corn cakes, ours is taco"
+  },
+  {
+   "ean": "7020655210022",
+   "verdict": "update_row",
+   "row_id": "ean:7020655210916",
+   "reason": "Same Norgesmollene semulegryn, 1 kg size listed"
+  },
+  {
+   "ean": "7036230001275",
+   "verdict": "unsure",
+   "reason": "Holmsens burnt almonds 400 g vs our 100 g row; label carbs look odd"
+  },
+  {
+   "ean": "3444570200809",
+   "verdict": "new_product",
+   "reason": "Organic baby food tex mex, different from Matborsen"
+  },
+  {
+   "ean": "7613036363471",
+   "verdict": "new_product",
+   "reason": "Nan Pro 1 powder, ours are ready-to-drink values"
+  },
+  {
+   "ean": "7613036576345",
+   "verdict": "new_product",
+   "reason": "Nan Pro 2 powder, ours are ready-to-drink values"
+  },
+  {
+   "ean": "7090008301516",
+   "verdict": "new_product",
+   "reason": "4.5 l vanilla ice cream, no plain vanilla row"
+  },
+  {
+   "ean": "7090008302001",
+   "verdict": "new_product",
+   "reason": "Plain vanilla 0.5 l, no vanilla row (cookies vanilla differs)"
+  },
+  {
+   "ean": "7090008302018",
+   "verdict": "unsure",
+   "reason": "Liquorice 0.5 l vs our 4.5 l liquorice row, numbers close but size and salt differ"
+  },
+  {
+   "ean": "7090008302117",
+   "verdict": "unsure",
+   "reason": "Coffee mocha 0.5 l vs our 4.5 l row, numbers differ"
+  },
+  {
+   "ean": "7090008302834",
+   "verdict": "new_product",
+   "reason": "Salt Karamel&Cookies flavour; no such row"
+  },
+  {
+   "ean": "7090008303015",
+   "verdict": "new_product",
+   "reason": "Vegan chocolate; our row is Cookies Vanilje"
+  },
+  {
+   "ean": "7090008304128",
+   "verdict": "new_product",
+   "reason": "Dubai flavour, not in rows"
+  },
+  {
+   "ean": "7090008304180",
+   "verdict": "new_product",
+   "reason": "Mint chocolate with chocolate bits differs from plain Mint row"
+  },
+  {
+   "ean": "7090008304203",
+   "verdict": "new_product",
+   "reason": "Cherry with chocolate bits differs from plain Cherry row, different numbers"
+  },
+  {
+   "ean": "5056784903766",
+   "verdict": "new_product",
+   "reason": "Monster Ultra Strawberry, different product"
+  },
+  {
+   "ean": "5056784907580",
+   "verdict": "new_product",
+   "reason": "Lando Norris Zero Sugar variant"
+  },
+  {
+   "ean": "5056784909140",
+   "verdict": "new_product",
+   "reason": "Valentino Rossi Zero Sugar variant"
+  },
+  {
+   "ean": "5056784910023",
+   "verdict": "new_product",
+   "reason": "Ultra Fantasy Ruby Red"
+  },
+  {
+   "ean": "5056784912188",
+   "verdict": "new_product",
+   "reason": "Viking Berry"
+  },
+  {
+   "ean": "5060337502269",
+   "verdict": "new_product",
+   "reason": "Ultra Red"
+  },
+  {
+   "ean": "5060517887704",
+   "verdict": "new_product",
+   "reason": "Ultra Violet"
+  },
+  {
+   "ean": "5060517887735",
+   "verdict": "new_product",
+   "reason": "Ultra White multipack"
+  },
+  {
+   "ean": "5060517889937",
+   "verdict": "new_product",
+   "reason": "Mango Loco, not Advanced Hydration"
+  },
+  {
+   "ean": "5060639126378",
+   "verdict": "new_product",
+   "reason": "Ultra Paradise"
+  },
+  {
+   "ean": "5060896625638",
+   "verdict": "new_product",
+   "reason": "Full Throttle Zero"
+  },
+  {
+   "ean": "5060947540439",
+   "verdict": "new_product",
+   "reason": "Monster Energy 6pk; our rows are other brands"
+  },
+  {
+   "ean": "5060947540705",
+   "verdict": "new_product",
+   "reason": "Mango Loco 10pk"
+  },
+  {
+   "ean": "5060947541214",
+   "verdict": "new_product",
+   "reason": "Ultra Rosa"
+  },
+  {
+   "ean": "5060947544000",
+   "verdict": "new_product",
+   "reason": "Mango Loco 4pk"
+  },
+  {
+   "ean": "5060947547483",
+   "verdict": "new_product",
+   "reason": "Ultra Peachy Keen"
+  },
+  {
+   "ean": "5061013940566",
+   "verdict": "new_product",
+   "reason": "Monster Zero Sugar"
+  },
+  {
+   "ean": "5061013940917",
+   "verdict": "new_product",
+   "reason": "Monster Energy Zero 4pk"
+  },
+  {
+   "ean": "7030019527482",
+   "verdict": "unsure",
+   "reason": "Hansa Julebrus Lett exists but row has no pack size and several Lett EANs share these numbers"
+  },
+  {
+   "ean": "7030019531205",
+   "verdict": "new_product",
+   "reason": "Flavour differs from plain Grevens Cider"
+  },
+  {
+   "ean": "7030019531236",
+   "verdict": "new_product",
+   "reason": "Flavour differs, multipack"
+  },
+  {
+   "ean": "7030019531366",
+   "verdict": "new_product",
+   "reason": "Orange&Hibiscus flavour"
+  },
+  {
+   "ean": "7030019534619",
+   "verdict": "unsure",
+   "reason": "Lett can, row has no pack size, numbers differ (rounded 0.5 values)"
+  },
+  {
+   "ean": "7030019534626",
+   "verdict": "unsure",
+   "reason": "Lett 6pk of cans, same ambiguity"
+  },
+  {
+   "ean": "7030019536354",
+   "verdict": "new_product",
+   "reason": "Orange/Hibiscus multipack"
+  },
+  {
+   "ean": "7030019536408",
+   "verdict": "new_product",
+   "reason": "Alcohol-free apple variant"
+  },
+  {
+   "ean": "7030019536415",
+   "verdict": "new_product",
+   "reason": "Alcohol-free apple 4pk"
+  },
+  {
+   "ean": "7030019536569",
+   "verdict": "new_product",
+   "reason": "Coconut&Pineapple sugar free"
+  },
+  {
+   "ean": "7030019536576",
+   "verdict": "new_product",
+   "reason": "Coconut&Pineapple sugar free 6pk"
+  },
+  {
+   "ean": "7030019537030",
+   "verdict": "unsure",
+   "reason": "Lett 0.33 bottle; row Hansa Julebrus Lett has no pack size, numbers close but several EANs compete"
+  },
+  {
+   "ean": "7030019541983",
+   "verdict": "new_product",
+   "reason": "Peach&Kiwi flavour"
+  },
+  {
+   "ean": "7030019543208",
+   "verdict": "unsure",
+   "reason": "Lett Sleek can; matches Lett row only if same item, pack unknown"
+  },
+  {
+   "ean": "7030019543215",
+   "verdict": "unsure",
+   "reason": "Lett Sleek can 10pk, same ambiguity"
+  },
+  {
+   "ean": "7030019545394",
+   "verdict": "unsure",
+   "reason": "Lett bottle 4pk, same ambiguity"
+  },
+  {
+   "ean": "7030019545622",
+   "verdict": "new_product",
+   "reason": "Fiery Mango"
+  },
+  {
+   "ean": "7030019545639",
+   "verdict": "new_product",
+   "reason": "Fiery Mango 4pk"
+  },
+  {
+   "ean": "7033050318309",
+   "verdict": "unsure",
+   "reason": "Aass uten juleøl 6pk; same product as row but pack barcode, single bottle EAN is better match"
+  },
+  {
+   "ean": "7033050330653",
+   "verdict": "new_product",
+   "reason": "Sugar-free Julebrus differs from sugared row"
+  },
+  {
+   "ean": "7033050718291",
+   "verdict": "update_row",
+   "row_id": "ean:7033050830122",
+   "reason": "Aass uten juleøl 0.33 bottle matches Aass UTEN alkoholfritt juleøl 330 ml, close numbers"
+  },
+  {
+   "ean": "7033050718314",
+   "verdict": "unsure",
+   "reason": "Plain Aass uten; could be lys lager row or juleøl row"
+  },
+  {
+   "ean": "7033050830641",
+   "verdict": "new_product",
+   "reason": "Sugar-free Julebrus differs from sugared row"
+  },
+  {
+   "ean": "7033850010663",
+   "verdict": "new_product",
+   "reason": "Rudolf&Nissemor sugar-free differs from sugared row"
+  },
+  {
+   "ean": "7033850010670",
+   "verdict": "new_product",
+   "reason": "Sugar-free 6pk, differs from sugared row"
+  },
+  {
+   "ean": "7033850012889",
+   "verdict": "new_product",
+   "reason": "Sugared Julebrus; row given is the sugar-free one"
+  },
+  {
+   "ean": "7038010069703",
+   "verdict": "unsure",
+   "reason": "Sunniva Tropisk Juice vs Tine Tropisk Juice 1 L, brand and size differ"
+  },
+  {
+   "ean": "7040518520679",
+   "verdict": "new_product",
+   "reason": "Cevita oat smoothie, ours are Bama"
+  },
+  {
+   "ean": "7040518525155",
+   "verdict": "new_product",
+   "reason": "Cevita Antiox, no match"
+  },
+  {
+   "ean": "7040518525162",
+   "verdict": "new_product",
+   "reason": "Cevita Havre&Banan, no match"
+  },
+  {
+   "ean": "7040518525186",
+   "verdict": "new_product",
+   "reason": "Cevita Kanel&Eple, no match"
+  },
+  {
+   "ean": "7044610876313",
+   "verdict": "new_product",
+   "reason": "Raspberry flavour, ours Mandarin Mango"
+  },
+  {
+   "ean": "7044610876658",
+   "verdict": "new_product",
+   "reason": "Raspberry flavour, ours Mandarin Mango"
+  },
+  {
+   "ean": "7044610877129",
+   "verdict": "new_product",
+   "reason": "Raspberry flavour, ours Mandarin Mango"
+  },
+  {
+   "ean": "7044615877629",
+   "verdict": "new_product",
+   "reason": "Raspberry flavour, ours Mandarin Mango"
+  },
+  {
+   "ean": "7070841001415",
+   "verdict": "new_product",
+   "reason": "Sugar-free Julebrus, ours is the sugared one (42 kcal)"
+  },
+  {
+   "ean": "7070841003037",
+   "verdict": "new_product",
+   "reason": "Zeroh Pineapple, ours is Candy Cane mint"
+  },
+  {
+   "ean": "7070841003044",
+   "verdict": "new_product",
+   "reason": "Zeroh Sitron&Lime, different flavour"
+  },
+  {
+   "ean": "7070841003051",
+   "verdict": "new_product",
+   "reason": "Zeroh Strawberry&Red Orange, different flavour"
+  },
+  {
+   "ean": "7070841003099",
+   "verdict": "new_product",
+   "reason": "Zeroh Orange&Golden Berry, different flavour"
+  },
+  {
+   "ean": "7070841003150",
+   "verdict": "unsure",
+   "reason": "Same Lerum solbærsirup but 51 kcal vs our 306 (concentrate vs diluted?), cannot settle"
+  },
+  {
+   "ean": "7070841003280",
+   "verdict": "unsure",
+   "reason": "Same Lerum solbærsirup 1,5l but 51 vs our 306 kcal, cannot settle"
+  },
+  {
+   "ean": "7070841004089",
+   "verdict": "new_product",
+   "reason": "Zeroh Ice Tea White Peach, different flavour"
+  },
+  {
+   "ean": "7070841004331",
+   "verdict": "new_product",
+   "reason": "Zeroh Fruits of Summer, different flavour"
+  },
+  {
+   "ean": "7070841004768",
+   "verdict": "new_product",
+   "reason": "Zeroh Cherry&Raspberry, different flavour"
+  },
+  {
+   "ean": "7070841004935",
+   "verdict": "new_product",
+   "reason": "Zeroh Julebrus Rød, different flavour"
+  },
+  {
+   "ean": "7070841004942",
+   "verdict": "new_product",
+   "reason": "Zeroh Julebrus Brun, different flavour"
+  },
+  {
+   "ean": "7070841005772",
+   "verdict": "new_product",
+   "reason": "Zeroh Markjordbær, different flavour"
+  },
+  {
+   "ean": "7070841005895",
+   "verdict": "new_product",
+   "reason": "Sugar-free solbærsirup variant, different from ours"
+  },
+  {
+   "ean": "7070841006137",
+   "verdict": "new_product",
+   "reason": "Zeroh Pear Icepop, different flavour"
+  },
+  {
+   "ean": "7070841006427",
+   "verdict": "new_product",
+   "reason": "Zeroh Triple Melon, different flavour"
+  },
+  {
+   "ean": "7070841007677",
+   "verdict": "new_product",
+   "reason": "Sugar-free Julebrus 6pk, ours is sugared"
+  },
+  {
+   "ean": "7072712005676",
+   "verdict": "new_product",
+   "reason": "No Worries Christmas variant"
+  },
+  {
+   "ean": "7072712006871",
+   "verdict": "new_product",
+   "reason": "No Worries Lemon variant"
+  },
+  {
+   "ean": "7072712011974",
+   "verdict": "new_product",
+   "reason": "No Worries Radler variant"
+  },
+  {
+   "ean": "7072712011981",
+   "verdict": "new_product",
+   "reason": "No Worries Radler variant"
+  },
+  {
+   "ean": "7072712014265",
+   "verdict": "new_product",
+   "reason": "No Worries Christmas variant"
+  },
+  {
+   "ean": "7073185000915",
+   "verdict": "unsure",
+   "reason": "Same name and brand but 35 vs 48 kcal, our row has no pack size or sugar info"
+  },
+  {
+   "ean": "7073185001004",
+   "verdict": "new_product",
+   "reason": "Sugar-free variant, ours is sugared"
+  },
+  {
+   "ean": "7073185001240",
+   "verdict": "unsure",
+   "reason": "Same name and brand but 35 vs 48 kcal, 4-pack; cannot settle"
+  },
+  {
+   "ean": "7090034245129",
+   "verdict": "new_product",
+   "reason": "Organic, Dyre Gård brand; ours is Lien Gård"
+  },
+  {
+   "ean": "7090038588994",
+   "verdict": "new_product",
+   "reason": "Tropenatt flavour, ours is plain Diskobrus"
+  },
+  {
+   "ean": "7090042144766",
+   "verdict": "new_product",
+   "reason": "Plain apple juice, ours are flavoured mixes"
+  },
+  {
+   "ean": "7310050005348",
+   "verdict": "new_product",
+   "reason": "Ice Espresso Double, ours is with milk"
+  },
+  {
+   "ean": "7350020720024",
+   "verdict": "new_product",
+   "reason": "Berrylicious flavour, not in ours"
+  },
+  {
+   "ean": "7350020724527",
+   "verdict": "new_product",
+   "reason": "Mango Guarana Kaffe flavour"
+  },
+  {
+   "ean": "7350020724541",
+   "verdict": "new_product",
+   "reason": "Sitrongress Kamille Ananas flavour"
+  },
+  {
+   "ean": "7350020724565",
+   "verdict": "new_product",
+   "reason": "Avokado Banan Sesam flavour"
+  },
+  {
+   "ean": "7350020727467",
+   "verdict": "new_product",
+   "reason": "Up Beat flavour"
+  },
+  {
+   "ean": "7350020727474",
+   "verdict": "new_product",
+   "reason": "Slow Down flavour"
+  },
+  {
+   "ean": "7613037589146",
+   "verdict": "new_product",
+   "reason": "Nescafe Gold Praline Latte, ours is plain coffee"
+  },
+  {
+   "ean": "7613287552365",
+   "verdict": "new_product",
+   "reason": "Nescafe Gold Toffee Nut Latte, ours is plain coffee"
+  },
+  {
+   "ean": "8809041428321",
+   "verdict": "new_product",
+   "reason": "Sugar-free aloe vera, ours sugared (36 kcal)"
+  },
+  {
+   "ean": "0090478001142",
+   "verdict": "new_product",
+   "reason": "Jarritos Grapefruit, ours is Pineapple"
+  },
+  {
+   "ean": "0090478410043",
+   "verdict": "unsure",
+   "reason": "Jarritos Pineapple but brand differs (Paafyll) and 47 vs 38 kcal"
+  },
+  {
+   "ean": "0000020873259",
+   "verdict": "unsure",
+   "reason": "Skakkelaks same brand, but 'i bit' cut and numbers differ (228 vs 243 kcal); variant unclear"
+  },
+  {
+   "ean": "7090004632232",
+   "verdict": "new_product",
+   "reason": "American freshly cooked lobster, different from ours"
+  },
+  {
+   "ean": "7025441018455",
+   "verdict": "new_product",
+   "reason": "Askim 2pk gift box, different numbers from both Askim Gaveeske rows; pack variant unclear but not a match."
+  },
+  {
+   "ean": "7025441019834",
+   "verdict": "new_product",
+   "reason": "Askim 4pk variant, numbers match neither row."
+  },
+  {
+   "ean": "7025441024982",
+   "verdict": "new_product",
+   "reason": "5pk Favoritter gift pack, differs from Askim Gavepakke 370 g."
+  },
+  {
+   "ean": "7025441025002",
+   "verdict": "new_product",
+   "reason": "Musserende Glede is a separate variant."
+  },
+  {
+   "ean": "7026591060646",
+   "verdict": "new_product",
+   "reason": "Eiker/Royland gift pack, no such row."
+  },
+  {
+   "ean": "7026591060707",
+   "verdict": "new_product",
+   "reason": "Raudberg/Royland gift pack, no such row."
+  },
+  {
+   "ean": "7026591060738",
+   "verdict": "new_product",
+   "reason": "Blaa Viking/Royland gift pack, no such row."
+  },
+  {
+   "ean": "0000023016242",
+   "verdict": "new_product",
+   "reason": "Gilde lammebog pinnekjott, different brand from Nortura rows."
+  },
+  {
+   "ean": "0000023046363",
+   "verdict": "new_product",
+   "reason": "Stranda ready-cooked, differs from Grilstad."
+  },
+  {
+   "ean": "0000023135005",
+   "verdict": "new_product",
+   "reason": "Plain Finsbraten ribbe 2.8kg vs our Krydret 1.8kg variant."
+  },
+  {
+   "ean": "0000023281149",
+   "verdict": "unsure",
+   "reason": "Mydland pinnekjott kuttet vs av lammebog row; numbers differ a lot."
+  },
+  {
+   "ean": "0000023288171",
+   "verdict": "unsure",
+   "reason": "Mydland spareribs Black Pepper vs Marinert Forkokt row; numbers close but flavour not confirmed."
+  },
+  {
+   "ean": "0000023518068",
+   "verdict": "new_product",
+   "reason": "Folkets pepper ytrefilet, no matching row."
+  },
+  {
+   "ean": "0000023518199",
+   "verdict": "new_product",
+   "reason": "Folkets sous vide svineribbe, no match."
+  },
+  {
+   "ean": "0000023528032",
+   "verdict": "update_row",
+   "row_id": "norgesgruppen:23528010",
+   "reason": "Same Aasheim Storfe Morbrad, close numbers."
+  },
+  {
+   "ean": "0000023561851",
+   "verdict": "unsure",
+   "reason": "Kuraas kokt rokt juleskinke vs our sukkersaltet rokt row; variant unclear."
+  },
+  {
+   "ean": "0000023561867",
+   "verdict": "unsure",
+   "reason": "Kuraas ra sukkersaltet vs our rokt sukkersaltet row; ra vs rokt differ."
+  },
+  {
+   "ean": "0000023656962",
+   "verdict": "new_product",
+   "reason": "Stekt Perfekt oksestek m/pepper, no matching brand row."
+  },
+  {
+   "ean": "0000023715819",
+   "verdict": "update_row",
+   "row_id": "norgesgruppen:23715818",
+   "reason": "Brodr Ringstad Juleskinke Surret 2kg, same product, close numbers."
+  },
+  {
+   "ean": "0000023726258",
+   "verdict": "update_row",
+   "row_id": "ean:7090039530046",
+   "reason": "Nordas Elg Grytekjott, same product, close numbers."
+  },
+  {
+   "ean": "0000023798061",
+   "verdict": "update_row",
+   "row_id": "norgesgruppen:23798002",
+   "reason": "Jens Eide Storfe Indrefilet, same product."
+  },
+  {
+   "ean": "0000023800477",
+   "verdict": "update_row",
+   "row_id": "norgesgruppen:23800415",
+   "reason": "Evanger Pinnekjott, same product, identical kcal/protein/salt."
+  },
+  {
+   "ean": "0000023918204",
+   "verdict": "new_product",
+   "reason": "Heldiggris pork indrefilet, our row is Holte beef."
+  },
+  {
+   "ean": "5707196165890",
+   "verdict": "new_product",
+   "reason": "Tulip Langtidskokt 550g, our row is Taco variant."
+  },
+  {
+   "ean": "5707196172157",
+   "verdict": "unsure",
+   "reason": "Tulip Taco 500g vs our Taco 525g row; numbers differ, maybe different recipe."
+  },
+  {
+   "ean": "5707196263077",
+   "verdict": "new_product",
+   "reason": "Langtidskokt, not Taco."
+  },
+  {
+   "ean": "5707196316025",
+   "verdict": "new_product",
+   "reason": "Mini pulled pork, different from Taco row."
+  },
+  {
+   "ean": "7025050011823",
+   "verdict": "new_product",
+   "reason": "Snill Chili flavour, our row is Harissa/plain."
+  },
+  {
+   "ean": "7035620038303",
+   "verdict": "new_product",
+   "reason": "Folkets julepolse, our row is Rema."
+  },
+  {
+   "ean": "7035620064463",
+   "verdict": "new_product",
+   "reason": "Folkets medisterkaker 800g, no Folkets row."
+  },
+  {
+   "ean": "7072350072535",
+   "verdict": "unsure",
+   "reason": "Mydland kjottdeig 400g vs storfe og svin row; type not stated."
+  },
+  {
+   "ean": "0000023235111",
+   "verdict": "new_product",
+   "reason": "Kyllinggarden salt/pepper hel kylling, our row is Nortura."
+  },
+  {
+   "ean": "0000023504005",
+   "verdict": "unsure",
+   "reason": "Lerstang kyllingconfit vs Garsand row; brand differs."
+  },
+  {
+   "ean": "0000023504010",
+   "verdict": "update_row",
+   "row_id": "ean:0000023877054",
+   "reason": "Garsand Andelar 250g, same product, close numbers."
+  },
+  {
+   "ean": "0000023733010",
+   "verdict": "update_row",
+   "row_id": "norgesgruppen:23733960",
+   "reason": "Holte Kyllingbryst, same product, same kcal and fat."
+  },
+  {
+   "ean": "0000023733260",
+   "verdict": "unsure",
+   "reason": "Holte andebryst frys vs our Holte andebryst row; numbers differ a lot."
+  },
+  {
+   "ean": "0000023853715",
+   "verdict": "update_row",
+   "row_id": "norgesgruppen:23504003",
+   "reason": "Garsand Andeconfit 2pk 250g (500g total), close numbers."
+  },
+  {
+   "ean": "0000023853741",
+   "verdict": "unsure",
+   "reason": "Garsand plain andebryst frys vs generic row; numbers differ."
+  },
+  {
+   "ean": "0000023853749",
+   "verdict": "update_row",
+   "row_id": "ean:0000023877054",
+   "reason": "Garsand Andelar 1kg pack, same numbers as the row family."
+  },
+  {
+   "ean": "0000023877038",
+   "verdict": "new_product",
+   "reason": "Marinert andebryst variant."
+  },
+  {
+   "ean": "0000023877049",
+   "verdict": "unsure",
+   "reason": "Lerstang kyllingconfit vs Garsand row; brand differs."
+  },
+  {
+   "ean": "0000023877053",
+   "verdict": "unsure",
+   "reason": "Garsand plain andebryst vs generic row; numbers differ."
+  },
+  {
+   "ean": "0000023877060",
+   "verdict": "new_product",
+   "reason": "Varmrokt andebryst variant."
+  },
+  {
+   "ean": "5707196355420",
+   "verdict": "unsure",
+   "reason": "Tulip Pulled Chicken 300g vs 400g row; numbers differ."
+  },
+  {
+   "ean": "7072821001927",
+   "verdict": "unsure",
+   "reason": "Eng Fugl frozen kyllingfilet; rows are unspecified variants with different numbers."
+  },
+  {
+   "ean": "7090013750583",
+   "verdict": "new_product",
+   "reason": "Marinert Asiatisk andebryst variant."
+  },
+  {
+   "ean": "4001724004073",
+   "verdict": "new_product",
+   "reason": "Ristorante Salame and Pesto, no such row."
+  },
+  {
+   "ean": "4001724010784",
+   "verdict": "new_product",
+   "reason": "Rustica 4-Cheeses, our row is Bacon Nduja."
+  },
+  {
+   "ean": "4001724017547",
+   "verdict": "new_product",
+   "reason": "Piccolissima Prosciutto mini, different size and numbers."
+  },
+  {
+   "ean": "4001724022442",
+   "verdict": "new_product",
+   "reason": "Gluten-free Prosciutto variant."
+  },
+  {
+   "ean": "4001724022473",
+   "verdict": "new_product",
+   "reason": "Gluten-free Salame, no matching row"
+  },
+  {
+   "ean": "4001724030638",
+   "verdict": "new_product",
+   "reason": "Rustica Ham&Cheese; only row is Bacon & Nduja"
+  },
+  {
+   "ean": "4001724035046",
+   "verdict": "new_product",
+   "reason": "Rustica Meat Supreme; different flavour"
+  },
+  {
+   "ean": "4001724038962",
+   "verdict": "unsure",
+   "reason": "Prosciutto 340g; our prosciutto row is a 680g pack with slightly different numbers"
+  },
+  {
+   "ean": "4001724039020",
+   "verdict": "new_product",
+   "reason": "Spinaci, no row"
+  },
+  {
+   "ean": "4001724039082",
+   "verdict": "new_product",
+   "reason": "Hawaii, no row"
+  },
+  {
+   "ean": "4001724039174",
+   "verdict": "new_product",
+   "reason": "Pollo, no row"
+  },
+  {
+   "ean": "4001724039204",
+   "verdict": "unsure",
+   "reason": "Pepperoni-Salame 320g; our row is 640g pack with different numbers"
+  },
+  {
+   "ean": "4001724039235",
+   "verdict": "new_product",
+   "reason": "Bolognese, no row"
+  },
+  {
+   "ean": "4001724039297",
+   "verdict": "new_product",
+   "reason": "Salame Mozz Pesto, no row"
+  },
+  {
+   "ean": "4001724039594",
+   "verdict": "new_product",
+   "reason": "Diavola, no row"
+  },
+  {
+   "ean": "4001724039655",
+   "verdict": "new_product",
+   "reason": "Vegan Margherita, no row"
+  },
+  {
+   "ean": "4001724048886",
+   "verdict": "new_product",
+   "reason": "Piccola Prosciutto, small size recipe"
+  },
+  {
+   "ean": "4001724055556",
+   "verdict": "new_product",
+   "reason": "Rustica Filled Crust, different from Bacon & Nduja"
+  },
+  {
+   "ean": "4001724819400",
+   "verdict": "new_product",
+   "reason": "Spinaci, no row"
+  },
+  {
+   "ean": "4001724819509",
+   "verdict": "new_product",
+   "reason": "Speciale 330g; our Special row is a 2x345g pack with different numbers"
+  },
+  {
+   "ean": "4001724819608",
+   "verdict": "new_product",
+   "reason": "Hawaii, no row"
+  },
+  {
+   "ean": "4001724819806",
+   "verdict": "new_product",
+   "reason": "Mozzarella, no row"
+  },
+  {
+   "ean": "4001724819905",
+   "verdict": "new_product",
+   "reason": "Vegetar, no row"
+  },
+  {
+   "ean": "4001724820208",
+   "verdict": "unsure",
+   "reason": "Pepperoni/Salame 320g; possible duplicate variant of another label, numbers differ from our row"
+  },
+  {
+   "ean": "4001724820307",
+   "verdict": "new_product",
+   "reason": "Bolognese, no row"
+  },
+  {
+   "ean": "7023026061308",
+   "verdict": "unsure",
+   "reason": "Ost og skinkesalat very close numbers, but brand Gronn&Frisk vs Bama"
+  },
+  {
+   "ean": "7023539700671",
+   "verdict": "new_product",
+   "reason": "Hjemmelaget fiskegrateng 420g; our row is Klassisk 500g, different numbers"
+  },
+  {
+   "ean": "7023539700688",
+   "verdict": "new_product",
+   "reason": "900g variant, different numbers"
+  },
+  {
+   "ean": "7023539701142",
+   "verdict": "unsure",
+   "reason": "500g Fiskegrateng matches size of our Klassisk row but numbers differ a lot"
+  },
+  {
+   "ean": "7023539705010",
+   "verdict": "new_product",
+   "reason": "Gluten-free variant"
+  },
+  {
+   "ean": "7035620014161",
+   "verdict": "new_product",
+   "reason": "Fersk & Ferdig Carbonara, no matching row"
+  },
+  {
+   "ean": "7035620018558",
+   "verdict": "new_product",
+   "reason": "Medisterkaker with surkal and potato meal, different from plain Medisterkaker"
+  },
+  {
+   "ean": "7035620040955",
+   "verdict": "new_product",
+   "reason": "430g Chili con carne, our Fersk og Ferdig row is 480g with different numbers"
+  },
+  {
+   "ean": "7035620046193",
+   "verdict": "new_product",
+   "reason": "Fersk & Ferdig Pasta&Skinke, no match"
+  },
+  {
+   "ean": "7035620066573",
+   "verdict": "new_product",
+   "reason": "Elgkarbonader with potato mash meal, different from our row"
+  },
+  {
+   "ean": "7039771000097",
+   "verdict": "new_product",
+   "reason": "Fiskekaker with milk probably; our row is uten melk"
+  },
+  {
+   "ean": "7041614024696",
+   "verdict": "unsure",
+   "reason": "Bakehuset Sjokoladekake portion cake; may be same as our generic row but unclear"
+  },
+  {
+   "ean": "7041614025822",
+   "verdict": "new_product",
+   "reason": "Pulled Pork Julekrydret wrap, no row"
+  },
+  {
+   "ean": "7043570001056",
+   "verdict": "unsure",
+   "reason": "Kanda Wienertoast, probably original but carbs differ much (24 vs 34)"
+  },
+  {
+   "ean": "7043570009236",
+   "verdict": "unsure",
+   "reason": "Kanda Wienertoast, probably original but carbs differ much"
+  },
+  {
+   "ean": "7043570039264",
+   "verdict": "new_product",
+   "reason": "Gluten-free variant"
+  },
+  {
+   "ean": "7044710030769",
+   "verdict": "new_product",
+   "reason": "Hoff with spices, different variant"
+  },
+  {
+   "ean": "7044711300564",
+   "verdict": "new_product",
+   "reason": "Spra kubber variant"
+  },
+  {
+   "ean": "7044711300755",
+   "verdict": "new_product",
+   "reason": "2.7% fat variant"
+  },
+  {
+   "ean": "7044711300762",
+   "verdict": "new_product",
+   "reason": "Spra kubber 300g variant"
+  },
+  {
+   "ean": "7044711300823",
+   "verdict": "new_product",
+   "reason": "Ekstra spra variant"
+  },
+  {
+   "ean": "7044711301004",
+   "verdict": "new_product",
+   "reason": "Airfryer strips variant"
+  },
+  {
+   "ean": "7044711320258",
+   "verdict": "new_product",
+   "reason": "For dipping variant"
+  },
+  {
+   "ean": "7055330034150",
+   "verdict": "new_product",
+   "reason": "435g Pasta Bolognese, different from Matborsen rows"
+  },
+  {
+   "ean": "7055330035812",
+   "verdict": "new_product",
+   "reason": "Fersk&Ferdig 1kg, different from Matborsen row"
+  },
+  {
+   "ean": "7090053790211",
+   "verdict": "new_product",
+   "reason": "Saritas Tikka Masala meal, no match"
+  },
+  {
+   "ean": "7090062490324",
+   "verdict": "new_product",
+   "reason": "Gift pack, no match"
+  },
+  {
+   "ean": "7310960713654",
+   "verdict": "new_product",
+   "reason": "Original, our row is Pepperoni"
+  },
+  {
+   "ean": "7331217013723",
+   "verdict": "new_product",
+   "reason": "Sweet Potato&Chipotle; our row is Broccoli"
+  },
+  {
+   "ean": "7331217013730",
+   "verdict": "new_product",
+   "reason": "Black Bean flavour, no such row"
+  },
+  {
+   "ean": "7331217013914",
+   "verdict": "new_product",
+   "reason": "Original falafel; ours is Brokkoli"
+  },
+  {
+   "ean": "7331217013921",
+   "verdict": "new_product",
+   "reason": "Sweet potato falafel; ours is Brokkoli"
+  },
+  {
+   "ean": "7331217013938",
+   "verdict": "new_product",
+   "reason": "Rodbete falafel; ours is Brokkoli"
+  },
+  {
+   "ean": "8001665128773",
+   "verdict": "new_product",
+   "reason": "Rana steinsopp ravioli; ours is Oluf Lorentzen"
+  },
+  {
+   "ean": "8001665128797",
+   "verdict": "new_product",
+   "reason": "Rana mozzarella ravioli; different brand/flavour"
+  },
+  {
+   "ean": "8001665704656",
+   "verdict": "new_product",
+   "reason": "Rana parmigiano ravioli; different brand/flavour"
+  },
+  {
+   "ean": "8410076474810",
+   "verdict": "new_product",
+   "reason": "Gluten-free Old El Paso tortilla; ours are chips"
+  },
+  {
+   "ean": "0011210002500",
+   "verdict": "new_product",
+   "reason": "Buffalo style 148ml; not in our rows"
+  },
+  {
+   "ean": "0011210006508",
+   "verdict": "update_row",
+   "row_id": "ean:0011210633643",
+   "reason": "Tabasco Habanero, 59 vs 60 ml, same product; kcal/carbs/protein/salt match"
+  },
+  {
+   "ean": "0011210009431",
+   "verdict": "new_product",
+   "reason": "Jalapeno Tabasco not in our rows"
+  },
+  {
+   "ean": "0011210692008",
+   "verdict": "new_product",
+   "reason": "Buffalo 256ml variant not in our rows"
+  },
+  {
+   "ean": "0011210693005",
+   "verdict": "new_product",
+   "reason": "Salsa Picante not in our rows"
+  },
+  {
+   "ean": "0041321006029",
+   "verdict": "new_product",
+   "reason": "Wishbone blue cheese dressing; our row is unrelated chips"
+  },
+  {
+   "ean": "7023026098847",
+   "verdict": "unsure",
+   "reason": "Bama dressing rows have no flavour in name; cannot tell which is Fresh&Creamy"
+  },
+  {
+   "ean": "7034280003003",
+   "verdict": "new_product",
+   "reason": "Peppes pizza base, different brand from Synnove rows"
+  },
+  {
+   "ean": "7036110009018",
+   "verdict": "new_product",
+   "reason": "Hvitlok flavour; ours is Paprika"
+  },
+  {
+   "ean": "7036110012070",
+   "verdict": "new_product",
+   "reason": "Vegan potato salad, no such row"
+  },
+  {
+   "ean": "7037610224376",
+   "verdict": "new_product",
+   "reason": "Saritas tikka masala, different brand and numbers"
+  },
+  {
+   "ean": "7045617010120",
+   "verdict": "new_product",
+   "reason": "Grimstad god gammeldags agurk; ours is unbranded sliced"
+  },
+  {
+   "ean": "7045617010229",
+   "verdict": "new_product",
+   "reason": "Grimstad rodbeter; ours unbranded sliced"
+  },
+  {
+   "ean": "7331217012863",
+   "verdict": "new_product",
+   "reason": "Gronn Ert hummus flavour not in our rows"
+  },
+  {
+   "ean": "8585002438027",
+   "verdict": "unsure",
+   "reason": "Maggi/Nestle klar gronnsaksbuljong; ours may be diluted values, unclear"
+  },
+  {
+   "ean": "0000023021586",
+   "verdict": "new_product",
+   "reason": "Lett 17% with skorpe; ours is 16%"
+  },
+  {
+   "ean": "0000020515159",
+   "verdict": "unsure",
+   "reason": "Toma torrsaltet bacon; our rows have no brand"
+  },
+  {
+   "ean": "0000023656786",
+   "verdict": "new_product",
+   "reason": "Folkets sylte; ours are other brands or whole"
+  },
+  {
+   "ean": "0000023679472",
+   "verdict": "update_row",
+   "row_id": "ean:2367947201081",
+   "reason": "Same in-store PLU prefix 23679472, same fat/protein"
+  },
+  {
+   "ean": "0000023733280",
+   "verdict": "update_row",
+   "row_id": "norgesgruppen:23733240",
+   "reason": "Holte gard andelever, same product and numbers"
+  },
+  {
+   "ean": "0000023792017",
+   "verdict": "update_row",
+   "row_id": "ean:2379201700001",
+   "reason": "Aron Mat torrsaltet bacon, same fat/protein/salt, same PLU prefix"
+  },
+  {
+   "ean": "0000023850115",
+   "verdict": "update_row",
+   "row_id": "ean:2385011500007",
+   "reason": "Same PLU prefix 23850115, same fat and protein"
+  },
+  {
+   "ean": "0000023900100",
+   "verdict": "unsure",
+   "reason": "Fanitullen fenalar vs generic Norgesgruppen fenalar, brand unclear"
+  },
+  {
+   "ean": "7020915221300",
+   "verdict": "unsure",
+   "reason": "Jader gardsskinke vs generic 9cm row, cannot confirm"
+  },
+  {
+   "ean": "7025050019751",
+   "verdict": "unsure",
+   "reason": "Finsbraten kyllingfilet spicy 90g vs 130g row, different numbers, may be variant"
+  },
+  {
+   "ean": "7025050019874",
+   "verdict": "unsure",
+   "reason": "Finsbraten kyllingfilet spicy skivet vs 130g row, numbers differ much"
+  },
+  {
+   "ean": "7025050022751",
+   "verdict": "unsure",
+   "reason": "Handlaget krydderskinke vs our krydderskinke, numbers differ a lot"
+  },
+  {
+   "ean": "7025050023185",
+   "verdict": "unsure",
+   "reason": "Ekte kokt skinke names match but numbers differ"
+  },
+  {
+   "ean": "7035620000744",
+   "verdict": "unsure",
+   "reason": "No brand, no matching salami row"
+  },
+  {
+   "ean": "7035620023200",
+   "verdict": "new_product",
+   "reason": "Folkets julepostei; our rows are other brands"
+  },
+  {
+   "ean": "7035620059445",
+   "verdict": "new_product",
+   "reason": "Folkets bayonneskinke; our rows are other brands"
+  },
+  {
+   "ean": "7036110008592",
+   "verdict": "unsure",
+   "reason": "Delikat julesild vs two Mills julesild rows, cannot pick"
+  },
+  {
+   "ean": "7038010062285",
+   "verdict": "new_product",
+   "reason": "Lett meierismor; ours are regular and lactose-free"
+  },
+  {
+   "ean": "7049423952346",
+   "verdict": "new_product",
+   "reason": "Tosse store havregryn; ours is Holli Molle"
+  },
+  {
+   "ean": "7072615004523",
+   "verdict": "update_row",
+   "row_id": "ean:7072615009498",
+   "reason": "Strom-Larsen torshovskinke bakerokt, same name and similar numbers"
+  },
+  {
+   "ean": "7072615004547",
+   "verdict": "new_product",
+   "reason": "Plain torshovskinke; ours is bakerokt"
+  },
+  {
+   "ean": "7090040910059",
+   "verdict": "update_row",
+   "row_id": "ean:7090040910646",
+   "reason": "Ask Gard slegge salami, same product, protein/carbs match"
+  },
+  {
+   "ean": "7090040910349",
+   "verdict": "new_product",
+   "reason": "Organic sliced variant"
+  },
+  {
+   "ean": "7090040910356",
+   "verdict": "new_product",
+   "reason": "Organic passe salami variant"
+  },
+  {
+   "ean": "7090040912886",
+   "verdict": "update_row",
+   "row_id": "ean:7090040910639",
+   "reason": "Ask Gard passe salami, fat and protein match"
+  },
+  {
+   "ean": "7090042651271",
+   "verdict": "update_row",
+   "row_id": "ean:7090042651219",
+   "reason": "Sommerhonning Honning As, same values (our protein/salt swapped)"
+  },
+  {
+   "ean": "7090072722361",
+   "verdict": "new_product",
+   "reason": "Fiocco spekeskinke; ours is Bjerke"
+  },
+  {
+   "ean": "7350028546015",
+   "verdict": "new_product",
+   "reason": "Chia & Havsalt is another flavour than Friggs Taco"
+  },
+  {
+   "ean": "7611612212151",
+   "verdict": "unsure",
+   "reason": "Choco Brownie flavour; generic Powerking Proteinbar row has no flavour"
+  },
+  {
+   "ean": "7611612212274",
+   "verdict": "new_product",
+   "reason": "Pistachio bar, no match"
+  },
+  {
+   "ean": "8710398505996",
+   "verdict": "new_product",
+   "reason": "Quaker, not Orkla"
+  },
+  {
+   "ean": "4001686306956",
+   "verdict": "unsure",
+   "reason": "Halloween 250g vs Halloween Mix 500g, different numbers"
+  },
+  {
+   "ean": "5701090043933",
+   "verdict": "unsure",
+   "reason": "Nappar Lakris 80g vs Stora Nappar, unclear"
+  },
+  {
+   "ean": "5701090075293",
+   "verdict": "unsure",
+   "reason": "Skum vs Skum-sur, pack 120g both; variant unclear"
+  },
+  {
+   "ean": "5701090076634",
+   "verdict": "unsure",
+   "reason": "Several Nappar rows, none clearly the Lakris 120g"
+  },
+  {
+   "ean": "5701090080532",
+   "verdict": "new_product",
+   "reason": "Sour 200g, row is Party Box 1kg"
+  },
+  {
+   "ean": "7037710021844",
+   "verdict": "new_product",
+   "reason": "Brownie Heaven vs Salty Caramel"
+  },
+  {
+   "ean": "7039317005524",
+   "verdict": "unsure",
+   "reason": "Plain Cheez Doodles, numbers vary by pack; generic row"
+  },
+  {
+   "ean": "7041111063419",
+   "verdict": "unsure",
+   "reason": "Lakrisbåter 425g vs 200g row, numbers differ"
+  },
+  {
+   "ean": "7041111139671",
+   "verdict": "new_product",
+   "reason": "Salt&Pepper vs Sour Cream & Onion"
+  },
+  {
+   "ean": "7041111145597",
+   "verdict": "new_product",
+   "reason": "Sugar-free Stupedama, different numbers"
+  },
+  {
+   "ean": "7041111155480",
+   "verdict": "new_product",
+   "reason": "Smågodt variant, not sur or plain Supermix"
+  },
+  {
+   "ean": "7041111155695",
+   "verdict": "unsure",
+   "reason": "Spesial Nøtter 50g, variant unclear"
+  },
+  {
+   "ean": "7041111160347",
+   "verdict": "update_row",
+   "row_id": "ean:7041112129237",
+   "reason": "Spesial Nøtter u/Salt, same product, newer numbers"
+  },
+  {
+   "ean": "7044772171578",
+   "verdict": "update_row",
+   "row_id": "ean:7044771213804",
+   "reason": "Marshmallows Bbq 250g Sweetfire, same product"
+  },
+  {
+   "ean": "7072889000313",
+   "verdict": "new_product",
+   "reason": "Sour Cream & Onion flavour"
+  },
+  {
+   "ean": "7310350119486",
+   "verdict": "new_product",
+   "reason": "Strawberry Lime vs Raspberry"
+  },
+  {
+   "ean": "7310350119868",
+   "verdict": "new_product",
+   "reason": "Supersalt variant"
+  },
+  {
+   "ean": "7310350130634",
+   "verdict": "new_product",
+   "reason": "Original 30% variant"
+  },
+  {
+   "ean": "7310350130719",
+   "verdict": "new_product",
+   "reason": "Supersur variant"
+  },
+  {
+   "ean": "7310350131020",
+   "verdict": "new_product",
+   "reason": "Original 220g variant"
+  },
+  {
+   "ean": "7310350133932",
+   "verdict": "new_product",
+   "reason": "Favoritt Mix variant"
+  },
+  {
+   "ean": "7310350135806",
+   "verdict": "new_product",
+   "reason": "Choco Juleskum, different from plain"
+  },
+  {
+   "ean": "7310350504527",
+   "verdict": "new_product",
+   "reason": "Juicy Giants variant"
+  },
+  {
+   "ean": "7331755061019",
+   "verdict": "new_product",
+   "reason": "All In One popcorn, no match"
+  },
+  {
+   "ean": "7340005405800",
+   "verdict": "new_product",
+   "reason": "Super Jalapeño variant"
+  },
+  {
+   "ean": "7340005406227",
+   "verdict": "unsure",
+   "reason": "Plain Cheez Doodles 285g, generic row"
+  },
+  {
+   "ean": "7340005407323",
+   "verdict": "unsure",
+   "reason": "Plain Cheez Doodles 75g, generic row"
+  },
+  {
+   "ean": "8000500247167",
+   "verdict": "new_product",
+   "reason": "Collection T24 box, different numbers"
+  },
+  {
+   "ean": "8000500359488",
+   "verdict": "new_product",
+   "reason": "Milk chocolate tablet"
+  },
+  {
+   "ean": "8000500359884",
+   "verdict": "new_product",
+   "reason": "White chocolate tablet"
+  },
+  {
+   "ean": "8000500435359",
+   "verdict": "unsure",
+   "reason": "Grand Jul vs Grand Rocher 125g, may be seasonal variant"
+  },
+  {
+   "ean": "8000500447833",
+   "verdict": "new_product",
+   "reason": "Macadamia tablet"
+  },
+  {
+   "ean": "8000500447895",
+   "verdict": "new_product",
+   "reason": "Dark tablet"
+  },
+  {
+   "ean": "8712767501400",
+   "verdict": "new_product",
+   "reason": "Plain marshmallows, row is Bbq"
+  },
+  {
+   "ean": "8717677336654",
+   "verdict": "new_product",
+   "reason": "Karamell, row is Almond Honey Nougat"
+  },
+  {
+   "ean": "8717677337316",
+   "verdict": "new_product",
+   "reason": "Salt Karamell, row is Almond Honey Nougat"
+  },
+  {
+   "ean": "7071864016806",
+   "verdict": "unsure",
+   "reason": "Aunt Mabels vs Baxt brand, similar numbers"
+  },
+  {
+   "ean": "7041614009518",
+   "verdict": "update_row",
+   "row_id": "ean:7041614003998",
+   "reason": "Bakehuset Oreokake 635g, same product"
+  },
+  {
+   "ean": "7041614010231",
+   "verdict": "unsure",
+   "reason": "Sesam brioche 4pk vs Mini Brioche"
+  },
+  {
+   "ean": "7041614021732",
+   "verdict": "unsure",
+   "reason": "Sjokoladekake 8 biter vs generic Bakehuset row"
+  },
+  {
+   "ean": "7041850021107",
+   "verdict": "update_row",
+   "row_id": "ean:7041851551108",
+   "reason": "Frosta Frostalompa, same product"
+  },
+  {
+   "ean": "7311070008463",
+   "verdict": "update_row",
+   "row_id": "ean:2374070008463",
+   "reason": "Pågen Jättefranska, same product"
+  },
+  {
+   "ean": "0000023752114",
+   "verdict": "update_row",
+   "row_id": "norgesgruppen:23752007",
+   "reason": "Vega Lutefisk 1kg, same product"
+  },
+  {
+   "ean": "7033352706712",
+   "verdict": "new_product",
+   "reason": "Teinefanget Sjøkreps, different brand from Lerøy"
+  },
+  {
+   "ean": "0000023561702",
+   "verdict": "unsure",
+   "reason": "Lettsaltet variant vs plain Kuraas Lammekjøtt, numbers differ"
+  },
+  {
+   "ean": "0000023602611",
+   "verdict": "update_row",
+   "row_id": "norgesgruppen:23602653",
+   "reason": "Ringdal Fårikålkjøtt, same product"
+  },
+  {
+   "ean": "0000023602901",
+   "verdict": "unsure",
+   "reason": "Label is surret (cured) beef roast; our Ringdal Oksesteik is 2 kg with different numbers. Cannot tell if same product."
+  },
+  {
+   "ean": "0000023656351",
+   "verdict": "new_product",
+   "reason": "Lettrøkt juleskinke from Folkets; none of our rows has that brand or variant."
+  },
+  {
+   "ean": "0000023602684",
+   "verdict": "new_product",
+   "reason": "Sliced bacon; ours is bacon diced (terninger), different product and numbers."
+  },
+  {
+   "ean": "7032890009460",
+   "verdict": "new_product",
+   "reason": "Ringdal kjøttdeig with 1.1 g salt; ours is a variant without salt and water (salt 0)."
+  },
+  {
+   "ean": "7032890009491",
+   "verdict": "new_product",
+   "reason": "Ringdal kjøttdeig with 1.1 g salt; ours is a variant without salt and water (salt 0)."
+  },
+  {
+   "ean": "0000023896941",
+   "verdict": "new_product",
+   "reason": "Lapskaus with kjøttdeig from Gange Rolv; ours is Utsira (Toma mat), a different brand."
+  },
+  {
+   "ean": "7039770000111",
+   "verdict": "new_product",
+   "reason": "Rørvik fiskekaker 680 g, regular; ours is the 'uten Melk' 400 g variant with salt 0.79 vs 1.8."
+  },
+  {
+   "ean": "7310960024415",
+   "verdict": "new_product",
+   "reason": "Billys Pan Pizza Original; ours is Pepperoni."
+  },
+  {
+   "ean": "7310960027232",
+   "verdict": "new_product",
+   "reason": "Billys Pan Pizza Chili Cheese; ours is Pepperoni."
+  },
+  {
+   "ean": "7090042235280",
+   "verdict": "new_product",
+   "reason": "Baltika surkål 1 kg; ours is Baza 850 g with very different numbers."
+  },
+  {
+   "ean": "7041614010880",
+   "verdict": "update_row",
+   "row_id": "ean:7041611058649",
+   "reason": "Bakehuset Smultring, same brand, product and 34 g size; label numbers are newer."
+  },
+  {
+   "ean": "7041614010972",
+   "verdict": "update_row",
+   "row_id": "openfoodfacts:06097331",
+   "reason": "Bakehuset donut with jordbærfyll, 71 g, same flavour and size; numbers are very close."
+  },
+  {
+   "ean": "7035660008243",
+   "verdict": "unsure",
+   "reason": "Label has no brand and is 500 g; ours is Nøtterø bakeri 600 g with very different numbers."
+  }
+ ],
+ "held": [
+  {
+   "ean": "7038010028434",
+   "verdict": "update_row",
+   "row_id": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-fl%C3%B8temysost",
+   "reason": "Fløtemysost 26% fat, numbers close",
+   "why": "our row is from the brand's own site or a food table; the shop label differs: a person decides",
+   "row": {
+    "id": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-fl%C3%B8temysost",
+    "name": "Tine Fløtemysost 26%",
+    "brand": "Tine",
+    "pack_size": "130 g, 500 g, 560 g, 1 kg",
+    "kcal": 430.0,
+    "protein_g": 11.0,
+    "fat_g": 26.0,
+    "carbs_g": 38.0,
+    "sugars_g": 33.0,
+    "salt_g": 0.88,
+    "source": "tine",
+    "verified": 1
+   },
+   "label": {
+    "kcal": 433.0,
+    "fat_g": 26.0,
+    "sat_fat_g": 18.0,
+    "carbs_g": 36.0,
+    "sugars_g": 32.0,
+    "protein_g": 11.0,
+    "salt_g": 0.9
+   }
+  },
+  {
+   "ean": "7038010029646",
+   "verdict": "update_row",
+   "row_id": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-fl%C3%B8temysost",
+   "reason": "Sliced Fløtemysost 26%, same product, pack 130 g listed",
+   "why": "our row is from the brand's own site or a food table; the shop label differs: a person decides",
+   "row": {
+    "id": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-fl%C3%B8temysost",
+    "name": "Tine Fløtemysost 26%",
+    "brand": "Tine",
+    "pack_size": "130 g, 500 g, 560 g, 1 kg",
+    "kcal": 430.0,
+    "protein_g": 11.0,
+    "fat_g": 26.0,
+    "carbs_g": 38.0,
+    "sugars_g": 33.0,
+    "salt_g": 0.88,
+    "source": "tine",
+    "verified": 1
+   },
+   "label": {
+    "kcal": 433.0,
+    "fat_g": 26.0,
+    "sat_fat_g": 18.0,
+    "carbs_g": 36.0,
+    "sugars_g": 32.0,
+    "protein_g": 11.0,
+    "salt_g": 0.9
+   }
+  },
+  {
+   "ean": "7038010028397",
+   "verdict": "update_row",
+   "row_id": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-gudbrandsdalsost-g35",
+   "reason": "G35 is the 28% Gudbrandsdalsost, 500 g listed",
+   "why": "our row is from the brand's own site or a food table; the shop label differs: a person decides",
+   "row": {
+    "id": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-gudbrandsdalsost-g35",
+    "name": "Tine Gudbrandsdalsost 28%",
+    "brand": "Tine",
+    "pack_size": "130 g, 250 g, 500 g, 560 g, 750 g, 1 kg",
+    "kcal": 440.0,
+    "protein_g": 10.0,
+    "fat_g": 28.0,
+    "carbs_g": 37.0,
+    "sugars_g": 31.0,
+    "salt_g": 0.72,
+    "source": "tine",
+    "verified": 1
+   },
+   "label": {
+    "kcal": 441.0,
+    "fat_g": 28.0,
+    "sat_fat_g": 19.0,
+    "carbs_g": 35.0,
+    "sugars_g": 30.0,
+    "protein_g": 10.0,
+    "salt_g": 0.7
+   }
+  },
+  {
+   "ean": "7038010029530",
+   "verdict": "update_row",
+   "row_id": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-gudbrandsdalsost-g35",
+   "reason": "Sliced G35 = Gudbrandsdalsost 28%, 130 g listed",
+   "why": "our row is from the brand's own site or a food table; the shop label differs: a person decides",
+   "row": {
+    "id": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-gudbrandsdalsost-g35",
+    "name": "Tine Gudbrandsdalsost 28%",
+    "brand": "Tine",
+    "pack_size": "130 g, 250 g, 500 g, 560 g, 750 g, 1 kg",
+    "kcal": 440.0,
+    "protein_g": 10.0,
+    "fat_g": 28.0,
+    "carbs_g": 37.0,
+    "sugars_g": 31.0,
+    "salt_g": 0.72,
+    "source": "tine",
+    "verified": 1
+   },
+   "label": {
+    "kcal": 441.0,
+    "fat_g": 28.0,
+    "sat_fat_g": 19.0,
+    "carbs_g": 35.0,
+    "sugars_g": 30.0,
+    "protein_g": 10.0,
+    "salt_g": 0.7
+   }
+  },
+  {
+   "ean": "7034280010872",
+   "verdict": "unsure",
+   "reason": "Same name and size but brand not given on our row and numbers differ a lot",
+   "why": "unsure"
+  },
+  {
+   "ean": "7035620064432",
+   "verdict": "unsure",
+   "reason": "Smoked salmon piece, rows have different numbers and unclear variant",
+   "why": "unsure"
+  },
+  {
+   "ean": "7035620051487",
+   "verdict": "unsure",
+   "reason": "Julesild, row has different numbers and size, recipe may differ",
+   "why": "unsure"
+  },
+  {
+   "ean": "7035620066191",
+   "verdict": "unsure",
+   "reason": "Ginger scampi; row is Unil brand, not Fiskemannen",
+   "why": "unsure"
+  },
+  {
+   "ean": "7035620071911",
+   "verdict": "unsure",
+   "reason": "Fiskekaker 65% 350g; row is 500g with different carbs",
+   "why": "unsure"
+  },
+  {
+   "ean": "7035620039393",
+   "verdict": "unsure",
+   "reason": "Fiskekaker 400g, same name as 500g row but different numbers",
+   "why": "unsure"
+  },
+  {
+   "ean": "7027110215530",
+   "verdict": "update_row",
+   "row_id": "ean:7027110108443",
+   "reason": "Skinnfri makrell in tomato sauce; numbers nearly identical",
+   "why": "row_id not among the candidates"
+  },
+  {
+   "ean": "7027110214847",
+   "verdict": "unsure",
+   "reason": "Skinnless mackerel fillet in tomato 170g; row numbers differ, variant unclear",
+   "why": "unsure"
+  },
+  {
+   "ean": "7027110217985",
+   "verdict": "unsure",
+   "reason": "Chili mackerel 110g; nearby rows differ in size and numbers",
+   "why": "unsure"
+  },
+  {
+   "ean": "7041011277114",
+   "verdict": "update_row",
+   "row_id": "ean:7041011280114",
+   "reason": "Krone-Is Nonstop 145ml, same product",
+   "why": "our row is from the brand's own site or a food table; the shop label differs: a person decides",
+   "row": {
+    "id": "ean:7041011280114",
+    "name": "Krone-Is Nonstop Hennig Olsen",
+    "brand": "Hennig-Olsen",
+    "pack_size": "125 ml, 145 ml",
+    "kcal": 326.0,
+    "protein_g": 4.0,
+    "fat_g": 16.6,
+    "carbs_g": 39.5,
+    "sugars_g": 31.5,
+    "salt_g": 0.19,
+    "source": "hennig-olsen",
+    "verified": 1
+   },
+   "label": {
+    "kcal": 312.0,
+    "fat_g": 15.8,
+    "sat_fat_g": 11.8,
+    "carbs_g": 37.7,
+    "sugars_g": 30.7,
+    "protein_g": 4.0,
+    "salt_g": 0.18
+   }
+  },
+  {
+   "ean": "7041018240005",
+   "verdict": "unsure",
+   "reason": "12-pack Krone-Is Sjokolade; our row is 125 ml single with different numbers (310 vs 305). Cannot confirm same recipe.",
+   "why": "unsure"
+  },
+  {
+   "ean": "7041011200006",
+   "verdict": "unsure",
+   "reason": "Krone-Is Sjokolade 145 ml; numbers differ from our 125 ml row (297 vs 305), size-specific recipe possible.",
+   "why": "unsure"
+  },
+  {
+   "ean": "7037210005016",
+   "verdict": "unsure",
+   "reason": "Diplom-Is Krone-Is chocolate 125 ml; our Diplom row is sparse with other numbers, unclear if same.",
+   "why": "unsure"
+  },
+  {
+   "ean": "7037210008673",
+   "verdict": "unsure",
+   "reason": "Diplom-Is Krone-Is chocolate 6-pack; similar to other Diplom rows but numbers differ and sparse row.",
+   "why": "unsure"
+  },
+  {
+   "ean": "7037210119614",
+   "verdict": "unsure",
+   "reason": "Litago Is chocolate 1.2 l; our Litago Is row has no flavour and different fat (6.2 vs 8.6).",
+   "why": "unsure"
+  },
+  {
+   "ean": "7037210118426",
+   "verdict": "unsure",
+   "reason": "Lollipop Favoritter 1.2 l is close to store row Lollipop Is 1.2 L (118/0.5/29/25 vs 117/0.5/28/25) but flavour mix not confirmed.",
+   "why": "unsure"
+  },
+  {
+   "ean": "7044611874936",
+   "verdict": "update_row",
+   "row_id": "ringnes:https://www.ringnes.no/produkter/ringnes/ringnes-voerteroel/",
+   "reason": "Same Ringnes Vorterol; label numbers near ours (38 kcal) with more accurate carbs and sugar.",
+   "why": "our row is from the brand's own site or a food table; the shop label differs: a person decides",
+   "row": {
+    "id": "ringnes:https://www.ringnes.no/produkter/ringnes/ringnes-voerteroel/",
+    "name": "Ringnes Vørterøl",
+    "brand": "Ringnes",
+    "pack_size": null,
+    "kcal": 38.0,
+    "protein_g": 0.5,
+    "fat_g": 0.0,
+    "carbs_g": 9.7,
+    "sugars_g": 7.0,
+    "salt_g": 0.0,
+    "source": "ringnes",
+    "verified": 1
+   },
+   "label": {
+    "kcal": 38.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 10.0,
+    "sugars_g": 5.8,
+    "fibre_g": 0.0,
+    "protein_g": 0.5,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "7044610874937",
+   "verdict": "update_row",
+   "row_id": "ringnes:https://www.ringnes.no/produkter/ringnes/ringnes-voerteroel/",
+   "reason": "Same Ringnes Vorterol can; identical numbers to the 6-pack label.",
+   "why": "our row is from the brand's own site or a food table; the shop label differs: a person decides",
+   "row": {
+    "id": "ringnes:https://www.ringnes.no/produkter/ringnes/ringnes-voerteroel/",
+    "name": "Ringnes Vørterøl",
+    "brand": "Ringnes",
+    "pack_size": null,
+    "kcal": 38.0,
+    "protein_g": 0.5,
+    "fat_g": 0.0,
+    "carbs_g": 9.7,
+    "sugars_g": 7.0,
+    "salt_g": 0.0,
+    "source": "ringnes",
+    "verified": 1
+   },
+   "label": {
+    "kcal": 38.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 10.0,
+    "sugars_g": 5.8,
+    "fibre_g": 0.0,
+    "protein_g": 0.5,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "7044610806204",
+   "verdict": "unsure",
+   "reason": "Bottle version has different numbers (39 kcal, 9 sugar) than can labels; may be a separate variant.",
+   "why": "unsure"
+  },
+  {
+   "ean": "0000023026618",
+   "verdict": "update_row",
+   "row_id": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-vellagret-m-skorpe",
+   "reason": "Norvegia Vellagret 1 kg matches this row (1 kg pack listed); numbers nearly equal (351 vs 360). Not the Ekstra variant.",
+   "why": "our row is from the brand's own site or a food table; the shop label differs: a person decides",
+   "row": {
+    "id": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-vellagret-m-skorpe",
+    "name": "Norvegia Vellagret 28%",
+    "brand": "Norvegia",
+    "pack_size": "150 g, 540 g, 1 kg",
+    "kcal": 360.0,
+    "protein_g": 27.0,
+    "fat_g": 28.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "salt_g": 1.2,
+    "source": "tine",
+    "verified": 1
+   },
+   "label": {
+    "kcal": 351.0,
+    "fat_g": 27.0,
+    "sat_fat_g": 17.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 27.0,
+    "salt_g": 1.2
+   }
+  },
+  {
+   "ean": "7045386068506",
+   "verdict": "unsure",
+   "reason": "Same brand and name as our row but 14-pack 770 g with different numbers (258 vs 241); may be a different recipe.",
+   "why": "unsure"
+  },
+  {
+   "ean": "7058040657305",
+   "verdict": "unsure",
+   "reason": "Grilstad Chorizo; our same-name row has implausible salt and other numbers, cannot settle.",
+   "why": "unsure"
+  },
+  {
+   "ean": "7058040210500",
+   "verdict": "unsure",
+   "reason": "Grilstad Salami 300 g; our Salami 100 g row has very different numbers.",
+   "why": "unsure"
+  },
+  {
+   "ean": "7058040458506",
+   "verdict": "unsure",
+   "reason": "Bacon variant of Spekepolse hel; our three rows lack variant info and none clearly match",
+   "why": "unsure"
+  },
+  {
+   "ean": "7058040430908",
+   "verdict": "unsure",
+   "reason": "Brand Stranda, our XL row is Grilstad; numbers close but brand and size differ",
+   "why": "unsure"
+  },
+  {
+   "ean": "7023026707237",
+   "verdict": "unsure",
+   "reason": "Label flavour not stated; our row is garlic Krutonger, numbers similar",
+   "why": "unsure"
+  },
+  {
+   "ean": "7315200590835",
+   "verdict": "unsure",
+   "reason": "Caj P BBQ oil garlic vs Haugen-Gruppen garlic and herbs marinade; brand and recipe link unclear",
+   "why": "unsure"
+  },
+  {
+   "ean": "8712566121496",
+   "verdict": "unsure",
+   "reason": "Vegetable fond; our generic Knorr Fond du Chef row has no flavour",
+   "why": "unsure"
+  },
+  {
+   "ean": "8712566246182",
+   "verdict": "unsure",
+   "reason": "Fish fond; our generic Knorr Fond du Chef row has no flavour",
+   "why": "unsure"
+  },
+  {
+   "ean": "7044610876665",
+   "verdict": "unsure",
+   "reason": "Our generic 'Farris Frus' 500 ml has no flavour stated; could be Eple&Kiwi but cannot confirm",
+   "why": "unsure"
+  },
+  {
+   "ean": "0076840600021",
+   "verdict": "unsure",
+   "reason": "Our Ben&Jerry's rows have no flavour in the name; cannot tell which is Cookie Dough",
+   "why": "unsure"
+  },
+  {
+   "ean": "6416453041288",
+   "verdict": "unsure",
+   "reason": "Our Fazer Palle Kuling has no variant; Fruit Coins may be the same but numbers differ",
+   "why": "unsure"
+  },
+  {
+   "ean": "7037421053264",
+   "verdict": "unsure",
+   "reason": "Berthas Sjokoflarn Doble 300g vs Baxt Doble Sjokoflarn 360g; brand relation and recipe differ, numbers far apart",
+   "why": "unsure"
+  },
+  {
+   "ean": "7037421062365",
+   "verdict": "unsure",
+   "reason": "Berthas Sjokoladekake 360g vs Baxt Sjokoladekake with no size; numbers close but brand and size unclear",
+   "why": "unsure"
+  },
+  {
+   "ean": "7037421091402",
+   "verdict": "unsure",
+   "reason": "Berthas Doble Sjokoflarn 380g vs Baxt Doble Sjokoflarn 360g; close numbers but different pack and brand name",
+   "why": "unsure"
+  },
+  {
+   "ean": "7037421097565",
+   "verdict": "unsure",
+   "reason": "Berthas Pepperkaker 300g; our Baxt Pepperkaker has different numbers and no size",
+   "why": "unsure"
+  },
+  {
+   "ean": "7041614005657",
+   "verdict": "unsure",
+   "reason": "Brand Bakerens vs Bakehuset and twisted variant; likely same range but not clear",
+   "why": "unsure"
+  },
+  {
+   "ean": "7041614006135",
+   "verdict": "unsure",
+   "reason": "Bergensk skillingsbolle may be a variant of our plain Skillingsbolle; numbers differ",
+   "why": "unsure"
+  },
+  {
+   "ean": "7041614008122",
+   "verdict": "unsure",
+   "reason": "Same name Formloff but fat 3.9 vs 1.5 and no brand on our row",
+   "why": "unsure"
+  },
+  {
+   "ean": "7041614010538",
+   "verdict": "unsure",
+   "reason": "Cheesecake 8 pieces; our row is generic frozen cheesecake with no brand",
+   "why": "unsure"
+  },
+  {
+   "ean": "7041614020414",
+   "verdict": "unsure",
+   "reason": "God Sondag baked-together grovbrod may be a variant of our Bakehuset Grovbrod 750 g",
+   "why": "unsure"
+  },
+  {
+   "ean": "7071848103225",
+   "verdict": "unsure",
+   "reason": "Brioche Gourmet 500 g vs our 600 g, numbers differ",
+   "why": "unsure"
+  },
+  {
+   "ean": "7036230001275",
+   "verdict": "unsure",
+   "reason": "Holmsens burnt almonds 400 g vs our 100 g row; label carbs look odd",
+   "why": "unsure"
+  },
+  {
+   "ean": "7090008302018",
+   "verdict": "unsure",
+   "reason": "Liquorice 0.5 l vs our 4.5 l liquorice row, numbers close but size and salt differ",
+   "why": "unsure"
+  },
+  {
+   "ean": "7090008302117",
+   "verdict": "unsure",
+   "reason": "Coffee mocha 0.5 l vs our 4.5 l row, numbers differ",
+   "why": "unsure"
+  },
+  {
+   "ean": "7030019527482",
+   "verdict": "unsure",
+   "reason": "Hansa Julebrus Lett exists but row has no pack size and several Lett EANs share these numbers",
+   "why": "unsure"
+  },
+  {
+   "ean": "7030019534619",
+   "verdict": "unsure",
+   "reason": "Lett can, row has no pack size, numbers differ (rounded 0.5 values)",
+   "why": "unsure"
+  },
+  {
+   "ean": "7030019534626",
+   "verdict": "unsure",
+   "reason": "Lett 6pk of cans, same ambiguity",
+   "why": "unsure"
+  },
+  {
+   "ean": "7030019537030",
+   "verdict": "unsure",
+   "reason": "Lett 0.33 bottle; row Hansa Julebrus Lett has no pack size, numbers close but several EANs compete",
+   "why": "unsure"
+  },
+  {
+   "ean": "7030019543208",
+   "verdict": "unsure",
+   "reason": "Lett Sleek can; matches Lett row only if same item, pack unknown",
+   "why": "unsure"
+  },
+  {
+   "ean": "7030019543215",
+   "verdict": "unsure",
+   "reason": "Lett Sleek can 10pk, same ambiguity",
+   "why": "unsure"
+  },
+  {
+   "ean": "7030019545394",
+   "verdict": "unsure",
+   "reason": "Lett bottle 4pk, same ambiguity",
+   "why": "unsure"
+  },
+  {
+   "ean": "7033050318309",
+   "verdict": "unsure",
+   "reason": "Aass uten juleøl 6pk; same product as row but pack barcode, single bottle EAN is better match",
+   "why": "unsure"
+  },
+  {
+   "ean": "7033050718314",
+   "verdict": "unsure",
+   "reason": "Plain Aass uten; could be lys lager row or juleøl row",
+   "why": "unsure"
+  },
+  {
+   "ean": "7038010069703",
+   "verdict": "unsure",
+   "reason": "Sunniva Tropisk Juice vs Tine Tropisk Juice 1 L, brand and size differ",
+   "why": "unsure"
+  },
+  {
+   "ean": "7070841003150",
+   "verdict": "unsure",
+   "reason": "Same Lerum solbærsirup but 51 kcal vs our 306 (concentrate vs diluted?), cannot settle",
+   "why": "unsure"
+  },
+  {
+   "ean": "7070841003280",
+   "verdict": "unsure",
+   "reason": "Same Lerum solbærsirup 1,5l but 51 vs our 306 kcal, cannot settle",
+   "why": "unsure"
+  },
+  {
+   "ean": "7073185000915",
+   "verdict": "unsure",
+   "reason": "Same name and brand but 35 vs 48 kcal, our row has no pack size or sugar info",
+   "why": "unsure"
+  },
+  {
+   "ean": "7073185001240",
+   "verdict": "unsure",
+   "reason": "Same name and brand but 35 vs 48 kcal, 4-pack; cannot settle",
+   "why": "unsure"
+  },
+  {
+   "ean": "0090478410043",
+   "verdict": "unsure",
+   "reason": "Jarritos Pineapple but brand differs (Paafyll) and 47 vs 38 kcal",
+   "why": "unsure"
+  },
+  {
+   "ean": "0000020873259",
+   "verdict": "unsure",
+   "reason": "Skakkelaks same brand, but 'i bit' cut and numbers differ (228 vs 243 kcal); variant unclear",
+   "why": "unsure"
+  },
+  {
+   "ean": "0000023281149",
+   "verdict": "unsure",
+   "reason": "Mydland pinnekjott kuttet vs av lammebog row; numbers differ a lot.",
+   "why": "unsure"
+  },
+  {
+   "ean": "0000023288171",
+   "verdict": "unsure",
+   "reason": "Mydland spareribs Black Pepper vs Marinert Forkokt row; numbers close but flavour not confirmed.",
+   "why": "unsure"
+  },
+  {
+   "ean": "0000023561851",
+   "verdict": "unsure",
+   "reason": "Kuraas kokt rokt juleskinke vs our sukkersaltet rokt row; variant unclear.",
+   "why": "unsure"
+  },
+  {
+   "ean": "0000023561867",
+   "verdict": "unsure",
+   "reason": "Kuraas ra sukkersaltet vs our rokt sukkersaltet row; ra vs rokt differ.",
+   "why": "unsure"
+  },
+  {
+   "ean": "5707196172157",
+   "verdict": "unsure",
+   "reason": "Tulip Taco 500g vs our Taco 525g row; numbers differ, maybe different recipe.",
+   "why": "unsure"
+  },
+  {
+   "ean": "7072350072535",
+   "verdict": "unsure",
+   "reason": "Mydland kjottdeig 400g vs storfe og svin row; type not stated.",
+   "why": "unsure"
+  },
+  {
+   "ean": "0000023504005",
+   "verdict": "unsure",
+   "reason": "Lerstang kyllingconfit vs Garsand row; brand differs.",
+   "why": "unsure"
+  },
+  {
+   "ean": "0000023733260",
+   "verdict": "unsure",
+   "reason": "Holte andebryst frys vs our Holte andebryst row; numbers differ a lot.",
+   "why": "unsure"
+  },
+  {
+   "ean": "0000023853741",
+   "verdict": "unsure",
+   "reason": "Garsand plain andebryst frys vs generic row; numbers differ.",
+   "why": "unsure"
+  },
+  {
+   "ean": "0000023877049",
+   "verdict": "unsure",
+   "reason": "Lerstang kyllingconfit vs Garsand row; brand differs.",
+   "why": "unsure"
+  },
+  {
+   "ean": "0000023877053",
+   "verdict": "unsure",
+   "reason": "Garsand plain andebryst vs generic row; numbers differ.",
+   "why": "unsure"
+  },
+  {
+   "ean": "5707196355420",
+   "verdict": "unsure",
+   "reason": "Tulip Pulled Chicken 300g vs 400g row; numbers differ.",
+   "why": "unsure"
+  },
+  {
+   "ean": "7072821001927",
+   "verdict": "unsure",
+   "reason": "Eng Fugl frozen kyllingfilet; rows are unspecified variants with different numbers.",
+   "why": "unsure"
+  },
+  {
+   "ean": "4001724038962",
+   "verdict": "unsure",
+   "reason": "Prosciutto 340g; our prosciutto row is a 680g pack with slightly different numbers",
+   "why": "unsure"
+  },
+  {
+   "ean": "4001724039204",
+   "verdict": "unsure",
+   "reason": "Pepperoni-Salame 320g; our row is 640g pack with different numbers",
+   "why": "unsure"
+  },
+  {
+   "ean": "4001724820208",
+   "verdict": "unsure",
+   "reason": "Pepperoni/Salame 320g; possible duplicate variant of another label, numbers differ from our row",
+   "why": "unsure"
+  },
+  {
+   "ean": "7023026061308",
+   "verdict": "unsure",
+   "reason": "Ost og skinkesalat very close numbers, but brand Gronn&Frisk vs Bama",
+   "why": "unsure"
+  },
+  {
+   "ean": "7023539701142",
+   "verdict": "unsure",
+   "reason": "500g Fiskegrateng matches size of our Klassisk row but numbers differ a lot",
+   "why": "unsure"
+  },
+  {
+   "ean": "7041614024696",
+   "verdict": "unsure",
+   "reason": "Bakehuset Sjokoladekake portion cake; may be same as our generic row but unclear",
+   "why": "unsure"
+  },
+  {
+   "ean": "7043570001056",
+   "verdict": "unsure",
+   "reason": "Kanda Wienertoast, probably original but carbs differ much (24 vs 34)",
+   "why": "unsure"
+  },
+  {
+   "ean": "7043570009236",
+   "verdict": "unsure",
+   "reason": "Kanda Wienertoast, probably original but carbs differ much",
+   "why": "unsure"
+  },
+  {
+   "ean": "7023026098847",
+   "verdict": "unsure",
+   "reason": "Bama dressing rows have no flavour in name; cannot tell which is Fresh&Creamy",
+   "why": "unsure"
+  },
+  {
+   "ean": "8585002438027",
+   "verdict": "unsure",
+   "reason": "Maggi/Nestle klar gronnsaksbuljong; ours may be diluted values, unclear",
+   "why": "unsure"
+  },
+  {
+   "ean": "0000020515159",
+   "verdict": "unsure",
+   "reason": "Toma torrsaltet bacon; our rows have no brand",
+   "why": "unsure"
+  },
+  {
+   "ean": "0000023900100",
+   "verdict": "unsure",
+   "reason": "Fanitullen fenalar vs generic Norgesgruppen fenalar, brand unclear",
+   "why": "unsure"
+  },
+  {
+   "ean": "7020915221300",
+   "verdict": "unsure",
+   "reason": "Jader gardsskinke vs generic 9cm row, cannot confirm",
+   "why": "unsure"
+  },
+  {
+   "ean": "7025050019751",
+   "verdict": "unsure",
+   "reason": "Finsbraten kyllingfilet spicy 90g vs 130g row, different numbers, may be variant",
+   "why": "unsure"
+  },
+  {
+   "ean": "7025050019874",
+   "verdict": "unsure",
+   "reason": "Finsbraten kyllingfilet spicy skivet vs 130g row, numbers differ much",
+   "why": "unsure"
+  },
+  {
+   "ean": "7025050022751",
+   "verdict": "unsure",
+   "reason": "Handlaget krydderskinke vs our krydderskinke, numbers differ a lot",
+   "why": "unsure"
+  },
+  {
+   "ean": "7025050023185",
+   "verdict": "unsure",
+   "reason": "Ekte kokt skinke names match but numbers differ",
+   "why": "unsure"
+  },
+  {
+   "ean": "7035620000744",
+   "verdict": "unsure",
+   "reason": "No brand, no matching salami row",
+   "why": "unsure"
+  },
+  {
+   "ean": "7036110008592",
+   "verdict": "unsure",
+   "reason": "Delikat julesild vs two Mills julesild rows, cannot pick",
+   "why": "unsure"
+  },
+  {
+   "ean": "7611612212151",
+   "verdict": "unsure",
+   "reason": "Choco Brownie flavour; generic Powerking Proteinbar row has no flavour",
+   "why": "unsure"
+  },
+  {
+   "ean": "4001686306956",
+   "verdict": "unsure",
+   "reason": "Halloween 250g vs Halloween Mix 500g, different numbers",
+   "why": "unsure"
+  },
+  {
+   "ean": "5701090043933",
+   "verdict": "unsure",
+   "reason": "Nappar Lakris 80g vs Stora Nappar, unclear",
+   "why": "unsure"
+  },
+  {
+   "ean": "5701090075293",
+   "verdict": "unsure",
+   "reason": "Skum vs Skum-sur, pack 120g both; variant unclear",
+   "why": "unsure"
+  },
+  {
+   "ean": "5701090076634",
+   "verdict": "unsure",
+   "reason": "Several Nappar rows, none clearly the Lakris 120g",
+   "why": "unsure"
+  },
+  {
+   "ean": "7039317005524",
+   "verdict": "unsure",
+   "reason": "Plain Cheez Doodles, numbers vary by pack; generic row",
+   "why": "unsure"
+  },
+  {
+   "ean": "7041111063419",
+   "verdict": "unsure",
+   "reason": "Lakrisbåter 425g vs 200g row, numbers differ",
+   "why": "unsure"
+  },
+  {
+   "ean": "7041111155695",
+   "verdict": "unsure",
+   "reason": "Spesial Nøtter 50g, variant unclear",
+   "why": "unsure"
+  },
+  {
+   "ean": "7340005406227",
+   "verdict": "unsure",
+   "reason": "Plain Cheez Doodles 285g, generic row",
+   "why": "unsure"
+  },
+  {
+   "ean": "7340005407323",
+   "verdict": "unsure",
+   "reason": "Plain Cheez Doodles 75g, generic row",
+   "why": "unsure"
+  },
+  {
+   "ean": "8000500435359",
+   "verdict": "unsure",
+   "reason": "Grand Jul vs Grand Rocher 125g, may be seasonal variant",
+   "why": "unsure"
+  },
+  {
+   "ean": "7071864016806",
+   "verdict": "unsure",
+   "reason": "Aunt Mabels vs Baxt brand, similar numbers",
+   "why": "unsure"
+  },
+  {
+   "ean": "7041614010231",
+   "verdict": "unsure",
+   "reason": "Sesam brioche 4pk vs Mini Brioche",
+   "why": "unsure"
+  },
+  {
+   "ean": "7041614021732",
+   "verdict": "unsure",
+   "reason": "Sjokoladekake 8 biter vs generic Bakehuset row",
+   "why": "unsure"
+  },
+  {
+   "ean": "0000023561702",
+   "verdict": "unsure",
+   "reason": "Lettsaltet variant vs plain Kuraas Lammekjøtt, numbers differ",
+   "why": "unsure"
+  },
+  {
+   "ean": "0000023602901",
+   "verdict": "unsure",
+   "reason": "Label is surret (cured) beef roast; our Ringdal Oksesteik is 2 kg with different numbers. Cannot tell if same product.",
+   "why": "unsure"
+  },
+  {
+   "ean": "7035660008243",
+   "verdict": "unsure",
+   "reason": "Label has no brand and is 500 g; ours is Nøtterø bakeri 600 g with very different numbers.",
+   "why": "unsure"
+  }
+ ]
+}

@@ -8,13 +8,20 @@ before it was written here. Nothing in this file is estimated: every number is c
 checked.json:
   fixes:  [{id, name?, category?, sizes?: ["150 g", "300 g"], nutrients?: {kcal: 268, fibre_g: null, ...}, source_url}]
           a null nutrient means the label does not give it: the value becomes unknown, never 0
+          add_eans: barcodes the shops sell this same product under that the data did not know (scanning finds it)
 x
   drop:   [{id, why}]                  numbers that cannot be true (salt 12 g in fish cakes); the id goes to removed
-  add:    [{id, name, brand, category, unit, sizes, eans, nutrients, source, source_url}]
+  add:    [{id, name, brand, category, unit, sizes, eans, nutrients, source, source_url, serving_g?, derived?, menu?}]
+          menu: true for a restaurant menu item (no barcode)
+          serving_g: one portion in grams (a restaurant item); derived: true when the per-100 values were
+          worked out in code from the portion values and the portion weight (flag per100_derived_from_serving).
+          eans may be empty for a restaurant item that has no barcode
   common: {id: 1 | 2 | 3}              3 = staple most households buy often, 2 = common, 1 = regular
 """
 import json
 import os
+
+import cleanup
 
 CATEGORIES = frozenset((
     'dairy_eggs', 'meat_fish', 'bread_cereal_grain', 'fruit_vegetables', 'drinks', 'snacks_sweets',
@@ -48,8 +55,10 @@ def validate(checked):
             raise ValueError('more than %d sizes for %s' % (MAX_SIZES, f['id']))
     for a in checked.get('add', ()):
         n = a.get('nutrients') or {}
-        if not a.get('source_url') or not a.get('eans') or any(n.get(k) is None for k in ('kcal', 'protein_g', 'fat_g', 'carbs_g')):
-            raise ValueError('add needs source_url, eans and the four main numbers: %s' % a.get('id'))
+        if not a.get('source_url') or not (a.get('eans') or a.get('serving_g') or a.get('menu')) or any(n.get(k) is None for k in ('kcal', 'protein_g', 'fat_g', 'carbs_g')):
+            raise ValueError('add needs source_url, eans (or menu: true for a restaurant item) and the four main numbers: %s' % a.get('id'))
+        if a.get('serving_g') is not None and not (0 < a['serving_g'] < 3000):
+            raise ValueError('add %s: serving_g out of range' % a.get('id'))
         if a.get('category') not in CATEGORIES or a.get('unit') not in ('g', 'ml'):
             raise ValueError('add %s: bad category or unit' % a.get('id'))
     for v in checked.get('common', {}).values():
@@ -90,7 +99,7 @@ def apply(checked, kept, moved, extra_search, flags_by_id, units, stats, open_so
                 moved[k] = new
         moved[old] = new
         folded += 1
-    zero = []
+    zero, impossible = [], []
     # One spelling per brand: an added product takes the spelling the file already uses.
     spelling = {}
     for p in kept.values():
@@ -109,11 +118,16 @@ def apply(checked, kept, moved, extra_search, flags_by_id, units, stats, open_so
         kept[a['id']] = {
             'id': a['id'], 'name': a['name'], 'pack_size': None,
             'brand': spelling.get(''.join((a.get('brand') or '').lower().split()), a.get('brand')),
-            'ean': a['eans'][0], 'flavour': None, 'category': a['category'], 'serving_g': None,
+            'ean': (a.get('eans') or [None])[0], 'flavour': None, 'category': a['category'], 'serving_g': a.get('serving_g'),
             'primary_source': a['source'], 'status': 'from_source', 'data_quality': None,
             **{k: n.get(k) for k in NUTRIENTS},
         }
-        flags_by_id[a['id']] = [] if n.get('fibre_g') is not None else ['missing_fibre']
+        flags_by_id[a['id']] = ([] if n.get('fibre_g') is not None else ['missing_fibre']) + (['per100_derived_from_serving'] if a.get('derived') else [])
+        if cleanup.impossible(kept[a['id']]):
+            del kept[a['id']]
+            impossible.append(a['id'])
+            continue
+        cleanup.tidy_nutrients(kept[a['id']], flags_by_id[a['id']])
         units[a['id']] = a['unit']
         extra_search[a['id']] = ' '.join(a.get('also_known_as', ()))
     sizes = {a['id']: ', '.join(a['sizes']) for a in checked.get('add', ()) if a.get('sizes') and a['id'] in kept}
@@ -128,6 +142,8 @@ def apply(checked, kept, moved, extra_search, flags_by_id, units, stats, open_so
             p['name'] = f['name']
         if f.get('category'):
             p['category'] = f['category']
+        if f.get('add_eans'):
+            p['extra_eans'] = list(p.get('extra_eans', ())) + list(f['add_eans'])
         if f.get('sizes'):
             sizes[f['id']] = ', '.join(f['sizes'])
         n = f.get('nutrients')
@@ -136,9 +152,13 @@ def apply(checked, kept, moved, extra_search, flags_by_id, units, stats, open_so
         if n and all(dict(p, **n).get(k) == 0 for k in ('kcal', 'protein_g', 'fat_g', 'carbs_g')):
             zero.append(f['id'])  # all-zero means missing (Zero kcal rule): never write it from a label
             n = None
+        if n and cleanup.impossible(dict(p, **n)):
+            impossible.append(f['id'])
+            n = None
         if n:
             for k, v in n.items():
                 p[k] = v
+            cleanup.tidy_nutrients(p, flags_by_id[f['id']])
             if FLAG not in flags_by_id[f['id']]:
                 flags_by_id[f['id']].append(FLAG)
         fixed += 1
@@ -150,4 +170,5 @@ def apply(checked, kept, moved, extra_search, flags_by_id, units, stats, open_so
     stats['checked_common'] = len(common)
     stats['checked_skipped'] = len(skipped)
     stats['checked_all_zero_refused'] = len(zero)
+    stats['checked_impossible_refused'] = len(impossible)
     return sizes, common

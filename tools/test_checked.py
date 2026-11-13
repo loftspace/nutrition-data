@@ -82,6 +82,18 @@ class ApplyTest(unittest.TestCase):
                                  'nutrients': {'kcal': 350, 'protein_g': 13, 'fat_g': 1.5, 'carbs_g': 70}}]})
         self.assertEqual(self.kept['store:2']['brand'], 'La Molisana')
 
+    def test_a_restaurant_item_has_a_portion_and_no_barcode(self):
+        self.run_apply({'add': [{'id': 'mcdonalds-no:big-mac', 'name': 'Big Mac', 'brand': "McDonald's", 'category': 'ready_meals_sauces',
+                                 'unit': 'g', 'eans': [], 'serving_g': 215, 'derived': True, 'source': 'norgesgruppen',
+                                 'source_url': 'u', 'nutrients': {'kcal': 240, 'protein_g': 12, 'fat_g': 12, 'carbs_g': 20}}]})
+        r = self.kept['mcdonalds-no:big-mac']
+        self.assertEqual((r['serving_g'], r['ean']), (215, None))
+        self.assertIn('per100_derived_from_serving', self.flags['mcdonalds-no:big-mac'])
+
+    def test_add_eans_attaches_barcodes_to_the_row(self):
+        self.run_apply({'fixes': [{'id': 'c', 'add_eans': ['7038010016745'], 'source_url': 'u'}]})
+        self.assertEqual(self.kept['c']['extra_eans'], ['7038010016745'])
+
     def test_a_null_nutrient_becomes_unknown(self):
         self.run_apply({'fixes': [{'id': 'c', 'nutrients': {'fibre_g': None}, 'source_url': 'u'}]})
         self.assertIsNone(self.kept['c']['fibre_g'])
