@@ -132,6 +132,11 @@ SOURCES = {
     'oda': ('Oda', 'shop'),
     'coop-no': ('Coop', 'shop'),
     'rema-no': ('Rema 1000', 'shop'),
+    # Restaurant menus, from each chain's own Norwegian nutrition pages or PDFs (2026-11-13).
+    'max-burgers': ('MAX Burgers', 'brand'),
+    'dominos-no': ("Domino's Pizza", 'brand'),
+    'pizzabakeren': ('Pizzabakeren', 'brand'),
+    'starbucks-no': ('Starbucks', 'brand'),
     'proteinbolaget': ('Proteinbolaget', 'shop'),
     'proteincompany-no': ('Protein Company', 'shop'),
     'proteinfabrikken': ('Proteinfabrikken', 'shop'),
