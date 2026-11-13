@@ -141,6 +141,7 @@ SOURCES = {
     'godt-brod': ('Godt Brød', 'brand'),
     # Subway Norway publishes no nutrition; the UK numbers are the backup (Max, 2026-11-14). The name says so in the app.
     'subway-uk': ('Subway (UK numbers)', 'brand'),
+    'mcdonalds-no': ("McDonald's", 'brand'),
     'proteinbolaget': ('Proteinbolaget', 'shop'),
     'proteincompany-no': ('Protein Company', 'shop'),
     'proteinfabrikken': ('Proteinfabrikken', 'shop'),
