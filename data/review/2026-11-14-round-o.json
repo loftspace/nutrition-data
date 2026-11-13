@@ -1,0 +1,381 @@
+{
+ "note": "Round O, 2026-11-14: duplicates between new additions and existing rows. Additions that duplicate a row were removed and their barcodes attached to it.",
+ "groups": [
+  {
+   "keep_id": "ean:0810000691227",
+   "fold_ids": [
+    "store:6416453076990"
+   ],
+   "reason": "Dumle Original Mini is Dumle original; Bananas is a different flavour, left out"
+  },
+  {
+   "keep_id": "ean:6416453072923",
+   "fold_ids": [
+    "store:6416453071285"
+   ],
+   "reason": "Geisha hazelnut nougat, same product"
+  },
+  {
+   "keep_id": "ean:7025110206787",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2068413000008",
+    "store:2368413000009"
+   ],
+   "reason": "Einerrokt (smoked) vs plain Coop Laks, cannot tell"
+  },
+  {
+   "keep_id": "ean:7025110178138",
+   "fold_ids": [],
+   "unsure_ids": [
+    "store:7025110158697"
+   ],
+   "reason": "Lett vs X-tra Lett, different recipe likely"
+  },
+  {
+   "keep_id": "ean:7025110180704",
+   "fold_ids": [
+    "store:7025110200518"
+   ],
+   "reason": "Julebrus with sugar is the normal one"
+  },
+  {
+   "keep_id": "ean:7025110208774",
+   "fold_ids": [],
+   "unsure_ids": [
+    "store:7025110187352"
+   ],
+   "reason": "Sprø potetstaver probably same, not sure"
+  },
+  {
+   "keep_id": "norgesgruppen:23602684",
+   "fold_ids": [
+    "store:0000023602684"
+   ],
+   "reason": "Same article number, same product"
+  },
+  {
+   "keep_id": "store:7032890009491",
+   "fold_ids": [],
+   "unsure_ids": [
+    "store:7032890009460"
+   ],
+   "reason": "Frozen vs fresh mince, same numbers"
+  },
+  {
+   "keep_id": "ean:7033352714748",
+   "fold_ids": [
+    "store:7033352532229"
+   ],
+   "unsure_ids": [
+    "store:7033352772847",
+    "store:7033352770720",
+    "store:7033352769533",
+    "store:7033352555983"
+   ],
+   "reason": "Skinpack is packaging; burger, loin, skin on/off are different cuts"
+  },
+  {
+   "keep_id": "ean:7033352753365",
+   "fold_ids": [
+    "store:7033352772304"
+   ],
+   "reason": "Same Middagsfavoritt fish dish"
+  },
+  {
+   "keep_id": "store:7058040661807",
+   "fold_ids": [
+    "store:7058040449108",
+    "store:7058040705204",
+    "store:7058040449207",
+    "store:7058040448408",
+    "store:7058040615206"
+   ],
+   "unsure_ids": [
+    "store:7058040623102",
+    "store:7058040432407"
+   ],
+   "reason": "Identical names and bordpakning are the same; Lovtynn and Krydder may be variants"
+  },
+  {
+   "keep_id": "store:7041611054788",
+   "fold_ids": [
+    "store:7041611055587"
+   ],
+   "reason": "Same cake, with picture"
+  },
+  {
+   "keep_id": "store:7041611054801",
+   "fold_ids": [
+    "store:7041611055600"
+   ],
+   "reason": "Same cake, with picture"
+  },
+  {
+   "keep_id": "ean:8076808060654",
+   "fold_ids": [
+    "store:8076800035650"
+   ],
+   "reason": "Barilla Farfalle"
+  },
+  {
+   "keep_id": "ean:7004784221241",
+   "fold_ids": [
+    "store:8712566318834"
+   ],
+   "reason": "Aromat seasoning, tin"
+  },
+  {
+   "keep_id": "ean:2301242600002",
+   "fold_ids": [
+    "store:0000023012426"
+   ],
+   "reason": "Gilde pork ribbe"
+  },
+  {
+   "keep_id": "norgesgruppen:23015244",
+   "fold_ids": [
+    "store:0000023015244"
+   ],
+   "reason": "Same article number"
+  },
+  {
+   "keep_id": "ean:7340191142527",
+   "fold_ids": [],
+   "unsure_ids": [
+    "store:7340011315735"
+   ],
+   "reason": "Organic EV is different and left out; Italian EV unclear"
+  },
+  {
+   "keep_id": "ean:7032060011064",
+   "fold_ids": [
+    "store:7032069724736"
+   ],
+   "reason": "Rema almonds"
+  },
+  {
+   "keep_id": "ean:7072615009498",
+   "fold_ids": [],
+   "unsure_ids": [
+    "store:7072615004547"
+   ],
+   "reason": "Smoked vs unspecified"
+  },
+  {
+   "keep_id": "store:7027110222422",
+   "fold_ids": [],
+   "unsure_ids": [
+    "store:7027110222453"
+   ],
+   "reason": "Classic may be a different line"
+  },
+  {
+   "keep_id": "ean:7044711300991",
+   "fold_ids": [
+    "store:7044711300564",
+    "store:7044711300762"
+   ],
+   "reason": "Hoff sprø kubber"
+  },
+  {
+   "keep_id": "max-burgers:kylling-nuggets-6-stk",
+   "fold_ids": [
+    "max-burgers:kylling-nuggets-9-stk"
+   ],
+   "reason": "Pack sizes of same nuggets"
+  },
+  {
+   "keep_id": "store:7025441018455",
+   "fold_ids": [],
+   "unsure_ids": [
+    "store:7025441025002"
+   ],
+   "reason": "Gift edition may differ"
+  },
+  {
+   "keep_id": "store:7070841001415",
+   "fold_ids": [
+    "store:7070841007677"
+   ],
+   "reason": "Same drink, other pack"
+  },
+  {
+   "keep_id": "ean:2365677025625",
+   "fold_ids": [
+    "store:0000023656770"
+   ],
+   "reason": "Same spiced ribs"
+  },
+  {
+   "keep_id": "store:7038010065255",
+   "fold_ids": [
+    "store:7038010069697"
+   ],
+   "reason": "Same tropical juice"
+  },
+  {
+   "keep_id": "store:7039771000097",
+   "fold_ids": [
+    "store:7039770000111"
+   ],
+   "reason": "Same fish cakes"
+  },
+  {
+   "keep_id": "store:7044613877126",
+   "fold_ids": [
+    "store:7044614877125"
+   ],
+   "reason": "Same drink, 6-pack"
+  },
+  {
+   "keep_id": "store:7072712005676",
+   "fold_ids": [
+    "store:7072712014265"
+   ],
+   "reason": "Same drink, 6-pack"
+  },
+  {
+   "keep_id": "store:7072712011974",
+   "fold_ids": [
+    "store:7072712011981"
+   ],
+   "reason": "Same drink, 6-pack"
+  },
+  {
+   "keep_id": "ean:7311310032098",
+   "fold_ids": [
+    "store:7311310032036"
+   ],
+   "reason": "Identical name"
+  },
+  {
+   "keep_id": "ean:7311310035525",
+   "fold_ids": [
+    "store:7311310034542"
+   ],
+   "reason": "Same sauce"
+  },
+  {
+   "keep_id": "ean:7311311025686",
+   "fold_ids": [
+    "store:7311311021183"
+   ],
+   "reason": "Same tortilla"
+  },
+  {
+   "keep_id": "ean:7311311029387",
+   "fold_ids": [
+    "store:7311312002143"
+   ],
+   "reason": "Same sauce"
+  },
+  {
+   "keep_id": "ean:7311312000088",
+   "fold_ids": [
+    "store:7311312000873"
+   ],
+   "reason": "Same salsa"
+  },
+  {
+   "keep_id": "ean:7311312009708",
+   "fold_ids": [],
+   "unsure_ids": [
+    "store:7311312009197"
+   ],
+   "reason": "Giant chips vs Giant Salsa flavour"
+  }
+ ],
+ "held": [
+  {
+   "id": "store:6416453076990",
+   "keep_id": "ean:0810000691227",
+   "why": "agent said duplicate, code check failed"
+  },
+  {
+   "id": "ean:2068413000008",
+   "keep_id": "ean:7025110206787",
+   "why": "duplicate? Einerrokt (smoked) vs plain Coop Laks, cannot tell"
+  },
+  {
+   "id": "store:2368413000009",
+   "keep_id": "ean:7025110206787",
+   "why": "duplicate? Einerrokt (smoked) vs plain Coop Laks, cannot tell"
+  },
+  {
+   "id": "store:7025110158697",
+   "keep_id": "ean:7025110178138",
+   "why": "duplicate? Lett vs X-tra Lett, different recipe likely"
+  },
+  {
+   "id": "store:7025110187352",
+   "keep_id": "ean:7025110208774",
+   "why": "duplicate? Sprø potetstaver probably same, not sure"
+  },
+  {
+   "id": "store:7032890009460",
+   "keep_id": "store:7032890009491",
+   "why": "duplicate? Frozen vs fresh mince, same numbers"
+  },
+  {
+   "id": "store:7033352772847",
+   "keep_id": "ean:7033352714748",
+   "why": "duplicate? Skinpack is packaging; burger, loin, skin on/off are different cuts"
+  },
+  {
+   "id": "store:7033352770720",
+   "keep_id": "ean:7033352714748",
+   "why": "duplicate? Skinpack is packaging; burger, loin, skin on/off are different cuts"
+  },
+  {
+   "id": "store:7033352769533",
+   "keep_id": "ean:7033352714748",
+   "why": "duplicate? Skinpack is packaging; burger, loin, skin on/off are different cuts"
+  },
+  {
+   "id": "store:7033352555983",
+   "keep_id": "ean:7033352714748",
+   "why": "duplicate? Skinpack is packaging; burger, loin, skin on/off are different cuts"
+  },
+  {
+   "id": "store:7058040623102",
+   "keep_id": "store:7058040661807",
+   "why": "duplicate? Identical names and bordpakning are the same; Lovtynn and Krydder may be variants"
+  },
+  {
+   "id": "store:7058040432407",
+   "keep_id": "store:7058040661807",
+   "why": "duplicate? Identical names and bordpakning are the same; Lovtynn and Krydder may be variants"
+  },
+  {
+   "id": "store:7340011315735",
+   "keep_id": "ean:7340191142527",
+   "why": "duplicate? Organic EV is different and left out; Italian EV unclear"
+  },
+  {
+   "id": "store:7072615004547",
+   "keep_id": "ean:7072615009498",
+   "why": "duplicate? Smoked vs unspecified"
+  },
+  {
+   "id": "store:7027110222453",
+   "keep_id": "store:7027110222422",
+   "why": "duplicate? Classic may be a different line"
+  },
+  {
+   "id": "store:7025441025002",
+   "keep_id": "store:7025441018455",
+   "why": "duplicate? Gift edition may differ"
+  },
+  {
+   "id": "store:7038010069697",
+   "keep_id": "store:7038010065255",
+   "why": "agent said duplicate, code check failed"
+  },
+  {
+   "id": "store:7311312009197",
+   "keep_id": "ean:7311312009708",
+   "why": "duplicate? Giant chips vs Giant Salsa flavour"
+  }
+ ]
+}

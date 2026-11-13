@@ -852,6 +852,13 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "ean:2301242600002",
+   "source_url": "https://meny.no/varer//kjott/ribbe/svin-ribbe-23012426",
+   "add_eans": [
+    "0000023012426"
+   ]
+  },
+  {
    "id": "ean:2301268300009",
    "add_eans": [
     "0000023012683"
@@ -1095,6 +1102,13 @@
     "0000023656412"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2365677025625",
+   "source_url": "https://meny.no/varer//kjott/ribbe/svin-tynnribbe-23656770",
+   "add_eans": [
+    "0000023656770"
+   ]
   },
   {
    "id": "ean:2365679300003",
@@ -2671,6 +2685,13 @@
    "source_url": "https://meny.no/varer/drikke/energidrikke/battery-juiced-6415600557993"
   },
   {
+   "id": "ean:6416453072923",
+   "source_url": "https://meny.no/varer//snacks-godteri/konfekt/geisha-sjokolade-6416453071285",
+   "add_eans": [
+    "6416453071285"
+   ]
+  },
+  {
    "id": "ean:6416456409320",
    "nutrients": {
     "salt_g": 0.68
@@ -2683,6 +2704,13 @@
     "salt_g": 0.12
    },
    "source_url": "https://meny.no/varer/palegg-frokost/sotpalegg/sjokoladepalegg/hasselnottkakao-8052575091046"
+  },
+  {
+   "id": "ean:7004784221241",
+   "source_url": "https://meny.no/varer//middagstilbehor/krydder/aromat/aromat-krydder-8712566318834",
+   "add_eans": [
+    "8712566318834"
+   ]
   },
   {
    "id": "ean:7008699005491",
@@ -2963,6 +2991,13 @@
     "7037210120542"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:7025110180704",
+   "source_url": "https://kassal.app/vare/143305-coop-julebrus-msukker-7025110200518",
+   "add_eans": [
+    "7025110200518"
+   ]
   },
   {
    "id": "ean:7025110184078",
@@ -3246,6 +3281,13 @@
    }
   },
   {
+   "id": "ean:7032060011064",
+   "source_url": "https://kassal.app/vare/83420-mandler-saltet-og-ristet-50g-rema-1000-7032069724736",
+   "add_eans": [
+    "7032069724736"
+   ]
+  },
+  {
    "id": "ean:7032069714850",
    "name": "Rema Peanøttsmør",
    "source_url": "https://world.openfoodfacts.org/product/7032069714850"
@@ -3492,6 +3534,13 @@
    "source_url": "https://meny.no/varer/fisk-skalldyr/fisk/orret/orretfilet-7033352205758"
   },
   {
+   "id": "ean:7033352714748",
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/orret/orret-porsjoner-7033352532229",
+   "add_eans": [
+    "7033352532229"
+   ]
+  },
+  {
    "id": "ean:7033352734074",
    "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/laks/laks-naturell/laks-loin-7033352770744",
    "nutrients": {
@@ -3501,6 +3550,13 @@
    },
    "add_eans": [
     "0000023870728"
+   ]
+  },
+  {
+   "id": "ean:7033352753365",
+   "source_url": "https://meny.no/varer//middag/fiskeretter/panert-fisk/fisk-spropanert-7033352772304",
+   "add_eans": [
+    "7033352772304"
    ]
   },
   {
@@ -5316,6 +5372,14 @@
     "salt_g": 1.2
    },
    "source_url": "https://meny.no/varer/middag/vegetarretter/gronnsaksburger-7044711300915"
+  },
+  {
+   "id": "ean:7044711300991",
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
+   "add_eans": [
+    "7044711300564",
+    "7044711300762"
+   ]
   },
   {
    "id": "ean:7044711301042",
@@ -7467,6 +7531,20 @@
    "source_url": "store listing"
   },
   {
+   "id": "ean:7311310032098",
+   "source_url": "https://meny.no/varer//middag/taco/tortillachips/tortilla-chips-7311310032036",
+   "add_eans": [
+    "7311310032036"
+   ]
+  },
+  {
+   "id": "ean:7311310035525",
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/sot-chilisaus/sweet-chili-sauce-7311310034542",
+   "add_eans": [
+    "7311310034542"
+   ]
+  },
+  {
    "id": "ean:7311310038205",
    "nutrients": {
     "kcal": 483.0,
@@ -7497,7 +7575,10 @@
     "400 g",
     "742 g"
    ],
-   "source_url": "Meny via ng.py, 7311311020599"
+   "source_url": "Meny via ng.py, 7311311020599",
+   "add_eans": [
+    "7311311021183"
+   ]
   },
   {
    "id": "ean:7311311029387",
@@ -7514,7 +7595,17 @@
     "sugars_g": 4.3,
     "fibre_g": 1.9,
     "salt_g": 1.2
-   }
+   },
+   "add_eans": [
+    "7311312002143"
+   ]
+  },
+  {
+   "id": "ean:7311312000088",
+   "source_url": "https://meny.no/varer//middag/taco/tacosaus/salsa-chunky-7311312000873",
+   "add_eans": [
+    "7311312000873"
+   ]
   },
   {
    "id": "ean:7311312000583",
@@ -8376,6 +8467,7 @@
     "salt_g": 0.01
    },
    "add_eans": [
+    "8076800035650",
     "8076809580144"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
@@ -8549,13 +8641,6 @@
    "id": "ean:8445290017024",
    "category": "fruit_vegetables",
    "source_url": "store listing"
-  },
-  {
-   "id": "ean:8445290748492",
-   "add_eans": [
-    "7613038019208"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "ean:8445290805010",
@@ -9352,6 +9437,13 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "norgesgruppen:23015244",
+   "source_url": "https://meny.no/varer//palegg-frokost/bacon/bacon-23015244",
+   "add_eans": [
+    "0000023015244"
+   ]
+  },
+  {
    "id": "norgesgruppen:23015245",
    "add_eans": [
     "0000023015245"
@@ -9953,6 +10045,13 @@
     "0000023602683"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23602684",
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
+   "add_eans": [
+    "0000023602684"
+   ]
   },
   {
    "id": "norgesgruppen:23602691",
@@ -12704,16 +12803,8 @@
    "source_url": "https://meny.no/varer/drikke/brus/villa-7044610870991"
   },
   {
-   "id": "store:0000023013423",
-   "add_eans": [
-    "0000023013439"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
    "id": "store:0000023021406",
    "add_eans": [
-    "0000023021406",
     "0000023022033"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
@@ -12728,25 +12819,11 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
-   "id": "store:0000023026934",
-   "add_eans": [
-    "0000023027197"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
    "id": "store:0000023047037",
    "nutrients": {
     "sugars_g": 0.6
    },
    "source_url": "https://meny.no/varer/palegg-frokost/spekemat/spekeskinker/spekeskinke/strandapaereskinke-23047037"
-  },
-  {
-   "id": "store:0000023504001",
-   "add_eans": [
-    "0000023877048"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "store:0000023656742",
@@ -12766,13 +12843,6 @@
    }
   },
   {
-   "id": "store:0000023810110",
-   "add_eans": [
-    "0000023810123"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
    "id": "store:0000023860364",
    "nutrients": {
     "sugars_g": 1.4
@@ -12783,20 +12853,6 @@
    "id": "store:0000023894035",
    "add_eans": [
     "0000023894045"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:0000023894050",
-   "add_eans": [
-    "0000023894050"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:6415600598217",
-   "add_eans": [
-    "6415600598224"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -12816,21 +12872,6 @@
    "source_url": "https://kassal.app/vare/17045-coop-filtermalt-kaffe-bla-250g-7025110040282"
   },
   {
-   "id": "store:7033050330059",
-   "add_eans": [
-    "7033050830047"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:7036110002828",
-   "add_eans": [
-    "7036110009698",
-    "7036110009735"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
    "id": "store:7038010067341",
    "add_eans": [
     "7038010063374"
@@ -12838,39 +12879,25 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
-   "id": "store:7044610871110",
+   "id": "store:7039771000097",
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
    "add_eans": [
-    "7044610871226"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+    "7039770000111"
+   ]
   },
   {
-   "id": "store:7044610874500",
+   "id": "store:7041611054788",
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
    "add_eans": [
-    "7044611874509"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+    "7041611055587"
+   ]
   },
   {
-   "id": "store:7044610874517",
+   "id": "store:7041611054801",
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
    "add_eans": [
-    "7044611874516"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:7044610877167",
-   "add_eans": [
-    "7044611877166"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:7044610877365",
-   "add_eans": [
-    "7044611877364"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+    "7041611055600"
+   ]
   },
   {
    "id": "store:7044613876273",
@@ -12881,33 +12908,43 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
-   "id": "store:7058040444400",
+   "id": "store:7044613877126",
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
    "add_eans": [
-    "7058040628107"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+    "7044614877125"
+   ]
   },
   {
-   "id": "store:7058040637604",
+   "id": "store:7058040661807",
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
    "add_eans": [
-    "7058040637604"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+    "7058040448408",
+    "7058040449108",
+    "7058040449207",
+    "7058040615206",
+    "7058040705204"
+   ]
   },
   {
-   "id": "store:7058040684905",
+   "id": "store:7070841001415",
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
    "add_eans": [
-    "7058040684905"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+    "7070841007677"
+   ]
   },
   {
-   "id": "store:7090009651306",
+   "id": "store:7072712005676",
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
    "add_eans": [
-    "7090009651313",
-    "7090009651320"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+    "7072712014265"
+   ]
+  },
+  {
+   "id": "store:7072712011974",
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
+   "add_eans": [
+    "7072712011981"
+   ]
   },
   {
    "id": "store:7090051190846",
@@ -12925,13 +12962,6 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
-   "id": "store:7310070003430",
-   "add_eans": [
-    "7310070004208"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
    "id": "store:7310100708885",
    "nutrients": {
     "kcal": 46.0,
@@ -12943,41 +12973,6 @@
     "salt_g": 0.01
    },
    "source_url": "https://meny.no/varer/barneprodukter/barnedessert/fruktmums-jordbaer-7310100708885"
-  },
-  {
-   "id": "store:7394376617768",
-   "add_eans": [
-    "7394376624711"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:7613035642683",
-   "add_eans": [
-    "8445292061704"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:8076809532815",
-   "add_eans": [
-    "8076809532815"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:8445290748133",
-   "add_eans": [
-    "8445290748072"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:8712566121458",
-   "add_eans": [
-    "8712566121397"
-   ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "synnove:https://www.synnove.no/produkt/flotemys/",
@@ -20051,30 +20046,6 @@
    "menu": true
   },
   {
-   "id": "max-burgers:kylling-nuggets-9-stk",
-   "name": "Kylling Nuggets - 9 stk",
-   "brand": "MAX",
-   "category": "ready_meals_sauces",
-   "unit": "g",
-   "sizes": [],
-   "eans": [],
-   "serving_g": 193.5,
-   "derived": false,
-   "source": "max-burgers",
-   "nutrients": {
-    "kcal": 220.0,
-    "protein_g": 12.0,
-    "fat_g": 9.6,
-    "sat_fat_g": 1.1,
-    "carbs_g": 20.0,
-    "sugars_g": 0.5,
-    "fibre_g": 1.0,
-    "salt_g": 1.5
-   },
-   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/",
-   "menu": true
-  },
-  {
    "id": "max-burgers:grand-chicken-sandwich",
    "name": "Grand Chicken Sandwich",
    "brand": "MAX",
@@ -23939,28 +23910,6 @@
    "source_url": "https://meny.no/varer//kjott/svinekjott/smarettbacon/bacon-23015684"
   },
   {
-   "id": "store:0000023012426",
-   "name": "Svin Ribbe m/Rutet Svor",
-   "brand": "Gilde",
-   "category": "meat_fish",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "0000023012426"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 389.0,
-    "fat_g": 37.0,
-    "sat_fat_g": 13.0,
-    "carbs_g": 0.0,
-    "sugars_g": 0.0,
-    "protein_g": 14.0,
-    "salt_g": 0.1
-   },
-   "source_url": "https://meny.no/varer//kjott/ribbe/svin-ribbe-23012426"
-  },
-  {
    "id": "store:0000023010305",
    "name": "Storfe Tunge Rå Salt",
    "brand": "Gilde",
@@ -24289,28 +24238,6 @@
     "salt_g": 0.2
    },
    "source_url": "https://meny.no/varer//kjott/lammekjott/ytrefilet-av-lam/ytrefilet-23010120"
-  },
-  {
-   "id": "store:0000023015244",
-   "name": "Bacon Av Nakke i Bit",
-   "brand": "Gilde",
-   "category": "other_food",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "0000023015244"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 209.0,
-    "fat_g": 16.0,
-    "sat_fat_g": 5.5,
-    "carbs_g": 0.1,
-    "sugars_g": 0.0,
-    "protein_g": 17.0,
-    "salt_g": 2.3
-   },
-   "source_url": "https://meny.no/varer//palegg-frokost/bacon/bacon-23015244"
   },
   {
    "id": "store:0000023015600",
@@ -25427,29 +25354,6 @@
    "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/lutefisk/lutefisk-av-torsk-23656842"
   },
   {
-   "id": "store:0000023656770",
-   "name": "Svin Tynnribbe Krydret",
-   "brand": "First Price",
-   "category": "meat_fish",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "0000023656770"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 368.0,
-    "fat_g": 34.8,
-    "sat_fat_g": 13.1,
-    "carbs_g": 0.0,
-    "sugars_g": 0.0,
-    "fibre_g": 0.0,
-    "protein_g": 13.7,
-    "salt_g": 0.9
-   },
-   "source_url": "https://meny.no/varer//kjott/ribbe/svin-tynnribbe-23656770"
-  },
-  {
    "id": "store:7035620056796",
    "name": "Lammerull",
    "brand": "Jacobs Utvalgte",
@@ -25856,29 +25760,6 @@
    "source_url": "https://meny.no/varer//middagstilbehor/sushitilbehor/wakamesalat/sushibowl-7033352560383"
   },
   {
-   "id": "store:7033352772304",
-   "name": "Fisk Sprøpanert Middagsfavoritt Lerøy",
-   "brand": "Lerøy",
-   "category": "ready_meals_sauces",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7033352772304"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 201.0,
-    "fat_g": 5.8,
-    "sat_fat_g": 0.6,
-    "carbs_g": 21.7,
-    "sugars_g": 0.6,
-    "fibre_g": 0.0,
-    "protein_g": 15.5,
-    "salt_g": 0.88
-   },
-   "source_url": "https://meny.no/varer//middag/fiskeretter/panert-fisk/fisk-spropanert-7033352772304"
-  },
-  {
    "id": "store:7033352769533",
    "name": "Ørret Porsjon u/Skinn Lerøy",
    "brand": "Lerøy",
@@ -26211,28 +26092,6 @@
     "salt_g": 3.0
    },
    "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/orret/orret-rokt-23701354"
-  },
-  {
-   "id": "store:7033352532229",
-   "name": "Ørret Porsjoner Skinpack Lerøy",
-   "brand": "Lerøy",
-   "category": "meat_fish",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7033352532229"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 166.0,
-    "fat_g": 10.0,
-    "sat_fat_g": 2.0,
-    "carbs_g": 0.0,
-    "sugars_g": 0.0,
-    "protein_g": 19.0,
-    "salt_g": 0.1
-   },
-   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/orret/orret-porsjoner-7033352532229"
   },
   {
    "id": "store:7033352555983",
@@ -29249,30 +29108,6 @@
    "source_url": "https://meny.no/varer//middagstilbehor/marinader-og-bbq-saus/barbequesaus/bbq-sauce-7311312009395"
   },
   {
-   "id": "store:7311310032036",
-   "name": "Tortilla Chips Cheese St.Maria",
-   "brand": "Santa Maria",
-   "category": "ready_meals_sauces",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7311310032036",
-    "7311310032135"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 472.0,
-    "fat_g": 20.0,
-    "sat_fat_g": 2.0,
-    "carbs_g": 64.0,
-    "sugars_g": 1.5,
-    "fibre_g": 4.0,
-    "protein_g": 6.6,
-    "salt_g": 1.6
-   },
-   "source_url": "https://meny.no/varer//middag/taco/tortillachips/tortilla-chips-7311310032036"
-  },
-  {
    "id": "store:7311310026776",
    "name": "Garlic & Pepper Roasted m/Kvern St.Maria",
    "brand": "Santa Maria",
@@ -29317,29 +29152,6 @@
     "salt_g": 4.0
    },
    "source_url": "https://meny.no/varer//middagstilbehor/sauser/sot-chilisaus/sweet-chili-sauce-7311310034429"
-  },
-  {
-   "id": "store:7311310034542",
-   "name": "Sweet Chili Sauce St.Maria",
-   "brand": "Santa Maria",
-   "category": "other_food",
-   "unit": "ml",
-   "sizes": [],
-   "eans": [
-    "7311310034542",
-    "7311310034603"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 178.0,
-    "fat_g": 0.2,
-    "sat_fat_g": 0.0,
-    "carbs_g": 43.0,
-    "sugars_g": 40.0,
-    "protein_g": 0.3,
-    "salt_g": 2.8
-   },
-   "source_url": "https://meny.no/varer//middagstilbehor/sauser/sot-chilisaus/sweet-chili-sauce-7311310034542"
   },
   {
    "id": "store:7311310026745",
@@ -29889,29 +29701,6 @@
    "source_url": "https://meny.no/varer//middag/taco/tortillalefser/tortilla-corn-weat-7311311022395"
   },
   {
-   "id": "store:7311311021183",
-   "name": "Tortilla Original Large St.Maria",
-   "brand": "Santa Maria",
-   "category": "ready_meals_sauces",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7311311021183"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 302.0,
-    "fat_g": 4.9,
-    "sat_fat_g": 1.2,
-    "carbs_g": 55.0,
-    "sugars_g": 2.0,
-    "fibre_g": 2.5,
-    "protein_g": 8.3,
-    "salt_g": 1.4
-   },
-   "source_url": "https://meny.no/varer//middag/taco/tortillalefser/tortilla-original-7311311021183"
-  },
-  {
    "id": "store:7311310029579",
    "name": "Marinade Chicken St.Maria",
    "brand": "Santa Maria",
@@ -30002,29 +29791,6 @@
    "source_url": "https://meny.no/varer//middagstilbehor/marinader-og-bbq-saus/marinade/marinade-garlic-7311310029524"
   },
   {
-   "id": "store:7311312002143",
-   "name": "Taco Sauce Hot St.Maria",
-   "brand": "Santa Maria",
-   "category": "ready_meals_sauces",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7311312002143"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 34.0,
-    "fat_g": 0.0,
-    "sat_fat_g": 0.0,
-    "carbs_g": 5.8,
-    "sugars_g": 4.3,
-    "fibre_g": 1.9,
-    "protein_g": 1.4,
-    "salt_g": 1.2
-   },
-   "source_url": "https://meny.no/varer//middag/taco/tacosaus/taco-sauce-hot-7311312002143"
-  },
-  {
    "id": "store:7311312000675",
    "name": "Taco Sauce X Hot St.Maria",
    "brand": "Santa Maria",
@@ -30069,29 +29835,6 @@
     "salt_g": 0.4
    },
    "source_url": "https://meny.no/varer//middag/taco/tortillalefser/tortilla-extra-thin-7311312009777"
-  },
-  {
-   "id": "store:7311312000873",
-   "name": "Salsa Chunky Medium St.Maria",
-   "brand": "Santa Maria",
-   "category": "ready_meals_sauces",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7311312000873"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 32.0,
-    "fat_g": 0.0,
-    "sat_fat_g": 0.0,
-    "carbs_g": 5.5,
-    "sugars_g": 4.8,
-    "fibre_g": 1.9,
-    "protein_g": 1.6,
-    "salt_g": 1.0
-   },
-   "source_url": "https://meny.no/varer//middag/taco/tacosaus/salsa-chunky-7311312000873"
   },
   {
    "id": "store:7311312000897",
@@ -30913,28 +30656,6 @@
     "salt_g": 0.94
    },
    "source_url": "https://meny.no/varer//middagstilbehor/sauser/soppsaus/mushroom-saus-8717163874356"
-  },
-  {
-   "id": "store:8712566318834",
-   "name": "Aromat Krydder boks",
-   "brand": "Knorr",
-   "category": "other_food",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "8712566318834"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 169.0,
-    "fat_g": 3.6,
-    "sat_fat_g": 0.3,
-    "carbs_g": 16.0,
-    "sugars_g": 7.3,
-    "protein_g": 13.0,
-    "salt_g": 59.0
-   },
-   "source_url": "https://meny.no/varer//middagstilbehor/krydder/aromat/aromat-krydder-8712566318834"
   },
   {
    "id": "store:8714100697641",
@@ -32559,28 +32280,6 @@
     "salt_g": 0.48
    },
    "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/dumle-snacks-6416453037601"
-  },
-  {
-   "id": "store:6416453071285",
-   "name": "Geisha Sjokolade Hasselnøtt&Nougatfyll",
-   "brand": "Fazer",
-   "category": "snacks_sweets",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "6416453071285"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 553.0,
-    "fat_g": 35.0,
-    "sat_fat_g": 18.0,
-    "carbs_g": 47.0,
-    "sugars_g": 45.0,
-    "protein_g": 8.1,
-    "salt_g": 0.13
-   },
-   "source_url": "https://meny.no/varer//snacks-godteri/konfekt/geisha-sjokolade-6416453071285"
   },
   {
    "id": "store:6416453017504",
@@ -57106,50 +56805,6 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
-   "id": "store:7058040449108",
-   "name": "Jubelsalami Grilstad",
-   "brand": "Grilstad",
-   "category": "meat_fish",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7058040449108"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 391.0,
-    "fat_g": 35.0,
-    "sat_fat_g": 13.0,
-    "carbs_g": 1.0,
-    "sugars_g": 0.0,
-    "protein_g": 18.0,
-    "salt_g": 5.0
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:7058040705204",
-   "name": "Jubelsalami Grilstad",
-   "brand": "Grilstad",
-   "category": "meat_fish",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7058040705204"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 391.0,
-    "fat_g": 35.0,
-    "sat_fat_g": 13.0,
-    "carbs_g": 1.0,
-    "sugars_g": 0.0,
-    "protein_g": 18.0,
-    "salt_g": 5.0
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
    "id": "store:7058040623102",
    "name": "Jubelsalami Løvtynn Grilstad",
    "brand": "Grilstad",
@@ -57194,28 +56849,6 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
-   "id": "store:7058040448408",
-   "name": "Jubelsalami Bordpakning Grilstad",
-   "brand": "Grilstad",
-   "category": "meat_fish",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7058040448408"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 391.0,
-    "fat_g": 35.0,
-    "sat_fat_g": 13.0,
-    "carbs_g": 1.0,
-    "sugars_g": 0.0,
-    "protein_g": 18.0,
-    "salt_g": 5.0
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
    "id": "store:7058040671004",
    "name": "Chorizo i Ring Grilstad",
    "brand": "Grilstad",
@@ -57238,28 +56871,6 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
-   "id": "store:7058040449207",
-   "name": "Jubelsalami Grilstad",
-   "brand": "Grilstad",
-   "category": "meat_fish",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7058040449207"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 391.0,
-    "fat_g": 35.0,
-    "sat_fat_g": 13.0,
-    "carbs_g": 1.0,
-    "sugars_g": 0.0,
-    "protein_g": 18.0,
-    "salt_g": 5.0
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
    "id": "store:7058040432407",
    "name": "Jubelsalami Krydder Grilstad",
    "brand": "Grilstad",
@@ -57277,28 +56888,6 @@
     "carbs_g": 1.0,
     "sugars_g": 0.0,
     "fibre_g": 0.0,
-    "protein_g": 18.0,
-    "salt_g": 5.0
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:7058040615206",
-   "name": "Jubelsalami Bordpakning Grilstad",
-   "brand": "Grilstad",
-   "category": "meat_fish",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7058040615206"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 391.0,
-    "fat_g": 35.0,
-    "sat_fat_g": 13.0,
-    "carbs_g": 1.0,
-    "sugars_g": 0.0,
     "protein_g": 18.0,
     "salt_g": 5.0
    },
@@ -57482,29 +57071,6 @@
     "fibre_g": 18.0,
     "protein_g": 8.8,
     "salt_g": 0.4
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:8076800035650",
-   "name": "Farfalle Barilla",
-   "brand": "Barilla",
-   "category": "bread_cereal_grain",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "8076800035650"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 359.0,
-    "fat_g": 2.0,
-    "sat_fat_g": 0.5,
-    "carbs_g": 71.0,
-    "sugars_g": 3.5,
-    "fibre_g": 3.0,
-    "protein_g": 13.0,
-    "salt_g": 0.01
    },
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -58222,29 +57788,6 @@
    "sizes": [],
    "eans": [
     "7044610876672"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 1.0,
-    "fat_g": 0.0,
-    "sat_fat_g": 0.0,
-    "carbs_g": 0.1,
-    "sugars_g": 0.1,
-    "fibre_g": 0.0,
-    "protein_g": 0.0,
-    "salt_g": 0.06
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:7044614877125",
-   "name": "Farris Frus Eple&Kiwi 0,33lx6 boks",
-   "brand": "Farris",
-   "category": "drinks",
-   "unit": "ml",
-   "sizes": [],
-   "eans": [
-    "7044614877125"
    ],
    "source": "norgesgruppen",
    "nutrients": {
@@ -58999,52 +58542,6 @@
     "fibre_g": 0.8,
     "protein_g": 3.2,
     "salt_g": 0.23
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:7041611055587",
-   "name": "Sjokoladekake m/Bilde 15 Biter Bakehuset",
-   "brand": "Bakehuset",
-   "category": "snacks_sweets",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7041611055587"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 419.0,
-    "fat_g": 21.6,
-    "sat_fat_g": 5.6,
-    "carbs_g": 50.0,
-    "sugars_g": 34.4,
-    "fibre_g": 2.3,
-    "protein_g": 5.0,
-    "salt_g": 0.9
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:7041611055600",
-   "name": "Sjokoladekake m/Bilde 30 Biter Bakehuset",
-   "brand": "Bakehuset",
-   "category": "snacks_sweets",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7041611055600"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 419.0,
-    "fat_g": 21.6,
-    "sat_fat_g": 5.6,
-    "carbs_g": 50.0,
-    "sugars_g": 34.4,
-    "fibre_g": 2.3,
-    "protein_g": 5.0,
-    "salt_g": 0.9
    },
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -61204,28 +60701,6 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
-   "id": "store:7070841007677",
-   "name": "Julebrus u/Sukker 1/2 Lerum",
-   "brand": "Lerum",
-   "category": "drinks",
-   "unit": "ml",
-   "sizes": [],
-   "eans": [
-    "7070841007677"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 1.0,
-    "fat_g": 0.0,
-    "sat_fat_g": 0.0,
-    "carbs_g": 0.0,
-    "sugars_g": 0.0,
-    "protein_g": 0.0,
-    "salt_g": 0.0
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
    "id": "store:7072712005676",
    "name": "No Worries Christmas boks Lervig",
    "brand": "Lervig",
@@ -61290,52 +60765,6 @@
     "sugars_g": 4.6,
     "fibre_g": 0.0,
     "protein_g": 0.5,
-    "salt_g": 0.0
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:7072712011981",
-   "name": "No Worries Radler 0,33lx6 boks Lervig",
-   "brand": "Lervig",
-   "category": "drinks",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7072712011981"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 22.0,
-    "fat_g": 0.0,
-    "sat_fat_g": 0.0,
-    "carbs_g": 5.0,
-    "sugars_g": 4.6,
-    "fibre_g": 0.0,
-    "protein_g": 0.5,
-    "salt_g": 0.0
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:7072712014265",
-   "name": "No Worries Christmas 0,33lx6 boks Lervig",
-   "brand": "Lervig",
-   "category": "drinks",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7072712014265"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 22.0,
-    "fat_g": 0.0,
-    "sat_fat_g": 0.0,
-    "carbs_g": 4.9,
-    "sugars_g": 4.5,
-    "fibre_g": 0.0,
-    "protein_g": 1.0,
     "salt_g": 0.0
    },
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
@@ -62997,28 +62426,6 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
-   "id": "store:7044711300564",
-   "name": "Opphøgde Potteter Sprø Kubber Hoff",
-   "brand": "Hoff",
-   "category": "fruit_vegetables",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7044711300564"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 202.0,
-    "fat_g": 9.1,
-    "sat_fat_g": 0.7,
-    "carbs_g": 27.4,
-    "sugars_g": 0.1,
-    "protein_g": 2.6,
-    "salt_g": 1.0
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
    "id": "store:7044711300755",
    "name": "Opphøgde Potteter 2,7% Fett Hoff",
    "brand": "Hoff",
@@ -63037,28 +62444,6 @@
     "sugars_g": 0.1,
     "protein_g": 1.5,
     "salt_g": 0.0
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:7044711300762",
-   "name": "Opphøgde Potteter Sprø Kubber Hoff",
-   "brand": "Hoff",
-   "category": "fruit_vegetables",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7044711300762"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 202.0,
-    "fat_g": 9.1,
-    "sat_fat_g": 0.7,
-    "carbs_g": 27.4,
-    "sugars_g": 0.1,
-    "protein_g": 2.6,
-    "salt_g": 1.0
    },
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -64587,29 +63972,6 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
-   "id": "store:0000023602684",
-   "name": "Bacon skivet Ringdal",
-   "brand": "Ringdal",
-   "category": "meat_fish",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "0000023602684"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 354.0,
-    "fat_g": 33.3,
-    "sat_fat_g": 12.8,
-    "carbs_g": 2.1,
-    "sugars_g": 0.7,
-    "fibre_g": 0.0,
-    "protein_g": 12.6,
-    "salt_g": 2.1
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
    "id": "store:7032890009460",
    "name": "Kjøttdeig Frys Ringdal",
    "brand": "Ringdal",
@@ -64672,28 +64034,6 @@
     "sugars_g": 1.3,
     "protein_g": 4.1,
     "salt_g": 0.7
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:7039770000111",
-   "name": "Fiskekaker Rørvik",
-   "brand": "Rørvik",
-   "category": "meat_fish",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7039770000111"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 150.0,
-    "fat_g": 8.4,
-    "sat_fat_g": 1.8,
-    "carbs_g": 7.2,
-    "sugars_g": 0.2,
-    "protein_g": 10.5,
-    "salt_g": 1.8
    },
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -67661,28 +67001,6 @@
    "source_url": "https://kassal.app/vare/18135-coop-appelsinsaft-uten-sukker-09l-7025110168252"
   },
   {
-   "id": "store:7025110200518",
-   "name": "Coop Julebrus m/Sukker",
-   "brand": "Coop",
-   "category": "other_food",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7025110200518"
-   ],
-   "source": "kassalapp",
-   "nutrients": {
-    "kcal": 45.0,
-    "fat_g": 0.0,
-    "carbs_g": 11.0,
-    "sat_fat_g": 0.0,
-    "protein_g": 0.0,
-    "salt_g": 0.0,
-    "sugars_g": 11.0
-   },
-   "source_url": "https://kassal.app/vare/143305-coop-julebrus-msukker-7025110200518"
-  },
-  {
    "id": "store:7025168001921",
    "name": "Coop Glutenfri Brød med Chiamel",
    "brand": "Coop",
@@ -69006,29 +68324,6 @@
    "source_url": "https://kassal.app/vare/83104-middagsris-stapose-2kg-rema-1000-7032069715369"
   },
   {
-   "id": "store:7032069724736",
-   "name": "Mandler Saltet Og Ristet",
-   "brand": "Rema 1000",
-   "category": "other_food",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7032069724736"
-   ],
-   "source": "kassalapp",
-   "nutrients": {
-    "kcal": 600.0,
-    "fat_g": 52.0,
-    "carbs_g": 6.6,
-    "fibre_g": 11.0,
-    "sat_fat_g": 4.1,
-    "protein_g": 21.0,
-    "salt_g": 0.8,
-    "sugars_g": 6.6
-   },
-   "source_url": "https://kassal.app/vare/83420-mandler-saltet-og-ristet-50g-rema-1000-7032069724736"
-  },
-  {
    "id": "store:7032069728628",
    "name": "Fersk Spagetti med Egg Rema 1000",
    "brand": "Rema 1000",
@@ -69947,6 +69242,3429 @@
     "sugars_g": 3.2
    },
    "source_url": "https://kassal.app/vare/83350-fettuccine-okologisk-500g-rema-1000-plant2-de-matteis-7032069732540"
+  },
+  {
+   "id": "subway-uk:chicken-breast-sub-15-cm",
+   "name": "Chicken Breast Sub 15 cm",
+   "brand": "Subway",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 198.0,
+   "menu": true,
+   "source": "subway-uk",
+   "nutrients": {
+    "kcal": 172.0,
+    "protein_g": 13.1,
+    "fat_g": 3.4,
+    "sat_fat_g": 1.6,
+    "carbs_g": 21.2,
+    "sugars_g": 3.5,
+    "fibre_g": 1.2,
+    "salt_g": 0.9
+   },
+   "source_url": "https://media.subway.com/dam/urn:aaid:aem:a554a040-1443-4a66-a671-7537cc9c29f4/original/as/UKIBuildsandIngredientsNutritionalInformationNovember2026AD.pdf"
+  },
+  {
+   "id": "subway-uk:chicken-tikka-sub-15-cm",
+   "name": "Chicken Tikka Sub 15 cm",
+   "brand": "Subway",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 197.0,
+   "menu": true,
+   "source": "subway-uk",
+   "nutrients": {
+    "kcal": 175.0,
+    "protein_g": 14.2,
+    "fat_g": 3.6,
+    "sat_fat_g": 1.5,
+    "carbs_g": 21.8,
+    "sugars_g": 3.2,
+    "fibre_g": 1.8,
+    "salt_g": 0.8
+   },
+   "source_url": "https://media.subway.com/dam/urn:aaid:aem:a554a040-1443-4a66-a671-7537cc9c29f4/original/as/UKIBuildsandIngredientsNutritionalInformationNovember2026AD.pdf"
+  },
+  {
+   "id": "subway-uk:meatball-marinara-sub-15-cm",
+   "name": "Meatball Marinara Sub 15 cm",
+   "brand": "Subway",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 243.0,
+   "menu": true,
+   "source": "subway-uk",
+   "nutrients": {
+    "kcal": 184.0,
+    "protein_g": 9.5,
+    "fat_g": 6.6,
+    "sat_fat_g": 2.3,
+    "carbs_g": 21.0,
+    "sugars_g": 4.9,
+    "fibre_g": 2.1,
+    "salt_g": 0.8
+   },
+   "source_url": "https://media.subway.com/dam/urn:aaid:aem:a554a040-1443-4a66-a671-7537cc9c29f4/original/as/UKIBuildsandIngredientsNutritionalInformationNovember2026AD.pdf"
+  },
+  {
+   "id": "subway-uk:italian-b-m-t-sub-15-cm",
+   "name": "Italian B.M.T Sub 15 cm",
+   "brand": "Subway",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 139.0,
+   "menu": true,
+   "source": "subway-uk",
+   "nutrients": {
+    "kcal": 278.0,
+    "protein_g": 14.4,
+    "fat_g": 11.5,
+    "sat_fat_g": 3.7,
+    "carbs_g": 29.5,
+    "sugars_g": 3.5,
+    "fibre_g": 1.8,
+    "salt_g": 1.8
+   },
+   "source_url": "https://media.subway.com/dam/urn:aaid:aem:a554a040-1443-4a66-a671-7537cc9c29f4/original/as/UKIBuildsandIngredientsNutritionalInformationNovember2026AD.pdf"
+  },
+  {
+   "id": "subway-uk:veggie-delite-sub-15-cm",
+   "name": "Veggie Delite Sub 15 cm",
+   "brand": "Subway",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 163.0,
+   "menu": true,
+   "source": "subway-uk",
+   "nutrients": {
+    "kcal": 139.0,
+    "protein_g": 5.1,
+    "fat_g": 1.5,
+    "sat_fat_g": 0.3,
+    "carbs_g": 25.8,
+    "sugars_g": 4.0,
+    "fibre_g": 2.0,
+    "salt_g": 0.4
+   },
+   "source_url": "https://media.subway.com/dam/urn:aaid:aem:a554a040-1443-4a66-a671-7537cc9c29f4/original/as/UKIBuildsandIngredientsNutritionalInformationNovember2026AD.pdf"
+  },
+  {
+   "id": "subway-uk:tuna-mayo-sub-15-cm",
+   "name": "Tuna Mayo Sub 15 cm",
+   "brand": "Subway",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 200.0,
+   "menu": true,
+   "source": "subway-uk",
+   "nutrients": {
+    "kcal": 200.0,
+    "protein_g": 11.0,
+    "fat_g": 8.0,
+    "sat_fat_g": 1.7,
+    "carbs_g": 21.5,
+    "sugars_g": 3.3,
+    "fibre_g": 1.2,
+    "salt_g": 0.9
+   },
+   "source_url": "https://media.subway.com/dam/urn:aaid:aem:a554a040-1443-4a66-a671-7537cc9c29f4/original/as/UKIBuildsandIngredientsNutritionalInformationNovember2026AD.pdf"
+  },
+  {
+   "id": "subway-uk:turkey-sub-15-cm",
+   "name": "Turkey Sub 15 cm",
+   "brand": "Subway",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 183.0,
+   "menu": true,
+   "source": "subway-uk",
+   "nutrients": {
+    "kcal": 170.0,
+    "protein_g": 12.0,
+    "fat_g": 3.6,
+    "sat_fat_g": 1.5,
+    "carbs_g": 22.4,
+    "sugars_g": 3.3,
+    "fibre_g": 1.5,
+    "salt_g": 1.0
+   },
+   "source_url": "https://media.subway.com/dam/urn:aaid:aem:a554a040-1443-4a66-a671-7537cc9c29f4/original/as/UKIBuildsandIngredientsNutritionalInformationNovember2026AD.pdf"
+  },
+  {
+   "id": "subway-uk:ham-sub-15-cm",
+   "name": "Ham Sub 15 cm",
+   "brand": "Subway",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 182.0,
+   "menu": true,
+   "source": "subway-uk",
+   "nutrients": {
+    "kcal": 178.0,
+    "protein_g": 11.5,
+    "fat_g": 4.3,
+    "sat_fat_g": 1.8,
+    "carbs_g": 23.1,
+    "sugars_g": 3.5,
+    "fibre_g": 1.6,
+    "salt_g": 1.0
+   },
+   "source_url": "https://media.subway.com/dam/urn:aaid:aem:a554a040-1443-4a66-a671-7537cc9c29f4/original/as/UKIBuildsandIngredientsNutritionalInformationNovember2026AD.pdf"
+  },
+  {
+   "id": "subway-uk:philly-steak-sub-15-cm",
+   "name": "Philly Steak Sub 15 cm",
+   "brand": "Subway",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 165.0,
+   "menu": true,
+   "source": "subway-uk",
+   "nutrients": {
+    "kcal": 180.0,
+    "protein_g": 10.9,
+    "fat_g": 2.2,
+    "sat_fat_g": 0.5,
+    "carbs_g": 29.1,
+    "sugars_g": 5.4,
+    "fibre_g": 1.8,
+    "salt_g": 0.8
+   },
+   "source_url": "https://media.subway.com/dam/urn:aaid:aem:a554a040-1443-4a66-a671-7537cc9c29f4/original/as/UKIBuildsandIngredientsNutritionalInformationNovember2026AD.pdf"
+  },
+  {
+   "id": "subway-uk:spicy-italian-sub-15-cm",
+   "name": "Spicy Italian Sub 15 cm",
+   "brand": "Subway",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 186.0,
+   "menu": true,
+   "source": "subway-uk",
+   "nutrients": {
+    "kcal": 268.0,
+    "protein_g": 11.8,
+    "fat_g": 14.5,
+    "sat_fat_g": 5.4,
+    "carbs_g": 23.1,
+    "sugars_g": 3.1,
+    "fibre_g": 1.5,
+    "salt_g": 1.7
+   },
+   "source_url": "https://media.subway.com/dam/urn:aaid:aem:a554a040-1443-4a66-a671-7537cc9c29f4/original/as/UKIBuildsandIngredientsNutritionalInformationNovember2026AD.pdf"
+  },
+  {
+   "id": "subway-uk:chicken-and-bacon-sub-15-cm",
+   "name": "Chicken and Bacon Sub 15 cm",
+   "brand": "Subway",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 174.0,
+   "menu": true,
+   "source": "subway-uk",
+   "nutrients": {
+    "kcal": 175.0,
+    "protein_g": 13.2,
+    "fat_g": 4.0,
+    "sat_fat_g": 0.7,
+    "carbs_g": 21.3,
+    "sugars_g": 3.2,
+    "fibre_g": 1.5,
+    "salt_g": 0.8
+   },
+   "source_url": "https://media.subway.com/dam/urn:aaid:aem:a554a040-1443-4a66-a671-7537cc9c29f4/original/as/UKIBuildsandIngredientsNutritionalInformationNovember2026AD.pdf"
+  },
+  {
+   "id": "subway-uk:plain-tortilla-wrap-wrap-only",
+   "name": "Plain Tortilla Wrap (wrap only)",
+   "brand": "Subway",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 95.0,
+   "menu": true,
+   "source": "subway-uk",
+   "nutrients": {
+    "kcal": 290.0,
+    "protein_g": 7.0,
+    "fat_g": 6.0,
+    "sat_fat_g": 0.8,
+    "carbs_g": 50.0,
+    "sugars_g": 2.7,
+    "fibre_g": 4.1,
+    "salt_g": 1.2
+   },
+   "source_url": "https://media.subway.com/dam/urn:aaid:aem:a554a040-1443-4a66-a671-7537cc9c29f4/original/as/UKIBuildsandIngredientsNutritionalInformationNovember2026AD.pdf"
+  },
+  {
+   "id": "subway-uk:italian-white-bread-15-cm",
+   "name": "Italian White Bread (15 cm)",
+   "brand": "Subway",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 70.0,
+   "menu": true,
+   "source": "subway-uk",
+   "nutrients": {
+    "kcal": 271.0,
+    "protein_g": 10.0,
+    "fat_g": 3.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 51.0,
+    "sugars_g": 6.0,
+    "fibre_g": 3.0,
+    "salt_g": 0.8
+   },
+   "source_url": "https://media.subway.com/dam/urn:aaid:aem:a554a040-1443-4a66-a671-7537cc9c29f4/original/as/UKIBuildsandIngredientsNutritionalInformationNovember2026AD.pdf"
+  },
+  {
+   "id": "subway-uk:wedges-waffle-fries-regular",
+   "name": "Wedges / Waffle Fries (Regular)",
+   "brand": "Subway",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 100.0,
+   "menu": true,
+   "source": "subway-uk",
+   "nutrients": {
+    "kcal": 184.0,
+    "protein_g": 2.8,
+    "fat_g": 8.2,
+    "sat_fat_g": 1.1,
+    "carbs_g": 23.0,
+    "sugars_g": 0.3,
+    "fibre_g": 4.0,
+    "salt_g": 0.9
+   },
+   "source_url": "https://media.subway.com/dam/urn:aaid:aem:a554a040-1443-4a66-a671-7537cc9c29f4/original/as/UKIBuildsandIngredientsNutritionalInformationNovember2026AD.pdf"
+  },
+  {
+   "id": "subway-uk:waffle-fries-large",
+   "name": "Waffle Fries (Large)",
+   "brand": "Subway",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 150.0,
+   "menu": true,
+   "source": "subway-uk",
+   "nutrients": {
+    "kcal": 184.0,
+    "protein_g": 2.8,
+    "fat_g": 8.0,
+    "sat_fat_g": 1.1,
+    "carbs_g": 22.7,
+    "sugars_g": 0.3,
+    "fibre_g": 4.0,
+    "salt_g": 0.9
+   },
+   "source_url": "https://media.subway.com/dam/urn:aaid:aem:a554a040-1443-4a66-a671-7537cc9c29f4/original/as/UKIBuildsandIngredientsNutritionalInformationNovember2026AD.pdf"
+  },
+  {
+   "id": "subway-uk:hash-browns-6-pieces",
+   "name": "Hash Browns (6 pieces)",
+   "brand": "Subway",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 111.0,
+   "menu": true,
+   "source": "subway-uk",
+   "nutrients": {
+    "kcal": 166.0,
+    "protein_g": 2.2,
+    "fat_g": 9.9,
+    "sat_fat_g": 0.7,
+    "carbs_g": 19.8,
+    "sugars_g": 1.0,
+    "fibre_g": 2.1,
+    "salt_g": 0.7
+   },
+   "source_url": "https://media.subway.com/dam/urn:aaid:aem:a554a040-1443-4a66-a671-7537cc9c29f4/original/as/UKIBuildsandIngredientsNutritionalInformationNovember2026AD.pdf"
+  },
+  {
+   "id": "subway-uk:nacho-chicken-bites-6-pieces",
+   "name": "Nacho Chicken Bites (6 pieces)",
+   "brand": "Subway",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 108.0,
+   "menu": true,
+   "source": "subway-uk",
+   "nutrients": {
+    "kcal": 250.0,
+    "protein_g": 14.8,
+    "fat_g": 12.0,
+    "sat_fat_g": 1.7,
+    "carbs_g": 19.4,
+    "sugars_g": 0.9,
+    "fibre_g": 1.4,
+    "salt_g": 1.4
+   },
+   "source_url": "https://media.subway.com/dam/urn:aaid:aem:a554a040-1443-4a66-a671-7537cc9c29f4/original/as/UKIBuildsandIngredientsNutritionalInformationNovember2026AD.pdf"
+  },
+  {
+   "id": "subway-uk:mozzarella-cheddar-bites-x-5",
+   "name": "Mozzarella & Cheddar Bites x 5",
+   "brand": "Subway",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 75.0,
+   "menu": true,
+   "source": "subway-uk",
+   "nutrients": {
+    "kcal": 340.0,
+    "protein_g": 14.7,
+    "fat_g": 20.0,
+    "sat_fat_g": 8.1,
+    "carbs_g": 25.3,
+    "sugars_g": 1.7,
+    "fibre_g": 2.1,
+    "salt_g": 1.7
+   },
+   "source_url": "https://media.subway.com/dam/urn:aaid:aem:a554a040-1443-4a66-a671-7537cc9c29f4/original/as/UKIBuildsandIngredientsNutritionalInformationNovember2026AD.pdf"
+  },
+  {
+   "id": "subway-uk:chocolate-chunk-cookie",
+   "name": "Chocolate Chunk Cookie",
+   "brand": "Subway",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 45.0,
+   "menu": true,
+   "source": "subway-uk",
+   "nutrients": {
+    "kcal": 476.0,
+    "protein_g": 5.1,
+    "fat_g": 22.2,
+    "sat_fat_g": 11.3,
+    "carbs_g": 62.2,
+    "sugars_g": 35.6,
+    "fibre_g": 2.7,
+    "salt_g": 0.6
+   },
+   "source_url": "https://media.subway.com/dam/urn:aaid:aem:a554a040-1443-4a66-a671-7537cc9c29f4/original/as/UKIBuildsandIngredientsNutritionalInformationNovember2026AD.pdf"
+  },
+  {
+   "id": "subway-uk:white-macadamia-nut-cookie",
+   "name": "White Macadamia Nut Cookie",
+   "brand": "Subway",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 45.0,
+   "menu": true,
+   "source": "subway-uk",
+   "nutrients": {
+    "kcal": 478.0,
+    "protein_g": 5.1,
+    "fat_g": 22.2,
+    "sat_fat_g": 11.0,
+    "carbs_g": 60.0,
+    "sugars_g": 35.6,
+    "fibre_g": 1.0,
+    "salt_g": 0.9
+   },
+   "source_url": "https://media.subway.com/dam/urn:aaid:aem:a554a040-1443-4a66-a671-7537cc9c29f4/original/as/UKIBuildsandIngredientsNutritionalInformationNovember2026AD.pdf"
+  },
+  {
+   "id": "subway-uk:oat-and-raisin-cookie",
+   "name": "Oat and Raisin Cookie",
+   "brand": "Subway",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 45.0,
+   "menu": true,
+   "source": "subway-uk",
+   "nutrients": {
+    "kcal": 311.0,
+    "protein_g": 5.8,
+    "fat_g": 1.3,
+    "sat_fat_g": 0.2,
+    "carbs_g": 62.2,
+    "sugars_g": 31.1,
+    "fibre_g": 13.0,
+    "salt_g": 0.3
+   },
+   "source_url": "https://media.subway.com/dam/urn:aaid:aem:a554a040-1443-4a66-a671-7537cc9c29f4/original/as/UKIBuildsandIngredientsNutritionalInformationNovember2026AD.pdf"
+  },
+  {
+   "id": "mcdonalds-no:big-mac",
+   "name": "Big Mac",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 235,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 231.0,
+    "protein_g": 12.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 4.4,
+    "carbs_g": 18.0,
+    "sugars_g": 4.0,
+    "fibre_g": 1.7,
+    "salt_g": 1.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/big-mac.html"
+  },
+  {
+   "id": "mcdonalds-no:cheeseburger",
+   "name": "Cheeseburger",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 120,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 254.0,
+    "protein_g": 13.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 5.1,
+    "carbs_g": 25.0,
+    "sugars_g": 6.0,
+    "fibre_g": 1.9,
+    "salt_g": 1.3
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/cheeseburger.html"
+  },
+  {
+   "id": "mcdonalds-no:hamburger",
+   "name": "Hamburger",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 106,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 243.0,
+    "protein_g": 12.0,
+    "fat_g": 9.0,
+    "sat_fat_g": 3.5,
+    "carbs_g": 27.0,
+    "sugars_g": 7.0,
+    "fibre_g": 2.1,
+    "salt_g": 1.1
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/hamburger.html"
+  },
+  {
+   "id": "mcdonalds-no:dobbel-cheeseburger",
+   "name": "Dobbel Cheeseburger",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 178,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 257.0,
+    "protein_g": 15.0,
+    "fat_g": 14.0,
+    "sat_fat_g": 6.7,
+    "carbs_g": 18.0,
+    "sugars_g": 4.7,
+    "fibre_g": 1.3,
+    "salt_g": 1.4
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/dobbel-cheeseburger.html"
+  },
+  {
+   "id": "mcdonalds-no:mcchicken",
+   "name": "McChicken",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 198,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 234.0,
+    "protein_g": 11.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 1.2,
+    "carbs_g": 24.0,
+    "sugars_g": 4.0,
+    "fibre_g": 1.9,
+    "salt_g": 1.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/mcchicken.html"
+  },
+  {
+   "id": "mcdonalds-no:quarter-pounder",
+   "name": "Quarter Pounder",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 214,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 256.0,
+    "protein_g": 16.0,
+    "fat_g": 14.0,
+    "sat_fat_g": 6.6,
+    "carbs_g": 18.0,
+    "sugars_g": 4.7,
+    "fibre_g": 1.4,
+    "salt_g": 1.2
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/quarter-pounder.html"
+  },
+  {
+   "id": "mcdonalds-no:filet-o-fish",
+   "name": "Filet-O-Fish",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 131,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 249.4,
+    "protein_g": 11.4,
+    "fat_g": 10.7,
+    "sat_fat_g": 1.9,
+    "carbs_g": 27.5,
+    "sugars_g": 4.0,
+    "fibre_g": 1.8,
+    "salt_g": 1.1
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/filet-o-fish.html"
+  },
+  {
+   "id": "mcdonalds-no:fish-mcfeast",
+   "name": "Fish McFeast",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 223,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 194.3,
+    "protein_g": 8.1,
+    "fat_g": 8.1,
+    "sat_fat_g": 1.8,
+    "carbs_g": 21.0,
+    "sugars_g": 4.9,
+    "fibre_g": 1.7,
+    "salt_g": 1.3
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/fish-mcfeast.htm.html"
+  },
+  {
+   "id": "mcdonalds-no:mccrispy",
+   "name": "McCrispy",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 231,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 268.0,
+    "protein_g": 9.5,
+    "fat_g": 13.0,
+    "sat_fat_g": 1.7,
+    "carbs_g": 29.0,
+    "sugars_g": 4.1,
+    "fibre_g": 1.5,
+    "salt_g": 1.2
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/mccrispy.html"
+  },
+  {
+   "id": "mcdonalds-no:mcvegan",
+   "name": "McVegan",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 232,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 197.1,
+    "protein_g": 8.2,
+    "fat_g": 9.5,
+    "sat_fat_g": 0.8,
+    "carbs_g": 19.4,
+    "sugars_g": 4.7,
+    "fibre_g": 3.5,
+    "salt_g": 1.3
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/mcvegan.html"
+  },
+  {
+   "id": "mcdonalds-no:mcveggie",
+   "name": "McVeggie",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 230,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 245.0,
+    "protein_g": 8.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 2.1,
+    "carbs_g": 24.0,
+    "sugars_g": 4.0,
+    "fibre_g": 3.1,
+    "salt_g": 1.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/mcveggie.html"
+  },
+  {
+   "id": "mcdonalds-no:tasty-cheese-chicken",
+   "name": "Tasty Cheese Chicken",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 150,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 257.0,
+    "protein_g": 10.7,
+    "fat_g": 12.0,
+    "sat_fat_g": 3.0,
+    "carbs_g": 24.7,
+    "sugars_g": 3.5,
+    "fibre_g": 1.5,
+    "salt_g": 1.5
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/tasty-cheese-chicken.html"
+  },
+  {
+   "id": "mcdonalds-no:truffle-cheese-beef",
+   "name": "Truffle Cheese Beef",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 132,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 314.7,
+    "protein_g": 12.9,
+    "fat_g": 18.2,
+    "sat_fat_g": 6.2,
+    "carbs_g": 23.6,
+    "sugars_g": 4.9,
+    "fibre_g": 1.8,
+    "salt_g": 1.3
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/truffle-cheese-beef.html"
+  },
+  {
+   "id": "mcdonalds-no:supreme-burger",
+   "name": "Supreme Burger",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 137,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 281.0,
+    "protein_g": 12.0,
+    "fat_g": 15.0,
+    "sat_fat_g": 5.6,
+    "carbs_g": 23.0,
+    "sugars_g": 5.0,
+    "fibre_g": 1.6,
+    "salt_g": 1.2
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/supreme-burger.html"
+  },
+  {
+   "id": "mcdonalds-no:big-tasty",
+   "name": "Big Tasty",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 341,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 245.2,
+    "protein_g": 12.9,
+    "fat_g": 14.7,
+    "sat_fat_g": 5.6,
+    "carbs_g": 14.7,
+    "sugars_g": 3.2,
+    "fibre_g": 0.9,
+    "salt_g": 1.2
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/big-tasty.html"
+  },
+  {
+   "id": "mcdonalds-no:mcwrap-chili-chicken",
+   "name": "McWrap Chili Chicken",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 229,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 217.0,
+    "protein_g": 9.0,
+    "fat_g": 10.0,
+    "sat_fat_g": 1.3,
+    "carbs_g": 22.0,
+    "sugars_g": 2.0,
+    "fibre_g": 1.6,
+    "salt_g": 1.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/mcwrap-chili-chicken.html"
+  },
+  {
+   "id": "mcdonalds-no:chicken-mcnuggets-6pk",
+   "name": "Chicken McNuggets 6pk",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 114,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 241.0,
+    "protein_g": 15.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 1.4,
+    "carbs_g": 19.0,
+    "sugars_g": 1.0,
+    "fibre_g": 0.9,
+    "salt_g": 1.1
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/chicken-mcnuggets-6pk.html"
+  },
+  {
+   "id": "mcdonalds-no:chicken-mcnuggets-9pk",
+   "name": "Chicken McNuggets 9pk",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 171,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 242.0,
+    "protein_g": 15.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 1.4,
+    "carbs_g": 19.0,
+    "sugars_g": 1.0,
+    "fibre_g": 0.9,
+    "salt_g": 1.1
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/chicken-mcnuggets-9pk.html"
+  },
+  {
+   "id": "mcdonalds-no:taco-chicken-strips-4pk",
+   "name": "Taco Chicken Strips (4pk)",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 66,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 241.0,
+    "protein_g": 14.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 1.2,
+    "carbs_g": 20.0,
+    "sugars_g": 0.0,
+    "fibre_g": 2.3,
+    "salt_g": 1.4
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/taco-chicken-strips-4pk.html"
+  },
+  {
+   "id": "mcdonalds-no:eplepai",
+   "name": "Eplepai",
+   "brand": "McDonald's",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 80,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 284.0,
+    "protein_g": 2.9,
+    "fat_g": 15.0,
+    "sat_fat_g": 3.5,
+    "carbs_g": 35.0,
+    "sugars_g": 11.0,
+    "fibre_g": 1.9,
+    "salt_g": 0.4
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/eplepai.html"
+  },
+  {
+   "id": "mcdonalds-no:cookie",
+   "name": "Cookie",
+   "brand": "McDonald's",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 76,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 489.5,
+    "protein_g": 5.1,
+    "fat_g": 25.0,
+    "sat_fat_g": 14.5,
+    "carbs_g": 60.5,
+    "sugars_g": 36.8,
+    "fibre_g": 2.6,
+    "salt_g": 0.6
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/cookie.html"
+  },
+  {
+   "id": "mcdonalds-no:mcdonut-sjokolade",
+   "name": "McDonut Sjokolade",
+   "brand": "McDonald's",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 54,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 364.8,
+    "protein_g": 6.1,
+    "fat_g": 20.4,
+    "sat_fat_g": 9.4,
+    "carbs_g": 38.9,
+    "sugars_g": 9.6,
+    "fibre_g": 2.0,
+    "salt_g": 0.9
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/mcdonut-sjokolade.html"
+  },
+  {
+   "id": "mcdonalds-no:mcflurry-oreo",
+   "name": "McFlurry Oreo",
+   "brand": "McDonald's",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 175,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 174.3,
+    "protein_g": 3.7,
+    "fat_g": 5.3,
+    "sat_fat_g": 3.1,
+    "carbs_g": 28.0,
+    "sugars_g": 22.3,
+    "fibre_g": 0.2,
+    "salt_g": 0.1
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/mcflurry-oreo.html"
+  },
+  {
+   "id": "mcdonalds-no:mcflurry-daim",
+   "name": "McFlurry Daim",
+   "brand": "McDonald's",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 181,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 194.0,
+    "protein_g": 3.0,
+    "fat_g": 8.0,
+    "sat_fat_g": 4.4,
+    "carbs_g": 28.0,
+    "sugars_g": 25.0,
+    "fibre_g": 0.2,
+    "salt_g": 0.2
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/mcflurry-daim.html"
+  },
+  {
+   "id": "mcdonalds-no:klementin",
+   "name": "Klementin",
+   "brand": "McDonald's",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 96,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 44.8,
+    "protein_g": 0.8,
+    "fat_g": 0.2,
+    "sat_fat_g": 0.0,
+    "carbs_g": 9.2,
+    "sugars_g": 9.2,
+    "fibre_g": 1.7,
+    "salt_g": 0.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/klementin.html"
+  },
+  {
+   "id": "mcdonalds-no:coca-cola-medium",
+   "name": "Coca-Cola Medium",
+   "brand": "McDonald's",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 40.9,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 10.1,
+    "sugars_g": 10.1,
+    "fibre_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/coca-cola-medium.html"
+  },
+  {
+   "id": "mcdonalds-no:coca-cola-zero-medium",
+   "name": "Coca-Cola Zero Medium",
+   "brand": "McDonald's",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 0.5,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/coca-cola-zero-medium.html"
+  },
+  {
+   "id": "mcdonalds-no:big-arch",
+   "name": "Big Arch",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 404,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 269.0,
+    "protein_g": 15.0,
+    "fat_g": 17.0,
+    "sat_fat_g": 6.9,
+    "carbs_g": 13.0,
+    "sugars_g": 4.0,
+    "fibre_g": 1.0,
+    "salt_g": 1.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/big-arch.html"
+  },
+  {
+   "id": "mcdonalds-no:double-big-tasty-bacon",
+   "name": "Double Big Tasty Bacon",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 401,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 258.0,
+    "protein_g": 15.0,
+    "fat_g": 17.0,
+    "sat_fat_g": 6.7,
+    "carbs_g": 12.0,
+    "sugars_g": 2.7,
+    "fibre_g": 0.7,
+    "salt_g": 1.3
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/dobbel-big-tast-bacon.html"
+  },
+  {
+   "id": "mcdonalds-no:big-tasty-bacon",
+   "name": "Big Tasty Bacon",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 314,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 247.0,
+    "protein_g": 14.0,
+    "fat_g": 16.0,
+    "sat_fat_g": 5.7,
+    "carbs_g": 12.0,
+    "sugars_g": 3.1,
+    "fibre_g": 1.1,
+    "salt_g": 1.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/big-tasty-bacon-beef.html"
+  },
+  {
+   "id": "mcdonalds-no:dobbel-quarter-pounder",
+   "name": "Dobbel Quarter Pounder",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 304,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 262.8,
+    "protein_g": 17.8,
+    "fat_g": 15.5,
+    "sat_fat_g": 7.2,
+    "carbs_g": 12.5,
+    "sugars_g": 3.3,
+    "fibre_g": 1.0,
+    "salt_g": 1.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/dobbel-quarter-pounder.html"
+  },
+  {
+   "id": "mcdonalds-no:mcfeast",
+   "name": "McFeast",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 259,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 217.0,
+    "protein_g": 12.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 4.6,
+    "carbs_g": 15.0,
+    "sugars_g": 4.3,
+    "fibre_g": 1.4,
+    "salt_g": 0.9
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/mcfeast.html"
+  },
+  {
+   "id": "mcdonalds-no:hamburger-crisp",
+   "name": "Hamburger Crisp",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 123,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 214.0,
+    "protein_g": 11.0,
+    "fat_g": 7.0,
+    "sat_fat_g": 3.0,
+    "carbs_g": 24.0,
+    "sugars_g": 7.0,
+    "fibre_g": 2.0,
+    "salt_g": 1.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/hamburger-crisp.html"
+  },
+  {
+   "id": "mcdonalds-no:chicken-salsa",
+   "name": "Chicken Salsa",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 143,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 248.0,
+    "protein_g": 9.8,
+    "fat_g": 11.0,
+    "sat_fat_g": 1.5,
+    "carbs_g": 27.0,
+    "sugars_g": 5.1,
+    "fibre_g": 1.9,
+    "salt_g": 1.2
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/chicken-salsa.html"
+  },
+  {
+   "id": "mcdonalds-no:big-chicken-salsa",
+   "name": "Big Chicken Salsa",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 207,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 236.0,
+    "protein_g": 11.0,
+    "fat_g": 10.0,
+    "sat_fat_g": 1.4,
+    "carbs_g": 26.0,
+    "sugars_g": 5.0,
+    "fibre_g": 2.1,
+    "salt_g": 1.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/big-chicken-salsa.html"
+  },
+  {
+   "id": "mcdonalds-no:mccrispy-deluxe",
+   "name": "McCrispy Deluxe",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 286,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 236.0,
+    "protein_g": 8.8,
+    "fat_g": 11.0,
+    "sat_fat_g": 2.3,
+    "carbs_g": 24.0,
+    "sugars_g": 3.9,
+    "fibre_g": 1.4,
+    "salt_g": 1.2
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/mccrispy-deluxe.html"
+  },
+  {
+   "id": "mcdonalds-no:chicken-mcfeast",
+   "name": "Chicken McFeast",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 255,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 203.0,
+    "protein_g": 9.0,
+    "fat_g": 9.0,
+    "sat_fat_g": 1.8,
+    "carbs_g": 21.0,
+    "sugars_g": 4.0,
+    "fibre_g": 1.8,
+    "salt_g": 1.1
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/chicken-mcfeast.html"
+  },
+  {
+   "id": "mcdonalds-no:mcveggie-spicy",
+   "name": "McVeggie Spicy",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 241,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 240.0,
+    "protein_g": 8.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 2.0,
+    "carbs_g": 23.0,
+    "sugars_g": 4.0,
+    "fibre_g": 3.0,
+    "salt_g": 1.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/mcveggie-spicy.html"
+  },
+  {
+   "id": "mcdonalds-no:veggie-nuggets-6-pk",
+   "name": "Veggie Nuggets 6 pk",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 110,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 305.0,
+    "protein_g": 12.0,
+    "fat_g": 17.0,
+    "sat_fat_g": 1.4,
+    "carbs_g": 24.0,
+    "sugars_g": 1.1,
+    "fibre_g": 4.6,
+    "salt_g": 1.3
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/vegetar-nuggets-6pk.html"
+  },
+  {
+   "id": "mcdonalds-no:mcwrap-salsa-chicken",
+   "name": "McWrap Salsa Chicken",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 250,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 217.0,
+    "protein_g": 8.7,
+    "fat_g": 9.7,
+    "sat_fat_g": 1.4,
+    "carbs_g": 22.7,
+    "sugars_g": 3.6,
+    "fibre_g": 1.6,
+    "salt_g": 1.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/mcwrap-chicken-salsa.html"
+  },
+  {
+   "id": "mcdonalds-no:mcwrap-classic-chicken",
+   "name": "McWrap Classic Chicken",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 218,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 222.0,
+    "protein_g": 9.6,
+    "fat_g": 9.8,
+    "sat_fat_g": 1.4,
+    "carbs_g": 23.0,
+    "sugars_g": 1.3,
+    "fibre_g": 1.6,
+    "salt_g": 1.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/mcwrap-chicken.html"
+  },
+  {
+   "id": "mcdonalds-no:hot-wings",
+   "name": "Hot Wings",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 84,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 284.5,
+    "protein_g": 23.8,
+    "fat_g": 17.9,
+    "sat_fat_g": 3.2,
+    "carbs_g": 5.2,
+    "sugars_g": 0.1,
+    "fibre_g": 1.0,
+    "salt_g": 1.3
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/hot-wings.html"
+  },
+  {
+   "id": "mcdonalds-no:chili-cheese-tops-4-pk",
+   "name": "Chili Cheese Tops 4 pk",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 70,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 255.7,
+    "protein_g": 10.6,
+    "fat_g": 13.6,
+    "sat_fat_g": 4.6,
+    "carbs_g": 22.9,
+    "sugars_g": 4.6,
+    "fibre_g": 1.0,
+    "salt_g": 1.9
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/chili-cheese-tops-4pk.html"
+  },
+  {
+   "id": "mcdonalds-no:macfries-medium",
+   "name": "MacFries medium",
+   "brand": "McDonald's",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 114,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 286.8,
+    "protein_g": 3.6,
+    "fat_g": 13.2,
+    "sat_fat_g": 1.3,
+    "carbs_g": 36.0,
+    "sugars_g": 0.3,
+    "fibre_g": 3.6,
+    "salt_g": 0.4
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/macfries-medium.html"
+  },
+  {
+   "id": "mcdonalds-no:s-tpotet-fries-medium",
+   "name": "Søtpotet Fries medium",
+   "brand": "McDonald's",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 135,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 243.0,
+    "protein_g": 2.9,
+    "fat_g": 12.6,
+    "sat_fat_g": 1.2,
+    "carbs_g": 27.4,
+    "sugars_g": 12.6,
+    "fibre_g": 4.7,
+    "salt_g": 0.5
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/sotpotet-fries-medium.html"
+  },
+  {
+   "id": "mcdonalds-no:hvitl-k-dip",
+   "name": "Hvitløk Dip",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 23,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 654.9,
+    "protein_g": 1.3,
+    "fat_g": 70.3,
+    "sat_fat_g": 5.7,
+    "carbs_g": 3.1,
+    "sugars_g": 1.8,
+    "fibre_g": 0.4,
+    "salt_g": 1.1
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/hvitlk-dip.html"
+  },
+  {
+   "id": "mcdonalds-no:chili-mayo",
+   "name": "Chili Mayo",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 25,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 391.0,
+    "protein_g": 0.8,
+    "fat_g": 37.9,
+    "sat_fat_g": 3.3,
+    "carbs_g": 12.2,
+    "sugars_g": 10.2,
+    "fibre_g": 0.4,
+    "salt_g": 1.9
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/chili-dip.html"
+  },
+  {
+   "id": "mcdonalds-no:hot-chili-dip",
+   "name": "Hot Chili Dip",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 29,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 139.1,
+    "protein_g": 1.0,
+    "fat_g": 0.3,
+    "sat_fat_g": 0.0,
+    "carbs_g": 32.0,
+    "sugars_g": 25.7,
+    "fibre_g": 1.0,
+    "salt_g": 2.6
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/hot-chili-dip.html"
+  },
+  {
+   "id": "mcdonalds-no:cheddar-dip",
+   "name": "Cheddar Dip",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 24,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 397.0,
+    "protein_g": 3.3,
+    "fat_g": 41.0,
+    "sat_fat_g": 4.1,
+    "carbs_g": 5.0,
+    "sugars_g": 3.7,
+    "fibre_g": 0.4,
+    "salt_g": 3.1
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/cheddar-dip.html"
+  },
+  {
+   "id": "mcdonalds-no:mcfeast-dip-majones",
+   "name": "McFeast Dip (Majones)",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 25,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 364.0,
+    "protein_g": 0.8,
+    "fat_g": 37.6,
+    "sat_fat_g": 3.2,
+    "carbs_g": 6.0,
+    "sugars_g": 1.6,
+    "fibre_g": 0.4,
+    "salt_g": 1.9
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/mcfeast-dip.html"
+  },
+  {
+   "id": "mcdonalds-no:surs-t-dip",
+   "name": "Sursøt Dip",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 29,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 173.0,
+    "protein_g": 0.3,
+    "fat_g": 1.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 41.0,
+    "sugars_g": 33.0,
+    "fibre_g": 0.0,
+    "salt_g": 1.1
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/surst-dip.html"
+  },
+  {
+   "id": "mcdonalds-no:bbq-dip",
+   "name": "BBQ Dip",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 29,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 171.2,
+    "protein_g": 1.0,
+    "fat_g": 1.4,
+    "sat_fat_g": 0.0,
+    "carbs_g": 37.7,
+    "sugars_g": 31.8,
+    "fibre_g": 1.4,
+    "salt_g": 1.9
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/bbq-dip.html"
+  },
+  {
+   "id": "mcdonalds-no:karri-dip",
+   "name": "Karri Dip",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 30,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 161.6,
+    "protein_g": 1.0,
+    "fat_g": 1.7,
+    "sat_fat_g": 0.0,
+    "carbs_g": 33.7,
+    "sugars_g": 25.3,
+    "fibre_g": 0.7,
+    "salt_g": 1.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/karri-dip.html"
+  },
+  {
+   "id": "mcdonalds-no:sennep-dip",
+   "name": "Sennep Dip",
+   "brand": "McDonald's",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 25,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 220.0,
+    "protein_g": 2.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 1.2,
+    "carbs_g": 26.0,
+    "sugars_g": 19.6,
+    "fibre_g": 0.0,
+    "salt_g": 1.8
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/sennep-dip.html"
+  },
+  {
+   "id": "mcdonalds-no:fanta-zero-medium",
+   "name": "Fanta Zero medium",
+   "brand": "McDonald's",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 3.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 1.0,
+    "sugars_g": 1.0,
+    "fibre_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/fanta-zero-m.html"
+  },
+  {
+   "id": "mcdonalds-no:fanta-exotic-medium",
+   "name": "Fanta Exotic medium",
+   "brand": "McDonald's",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 51.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 12.6,
+    "sugars_g": 12.6,
+    "fibre_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/fanta-exotic-medium.html"
+  },
+  {
+   "id": "mcdonalds-no:sweet-spicy-x-sprite-zero-medium",
+   "name": "Sweet & Spicy X Sprite Zero medium",
+   "brand": "McDonald's",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 1.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/sweet-spicy-x-sprite-zero-medium.html"
+  },
+  {
+   "id": "mcdonalds-no:sprite-zero-medium",
+   "name": "Sprite Zero medium",
+   "brand": "McDonald's",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 1.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/sprite-zero-medium.html"
+  },
+  {
+   "id": "mcdonalds-no:god-morgon-appelsinjuice",
+   "name": "God Morgon Appelsinjuice",
+   "brand": "McDonald's",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 45.0,
+    "protein_g": 0.7,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.0,
+    "carbs_g": 9.2,
+    "sugars_g": 9.2,
+    "fibre_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/god-morgen-juice-appelsin.html"
+  },
+  {
+   "id": "mcdonalds-no:god-morgon-eplejuice",
+   "name": "God Morgon Eplejuice",
+   "brand": "McDonald's",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 45.0,
+    "protein_g": 0.5,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.0,
+    "carbs_g": 10.0,
+    "sugars_g": 10.0,
+    "fibre_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/god-morgen-juice-eple.html"
+  },
+  {
+   "id": "mcdonalds-no:lettmelk-0-5-250-ml",
+   "name": "Lettmelk 0,5% (250 ml)",
+   "brand": "McDonald's",
+   "category": "dairy_eggs",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 37.0,
+    "protein_g": 3.7,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.3,
+    "carbs_g": 4.7,
+    "sugars_g": 4.7,
+    "fibre_g": 0.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/lettmelk-250ml.html"
+  },
+  {
+   "id": "mcdonalds-no:milkshake-jordb-r-medium",
+   "name": "Milkshake Jordbær medium",
+   "brand": "McDonald's",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 113.0,
+    "protein_g": 3.2,
+    "fat_g": 2.2,
+    "sat_fat_g": 1.5,
+    "carbs_g": 21.0,
+    "sugars_g": 18.0,
+    "fibre_g": 0.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/milkshake-jordbaer-medium.html"
+  },
+  {
+   "id": "mcdonalds-no:milkshake-vanilje-medium",
+   "name": "Milkshake Vanilje medium",
+   "brand": "McDonald's",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 112.0,
+    "protein_g": 3.2,
+    "fat_g": 2.2,
+    "sat_fat_g": 1.5,
+    "carbs_g": 21.0,
+    "sugars_g": 18.0,
+    "fibre_g": 0.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/milkshake-vanilje-medium.html"
+  },
+  {
+   "id": "mcdonalds-no:milkshake-sjokolade-medium",
+   "name": "Milkshake Sjokolade medium",
+   "brand": "McDonald's",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 114.0,
+    "protein_g": 3.5,
+    "fat_g": 2.4,
+    "sat_fat_g": 1.6,
+    "carbs_g": 20.0,
+    "sugars_g": 17.0,
+    "fibre_g": 0.3,
+    "salt_g": 0.2
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/milkshake-sjokolade-medium.html"
+  },
+  {
+   "id": "mcdonalds-no:kanelbolle",
+   "name": "Kanelbolle",
+   "brand": "McDonald's",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 75,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 365.0,
+    "protein_g": 7.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 4.5,
+    "carbs_g": 56.0,
+    "sugars_g": 23.0,
+    "fibre_g": 2.7,
+    "salt_g": 0.7
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/kanelbolle.html"
+  },
+  {
+   "id": "mcdonalds-no:sjokolade-muffin",
+   "name": "Sjokolade Muffin",
+   "brand": "McDonald's",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 425.0,
+    "protein_g": 5.6,
+    "fat_g": 23.0,
+    "sat_fat_g": 4.2,
+    "carbs_g": 47.0,
+    "sugars_g": 28.0,
+    "fibre_g": 2.0,
+    "salt_g": 1.2
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/sjokolade-muffins.html"
+  },
+  {
+   "id": "mcdonalds-no:mcdonut-sukker-donut-sukker",
+   "name": "McDonut Sukker (Donut Sukker)",
+   "brand": "McDonald's",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 50,
+   "menu": true,
+   "source": "mcdonalds-no",
+   "nutrients": {
+    "kcal": 336.0,
+    "protein_g": 6.6,
+    "fat_g": 14.6,
+    "sat_fat_g": 6.2,
+    "carbs_g": 44.0,
+    "sugars_g": 13.0,
+    "fibre_g": 1.8,
+    "salt_g": 0.7
+   },
+   "source_url": "https://www.mcdonalds.com/no/nb-no/produkt/mcdonut-sukker.html"
+  },
+  {
+   "id": "max-burgers:grand-chili-cheese-crispy-chicken",
+   "name": "Grand Chili Cheese Crispy Chicken",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 328.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 257.0,
+    "protein_g": 9.0,
+    "fat_g": 14.0,
+    "sat_fat_g": 2.8,
+    "carbs_g": 23.0,
+    "sugars_g": 3.3,
+    "fibre_g": 1.4,
+    "salt_g": 1.4
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:grand-chili-cheese-crispy-supreme",
+   "name": "Grand Chili Cheese Crispy Supreme",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 357.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 280.0,
+    "protein_g": 8.9,
+    "fat_g": 17.0,
+    "sat_fat_g": 3.1,
+    "carbs_g": 21.0,
+    "sugars_g": 2.3,
+    "fibre_g": 2.0,
+    "salt_g": 1.4
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:grand-chili-cheese-plant-beef",
+   "name": "Grand Chili Cheese Plant Beef",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 317.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 277.0,
+    "protein_g": 10.0,
+    "fat_g": 17.0,
+    "sat_fat_g": 6.5,
+    "carbs_g": 19.0,
+    "sugars_g": 2.8,
+    "fibre_g": 1.7,
+    "salt_g": 1.2
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:onion-mayonnaise-dip",
+   "name": "Onion mayonnaise dip",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 35.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 609.0,
+    "protein_g": 1.0,
+    "fat_g": 65.0,
+    "sat_fat_g": 4.8,
+    "carbs_g": 4.6,
+    "sugars_g": 3.0,
+    "fibre_g": 0.0,
+    "salt_g": 1.4
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:fish-deluxe-parmesan",
+   "name": "Fish Deluxe Parmesan",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 289.2,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 235.0,
+    "protein_g": 9.4,
+    "fat_g": 13.5,
+    "sat_fat_g": 2.4,
+    "carbs_g": 18.7,
+    "sugars_g": 2.1,
+    "fibre_g": 0.7,
+    "salt_g": 0.7
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:fish-deluxe-buffalo",
+   "name": "Fish Deluxe Buffalo",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 272.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 230.0,
+    "protein_g": 7.9,
+    "fat_g": 12.9,
+    "sat_fat_g": 1.0,
+    "carbs_g": 20.2,
+    "sugars_g": 2.3,
+    "fibre_g": 0.7,
+    "salt_g": 1.0
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:salad-wrap-burger",
+   "name": "Salad Wrap Burger",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 285.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 194.4,
+    "protein_g": 9.2,
+    "fat_g": 15.9,
+    "sat_fat_g": 6.6,
+    "carbs_g": 3.6,
+    "sugars_g": 1.9,
+    "fibre_g": 0.4,
+    "salt_g": 0.9
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:maxoumi",
+   "name": "Maxoumi",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 210.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 284.0,
+    "protein_g": 9.5,
+    "fat_g": 19.3,
+    "sat_fat_g": 5.7,
+    "carbs_g": 17.6,
+    "sugars_g": 4.3,
+    "fibre_g": 1.0,
+    "salt_g": 1.1
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:dobbel-maxoumi",
+   "name": "Dobbel Maxoumi",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 270.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 310.0,
+    "protein_g": 12.5,
+    "fat_g": 22.6,
+    "sat_fat_g": 8.2,
+    "carbs_g": 14.0,
+    "sugars_g": 3.6,
+    "fibre_g": 0.8,
+    "salt_g": 1.4
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:crispy-supreme-parmesan",
+   "name": "Crispy Supreme Parmesan",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 253.2,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 294.0,
+    "protein_g": 10.4,
+    "fat_g": 19.8,
+    "sat_fat_g": 3.4,
+    "carbs_g": 18.7,
+    "sugars_g": 2.3,
+    "fibre_g": 1.9,
+    "salt_g": 1.1
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:crispy-supreme-buffalo",
+   "name": "Crispy Supreme Buffalo",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 244.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 279.0,
+    "protein_g": 8.4,
+    "fat_g": 18.5,
+    "sat_fat_g": 1.7,
+    "carbs_g": 20.0,
+    "sugars_g": 2.7,
+    "fibre_g": 2.0,
+    "salt_g": 1.4
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:salad-wrap-plant-beef",
+   "name": "Salad Wrap Plant Beef",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 338.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 218.0,
+    "protein_g": 12.3,
+    "fat_g": 15.7,
+    "sat_fat_g": 8.6,
+    "carbs_g": 6.9,
+    "sugars_g": 1.8,
+    "fibre_g": 0.1,
+    "salt_g": 0.9
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:mung-bean-burger",
+   "name": "Mung Bean Burger",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 262.2,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 222.07,
+    "protein_g": 6.92,
+    "fat_g": 10.11,
+    "sat_fat_g": 1.7,
+    "carbs_g": 23.63,
+    "sugars_g": 2.82,
+    "fibre_g": 3.14,
+    "salt_g": 0.93
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:dobbel-original-plant-beef",
+   "name": "Dobbel Original Plant Beef",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 365.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 261.2,
+    "protein_g": 12.2,
+    "fat_g": 17.7,
+    "sat_fat_g": 7.2,
+    "carbs_g": 12.7,
+    "sugars_g": 1.2,
+    "fibre_g": 1.5,
+    "salt_g": 0.8
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:crispy-green-nuggets-9-st",
+   "name": "Crispy Green Nuggets 9 st",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 171.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 386.0,
+    "protein_g": 17.2,
+    "fat_g": 26.5,
+    "sat_fat_g": 2.5,
+    "carbs_g": 20.1,
+    "sugars_g": 0.7,
+    "fibre_g": 3.6,
+    "salt_g": 2.0
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:crispy-green-nuggets-6-st",
+   "name": "Crispy Green Nuggets 6 st",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 92.4,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 357.0,
+    "protein_g": 15.9,
+    "fat_g": 24.5,
+    "sat_fat_g": 2.3,
+    "carbs_g": 18.6,
+    "sugars_g": 0.6,
+    "fibre_g": 3.3,
+    "salt_g": 1.8
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:grand-chicken-parmesan",
+   "name": "Grand Chicken Parmesan",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 296.2,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 262.0,
+    "protein_g": 11.0,
+    "fat_g": 16.1,
+    "sat_fat_g": 2.7,
+    "carbs_g": 18.2,
+    "sugars_g": 1.9,
+    "fibre_g": 0.7,
+    "salt_g": 1.0
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:grand-chicken-buffalo",
+   "name": "Grand Chicken Buffalo",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 290.5,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 250.0,
+    "protein_g": 9.3,
+    "fat_g": 15.1,
+    "sat_fat_g": 1.3,
+    "carbs_g": 18.9,
+    "sugars_g": 2.2,
+    "fibre_g": 0.7,
+    "salt_g": 1.3
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:grilled-chicken-parmesan",
+   "name": "Grilled Chicken Parmesan",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 267.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 220.0,
+    "protein_g": 12.0,
+    "fat_g": 13.0,
+    "sat_fat_g": 3.2,
+    "carbs_g": 13.0,
+    "sugars_g": 2.2,
+    "fibre_g": 1.2,
+    "salt_g": 1.2
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:grilled-chicken-buffalo",
+   "name": "Grilled Chicken Buffalo",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 267.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 203.0,
+    "protein_g": 9.6,
+    "fat_g": 12.0,
+    "sat_fat_g": 1.6,
+    "carbs_g": 14.0,
+    "sugars_g": 2.5,
+    "fibre_g": 1.1,
+    "salt_g": 1.5
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:chicken-jr",
+   "name": "Chicken Jr.",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 125.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 237.86,
+    "protein_g": 9.55,
+    "fat_g": 11.89,
+    "sat_fat_g": 1.31,
+    "carbs_g": 23.04,
+    "sugars_g": 2.26,
+    "fibre_g": 0.92,
+    "salt_g": 0.96
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:green-kale-caesar-bowl",
+   "name": "Green Kale Caesar Bowl",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 380.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 248.0,
+    "protein_g": 11.5,
+    "fat_g": 12.2,
+    "sat_fat_g": 2.0,
+    "carbs_g": 24.0,
+    "sugars_g": 3.1,
+    "fibre_g": 2.4,
+    "salt_g": 1.2
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:sesame-ginger-bowl",
+   "name": "Sesame & Ginger Bowl",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 417.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 195.0,
+    "protein_g": 9.2,
+    "fat_g": 7.1,
+    "sat_fat_g": 0.7,
+    "carbs_g": 24.0,
+    "sugars_g": 4.5,
+    "fibre_g": 2.5,
+    "salt_g": 1.2
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:premium-shake-jordb-r-strawberry",
+   "name": "Premium Shake Jordbær (Strawberry)",
+   "brand": "MAX",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 126.0,
+    "protein_g": 3.1,
+    "fat_g": 5.3,
+    "sat_fat_g": 4.3,
+    "carbs_g": 14.0,
+    "sugars_g": 13.7,
+    "fibre_g": 0.2,
+    "salt_g": 0.2
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:premium-shake-espresso-karamell-espresso-caramel",
+   "name": "Premium Shake Espresso karamell (Espresso Caramel)",
+   "brand": "MAX",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 145.9,
+    "protein_g": 3.5,
+    "fat_g": 6.2,
+    "sat_fat_g": 4.9,
+    "carbs_g": 19.4,
+    "sugars_g": 17.1,
+    "fibre_g": 0.0,
+    "salt_g": 0.3
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:dubai-style-chocolate",
+   "name": "Dubai Style Chocolate",
+   "brand": "MAX",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 219.0,
+    "protein_g": 4.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 6.2,
+    "carbs_g": 23.0,
+    "sugars_g": 22.0,
+    "fibre_g": 0.2,
+    "salt_g": 0.2
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:strawberry-mango-boba",
+   "name": "Strawberry Mango Boba",
+   "brand": "MAX",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 63.45,
+    "protein_g": 0.01,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 12.35,
+    "sugars_g": 9.57,
+    "fibre_g": 0.13,
+    "salt_g": 0.0
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:tropical-passion-boba",
+   "name": "Tropical Passion Boba",
+   "brand": "MAX",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 63.71,
+    "protein_g": 0.02,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 11.91,
+    "sugars_g": 9.14,
+    "fibre_g": 0.13,
+    "salt_g": 0.15
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:blueberry-blizz",
+   "name": "Blueberry Blizz",
+   "brand": "MAX",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 53.0,
+    "protein_g": 0.23,
+    "fat_g": 0.23,
+    "sat_fat_g": 0.0,
+    "carbs_g": 12.0,
+    "sugars_g": 12.0,
+    "fibre_g": 0.2,
+    "salt_g": 0.01
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:strawberry-breeze",
+   "name": "Strawberry Breeze",
+   "brand": "MAX",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 54.36,
+    "protein_g": 0.23,
+    "fat_g": 0.23,
+    "sat_fat_g": 0.0,
+    "carbs_g": 12.25,
+    "sugars_g": 12.1,
+    "fibre_g": 0.23,
+    "salt_g": 0.0
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:passion-pop",
+   "name": "Passion Pop",
+   "brand": "MAX",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 45.79,
+    "protein_g": 0.24,
+    "fat_g": 0.23,
+    "sat_fat_g": 0.0,
+    "carbs_g": 10.33,
+    "sugars_g": 20.37,
+    "fibre_g": 0.24,
+    "salt_g": 0.01
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:pink-peach-premium-smoothie",
+   "name": "Pink Peach (Premium Smoothie)",
+   "brand": "MAX",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 52.88,
+    "protein_g": 0.28,
+    "fat_g": 0.15,
+    "sat_fat_g": 0.02,
+    "carbs_g": 12.05,
+    "sugars_g": 10.65,
+    "fibre_g": 1.15,
+    "salt_g": 0.0
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:mucho-mango",
+   "name": "Mucho Mango",
+   "brand": "MAX",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 47.0,
+    "protein_g": 0.6,
+    "fat_g": 0.3,
+    "sat_fat_g": 0.0,
+    "carbs_g": 9.9,
+    "sugars_g": 9.5,
+    "fibre_g": 1.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:very-berry",
+   "name": "Very Berry",
+   "brand": "MAX",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 45.0,
+    "protein_g": 0.6,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.0,
+    "carbs_g": 9.9,
+    "sugars_g": 9.4,
+    "fibre_g": 0.9,
+    "salt_g": 0.0
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:kivik-fruktdrikk-appelsin",
+   "name": "Kivik Fruktdrikk Appelsin",
+   "brand": "MAX",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 40.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 9.5,
+    "sugars_g": 9.5,
+    "fibre_g": 0.1,
+    "salt_g": 0.0
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:kivik-fruktdrikk-eple",
+   "name": "Kivik Fruktdrikk Eple",
+   "brand": "MAX",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 40.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 9.5,
+    "sugars_g": 9.5,
+    "fibre_g": 0.1,
+    "salt_g": 0.0
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:creole-fries-liten",
+   "name": "Creole fries - Liten",
+   "brand": "MAX",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 201.2,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 153.0,
+    "protein_g": 2.1,
+    "fat_g": 8.9,
+    "sat_fat_g": 0.9,
+    "carbs_g": 15.2,
+    "sugars_g": 1.6,
+    "fibre_g": 0.1,
+    "salt_g": 0.7
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:creole-fries-stor",
+   "name": "Creole fries - Stor",
+   "brand": "MAX",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 251.2,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 153.0,
+    "protein_g": 2.2,
+    "fat_g": 8.3,
+    "sat_fat_g": 0.9,
+    "carbs_g": 16.3,
+    "sugars_g": 1.4,
+    "fibre_g": 0.1,
+    "salt_g": 0.6
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:eplebiter",
+   "name": "Eplebiter",
+   "brand": "MAX",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 100.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 52.0,
+    "protein_g": 0.3,
+    "fat_g": 0.1,
+    "carbs_g": 12.4
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:bringeb-rpai",
+   "name": "Bringebærpai",
+   "brand": "MAX",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 90.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 280.0,
+    "protein_g": 3.9,
+    "fat_g": 14.0,
+    "sat_fat_g": 8.8,
+    "carbs_g": 32.0,
+    "sugars_g": 13.0,
+    "fibre_g": 1.6,
+    "salt_g": 0.5
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:smelteost-smelt-cheddardipp",
+   "name": "Smelteost (Smelt Cheddardipp)",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 30.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 140.0,
+    "protein_g": 2.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 1.5,
+    "carbs_g": 8.0,
+    "sugars_g": 2.0,
+    "fibre_g": 0.0,
+    "salt_g": 1.0
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:brooklyn-tribute",
+   "name": "Brooklyn Tribute",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 32.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 604.0,
+    "protein_g": 1.2,
+    "fat_g": 63.0,
+    "sat_fat_g": 4.7,
+    "carbs_g": 8.1,
+    "sugars_g": 6.0,
+    "fibre_g": 0.0,
+    "salt_g": 1.8
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:aiolidressing-aioli",
+   "name": "Aiolidressing (Aioli)",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 30.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 690.0,
+    "protein_g": 0.9,
+    "fat_g": 78.0,
+    "sat_fat_g": 5.9,
+    "carbs_g": 0.5,
+    "sugars_g": 0.2,
+    "fibre_g": 0.0,
+    "salt_g": 0.9
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:bearnaise",
+   "name": "Bearnaise",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 35.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 690.0,
+    "protein_g": 0.9,
+    "fat_g": 77.0,
+    "sat_fat_g": 5.8,
+    "carbs_g": 0.0,
+    "sugars_g": 0.1,
+    "fibre_g": 1.0,
+    "salt_g": 1.2
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:green-garlic",
+   "name": "Green & Garlic",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 35.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 610.0,
+    "protein_g": 1.2,
+    "fat_g": 66.0,
+    "sat_fat_g": 4.7,
+    "carbs_g": 4.3,
+    "sugars_g": 1.3,
+    "fibre_g": 1.0,
+    "salt_g": 0.9
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:original-dressing-max-original",
+   "name": "Original-dressing (MAX Original)",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 35.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 510.0,
+    "protein_g": 1.1,
+    "fat_g": 53.0,
+    "sat_fat_g": 3.9,
+    "carbs_g": 8.8,
+    "sugars_g": 6.8,
+    "fibre_g": 1.0,
+    "salt_g": 0.8
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:bbq",
+   "name": "BBQ",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 35.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 130.0,
+    "protein_g": 1.1,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.2,
+    "carbs_g": 31.0,
+    "sugars_g": 28.0,
+    "fibre_g": 0.0,
+    "salt_g": 0.9
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:hot-creole",
+   "name": "Hot Creole",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 35.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 480.0,
+    "protein_g": 0.8,
+    "fat_g": 48.0,
+    "sat_fat_g": 3.4,
+    "carbs_g": 13.4,
+    "sugars_g": 11.0,
+    "fibre_g": 1.0,
+    "salt_g": 1.7
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:sweet-sour",
+   "name": "Sweet & Sour",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 35.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 120.0,
+    "protein_g": 0.3,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 28.0,
+    "sugars_g": 25.0,
+    "fibre_g": 1.0,
+    "salt_g": 1.6
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:sourcream-pepper",
+   "name": "Sourcream & pepper",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 40.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 610.0,
+    "protein_g": 0.8,
+    "fat_g": 67.0,
+    "sat_fat_g": 5.4,
+    "carbs_g": 3.3,
+    "sugars_g": 2.0,
+    "fibre_g": 0.0,
+    "salt_g": 1.4
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:honey-curry",
+   "name": "Honey Curry",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 35.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 490.0,
+    "protein_g": 1.3,
+    "fat_g": 46.0,
+    "sat_fat_g": 3.2,
+    "carbs_g": 19.0,
+    "sugars_g": 17.0,
+    "fibre_g": 1.0,
+    "salt_g": 1.6
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:umamidressing-umami",
+   "name": "Umamidressing (Umami)",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 30.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 650.0,
+    "protein_g": 0.9,
+    "fat_g": 69.0,
+    "sat_fat_g": 5.6,
+    "carbs_g": 3.3,
+    "sugars_g": 3.1,
+    "fibre_g": 0.0,
+    "salt_g": 1.4
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:plantebasert-majones",
+   "name": "Plantebasert majones",
+   "brand": "MAX",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [],
+   "serving_g": 30.0,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 360.0,
+    "protein_g": 0.5,
+    "fat_g": 35.0,
+    "sat_fat_g": 2.5,
+    "carbs_g": 11.0,
+    "sugars_g": 6.0,
+    "fibre_g": 0.5,
+    "salt_g": 1.1
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:iced-latte",
+   "name": "Iced Latte",
+   "brand": "MAX",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 42.86,
+    "protein_g": 3.33,
+    "fat_g": 1.43,
+    "sat_fat_g": 0.95,
+    "carbs_g": 4.68,
+    "sugars_g": 4.67,
+    "fibre_g": 0.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:iced-caramel-latte",
+   "name": "Iced caramel latte",
+   "brand": "MAX",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 95.32,
+    "protein_g": 3.08,
+    "fat_g": 1.72,
+    "sat_fat_g": 0.95,
+    "carbs_g": 17.3,
+    "sugars_g": 15.11,
+    "fibre_g": 0.0,
+    "salt_g": 0.12
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:iced-vanilla-latte",
+   "name": "Iced vanilla latte",
+   "brand": "MAX",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 67.08,
+    "protein_g": 3.06,
+    "fat_g": 1.31,
+    "sat_fat_g": 0.88,
+    "carbs_g": 11.12,
+    "sugars_g": 11.1,
+    "fibre_g": 0.0,
+    "salt_g": 0.09
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:iced-chocolate-latte",
+   "name": "Iced chocolate latte",
+   "brand": "MAX",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 92.28,
+    "protein_g": 2.93,
+    "fat_g": 1.27,
+    "sat_fat_g": 0.83,
+    "carbs_g": 17.62,
+    "sugars_g": 17.29,
+    "fibre_g": 0.28,
+    "salt_g": 0.1
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:iced-matcha-latte",
+   "name": "Iced Matcha Latte",
+   "brand": "MAX",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 67.0,
+    "protein_g": 1.3,
+    "fat_g": 2.7,
+    "sat_fat_g": 0.3,
+    "carbs_g": 7.5,
+    "sugars_g": 4.5,
+    "fibre_g": 0.9,
+    "salt_g": 0.15
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:iced-matcha-strawberry-latte",
+   "name": "Iced Matcha Strawberry Latte",
+   "brand": "MAX",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 87.0,
+    "protein_g": 1.2,
+    "fat_g": 2.5,
+    "sat_fat_g": 0.3,
+    "carbs_g": 13.0,
+    "sugars_g": 10.0,
+    "fibre_g": 0.9,
+    "salt_g": 0.14
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:iced-matcha-vanilla-latte",
+   "name": "Iced Matcha Vanilla Latte",
+   "brand": "MAX",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 87.0,
+    "protein_g": 1.2,
+    "fat_g": 2.5,
+    "sat_fat_g": 0.35,
+    "carbs_g": 13.0,
+    "sugars_g": 10.0,
+    "fibre_g": 0.9,
+    "salt_g": 0.14
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
+  },
+  {
+   "id": "max-burgers:iced-matcha-espresso-vanilla-latte",
+   "name": "Iced Matcha Espresso & Vanilla Latte",
+   "brand": "MAX",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [],
+   "serving_g": null,
+   "menu": true,
+   "source": "max-burgers",
+   "nutrients": {
+    "kcal": 84.0,
+    "protein_g": 1.2,
+    "fat_g": 2.4,
+    "sat_fat_g": 0.3,
+    "carbs_g": 13.0,
+    "sugars_g": 10.0,
+    "fibre_g": 0.8,
+    "salt_g": 0.14
+   },
+   "source_url": "https://www.maxburgers.no/var-meny/naringsinnhold/"
   }
  ],
  "common": {
@@ -71358,7 +74076,6 @@
   "store:8410076483515": 2,
   "store:8410076410115": 2,
   "store:8410076420947": 2,
-  "store:7311311021183": 2,
   "store:7311310031039": 2,
   "store:7311312002075": 2,
   "store:7311312008084": 2,
@@ -71372,9 +74089,7 @@
   "store:7038010065255": 2,
   "store:7394376615290": 2,
   "store:5711953090974": 2,
-  "store:8712566318834": 2,
   "store:8585002438065": 2,
-  "store:6416453071285": 2,
   "store:6414000020021": 3,
   "store:5701014081263": 2,
   "store:5701014063009": 2,
@@ -71450,7 +74165,6 @@
   "store:0000023235110": 2,
   "store:7027110223566": 2,
   "store:7027110222460": 2,
-  "store:8076800035650": 2,
   "store:7310130011467": 2,
   "store:3046920028004": 2,
   "store:7394376616723": 2,
@@ -71474,7 +74188,6 @@
   "store:7350028546893": 2,
   "store:8710398505996": 2,
   "store:7032890009491": 2,
-  "store:0000023602684": 2,
   "store:7310960024415": 2,
   "store:7025110046840": 2,
   "store:7025111283480": 2,
@@ -71504,7 +74217,6 @@
   "store:7025110172716": 2,
   "store:7340011316640": 2,
   "store:7300156505620": 2,
-  "store:7039770000111": 2,
   "store:7310350131020": 2,
   "store:7025110107145": 2,
   "store:7032069728628": 2,
@@ -71514,6 +74226,10 @@
   "store:7032069731284": 2,
   "store:7032069736173": 2,
   "store:7032069735206": 2,
-  "store:7032069734360": 2
+  "store:7032069734360": 2,
+  "ean:6416453072923": 2,
+  "norgesgruppen:23602684": 2,
+  "ean:8076808060654": 2,
+  "ean:7004784221241": 2
  }
 }
