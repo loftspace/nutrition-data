@@ -190,7 +190,8 @@ class Per100Unit(unittest.TestCase):
 
     def test_column(self):
         for path in (FULL, OPEN):
-            bad = q(path, "select count(*) from products where per_100_unit is null or per_100_unit not in ('g', 'ml')")[0][0]
+            # portion: a restaurant item stored per portion (Makro decision 42), only from data/checked.json
+            bad = q(path, "select count(*) from products where per_100_unit is null or per_100_unit not in ('g', 'ml', 'portion')")[0][0]
             self.assertEqual(bad, 0)
         self.assertGreater(q(FULL, "select count(*) from products where per_100_unit = 'ml'")[0][0], 1000)
 

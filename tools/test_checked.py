@@ -94,6 +94,19 @@ class ApplyTest(unittest.TestCase):
         self.run_apply({'fixes': [{'id': 'c', 'add_eans': ['7038010016745'], 'source_url': 'u'}]})
         self.assertEqual(self.kept['c']['extra_eans'], ['7038010016745'])
 
+    def test_a_menu_item_name_carries_its_chain(self):
+        self.run_apply({'add': [{'id': 'godt-brod:kanelbolle', 'name': 'Kanelbolle', 'brand': 'Godt Brød', 'category': 'bread_cereal_grain', 'unit': 'g',
+                                 'eans': [], 'menu': True, 'source': 'norgesgruppen', 'source_url': 'u',
+                                 'nutrients': {'kcal': 350, 'protein_g': 7, 'fat_g': 12, 'carbs_g': 52}}]})
+        self.assertEqual(self.kept['godt-brod:kanelbolle']['name'], 'Godt Brød Kanelbolle')
+
+    def test_a_per_portion_item_keeps_its_printed_values(self):
+        self.run_apply({'add': [{'id': 'burgerking-no:double-whopper', 'name': 'Double Whopper', 'brand': 'Burger King', 'category': 'ready_meals_sauces',
+                                 'unit': 'portion', 'eans': [], 'menu': True, 'source': 'norgesgruppen', 'source_url': 'u',
+                                 'nutrients': {'kcal': 1376, 'protein_g': 70, 'fat_g': 104, 'carbs_g': 40}}]})
+        r = self.kept['burgerking-no:double-whopper']
+        self.assertEqual((r['kcal'], r['fat_g'], self.units['burgerking-no:double-whopper']), (1376, 104, 'portion'))
+
     def test_a_null_nutrient_becomes_unknown(self):
         self.run_apply({'fixes': [{'id': 'c', 'nutrients': {'fibre_g': None}, 'source_url': 'u'}]})
         self.assertIsNone(self.kept['c']['fibre_g'])

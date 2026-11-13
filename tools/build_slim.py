@@ -143,6 +143,8 @@ SOURCES = {
     'subway-uk': ('Subway (UK numbers)', 'brand'),
     'mcdonalds-no': ("McDonald's", 'brand'),
     'peppes': ('Peppes Pizza', 'brand'),
+    # Burger King Norway prints values per portion only; stored per portion (Makro decision 42).
+    'burgerking-no': ('Burger King', 'brand'),
     'proteinbolaget': ('Proteinbolaget', 'shop'),
     'proteincompany-no': ('Protein Company', 'shop'),
     'proteinfabrikken': ('Proteinfabrikken', 'shop'),
@@ -808,7 +810,7 @@ create table products(
   flavour text,
   category text,
   serving_g real,
-  per_100_unit text not null check (per_100_unit in ('g', 'ml')),
+  per_100_unit text not null check (per_100_unit in ('g', 'ml', 'portion')),
   source text not null,
   verified integer not null check (verified in (0, 1)),
   status text,
