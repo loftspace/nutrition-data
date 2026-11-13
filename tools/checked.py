@@ -133,6 +133,12 @@ def apply(checked, kept, moved, extra_search, flags_by_id, units, stats, open_so
                 del kept[a['id']]
                 impossible.append(a['id'])
                 continue
+            # A side value larger than its parent cannot be true (BK prints 60 g sugars in 56 g carbs): unknown.
+            row = kept[a['id']]
+            if row['sugars_g'] is not None and row['carbs_g'] is not None and row['sugars_g'] > row['carbs_g'] + .5:
+                row['sugars_g'] = None
+            if row['sat_fat_g'] is not None and row['fat_g'] is not None and row['sat_fat_g'] > row['fat_g'] + .5:
+                row['sat_fat_g'] = None
             units[a['id']] = 'portion'
             extra_search[a['id']] = ' '.join(a.get('also_known_as', ()))
             continue

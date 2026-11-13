@@ -451,8 +451,11 @@ class CleanUp(unittest.TestCase):
     """tools/cleanup.py on the real list (Max, 2026-11-09)."""
 
     def test_no_impossible_numbers(self):
-        self.assertEqual(q(FULL, 'select count(*) from products where kcal > 930 or protein_g > 100.5 or fat_g > 100.5 or carbs_g > 100.5')[0][0], 0)
-        self.assertEqual(q(FULL, 'select count(*) from products where protein_g + fat_g + carbs_g > 105')[0][0], 0)
+        # Per-100 limits; a per-portion row (Makro decision 42) holds one portion's values, so it is checked on its own.
+        per100 = "per_100_unit <> 'portion' and "
+        self.assertEqual(q(FULL, 'select count(*) from products where ' + per100 + '(kcal > 930 or protein_g > 100.5 or fat_g > 100.5 or carbs_g > 100.5)')[0][0], 0)
+        self.assertEqual(q(FULL, 'select count(*) from products where ' + per100 + 'protein_g + fat_g + carbs_g > 105')[0][0], 0)
+        self.assertEqual(q(FULL, "select count(*) from products where per_100_unit = 'portion' and kcal > 3000")[0][0], 0)
 
     def test_side_values_fit_their_parent(self):
         self.assertEqual(q(FULL, 'select count(*) from products where sugars_g > carbs_g + 0.5 or sat_fat_g > fat_g + 0.5')[0][0], 0)
