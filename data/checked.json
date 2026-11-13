@@ -8,6 +8,21 @@
    "source_url": "https://meny.no/"
   },
   {
+   "id": "ean:0000023733190",
+   "add_eans": [
+    "0000023733040",
+    "0000023733140"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:0000023733756",
+   "add_eans": [
+    "0000023733706"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:0000032145700",
    "nutrients": {
     "kcal": 373.0,
@@ -97,6 +112,14 @@
    "category": "ready_meals_sauces",
    "source_url": "https://meny.no/varer//middag/pizzaretter/pizza/big-one-pizza-7039010576581",
    "name": "Big One BBQ Chicken"
+  },
+  {
+   "id": "ean:0058444459700",
+   "add_eans": [
+    "7058040459701",
+    "7058040692009"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "ean:0087666052802",
@@ -205,6 +228,286 @@
    "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/m-7622202264788"
   },
   {
+   "id": "ean:2000623900006",
+   "add_eans": [
+    "0000023022242"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2001036700009",
+   "add_eans": [
+    "0000023010367"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2301004103741",
+   "add_eans": [
+    "0000023010041"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2301004500007",
+   "add_eans": [
+    "0000023010045"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2301007000009",
+   "add_eans": [
+    "0000023010070"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2301007700008",
+   "add_eans": [
+    "0000023010077"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2301031500001",
+   "add_eans": [
+    "0000023010315"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2301073300003",
+   "add_eans": [
+    "0000023010733"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2301083800005",
+   "add_eans": [
+    "0000023010838"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2301085200001",
+   "add_eans": [
+    "0000023010852"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2301202000002",
+   "add_eans": [
+    "0000023012020"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2301202200006",
+   "add_eans": [
+    "0000023012022"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2301241000001",
+   "add_eans": [
+    "0000023012410"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2301242500005",
+   "add_eans": [
+    "0000023012425"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2301268300009",
+   "add_eans": [
+    "0000023012683"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2301310800006",
+   "add_eans": [
+    "0000023013108"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2301318100009",
+   "add_eans": [
+    "0000023013181"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2301403306088",
+   "add_eans": [
+    "0000023014033"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2301550900009",
+   "add_eans": [
+    "0000023015509"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2301585700001",
+   "add_eans": [
+    "0000023015857"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2301620100001",
+   "add_eans": [
+    "0000023012798"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2301644700003",
+   "add_eans": [
+    "0000023016447"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2302173904801",
+   "add_eans": [
+    "0000023021739"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2302689405328",
+   "add_eans": [
+    "0000023026894"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2302721609141",
+   "add_eans": [
+    "0000023027291"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2323277000008",
+   "add_eans": [
+    "0000023232770"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2323568000007",
+   "add_eans": [
+    "0000023234053",
+    "0000023234057",
+    "0000023235680",
+    "0000023235730"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2323568100004",
+   "add_eans": [
+    "0000023235681"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2323626000000",
+   "add_eans": [
+    "0000023235313",
+    "0000023235920",
+    "0000023236260"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2340221300007",
+   "add_eans": [
+    "0000023402213"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2351826012042",
+   "add_eans": [
+    "0000023518260"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2351832300003",
+   "add_eans": [
+    "0000023518323"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2365620600008",
+   "add_eans": [
+    "0000023656012",
+    "0000023656206"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2365624100009",
+   "add_eans": [
+    "0000023656241"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2365665300000",
+   "add_eans": [
+    "0000023656653"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2365673100005",
+   "add_eans": [
+    "0000023656412"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2365679300003",
+   "add_eans": [
+    "0000023656713",
+    "0000023656793"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2365681500002",
+   "add_eans": [
+    "0000023656815"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2376051403267",
+   "add_eans": [
+    "0000023701203"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:2376088213600",
    "nutrients": {
     "kcal": 48.0,
@@ -216,6 +519,13 @@
     "salt_g": 0.1
    },
    "source_url": "https://spar.no lutefisk"
+  },
+  {
+   "id": "ean:2390600301804",
+   "add_eans": [
+    "7090057870599"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "ean:2391810112648",
@@ -787,6 +1097,22 @@
    "source_url": "https://meny.no/varer//bakeri/brod/myke-pitabrod-5701014071950"
   },
   {
+   "id": "ean:5701014158361",
+   "add_eans": [
+    "5701014063658",
+    "5701014080822"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:5701073062807",
+   "add_eans": [
+    "5701073041369",
+    "5701073041635"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:5701073066362",
    "category": "other_food",
    "source_url": "https://meny.no/"
@@ -977,6 +1303,13 @@
    "id": "ean:7025050026131",
    "category": "meat_fish",
    "source_url": "https://meny.no (ean 7025050026186)"
+  },
+  {
+   "id": "ean:7025110159670",
+   "add_eans": [
+    "7037210120542"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "ean:7025168001594",
@@ -1173,12 +1506,22 @@
    "source_url": "store listing"
   },
   {
+   "id": "ean:7033352617070",
+   "add_eans": [
+    "0000023760558"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:7033352734074",
    "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/laks/laks-naturell/laks-loin-7033352770744",
    "nutrients": {
     "sugars_g": 0,
     "salt_g": 0.1
-   }
+   },
+   "add_eans": [
+    "0000023870728"
+   ]
   },
   {
    "id": "ean:7034280003201",
@@ -1285,6 +1628,20 @@
    "source_url": "https://meny.no surimi 7035620040337"
   },
   {
+   "id": "ean:7035620022296",
+   "add_eans": [
+    "7035620039690"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:7035620025921",
+   "add_eans": [
+    "7035620060977"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:7035620026379",
    "name": "Lillego Frukt&Grøt",
    "source_url": "https://meny.no/varer//barneprodukter"
@@ -1312,6 +1669,21 @@
    ]
   },
   {
+   "id": "ean:7035620038761",
+   "add_eans": [
+    "0000023656320"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:7035620039546",
+   "add_eans": [
+    "7035620027215",
+    "7035620042270"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:7035620047381",
    "sizes": [
     "360 g"
@@ -1322,6 +1694,13 @@
    "id": "ean:7035620048883",
    "category": "other_food",
    "source_url": "https://meny.no/varer//palegg-frokost/"
+  },
+  {
+   "id": "ean:7035620049125",
+   "add_eans": [
+    "7035620050350"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "ean:7035620052002",
@@ -1335,12 +1714,22 @@
    }
   },
   {
+   "id": "ean:7035620052248",
+   "add_eans": [
+    "0000023656745"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:7035620055935",
    "sizes": [
     "100 g",
     "500 g"
    ],
-   "source_url": "https://meny.no laks rokt 7035620055935"
+   "source_url": "https://meny.no laks rokt 7035620055935",
+   "add_eans": [
+    "7035620062537"
+   ]
   },
   {
    "id": "ean:7035620061134",
@@ -1351,6 +1740,14 @@
    "id": "ean:7035620062384",
    "category": "ready_meals_sauces",
    "source_url": "store listing"
+  },
+  {
+   "id": "ean:7035620063770",
+   "add_eans": [
+    "0000023656808",
+    "0000023656958"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "ean:7035620065392",
@@ -1371,6 +1768,13 @@
     "fibre_g": 0.0,
     "salt_g": 0.2
    }
+  },
+  {
+   "id": "ean:7035620071713",
+   "add_eans": [
+    "7035620073083"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "ean:7036110009773",
@@ -1559,6 +1963,13 @@
    "id": "ean:7038010008092",
    "name": "Sunniva Eplejuice",
    "source_url": "Meny via ng.py, EAN 7038010008139 (Original)"
+  },
+  {
+   "id": "ean:7038010021954",
+   "add_eans": [
+    "0000023022182"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "ean:7038010024801",
@@ -1778,7 +2189,10 @@
     "650 g",
     "700 g"
    ],
-   "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kyllingfilet/kyllingfilet-7039610012977"
+   "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kyllingfilet/kyllingfilet-7039610012977",
+   "add_eans": [
+    "0000023236330"
+   ]
   },
   {
    "id": "ean:7039610013653",
@@ -1941,6 +2355,9 @@
    "sizes": [
     "675 g",
     "750 g"
+   ],
+   "add_eans": [
+    "7044416013622"
    ]
   },
   {
@@ -2179,12 +2596,29 @@
    "source_url": "https://meny.no"
   },
   {
+   "id": "ean:7058040639103",
+   "add_eans": [
+    "7058040638700"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:7058040662903",
+   "add_eans": [
+    "0000023046792"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:7058040664204",
    "sizes": [
     "300 g",
     "800 g"
    ],
-   "source_url": "store listing"
+   "source_url": "store listing",
+   "add_eans": [
+    "7058040690500"
+   ]
   },
   {
    "id": "ean:7059720000015",
@@ -2316,6 +2750,13 @@
    "source_url": "store listing"
   },
   {
+   "id": "ean:7300400482059",
+   "add_eans": [
+    "7300400127394"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:7310100690395",
    "name": "Semper Grøt Frukt",
    "source_url": "https://meny.no/varer//barneprodukter/barnegrot"
@@ -2357,6 +2798,10 @@
     "900 g",
     "1 kg",
     "1,1 kg"
+   ],
+   "add_eans": [
+    "7044416014810",
+    "7044416014841"
    ]
   },
   {
@@ -2554,6 +2999,13 @@
    "source_url": "https://meny.no/varer/bakevarer-og-kjeks/kjeks/delicatobolle-7315360061503"
   },
   {
+   "id": "ean:7331868182229",
+   "add_eans": [
+    "7058040455208"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:7340005407040",
    "name": "OLW Cheez Ballz",
    "source_url": "store listing"
@@ -2681,6 +3133,13 @@
    "id": "ean:7394376620300",
    "name": "Oatly Havredrikk Vanilje",
    "source_url": "https://meny.no/varer//meieri-egg/plantedrikker/havredrikk-vaniljesmak-7394376620300"
+  },
+  {
+   "id": "ean:7394376620782",
+   "add_eans": [
+    "7394376665066"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "ean:7394376620799",
@@ -3063,6 +3522,13 @@
    "source_url": "store listing"
   },
   {
+   "id": "fjordland:https://www.fjordland.no/fjordland/produkter/laktosefri-risgrot-400g",
+   "add_eans": [
+    "7033330882810"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "fjordland:https://www.fjordland.no/fjordland/produkter/lasagnette-til-familien",
    "category": "ready_meals_sauces",
    "source_url": "https://meny.no/varer//middag/ferdigretter/lasagne-ferdig/lasagnette-7033330089691"
@@ -3279,6 +3745,304 @@
    "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/"
   },
   {
+   "id": "norgesgruppen:23010334",
+   "add_eans": [
+    "0000023010334"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23010737",
+   "add_eans": [
+    "0000023010737"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23011541",
+   "add_eans": [
+    "0000023011541"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23012348",
+   "add_eans": [
+    "0000023012348"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23012536",
+   "add_eans": [
+    "0000023012536"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23012559",
+   "add_eans": [
+    "0000023012559"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23012662",
+   "add_eans": [
+    "0000023012662"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23012839",
+   "add_eans": [
+    "0000023012839"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23015231",
+   "add_eans": [
+    "0000023015231"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23015245",
+   "add_eans": [
+    "0000023015245"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23015308",
+   "add_eans": [
+    "0000023015308"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23015633",
+   "add_eans": [
+    "0000023015633"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23015635",
+   "add_eans": [
+    "0000023015635"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23015772",
+   "add_eans": [
+    "0000023015772"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23016235",
+   "add_eans": [
+    "0000023016235"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23016580",
+   "add_eans": [
+    "0000023016580",
+    "0000023016581"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23518140",
+   "add_eans": [
+    "0000023518140"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23518354",
+   "add_eans": [
+    "0000023518354"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23656041",
+   "add_eans": [
+    "0000023656041"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23656150",
+   "add_eans": [
+    "0000023656150"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23656381",
+   "add_eans": [
+    "0000023656381"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23656384",
+   "add_eans": [
+    "0000023656384"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23656401",
+   "add_eans": [
+    "0000023656401"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23656507",
+   "add_eans": [
+    "0000023656507"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23656592",
+   "add_eans": [
+    "0000023656592"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23656600",
+   "add_eans": [
+    "0000023656600"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23656788",
+   "add_eans": [
+    "0000023656788"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23715817",
+   "add_eans": [
+    "0000023715817"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23733042",
+   "add_eans": [
+    "0000023733042",
+    "0000023733141"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23733248",
+   "add_eans": [
+    "0000023733248"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23760965",
+   "add_eans": [
+    "0000023760965"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23800412",
+   "add_eans": [
+    "0000023800412",
+    "0000023800414"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23800448",
+   "add_eans": [
+    "0000023800448"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23862001",
+   "add_eans": [
+    "0000023862001"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23862003",
+   "add_eans": [
+    "0000023862003"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23870712",
+   "add_eans": [
+    "0000023870712"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23870713",
+   "add_eans": [
+    "0000023870713"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23875602",
+   "add_eans": [
+    "0000023875602",
+    "0000023875606"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23875603",
+   "add_eans": [
+    "0000023875603"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23903414",
+   "add_eans": [
+    "0000023903414"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23914601",
+   "add_eans": [
+    "0000023914601"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23914602",
+   "add_eans": [
+    "0000023914602"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "norgesgruppen:24000146643",
    "name": "Del Monte Ananas i Biter",
    "source_url": "store listing",
@@ -3377,6 +4141,20 @@
    ]
   },
   {
+   "id": "synnove:https://www.synnove.no/produkt/lett-gulost-40-prosent-mindre-fett/",
+   "add_eans": [
+    "0000023826676"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "synnove:https://www.synnove.no/produkt/synnove-gaardsost-800g/",
+   "add_eans": [
+    "0000023826679"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "synnove:https://www.synnove.no/produkt/synnove-gulost/",
    "category": "dairy_eggs",
    "source_url": "Meny via ng.py",
@@ -3387,6 +4165,9 @@
     "500 g",
     "1 kg",
     "1,25 kg"
+   ],
+   "add_eans": [
+    "0000023826645"
    ]
   },
   {
@@ -3439,7 +4220,11 @@
   {
    "id": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-lettost-16-fett",
    "category": "dairy_eggs",
-   "source_url": "Our Tine row (not re-read in store)"
+   "source_url": "Our Tine row (not re-read in store)",
+   "add_eans": [
+    "0000023021675",
+    "0000023027273"
+   ]
   },
   {
    "id": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-revet",
@@ -3496,7 +4281,18 @@
     "400 g",
     "2,5 kg"
    ],
-   "source_url": "https://meny.no/varer//meieri-egg/yoghurter"
+   "source_url": "https://meny.no/varer//meieri-egg/yoghurter",
+   "add_eans": [
+    "7038010043895",
+    "7038010054471"
+   ]
+  },
+  {
+   "id": "tine:https://www.tine.no/merkevarer/tine-laktosefri/produkter/tine-laktosefri-helmelk-3-5-fett",
+   "add_eans": [
+    "7038010056765"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "tine:https://www.tine.no/merkevarer/tine-sm%C3%B8r/produkter/tine-meierism%C3%B8r",
@@ -3504,6 +4300,20 @@
    "nutrients": {
     "fibre_g": 0
    }
+  },
+  {
+   "id": "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-fersken",
+   "add_eans": [
+    "7038010055683"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-naturell-500g",
+   "add_eans": [
+    "7038010055652"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "tine:https://www.tine.no/merkevarer/tinemelk/produkter/lett-tinemelk-sjokolade",
@@ -3549,6 +4359,13 @@
    "nutrients": {
     "fibre_g": 0
    }
+  },
+  {
+   "id": "toro:https://www.toro.no/produkter/kyllingbuljong-blokk/",
+   "add_eans": [
+    "7039010550901"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "toro:https://www.toro.no/produkter/middagsris-boil-in-bag-m-villris/",
@@ -13296,6 +14113,5175 @@
     "salt_g": 1.2
    },
    "source_url": "https://meny.no/ (Fond Du Chef Kylling 4x28g Knorr, 8712566121458). Kjott 5 kcal, Gronnsak 6 kcal, Fisk 4 kcal/0.85 g salt."
+  },
+  {
+   "id": "store:7038010028106",
+   "name": "Geitost Ekte Rund",
+   "brand": "Tine",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7038010028106"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 440.0,
+    "fat_g": 27.0,
+    "sat_fat_g": 18.0,
+    "carbs_g": 36.0,
+    "sugars_g": 29.0,
+    "protein_g": 13.0,
+    "salt_g": 0.8
+   },
+   "source_url": "https://meny.no/varer//ost/brunost/geitost-ekte-rund-7038010028106"
+  },
+  {
+   "id": "store:7038010069512",
+   "name": "Gryr Havredrikk Fyldig",
+   "brand": "Tine",
+   "category": "dairy_eggs",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7038010069512"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 62.0,
+    "fat_g": 3.0,
+    "sat_fat_g": 0.3,
+    "carbs_g": 7.5,
+    "sugars_g": 4.0,
+    "protein_g": 0.8,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//meieri-egg/plantebasert-drikke/havredrikk/gryr-havredrikk-7038010069512"
+  },
+  {
+   "id": "store:7038010063534",
+   "name": "Gryr Havredrikk Naturell",
+   "brand": "Tine",
+   "category": "dairy_eggs",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7038010063534"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 40.0,
+    "fat_g": 1.5,
+    "sat_fat_g": 0.2,
+    "carbs_g": 6.7,
+    "sugars_g": 3.5,
+    "protein_g": 0.6,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//meieri-egg/plantebasert-drikke/havredrikk/gryr-havredrikk-7038010063534"
+  },
+  {
+   "id": "store:0000023026911",
+   "name": "Snøfrisk Hvit Ekte Geitost",
+   "brand": "Tine",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023026911"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 375.0,
+    "fat_g": 31.0,
+    "sat_fat_g": 20.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 24.0,
+    "salt_g": 1.2
+   },
+   "source_url": "https://meny.no/varer//ost/gulost/snofrisk-hvit-23026911"
+  },
+  {
+   "id": "store:0000023026934",
+   "name": "Norvegia Lett 16%",
+   "brand": "Tine",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023026934"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 268.0,
+    "fat_g": 16.0,
+    "sat_fat_g": 10.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 31.0,
+    "salt_g": 1.1
+   },
+   "source_url": "https://meny.no/varer//ost/gulost/norvegia-lett-16-23026934"
+  },
+  {
+   "id": "store:0000023027197",
+   "name": "Norvegia Lett 16%",
+   "brand": "Tine",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023027197"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 268.0,
+    "fat_g": 16.0,
+    "sat_fat_g": 10.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 31.0,
+    "salt_g": 1.1
+   },
+   "source_url": "https://meny.no/varer//ost/gulost/norvegia-lett-16-23027197"
+  },
+  {
+   "id": "store:7038010052606",
+   "name": "Biola Syrnet Melk Naturell",
+   "brand": "Tine",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7038010052606"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 43.0,
+    "fat_g": 1.0,
+    "sat_fat_g": 0.6,
+    "carbs_g": 4.9,
+    "sugars_g": 4.9,
+    "protein_g": 3.5,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//meieri-egg/melk/syrnet-melk-naturell/biola-syrnet-melk-7038010052606"
+  },
+  {
+   "id": "store:0000023024369",
+   "name": "Jarlsberg 28% Vellagret",
+   "brand": "Tine",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023024369"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 364.0,
+    "fat_g": 28.0,
+    "sat_fat_g": 18.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 28.0,
+    "salt_g": 1.2
+   },
+   "source_url": "https://meny.no/varer//ost/gulost/jarlsberg-28-23024369"
+  },
+  {
+   "id": "store:7038010054730",
+   "name": "Biola Syrnet Melk Blåbær",
+   "brand": "Tine",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7038010054730"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 50.0,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.0,
+    "carbs_g": 9.4,
+    "sugars_g": 9.3,
+    "protein_g": 3.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//meieri-egg/melk/syrnet-melk-smakstilsatt/biola-syrnet-melk-7038010054730"
+  },
+  {
+   "id": "store:7038010054747",
+   "name": "Biola Syrnet Melk Bringebær",
+   "brand": "Tine",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7038010054747"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 51.0,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.0,
+    "carbs_g": 9.4,
+    "sugars_g": 9.2,
+    "protein_g": 3.1,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//meieri-egg/melk/syrnet-melk-smakstilsatt/biola-syrnet-melk-7038010054747"
+  },
+  {
+   "id": "store:0000023021406",
+   "name": "Norvegia Vellagret m/Skorpe",
+   "brand": "Tine",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023021406"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 360.0,
+    "fat_g": 28.0,
+    "sat_fat_g": 18.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 27.0,
+    "salt_g": 1.2
+   },
+   "source_url": "https://meny.no/varer//ost/gulost/norvegia-vellagret-23021406"
+  },
+  {
+   "id": "store:0000023021392",
+   "name": "Norvegia m/Skorpe Ekstra Vellagret",
+   "brand": "Tine",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023021392"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 360.0,
+    "fat_g": 28.0,
+    "sat_fat_g": 18.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 27.0,
+    "salt_g": 1.2
+   },
+   "source_url": "https://meny.no/varer//ost/gulost/norvegia-m-skorpe-23021392"
+  },
+  {
+   "id": "store:7038010067341",
+   "name": "Iste Guava flaske Sunniva",
+   "brand": "Tine",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7038010067341"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 27.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 6.4,
+    "sugars_g": 6.3,
+    "protein_g": 0.0,
+    "salt_g": 0.02
+   },
+   "source_url": "https://meny.no/varer//drikke/iste/iste-guava-7038010067341"
+  },
+  {
+   "id": "store:7038010068546",
+   "name": "Iste Sitron u/Sukker flaske Sunniva",
+   "brand": "Tine",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7038010068546"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 2.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.06
+   },
+   "source_url": "https://meny.no/varer//drikke/iste/iste-sitron-7038010068546"
+  },
+  {
+   "id": "store:7038010044915",
+   "name": "Sjokoladepudding Piano",
+   "brand": "Tine",
+   "category": "snacks_sweets",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7038010044915"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 111.0,
+    "fat_g": 2.8,
+    "sat_fat_g": 1.8,
+    "carbs_g": 18.0,
+    "sugars_g": 16.0,
+    "protein_g": 3.4,
+    "salt_g": 0.11
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/dessertpuddinger/sjokoladepudding/sjokoladepudding-7038010044915"
+  },
+  {
+   "id": "store:7350068292217",
+   "name": "Propud Milkshake Fiber Strawberry/Choco",
+   "brand": "Multibev",
+   "category": "dairy_eggs",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7350068292217"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 62.0,
+    "fat_g": 1.5,
+    "sat_fat_g": 1.0,
+    "carbs_g": 4.7,
+    "sugars_g": 4.6,
+    "protein_g": 6.3,
+    "salt_g": 0.17
+   },
+   "source_url": "https://meny.no/varer//meieri-egg/melk/sjokolademelk/propud-milkshake-7350068292217"
+  },
+  {
+   "id": "store:0084253334129",
+   "name": "Risdrikk Dream Joya",
+   "brand": "Haugen - gruppen",
+   "category": "dairy_eggs",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "0084253334129"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 50.0,
+    "fat_g": 1.0,
+    "sat_fat_g": 0.1,
+    "carbs_g": 10.0,
+    "sugars_g": 7.1,
+    "fibre_g": 0.1,
+    "protein_g": 0.1,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//meieri-egg/plantebasert-drikke/risdrikk/risdrikk-84253334129"
+  },
+  {
+   "id": "store:8712800143772",
+   "name": "Chocomel",
+   "brand": "Trade and distribution",
+   "category": "dairy_eggs",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "8712800143772"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 87.0,
+    "fat_g": 2.7,
+    "sat_fat_g": 1.9,
+    "carbs_g": 12.0,
+    "sugars_g": 12.0,
+    "protein_g": 3.3,
+    "salt_g": 0.12
+   },
+   "source_url": "https://meny.no/varer//meieri-egg/melk/sjokolademelk/chocomel-8712800143772"
+  },
+  {
+   "id": "store:0020188060139",
+   "name": "Rømme Melkefri Tofutti",
+   "brand": "Midsona",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0020188060139"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 283.0,
+    "fat_g": 17.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 30.0,
+    "sugars_g": 6.7,
+    "protein_g": 3.3,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//meieri-egg/romme/romme-melkefri-20188060139"
+  },
+  {
+   "id": "store:6410222004603",
+   "name": "Oat for Cooking Original Willja",
+   "brand": "Fazer",
+   "category": "dairy_eggs",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "6410222004603"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 165.0,
+    "fat_g": 15.0,
+    "sat_fat_g": 1.1,
+    "carbs_g": 7.2,
+    "sugars_g": 4.8,
+    "fibre_g": 0.5,
+    "protein_g": 0.9,
+    "salt_g": 0.24
+   },
+   "source_url": "https://meny.no/varer//meieri-egg/flote/matflote/oat-for-cooking-6410222004603"
+  },
+  {
+   "id": "store:6430015536722",
+   "name": "Oat Cuisine Ristet Løk Aito",
+   "brand": "Fazer",
+   "category": "dairy_eggs",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "6430015536722"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 168.0,
+    "fat_g": 15.0,
+    "sat_fat_g": 1.1,
+    "carbs_g": 8.2,
+    "sugars_g": 5.0,
+    "fibre_g": 0.0,
+    "protein_g": 1.0,
+    "salt_g": 1.0
+   },
+   "source_url": "https://meny.no/varer//meieri-egg/flote/matflote/oat-cuisine-6430015536722"
+  },
+  {
+   "id": "store:6430015536746",
+   "name": "Oat Cuisine Pepper Aito",
+   "brand": "Fazer",
+   "category": "dairy_eggs",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "6430015536746"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 166.0,
+    "fat_g": 15.0,
+    "sat_fat_g": 1.1,
+    "carbs_g": 7.6,
+    "sugars_g": 4.8,
+    "fibre_g": 0.0,
+    "protein_g": 1.0,
+    "salt_g": 1.0
+   },
+   "source_url": "https://meny.no/varer//meieri-egg/flote/matflote/oat-cuisine-6430015536746"
+  },
+  {
+   "id": "store:7039610003760",
+   "name": "Egg Frittgående M/L Prior",
+   "brand": "Nortura",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7039610003760"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 149.0,
+    "fat_g": 10.6,
+    "sat_fat_g": 2.8,
+    "carbs_g": 0.3,
+    "sugars_g": 0.3,
+    "protein_g": 13.0,
+    "salt_g": 0.4
+   },
+   "source_url": "https://meny.no/varer//meieri-egg/egg/egg-frittgaende-7039610003760"
+  },
+  {
+   "id": "store:7090043241068",
+   "name": "Pastasaus Parmesan Funkygine Food",
+   "brand": "Synnøve",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7090043241068"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 110.0,
+    "fat_g": 7.4,
+    "sat_fat_g": 1.7,
+    "carbs_g": 5.5,
+    "sugars_g": 5.3,
+    "protein_g": 4.4,
+    "salt_g": 0.5
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/pastasaus/pastasaus-7090043241068"
+  },
+  {
+   "id": "store:7034280111517",
+   "name": "Salami Spianata Spicy Peppes",
+   "brand": "Synnøve",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7034280111517"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 384.0,
+    "fat_g": 32.9,
+    "sat_fat_g": 11.1,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 21.4,
+    "salt_g": 4.1
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekepolser/salami/salami-7034280111517"
+  },
+  {
+   "id": "store:7034284206103",
+   "name": "Pizzasaus Original Peppes",
+   "brand": "Synnøve",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7034284206103"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 54.0,
+    "fat_g": 0.2,
+    "sat_fat_g": 0.0,
+    "carbs_g": 9.6,
+    "sugars_g": 7.7,
+    "protein_g": 2.4,
+    "salt_g": 1.8
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/pizzasaus/pizzasaus-7034284206103"
+  },
+  {
+   "id": "store:7046280079803",
+   "name": "Pizzasaus Oregano Peppes",
+   "brand": "Synnøve",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7046280079803"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 48.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 10.4,
+    "sugars_g": 2.5,
+    "protein_g": 1.4,
+    "salt_g": 1.4
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/pizzasaus/pizzasaus-7046280079803"
+  },
+  {
+   "id": "store:7034281206304",
+   "name": "Pizzasaus Hvit Peppes",
+   "brand": "Synnøve",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7034281206304"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 392.0,
+    "fat_g": 41.5,
+    "sat_fat_g": 18.1,
+    "carbs_g": 4.2,
+    "sugars_g": 4.1,
+    "protein_g": 1.8,
+    "salt_g": 0.3
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/pizzasaus/pizzasaus-7034281206304"
+  },
+  {
+   "id": "store:7034280009487",
+   "name": "Pizzasaus Hot Peppes",
+   "brand": "Synnøve",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7034280009487"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 64.0,
+    "fat_g": 1.5,
+    "sat_fat_g": 0.3,
+    "carbs_g": 9.1,
+    "sugars_g": 7.6,
+    "protein_g": 1.9,
+    "salt_g": 1.33
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/pizzasaus/pizzasaus-hot-7034280009487"
+  },
+  {
+   "id": "store:7034280002440",
+   "name": "Pizzabunn Original Peppes",
+   "brand": "Synnøve",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7034280002440"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 266.0,
+    "fat_g": 2.8,
+    "sat_fat_g": 0.8,
+    "carbs_g": 47.0,
+    "sugars_g": 4.0,
+    "protein_g": 8.1,
+    "salt_g": 1.0
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/deiger-og-rorer/pizzabunn/pizzabunn-7034280002440"
+  },
+  {
+   "id": "store:7034281205703",
+   "name": "Pizzabunn glutenfri Peppes",
+   "brand": "Synnøve",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7034281205703"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 274.0,
+    "fat_g": 8.1,
+    "sat_fat_g": 0.7,
+    "carbs_g": 48.2,
+    "sugars_g": 0.8,
+    "fibre_g": 2.1,
+    "protein_g": 2.0,
+    "salt_g": 1.1
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/deiger-og-rorer/pizzabunn/pizzabunn-7034281205703"
+  },
+  {
+   "id": "store:7034280010896",
+   "name": "Pizzabunn Halvstekt Peppes",
+   "brand": "Synnøve",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7034280010896"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 224.0,
+    "fat_g": 2.4,
+    "sat_fat_g": 0.8,
+    "carbs_g": 41.6,
+    "sugars_g": 0.6,
+    "fibre_g": 2.4,
+    "protein_g": 8.1,
+    "salt_g": 1.4
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/deiger-og-rorer/pizzabunn/pizzabunn-7034280010896"
+  },
+  {
+   "id": "store:7037203645779",
+   "name": "Julepølse Grov",
+   "brand": "Gilde",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7037203645779"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 288.0,
+    "fat_g": 25.0,
+    "sat_fat_g": 8.9,
+    "carbs_g": 3.9,
+    "sugars_g": 0.3,
+    "protein_g": 13.0,
+    "salt_g": 1.6
+   },
+   "source_url": "https://meny.no/varer//kjott/polser/medisterpolse/julepolse-grov-7037203645779"
+  },
+  {
+   "id": "store:0000023015684",
+   "name": "Bacon Ternet",
+   "brand": "Gilde",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023015684"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 301.0,
+    "fat_g": 27.0,
+    "sat_fat_g": 9.7,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "protein_g": 14.0,
+    "salt_g": 2.4
+   },
+   "source_url": "https://meny.no/varer//kjott/svinekjott/smarettbacon/bacon-23015684"
+  },
+  {
+   "id": "store:0000023012426",
+   "name": "Svin Ribbe m/Rutet Svor",
+   "brand": "Gilde",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023012426"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 389.0,
+    "fat_g": 37.0,
+    "sat_fat_g": 13.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 14.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//kjott/ribbe/svin-ribbe-23012426"
+  },
+  {
+   "id": "store:0000023010305",
+   "name": "Storfe Tunge Rå Salt",
+   "brand": "Gilde",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023010305"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 174.0,
+    "fat_g": 14.0,
+    "sat_fat_g": 6.1,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 13.0,
+    "salt_g": 5.1
+   },
+   "source_url": "https://meny.no/varer//kjott/storfekjott/storfetunge/storfe-tunge-23010305"
+  },
+  {
+   "id": "store:0000023013057",
+   "name": "Svin Skinkestek u/Ben m/Spekk Surret",
+   "brand": "Nortura",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023013057"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 220.0,
+    "fat_g": 16.0,
+    "sat_fat_g": 5.4,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 19.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//kjott/svinekjott/skinkestek/svin-skinkestek-23013057"
+  },
+  {
+   "id": "store:0000023012327",
+   "name": "Svin Juleribbe Edelgris",
+   "brand": "Nortura",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023012327"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 334.0,
+    "fat_g": 30.0,
+    "sat_fat_g": 10.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 16.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//kjott/ribbe/svin-juleribbe-23012327"
+  },
+  {
+   "id": "store:0000023015595",
+   "name": "Kalv Indrefilet Gourmetkalv",
+   "brand": "Nortura",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023015595"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 117.0,
+    "fat_g": 3.0,
+    "sat_fat_g": 1.3,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 23.0,
+    "salt_g": 0.2
+   },
+   "source_url": "https://meny.no/varer//kjott/storfekjott/indrefilet-av-storfe/kalv-indrefilet-23015595"
+  },
+  {
+   "id": "store:0000023011206",
+   "name": "Pinnekjøtt Lam Røkt Gourmetlam",
+   "brand": "Nortura",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023011206"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 411.0,
+    "fat_g": 35.0,
+    "sat_fat_g": 18.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 24.0,
+    "salt_g": 9.4
+   },
+   "source_url": "https://meny.no/varer//kjott/pinnekjott/pinnekjott-lam-23011206"
+  },
+  {
+   "id": "store:0000023016934",
+   "name": "Pinnekjøtt Lam Urøkt Gourmetlam",
+   "brand": "Nortura",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023016934"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 411.0,
+    "fat_g": 35.0,
+    "sat_fat_g": 18.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 24.0,
+    "salt_g": 9.4
+   },
+   "source_url": "https://meny.no/varer//kjott/pinnekjott/pinnekjott-lam-23016934"
+  },
+  {
+   "id": "store:0000023013287",
+   "name": "Fenalår Delt Birkebeiner",
+   "brand": "Nortura",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023013287"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 222.0,
+    "fat_g": 13.0,
+    "sat_fat_g": 5.7,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 26.0,
+    "salt_g": 8.0
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/fenalar/fenalar-23013287"
+  },
+  {
+   "id": "store:0000023010584",
+   "name": "Lammestek m/Knoke Gourmetlam",
+   "brand": "Nortura",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023010584"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 184.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 5.6,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 19.0,
+    "salt_g": 0.2
+   },
+   "source_url": "https://meny.no/varer//kjott/lammekjott/lammestek/lammestek-23010584"
+  },
+  {
+   "id": "store:0000023010097",
+   "name": "Lam Indrefilet Gourmetlam",
+   "brand": "Nortura",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023010097"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 116.0,
+    "fat_g": 3.8,
+    "sat_fat_g": 1.6,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 20.0,
+    "salt_g": 0.2
+   },
+   "source_url": "https://meny.no/varer//kjott/lammekjott/indrefilet-av-lam/lam-indrefilet-23010097"
+  },
+  {
+   "id": "store:7037203626860",
+   "name": "Svin Ytrefilet Tynnskåret",
+   "brand": "Nortura",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7037203626860"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 142.0,
+    "fat_g": 6.0,
+    "sat_fat_g": 2.1,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 22.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//kjott/svinekjott/svinefilet/svin-ytrefilet-7037203626860"
+  },
+  {
+   "id": "store:0000023012803",
+   "name": "Lammecarre Gourmetlam",
+   "brand": "Nortura",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023012803"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 227.0,
+    "fat_g": 17.0,
+    "sat_fat_g": 8.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 18.0,
+    "salt_g": 0.2
+   },
+   "source_url": "https://meny.no/varer//kjott/lammekjott/lammecarre/lammecarre-23012803"
+  },
+  {
+   "id": "store:0000023012715",
+   "name": "Bogstek Gourmetlam",
+   "brand": "Nortura",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023012715"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 193.0,
+    "fat_g": 13.0,
+    "sat_fat_g": 6.1,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 19.0,
+    "salt_g": 0.2
+   },
+   "source_url": "https://meny.no/varer//kjott/lammekjott/lammestek/bogstek-23012715"
+  },
+  {
+   "id": "store:0000023016418",
+   "name": "Lammestek Av Lår Gourmetlam",
+   "brand": "Nortura",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023016418"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 189.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 5.5,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 19.0,
+    "salt_g": 0.8
+   },
+   "source_url": "https://meny.no/varer//kjott/lammekjott/lammestek/lammestek-av-lar-23016418"
+  },
+  {
+   "id": "store:0000023016423",
+   "name": "Lammeribbe m/Filet Gourmetlam",
+   "brand": "Nortura",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023016423"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 193.0,
+    "fat_g": 13.0,
+    "sat_fat_g": 6.1,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 19.0,
+    "salt_g": 0.2
+   },
+   "source_url": "https://meny.no/varer//kjott/lammekjott/lammeribbe/lammeribbe-23016423"
+  },
+  {
+   "id": "store:0000023010120",
+   "name": "Ytrefilet Gourmetlam",
+   "brand": "Nortura",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023010120"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 119.0,
+    "fat_g": 3.9,
+    "sat_fat_g": 1.7,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 21.0,
+    "salt_g": 0.2
+   },
+   "source_url": "https://meny.no/varer//kjott/lammekjott/ytrefilet-av-lam/ytrefilet-23010120"
+  },
+  {
+   "id": "store:0000023015244",
+   "name": "Bacon Av Nakke i Bit",
+   "brand": "Gilde",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023015244"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 209.0,
+    "fat_g": 16.0,
+    "sat_fat_g": 5.5,
+    "carbs_g": 0.1,
+    "sugars_g": 0.0,
+    "protein_g": 17.0,
+    "salt_g": 2.3
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/bacon/bacon-23015244"
+  },
+  {
+   "id": "store:0000023015600",
+   "name": "Kalv Biff Filet Gourmetkalv",
+   "brand": "Nortura",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023015600"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 107.0,
+    "fat_g": 1.7,
+    "sat_fat_g": 0.8,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 23.0,
+    "salt_g": 0.2
+   },
+   "source_url": "https://meny.no/varer//kjott/storfekjott/indrefilet-av-storfe/kalv-biff-filet-23015600"
+  },
+  {
+   "id": "store:0000023015613",
+   "name": "Kalv Lårstek Surret Gourmetkalv",
+   "brand": "Nortura",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023015613"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 106.0,
+    "fat_g": 2.0,
+    "sat_fat_g": 0.9,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 22.0,
+    "salt_g": 0.2
+   },
+   "source_url": "https://meny.no/varer//kjott/storfekjott/oksestek/kalv-larstek-23015613"
+  },
+  {
+   "id": "store:0000023015615",
+   "name": "Kalv Bogstek Surret Gourmetkalv",
+   "brand": "Nortura",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023015615"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 107.0,
+    "fat_g": 2.4,
+    "sat_fat_g": 1.1,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 22.0,
+    "salt_g": 0.2
+   },
+   "source_url": "https://meny.no/varer//kjott/storfekjott/oksestek/kalv-bogstek-23015615"
+  },
+  {
+   "id": "store:0000023015618",
+   "name": "Kalv Skank Gourmetkalv",
+   "brand": "Nortura",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023015618"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 117.0,
+    "fat_g": 3.0,
+    "sat_fat_g": 1.3,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 21.0,
+    "salt_g": 0.2
+   },
+   "source_url": "https://meny.no/varer//kjott/storfekjott/storfeskank/kalv-skank-23015618"
+  },
+  {
+   "id": "store:0000023232668",
+   "name": "Kylling hel 1,5- Favorittkylling",
+   "brand": "Nortura",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023232668"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 202.0,
+    "fat_g": 14.0,
+    "sat_fat_g": 3.8,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 19.0,
+    "salt_g": 0.2
+   },
+   "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kylling-hel/kylling-hel-23232668"
+  },
+  {
+   "id": "store:5948935000267",
+   "name": "Pasta D'Oro Penne glutenfri Sam",
+   "brand": "Mills",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5948935000267"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 356.0,
+    "fat_g": 1.5,
+    "sat_fat_g": 0.3,
+    "carbs_g": 79.0,
+    "sugars_g": 1.2,
+    "fibre_g": 0.0,
+    "protein_g": 5.0,
+    "salt_g": 0.02
+   },
+   "source_url": "https://meny.no/varer//middag/pasta/pastaror/pasta-doro-penne-5948935000267"
+  },
+  {
+   "id": "store:7313160004782",
+   "name": "Bearnaise Lohmanders",
+   "brand": "Mills",
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7313160004782"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 700.0,
+    "fat_g": 77.0,
+    "sat_fat_g": 6.0,
+    "carbs_g": 0.6,
+    "sugars_g": 0.5,
+    "protein_g": 1.4,
+    "salt_g": 0.9
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/bearnaisesaus/bearnaise-7313160004782"
+  },
+  {
+   "id": "store:7036110002828",
+   "name": "Melange Margarin Blokk",
+   "brand": "Mills",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7036110002828"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 675.0,
+    "fat_g": 75.0,
+    "sat_fat_g": 30.0,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "fibre_g": 0.0,
+    "protein_g": 0.5,
+    "salt_g": 1.5
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/margarin/melange-margarin-7036110002828"
+  },
+  {
+   "id": "store:7036110009315",
+   "name": "Bearnaise Kremet Lohmanders",
+   "brand": "Mills",
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7036110009315"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 720.0,
+    "fat_g": 79.0,
+    "sat_fat_g": 6.0,
+    "carbs_g": 1.0,
+    "sugars_g": 0.1,
+    "fibre_g": 0.0,
+    "protein_g": 2.0,
+    "salt_g": 0.9
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/bearnaisesaus/bearnaise-kremet-7036110009315"
+  },
+  {
+   "id": "store:7036110211558",
+   "name": "Egg&Bacon Salat Delikat",
+   "brand": "Mills",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7036110211558"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 340.0,
+    "fat_g": 34.0,
+    "sat_fat_g": 4.0,
+    "carbs_g": 4.0,
+    "sugars_g": 2.0,
+    "protein_g": 5.0,
+    "salt_g": 1.0
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/paleggsalat/eggbacon-salat-7036110211558"
+  },
+  {
+   "id": "store:7036110212227",
+   "name": "Julesild Delikat",
+   "brand": "Mills",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7036110212227"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 175.0,
+    "fat_g": 7.0,
+    "sat_fat_g": 2.0,
+    "carbs_g": 22.0,
+    "sugars_g": 21.0,
+    "protein_g": 6.0,
+    "salt_g": 2.7
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/fiskepalegg/sild-ansjos/julesild-7036110212227"
+  },
+  {
+   "id": "store:7036110008646",
+   "name": "Julesild Delikat",
+   "brand": "Mills",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7036110008646"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 155.0,
+    "fat_g": 7.0,
+    "sat_fat_g": 1.0,
+    "carbs_g": 17.0,
+    "sugars_g": 14.0,
+    "fibre_g": 0.0,
+    "protein_g": 6.0,
+    "salt_g": 2.5
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/fiskepalegg/sild-ansjos/julesild-7036110008646"
+  },
+  {
+   "id": "store:7036110009698",
+   "name": "Melange Margarin",
+   "brand": "Mills",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7036110009698"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 675.0,
+    "fat_g": 75.0,
+    "sat_fat_g": 30.0,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "protein_g": 0.5,
+    "salt_g": 1.5
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/margarin/melange-margarin-7036110009698"
+  },
+  {
+   "id": "store:7036110009711",
+   "name": "Melange Margarin u/Melk/Salt/Soya",
+   "brand": "Mills",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7036110009711"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 720.0,
+    "fat_g": 80.0,
+    "sat_fat_g": 32.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/margarin/melange-margarin-7036110009711"
+  },
+  {
+   "id": "store:7036110009735",
+   "name": "Melange Margarin",
+   "brand": "Mills",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7036110009735"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 675.0,
+    "fat_g": 75.0,
+    "sat_fat_g": 30.0,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "fibre_g": 0.0,
+    "protein_g": 0.5,
+    "salt_g": 1.5
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/margarin/melange-margarin-7036110009735"
+  },
+  {
+   "id": "store:7036110112909",
+   "name": "Vita Hjertego Margarin Myk Kuvert",
+   "brand": "Mills",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7036110112909"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 540.0,
+    "fat_g": 60.0,
+    "sat_fat_g": 12.0,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "fibre_g": 0.0,
+    "protein_g": 0.5,
+    "salt_g": 0.8
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/margarin/vita-hjertego-7036110112909"
+  },
+  {
+   "id": "store:7036110210827",
+   "name": "Margarin Flytende Vita Hjertego",
+   "brand": "Mills",
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7036110210827"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 720.0,
+    "fat_g": 80.0,
+    "sat_fat_g": 7.0,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "protein_g": 0.5,
+    "salt_g": 1.0
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/margarin/margarin-flytende-7036110210827"
+  },
+  {
+   "id": "store:5941634005144",
+   "name": "Pasta Color Syphony Tricolor Gl.Fri Sam",
+   "brand": "Mills",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5941634005144"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 351.0,
+    "fat_g": 1.5,
+    "sat_fat_g": 0.3,
+    "carbs_g": 76.0,
+    "sugars_g": 2.0,
+    "protein_g": 6.5,
+    "salt_g": 0.06
+   },
+   "source_url": "https://meny.no/varer//middag/pasta/ovrig-pasta/pasta-color-syphony-5941634005144"
+  },
+  {
+   "id": "store:7622202372131",
+   "name": "Julemiks pose",
+   "brand": "Freia",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7622202372131"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 552.0,
+    "fat_g": 33.0,
+    "sat_fat_g": 19.0,
+    "carbs_g": 55.0,
+    "sugars_g": 54.0,
+    "fibre_g": 2.2,
+    "protein_g": 7.6,
+    "salt_g": 0.19
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/julemiks-pose-7622202372131"
+  },
+  {
+   "id": "store:7622300341633",
+   "name": "Daim Topping Hard",
+   "brand": "Freia",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7622300341633"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 730.0,
+    "fat_g": 56.0,
+    "sat_fat_g": 35.0,
+    "carbs_g": 50.0,
+    "sugars_g": 42.5,
+    "fibre_g": 1.5,
+    "protein_g": 5.9,
+    "salt_g": 0.35
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/desserttopping/daim-topping-7622300341633"
+  },
+  {
+   "id": "store:7037710020359",
+   "name": "Stratos Salty Caramel Bar",
+   "brand": "Orkla snacks",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7037710020359"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 520.0,
+    "fat_g": 30.0,
+    "sat_fat_g": 19.0,
+    "carbs_g": 55.0,
+    "sugars_g": 52.0,
+    "protein_g": 7.1,
+    "salt_g": 0.62
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/stratos-7037710020359"
+  },
+  {
+   "id": "store:7037710050042",
+   "name": "Laban Søte Gullunger",
+   "brand": "Nidar",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7037710050042"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 330.0,
+    "fat_g": 0.03,
+    "sat_fat_g": 0.02,
+    "carbs_g": 77.0,
+    "sugars_g": 61.0,
+    "protein_g": 3.5,
+    "salt_g": 0.0
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/smagodt/laban-sote-gullunger-7037710050042"
+  },
+  {
+   "id": "store:7039317007009",
+   "name": "Snackers Kjeks Salt Sætre",
+   "brand": "Sætre",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7039317007009"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 510.0,
+    "fat_g": 25.0,
+    "sat_fat_g": 2.2,
+    "carbs_g": 63.0,
+    "sugars_g": 6.2,
+    "fibre_g": 1.7,
+    "protein_g": 5.9,
+    "salt_g": 1.4
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/kjeks/smorbrodkjeks/snackers-kjeks-7039317007009"
+  },
+  {
+   "id": "store:7039317005951",
+   "name": "Tom&Jerry Kjeks Sætre",
+   "brand": "Sætre",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7039317005951"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 450.0,
+    "fat_g": 13.0,
+    "sat_fat_g": 5.7,
+    "carbs_g": 74.0,
+    "sugars_g": 30.0,
+    "fibre_g": 2.7,
+    "protein_g": 7.2,
+    "salt_g": 0.75
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/kjeks/sotkjeks/tomjerry-kjeks-7039317005951"
+  },
+  {
+   "id": "store:7039317003759",
+   "name": "Speltkjeks Tynne Sætres Beste",
+   "brand": "Orkla snacks",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7039317003759"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 420.0,
+    "fat_g": 6.9,
+    "sat_fat_g": 0.9,
+    "carbs_g": 75.0,
+    "sugars_g": 3.7,
+    "fibre_g": 3.6,
+    "protein_g": 11.0,
+    "salt_g": 1.7
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/kjeks/smorbrodkjeks/speltkjeks-tynne-7039317003759"
+  },
+  {
+   "id": "store:7039317003766",
+   "name": "Salinas Kjeks Sætres Beste",
+   "brand": "Orkla snacks",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7039317003766"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 480.0,
+    "fat_g": 23.0,
+    "sat_fat_g": 5.9,
+    "carbs_g": 54.0,
+    "sugars_g": 4.8,
+    "fibre_g": 5.6,
+    "protein_g": 10.0,
+    "salt_g": 1.7
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/kjeks/smorbrodkjeks/salinas-kjeks-7039317003766"
+  },
+  {
+   "id": "store:7300400382205",
+   "name": "Cheez Doodles Olw",
+   "brand": "Orkla snacks",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7300400382205"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 500.0,
+    "fat_g": 31.0,
+    "sat_fat_g": 4.8,
+    "carbs_g": 51.0,
+    "sugars_g": 2.8,
+    "fibre_g": 1.1,
+    "protein_g": 10.0,
+    "salt_g": 2.1
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/snacks/ostesnacks/cheez-doodles-7300400382205"
+  },
+  {
+   "id": "store:7073627000060",
+   "name": "Gullvafler Sjokolade",
+   "brand": "Orkla snacks",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7073627000060"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 532.0,
+    "fat_g": 29.0,
+    "sat_fat_g": 27.0,
+    "carbs_g": 61.0,
+    "sugars_g": 31.0,
+    "fibre_g": 3.8,
+    "protein_g": 5.9,
+    "salt_g": 0.34
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/kjeks/cookies/gullvafler-7073627000060"
+  },
+  {
+   "id": "store:7039317001663",
+   "name": "Pepita Kjeks Sætre",
+   "brand": "Sætre",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7039317001663"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 495.0,
+    "fat_g": 22.0,
+    "sat_fat_g": 11.0,
+    "carbs_g": 69.0,
+    "sugars_g": 32.0,
+    "fibre_g": 1.6,
+    "protein_g": 5.0,
+    "salt_g": 0.8
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/kjeks/sotkjeks/pepita-kjeks-7039317001663"
+  },
+  {
+   "id": "store:7039317007559",
+   "name": "Gullvafler Sitron Sætre",
+   "brand": "Sætre",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7039317007559"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 550.0,
+    "fat_g": 30.0,
+    "sat_fat_g": 28.0,
+    "carbs_g": 63.0,
+    "sugars_g": 32.0,
+    "fibre_g": 0.9,
+    "protein_g": 4.1,
+    "salt_g": 0.4
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/kjeks/vaffelkjeks/gullvafler-7039317007559"
+  },
+  {
+   "id": "store:7039317007672",
+   "name": "Snackers Kjeks Salt&Pepper Sætre",
+   "brand": "Sætre",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7039317007672"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 510.0,
+    "fat_g": 25.0,
+    "sat_fat_g": 3.3,
+    "carbs_g": 65.0,
+    "sugars_g": 7.0,
+    "fibre_g": 1.2,
+    "protein_g": 5.8,
+    "salt_g": 1.4
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/kjeks/smorbrodkjeks/snackers-kjeks-7039317007672"
+  },
+  {
+   "id": "store:7039317006231",
+   "name": "Gjende Sjokolade Sætre",
+   "brand": "Sætre",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7039317006231"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 490.0,
+    "fat_g": 23.0,
+    "sat_fat_g": 12.0,
+    "carbs_g": 64.0,
+    "sugars_g": 29.0,
+    "fibre_g": 3.3,
+    "protein_g": 6.6,
+    "salt_g": 0.6
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/kjeks/sotkjeks/gjende-sjokolade-7039317006231"
+  },
+  {
+   "id": "store:7039317007313",
+   "name": "Tom & Jerry Kjeks Fullkorn",
+   "brand": "Orkla snacks",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7039317007313"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 430.0,
+    "fat_g": 13.0,
+    "sat_fat_g": 1.27,
+    "carbs_g": 66.0,
+    "sugars_g": 22.0,
+    "fibre_g": 9.4,
+    "protein_g": 7.4,
+    "salt_g": 0.72
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/kjeks/sotkjeks/tom-jerry-kjeks-7039317007313"
+  },
+  {
+   "id": "store:7090011156196",
+   "name": "Pepperkakedeig glutenfri Elda Bakeri",
+   "brand": "Godt lokalt",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7090011156196"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 380.0,
+    "fat_g": 12.9,
+    "sat_fat_g": 5.9,
+    "carbs_g": 65.5,
+    "sugars_g": 27.0,
+    "protein_g": 0.6,
+    "salt_g": 0.4
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/baking/pepperkakedeig/pepperkakedeig-7090011156196"
+  },
+  {
+   "id": "store:0060032101083",
+   "name": "Lønnesirup 100% Ren Winnetou",
+   "brand": "Oluf lorentzen",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0060032101083"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 270.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 67.0,
+    "sugars_g": 61.5,
+    "fibre_g": 0.2,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/baking/sirup/lonnesirup-100-60032101083"
+  },
+  {
+   "id": "store:7090022033073",
+   "name": "Vaffelrøre Fin Telemarksrøra",
+   "brand": null,
+   "category": "bread_cereal_grain",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7090022033073"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 261.0,
+    "fat_g": 11.37,
+    "sat_fat_g": 6.32,
+    "carbs_g": 35.86,
+    "sugars_g": 12.92,
+    "fibre_g": 0.0,
+    "protein_g": 5.7,
+    "salt_g": 0.34
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/baking/vaffelrore/vaffelrore-fin-7090022033073"
+  },
+  {
+   "id": "store:0060032170188",
+   "name": "Lønnesirup 100% Winnetou",
+   "brand": "Oluf lorentzen",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0060032170188"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 252.0,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.0,
+    "carbs_g": 67.0,
+    "sugars_g": 61.5,
+    "fibre_g": 0.2,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/baking/sirup/lonnesirup-100-60032170188"
+  },
+  {
+   "id": "store:5709521037605",
+   "name": "Nougat Bløt Odense",
+   "brand": "Idun",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5709521037605"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 546.0,
+    "fat_g": 34.0,
+    "sat_fat_g": 10.0,
+    "carbs_g": 52.0,
+    "sugars_g": 49.0,
+    "fibre_g": 0.0,
+    "protein_g": 5.8,
+    "salt_g": 0.08
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/baking/kakekrem/nougat-blot-5709521037605"
+  },
+  {
+   "id": "store:0043647680037",
+   "name": "Lemon Curd",
+   "brand": "Confecta",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0043647680037"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 359.0,
+    "fat_g": 13.0,
+    "sat_fat_g": 7.6,
+    "carbs_g": 58.0,
+    "sugars_g": 54.0,
+    "protein_g": 2.0,
+    "salt_g": 0.28
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/baking/kakekrem/lemon-curd-43647680037"
+  },
+  {
+   "id": "store:0000057093703",
+   "name": "Cream Fix",
+   "brand": "Dr. oetker",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000057093703"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 381.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 95.0,
+    "sugars_g": 58.0,
+    "protein_g": 0.0,
+    "salt_g": 0.2
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/baking/kakepynt/cream-fix-57093703"
+  },
+  {
+   "id": "store:7035450045403",
+   "name": "Marengsbunn Stor Røros",
+   "brand": "Rørosmat",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7035450045403"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 400.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 95.0,
+    "sugars_g": 95.0,
+    "protein_g": 4.8,
+    "salt_g": 0.2
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/baking/kakebunn/marengsbunn-7035450045403"
+  },
+  {
+   "id": "store:0039400016120",
+   "name": "Bønner Bakte Bush's",
+   "brand": "Oluf lorentzen",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0039400016120"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 108.0,
+    "fat_g": 1.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 22.0,
+    "sugars_g": 9.0,
+    "fibre_g": 4.0,
+    "protein_g": 5.0,
+    "salt_g": 1.06
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/hermetisk-gront/hermetiske-bonner/bonner-bakte-39400016120"
+  },
+  {
+   "id": "store:7020712023558",
+   "name": "Grove Familiebriks",
+   "brand": "Hatting",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7020712023558"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 216.0,
+    "fat_g": 1.3,
+    "sat_fat_g": 0.3,
+    "carbs_g": 38.8,
+    "sugars_g": 0.4,
+    "fibre_g": 6.2,
+    "protein_g": 8.1,
+    "salt_g": 0.9
+   },
+   "source_url": "https://meny.no/varer//bakeri/rundstykker-og-smabrod/rundstykker/grove-familiebriks-7020712023558"
+  },
+  {
+   "id": "store:7020712023923",
+   "name": "Grove Familiebriks Økonomipakke 70gx14stk",
+   "brand": "Hatting",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7020712023923"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 216.0,
+    "fat_g": 1.3,
+    "sat_fat_g": 0.3,
+    "carbs_g": 38.8,
+    "sugars_g": 0.4,
+    "fibre_g": 6.2,
+    "protein_g": 8.1,
+    "salt_g": 0.9
+   },
+   "source_url": "https://meny.no/varer//bakeri/rundstykker-og-smabrod/rundstykker/grove-familiebriks-7020712023923"
+  },
+  {
+   "id": "store:7037610064118",
+   "name": "Fromasj Vanilje Langform",
+   "brand": "Toro",
+   "category": "snacks_sweets",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7037610064118"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 164.0,
+    "fat_g": 9.3,
+    "sat_fat_g": 6.1,
+    "carbs_g": 16.0,
+    "sugars_g": 16.0,
+    "fibre_g": 0.0,
+    "protein_g": 4.0,
+    "salt_g": 0.18
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/fromasj-vanilje-7037610064118"
+  },
+  {
+   "id": "store:7033330089745",
+   "name": "Asiatisk Ribbe m/Grønnsaker&Ris",
+   "brand": "Fjordland",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7033330089745"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 160.0,
+    "fat_g": 6.2,
+    "sat_fat_g": 2.2,
+    "carbs_g": 21.0,
+    "sugars_g": 7.0,
+    "fibre_g": 0.6,
+    "protein_g": 5.8,
+    "salt_g": 0.97
+   },
+   "source_url": "https://meny.no/varer//middag/ferdigretter/ferdigmaltid/asiatisk-ribbe-7033330089745"
+  },
+  {
+   "id": "store:7035620065446",
+   "name": "Nøttestek",
+   "brand": "Eldorado",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7035620065446"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 327.0,
+    "fat_g": 22.0,
+    "sat_fat_g": 9.6,
+    "carbs_g": 22.0,
+    "sugars_g": 1.7,
+    "fibre_g": 2.1,
+    "protein_g": 9.5,
+    "salt_g": 1.2
+   },
+   "source_url": "https://meny.no/varer//middag/vegetarretter/nottestek-7035620065446"
+  },
+  {
+   "id": "store:7035620034053",
+   "name": "Ribbesaus",
+   "brand": "Eldorado",
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7035620034053"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 95.0,
+    "fat_g": 7.5,
+    "sat_fat_g": 2.7,
+    "carbs_g": 5.8,
+    "sugars_g": 1.1,
+    "fibre_g": 0.0,
+    "protein_g": 1.0,
+    "salt_g": 0.91
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/ribbesaus/ribbesaus-7035620034053"
+  },
+  {
+   "id": "store:0000023656742",
+   "name": "Sylte hel Rund",
+   "brand": "First Price",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023656742"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 232.0,
+    "fat_g": 19.0,
+    "sat_fat_g": 6.5,
+    "carbs_g": 0.6,
+    "sugars_g": 0.4,
+    "fibre_g": 0.0,
+    "protein_g": 13.0,
+    "salt_g": 1.7
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/kjottpalegg/sylte/sylte-hel-rund-23656742"
+  },
+  {
+   "id": "store:0000023518161",
+   "name": "Svin Tynnribbe",
+   "brand": "First Price",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023518161"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 371.0,
+    "fat_g": 35.1,
+    "sat_fat_g": 13.2,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 13.8,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//kjott/ribbe/svin-tynnribbe-23518161"
+  },
+  {
+   "id": "store:0000023656173",
+   "name": "Juleskinke Kokt m/Svor",
+   "brand": "First Price",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023656173"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 194.0,
+    "fat_g": 13.6,
+    "sat_fat_g": 4.6,
+    "carbs_g": 0.7,
+    "sugars_g": 0.7,
+    "fibre_g": 0.0,
+    "protein_g": 17.3,
+    "salt_g": 1.9
+   },
+   "source_url": "https://meny.no/varer//kjott/svinekjott/skinkestek/juleskinke-kokt-23656173"
+  },
+  {
+   "id": "store:0000023656842",
+   "name": "Lutefisk Av Torsk Helside",
+   "brand": "First Price",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023656842"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 48.0,
+    "fat_g": 0.3,
+    "sat_fat_g": 0.1,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 11.4,
+    "salt_g": 0.01
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/lutefisk/lutefisk-av-torsk-23656842"
+  },
+  {
+   "id": "store:0000023656770",
+   "name": "Svin Tynnribbe Krydret",
+   "brand": "First Price",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023656770"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 368.0,
+    "fat_g": 34.8,
+    "sat_fat_g": 13.1,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 13.7,
+    "salt_g": 0.9
+   },
+   "source_url": "https://meny.no/varer//kjott/ribbe/svin-tynnribbe-23656770"
+  },
+  {
+   "id": "store:7035620056796",
+   "name": "Lammerull",
+   "brand": "Jacobs Utvalgte",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7035620056796"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 162.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 4.9,
+    "carbs_g": 0.64,
+    "sugars_g": 0.44,
+    "fibre_g": 0.0,
+    "protein_g": 16.0,
+    "salt_g": 1.9
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/kjottpalegg/rullader/lammerull/lammerull-7035620056796"
+  },
+  {
+   "id": "store:7035620059667",
+   "name": "Sylte Bit",
+   "brand": "Jacobs Utvalgte",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7035620059667"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 144.0,
+    "fat_g": 7.8,
+    "sat_fat_g": 2.7,
+    "carbs_g": 0.6,
+    "sugars_g": 0.51,
+    "fibre_g": 0.0,
+    "protein_g": 18.0,
+    "salt_g": 1.8
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/kjottpalegg/sylte/sylte-bit-7035620059667"
+  },
+  {
+   "id": "store:0000023518111",
+   "name": "Pinnesteik",
+   "brand": "Jacobs Utvalgte",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023518111"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 284.0,
+    "fat_g": 20.2,
+    "sat_fat_g": 10.1,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 26.0,
+    "salt_g": 9.6
+   },
+   "source_url": "https://meny.no/varer//kjott/pinnekjott/pinnesteik-23518111"
+  },
+  {
+   "id": "store:0000023518083",
+   "name": "Svin Indrefilet",
+   "brand": "Jacobs Utvalgte",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023518083"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 116.0,
+    "fat_g": 3.1,
+    "sat_fat_g": 1.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 22.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//kjott/svinekjott/svinefilet/svin-indrefilet-23518083"
+  },
+  {
+   "id": "store:0000023656057",
+   "name": "Storfe Ytrefilet",
+   "brand": "Jacobs Utvalgte",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023656057"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 109.0,
+    "fat_g": 2.3,
+    "sat_fat_g": 1.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 22.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//kjott/storfekjott/ytrefilet-av-storfe/storfe-ytrefilet-23656057"
+  },
+  {
+   "id": "store:8002670008531",
+   "name": "Pecorino Romano Granarolo",
+   "brand": "Oluf lorentzen",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8002670008531"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 401.0,
+    "fat_g": 33.0,
+    "sat_fat_g": 24.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 26.0,
+    "salt_g": 4.8
+   },
+   "source_url": "https://meny.no/varer//ost/gulost/pecorino-romano-8002670008531"
+  },
+  {
+   "id": "store:0000023026871",
+   "name": "Norvegia Nøkkelost Skorpefri",
+   "brand": "Tine",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023026871"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 344.0,
+    "fat_g": 26.0,
+    "sat_fat_g": 16.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 27.0,
+    "salt_g": 1.4
+   },
+   "source_url": "https://meny.no/varer//ost/gulost/norvegia-nokkelost-23026871"
+  },
+  {
+   "id": "store:0000023814698",
+   "name": "Vossaost Vossamat",
+   "brand": "Vossakjøt",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023814698"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 268.0,
+    "fat_g": 16.0,
+    "sat_fat_g": 10.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 31.0,
+    "salt_g": 1.1
+   },
+   "source_url": "https://meny.no/varer//ost/gulost/vossaost-23814698"
+  },
+  {
+   "id": "store:0000023903311",
+   "name": "Trøffelost Snertingdal",
+   "brand": "Norske spesialiteter",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023903311"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 423.0,
+    "fat_g": 36.0,
+    "sat_fat_g": 19.3,
+    "carbs_g": 2.0,
+    "sugars_g": 0.09,
+    "fibre_g": 0.0,
+    "protein_g": 25.0,
+    "salt_g": 1.4
+   },
+   "source_url": "https://meny.no/varer//ost/gulost/troffelost-23903311"
+  },
+  {
+   "id": "store:0000023903313",
+   "name": "Bukkehornkløver Snertingdal",
+   "brand": "Norske spesialiteter",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023903313"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 447.0,
+    "fat_g": 43.3,
+    "sat_fat_g": 30.0,
+    "carbs_g": 0.2,
+    "sugars_g": 0.09,
+    "fibre_g": 0.0,
+    "protein_g": 14.0,
+    "salt_g": 1.5
+   },
+   "source_url": "https://meny.no/varer//ost/gulost/bukkehornklover-23903313"
+  },
+  {
+   "id": "store:0000023903351",
+   "name": "Nøkkelost Snertingdal",
+   "brand": "Norske spesialiteter",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023903351"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 423.0,
+    "fat_g": 36.0,
+    "sat_fat_g": 19.3,
+    "carbs_g": 5.1,
+    "sugars_g": 0.8,
+    "fibre_g": 0.0,
+    "protein_g": 25.0,
+    "salt_g": 1.4
+   },
+   "source_url": "https://meny.no/varer//ost/gulost/nokkelost-23903351"
+  },
+  {
+   "id": "store:0000023354585",
+   "name": "Røros Stekost Galåvolden",
+   "brand": "Rørosmat",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023354585"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 387.0,
+    "fat_g": 32.0,
+    "sat_fat_g": 21.0,
+    "carbs_g": 2.3,
+    "sugars_g": 2.3,
+    "protein_g": 21.0,
+    "salt_g": 2.1
+   },
+   "source_url": "https://meny.no/varer//ost/gulost/roros-stekost-23354585"
+  },
+  {
+   "id": "store:0000023903370",
+   "name": "Brennesle Snertingdal",
+   "brand": "Norske spesialiteter",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023903370"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 447.0,
+    "fat_g": 43.3,
+    "sat_fat_g": 30.0,
+    "carbs_g": 0.2,
+    "sugars_g": 0.09,
+    "fibre_g": 0.0,
+    "protein_g": 14.0,
+    "salt_g": 1.5
+   },
+   "source_url": "https://meny.no/varer//ost/gulost/brennesle-23903370"
+  },
+  {
+   "id": "store:0000023903320",
+   "name": "Staslin Snertingdal Ysteri",
+   "brand": "Norske spesialiteter",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023903320"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 423.0,
+    "fat_g": 36.0,
+    "sat_fat_g": 19.3,
+    "carbs_g": 6.0,
+    "sugars_g": 0.8,
+    "protein_g": 25.0,
+    "salt_g": 1.4
+   },
+   "source_url": "https://meny.no/varer//ost/gulost/staslin-23903320"
+  },
+  {
+   "id": "store:7033352772847",
+   "name": "Ørret Burger Lerøy",
+   "brand": "Lerøy",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7033352772847"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 165.0,
+    "fat_g": 9.9,
+    "sat_fat_g": 2.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 18.8,
+    "salt_g": 0.99
+   },
+   "source_url": "https://meny.no/varer//middag/fiskeretter/fiskekaker/orret-burger-7033352772847"
+  },
+  {
+   "id": "store:7033352770720",
+   "name": "Ørret Loin Lerøy",
+   "brand": "Lerøy",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7033352770720"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 166.0,
+    "fat_g": 10.0,
+    "sat_fat_g": 2.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 19.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/orret/orret-loin-7033352770720"
+  },
+  {
+   "id": "store:7033352708655",
+   "name": "Sushibowl m/Laks&Edamame Lerøy",
+   "brand": "Lerøy",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7033352708655"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 179.0,
+    "fat_g": 11.4,
+    "sat_fat_g": 1.1,
+    "carbs_g": 12.5,
+    "sugars_g": 3.4,
+    "protein_g": 5.9,
+    "salt_g": 0.6
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sushitilbehor/wakamesalat/sushibowl-7033352708655"
+  },
+  {
+   "id": "store:7033352560383",
+   "name": "Sushibowl m/Laks&Mango Lerøy",
+   "brand": "Lerøy",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7033352560383"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 137.0,
+    "fat_g": 5.98,
+    "sat_fat_g": 1.03,
+    "carbs_g": 14.21,
+    "sugars_g": 4.52,
+    "protein_g": 6.37,
+    "salt_g": 0.29
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sushitilbehor/wakamesalat/sushibowl-7033352560383"
+  },
+  {
+   "id": "store:7033352772304",
+   "name": "Fisk Sprøpanert Middagsfavoritt Lerøy",
+   "brand": "Lerøy",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7033352772304"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 201.0,
+    "fat_g": 5.8,
+    "sat_fat_g": 0.6,
+    "carbs_g": 21.7,
+    "sugars_g": 0.6,
+    "fibre_g": 0.0,
+    "protein_g": 15.5,
+    "salt_g": 0.88
+   },
+   "source_url": "https://meny.no/varer//middag/fiskeretter/panert-fisk/fisk-spropanert-7033352772304"
+  },
+  {
+   "id": "store:7033352769533",
+   "name": "Ørret Porsjon u/Skinn Lerøy",
+   "brand": "Lerøy",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7033352769533"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 166.0,
+    "fat_g": 10.0,
+    "sat_fat_g": 2.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 19.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/orret/orret-porsjon-7033352769533"
+  },
+  {
+   "id": "store:7033352772250",
+   "name": "Torskefilet Lettsaltet Lerøy",
+   "brand": "Lerøy",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7033352772250"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 77.0,
+    "fat_g": 1.0,
+    "sat_fat_g": 0.1,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 17.2,
+    "salt_g": 1.4
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/torsk/torskefilet-7033352772250"
+  },
+  {
+   "id": "store:7033352770683",
+   "name": "Ørret Porsjon m/Skinn Lerøy",
+   "brand": "Lerøy",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7033352770683"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 166.0,
+    "fat_g": 10.0,
+    "sat_fat_g": 2.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 19.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/orret/orret-porsjon-7033352770683"
+  },
+  {
+   "id": "store:7033352772267",
+   "name": "Torsk Loin u/Skinn Ca300- Lerøy",
+   "brand": "Lerøy",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7033352772267"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 79.0,
+    "fat_g": 1.0,
+    "sat_fat_g": 0.1,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 17.4,
+    "salt_g": 0.2
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/torsk/torsk-loin-7033352772267"
+  },
+  {
+   "id": "store:7033352772205",
+   "name": "Laks Renskåret Porsj u/B og u/Skinn Lerøy",
+   "brand": "Lerøy",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7033352772205"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 223.0,
+    "fat_g": 15.9,
+    "sat_fat_g": 2.3,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 19.9,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/laks/laks-naturell/laks-renskaret-7033352772205"
+  },
+  {
+   "id": "store:7034770108805",
+   "name": "Sursild Gjendemsjø",
+   "brand": "Lerøy",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7034770108805"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 171.0,
+    "fat_g": 5.7,
+    "sat_fat_g": 2.5,
+    "carbs_g": 27.0,
+    "sugars_g": 26.0,
+    "fibre_g": 0.0,
+    "protein_g": 2.9,
+    "salt_g": 2.1
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/fiskepalegg/sild-ansjos/sursild-7034770108805"
+  },
+  {
+   "id": "store:7034770108836",
+   "name": "Sennepsild Gjendemsjø",
+   "brand": "Lerøy",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7034770108836"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 250.0,
+    "fat_g": 13.6,
+    "sat_fat_g": 1.9,
+    "carbs_g": 25.5,
+    "sugars_g": 24.7,
+    "protein_g": 6.1,
+    "salt_g": 2.2
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/fiskepalegg/sild-ansjos/sennepsild-7034770108836"
+  },
+  {
+   "id": "store:0000023867755",
+   "name": "Rakfisk Ørretfilet Stensaas",
+   "brand": "Lerøy",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023867755"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 130.0,
+    "fat_g": 7.1,
+    "sat_fat_g": 1.2,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 16.1,
+    "salt_g": 4.0
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/rakfisk/rakfisk-orretfilet-23867755"
+  },
+  {
+   "id": "store:0000023894050",
+   "name": "Sjøkreps Hale Rå Str 8/12 Ca120- Vaag",
+   "brand": "Lerøy",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023894050"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 94.0,
+    "fat_g": 1.3,
+    "sat_fat_g": 0.5,
+    "carbs_g": 0.8,
+    "sugars_g": 0.1,
+    "protein_g": 19.6,
+    "salt_g": 0.85
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/skalldyr/kreps/sjokreps-hale-ra-23894050"
+  },
+  {
+   "id": "store:0000023894033",
+   "name": "Hyse Loin 300- Vaag",
+   "brand": "Lerøy",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023894033"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 81.0,
+    "fat_g": 1.1,
+    "sat_fat_g": 0.1,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 17.9,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/hyse/hyse-loin-23894033"
+  },
+  {
+   "id": "store:0000023894035",
+   "name": "Kongekrabbe Ben Rå Ca50- Vaag",
+   "brand": "Lerøy",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023894035"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 74.0,
+    "fat_g": 0.8,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 16.0,
+    "salt_g": 1.0
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/skalldyr/krabbe/kongekrabbe-23894035"
+  },
+  {
+   "id": "store:0000023894048",
+   "name": "Sjøkreps Rå Str 5/8 Vaag",
+   "brand": "Lerøy",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023894048"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 94.0,
+    "fat_g": 1.3,
+    "sat_fat_g": 0.5,
+    "carbs_g": 0.8,
+    "sugars_g": 0.1,
+    "protein_g": 19.5,
+    "salt_g": 0.85
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/skalldyr/kreps/sjokreps-ra-23894048"
+  },
+  {
+   "id": "store:0000023894041",
+   "name": "Laks Bellyloin Ca350- Vaag",
+   "brand": "Lerøy",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023894041"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 222.0,
+    "fat_g": 15.8,
+    "sat_fat_g": 2.2,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 20.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/laks/laks-naturell/laks-bellyloin-23894041"
+  },
+  {
+   "id": "store:0000023894042",
+   "name": "Laks Backloin Ca350- Vaag",
+   "brand": "Lerøy",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023894042"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 222.0,
+    "fat_g": 15.8,
+    "sat_fat_g": 2.2,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 20.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/laks/laks-naturell/laks-backloin-23894042"
+  },
+  {
+   "id": "store:0000023894016",
+   "name": "Skrei Backloin Short u/Skinn Ca350- Vaag",
+   "brand": "Lerøy",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023894016"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 81.0,
+    "fat_g": 1.1,
+    "sat_fat_g": 0.1,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 17.9,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/torsk/skrei-backloin-23894016"
+  },
+  {
+   "id": "store:7033352554375",
+   "name": "Fish And Chips Lerøy",
+   "brand": "Lerøy",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7033352554375"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 189.0,
+    "fat_g": 7.4,
+    "sat_fat_g": 0.6,
+    "carbs_g": 21.8,
+    "sugars_g": 0.3,
+    "protein_g": 8.2,
+    "salt_g": 0.4
+   },
+   "source_url": "https://meny.no/varer//middag/fiskeretter/panert-fisk/fish-and-chips-7033352554375"
+  },
+  {
+   "id": "store:0000023701354",
+   "name": "Ørret Røkt - Lerøy",
+   "brand": "Lerøy",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023701354"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 230.0,
+    "fat_g": 14.2,
+    "sat_fat_g": 3.2,
+    "carbs_g": 1.4,
+    "sugars_g": 1.4,
+    "protein_g": 24.2,
+    "salt_g": 3.0
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/orret/orret-rokt-23701354"
+  },
+  {
+   "id": "store:7033352532229",
+   "name": "Ørret Porsjoner Skinpack Lerøy",
+   "brand": "Lerøy",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7033352532229"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 166.0,
+    "fat_g": 10.0,
+    "sat_fat_g": 2.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 19.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/orret/orret-porsjoner-7033352532229"
+  },
+  {
+   "id": "store:7033352555983",
+   "name": "Ørret Porsjoner m/Skinn Lerøy",
+   "brand": "Lerøy",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7033352555983"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 166.0,
+    "fat_g": 10.0,
+    "sat_fat_g": 2.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 19.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/orret/orret-porsjoner-7033352555983"
+  },
+  {
+   "id": "store:7035620054778",
+   "name": "Sennepssild",
+   "brand": "Fiskemannen",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7035620054778"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 212.0,
+    "fat_g": 8.0,
+    "sat_fat_g": 1.2,
+    "carbs_g": 27.5,
+    "sugars_g": 26.6,
+    "fibre_g": 1.0,
+    "protein_g": 7.8,
+    "salt_g": 2.3
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/fiskepalegg/sild-ansjos/sennepssild-7035620054778"
+  },
+  {
+   "id": "store:7035620069529",
+   "name": "Fiskekaker Hjerte",
+   "brand": "Fiskemannen",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7035620069529"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 117.0,
+    "fat_g": 3.8,
+    "sat_fat_g": 0.3,
+    "carbs_g": 9.7,
+    "sugars_g": 0.3,
+    "fibre_g": 0.0,
+    "protein_g": 10.9,
+    "salt_g": 1.0
+   },
+   "source_url": "https://meny.no/varer//middag/fiskeretter/fiskekaker/fiskekaker-hjerte-7035620069529"
+  },
+  {
+   "id": "store:0000023656666",
+   "name": "Lutefisk hel Loin",
+   "brand": "Fiskemannen",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023656666"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 48.0,
+    "fat_g": 0.3,
+    "sat_fat_g": 0.1,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 11.4,
+    "salt_g": 0.01
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/lutefisk/lutefisk-hel-loin-23656666"
+  },
+  {
+   "id": "store:0000023518151",
+   "name": "Laks Helside",
+   "brand": "Fiskemannen",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023518151"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 223.0,
+    "fat_g": 15.9,
+    "sat_fat_g": 2.3,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 19.9,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/laks/laks-naturell/laks-helside-23518151"
+  },
+  {
+   "id": "store:7035620041648",
+   "name": "Scampi Chili Hvitløk Asc",
+   "brand": "Fiskemannen",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7035620041648"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 90.0,
+    "fat_g": 0.7,
+    "sat_fat_g": 0.2,
+    "carbs_g": 1.8,
+    "sugars_g": 0.3,
+    "fibre_g": 0.0,
+    "protein_g": 19.0,
+    "salt_g": 1.7
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/skalldyr/scampi/scampi-chili-7035620041648"
+  },
+  {
+   "id": "store:7035620043741",
+   "name": "Laks Varmrøkt Revet",
+   "brand": "Fiskemannen",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7035620043741"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 169.0,
+    "fat_g": 8.2,
+    "sat_fat_g": 1.8,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "fibre_g": 0.0,
+    "protein_g": 23.2,
+    "salt_g": 2.0
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/laks/laks-rokt/laks-varmrokt-7035620043741"
+  },
+  {
+   "id": "store:7035620035944",
+   "name": "Peppermakrell Varmrøkt",
+   "brand": "Fiskemannen",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7035620035944"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 323.0,
+    "fat_g": 27.0,
+    "sat_fat_g": 5.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 20.0,
+    "salt_g": 2.43
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/makrell/peppermakrell-7035620035944"
+  },
+  {
+   "id": "store:7033352770690",
+   "name": "Laks Porsjon m/Skinn",
+   "brand": "Fiskemannen",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7033352770690"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 223.0,
+    "fat_g": 15.9,
+    "sat_fat_g": 2.3,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 19.9,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/laks/laks-naturell/laks-porsjon-7033352770690"
+  },
+  {
+   "id": "store:7035620028052",
+   "name": "Scampi Vannamei Asc 31/40 Rå u/Skall Fiskem",
+   "brand": null,
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7035620028052"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 64.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.1,
+    "protein_g": 16.0,
+    "salt_g": 0.94
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/skalldyr/scampi/scampi-vannamei-7035620028052"
+  },
+  {
+   "id": "store:7035620040108",
+   "name": "Laks Røkt Sticks m/Pepper",
+   "brand": "Fiskemannen",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7035620040108"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 227.0,
+    "fat_g": 14.7,
+    "sat_fat_g": 2.5,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "fibre_g": 0.0,
+    "protein_g": 23.2,
+    "salt_g": 2.0
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/laks/laks-rokt/laks-rokt-sticks-7035620040108"
+  },
+  {
+   "id": "store:7035620045875",
+   "name": "Mini Fiskeburger 86% m/Chorizo",
+   "brand": "Fiskemannen",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7035620045875"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 154.0,
+    "fat_g": 7.6,
+    "sat_fat_g": 2.1,
+    "carbs_g": 5.0,
+    "sugars_g": 1.4,
+    "fibre_g": 1.4,
+    "protein_g": 15.7,
+    "salt_g": 1.3
+   },
+   "source_url": "https://meny.no/varer//middag/fiskeretter/fiskekaker/mini-fiskeburger-7035620045875"
+  },
+  {
+   "id": "store:7090013400037",
+   "name": "Kakemann Tradisjonsbakeren",
+   "brand": "Godt lokalt",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7090013400037"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 355.0,
+    "fat_g": 8.7,
+    "sat_fat_g": 0.8,
+    "carbs_g": 61.7,
+    "sugars_g": 25.7,
+    "protein_g": 6.3,
+    "salt_g": 0.5
+   },
+   "source_url": "https://meny.no/varer//bakeri/kaker/julekaker/kakemann/kakemann-7090013400037"
+  },
+  {
+   "id": "store:7044616877529",
+   "name": "Farris Frus Mandarin&Mango flaske",
+   "brand": "Ringnes",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7044616877529"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 2.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.07
+   },
+   "source_url": "https://meny.no/varer//drikke/vann/vann-med-kullsyre/farris-frus-7044616877529"
+  },
+  {
+   "id": "store:7044611877456",
+   "name": "Farris Frus Mandarin Mango 0,33lx6 boks",
+   "brand": "Ringnes",
+   "category": "drinks",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7044611877456"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 2.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.07
+   },
+   "source_url": "https://meny.no/varer//drikke/vann/vann-med-kullsyre/farris-frus-7044611877456"
+  },
+  {
+   "id": "store:7044610877464",
+   "name": "Farris Frus Mandarin&Mango flaske",
+   "brand": "Ringnes",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7044610877464"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 2.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.07
+   },
+   "source_url": "https://meny.no/varer//drikke/vann/vann-med-kullsyre/farris-frus-7044610877464"
+  },
+  {
+   "id": "store:7044610877457",
+   "name": "Farris Frus Mandarin&Mango boks",
+   "brand": "Ringnes",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7044610877457"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 2.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.07
+   },
+   "source_url": "https://meny.no/varer//drikke/vann/vann-med-kullsyre/farris-frus-7044610877457"
+  },
+  {
+   "id": "store:0000023642634",
+   "name": "Laks Loin Small",
+   "brand": "Salma (lofotprodukt)",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023642634"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 226.0,
+    "fat_g": 16.0,
+    "sat_fat_g": 2.4,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 20.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/laks/laks-naturell/laks-loin-23642634"
+  },
+  {
+   "id": "store:0000023642635",
+   "name": "Laks Loin Large",
+   "brand": "Salma (lofotprodukt)",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023642635"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 226.0,
+    "fat_g": 16.0,
+    "sat_fat_g": 2.4,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 20.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/laks/laks-naturell/laks-loin-23642635"
+  },
+  {
+   "id": "store:7055330036369",
+   "name": "Laksefilet Fersk&Ferdig",
+   "brand": "Matbørsen",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7055330036369"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 117.0,
+    "fat_g": 6.3,
+    "sat_fat_g": 1.6,
+    "carbs_g": 7.2,
+    "sugars_g": 2.5,
+    "fibre_g": 0.0,
+    "protein_g": 7.7,
+    "salt_g": 0.23
+   },
+   "source_url": "https://meny.no/varer//middag/ferdigretter/fiskemaltid-ferdig/laksefilet-7055330036369"
+  },
+  {
+   "id": "store:7027110222453",
+   "name": "Sardiner Classic i Olivenolje",
+   "brand": "King Oscar",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7027110222453"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 261.0,
+    "fat_g": 21.0,
+    "sat_fat_g": 5.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 18.0,
+    "salt_g": 1.0
+   },
+   "source_url": "https://meny.no/varer//middag/fiskeretter/hermetisk-fisk-og-sjomat/hermetisk-sardiner/sardiner-classic-7027110222453"
+  },
+  {
+   "id": "store:7027110111894",
+   "name": "Tunfisk Msc Thai Chili",
+   "brand": "King Oscar",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7027110111894"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 164.0,
+    "fat_g": 5.5,
+    "sat_fat_g": 0.6,
+    "carbs_g": 9.6,
+    "sugars_g": 9.5,
+    "protein_g": 19.0,
+    "salt_g": 0.9
+   },
+   "source_url": "https://meny.no/varer//middag/fiskeretter/hermetisk-fisk-og-sjomat/hermetisk-tunfisk/tunfisk-msc-7027110111894"
+  },
+  {
+   "id": "store:7027110111887",
+   "name": "Tunfisk Msc Olivenolje Pepper",
+   "brand": "King Oscar",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7027110111887"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 203.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 1.8,
+    "carbs_g": 1.5,
+    "sugars_g": 0.7,
+    "protein_g": 24.0,
+    "salt_g": 1.5
+   },
+   "source_url": "https://meny.no/varer//middag/fiskeretter/hermetisk-fisk-og-sjomat/hermetisk-tunfisk/tunfisk-msc-7027110111887"
+  },
+  {
+   "id": "store:7039010063425",
+   "name": "Rømmedressing",
+   "brand": "Idun",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7039010063425"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 295.0,
+    "fat_g": 30.0,
+    "sat_fat_g": 3.5,
+    "carbs_g": 6.0,
+    "sugars_g": 4.8,
+    "fibre_g": 0.0,
+    "protein_g": 1.0,
+    "salt_g": 1.4
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/dressinger/rommedressing/rommedressing-7039010063425"
+  },
+  {
+   "id": "store:7039010015790",
+   "name": "Rømmedressing",
+   "brand": "Idun",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7039010015790"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 295.0,
+    "fat_g": 30.0,
+    "sat_fat_g": 3.4,
+    "carbs_g": 6.0,
+    "sugars_g": 4.8,
+    "protein_g": 1.0,
+    "salt_g": 1.4
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/dressinger/rommedressing/rommedressing-7039010015790"
+  },
+  {
+   "id": "store:7393145093604",
+   "name": "Liba Original My Bakery",
+   "brand": "Idun",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7393145093604"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 288.0,
+    "fat_g": 0.97,
+    "sat_fat_g": 0.27,
+    "carbs_g": 57.1,
+    "sugars_g": 5.19,
+    "fibre_g": 3.1,
+    "protein_g": 9.94,
+    "salt_g": 1.53
+   },
+   "source_url": "https://meny.no/varer//bakeri/pitabrod/liba-original-7393145093604"
+  },
+  {
+   "id": "store:5701977002008",
+   "name": "Naturli' Smørbar",
+   "brand": "Idun",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5701977002008"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 666.0,
+    "fat_g": 75.0,
+    "sat_fat_g": 25.0,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "protein_g": 0.5,
+    "salt_g": 0.9
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/margarin/naturli-smorbar-5701977002008"
+  },
+  {
+   "id": "store:7039010575249",
+   "name": "Jordbær&Rabarbra Kompott",
+   "brand": "Nora",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7039010575249"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 90.0,
+    "fat_g": 0.2,
+    "sat_fat_g": 0.0,
+    "carbs_g": 20.0,
+    "sugars_g": 19.0,
+    "protein_g": 0.5,
+    "salt_g": 0.0
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/fruktkompott/jordbaerrabarbra-7039010575249"
+  },
+  {
+   "id": "store:7041015104119",
+   "name": "Non Stop Fløteis",
+   "brand": "Hennig-Olsen",
+   "category": "snacks_sweets",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7041015104119"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 252.0,
+    "fat_g": 11.8,
+    "sat_fat_g": 6.3,
+    "carbs_g": 32.0,
+    "sugars_g": 25.7,
+    "protein_g": 4.0,
+    "salt_g": 0.28
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/non-stop-floteis-7041015104119"
+  },
+  {
+   "id": "store:7041012010000",
+   "name": "Nyt Pinneis Dobbelsjoko",
+   "brand": "Hennig-Olsen",
+   "category": "snacks_sweets",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7041012010000"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 232.0,
+    "fat_g": 13.4,
+    "sat_fat_g": 8.1,
+    "carbs_g": 23.0,
+    "sugars_g": 12.2,
+    "protein_g": 9.8,
+    "salt_g": 0.37
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/smais/nyt-pinneis-7041012010000"
+  },
+  {
+   "id": "store:7041012550001",
+   "name": "Krone-Is Vegansk Jordbær",
+   "brand": "Hennig-Olsen",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7041012550001"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 264.0,
+    "fat_g": 11.2,
+    "sat_fat_g": 9.5,
+    "carbs_g": 38.7,
+    "sugars_g": 23.6,
+    "protein_g": 1.5,
+    "salt_g": 0.11
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/smais-multipack/krone-is-vegansk-7041012550001"
+  },
+  {
+   "id": "store:7041011550002",
+   "name": "Crème Fløteis Peanøtt",
+   "brand": "Hennig-Olsen",
+   "category": "snacks_sweets",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7041011550002"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 322.0,
+    "fat_g": 19.2,
+    "sat_fat_g": 10.5,
+    "carbs_g": 31.5,
+    "sugars_g": 30.8,
+    "protein_g": 5.3,
+    "salt_g": 0.3
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/smais/creme-floteis-7041011550002"
+  },
+  {
+   "id": "store:7041013080002",
+   "name": "Friskis 50% Frukt Multipack",
+   "brand": "Hennig-Olsen",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7041013080002"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 87.0,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.01,
+    "carbs_g": 20.4,
+    "sugars_g": 20.0,
+    "protein_g": 0.2,
+    "salt_g": 0.0
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/smais-multipack/friskis-50-frukt-7041013080002"
+  },
+  {
+   "id": "store:7041012460003",
+   "name": "Creme Mini Mandel",
+   "brand": "Hennig-Olsen",
+   "category": "snacks_sweets",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7041012460003"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 347.0,
+    "fat_g": 23.4,
+    "sat_fat_g": 13.0,
+    "carbs_g": 27.7,
+    "sugars_g": 27.4,
+    "protein_g": 5.6,
+    "salt_g": 0.15
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/smais-multipack/creme-mini-7041012460003"
+  },
+  {
+   "id": "store:7041012480001",
+   "name": "Creme Mini Mix Multipack",
+   "brand": "Hennig-Olsen",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7041012480001"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 347.0,
+    "fat_g": 24.3,
+    "sat_fat_g": 14.6,
+    "carbs_g": 27.3,
+    "sugars_g": 27.0,
+    "protein_g": 4.9,
+    "salt_g": 0.15
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/smais-multipack/creme-mini-7041012480001"
+  },
+  {
+   "id": "store:7041011560001",
+   "name": "Crème Fløteis Cookie Dough",
+   "brand": "Hennig-Olsen",
+   "category": "snacks_sweets",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7041011560001"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 325.0,
+    "fat_g": 18.7,
+    "sat_fat_g": 11.7,
+    "carbs_g": 34.7,
+    "sugars_g": 32.0,
+    "protein_g": 3.8,
+    "salt_g": 0.2
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/smais/creme-floteis-7041011560001"
+  },
+  {
+   "id": "store:7041011790002",
+   "name": "Creme Fløteis Melkesjokolade",
+   "brand": "Hennig-Olsen",
+   "category": "snacks_sweets",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7041011790002"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 341.0,
+    "fat_g": 22.8,
+    "sat_fat_g": 13.9,
+    "carbs_g": 28.1,
+    "sugars_g": 27.9,
+    "protein_g": 5.1,
+    "salt_g": 0.17
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/smais/creme-floteis-7041011790002"
+  },
+  {
+   "id": "store:7037210121747",
+   "name": "Litago Sjokolade",
+   "brand": "Diplom-Is",
+   "category": "snacks_sweets",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7037210121747"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 230.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 8.2,
+    "carbs_g": 29.0,
+    "sugars_g": 26.0,
+    "protein_g": 3.7,
+    "salt_g": 0.12
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/litago-sjokolade-7037210121747"
+  },
+  {
+   "id": "store:6430064406885",
+   "name": "Fløteis Dumle",
+   "brand": "Diplom-Is",
+   "category": "snacks_sweets",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "6430064406885"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 259.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 8.0,
+    "carbs_g": 35.0,
+    "sugars_g": 25.0,
+    "protein_g": 2.8,
+    "salt_g": 0.13
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/floteis-dumle-6430064406885"
+  },
+  {
+   "id": "store:7037210119393",
+   "name": "Royal Pistasj",
+   "brand": "Diplom-Is",
+   "category": "snacks_sweets",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7037210119393"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 331.0,
+    "fat_g": 22.0,
+    "sat_fat_g": 13.0,
+    "carbs_g": 27.0,
+    "sugars_g": 25.0,
+    "protein_g": 4.4,
+    "salt_g": 0.12
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/smais/royal-pistasj-7037210119393"
+  },
+  {
+   "id": "store:7037210119355",
+   "name": "Royal Mandel",
+   "brand": "Diplom-Is",
+   "category": "snacks_sweets",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7037210119355"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 321.0,
+    "fat_g": 21.0,
+    "sat_fat_g": 13.0,
+    "carbs_g": 27.0,
+    "sugars_g": 26.0,
+    "protein_g": 5.0,
+    "salt_g": 0.16
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/smais/royal-mandel-7037210119355"
+  },
+  {
+   "id": "store:7037210120115",
+   "name": "Royal Lakris",
+   "brand": "Diplom-Is",
+   "category": "snacks_sweets",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7037210120115"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 242.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 7.1,
+    "carbs_g": 31.0,
+    "sugars_g": 28.0,
+    "protein_g": 3.1,
+    "salt_g": 0.22
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/royal-lakris-7037210120115"
+  },
+  {
+   "id": "store:7037210120184",
+   "name": "Lett Vaniljeis",
+   "brand": "Diplom-Is",
+   "category": "snacks_sweets",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7037210120184"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 117.0,
+    "fat_g": 4.5,
+    "sat_fat_g": 3.1,
+    "carbs_g": 14.0,
+    "sugars_g": 6.8,
+    "fibre_g": 13.0,
+    "protein_g": 3.8,
+    "salt_g": 0.13
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/lett-vaniljeis-7037210120184"
+  },
+  {
+   "id": "store:7037210069568",
+   "name": "Sjokolade Konfetti",
+   "brand": "Diplom-Is",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7037210069568"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 430.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 7.2,
+    "carbs_g": 74.0,
+    "sugars_g": 73.0,
+    "protein_g": 2.5,
+    "salt_g": 0.02
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/desserttopping/sjokolade-konfetti-7037210069568"
+  },
+  {
+   "id": "store:7038010067068",
+   "name": "Eple/Bringeb.Juice Presset Sunniva",
+   "brand": "Tine",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7038010067068"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 42.0,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.0,
+    "carbs_g": 10.1,
+    "sugars_g": 9.0,
+    "protein_g": 0.1,
+    "salt_g": 0.0
+   },
+   "source_url": "https://meny.no/varer//drikke/juice/eple-bringeb-juice-7038010067068"
+  },
+  {
+   "id": "store:0000023405309",
+   "name": "Storfe Ytrefilet Kryddersmør Meny",
+   "brand": "Norfersk",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023405309"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 109.0,
+    "fat_g": 2.3,
+    "sat_fat_g": 1.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 22.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//kjott/storfekjott/ytrefilet-av-storfe/storfe-ytrefilet-23405309"
+  },
+  {
+   "id": "store:0000023810110",
+   "name": "Kalv Ytrefilet Røroskjøtt",
+   "brand": "Rørosmat",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023810110"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 106.0,
+    "fat_g": 2.4,
+    "sat_fat_g": 1.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 21.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//kjott/storfekjott/ytrefilet-av-storfe/kalv-ytrefilet-23810110"
+  },
+  {
+   "id": "store:0000023810123",
+   "name": "Kalv Ytrefilet Økol Røroskjøtt",
+   "brand": "Rørosmat",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023810123"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 106.0,
+    "fat_g": 2.4,
+    "sat_fat_g": 1.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 21.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//kjott/storfekjott/ytrefilet-av-storfe/kalv-ytrefilet-23810123"
+  },
+  {
+   "id": "store:7043180069521",
+   "name": "Kyllingfilet Taco Stekt og Spiseklar Dsh",
+   "brand": "Den Stolte Hane",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7043180069521"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 128.0,
+    "fat_g": 2.6,
+    "sat_fat_g": 0.6,
+    "carbs_g": 4.1,
+    "sugars_g": 2.4,
+    "protein_g": 21.9,
+    "salt_g": 1.7
+   },
+   "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kylling-stekt/kyllingfilet-taco-7043180069521"
+  },
+  {
+   "id": "store:7043180073221",
+   "name": "Kyllingfilet Pesto Stekt og skivet Dsh",
+   "brand": "Den Stolte Hane",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7043180073221"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 192.0,
+    "fat_g": 9.4,
+    "sat_fat_g": 1.3,
+    "carbs_g": 2.4,
+    "sugars_g": 0.3,
+    "protein_g": 24.6,
+    "salt_g": 1.5
+   },
+   "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kylling-stekt/kyllingfilet-pesto-7043180073221"
+  },
+  {
+   "id": "store:0000023504001",
+   "name": "Kyllingvinger Lerstang",
+   "brand": "Gårdsand",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023504001"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 182.0,
+    "fat_g": 11.9,
+    "sat_fat_g": 3.7,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 18.8,
+    "salt_g": 0.3
+   },
+   "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kyllingvinger/kyllingvinger-23504001"
+  },
+  {
+   "id": "store:0000023877048",
+   "name": "Kyllingvinger Fersk Lerstang",
+   "brand": "Gårdsand",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023877048"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 182.0,
+    "fat_g": 11.9,
+    "sat_fat_g": 3.7,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 18.8,
+    "salt_g": 0.3
+   },
+   "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kyllingvinger/kyllingvinger-23877048"
+  },
+  {
+   "id": "store:0000023877095",
+   "name": "Vingemiks Marinert Lerstang",
+   "brand": "Gårdsand",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023877095"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 186.0,
+    "fat_g": 11.6,
+    "sat_fat_g": 3.6,
+    "carbs_g": 1.8,
+    "sugars_g": 1.0,
+    "protein_g": 18.4,
+    "salt_g": 0.6
+   },
+   "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kyllingvinger/vingemiks-23877095"
+  },
+  {
+   "id": "store:0000023893711",
+   "name": "Kyllingklubber Økologisk Hovelsrud",
+   "brand": "Hovelsrudhagen",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023893711"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 177.0,
+    "fat_g": 12.1,
+    "sat_fat_g": 3.6,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 16.9,
+    "salt_g": 0.2
+   },
+   "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kyllingvinger/kyllingklubber-23893711"
+  },
+  {
+   "id": "store:0000023893712",
+   "name": "Kyllingvinger Økologisk Hovelsrud",
+   "brand": "Hovelsrudhagen",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023893712"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 177.0,
+    "fat_g": 12.1,
+    "sat_fat_g": 3.6,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 16.9,
+    "salt_g": 0.2
+   },
+   "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kyllingvinger/kyllingvinger-23893712"
+  },
+  {
+   "id": "store:7045386067905",
+   "name": "Hot Chili Dog",
+   "brand": "Leiv Vidar",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7045386067905"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 253.0,
+    "fat_g": 19.5,
+    "sat_fat_g": 3.3,
+    "carbs_g": 5.3,
+    "sugars_g": 1.1,
+    "protein_g": 14.0,
+    "salt_g": 1.9
+   },
+   "source_url": "https://meny.no/varer//kjott/polser/spesialpolser/hot-chili-dog-7045386067905"
+  },
+  {
+   "id": "store:7045386064508",
+   "name": "Julepølse u/Melk glutenfri",
+   "brand": "Leiv Vidar",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7045386064508"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 249.0,
+    "fat_g": 21.0,
+    "sat_fat_g": 8.3,
+    "carbs_g": 6.0,
+    "sugars_g": 0.6,
+    "fibre_g": 0.0,
+    "protein_g": 9.0,
+    "salt_g": 1.8
+   },
+   "source_url": "https://meny.no/varer//kjott/polser/medisterpolse/julepolse-7045386064508"
+  },
+  {
+   "id": "store:7058040684905",
+   "name": "Salami Familia",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7058040684905"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 385.0,
+    "fat_g": 32.0,
+    "sat_fat_g": 10.9,
+    "carbs_g": 1.1,
+    "sugars_g": 0.5,
+    "protein_g": 23.0,
+    "salt_g": 5.0
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekepolser/salami/salami-familia-7058040684905"
+  },
+  {
+   "id": "store:7058040675002",
+   "name": "Salami Familia",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7058040675002"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 385.0,
+    "fat_g": 32.0,
+    "sat_fat_g": 10.9,
+    "carbs_g": 1.1,
+    "sugars_g": 0.5,
+    "protein_g": 23.0,
+    "salt_g": 5.0
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekepolser/salami/salami-familia-7058040675002"
+  },
+  {
+   "id": "store:7058040630407",
+   "name": "Salami Fersk",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7058040630407"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 326.0,
+    "fat_g": 27.0,
+    "sat_fat_g": 9.2,
+    "carbs_g": 0.9,
+    "sugars_g": 0.7,
+    "protein_g": 20.0,
+    "salt_g": 3.2
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekepolser/salami/salami-fersk-7058040630407"
+  },
+  {
+   "id": "store:7058040691408",
+   "name": "Dansk Salami",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7058040691408"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 513.0,
+    "fat_g": 50.0,
+    "sat_fat_g": 17.0,
+    "carbs_g": 1.0,
+    "sugars_g": 0.7,
+    "protein_g": 15.0,
+    "salt_g": 5.0
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekepolser/salami/dansk-salami-7058040691408"
+  },
+  {
+   "id": "store:7058040688606",
+   "name": "Crispy Kyllingburger",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7058040688606"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 201.0,
+    "fat_g": 8.6,
+    "sat_fat_g": 2.2,
+    "carbs_g": 25.0,
+    "sugars_g": 1.0,
+    "fibre_g": 2.8,
+    "protein_g": 11.0,
+    "salt_g": 1.6
+   },
+   "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kyllingburger/crispy-kyllingburger-7058040688606"
+  },
+  {
+   "id": "store:7058040634306",
+   "name": "Salami Italiensk Jul",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7058040634306"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 410.0,
+    "fat_g": 35.0,
+    "sat_fat_g": 12.0,
+    "carbs_g": 1.0,
+    "sugars_g": 0.9,
+    "protein_g": 22.0,
+    "salt_g": 4.7
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekepolser/salami/salami-italiensk-7058040634306"
+  },
+  {
+   "id": "store:7058040671806",
+   "name": "Italiensk Salami Bodpølse",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7058040671806"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 472.0,
+    "fat_g": 42.0,
+    "sat_fat_g": 14.0,
+    "carbs_g": 1.2,
+    "sugars_g": 0.7,
+    "protein_g": 23.0,
+    "salt_g": 5.1
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekepolser/salami/italiensk-salami-7058040671806"
+  },
+  {
+   "id": "store:0000023047037",
+   "name": "Strandapæreskinke",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023047037"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 242.0,
+    "fat_g": 14.0,
+    "sat_fat_g": 8.8,
+    "carbs_g": 0.0,
+    "sugars_g": 0.6,
+    "protein_g": 35.0,
+    "salt_g": 7.0
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekeskinker/spekeskinke/strandapaereskinke-23047037"
+  },
+  {
+   "id": "store:7058040431400",
+   "name": "Grov Pølse Stranda",
+   "brand": "Grilstad",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7058040431400"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 223.0,
+    "fat_g": 17.0,
+    "sat_fat_g": 6.7,
+    "carbs_g": 7.1,
+    "sugars_g": 0.5,
+    "protein_g": 10.0,
+    "salt_g": 1.6
+   },
+   "source_url": "https://meny.no/varer//kjott/polser/medisterpolse/grov-polse-7058040431400"
+  },
+  {
+   "id": "store:7058040454201",
+   "name": "Strandaskinke Fjellbris",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7058040454201"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 239.0,
+    "fat_g": 14.0,
+    "sat_fat_g": 4.9,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 28.0,
+    "salt_g": 5.5
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekeskinker/spekeskinke/strandaskinke-7058040454201"
+  },
+  {
+   "id": "store:7058040618702",
+   "name": "Strandaskinke Strimlet Stranda",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7058040618702"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 239.0,
+    "fat_g": 14.0,
+    "sat_fat_g": 5.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 28.0,
+    "salt_g": 8.0
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekeskinker/spekeskinke/strandaskinke-7058040618702"
+  },
+  {
+   "id": "store:0000023046546",
+   "name": "Pinnekjøtt Tind",
+   "brand": "Grilstad",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023046546"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 390.0,
+    "fat_g": 32.0,
+    "sat_fat_g": 15.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 26.0,
+    "salt_g": 9.0
+   },
+   "source_url": "https://meny.no/varer//kjott/pinnekjott/pinnekjott-23046546"
+  },
+  {
+   "id": "store:7058040637604",
+   "name": "Strandaskinke Renskåret Stranda",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7058040637604"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 187.0,
+    "fat_g": 4.5,
+    "sat_fat_g": 1.4,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 36.0,
+    "salt_g": 7.0
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekeskinker/spekeskinke/strandaskinke-7058040637604"
+  },
+  {
+   "id": "store:7058040612700",
+   "name": "Strandaskinke Renskåret",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7058040612700"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 187.0,
+    "fat_g": 4.5,
+    "sat_fat_g": 1.4,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 36.0,
+    "salt_g": 7.0
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekeskinker/spekeskinke/strandaskinke-7058040612700"
+  },
+  {
+   "id": "store:7058040617309",
+   "name": "Strandaskinke Stranda",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7058040617309"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 239.0,
+    "fat_g": 14.0,
+    "sat_fat_g": 4.9,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 28.0,
+    "salt_g": 7.0
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekeskinker/spekeskinke/strandaskinke-7058040617309"
+  },
+  {
+   "id": "store:7058040703804",
+   "name": "Stranda Spekeskinke Lett Stranda",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7058040703804"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 145.0,
+    "fat_g": 4.0,
+    "sat_fat_g": 1.4,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "protein_g": 31.0,
+    "salt_g": 5.8
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekeskinker/spekeskinke/stranda-spekeskinke-7058040703804"
+  },
+  {
+   "id": "store:7058040690302",
+   "name": "Strandaskinke Mindre Salt Stranda",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7058040690302"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 251.0,
+    "fat_g": 13.0,
+    "sat_fat_g": 4.7,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 32.0,
+    "salt_g": 5.0
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekeskinker/spekeskinke/strandaskinke-7058040690302"
+  },
+  {
+   "id": "store:0000023046277",
+   "name": "Spekeskinke i Bit Godt Modna Tind",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023046277"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 275.0,
+    "fat_g": 14.0,
+    "sat_fat_g": 4.5,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 30.0,
+    "salt_g": 4.5
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekeskinker/spekeskinke/spekeskinke-i-bit-23046277"
+  },
+  {
+   "id": "store:7058040444400",
+   "name": "Dansk Salami",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7058040444400"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 476.0,
+    "fat_g": 46.0,
+    "sat_fat_g": 16.0,
+    "carbs_g": 1.0,
+    "sugars_g": 0.0,
+    "protein_g": 16.0,
+    "salt_g": 4.0
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekepolser/salami/dansk-salami-7058040444400"
+  },
+  {
+   "id": "store:7058040634801",
+   "name": "Jubelsalami Lett",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7058040634801"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 268.0,
+    "fat_g": 16.0,
+    "sat_fat_g": 5.4,
+    "carbs_g": 0.7,
+    "sugars_g": 0.5,
+    "protein_g": 31.0,
+    "salt_g": 5.4
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekepolser/salami/jubelsalami-lett-7058040634801"
+  },
+  {
+   "id": "store:7058040455109",
+   "name": "Salami Italiensk hel",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7058040455109"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 382.0,
+    "fat_g": 30.0,
+    "sat_fat_g": 11.0,
+    "carbs_g": 1.0,
+    "sugars_g": 0.0,
+    "protein_g": 27.0,
+    "salt_g": 6.0
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekepolser/salami/salami-italiensk-7058040455109"
+  },
+  {
+   "id": "store:7058040628107",
+   "name": "Dansk Salami Bordpakning",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7058040628107"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 476.0,
+    "fat_g": 46.0,
+    "sat_fat_g": 16.0,
+    "carbs_g": 1.0,
+    "sugars_g": 0.0,
+    "protein_g": 16.0,
+    "salt_g": 4.0
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekepolser/salami/dansk-salami-7058040628107"
+  },
+  {
+   "id": "store:7058040637307",
+   "name": "Jubelsalami Lakris Ltd",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7058040637307"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 440.0,
+    "fat_g": 40.0,
+    "sat_fat_g": 14.0,
+    "carbs_g": 1.7,
+    "sugars_g": 0.8,
+    "protein_g": 19.0,
+    "salt_g": 5.1
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/spekepolser/salami/jubelsalami-lakris-7058040637307"
+  },
+  {
+   "id": "store:0000023045981",
+   "name": "Fenalår Urøkt Premium m/Ben",
+   "brand": "Grilstad",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023045981"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 262.0,
+    "fat_g": 16.0,
+    "sat_fat_g": 8.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 30.0,
+    "salt_g": 9.0
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/spekemat/fenalar/fenalar-urokt-23045981"
+  },
+  {
+   "id": "store:7044416017453",
+   "name": "Müsli Blåbær",
+   "brand": "AXA",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7044416017453"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 341.0,
+    "fat_g": 2.9,
+    "sat_fat_g": 0.5,
+    "carbs_g": 63.0,
+    "sugars_g": 5.6,
+    "fibre_g": 12.0,
+    "protein_g": 9.2,
+    "salt_g": 0.45
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/frokostblandinger-og-musli/kornblanding/musli-blabaer-7044416017453"
+  },
+  {
+   "id": "store:7044416013172",
+   "name": "Havregryn Store Bjørn",
+   "brand": "Lantmännen cerealia",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7044416013172"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 367.0,
+    "fat_g": 6.8,
+    "sat_fat_g": 1.3,
+    "carbs_g": 58.0,
+    "sugars_g": 1.1,
+    "fibre_g": 10.0,
+    "protein_g": 13.0,
+    "salt_g": 0.01
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/frokostblandinger-og-musli/havregryn/havregryn-7044416013172"
+  },
+  {
+   "id": "store:7310130004032",
+   "name": "Gold Musli Nut",
+   "brand": "AXA",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7310130004032"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 420.0,
+    "fat_g": 16.0,
+    "sat_fat_g": 1.8,
+    "carbs_g": 52.0,
+    "sugars_g": 3.8,
+    "fibre_g": 8.1,
+    "protein_g": 12.0,
+    "salt_g": 0.2
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/frokostblandinger-og-musli/kornblanding/gold-musli-nut-7310130004032"
+  },
+  {
+   "id": "store:7020656011918",
+   "name": "Hvetemel Sammalt Øko Møllerens",
+   "brand": "Møllerens",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7020656011918"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 324.0,
+    "fat_g": 2.5,
+    "sat_fat_g": 0.3,
+    "carbs_g": 60.0,
+    "sugars_g": 2.2,
+    "fibre_g": 10.7,
+    "protein_g": 11.2,
+    "salt_g": 0.0
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/mel-og-gryn/mel/hvetemel-sammalt-oko-7020656011918"
+  },
+  {
+   "id": "store:7044416014674",
+   "name": "Lys Brownie",
+   "brand": "Regal",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7044416014674"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 450.0,
+    "fat_g": 17.0,
+    "sat_fat_g": 10.0,
+    "carbs_g": 68.0,
+    "sugars_g": 46.0,
+    "protein_g": 4.6,
+    "salt_g": 0.7
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/bakemixer/sjokoladekakemix/lys-brownie-7044416014674"
+  },
+  {
+   "id": "store:7300400120715",
+   "name": "Frukost Fullkorn",
+   "brand": "Wasa",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7300400120715"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 396.0,
+    "fat_g": 9.5,
+    "sat_fat_g": 1.0,
+    "carbs_g": 59.0,
+    "sugars_g": 3.0,
+    "fibre_g": 11.0,
+    "protein_g": 13.0,
+    "salt_g": 1.3
+   },
+   "source_url": "https://meny.no/varer//bakeri/knekkebrod/frukost-fullkorn-7300400120715"
+  },
+  {
+   "id": "store:7300400126168",
+   "name": "Sandwich Brunost",
+   "brand": "Wasa",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7300400126168"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 468.0,
+    "fat_g": 24.0,
+    "sat_fat_g": 9.0,
+    "carbs_g": 47.0,
+    "sugars_g": 7.0,
+    "fibre_g": 12.0,
+    "protein_g": 10.0,
+    "salt_g": 1.1
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/mellommaltidsbarer/knekkebrod-sandwich/sandwich-brunost-7300400126168"
+  },
+  {
+   "id": "store:7300400482752",
+   "name": "Sandwich Pizza",
+   "brand": "Wasa",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7300400482752"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 451.0,
+    "fat_g": 21.0,
+    "sat_fat_g": 8.0,
+    "carbs_g": 48.0,
+    "sugars_g": 4.5,
+    "fibre_g": 13.0,
+    "protein_g": 11.0,
+    "salt_g": 1.1
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/mellommaltidsbarer/knekkebrod-sandwich/sandwich-pizza-7300400482752"
+  },
+  {
+   "id": "store:7090028512190",
+   "name": "Wasabi Mayo Frøya",
+   "brand": "Lofotprodukt",
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7090028512190"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 629.0,
+    "fat_g": 68.1,
+    "sat_fat_g": 4.9,
+    "carbs_g": 5.6,
+    "sugars_g": 4.2,
+    "protein_g": 1.0,
+    "salt_g": 0.7
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sushitilbehor/wasabi/wasabi-mayo-7090028512190"
   }
  ],
  "common": {

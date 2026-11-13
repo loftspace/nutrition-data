@@ -851,6 +851,7 @@ create table meta(key text primary key, value text not null);
     owner = {}
     pairs = [(e['product_id'], e['ean']) for e in read_shard(data_dir, manifest, 'product_eans')]
     pairs += [(pid, p['ean']) for pid, p in kept.items()]
+    pairs += [(pid, e) for pid, p in kept.items() for e in p.get('extra_eans', ())]  # checked.json add_eans
     for pid, raw in pairs:
         pid = moved.get(pid, pid)
         if pid not in kept:

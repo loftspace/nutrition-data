@@ -8,6 +8,7 @@ before it was written here. Nothing in this file is estimated: every number is c
 checked.json:
   fixes:  [{id, name?, category?, sizes?: ["150 g", "300 g"], nutrients?: {kcal: 268, fibre_g: null, ...}, source_url}]
           a null nutrient means the label does not give it: the value becomes unknown, never 0
+          add_eans: barcodes the shops sell this same product under that the data did not know (scanning finds it)
 x
   drop:   [{id, why}]                  numbers that cannot be true (salt 12 g in fish cakes); the id goes to removed
   add:    [{id, name, brand, category, unit, sizes, eans, nutrients, source, source_url, serving_g?, derived?, menu?}]
@@ -134,6 +135,8 @@ def apply(checked, kept, moved, extra_search, flags_by_id, units, stats, open_so
             p['name'] = f['name']
         if f.get('category'):
             p['category'] = f['category']
+        if f.get('add_eans'):
+            p['extra_eans'] = list(p.get('extra_eans', ())) + list(f['add_eans'])
         if f.get('sizes'):
             sizes[f['id']] = ', '.join(f['sizes'])
         n = f.get('nutrients')

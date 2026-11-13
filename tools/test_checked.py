@@ -90,6 +90,10 @@ class ApplyTest(unittest.TestCase):
         self.assertEqual((r['serving_g'], r['ean']), (215, None))
         self.assertIn('per100_derived_from_serving', self.flags['mcdonalds-no:big-mac'])
 
+    def test_add_eans_attaches_barcodes_to_the_row(self):
+        self.run_apply({'fixes': [{'id': 'c', 'add_eans': ['7038010016745'], 'source_url': 'u'}]})
+        self.assertEqual(self.kept['c']['extra_eans'], ['7038010016745'])
+
     def test_a_null_nutrient_becomes_unknown(self):
         self.run_apply({'fixes': [{'id': 'c', 'nutrients': {'fibre_g': None}, 'source_url': 'u'}]})
         self.assertIsNone(self.kept['c']['fibre_g'])

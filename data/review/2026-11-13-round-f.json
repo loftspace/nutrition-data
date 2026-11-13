@@ -1,0 +1,5737 @@
+{
+ "note": "Round F, 2026-11-13: every product of 50 big brands at Meny (NorgesGruppen API), checked against the database by barcode in code. Applied: barcodes attached to the same product (brand, name words, kcal/protein/fat/carbs within 3%) and new products whose label numbers add up. Held here: same name with other numbers, several matching rows, labels that do not add up, no numbers, store commodities.",
+ "stats": {
+  "known": 4688,
+  "no_ean": 321,
+  "same_name_other_numbers": 161,
+  "add": 231,
+  "attach": 139,
+  "store_commodity": 22,
+  "several_matches": 26,
+  "does_not_add_up": 17,
+  "no_numbers": 314,
+  "all_zero": 41
+ },
+ "review": [
+  {
+   "ean": "7038010055676",
+   "title": "Yoghurt Vanilje",
+   "subtitle": "500g Tine",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-gresk-vanilje",
+    "ean:7038010064210"
+   ],
+   "n": {
+    "kcal": 80.0,
+    "fat_g": 3.0,
+    "sat_fat_g": 1.9,
+    "carbs_g": 9.3,
+    "sugars_g": 8.8,
+    "protein_g": 3.8,
+    "salt_g": 0.11
+   }
+  },
+  {
+   "ean": "7038010028434",
+   "title": "Fløtemysost",
+   "subtitle": "500g Tine",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-fl%C3%B8temysost",
+    "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-fl%C3%B8temysost-lett"
+   ],
+   "n": {
+    "kcal": 433.0,
+    "fat_g": 26.0,
+    "sat_fat_g": 18.0,
+    "carbs_g": 36.0,
+    "sugars_g": 32.0,
+    "protein_g": 11.0,
+    "salt_g": 0.9
+   }
+  },
+  {
+   "ean": "7038010029646",
+   "title": "Fløtemysost",
+   "subtitle": "skivet 130g Tine",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-fl%C3%B8temysost",
+    "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-fl%C3%B8temysost-lett"
+   ],
+   "n": {
+    "kcal": 433.0,
+    "fat_g": 26.0,
+    "sat_fat_g": 18.0,
+    "carbs_g": 36.0,
+    "sugars_g": 32.0,
+    "protein_g": 11.0,
+    "salt_g": 0.9
+   }
+  },
+  {
+   "ean": "7038010028397",
+   "title": "Gudbrandsdalsost",
+   "subtitle": "G35 500g Tine",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7038010028892",
+    "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-gudbrandsdalsost-anno-1863",
+    "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-gudbrandsdalsost-g35"
+   ],
+   "n": {
+    "kcal": 441.0,
+    "fat_g": 28.0,
+    "sat_fat_g": 19.0,
+    "carbs_g": 35.0,
+    "sugars_g": 30.0,
+    "protein_g": 10.0,
+    "salt_g": 0.7
+   }
+  },
+  {
+   "ean": "7038010023620",
+   "title": "Snøfrisk Naturell",
+   "subtitle": "løsvekt 1kg Spann Tine",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "7038010029530",
+   "title": "Gudbrandsdalsost",
+   "subtitle": "G35 skivet 130g Tine",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7038010028892",
+    "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-gudbrandsdalsost-anno-1863",
+    "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-gudbrandsdalsost-g35"
+   ],
+   "n": {
+    "kcal": 441.0,
+    "fat_g": 28.0,
+    "sat_fat_g": 19.0,
+    "carbs_g": 35.0,
+    "sugars_g": 30.0,
+    "protein_g": 10.0,
+    "salt_g": 0.7
+   }
+  },
+  {
+   "ean": "0000023027196",
+   "title": "Norvegia 26%",
+   "subtitle": "2xca1kg Tine",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7038010071430",
+    "ean:7038010052842"
+   ],
+   "n": {
+    "kcal": 344.0,
+    "fat_g": 26.0,
+    "sat_fat_g": 16.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 27.0,
+    "salt_g": 1.2
+   }
+  },
+  {
+   "ean": "0000023026796",
+   "title": "Norvegia",
+   "subtitle": "Vellagret Ca1kg Tine",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7038010071430",
+    "ean:7038010052842"
+   ],
+   "n": {
+    "kcal": 351.0,
+    "fat_g": 27.0,
+    "sat_fat_g": 17.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 27.0,
+    "salt_g": 1.2
+   }
+  },
+  {
+   "ean": "0000023027252",
+   "title": "Norvegia 26%",
+   "subtitle": "Skorpefri Ca1,25kg Tine",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7038010071430",
+    "ean:7038010052842"
+   ],
+   "n": {
+    "kcal": 344.0,
+    "fat_g": 26.0,
+    "sat_fat_g": 16.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 27.0,
+    "salt_g": 1.2
+   }
+  },
+  {
+   "ean": "7038010069697",
+   "title": "Tropisk Juice",
+   "subtitle": "Original 1l Sunniva",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7038010007729"
+   ],
+   "n": {
+    "kcal": 48.0,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.1,
+    "carbs_g": 11.0,
+    "sugars_g": 11.0,
+    "protein_g": 0.4,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "7038010065255",
+   "title": "Tropisk Juice",
+   "subtitle": "1,75l Sunniva",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7038010007729"
+   ],
+   "n": {
+    "kcal": 48.0,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.0,
+    "carbs_g": 11.1,
+    "sugars_g": 10.7,
+    "protein_g": 0.4,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "7394376616945",
+   "title": "Havregurt",
+   "subtitle": "Turkisk 500g Oatly",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7394376616716"
+   ],
+   "n": {
+    "kcal": 148.0,
+    "fat_g": 10.0,
+    "sat_fat_g": 0.8,
+    "carbs_g": 11.0,
+    "sugars_g": 4.1,
+    "fibre_g": 0.9,
+    "protein_g": 3.3,
+    "salt_g": 0.11
+   }
+  },
+  {
+   "ean": "7038010008511",
+   "title": "Go Morgen Yoghurt",
+   "subtitle": "Mango/Banan&Müsli 195g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "kassalapp:48554",
+    "ean:7038010071942",
+    "ean:7038010069581",
+    "ean:7038010072468"
+   ],
+   "n": {
+    "kcal": 133.0,
+    "fat_g": 4.2,
+    "sat_fat_g": 2.2,
+    "carbs_g": 19.0,
+    "sugars_g": 13.0,
+    "protein_g": 4.2,
+    "salt_g": 0.1
+   }
+  },
+  {
+   "ean": "7038010008528",
+   "title": "Go Morgen Yoghurt",
+   "subtitle": "Melon&Müsli 195g Tine",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "kassalapp:48554",
+    "ean:7038010071942",
+    "ean:7038010069581",
+    "ean:7038010072468"
+   ],
+   "n": {
+    "kcal": 125.0,
+    "fat_g": 3.3,
+    "sat_fat_g": 1.7,
+    "carbs_g": 19.0,
+    "sugars_g": 12.0,
+    "protein_g": 4.2,
+    "salt_g": 0.1
+   }
+  },
+  {
+   "ean": "7034280010872",
+   "title": "Kjøttboller",
+   "subtitle": "120g Peppes",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7034280001917"
+   ],
+   "n": {
+    "kcal": 274.0,
+    "fat_g": 22.0,
+    "sat_fat_g": 6.5,
+    "carbs_g": 5.4,
+    "sugars_g": 0.9,
+    "fibre_g": 0.4,
+    "protein_g": 13.0,
+    "salt_g": 1.84
+   }
+  },
+  {
+   "ean": "7034280010889",
+   "title": "Kjøttboller",
+   "subtitle": "Spicy 120g Peppes",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7034280001917"
+   ],
+   "n": {
+    "kcal": 277.0,
+    "fat_g": 22.0,
+    "sat_fat_g": 6.4,
+    "carbs_g": 6.5,
+    "sugars_g": 1.5,
+    "fibre_g": 1.1,
+    "protein_g": 13.0,
+    "salt_g": 1.8
+   }
+  },
+  {
+   "ean": "0000023017423",
+   "title": "Pinnekjøtt Lam",
+   "subtitle": "Kappet Ca1kg Gilde",
+   "why": "several rows match",
+   "rows": [
+    "ean:2301120600001",
+    "ean:2301693400008",
+    "kassalapp:58335",
+    "ean:7037204194627",
+    "ean:7037204194726"
+   ]
+  },
+  {
+   "ean": "0000023406037",
+   "title": "Grillribbe",
+   "subtitle": "Familiens Ca1kg Gilde",
+   "why": "several rows match",
+   "rows": [
+    "ean:2301632114461",
+    "norgesgruppen:23406037"
+   ]
+  },
+  {
+   "ean": "0000023016242",
+   "title": "Pinnekjøtt",
+   "subtitle": "Av Lammebog 1,5kg Gilde",
+   "why": "several rows match",
+   "rows": [
+    "ean:2301637100001",
+    "ean:2301624200004"
+   ]
+  },
+  {
+   "ean": "0000023011207",
+   "title": "Roastbiff",
+   "subtitle": "Delikatesse skivet 500g Gilde",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7037203630232",
+    "ean:2301579400009",
+    "ean:7037204740640"
+   ],
+   "n": {
+    "kcal": 128.0,
+    "fat_g": 3.1,
+    "sat_fat_g": 1.4,
+    "carbs_g": 1.8,
+    "sugars_g": 0.1,
+    "protein_g": 23.0,
+    "salt_g": 1.8
+   }
+  },
+  {
+   "ean": "7037204740657",
+   "title": "Roastbiff",
+   "subtitle": "skivet 200g Gilde",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7037203630232",
+    "ean:2301579400009",
+    "ean:7037204740640"
+   ],
+   "n": {
+    "kcal": 113.0,
+    "fat_g": 1.7,
+    "sat_fat_g": 0.8,
+    "carbs_g": 1.4,
+    "sugars_g": 0.1,
+    "protein_g": 23.0,
+    "salt_g": 2.3
+   }
+  },
+  {
+   "ean": "0000023012801",
+   "title": "Lam Lårskiver",
+   "subtitle": "Hverdagslam Ca500g Gilde",
+   "why": "several rows match",
+   "rows": [
+    "ean:2001280100006",
+    "ean:2340215300006"
+   ]
+  },
+  {
+   "ean": "0000023010617",
+   "title": "Fenalår Av Lam",
+   "subtitle": "m/Ben hel Ca1,7kg Gilde",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 120.0,
+    "fat_g": 7.5,
+    "sat_fat_g": 4.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 33.0,
+    "salt_g": 7.0
+   }
+  },
+  {
+   "ean": "0000023015002",
+   "title": "Syltelabber",
+   "subtitle": "Saltet Kokt Ca850g Gilde",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2301500200005"
+   ],
+   "n": {
+    "kcal": 158.0,
+    "fat_g": 9.8,
+    "sat_fat_g": 3.2,
+    "carbs_g": 0.3,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 17.0,
+    "salt_g": 2.6
+   }
+  },
+  {
+   "ean": "0000023012054",
+   "title": "Storfe Indrefilet",
+   "subtitle": "Mørnet Økologisk Ca300g Gilde",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2301005200005"
+   ],
+   "n": {
+    "kcal": 121.0,
+    "fat_g": 4.0,
+    "sat_fat_g": 1.8,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 22.0,
+    "salt_g": 0.2
+   }
+  },
+  {
+   "ean": "0000023017392",
+   "title": "Svin Nakkekotelett",
+   "subtitle": "m/Skalk Ca2kg Gilde",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7037204190360"
+   ],
+   "n": {
+    "kcal": 221.0,
+    "fat_g": 17.0,
+    "sat_fat_g": 6.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 17.0,
+    "salt_g": 0.1
+   }
+  },
+  {
+   "ean": "0000023402223",
+   "title": "Svin Skinkeknoke",
+   "subtitle": "Røkt Ca1,35kg Gilde",
+   "why": "several rows match",
+   "rows": [
+    "norgesgruppen:23402223",
+    "ean:2340222300006"
+   ]
+  },
+  {
+   "ean": "0000023010044",
+   "title": "Storfe Entrecote",
+   "subtitle": "skivet Mørnet 370g Gilde",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2301004400000"
+   ],
+   "n": {
+    "kcal": 188.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 5.2,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 21.0,
+    "salt_g": 0.1
+   }
+  },
+  {
+   "ean": "7037203629922",
+   "title": "Julepølse",
+   "subtitle": "400g Go & Mager Gilde",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7037204642821",
+    "ean:7037204648229"
+   ],
+   "n": {
+    "kcal": 146.0,
+    "fat_g": 9.1,
+    "sat_fat_g": 3.2,
+    "carbs_g": 5.8,
+    "sugars_g": 0.9,
+    "protein_g": 10.0,
+    "salt_g": 1.7
+   }
+  },
+  {
+   "ean": "0000023010052",
+   "title": "Storfe Indrefilet",
+   "subtitle": "skivet Mørnet Ca300g Gilde",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2301005200005"
+   ],
+   "n": {
+    "kcal": 117.0,
+    "fat_g": 3.7,
+    "sat_fat_g": 1.7,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 21.0,
+    "salt_g": 0.2
+   }
+  },
+  {
+   "ean": "0000023013439",
+   "title": "Lammelår",
+   "subtitle": "m/Mørbrad Ca3,1kg Gilde",
+   "why": "several rows match",
+   "rows": [
+    "ean:2340104100007",
+    "ean:2340215300006"
+   ]
+  },
+  {
+   "ean": "0000023800402",
+   "title": "Fårepølse",
+   "subtitle": "skivet Ca90g Evanger",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 193.0,
+    "fat_g": 24.0,
+    "sat_fat_g": 3.8,
+    "carbs_g": 1.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 18.0,
+    "salt_g": 4.6
+   }
+  },
+  {
+   "ean": "0000023010066",
+   "title": "Storfe Indrefilet",
+   "subtitle": "1,6kg Gilde",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2301005200005"
+   ],
+   "n": {
+    "kcal": 117.0,
+    "fat_g": 5.2,
+    "sat_fat_g": 2.5,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 22.0,
+    "salt_g": 0.1
+   }
+  },
+  {
+   "ean": "0000023012436",
+   "title": "Storfe Grytekjøtt",
+   "subtitle": "Økologisk 300g Gilde",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 109.0,
+    "fat_g": 1.0,
+    "sat_fat_g": 0.5,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 11.0,
+    "salt_g": 0.2
+   }
+  },
+  {
+   "ean": "0000023015131",
+   "title": "Spareribs",
+   "subtitle": "Smoked Baconribs 840g Gilde",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 351.0,
+    "fat_g": 18.0,
+    "sat_fat_g": 6.8,
+    "carbs_g": 0.1,
+    "sugars_g": 0.1,
+    "protein_g": 15.0,
+    "salt_g": 0.9
+   }
+  },
+  {
+   "ean": "0000023010627",
+   "title": "Pinnekjøtt Lam",
+   "subtitle": "hel Ca2-3,5kg Gilde",
+   "why": "several rows match",
+   "rows": [
+    "ean:2301120600001",
+    "ean:2301693400008",
+    "kassalapp:58335",
+    "ean:7037204194627",
+    "ean:7037204194726"
+   ]
+  },
+  {
+   "ean": "0000023011493",
+   "title": "Pinnekjøtt Lam",
+   "subtitle": "Nordnorsk Ca1,5kg Gilde",
+   "why": "several rows match",
+   "rows": [
+    "ean:2301120600001",
+    "ean:2301693400008",
+    "kassalapp:58335",
+    "ean:7037204194627",
+    "ean:7037204194726"
+   ]
+  },
+  {
+   "ean": "0000023013423",
+   "title": "Lammelår",
+   "subtitle": "m/Knoke&Mørbrad 3,3kg Gilde",
+   "why": "several rows match",
+   "rows": [
+    "ean:2340104100007",
+    "ean:2340215300006"
+   ]
+  },
+  {
+   "ean": "0000023015632",
+   "title": "Spareribs",
+   "subtitle": "Koreansk Bbq Ca840g Gilde",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "norgesgruppen:23015131",
+    "ean:2301540100006",
+    "ean:2301513000005",
+    "ean:2301566100004"
+   ],
+   "n": {
+    "kcal": 228.0,
+    "fat_g": 17.0,
+    "sat_fat_g": 5.9,
+    "carbs_g": 3.6,
+    "sugars_g": 2.5,
+    "protein_g": 15.0,
+    "salt_g": 1.7
+   }
+  },
+  {
+   "ean": "0000023015304",
+   "title": "Lammelår",
+   "subtitle": "Tynne skiver Krydret Ca650g Gilde",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "norgesgruppen:23015308",
+    "ean:2340104100007",
+    "ean:2340215300006"
+   ],
+   "n": {
+    "kcal": 184.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 5.2,
+    "carbs_g": 0.5,
+    "sugars_g": 0.4,
+    "protein_g": 19.0,
+    "salt_g": 1.2
+   }
+  },
+  {
+   "ean": "7039610028039",
+   "title": "Kg Kylling Overlår",
+   "subtitle": "Sit&Pap 600g Prior",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7039610027049"
+   ],
+   "n": {
+    "kcal": 243.0,
+    "fat_g": 19.0,
+    "sat_fat_g": 4.4,
+    "carbs_g": 1.9,
+    "sugars_g": 0.8,
+    "protein_g": 16.0,
+    "salt_g": 1.0
+   }
+  },
+  {
+   "ean": "0000023236280",
+   "title": "Kalkunfilet",
+   "subtitle": "skivet Ca1,5kg Prior",
+   "why": "several rows match",
+   "rows": [
+    "ean:7039610012915",
+    "ean:2323257700003"
+   ]
+  },
+  {
+   "ean": "0000023232577",
+   "title": "Kalkunfilet",
+   "subtitle": "Naturell Ca1,8kg Prior",
+   "why": "several rows match",
+   "rows": [
+    "ean:7039610012915",
+    "ean:2323257700003"
+   ]
+  },
+  {
+   "ean": "0000023236380",
+   "title": "Kalkunfilet",
+   "subtitle": "Salt&Pepper Ca900g Prior",
+   "why": "several rows match",
+   "rows": [
+    "ean:7039610012915",
+    "ean:2323257700003"
+   ]
+  },
+  {
+   "ean": "0000023235238",
+   "title": "Kalkunbryst",
+   "subtitle": "Marinert Ca1,4-2,0kg Prior",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2323568118702",
+    "ean:2323568100004"
+   ],
+   "n": {
+    "kcal": 120.0,
+    "fat_g": 4.4,
+    "sat_fat_g": 1.4,
+    "carbs_g": 1.0,
+    "sugars_g": 0.4,
+    "protein_g": 19.0,
+    "salt_g": 1.0
+   }
+  },
+  {
+   "ean": "0000023235666",
+   "title": "Kyllinglår",
+   "subtitle": "Bikers Handle Ca750g Prior",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7039610005214",
+    "ean:1049950004590",
+    "ean:7039610003586",
+    "ean:7039610004590"
+   ],
+   "n": {
+    "kcal": 225.0,
+    "fat_g": 17.0,
+    "sat_fat_g": 4.1,
+    "carbs_g": 0.8,
+    "sugars_g": 0.4,
+    "protein_g": 17.0,
+    "salt_g": 0.7
+   }
+  },
+  {
+   "ean": "0000023235110",
+   "title": "Kylling hel",
+   "subtitle": "Salt/Pepp 1,5-1,8kg Prior",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2323626000000",
+    "ean:7039610012359"
+   ],
+   "n": {
+    "kcal": 215.0,
+    "fat_g": 15.0,
+    "sat_fat_g": 3.9,
+    "carbs_g": 0.7,
+    "sugars_g": 0.5,
+    "protein_g": 18.0,
+    "salt_g": 1.2
+   }
+  },
+  {
+   "ean": "7023060706241",
+   "title": "Jordmor i Nidaros",
+   "subtitle": ".",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7050122170115",
+   "title": "Bacongull",
+   "subtitle": "120g Maarud",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7050122170092"
+   ],
+   "n": {
+    "kcal": 534.0,
+    "fat_g": 28.0,
+    "sat_fat_g": 4.5,
+    "carbs_g": 3.1,
+    "sugars_g": 1.3,
+    "fibre_g": 0.3,
+    "protein_g": 67.3,
+    "salt_g": 1.9
+   }
+  },
+  {
+   "ean": "7039317005968",
+   "title": "Bokstavkjeks",
+   "subtitle": "175g Sætre",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "saetre:https://www.saetre.no/product/saetre-bokstavkjeks/"
+   ],
+   "n": {
+    "kcal": 420.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 4.6,
+    "carbs_g": 64.0,
+    "sugars_g": 20.0,
+    "fibre_g": 13.0,
+    "protein_g": 9.1,
+    "salt_g": 0.81
+   }
+  },
+  {
+   "ean": "7039317007542",
+   "title": "Kornmo Knekkebrød",
+   "subtitle": "Chia 200g Sætre",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "saetre:https://www.saetre.no/product/kornmo-knekkebrod-havre-solsikke/"
+   ],
+   "n": {
+    "kcal": 530.0,
+    "fat_g": 36.0,
+    "sat_fat_g": 3.7,
+    "carbs_g": 26.0,
+    "sugars_g": 1.7,
+    "fibre_g": 16.0,
+    "protein_g": 17.0,
+    "salt_g": 1.3
+   }
+  },
+  {
+   "ean": "7039317007351",
+   "title": "Bixit",
+   "subtitle": "Sjokolade 200g Sætre",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "saetre:https://www.saetre.no/product/bixit-sjokolade-2/"
+   ],
+   "n": {
+    "kcal": 488.0,
+    "fat_g": 22.0,
+    "sat_fat_g": 7.9,
+    "carbs_g": 61.0,
+    "sugars_g": 31.0,
+    "fibre_g": 5.7,
+    "protein_g": 7.6,
+    "salt_g": 0.81
+   }
+  },
+  {
+   "ean": "7039317007719",
+   "title": "Sætre Digestive",
+   "subtitle": "Fullkorn 300g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "saetre:https://www.saetre.no/product/saetre-digestive-fullkorn-2/",
+    "saetre:https://www.saetre.no/product/saetre-digestive-original-2/"
+   ],
+   "n": {
+    "kcal": 470.0,
+    "fat_g": 18.0,
+    "sat_fat_g": 1.6,
+    "carbs_g": 67.0,
+    "sugars_g": 20.0,
+    "fibre_g": 5.8,
+    "protein_g": 7.2,
+    "salt_g": 1.2
+   }
+  },
+  {
+   "ean": "7072130044899",
+   "title": "Hornsalt",
+   "subtitle": "Mors Hjemmebakte 65g Idun",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5701073041383",
+   "title": "Pynteglasur",
+   "subtitle": "m/Sjokoladesmak 50g Dr.Oetker",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:5701073062807"
+   ],
+   "n": {
+    "kcal": 354.0,
+    "fat_g": 9.7,
+    "sat_fat_g": 4.0,
+    "carbs_g": 61.0,
+    "sugars_g": 56.0,
+    "protein_g": 3.0,
+    "salt_g": 0.19
+   }
+  },
+  {
+   "ean": "5701073067949",
+   "title": "Glitter Spray",
+   "subtitle": "Silver 4g Dr.Oetker",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5701073067956",
+   "title": "Glitter Spray",
+   "subtitle": "Gold 4g Dr.Oetker",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070099910118",
+   "title": "Icingfarge",
+   "subtitle": "Marineblå 28g Cacas",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070099910163",
+   "title": "Icingfarge",
+   "subtitle": "Mintgrønn 28g Cacas",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5060475074116",
+   "title": "Penn Spiselig",
+   "subtitle": "Svart 1,8g Rainbowdust",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5701073064122",
+   "title": "Pynteglasur",
+   "subtitle": "Hvit 125g Dr. Oetker",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:5701073062807"
+   ],
+   "n": {
+    "kcal": 349.0,
+    "fat_g": 0.2,
+    "sat_fat_g": 0.2,
+    "carbs_g": 87.0,
+    "sugars_g": 77.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "0023535302043",
+   "title": "Vaniljeekstrakt",
+   "subtitle": "Lorann",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7090017540166",
+   "title": "Sukrin Gold",
+   "subtitle": "Søtningsstoff 500g",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 6.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 99.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "7070099910125",
+   "title": "Icingfarge",
+   "subtitle": "Himmelblå 28g Cacas",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070099910101",
+   "title": "Icingfarge",
+   "subtitle": "Sort 28g Cacas",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070099910156",
+   "title": "Icingfarge",
+   "subtitle": "Bladgrønn 28g Cacas",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "3760123762472",
+   "title": "Vaniljeekstrakt",
+   "subtitle": "Madagaskar 70g",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5701073064146",
+   "title": "Pynteglasur",
+   "subtitle": "Grønn 125g Dr. Oetker",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:5701073062807"
+   ],
+   "n": {
+    "kcal": 349.0,
+    "fat_g": 0.2,
+    "sat_fat_g": 0.2,
+    "carbs_g": 87.0,
+    "sugars_g": 77.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "7090067670028",
+   "title": "Starterkit Surdeig",
+   "subtitle": "1stk Kompani Surdeig",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8720512690576",
+   "title": "Spiselig Lim",
+   "subtitle": "22g Funcakes",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "9788241965340",
+   "title": "Bak Kawaii",
+   "subtitle": ".",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7023060035884",
+   "title": "Bak Brød",
+   "subtitle": "Enkelt Raskt& Rimelig",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "9788202145422",
+   "title": "Tassen Baker Kake",
+   "subtitle": ".",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7023060410209",
+   "title": "Sjukt Digg Baking",
+   "subtitle": ".",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7023060823375",
+   "title": "Sagmesterens",
+   "subtitle": "Barn",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041002957",
+   "title": "Bakeark",
+   "subtitle": "Kfs Jul Display 1/3pl Unik",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620052071",
+   "title": "Bakeark",
+   "subtitle": "18ark Vilje",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620059766",
+   "title": "Bakepapir",
+   "subtitle": "8m Vilje",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7041614007262",
+   "title": "Burgerbrød",
+   "subtitle": "Grove 6stk 480g Reale",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7041614020551",
+    "ean:7041614024436"
+   ],
+   "n": {
+    "kcal": 270.0,
+    "fat_g": 4.7,
+    "sat_fat_g": 0.6,
+    "carbs_g": 44.1,
+    "sugars_g": 3.3,
+    "fibre_g": 6.8,
+    "protein_g": 9.1,
+    "salt_g": 0.7
+   }
+  },
+  {
+   "ean": "7020712024050",
+   "title": "Pølsebrød",
+   "subtitle": "Chicago 10pk 500g Hatting",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7020712017595",
+    "ean:7020712017625",
+    "ean:7020712019070",
+    "ean:7020712023664",
+    "ean:7020712023695"
+   ],
+   "n": {
+    "kcal": 298.0,
+    "fat_g": 7.1,
+    "sat_fat_g": 0.6,
+    "carbs_g": 46.0,
+    "sugars_g": 4.6,
+    "fibre_g": 4.3,
+    "protein_g": 9.9,
+    "salt_g": 0.5
+   }
+  },
+  {
+   "ean": "5701014081263",
+   "title": "Grove Rundstykker",
+   "subtitle": "600g Hatting",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:0000008048479",
+    "ean:0701026068844",
+    "ean:5701014063498",
+    "ean:6431901440130"
+   ],
+   "n": {
+    "kcal": 245.0,
+    "fat_g": 2.1,
+    "sat_fat_g": 0.4,
+    "carbs_g": 43.0,
+    "sugars_g": 2.0,
+    "fibre_g": 7.3,
+    "protein_g": 9.8,
+    "salt_g": 0.91
+   }
+  },
+  {
+   "ean": "5701014063009",
+   "title": "Pitabrød",
+   "subtitle": "Grove 400g Hatting",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:5701014071950",
+    "ean:5701014158361",
+    "ean:7315061730197"
+   ],
+   "n": {
+    "kcal": 242.0,
+    "fat_g": 1.4,
+    "sat_fat_g": 0.3,
+    "carbs_g": 45.0,
+    "sugars_g": 2.0,
+    "fibre_g": 6.7,
+    "protein_g": 8.9,
+    "salt_g": 0.98
+   }
+  },
+  {
+   "ean": "7020712014099",
+   "title": "Pitabrød",
+   "subtitle": "glutenfri 2stk 230g Hatting",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:5701014071950",
+    "ean:5701014158361",
+    "ean:7315061730197"
+   ],
+   "n": {
+    "kcal": 256.0,
+    "fat_g": 5.7,
+    "sat_fat_g": 1.0,
+    "carbs_g": 47.1,
+    "sugars_g": 1.6,
+    "fibre_g": 3.6,
+    "protein_g": 2.1,
+    "salt_g": 2.1
+   }
+  },
+  {
+   "ean": "6431903340261",
+   "title": "Pølsebrød",
+   "subtitle": "glutenfri 4stk 260g Hatting",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7020712017595",
+    "ean:7020712017625",
+    "ean:7020712019070",
+    "ean:7020712023664",
+    "ean:7020712023695"
+   ],
+   "n": {
+    "kcal": 285.0,
+    "fat_g": 6.7,
+    "sat_fat_g": 1.1,
+    "carbs_g": 53.0,
+    "sugars_g": 6.2,
+    "fibre_g": 3.0,
+    "protein_g": 2.0,
+    "salt_g": 1.1
+   }
+  },
+  {
+   "ean": "7020712014983",
+   "title": "Hamburgerbrød",
+   "subtitle": "glutenfri 4stk 320g Hatting",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7020712008630",
+    "ean:7020712020601",
+    "ean:7031540004251"
+   ],
+   "n": {
+    "kcal": 285.0,
+    "fat_g": 7.2,
+    "sat_fat_g": 0.8,
+    "carbs_g": 51.0,
+    "sugars_g": 4.1,
+    "fibre_g": 3.3,
+    "protein_g": 2.7,
+    "salt_g": 1.1
+   }
+  },
+  {
+   "ean": "7333352118011",
+   "title": "Matte Settingspray",
+   "subtitle": "00 Translucent 100ml Isadora",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7314890002741",
+   "title": "Bilavfetting",
+   "subtitle": "Miljø 1l Turtle",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7333352117984",
+   "title": "Glow Settingspray",
+   "subtitle": "00 Translucent 100ml Isadora",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7333352119414",
+   "title": "Loose Setting",
+   "subtitle": "Pwdr 00 Translucent 9g Isadora",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7090008600022",
+   "title": "Sandefjords",
+   "subtitle": "Blad",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7090033453426",
+   "title": "Nordlandsnetter",
+   "subtitle": "0,33l boks Bådin",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7090051040233",
+   "title": "Byglandsfjorden",
+   "subtitle": "Blonde 0,33l boks Bygland",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7072712006963",
+   "title": "Fjordly Seltzer",
+   "subtitle": "Strawb.&Rhubarb 0,33l boks",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7072712007083",
+   "title": "Fjordly Seltzer",
+   "subtitle": "Mango&Passion 0,33l boks",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620028533",
+   "title": "Skagensalat",
+   "subtitle": "180g Eldorado",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620033278",
+   "title": "Kanelboller",
+   "subtitle": "12stk 420g Eldorado",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620036736",
+   "title": "Popcornkrydder",
+   "subtitle": "Sourcream&Onion 24g Eldorado",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620043048",
+   "title": "Nøttebar",
+   "subtitle": "Frø&Nøtter 40g Eldorado",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620070051",
+   "title": "Iste Grønt Eple",
+   "subtitle": "u/Sukker 0,33l boks Eldorado",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620061868",
+   "title": "Gorgonzola",
+   "subtitle": "Dolce Dop 150g Eldorado",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 1270.0,
+    "fat_g": 25.0,
+    "sat_fat_g": 18.0,
+    "carbs_g": 1.7,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 19.0,
+    "salt_g": 1.7
+   }
+  },
+  {
+   "ean": "7311041084922",
+   "title": "Håndsåpe",
+   "subtitle": "500ml First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041027158",
+   "title": "Tamponger",
+   "subtitle": "32stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041038673",
+   "title": "Våtservietter",
+   "subtitle": "2x72stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620055331",
+   "title": "Truseinnlegg",
+   "subtitle": "Normal 44stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620056130",
+   "title": "Truseinnlegg",
+   "subtitle": "Long 30stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620057663",
+   "title": "Tamponger",
+   "subtitle": "Super 16stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620057854",
+   "title": "Tamponger",
+   "subtitle": "Normal 64stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041076880",
+   "title": "Balsam Normal",
+   "subtitle": "500ml First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041082133",
+   "title": "Bomull",
+   "subtitle": "100g First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620041570",
+   "title": "Toalettbørste",
+   "subtitle": "m/Skål First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041089552",
+   "title": "Wipes Universal",
+   "subtitle": "70stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041085516",
+   "title": "Klor",
+   "subtitle": "750ml First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041085431",
+   "title": "Villfuglblanding",
+   "subtitle": "1kg First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620058790",
+   "title": "Allrent Rengjøring",
+   "subtitle": "1l First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041014004",
+   "title": "Skuresvamper",
+   "subtitle": "10stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041085523",
+   "title": "Salmiakk",
+   "subtitle": "750ml First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041083895",
+   "title": "Vindusnal",
+   "subtitle": "35cm First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041082621",
+   "title": "Tanntråd",
+   "subtitle": "40m First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041052518",
+   "title": "Salmiakk",
+   "subtitle": "1,5l First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041083758",
+   "title": "Meiseboller",
+   "subtitle": "i Bøtte 50stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620053610",
+   "title": "Oppvaskbørste",
+   "subtitle": "1stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041085530",
+   "title": "Grønnsåpe",
+   "subtitle": "750ml First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041084977",
+   "title": "Shampoo",
+   "subtitle": "500ml First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041085417",
+   "title": "Brødposer 6l",
+   "subtitle": "100stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041084861",
+   "title": "Tørrmopp",
+   "subtitle": "15stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041084878",
+   "title": "Våtmopp",
+   "subtitle": "10stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620014840",
+   "title": "Universal Spray",
+   "subtitle": "500ml First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620016936",
+   "title": "Tøymykner Frisk",
+   "subtitle": "1l First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041053225",
+   "title": "Tannkrem",
+   "subtitle": "75ml First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041087565",
+   "title": "Bomull",
+   "subtitle": "100g First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041084946",
+   "title": "Balsam",
+   "subtitle": "500ml First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041083734",
+   "title": "Batteri 9v",
+   "subtitle": "2stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041084939",
+   "title": "Bodylotion",
+   "subtitle": "500ml First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041083727",
+   "title": "Plastbøtte",
+   "subtitle": "Blå 5l First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041013724",
+   "title": "Våtfor Hund",
+   "subtitle": "Oksekjøtt 300g First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041087817",
+   "title": "Tørrfor",
+   "subtitle": "Katt 2kg First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620050329",
+   "title": "Wipes Universal",
+   "subtitle": "Citrus 70stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041089194",
+   "title": "Klessnor",
+   "subtitle": "Slitesterk 20m First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0000023656463",
+   "title": "Lutefisk Torsk",
+   "subtitle": "Helside Ca1,4kg First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041083680",
+   "title": "Meiseboller Store",
+   "subtitle": "4x250g First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041083697",
+   "title": "Meiseboller",
+   "subtitle": "6x100g First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041089149",
+   "title": "Stålskrubb",
+   "subtitle": "1stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620014604",
+   "title": "Skurekrem Sitron",
+   "subtitle": "500ml First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041088517",
+   "title": "Hundeavfallsposer",
+   "subtitle": "30stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041085004",
+   "title": "Dusjgele",
+   "subtitle": "500ml First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041013984",
+   "title": "Gummihansker M",
+   "subtitle": "2par First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041014295",
+   "title": "Gummihansker L",
+   "subtitle": "2par First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620044021",
+   "title": "Telys Hvit",
+   "subtitle": "4t 100stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620052477",
+   "title": "Støvmopp",
+   "subtitle": "Refill 5stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041087558",
+   "title": "Bomullspads",
+   "subtitle": "Rund 80stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041087824",
+   "title": "Tørrfor",
+   "subtitle": "Hund 4kg First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041014028",
+   "title": "Bind Normal",
+   "subtitle": "m/Vinger 14stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041089774",
+   "title": "Solsikkekjerner",
+   "subtitle": "til Fugl 1kg First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041027387",
+   "title": "Tannbørste Medium",
+   "subtitle": "4pk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041001288",
+   "title": "Kattesand",
+   "subtitle": "5kg First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041023464",
+   "title": "Ansiktsrens",
+   "subtitle": "25stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041025826",
+   "title": "Håndoppvask",
+   "subtitle": "750ml First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041086124",
+   "title": "Papptallerken",
+   "subtitle": "50stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041013991",
+   "title": "Gulvklut Non-Wov",
+   "subtitle": "3stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620057236",
+   "title": "Baderomsspray",
+   "subtitle": "500ml First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620059674",
+   "title": "Kjøkkenspray",
+   "subtitle": "500ml First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620021855",
+   "title": "Pappbeger",
+   "subtitle": "17,5cl 30stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041041505",
+   "title": "Batterier Lr14",
+   "subtitle": "1,5v 2pk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041082522",
+   "title": "Antikklys Lilla",
+   "subtitle": "21cm 10stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041082539",
+   "title": "Antikklys Rød",
+   "subtitle": "21cm 10stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041082508",
+   "title": "Antikklys Hvit",
+   "subtitle": "21cm 10stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620051760",
+   "title": "Julepapir",
+   "subtitle": "Kraft 5mx70cm First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041041512",
+   "title": "Batterier Lr20",
+   "subtitle": "1,5v 2pk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0000023656731",
+   "title": "Pinnekjøtt Lam",
+   "subtitle": "Urøkt Ca1kg First Price",
+   "why": "several rows match",
+   "rows": [
+    "norgesgruppen:23656731",
+    "ean:2365673100005"
+   ]
+  },
+  {
+   "ean": "7311041089200",
+   "title": "Våtfor til Katt",
+   "subtitle": "Kylling&Okse 85g First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041014011",
+   "title": "Serviett Buffet",
+   "subtitle": "Hvit 75stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041089125",
+   "title": "Muffinsformer",
+   "subtitle": "Små 100stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041089170",
+   "title": "Plastfolie",
+   "subtitle": "Pe 100m First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7033250235000",
+   "title": "Serviett Buffet",
+   "subtitle": "Jul 75stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041089118",
+   "title": "Roll-On",
+   "subtitle": "Deo 50ml First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620004780",
+   "title": "Serviett Buffet",
+   "subtitle": "Påske 75stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041019986",
+   "title": "Batterier Lr03 Aaa",
+   "subtitle": "1,5v 8stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041019979",
+   "title": "Batterier Lr06 Aa",
+   "subtitle": "1,5v 8stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041085561",
+   "title": "Bomullspinner",
+   "subtitle": "300stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620059483",
+   "title": "Ansiktsservietter",
+   "subtitle": "150stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620056727",
+   "title": "Papirlommetørkle",
+   "subtitle": "10stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620055256",
+   "title": "Nattbind",
+   "subtitle": "m/Vinger Ultra 12stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041013700",
+   "title": "Våtfor til Katt",
+   "subtitle": "Pate m/Fjærkre 100g First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041013717",
+   "title": "Våtfor til Katt",
+   "subtitle": "Pate m/Fisk 100g First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041088340",
+   "title": "Våtfor til Katt",
+   "subtitle": "Pate m/Okse 100g First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620037498",
+   "title": "Lyspære Led",
+   "subtitle": "Mignon 2w 2stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620033872",
+   "title": "Lyspære Led",
+   "subtitle": "Standard 8w 2pk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041083703",
+   "title": "Plastbøtte",
+   "subtitle": "Grå 10l 1stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041085271",
+   "title": "Maskinoppvask",
+   "subtitle": "Pulver 1,4kg First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041035566",
+   "title": "Papptallerken Dyp",
+   "subtitle": "19,5cm 25stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620063794",
+   "title": "Papptallerken",
+   "subtitle": "18cm 25stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0000023656751",
+   "title": "Nakkekoteletter",
+   "subtitle": "Svin Ca1,3kg First Price",
+   "why": "several rows match",
+   "rows": [
+    "ean:3365651113491",
+    "ean:2365675100003"
+   ]
+  },
+  {
+   "ean": "7035620065187",
+   "title": "Avfallspose",
+   "subtitle": "24l 25stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620039850",
+   "title": "Antikklys",
+   "subtitle": "Gul 21cm 10stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041085974",
+   "title": "Tørkerull",
+   "subtitle": "2rl First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620058202",
+   "title": "Universalklut",
+   "subtitle": "9stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041083451",
+   "title": "Våtfor til Hund",
+   "subtitle": "Paté med Fjærkre 300g First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041089477",
+   "title": "Toalettpapir",
+   "subtitle": "2-Lags 8rl First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620053474",
+   "title": "Støvmopp Startsett",
+   "subtitle": "m/Håndtak+5 Mopper First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620039300",
+   "title": "Lyspære Led",
+   "subtitle": "Spot Gu5.3 5w First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5701410410940",
+   "title": "Tøyvask Flytende",
+   "subtitle": "1l First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041086988",
+   "title": "Maskinoppvask",
+   "subtitle": "Tabletter 60stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "4000576056858",
+   "title": "Bind Normal",
+   "subtitle": "Inkontinens 14stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041089460",
+   "title": "Tørkerull",
+   "subtitle": "Kjøkken 4rl First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620057816",
+   "title": "Serviett",
+   "subtitle": "Buffet 17.Mai 75stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620037894",
+   "title": "Lyspære Led",
+   "subtitle": "Spot Gu10 4w 2stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620013898",
+   "title": "Tøyvask",
+   "subtitle": "Hvitt&Farget 3kg First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041089897",
+   "title": "Våtfor til Katt",
+   "subtitle": "Biter i Saus m/Okse 415g Fp",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041089941",
+   "title": "Våtfor til Hund",
+   "subtitle": "Biter i Saus m/Okse 1240g Fp",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041089903",
+   "title": "Våtfor til Katt",
+   "subtitle": "Biter i Saus m/Fjærkre 415g Fp",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "4000576056872",
+   "title": "Truseinnlegg",
+   "subtitle": "Ultra Mini Inkontinens 24stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041013755",
+   "title": "Bodylotion",
+   "subtitle": "300ml First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041013854",
+   "title": "Ansiktsservietter",
+   "subtitle": "150stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041019788",
+   "title": "Taco Dinner Kit",
+   "subtitle": "320g First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041076125",
+   "title": "Bomullspinner",
+   "subtitle": "300stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041076873",
+   "title": "Shampoo Normal",
+   "subtitle": "500ml First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041076903",
+   "title": "Dusjgele",
+   "subtitle": "300ml First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041083642",
+   "title": "Villfuglblanding",
+   "subtitle": "1kg First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041083673",
+   "title": "Fuglenøtter",
+   "subtitle": "250g First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620036545",
+   "title": "Karbonader",
+   "subtitle": "800g First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041037201",
+   "title": "Grønnsåpe",
+   "subtitle": "1,5l First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041075975",
+   "title": "Klor",
+   "subtitle": "1,5l First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041084458",
+   "title": "Håndsåpe",
+   "subtitle": "Refill 500ml First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620044113",
+   "title": "Fiskepudding",
+   "subtitle": "Pølse 650g First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041013847",
+   "title": "Papirlommetørkle",
+   "subtitle": "18x10stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041019993",
+   "title": "Batteri 1604",
+   "subtitle": "9v 1stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041029442",
+   "title": "Plastglass Klar",
+   "subtitle": "25cl 25stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041029473",
+   "title": "Plastbeger Hvit",
+   "subtitle": "20cl 50stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620037054",
+   "title": "Appelsinsaft",
+   "subtitle": "Sukkerredusert 1,5l First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620039461",
+   "title": "Telys Hvit",
+   "subtitle": "4t 100stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041052044",
+   "title": "Avfallsposer",
+   "subtitle": "m/Håndtak 24l 25stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0000023656124",
+   "title": "Storfe Entrecote",
+   "subtitle": "Ca275g Jacobs Utvalgte",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2365612402788"
+   ],
+   "n": {
+    "kcal": 200.0,
+    "fat_g": 13.1,
+    "sat_fat_g": 6.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 20.5,
+    "salt_g": 0.1
+   }
+  },
+  {
+   "ean": "0000023656467",
+   "title": "Storfe Indrefilet",
+   "subtitle": "Ca170g Jacobs Utvalgte",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "norgesgruppen:7822"
+   ],
+   "n": {
+    "kcal": 117.0,
+    "fat_g": 4.7,
+    "sat_fat_g": 2.2,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 22.0,
+    "salt_g": 0.1
+   }
+  },
+  {
+   "ean": "7035620038822",
+   "title": "Ørret Røkt",
+   "subtitle": "Honning&Pepper 100g Jacobs",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7035620025921"
+   ],
+   "n": {
+    "kcal": 230.0,
+    "fat_g": 14.2,
+    "sat_fat_g": 3.2,
+    "carbs_g": 1.4,
+    "sugars_g": 1.4,
+    "fibre_g": 0.0,
+    "protein_g": 24.2,
+    "salt_g": 2.0
+   }
+  },
+  {
+   "ean": "7035620064432",
+   "title": "Laks Røkt",
+   "subtitle": "i Bit 500g Jacobs Utvalgte",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7035620027284",
+    "ean:7035620042713"
+   ],
+   "n": {
+    "kcal": 211.0,
+    "fat_g": 13.7,
+    "sat_fat_g": 2.0,
+    "carbs_g": 0.4,
+    "sugars_g": 0.4,
+    "fibre_g": 0.0,
+    "protein_g": 22.1,
+    "salt_g": 2.5
+   }
+  },
+  {
+   "ean": "7035620022036",
+   "title": "Juleskinke",
+   "subtitle": "m/Nellik 100g Jacobs Utvalgte",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7035620021039"
+   ],
+   "n": {
+    "kcal": 102.0,
+    "fat_g": 1.6,
+    "sat_fat_g": 0.48,
+    "carbs_g": 0.58,
+    "sugars_g": 0.58,
+    "fibre_g": 0.0,
+    "protein_g": 21.0,
+    "salt_g": 1.8
+   }
+  },
+  {
+   "ean": "7035620065453",
+   "title": "Matgave Stor",
+   "subtitle": "Eske Jacobs Utvalgte",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620013836",
+   "title": "Matgave Liten",
+   "subtitle": "Eske Jacobs Utvalgte",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620044694",
+   "title": "Roastbiff Angus",
+   "subtitle": "100g Jacobs Utvalgte",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620043178",
+   "title": "Girasoli",
+   "subtitle": "Bøffelricotta 250g Jacobs Utvalgte",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0000023656259",
+   "title": "Fenalår Røkt",
+   "subtitle": "m/Ben 1,5kg Jacobs Utvalgte",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620040115",
+   "title": "Pizzabunner",
+   "subtitle": "2x200g Jacobs Utvalgte",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620035197",
+   "title": "Vaniljefromasj",
+   "subtitle": "m/Salt Karamell 2stk 190g Jacobs Ut",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0000023656923",
+   "title": "Pinnekjøtt",
+   "subtitle": "hel Side Urøkt Ca3,1kg A.Idsøe Jaco",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:0000023787360",
+    "ean:0000023829121",
+    "ean:0000023900103",
+    "ean:2020155500000",
+    "ean:2060229400003",
+    "ean:2080721400004"
+   ],
+   "n": {
+    "kcal": 365.0,
+    "fat_g": 31.0,
+    "sat_fat_g": 13.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 22.0,
+    "salt_g": 9.1
+   }
+  },
+  {
+   "ean": "7035620061226",
+   "title": "Julekos",
+   "subtitle": ".",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7033250440725",
+   "title": "Vindusnal",
+   "subtitle": "35cm 1stk Unik",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7090038350041",
+   "title": "Tya Industri",
+   "subtitle": "Dry Stout 0,5l flaske",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0000023859112",
+   "title": "Ost m/Ramsløk",
+   "subtitle": "ca 300g Gammel Erik",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 600.0,
+    "fat_g": 40.2,
+    "sat_fat_g": 25.0,
+    "carbs_g": 1.1,
+    "sugars_g": 0.0,
+    "protein_g": 23.8,
+    "salt_g": 2.3
+   }
+  },
+  {
+   "ean": "0000023859114",
+   "title": "Vellagret Ost",
+   "subtitle": "ca 300g Gammel Erik",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 598.0,
+    "fat_g": 40.2,
+    "sat_fat_g": 25.0,
+    "carbs_g": 1.1,
+    "sugars_g": 0.0,
+    "protein_g": 23.8,
+    "salt_g": 2.3
+   }
+  },
+  {
+   "ean": "7046110323748",
+   "title": "Jif Universal",
+   "subtitle": "Refil 250ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7033165013205",
+   "title": "Nylonvask",
+   "subtitle": "for Vinduer 100g",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7046110318713",
+   "title": "Jif Vindu Vask",
+   "subtitle": "300ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7046110323243",
+   "title": "Jif Universal",
+   "subtitle": "Spray 500ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7033352772281",
+   "title": "Torsk Naturell",
+   "subtitle": "u/Skinn ca 400g Lerøy",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2376069204290"
+   ],
+   "n": {
+    "kcal": 79.0,
+    "fat_g": 1.0,
+    "sat_fat_g": 0.1,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 17.4,
+    "salt_g": 0.2
+   }
+  },
+  {
+   "ean": "0000023894054",
+   "title": "Skrei Kjake",
+   "subtitle": "100-300g Vaag",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 80.0,
+    "fat_g": 19.2,
+    "sat_fat_g": 1.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 18.1,
+    "salt_g": 0.1
+   }
+  },
+  {
+   "ean": "0000023894007",
+   "title": "Skrei Kjake",
+   "subtitle": "u/Skinn Ca200-400g Vaag",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 80.0,
+    "fat_g": 19.2,
+    "sat_fat_g": 1.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 18.1,
+    "salt_g": 0.1
+   }
+  },
+  {
+   "ean": "0000023894004",
+   "title": "Skrei Backloin",
+   "subtitle": "Long u/Skinn Ca550-850g Vaag",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 80.0,
+    "fat_g": 19.2,
+    "sat_fat_g": 1.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 18.1,
+    "salt_g": 0.1
+   }
+  },
+  {
+   "ean": "0000023894067",
+   "title": "Skrei Loin",
+   "subtitle": "Short Ca300-400g Vaag",
+   "why": "several rows match",
+   "rows": [
+    "ean:2376051403267",
+    "ean:7033352641105"
+   ]
+  },
+  {
+   "ean": "0000023894009",
+   "title": "Skrei Backloin",
+   "subtitle": "Short u/Skinn Ca300-500g Vaag",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 80.0,
+    "fat_g": 19.2,
+    "sat_fat_g": 1.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 18.1,
+    "salt_g": 0.1
+   }
+  },
+  {
+   "ean": "97033352601652",
+   "title": "Iskasse Stor",
+   "subtitle": "Isoporkasse Lerøy",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0000023701807",
+   "title": "Torsk Lettsaltet",
+   "subtitle": "Ca400g Lerøy",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2376069306048"
+   ],
+   "n": {
+    "kcal": 81.0,
+    "fat_g": 1.1,
+    "sat_fat_g": 0.1,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 17.3,
+    "salt_g": 1.6
+   }
+  },
+  {
+   "ean": "0000023760515",
+   "title": "Skrei Loin",
+   "subtitle": "u/Skinn&Bein Ca300-550g Lerøy",
+   "why": "several rows match",
+   "rows": [
+    "ean:2376051403267",
+    "ean:7033352641105"
+   ]
+  },
+  {
+   "ean": "7033352395428",
+   "title": "Isoporkasse Tom",
+   "subtitle": "u/Lokk Str 10kg Emballasje",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620051487",
+   "title": "Julesild",
+   "subtitle": "365g Fiskemannen",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7035620032561"
+   ],
+   "n": {
+    "kcal": 168.0,
+    "fat_g": 7.9,
+    "sat_fat_g": 1.55,
+    "carbs_g": 16.0,
+    "sugars_g": 14.8,
+    "fibre_g": 0.0,
+    "protein_g": 8.16,
+    "salt_g": 1.8
+   }
+  },
+  {
+   "ean": "7035620056680",
+   "title": "Scampi",
+   "subtitle": "Asc 270g Fiskemannen",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7035620070273"
+   ],
+   "n": {
+    "kcal": 84.0,
+    "fat_g": 0.6,
+    "sat_fat_g": 0.2,
+    "carbs_g": 0.8,
+    "sugars_g": 0.3,
+    "fibre_g": 0.0,
+    "protein_g": 18.9,
+    "salt_g": 1.71
+   }
+  },
+  {
+   "ean": "7035620016110",
+   "title": "Lutefiskfilet",
+   "subtitle": "u/Skinn&Bein 500g Fiskemannen",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620066191",
+   "title": "Scampi",
+   "subtitle": "Ingefær Asc 170g Fiskemannen",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7035620070273"
+   ],
+   "n": {
+    "kcal": 76.0,
+    "fat_g": 1.1,
+    "sat_fat_g": 0.03,
+    "carbs_g": 1.3,
+    "sugars_g": 0.56,
+    "fibre_g": 0.28,
+    "protein_g": 14.9,
+    "salt_g": 1.7
+   }
+  },
+  {
+   "ean": "7035620071911",
+   "title": "Fiskekaker",
+   "subtitle": "65% 350g Fiskemannen",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7035620022296",
+    "ean:7035620052378"
+   ],
+   "n": {
+    "kcal": 130.0,
+    "fat_g": 5.9,
+    "sat_fat_g": 0.5,
+    "carbs_g": 7.8,
+    "sugars_g": 1.1,
+    "fibre_g": 0.0,
+    "protein_g": 11.4,
+    "salt_g": 1.1
+   }
+  },
+  {
+   "ean": "7035620005329",
+   "title": "Laks Røkt",
+   "subtitle": "skivet 100g Fiskemannen",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7035620055935"
+   ],
+   "n": {
+    "kcal": 225.0,
+    "fat_g": 14.7,
+    "sat_fat_g": 2.5,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 23.2,
+    "salt_g": 3.0
+   }
+  },
+  {
+   "ean": "7035620070440",
+   "title": "Laks Røkt",
+   "subtitle": "skivet 220g Fiskemannen",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7035620055935"
+   ],
+   "n": {
+    "kcal": 225.0,
+    "fat_g": 14.7,
+    "sat_fat_g": 2.5,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 23.2,
+    "salt_g": 3.0
+   }
+  },
+  {
+   "ean": "7035620066832",
+   "title": "Laksefilet",
+   "subtitle": "i Biter 400g Fiskemannen",
+   "why": "several rows match",
+   "rows": [
+    "ean:2391810112648",
+    "openfoodfacts:70333521719798"
+   ]
+  },
+  {
+   "ean": "7035620050541",
+   "title": "Fiskeburger",
+   "subtitle": "80% Torsk&Hyse 480g Fiskemannen",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7035620061424",
+    "ean:7035620070235"
+   ],
+   "n": {
+    "kcal": 143.0,
+    "fat_g": 7.3,
+    "sat_fat_g": 0.5,
+    "carbs_g": 5.0,
+    "sugars_g": 0.7,
+    "fibre_g": 0.0,
+    "protein_g": 14.2,
+    "salt_g": 1.3
+   }
+  },
+  {
+   "ean": "7035620064296",
+   "title": "Laksefilet",
+   "subtitle": "u/Skinn&Ben 500g Fiskemannen",
+   "why": "several rows match",
+   "rows": [
+    "ean:2391810112648",
+    "openfoodfacts:70333521719798"
+   ]
+  },
+  {
+   "ean": "7035620048074",
+   "title": "Fiskekaker",
+   "subtitle": "65% 500g Fiskemannen",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7035620022296",
+    "ean:7035620052378"
+   ],
+   "n": {
+    "kcal": 130.0,
+    "fat_g": 5.9,
+    "sat_fat_g": 0.5,
+    "carbs_g": 7.8,
+    "sugars_g": 1.1,
+    "fibre_g": 0.0,
+    "protein_g": 11.4,
+    "salt_g": 1.1
+   }
+  },
+  {
+   "ean": "7035620029141",
+   "title": "Scampi",
+   "subtitle": "Asc 41/50 Kokt u/Skall 500g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:4047949023406",
+    "ean:5702008213134",
+    "ean:5702008269957",
+    "ean:7031032251132",
+    "ean:7032069737460",
+    "ean:7035620038778"
+   ],
+   "n": {
+    "kcal": 63.0,
+    "fat_g": 0.3,
+    "sat_fat_g": 0.1,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.1,
+    "protein_g": 15.0,
+    "salt_g": 0.92
+   }
+  },
+  {
+   "ean": "7035620005206",
+   "title": "Crabnobs Royal",
+   "subtitle": "120g Fiskemannen",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620005367",
+   "title": "Steinbitfilet",
+   "subtitle": "500g Fiskemannen",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620019005",
+   "title": "Lobnobs",
+   "subtitle": "110g Fiskemannen",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620039393",
+   "title": "Fiskekaker",
+   "subtitle": "400g Fiskemannen",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7035620022296",
+    "ean:7035620052378"
+   ],
+   "n": {
+    "kcal": 130.0,
+    "fat_g": 5.9,
+    "sat_fat_g": 0.5,
+    "carbs_g": 7.8,
+    "sugars_g": 1.1,
+    "fibre_g": 0.0,
+    "protein_g": 11.4,
+    "salt_g": 1.1
+   }
+  },
+  {
+   "ean": "7035620037900",
+   "title": "Lobchunks",
+   "subtitle": "Msc 110g Fiskemannen",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620042188",
+   "title": "Fløtepudding",
+   "subtitle": "Pølse 400g Fiskemannen",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620043499",
+   "title": "Laksefilet",
+   "subtitle": "Chili Mango 250g Fiskemannen",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2391810112648",
+    "openfoodfacts:70333521719798"
+   ],
+   "n": {
+    "kcal": 228.0,
+    "fat_g": 16.0,
+    "sat_fat_g": 3.0,
+    "carbs_g": 1.0,
+    "sugars_g": 0.1,
+    "fibre_g": 0.0,
+    "protein_g": 20.0,
+    "salt_g": 1.0
+   }
+  },
+  {
+   "ean": "7035620044335",
+   "title": "Laksefilet",
+   "subtitle": "Asian Teriyaki 250g Fiskemannen",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2391810112648",
+    "openfoodfacts:70333521719798"
+   ],
+   "n": {
+    "kcal": 228.0,
+    "fat_g": 16.0,
+    "sat_fat_g": 3.0,
+    "carbs_g": 1.0,
+    "sugars_g": 0.1,
+    "fibre_g": 0.0,
+    "protein_g": 20.0,
+    "salt_g": 1.0
+   }
+  },
+  {
+   "ean": "7035620041914",
+   "title": "Fløtepudding",
+   "subtitle": "Rund Formstekt 400g Fiskemannen",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620018831",
+   "title": "Laksefilet",
+   "subtitle": "Marinert m/Sitron 500g Fiskemannen",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620049873",
+   "title": "Fiskeburger",
+   "subtitle": "80% Torsk&Bacon 480g Fiskemannen",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7035620061424",
+    "ean:7035620070235"
+   ],
+   "n": {
+    "kcal": 125.0,
+    "fat_g": 6.9,
+    "sat_fat_g": 0.6,
+    "carbs_g": 1.5,
+    "sugars_g": 0.6,
+    "fibre_g": 0.0,
+    "protein_g": 14.3,
+    "salt_g": 1.15
+   }
+  },
+  {
+   "ean": "7035620009723",
+   "title": "Fishy Nuggets",
+   "subtitle": "Havsalt/Pepper Msc 300g Fiskem. Fiskemannen",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620040122",
+   "title": "Fishy Nuggets",
+   "subtitle": "Mild og God Msc 300g Fiskem. Fiskemannen",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620043505",
+   "title": "Reke Sticks",
+   "subtitle": "Chili&Hvitløk 120g Fiskemannen",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620024405",
+   "title": "Scampi",
+   "subtitle": "Asc 21/25 Kokt u/Skall 500g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:4047949023406",
+    "ean:5702008213134",
+    "ean:5702008269957",
+    "ean:7031032251132",
+    "ean:7032069737460",
+    "ean:7035620038778"
+   ],
+   "n": {
+    "kcal": 63.0,
+    "fat_g": 0.3,
+    "sat_fat_g": 0.1,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.1,
+    "protein_g": 15.0,
+    "salt_g": 0.92
+   }
+  },
+  {
+   "ean": "9788205523098",
+   "title": "Kastanjemannen",
+   "subtitle": ".",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "9788234710438",
+   "title": "Hulemannen",
+   "subtitle": ".",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "9788241953897",
+   "title": "Hundemannen 10",
+   "subtitle": "Farefulle Høyder",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7027110215530",
+   "title": "Makrellfilet",
+   "subtitle": "i Tomat 110g King Oscar",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7027110001683"
+   ],
+   "n": {
+    "kcal": 231.0,
+    "fat_g": 18.0,
+    "sat_fat_g": 3.5,
+    "carbs_g": 4.6,
+    "sugars_g": 4.1,
+    "fibre_g": 0.0,
+    "protein_g": 12.0,
+    "salt_g": 1.0
+   }
+  },
+  {
+   "ean": "7027110214847",
+   "title": "Makrellfilet",
+   "subtitle": "Skinnfri i Tomat 170g King Oscar",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7027110001683"
+   ],
+   "n": {
+    "kcal": 228.0,
+    "fat_g": 18.0,
+    "sat_fat_g": 3.8,
+    "carbs_g": 3.5,
+    "sugars_g": 3.5,
+    "fibre_g": 0.0,
+    "protein_g": 13.0,
+    "salt_g": 1.0
+   }
+  },
+  {
+   "ean": "7027110222460",
+   "title": "Sardiner i Tomat",
+   "subtitle": "106g King Oscar",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7027110037767"
+   ],
+   "n": {
+    "kcal": 198.0,
+    "fat_g": 14.0,
+    "sat_fat_g": 3.1,
+    "carbs_g": 3.4,
+    "sugars_g": 2.5,
+    "protein_g": 14.0,
+    "salt_g": 1.2
+   }
+  },
+  {
+   "ean": "7027110223382",
+   "title": "Tunfisk Tomat&Basilikum",
+   "subtitle": "85g King Oscar",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7027110111900"
+   ],
+   "n": {
+    "kcal": 133.0,
+    "fat_g": 7.0,
+    "sat_fat_g": 1.2,
+    "carbs_g": 3.6,
+    "sugars_g": 2.2,
+    "fibre_g": 0.0,
+    "protein_g": 14.0,
+    "salt_g": 1.2
+   }
+  },
+  {
+   "ean": "7027110095521",
+   "title": "Tunfisk Tomat",
+   "subtitle": "&Basilikum 85g King Oscar",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7027110111900"
+   ],
+   "n": {
+    "kcal": 133.0,
+    "fat_g": 7.0,
+    "sat_fat_g": 1.2,
+    "carbs_g": 3.6,
+    "sugars_g": 2.2,
+    "fibre_g": 0.0,
+    "protein_g": 14.0,
+    "salt_g": 1.2
+   }
+  },
+  {
+   "ean": "7027110217985",
+   "title": "Makrell",
+   "subtitle": "110g Chili King Oscar",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7027110037880",
+    "ean:7027110081968",
+    "ean:7027110081975",
+    "ean:7027110108443",
+    "ean:7027110114093",
+    "ean:7027110114109"
+   ],
+   "n": {
+    "kcal": 252.0,
+    "fat_g": 20.0,
+    "sat_fat_g": 3.9,
+    "carbs_g": 5.1,
+    "sugars_g": 4.4,
+    "protein_g": 12.0,
+    "salt_g": 1.0
+   }
+  },
+  {
+   "ean": "7027110220954",
+   "title": "Makrellfilet",
+   "subtitle": "Mediterranean 110g King Oscar",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7027110001683"
+   ],
+   "n": {
+    "kcal": 270.0,
+    "fat_g": 22.0,
+    "sat_fat_g": 4.5,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 18.0,
+    "salt_g": 1.4
+   }
+  },
+  {
+   "ean": "7027110223566",
+   "title": "Tunfisk",
+   "subtitle": "i Solsikkeolje 160g King Oscar",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:4081580095569",
+    "ean:7027110111900",
+    "openfoodfacts:0027110127611",
+    "store:7027110111870"
+   ],
+   "n": {
+    "kcal": 180.0,
+    "fat_g": 8.0,
+    "sat_fat_g": 1.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 27.0,
+    "salt_g": 1.0
+   }
+  },
+  {
+   "ean": "7027110114826",
+   "title": "Tunfisk Tomat",
+   "subtitle": "Grovrevet 85g King Oscar",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7027110111900"
+   ],
+   "n": {
+    "kcal": 130.0,
+    "fat_g": 4.5,
+    "sat_fat_g": 0.7,
+    "carbs_g": 2.0,
+    "sugars_g": 1.9,
+    "protein_g": 20.0,
+    "salt_g": 1.1
+   }
+  },
+  {
+   "ean": "7027110223078",
+   "title": "Tunfiskfilet",
+   "subtitle": "Soltørkede Tomat 115g King Oscar",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7027110223085"
+   ],
+   "n": {
+    "kcal": 321.0,
+    "fat_g": 26.0,
+    "sat_fat_g": 3.7,
+    "carbs_g": 1.7,
+    "sugars_g": 1.4,
+    "protein_g": 20.0,
+    "salt_g": 1.0
+   }
+  },
+  {
+   "ean": "7039010067874",
+   "title": "Hamburgerdressing",
+   "subtitle": "470g Idun",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7039010524810"
+   ],
+   "n": {
+    "kcal": 238.0,
+    "fat_g": 22.0,
+    "sat_fat_g": 1.6,
+    "carbs_g": 9.4,
+    "sugars_g": 7.1,
+    "fibre_g": 0.0,
+    "protein_g": 0.6,
+    "salt_g": 1.1
+   }
+  },
+  {
+   "ean": "7039010613682",
+   "title": "Bbq Saus",
+   "subtitle": "300g Idun",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 176.0,
+    "fat_g": 33.0,
+    "sat_fat_g": 0.3,
+    "carbs_g": 34.0,
+    "sugars_g": 33.0,
+    "protein_g": 1.8,
+    "salt_g": 1.8
+   }
+  },
+  {
+   "ean": "7041810010400",
+   "title": "Rekeost",
+   "subtitle": "175g Tube Kavli",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "kavli:https://www.kavli.no/produkter/rekeost",
+    "ean:7041810010028"
+   ],
+   "n": {
+    "kcal": 216.0,
+    "fat_g": 16.0,
+    "sat_fat_g": 10.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 17.0,
+    "salt_g": 2.8
+   }
+  },
+  {
+   "ean": "7023060134877",
+   "title": "Nora fra",
+   "subtitle": "Engelsviken 2",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7023060329990",
+   "title": "Nora Roberts",
+   "subtitle": ".",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7023060429997",
+   "title": "Hq Nora Roberts",
+   "subtitle": ".",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7041011350008",
+   "title": "Snackis",
+   "subtitle": "150ml Hennig-Olsen",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7041011311115"
+   ],
+   "n": {
+    "kcal": 334.0,
+    "fat_g": 18.6,
+    "sat_fat_g": 10.1,
+    "carbs_g": 36.4,
+    "sugars_g": 27.7,
+    "protein_g": 4.6,
+    "salt_g": 0.19
+   }
+  },
+  {
+   "ean": "7041011830005",
+   "title": "Creme",
+   "subtitle": "Mandel 110ml Hennig-Olsen",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7041011227119",
+    "ean:7041011228116",
+    "ean:7041011229113",
+    "ean:7041011230119",
+    "ean:7041011231116",
+    "ean:7041011232113"
+   ],
+   "n": {
+    "kcal": 337.0,
+    "fat_g": 23.0,
+    "sat_fat_g": 13.1,
+    "carbs_g": 26.6,
+    "sugars_g": 26.4,
+    "protein_g": 5.3,
+    "salt_g": 0.14
+   }
+  },
+  {
+   "ean": "7041015220116",
+   "title": "Idyll Is Jordbær",
+   "subtitle": "Plantebasert 500ml Hennig Olsen",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7041013250115"
+   ],
+   "n": {
+    "kcal": 189.0,
+    "fat_g": 6.8,
+    "sat_fat_g": 6.3,
+    "carbs_g": 31.3,
+    "sugars_g": 27.6,
+    "protein_g": 0.3,
+    "salt_g": 0.07
+   }
+  },
+  {
+   "ean": "7041011277114",
+   "title": "Krone-Is",
+   "subtitle": "Non Stop 145ml Hennig Olsen",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7041011278111",
+    "ean:7041011279118",
+    "ean:7041011280114",
+    "ean:7041013250115"
+   ],
+   "n": {
+    "kcal": 312.0,
+    "fat_g": 15.8,
+    "sat_fat_g": 11.8,
+    "carbs_g": 37.7,
+    "sugars_g": 30.7,
+    "protein_g": 4.0,
+    "salt_g": 0.18
+   }
+  },
+  {
+   "ean": "7041015018119",
+   "title": "Sørlandsis",
+   "subtitle": "Bjørnebær&Eggelikør 1l Heo",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7041013181112",
+    "ean:7041013185110",
+    "ean:7041013186117",
+    "ean:7041013187114",
+    "ean:7041015010113",
+    "ean:7041015011110"
+   ],
+   "n": {
+    "kcal": 199.0,
+    "fat_g": 9.4,
+    "sat_fat_g": 6.2,
+    "carbs_g": 24.2,
+    "sugars_g": 24.2,
+    "protein_g": 3.9,
+    "salt_g": 0.14
+   }
+  },
+  {
+   "ean": "7041011620002",
+   "title": "Friskis Fruktis",
+   "subtitle": "Melon 77ml Hennig-Olsen Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7041013114110",
+    "ean:7041013190114"
+   ],
+   "n": {
+    "kcal": 96.0,
+    "fat_g": 1.1,
+    "sat_fat_g": 0.1,
+    "carbs_g": 20.9,
+    "sugars_g": 20.9,
+    "protein_g": 0.3,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "7041018240005",
+   "title": "Krone-Is Sjokolade",
+   "subtitle": "Multipack 12stk Hennig Olsen",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7041011279118"
+   ],
+   "n": {
+    "kcal": 310.0,
+    "fat_g": 17.3,
+    "sat_fat_g": 11.9,
+    "carbs_g": 33.5,
+    "sugars_g": 24.9,
+    "protein_g": 4.4,
+    "salt_g": 0.2
+   }
+  },
+  {
+   "ean": "7041011200006",
+   "title": "Krone-Is",
+   "subtitle": "Sjokolade 145ml Hennig Olsen",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7041011278111",
+    "ean:7041011279118",
+    "ean:7041011280114",
+    "ean:7041013250115"
+   ],
+   "n": {
+    "kcal": 297.0,
+    "fat_g": 16.5,
+    "sat_fat_g": 11.4,
+    "carbs_g": 32.1,
+    "sugars_g": 24.7,
+    "protein_g": 4.4,
+    "salt_g": 0.2
+   }
+  },
+  {
+   "ean": "7041011260000",
+   "title": "Krone-Is",
+   "subtitle": "Peanøtter 135ml Hennig Olsen",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7041011278111",
+    "ean:7041011279118",
+    "ean:7041011280114",
+    "ean:7041013250115"
+   ],
+   "n": {
+    "kcal": 370.0,
+    "fat_g": 21.4,
+    "sat_fat_g": 11.6,
+    "carbs_g": 35.9,
+    "sugars_g": 25.4,
+    "protein_g": 7.4,
+    "salt_g": 0.4
+   }
+  },
+  {
+   "ean": "7041011280008",
+   "title": "Krone-Is V",
+   "subtitle": "Vanilje&Sjokolade 145ml",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7041011278111",
+    "ean:7041011279118",
+    "ean:7041011280114",
+    "ean:7041013250115"
+   ],
+   "n": {
+    "kcal": 305.0,
+    "fat_g": 15.9,
+    "sat_fat_g": 11.8,
+    "carbs_g": 37.9,
+    "sugars_g": 23.3,
+    "protein_g": 1.8,
+    "salt_g": 0.17
+   }
+  },
+  {
+   "ean": "7037210005009",
+   "title": "Krone-Is Jordbær",
+   "subtitle": "125ml Diplom-Is",
+   "why": "several rows match",
+   "rows": [
+    "ean:7037210120566",
+    "ean:7041011278111"
+   ]
+  },
+  {
+   "ean": "7037210005016",
+   "title": "Krone-Is Sjokolade",
+   "subtitle": "125ml Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7037210121891",
+    "ean:7041011279118",
+    "matvaretabellen:01.240",
+    "ean:7035620046940"
+   ],
+   "n": {
+    "kcal": 292.0,
+    "fat_g": 15.0,
+    "sat_fat_g": 12.0,
+    "carbs_g": 34.0,
+    "sugars_g": 25.0,
+    "protein_g": 3.6,
+    "salt_g": 0.18
+   }
+  },
+  {
+   "ean": "7037210121754",
+   "title": "Litago",
+   "subtitle": "Jordbær160ml Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7037210119188"
+   ],
+   "n": {
+    "kcal": 199.0,
+    "fat_g": 6.0,
+    "sat_fat_g": 4.0,
+    "carbs_g": 33.0,
+    "sugars_g": 29.0,
+    "protein_g": 3.4,
+    "salt_g": 0.13
+   }
+  },
+  {
+   "ean": "7037210120436",
+   "title": "Royal Is",
+   "subtitle": "Jordbær&Marengs 0,9l Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:0950404671132",
+    "ean:7037210116743",
+    "ean:7037210118068",
+    "ean:7037210118815",
+    "ean:7037210118822",
+    "ean:7037210118839"
+   ],
+   "n": {
+    "kcal": 215.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 6.8,
+    "carbs_g": 27.0,
+    "sugars_g": 25.0,
+    "protein_g": 3.2,
+    "salt_g": 0.12
+   }
+  },
+  {
+   "ean": "7037210119362",
+   "title": "Royal Mørk",
+   "subtitle": "110ml Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7037210121938"
+   ],
+   "n": {
+    "kcal": 313.0,
+    "fat_g": 22.0,
+    "sat_fat_g": 13.0,
+    "carbs_g": 25.0,
+    "sugars_g": 23.0,
+    "protein_g": 3.9,
+    "salt_g": 0.13
+   }
+  },
+  {
+   "ean": "7037210120665",
+   "title": "Royal Trippel",
+   "subtitle": "Lakris 90ml Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:0950404671132",
+    "ean:7037210118068"
+   ],
+   "n": {
+    "kcal": 385.0,
+    "fat_g": 27.0,
+    "sat_fat_g": 18.0,
+    "carbs_g": 32.0,
+    "sugars_g": 30.0,
+    "protein_g": 3.6,
+    "salt_g": 0.27
+   }
+  },
+  {
+   "ean": "7037210120719",
+   "title": "Sandwich",
+   "subtitle": "Pepperkake 6stk Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7023550001085",
+    "ean:7037210115319",
+    "ean:7037210121471",
+    "ean:7042961003884"
+   ],
+   "n": {
+    "kcal": 268.0,
+    "fat_g": 9.3,
+    "sat_fat_g": 6.9,
+    "carbs_g": 41.0,
+    "sugars_g": 22.0,
+    "protein_g": 4.8,
+    "salt_g": 1.0
+   }
+  },
+  {
+   "ean": "7037210008673",
+   "title": "Krone-Is Sjokolade",
+   "subtitle": "6stk Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7037210121891",
+    "ean:7041011279118",
+    "matvaretabellen:01.240",
+    "ean:7035620046940"
+   ],
+   "n": {
+    "kcal": 292.0,
+    "fat_g": 15.0,
+    "sat_fat_g": 12.0,
+    "carbs_g": 34.0,
+    "sugars_g": 25.0,
+    "protein_g": 3.6,
+    "salt_g": 0.18
+   }
+  },
+  {
+   "ean": "7037210008697",
+   "title": "Krone-Is Jordbær",
+   "subtitle": "6stk Diplom-Is",
+   "why": "several rows match",
+   "rows": [
+    "ean:7037210120566",
+    "ean:7041011278111"
+   ]
+  },
+  {
+   "ean": "7037210121945",
+   "title": "Gigant",
+   "subtitle": "Salt Karamell 240ml Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7037210114640"
+   ],
+   "n": {
+    "kcal": 299.0,
+    "fat_g": 15.0,
+    "sat_fat_g": 11.0,
+    "carbs_g": 37.0,
+    "sugars_g": 26.0,
+    "protein_g": 3.5,
+    "salt_g": 0.39
+   }
+  },
+  {
+   "ean": "7037210121648",
+   "title": "Dream Yoghurtis",
+   "subtitle": "Jordbær 640ml Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7037210121570"
+   ],
+   "n": {
+    "kcal": 151.0,
+    "fat_g": 3.7,
+    "sat_fat_g": 2.5,
+    "carbs_g": 28.0,
+    "sugars_g": 24.0,
+    "protein_g": 3.6,
+    "salt_g": 0.11
+   }
+  },
+  {
+   "ean": "7037210121600",
+   "title": "Dream Yoghurtis",
+   "subtitle": "Salt Karamel 450ml Diplom-Is",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 120.0,
+    "fat_g": 6.0,
+    "sat_fat_g": 4.2,
+    "carbs_g": 25.0,
+    "sugars_g": 6.5,
+    "protein_g": 3.2,
+    "salt_g": 0.18
+   }
+  },
+  {
+   "ean": "7037210121631",
+   "title": "Dream Yoghurtis",
+   "subtitle": "Mango&Pasjon 640ml Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7037210121570"
+   ],
+   "n": {
+    "kcal": 147.0,
+    "fat_g": 3.9,
+    "sat_fat_g": 2.7,
+    "carbs_g": 27.0,
+    "sugars_g": 21.0,
+    "protein_g": 3.6,
+    "salt_g": 0.12
+   }
+  },
+  {
+   "ean": "7037210121624",
+   "title": "Dream Yoghurtis",
+   "subtitle": "Vanilje 640ml Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7037210121570"
+   ],
+   "n": {
+    "kcal": 141.0,
+    "fat_g": 4.5,
+    "sat_fat_g": 3.0,
+    "carbs_g": 24.0,
+    "sugars_g": 19.0,
+    "protein_g": 4.1,
+    "salt_g": 0.13
+   }
+  },
+  {
+   "ean": "7037210119614",
+   "title": "Litago Is",
+   "subtitle": "Sjokoladesmak 1,2l Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7037210119188"
+   ],
+   "n": {
+    "kcal": 182.0,
+    "fat_g": 8.6,
+    "sat_fat_g": 5.6,
+    "carbs_g": 22.0,
+    "sugars_g": 20.0,
+    "protein_g": 3.8,
+    "salt_g": 0.15
+   }
+  },
+  {
+   "ean": "7037210118143",
+   "title": "Dream Yoghurtis",
+   "subtitle": "Choco Chip Cookie Dough 0,8l",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7037210121570"
+   ],
+   "n": {
+    "kcal": 204.0,
+    "fat_g": 7.8,
+    "sat_fat_g": 5.7,
+    "carbs_g": 29.0,
+    "sugars_g": 22.0,
+    "protein_g": 4.2,
+    "salt_g": 0.21
+   }
+  },
+  {
+   "ean": "7037210118877",
+   "title": "Royal Is",
+   "subtitle": "Hasselnøtt&Sjokol 0.9l Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:0950404671132",
+    "ean:7037210116743",
+    "ean:7037210118068",
+    "ean:7037210118815",
+    "ean:7037210118822",
+    "ean:7037210118839"
+   ],
+   "n": {
+    "kcal": 237.0,
+    "fat_g": 13.0,
+    "sat_fat_g": 6.8,
+    "carbs_g": 25.0,
+    "sugars_g": 23.0,
+    "protein_g": 3.8,
+    "salt_g": 0.26
+   }
+  },
+  {
+   "ean": "7037210119492",
+   "title": "Royal Is",
+   "subtitle": "Bakte Epler 0,9l Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:0950404671132",
+    "ean:7037210116743",
+    "ean:7037210118068",
+    "ean:7037210118815",
+    "ean:7037210118822",
+    "ean:7037210118839"
+   ],
+   "n": {
+    "kcal": 217.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 6.6,
+    "carbs_g": 25.0,
+    "sugars_g": 22.0,
+    "protein_g": 3.7,
+    "salt_g": 0.15
+   }
+  },
+  {
+   "ean": "7037210120016",
+   "title": "Royal Is",
+   "subtitle": "Salt Karamell 0,5l Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:0950404671132",
+    "ean:7037210116743",
+    "ean:7037210118068",
+    "ean:7037210118815",
+    "ean:7037210118822",
+    "ean:7037210118839"
+   ],
+   "n": {
+    "kcal": 223.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 7.1,
+    "carbs_g": 28.0,
+    "sugars_g": 26.0,
+    "protein_g": 3.4,
+    "salt_g": 0.56
+   }
+  },
+  {
+   "ean": "7037210121617",
+   "title": "Dream Yoghurtis",
+   "subtitle": "Frappe u/Sukker 450ml Diplomis",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 121.0,
+    "fat_g": 6.3,
+    "sat_fat_g": 4.2,
+    "carbs_g": 23.0,
+    "sugars_g": 6.6,
+    "protein_g": 3.5,
+    "salt_g": 0.16
+   }
+  },
+  {
+   "ean": "7037210120429",
+   "title": "Royal Trippel",
+   "subtitle": "Sjokolade 6stk Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:0950404671132",
+    "ean:7037210118068"
+   ],
+   "n": {
+    "kcal": 362.0,
+    "fat_g": 24.0,
+    "sat_fat_g": 15.0,
+    "carbs_g": 32.0,
+    "sugars_g": 29.0,
+    "protein_g": 4.8,
+    "salt_g": 0.29
+   }
+  },
+  {
+   "ean": "7037210121815",
+   "title": "Sandwich",
+   "subtitle": "Pepperkake 6pk Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7023550001085",
+    "ean:7037210115319",
+    "ean:7037210121471",
+    "ean:7042961003884"
+   ],
+   "n": {
+    "kcal": 268.0,
+    "fat_g": 9.3,
+    "sat_fat_g": 6.3,
+    "carbs_g": 41.0,
+    "sugars_g": 22.0,
+    "protein_g": 4.8,
+    "salt_g": 1.0
+   }
+  },
+  {
+   "ean": "7037210118426",
+   "title": "Lollipop",
+   "subtitle": "Favoritter1,2l Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7037210110055",
+    "ean:7037210121150",
+    "ean:7037210121235",
+    "ean:7340146507111",
+    "store:7037210119690"
+   ],
+   "n": {
+    "kcal": 117.0,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.3,
+    "carbs_g": 28.0,
+    "sugars_g": 25.0,
+    "protein_g": 0.5,
+    "salt_g": 0.01
+   }
+  },
+  {
+   "ean": "7037210118150",
+   "title": "Dream Yoghurtis",
+   "subtitle": "Belgisk Sjokolade 0,8l Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7037210121570"
+   ],
+   "n": {
+    "kcal": 202.0,
+    "fat_g": 8.7,
+    "sat_fat_g": 6.3,
+    "carbs_g": 25.0,
+    "sugars_g": 24.0,
+    "protein_g": 4.8,
+    "salt_g": 0.14
+   }
+  },
+  {
+   "ean": "7037210118174",
+   "title": "Dream Yoghurtis",
+   "subtitle": "Vanilla Bean 0,8l Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7037210121570"
+   ],
+   "n": {
+    "kcal": 148.0,
+    "fat_g": 4.5,
+    "sat_fat_g": 2.9,
+    "carbs_g": 21.0,
+    "sugars_g": 19.0,
+    "protein_g": 4.0,
+    "salt_g": 0.16
+   }
+  },
+  {
+   "ean": "7037210118181",
+   "title": "Dream Yoghurtis",
+   "subtitle": "Strawberry Splash 0,8l Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7037210121570"
+   ],
+   "n": {
+    "kcal": 134.0,
+    "fat_g": 2.2,
+    "sat_fat_g": 1.5,
+    "carbs_g": 26.0,
+    "sugars_g": 23.0,
+    "protein_g": 2.0,
+    "salt_g": 0.07
+   }
+  },
+  {
+   "ean": "7037210119508",
+   "title": "Dream Yoghurtis",
+   "subtitle": "Choco Truffles 0,8l Diplom Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7037210121570"
+   ],
+   "n": {
+    "kcal": 195.0,
+    "fat_g": 8.3,
+    "sat_fat_g": 6.3,
+    "carbs_g": 24.0,
+    "sugars_g": 23.0,
+    "protein_g": 4.9,
+    "salt_g": 0.14
+   }
+  },
+  {
+   "ean": "7037210120443",
+   "title": "Dream Yoghurtis",
+   "subtitle": "Sitron 0,8l Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7037210121570"
+   ],
+   "n": {
+    "kcal": 145.0,
+    "fat_g": 3.9,
+    "sat_fat_g": 2.7,
+    "carbs_g": 27.0,
+    "sugars_g": 22.0,
+    "protein_g": 3.6,
+    "salt_g": 0.12
+   }
+  },
+  {
+   "ean": "7037210118167",
+   "title": "Dream Yoghurtis",
+   "subtitle": "Caramel Brownie 0,8l Diplom-Is",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7037210121570"
+   ],
+   "n": {
+    "kcal": 184.0,
+    "fat_g": 6.1,
+    "sat_fat_g": 3.9,
+    "carbs_g": 27.0,
+    "sugars_g": 24.0,
+    "protein_g": 4.2,
+    "salt_g": 0.32
+   }
+  },
+  {
+   "ean": "7037210069124",
+   "title": "Scoop",
+   "subtitle": "1stk Diplom-Is",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "9788241965265",
+   "title": "Diplomati i en",
+   "subtitle": "Verden Som Brenner",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7388755705504",
+   "title": "Monde Diplomatique",
+   "subtitle": "Fr",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7044611874936",
+   "title": "Ringnes Vørterøl",
+   "subtitle": "0,33lx6 boks",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ringnes:https://www.ringnes.no/produkter/ringnes/ringnes-voerteroel/"
+   ],
+   "n": {
+    "kcal": 38.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 10.0,
+    "sugars_g": 5.8,
+    "fibre_g": 0.0,
+    "protein_g": 0.5,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "7044610874937",
+   "title": "Ringnes Vørterøl",
+   "subtitle": "0,33l boks",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ringnes:https://www.ringnes.no/produkter/ringnes/ringnes-voerteroel/"
+   ],
+   "n": {
+    "kcal": 38.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 10.0,
+    "sugars_g": 5.8,
+    "fibre_g": 0.0,
+    "protein_g": 0.5,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "7044611876053",
+   "title": "Ringnes Lys",
+   "subtitle": "Pilsner 6x0,5l boks",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7044610806204",
+   "title": "Ringnes Vørterøl",
+   "subtitle": "0,33lx6 flaske",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ringnes:https://www.ringnes.no/produkter/ringnes/ringnes-voerteroel/"
+   ],
+   "n": {
+    "kcal": 39.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 9.0,
+    "sugars_g": 9.0,
+    "fibre_g": 0.0,
+    "protein_g": 0.4,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "7044610871240",
+   "title": "Ringnes Festivaløl",
+   "subtitle": "1l boks",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7044610873046",
+   "title": "Ringnes Ufiltrert",
+   "subtitle": "Økologisk 0,5l boks",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7044610873053",
+   "title": "Ringnes Ufiltrert",
+   "subtitle": "Økologisk 0,5lx6 boks",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7044610875958",
+   "title": "Ringnes Julebrus",
+   "subtitle": "Lett 0,5l flaske",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ringnes:https://www.ringnes.no/produkter/ringnes/ringnes-julebrus/"
+   ],
+   "n": {
+    "kcal": 0.7,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "7044610876054",
+   "title": "Ringnes Lys",
+   "subtitle": "Pilsner 0,5l boks",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7044611877333",
+   "title": "Ringnes Julebrygg",
+   "subtitle": "Lite 0,5l boks",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7044612877332",
+   "title": "Ringnes Julebrygg",
+   "subtitle": "Lite 0,5lx6 boks",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5701098685005",
+   "title": "Impregnering",
+   "subtitle": "Textil 500ml Sterling",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5020716251003",
+   "title": "Impregnering",
+   "subtitle": "Wash In 300ml Nikwax",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5020716571002",
+   "title": "Impregnering",
+   "subtitle": "Spray On 300ml Nikwax",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5701098682004",
+   "title": "Imprægneringsspray",
+   "subtitle": "200ml Sterling",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5000112691719",
+   "title": "Coca Cola",
+   "subtitle": "Zero 0,5l boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:0000090492860",
+    "ean:5000112689822",
+    "ean:5000112654264",
+    "ean:5000112637939"
+   ]
+  },
+  {
+   "ean": "5000112636079",
+   "title": "Coca-Cola",
+   "subtitle": "u/Sukker 1,25l flaske",
+   "why": "several rows match",
+   "rows": [
+    "ean:0000090492860",
+    "ean:5000112689822",
+    "ean:5000112654264",
+    "ean:5000112637939"
+   ]
+  },
+  {
+   "ean": "5000112642773",
+   "title": "Coca-Cola",
+   "subtitle": "Lemon 1,5l flaske",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 10.6,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 10.6,
+    "sugars_g": 10.6,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "0000023656551",
+   "title": "Storfe Ytrefilet",
+   "subtitle": "Na +2kg",
+   "why": "several rows match",
+   "rows": [
+    "ean:2304663901925",
+    "ean:2374112501969",
+    "ean:7059361512472",
+    "matvaretabellen:03.066",
+    "norgesgruppen:23656551"
+   ]
+  },
+  {
+   "ean": "7070717000016",
+   "title": "Morgenbladet",
+   "subtitle": "Ny Utgave Hver Fredag",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0000023022033",
+   "title": "Norvegia",
+   "subtitle": "Ekstra Vellagret Helvekt",
+   "why": "several rows match",
+   "rows": [
+    "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-vellagret-m-skorpe",
+    "norgesgruppen:1008",
+    "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-ekstra-vellagret-m-skorpe"
+   ]
+  },
+  {
+   "ean": "0000023026618",
+   "title": "Vellagret Norvegia",
+   "subtitle": "1kg Tine",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-vellagret-m-skorpe",
+    "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-ekstra-vellagret-m-skorpe"
+   ],
+   "n": {
+    "kcal": 351.0,
+    "fat_g": 27.0,
+    "sat_fat_g": 17.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 27.0,
+    "salt_g": 1.2
+   }
+  },
+  {
+   "ean": "7072165100317",
+   "title": "Norveg 2",
+   "subtitle": "0,33l flaske Balder",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7072712009322",
+   "title": "Norwegian Nitro",
+   "subtitle": "Stout 0,44l Lervig",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7090040947222",
+   "title": "Norwegian Blonde",
+   "subtitle": "0,33l boks Oslo Brewing Co.",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7090040947239",
+   "title": "Norwegian Blonde",
+   "subtitle": "0,33lx6bx Oslo Brewing",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7072712014234",
+   "title": "Norwegian Nitro",
+   "subtitle": "0,44lx6 boks Lervig",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7090032430015",
+   "title": "Jarlsberg",
+   "subtitle": "Avis",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7044611875575",
+   "title": "Carlsberg 1883",
+   "subtitle": "0,5lx6 boks",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7044610875576",
+   "title": "Carlsberg 1883",
+   "subtitle": "0,5l boks",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7043180081028",
+   "title": "Kylling Lårfilet",
+   "subtitle": "Spiseklar Butter Chicken 200g Dsh",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7043180097821",
+    "ean:7043180107223"
+   ],
+   "n": {
+    "kcal": 179.0,
+    "fat_g": 9.6,
+    "sat_fat_g": 2.7,
+    "carbs_g": 2.7,
+    "sugars_g": 0.9,
+    "protein_g": 20.3,
+    "salt_g": 1.5
+   }
+  },
+  {
+   "ean": "7043180087020",
+   "title": "Kylling Lårkjøtt",
+   "subtitle": "Strimlet Indisk 500g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7043180087129"
+   ],
+   "n": {
+    "kcal": 130.0,
+    "fat_g": 6.3,
+    "sat_fat_g": 1.8,
+    "carbs_g": 1.5,
+    "sugars_g": 0.6,
+    "protein_g": 17.1,
+    "salt_g": 0.9
+   }
+  },
+  {
+   "ean": "7043180114122",
+   "title": "Kylling Lårfilet",
+   "subtitle": "Spiseklar Tex-Mex 325g Dsh",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7043180097821",
+    "ean:7043180107223"
+   ],
+   "n": {
+    "kcal": 163.0,
+    "fat_g": 7.5,
+    "sat_fat_g": 2.1,
+    "carbs_g": 3.3,
+    "sugars_g": 1.3,
+    "protein_g": 19.0,
+    "salt_g": 1.8
+   }
+  },
+  {
+   "ean": "7043180081127",
+   "title": "Kylling Lårfilet",
+   "subtitle": "Spiseklar Bbq 200g Dsh",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7043180097821",
+    "ean:7043180107223"
+   ],
+   "n": {
+    "kcal": 151.0,
+    "fat_g": 7.7,
+    "sat_fat_g": 1.9,
+    "carbs_g": 1.7,
+    "sugars_g": 0.1,
+    "protein_g": 19.0,
+    "salt_g": 1.1
+   }
+  },
+  {
+   "ean": "7043180114023",
+   "title": "Kylling Lårfilet",
+   "subtitle": "Spiseklar Tex-Mex 200g Dsh",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7043180097821",
+    "ean:7043180107223"
+   ],
+   "n": {
+    "kcal": 162.0,
+    "fat_g": 7.4,
+    "sat_fat_g": 2.1,
+    "carbs_g": 3.5,
+    "sugars_g": 1.0,
+    "protein_g": 19.0,
+    "salt_g": 1.8
+   }
+  },
+  {
+   "ean": "7043180054220",
+   "title": "Kyllingfilet Stekt",
+   "subtitle": "Soltørket Tomat 200g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7043180061723",
+    "store:7043180054121"
+   ],
+   "n": {
+    "kcal": 129.0,
+    "fat_g": 2.3,
+    "sat_fat_g": 0.6,
+    "carbs_g": 3.2,
+    "sugars_g": 1.7,
+    "protein_g": 22.0,
+    "salt_g": 1.9
+   }
+  },
+  {
+   "ean": "7043180080922",
+   "title": "Kylling Lårfilet",
+   "subtitle": "Spiseklar Taco 200g Dsh",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7043180097821",
+    "ean:7043180107223"
+   ],
+   "n": {
+    "kcal": 207.0,
+    "fat_g": 11.2,
+    "sat_fat_g": 2.8,
+    "carbs_g": 5.4,
+    "sugars_g": 2.5,
+    "protein_g": 20.6,
+    "salt_g": 1.5
+   }
+  },
+  {
+   "ean": "7316830023366",
+   "title": "Vingetrekker",
+   "subtitle": "16.3cm Gastromax",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7072088002101",
+   "title": "Ryvingen",
+   "subtitle": "0,33l boks Lindesnes Bryggeri",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0000023518336",
+   "title": "Kylling V.Klubber",
+   "subtitle": "Naturell Ca1,2kg Folkets",
+   "why": "several rows match",
+   "rows": [
+    "ean:2351829200002",
+    "norgesgruppen:23518336"
+   ]
+  },
+  {
+   "ean": "7045386068506",
+   "title": "Wienerpølser",
+   "subtitle": "14stk 770g Leiv Vidar",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7045386067202"
+   ],
+   "n": {
+    "kcal": 258.0,
+    "fat_g": 20.0,
+    "sat_fat_g": 7.8,
+    "carbs_g": 7.4,
+    "sugars_g": 1.2,
+    "protein_g": 12.0,
+    "salt_g": 1.6
+   }
+  },
+  {
+   "ean": "7058040661807",
+   "title": "Jubelsalami",
+   "subtitle": "250g Grilstad",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7058040666505"
+   ],
+   "n": {
+    "kcal": 391.0,
+    "fat_g": 35.0,
+    "sat_fat_g": 13.0,
+    "carbs_g": 1.0,
+    "sugars_g": 0.0,
+    "protein_g": 18.0,
+    "salt_g": 5.0
+   }
+  },
+  {
+   "ean": "7058040449108",
+   "title": "Jubelsalami",
+   "subtitle": "100g Grilstad",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7058040666505"
+   ],
+   "n": {
+    "kcal": 391.0,
+    "fat_g": 35.0,
+    "sat_fat_g": 13.0,
+    "carbs_g": 1.0,
+    "sugars_g": 0.0,
+    "protein_g": 18.0,
+    "salt_g": 5.0
+   }
+  },
+  {
+   "ean": "7058040689900",
+   "title": "Trønderfår",
+   "subtitle": "140g Grilstad",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7058040614308"
+   ],
+   "n": {
+    "kcal": 367.0,
+    "fat_g": 30.0,
+    "sat_fat_g": 12.0,
+    "carbs_g": 1.0,
+    "sugars_g": 0.0,
+    "protein_g": 23.0,
+    "salt_g": 5.7
+   }
+  },
+  {
+   "ean": "7058040657305",
+   "title": "Chorizo",
+   "subtitle": "100g Grilstad",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7058040660701",
+    "ean:7058040685605",
+    "ean:7331868182229"
+   ],
+   "n": {
+    "kcal": 419.0,
+    "fat_g": 37.0,
+    "sat_fat_g": 12.5,
+    "carbs_g": 2.3,
+    "sugars_g": 2.2,
+    "protein_g": 20.0,
+    "salt_g": 4.7
+   }
+  },
+  {
+   "ean": "7058040705204",
+   "title": "Jubelsalami",
+   "subtitle": "190g Grilstad",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7058040666505"
+   ],
+   "n": {
+    "kcal": 391.0,
+    "fat_g": 35.0,
+    "sat_fat_g": 13.0,
+    "carbs_g": 1.0,
+    "sugars_g": 0.0,
+    "protein_g": 18.0,
+    "salt_g": 5.0
+   }
+  },
+  {
+   "ean": "7058040210500",
+   "title": "Salami",
+   "subtitle": "300g Grilstad",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7058040612403",
+    "ean:7058040622402",
+    "ean:7058040634603",
+    "ean:7058040634702",
+    "ean:7058040639400",
+    "ean:7058040686305"
+   ],
+   "n": {
+    "kcal": 417.0,
+    "fat_g": 37.0,
+    "sat_fat_g": 11.0,
+    "carbs_g": 1.0,
+    "sugars_g": 0.0,
+    "protein_g": 20.0,
+    "salt_g": 5.0
+   }
+  },
+  {
+   "ean": "7058040623102",
+   "title": "Jubelsalami",
+   "subtitle": "Løvtynn 100g Grilstad",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7058040666505"
+   ],
+   "n": {
+    "kcal": 391.0,
+    "fat_g": 35.0,
+    "sat_fat_g": 13.0,
+    "carbs_g": 1.0,
+    "sugars_g": 0.0,
+    "protein_g": 18.0,
+    "salt_g": 5.0
+   }
+  },
+  {
+   "ean": "7058040702708",
+   "title": "Chorizo",
+   "subtitle": "Ternet 120g Grilstad",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7058040660701",
+    "ean:7058040685605",
+    "ean:7331868182229"
+   ],
+   "n": {
+    "kcal": 368.0,
+    "fat_g": 33.0,
+    "sat_fat_g": 11.0,
+    "carbs_g": 1.9,
+    "sugars_g": 1.7,
+    "protein_g": 23.0,
+    "salt_g": 4.7
+   }
+  },
+  {
+   "ean": "7058040458506",
+   "title": "Spekepølse hel",
+   "subtitle": "Bacon 220g Grilstad",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7058040434401",
+    "ean:7058040454805",
+    "ean:7058040454904"
+   ],
+   "n": {
+    "kcal": 412.0,
+    "fat_g": 34.0,
+    "sat_fat_g": 12.0,
+    "carbs_g": 1.3,
+    "sugars_g": 0.3,
+    "protein_g": 25.0,
+    "salt_g": 5.2
+   }
+  },
+  {
+   "ean": "7058040448408",
+   "title": "Jubelsalami",
+   "subtitle": "Bordpakning 250g Grilstad",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7058040666505"
+   ],
+   "n": {
+    "kcal": 391.0,
+    "fat_g": 35.0,
+    "sat_fat_g": 13.0,
+    "carbs_g": 1.0,
+    "sugars_g": 0.0,
+    "protein_g": 18.0,
+    "salt_g": 5.0
+   }
+  },
+  {
+   "ean": "7058040671004",
+   "title": "Chorizo",
+   "subtitle": "i Ring 200g Grilstad",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7058040660701",
+    "ean:7058040685605",
+    "ean:7331868182229"
+   ],
+   "n": {
+    "kcal": 411.0,
+    "fat_g": 35.0,
+    "sat_fat_g": 12.0,
+    "carbs_g": 1.7,
+    "sugars_g": 0.7,
+    "protein_g": 23.0,
+    "salt_g": 4.6
+   }
+  },
+  {
+   "ean": "7058040430908",
+   "title": "Spekeskinke",
+   "subtitle": "80g Stranda",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:0058444459700",
+    "ean:7058040639103"
+   ],
+   "n": {
+    "kcal": 191.0,
+    "fat_g": 6.0,
+    "sat_fat_g": 2.1,
+    "carbs_g": 0.7,
+    "sugars_g": 0.0,
+    "protein_g": 33.0,
+    "salt_g": 8.0
+   }
+  },
+  {
+   "ean": "7058040449207",
+   "title": "Jubelsalami",
+   "subtitle": "175g Grilstad",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7058040666505"
+   ],
+   "n": {
+    "kcal": 391.0,
+    "fat_g": 35.0,
+    "sat_fat_g": 13.0,
+    "carbs_g": 1.0,
+    "sugars_g": 0.0,
+    "protein_g": 18.0,
+    "salt_g": 5.0
+   }
+  },
+  {
+   "ean": "7058040630506",
+   "title": "Rødvinspølse",
+   "subtitle": "80g Grilstad",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7058040634405"
+   ],
+   "n": {
+    "kcal": 477.0,
+    "fat_g": 42.0,
+    "sat_fat_g": 15.0,
+    "carbs_g": 1.0,
+    "sugars_g": 1.0,
+    "protein_g": 23.0,
+    "salt_g": 5.4
+   }
+  },
+  {
+   "ean": "7058040432407",
+   "title": "Jubelsalami",
+   "subtitle": "Krydder 100g Grilstad",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7058040666505"
+   ],
+   "n": {
+    "kcal": 391.0,
+    "fat_g": 35.0,
+    "sat_fat_g": 13.0,
+    "carbs_g": 1.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 18.0,
+    "salt_g": 5.0
+   }
+  },
+  {
+   "ean": "7058040615206",
+   "title": "Jubelsalami",
+   "subtitle": "Bordpakning 135g Grilstad",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7058040666505"
+   ],
+   "n": {
+    "kcal": 391.0,
+    "fat_g": 35.0,
+    "sat_fat_g": 13.0,
+    "carbs_g": 1.0,
+    "sugars_g": 0.0,
+    "protein_g": 18.0,
+    "salt_g": 5.0
+   }
+  },
+  {
+   "ean": "7058040628503",
+   "title": "Butcher Burger",
+   "subtitle": "Cheddar 2x140g Grilstad",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7058040407405"
+   ],
+   "n": {
+    "kcal": 258.0,
+    "fat_g": 21.0,
+    "sat_fat_g": 10.0,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "protein_g": 18.0,
+    "salt_g": 1.1
+   }
+  },
+  {
+   "ean": "7058040434005",
+   "title": "Salami",
+   "subtitle": "Lev Litt Lettere 100g Grilstad",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7058040612403",
+    "ean:7058040622402",
+    "ean:7058040634603",
+    "ean:7058040634702",
+    "ean:7058040639400",
+    "ean:7058040686305"
+   ],
+   "n": {
+    "kcal": 179.0,
+    "fat_g": 9.3,
+    "sat_fat_g": 3.3,
+    "carbs_g": 1.2,
+    "sugars_g": 1.0,
+    "protein_g": 23.0,
+    "salt_g": 2.2
+   }
+  },
+  {
+   "ean": "7058040412508",
+   "title": "Kyllingburger",
+   "subtitle": "4x80g Lev Litt Lettere",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7058040660206"
+   ],
+   "n": {
+    "kcal": 130.0,
+    "fat_g": 6.5,
+    "sat_fat_g": 1.9,
+    "carbs_g": 0.1,
+    "sugars_g": 0.1,
+    "protein_g": 18.0,
+    "salt_g": 1.0
+   }
+  },
+  {
+   "ean": "0000023910001",
+   "title": "Bolstadrøykt Aure",
+   "subtitle": "Ca350g",
+   "why": "several rows match",
+   "rows": [
+    "norgesgruppen:23910001",
+    "norgesgruppen:8111"
+   ]
+  },
+  {
+   "ean": "7311120236051",
+   "title": "Halmstad Cocktail",
+   "subtitle": "Crush Clody Raspberry 0,5l boks",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311120236112",
+   "title": "Halmstad Cocktail",
+   "subtitle": "Crush Cloudy 0,5l boks",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311120236693",
+   "title": "Halmstad Cocktail",
+   "subtitle": "Mojito 0,5l boks",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7040516539031",
+   "title": "Salat Sikori",
+   "subtitle": "300g Bama",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "7023026707237",
+   "title": "Krutonger",
+   "subtitle": "280g Bama",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7039281551195"
+   ],
+   "n": {
+    "kcal": 494.0,
+    "fat_g": 20.3,
+    "sat_fat_g": 2.0,
+    "carbs_g": 66.4,
+    "sugars_g": 3.2,
+    "fibre_g": 2.7,
+    "protein_g": 10.1,
+    "salt_g": 1.2
+   }
+  },
+  {
+   "ean": "0299000034287",
+   "title": "Salat Crispi 150g",
+   "subtitle": "Salat Crispi 150g",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "7031540004053",
+   "title": "Spinat",
+   "subtitle": "250g",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7039281541974",
+   "title": "Romano Salat",
+   "subtitle": "Import stykk",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "7039281554295",
+   "title": "Avocado",
+   "subtitle": "6pk Moden",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "7039281546368",
+   "title": "Tomat Snack",
+   "subtitle": "Spann 500g Gartner",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "4061459181005",
+   "title": "Tomat",
+   "subtitle": "Tomador 300g",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "7039281551935",
+   "title": "Vårløk",
+   "subtitle": "Bunt 125g Season",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "6111265670267",
+   "title": "Tomat Miniplomme",
+   "subtitle": "1kg",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "7090002764027",
+   "title": "Reddik Spirer",
+   "subtitle": "50g Økologisk",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "7040513000022",
+   "title": "Gulrot",
+   "subtitle": "750g Beger",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "7040515020417",
+   "title": "Tomat",
+   "subtitle": "Juanitas 300g",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "7023026110587",
+   "title": "Ananas",
+   "subtitle": "200g Cevita",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "7039281547242",
+   "title": "Agurk",
+   "subtitle": "Snack 200g",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "7023026110365",
+   "title": "Ananas",
+   "subtitle": "400g Cevita",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "7039281558125",
+   "title": "Tranebær",
+   "subtitle": "250g Pakket",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "0299000049021",
+   "title": "Agurk",
+   "subtitle": "Økologisk stykk Import Vilje",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "7040518002793",
+   "title": "Fennikel",
+   "subtitle": "stykk",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "4011261029682",
+   "title": "Tulipan",
+   "subtitle": "i Potte",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232617126",
+   "title": "Grennellik",
+   "subtitle": "7pk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7058020030609",
+   "title": "Pottenellik",
+   "subtitle": "Pink Kisses 12cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7049881011357",
+   "title": "Toppbark",
+   "subtitle": "50l",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7039281539858",
+   "title": "Ruccula",
+   "subtitle": "Salat 75g",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "7040510838178",
+   "title": "Epler 6pk",
+   "subtitle": "Fryd",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "4011261025585",
+   "title": "Sølvtråd",
+   "subtitle": "Calocephalus",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5708869168729",
+   "title": "Asters",
+   "subtitle": "11cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5708869178278",
+   "title": "Campanula Royal",
+   "subtitle": "i Potte",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5708869402823",
+   "title": "Euphorbia Milii",
+   "subtitle": "Kristi Torn 11cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7029280816524",
+   "title": "Potteskjuler",
+   "subtitle": "Plast 12 Cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232174063",
+   "title": "Solsikke",
+   "subtitle": "13cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7058020001586",
+   "title": "Spanske Margeritter",
+   "subtitle": "12cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7058020005492",
+   "title": "Betulia/Utebegonia",
+   "subtitle": "12cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7058020020914",
+   "title": "Chrysanthemum",
+   "subtitle": "Busk 19cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7058020021928",
+   "title": "Celosia",
+   "subtitle": "12cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7058020037509",
+   "title": "Syrinhortensia",
+   "subtitle": "21cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7058020051451",
+   "title": "Alunrot/Heuchera",
+   "subtitle": "17cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7058020063225",
+   "title": "Ildtopp Ute",
+   "subtitle": "17cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232691683",
+   "title": "Barkrans",
+   "subtitle": "25cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232812033",
+   "title": "Sommerfuglbusk",
+   "subtitle": "21cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232836824",
+   "title": "Hebe",
+   "subtitle": "15cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232905353",
+   "title": "Blomsterløk",
+   "subtitle": "i pose Vår",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232905377",
+   "title": "Frø Krydderkarse",
+   "subtitle": "Nelson Garden",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232905384",
+   "title": "Frø Sukkerert",
+   "subtitle": "Nelson Garden",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232905391",
+   "title": "Frø Sommerblomst",
+   "subtitle": "Mix Nelson Garden",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232905407",
+   "title": "Frø",
+   "subtitle": "Blomkarse Nelson Garden",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232905414",
+   "title": "Frø Solsikke",
+   "subtitle": "Kjempe Nelson Garden",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232905421",
+   "title": "Nelson Garden",
+   "subtitle": "Frø Gr.1",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232905438",
+   "title": "Nelson Garden",
+   "subtitle": "Frø Gr.2",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232905445",
+   "title": "Nelson Garden",
+   "subtitle": "Frø Gr.3",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232905452",
+   "title": "Nelson Garden",
+   "subtitle": "Frø Gr.4",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232905469",
+   "title": "Nelson Garden",
+   "subtitle": "Frø Gr.5",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232905360",
+   "title": "Blomsterløk",
+   "subtitle": "i pose Høst",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7058020042671",
+   "title": "Julerose",
+   "subtitle": "Helleborus 12cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232413131",
+   "title": "Kinaeiner",
+   "subtitle": "17cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "4011261163706",
+   "title": "Røsslyng Calluna",
+   "subtitle": "Trio Skål 23cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "4011261001077",
+   "title": "Røsslyng",
+   "subtitle": "Calluna 11cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232691744",
+   "title": "Mosekrans",
+   "subtitle": "23cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232423062",
+   "title": "Furu",
+   "subtitle": "Silver Crest 17cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232119415",
+   "title": "Krysantemum",
+   "subtitle": "14cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "4011261001473",
+   "title": "Røsslyng",
+   "subtitle": "Calluna Trio 14cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232238109",
+   "title": "Kjeglegran",
+   "subtitle": "i Potte",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232149054",
+   "title": "Orientalsk Lilje",
+   "subtitle": "13cm Gave",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232164668",
+   "title": "Orkidé",
+   "subtitle": "Gave",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232289095",
+   "title": "Smaragdpalme",
+   "subtitle": "12cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232605680",
+   "title": "Alstromeria",
+   "subtitle": "Inkalilje 6pk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232682124",
+   "title": "Pyntegresskar",
+   "subtitle": "stykk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7058020012384",
+   "title": "Julestjerne Hvit",
+   "subtitle": "Flergrenet 12cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7058020029092",
+   "title": "Krysantemum",
+   "subtitle": "17cm m/Kurv",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7049191093937",
+   "title": "Julestjerne Rød",
+   "subtitle": "Flergrenet 12cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7049881845136",
+   "title": "Plantejord",
+   "subtitle": "40l",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7058020019352",
+   "title": "Novemberkaktus",
+   "subtitle": "12cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232654367",
+   "title": "Asiatiske Liljer 2pk",
+   "subtitle": "2pk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7058020050041",
+   "title": "Azalea",
+   "subtitle": "Hvit 12cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232110702",
+   "title": "Azalea Rosa",
+   "subtitle": "12cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7058020024899",
+   "title": "Svibel",
+   "subtitle": "8cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232147623",
+   "title": "ildtopp i",
+   "subtitle": "Keramikk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232256202",
+   "title": "Monstera",
+   "subtitle": "Strelitsia Mix 13cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5708869334643",
+   "title": "Krysantemum",
+   "subtitle": "12cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232204012",
+   "title": "Stuegran",
+   "subtitle": "14cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0299000108605",
+   "title": "Grønnplanter Miks",
+   "subtitle": "12cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232475153",
+   "title": "Skimmia",
+   "subtitle": "15cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7049191083839",
+   "title": "Julestjerne Rød",
+   "subtitle": "Enstaket 11cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7058020032009",
+   "title": "Monstera",
+   "subtitle": "17cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7058020006642",
+   "title": "Amaryllis",
+   "subtitle": "12cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8436008521063",
+   "title": "Guacamole",
+   "subtitle": "500g Native",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "2615760009002",
+   "title": "Epler",
+   "subtitle": "6pk Pink Lady",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "5701243990510",
+   "title": "Brokkoli",
+   "subtitle": "Økologisk 300g Vilje",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "7044416017514",
+   "title": "Axa Müsli",
+   "subtitle": "Frø&Kjerner 700g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:5701029160823",
+    "ean:7044416013714",
+    "ean:7044416015985",
+    "ean:7044416016227",
+    "ean:7310130003240",
+    "ean:7310130006852"
+   ],
+   "n": {
+    "kcal": 395.0,
+    "fat_g": 13.0,
+    "sat_fat_g": 2.0,
+    "carbs_g": 49.0,
+    "sugars_g": 1.7,
+    "fibre_g": 12.0,
+    "protein_g": 14.0,
+    "salt_g": 0.01
+   }
+  },
+  {
+   "ean": "7044416017484",
+   "title": "Axa Müsli",
+   "subtitle": "Frukt Müsli 700g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:5701029160823",
+    "ean:7044416013714",
+    "ean:7044416015985",
+    "ean:7044416016227",
+    "ean:7310130003240",
+    "ean:7310130006852"
+   ],
+   "n": {
+    "kcal": 358.0,
+    "fat_g": 5.1,
+    "sat_fat_g": 1.8,
+    "carbs_g": 63.0,
+    "sugars_g": 13.0,
+    "fibre_g": 8.6,
+    "protein_g": 10.0,
+    "salt_g": 0.31
+   }
+  },
+  {
+   "ean": "7044416018191",
+   "title": "Axa Müsli",
+   "subtitle": "Hasselnøtt 625g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:5701029160823",
+    "ean:7044416013714",
+    "ean:7044416015985",
+    "ean:7044416016227",
+    "ean:7310130003240",
+    "ean:7310130006852"
+   ],
+   "n": {
+    "kcal": 366.0,
+    "fat_g": 7.1,
+    "sat_fat_g": 1.0,
+    "carbs_g": 58.0,
+    "sugars_g": 8.1,
+    "fibre_g": 11.0,
+    "protein_g": 11.0,
+    "salt_g": 0.07
+   }
+  },
+  {
+   "ean": "7310130011467",
+   "title": "Granola",
+   "subtitle": "Jordbær400g Axa",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7310130009198",
+    "ean:7310130013263",
+    "ean:7310130013287"
+   ],
+   "n": {
+    "kcal": 450.0,
+    "fat_g": 20.0,
+    "sat_fat_g": 2.5,
+    "carbs_g": 45.0,
+    "sugars_g": 4.2,
+    "fibre_g": 18.0,
+    "protein_g": 9.7,
+    "salt_g": 0.3
+   }
+  },
+  {
+   "ean": "7044416017545",
+   "title": "Müsli Energi",
+   "subtitle": "650g Axa",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7044416013714"
+   ],
+   "n": {
+    "kcal": 378.0,
+    "fat_g": 8.2,
+    "sat_fat_g": 2.3,
+    "carbs_g": 59.0,
+    "sugars_g": 10.0,
+    "fibre_g": 10.0,
+    "protein_g": 11.0,
+    "salt_g": 0.27
+   }
+  },
+  {
+   "ean": "7310130010507",
+   "title": "Müsli",
+   "subtitle": "Papaya glutenfri 350g Axa",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:5701029160823",
+    "ean:7044416013714",
+    "ean:7044416015985",
+    "ean:7044416016227",
+    "ean:7310130003240",
+    "ean:7310130006852"
+   ],
+   "n": {
+    "kcal": 430.0,
+    "fat_g": 18.0,
+    "sat_fat_g": 2.9,
+    "carbs_g": 50.0,
+    "sugars_g": 16.0,
+    "fibre_g": 8.6,
+    "protein_g": 14.0,
+    "salt_g": 0.2
+   }
+  },
+  {
+   "ean": "7044416016869",
+   "title": "Müsli",
+   "subtitle": "Ristet Havre&Tranebær 700g Axa",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:5701029160823",
+    "ean:7044416013714",
+    "ean:7044416015985",
+    "ean:7044416016227",
+    "ean:7310130003240",
+    "ean:7310130006852"
+   ],
+   "n": {
+    "kcal": 389.0,
+    "fat_g": 9.2,
+    "sat_fat_g": 1.9,
+    "carbs_g": 62.0,
+    "sugars_g": 19.0,
+    "fibre_g": 8.4,
+    "protein_g": 10.0,
+    "salt_g": 0.39
+   }
+  },
+  {
+   "ean": "7310130004469",
+   "title": "Gold Musli",
+   "subtitle": "Berries 725g Axa",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7044416013714"
+   ],
+   "n": {
+    "kcal": 420.0,
+    "fat_g": 15.0,
+    "sat_fat_g": 4.6,
+    "carbs_g": 55.0,
+    "sugars_g": 15.0,
+    "fibre_g": 8.4,
+    "protein_g": 11.0,
+    "salt_g": 0.3
+   }
+  },
+  {
+   "ean": "7310130006272",
+   "title": "Granola",
+   "subtitle": "Jordbær&Solbær 475g Axa",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7310130009198",
+    "ean:7310130013263",
+    "ean:7310130013287"
+   ],
+   "n": {
+    "kcal": 430.0,
+    "fat_g": 20.0,
+    "sat_fat_g": 2.5,
+    "carbs_g": 45.0,
+    "sugars_g": 3.4,
+    "fibre_g": 18.0,
+    "protein_g": 9.8,
+    "salt_g": 0.3
+   }
+  },
+  {
+   "ean": "7310130010385",
+   "title": "Havregott",
+   "subtitle": "m/Jordbær 350g Axa",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7310130013904"
+   ],
+   "n": {
+    "kcal": 450.0,
+    "fat_g": 17.0,
+    "sat_fat_g": 2.6,
+    "carbs_g": 63.0,
+    "sugars_g": 16.0,
+    "fibre_g": 5.5,
+    "protein_g": 8.2,
+    "salt_g": 0.6
+   }
+  },
+  {
+   "ean": "7310130011245",
+   "title": "Granola",
+   "subtitle": "Eple&Rosin 435g Axa",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7310130009198",
+    "ean:7310130013263",
+    "ean:7310130013287"
+   ],
+   "n": {
+    "kcal": 420.0,
+    "fat_g": 17.0,
+    "sat_fat_g": 2.1,
+    "carbs_g": 49.0,
+    "sugars_g": 7.9,
+    "fibre_g": 18.0,
+    "protein_g": 8.8,
+    "salt_g": 0.4
+   }
+  },
+  {
+   "ean": "7090027880283",
+   "title": "Mølleren Honduras",
+   "subtitle": "250g Bkb",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070866013349",
+   "title": "Møllers Tran",
+   "subtitle": "Naturell 250ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070866016845",
+   "title": "Møllers Total",
+   "subtitle": "56stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070866030728",
+   "title": "Møllers Omega-3",
+   "subtitle": "Trankapsler 160stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5701098025269",
+   "title": "Brillerens",
+   "subtitle": "Optikputs 30stk Sterling",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5701098252702",
+   "title": "Brillerensserviett",
+   "subtitle": "30stk Sterling",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5701098263005",
+   "title": "Brillerenseserviet",
+   "subtitle": "30stk Sterling",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5701098025252",
+   "title": "Sterling Brillerens",
+   "subtitle": "100ml Nr 2525",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "9788241917110",
+   "title": "Safirhandlerens",
+   "subtitle": "Enke",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070866013462",
+   "title": "Møllers Tran",
+   "subtitle": "Fruktsmak 250ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "9788202745677",
+   "title": "Historiefortelleren",
+   "subtitle": "fra Casablanca",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070866025991",
+   "title": "Omega-3 Gelefisk",
+   "subtitle": "Jordbær 45stk Møllers",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070866025960",
+   "title": "Möller's Omega-3",
+   "subtitle": "Geléfisk Frukt 45stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7046110320716",
+   "title": "Blenda Tøymykner",
+   "subtitle": "750ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7040880953525",
+   "title": "Ibux Kapsler",
+   "subtitle": "200mg 20stk Weifa",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7040885030788",
+   "title": "Paracet Stikkpille",
+   "subtitle": "Barn 125mg 10stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7040880849705",
+   "title": "Paracet Stikkpille",
+   "subtitle": "Barn 250mg 10stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7316830070308",
+   "title": "Potetskreller",
+   "subtitle": "Sort Gastromax",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620018725",
+   "title": "Potetskreller",
+   "subtitle": "1stk Unik",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "6410412832535",
+   "title": "Skreller",
+   "subtitle": "Metall Maku",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8720181206344",
+   "title": "Neutral Tøymykner",
+   "subtitle": "Parfymefri 1l",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5714156256055",
+   "title": "Brillerens",
+   "subtitle": "Servietter 20pk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7300400127004",
+   "title": "Fiber Balance",
+   "subtitle": "230g Wasa",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 333.0,
+    "fat_g": 5.0,
+    "sat_fat_g": 1.0,
+    "carbs_g": 47.0,
+    "sugars_g": 2.0,
+    "fibre_g": 26.0,
+    "protein_g": 12.0,
+    "salt_g": 1.2
+   }
+  },
+  {
+   "ean": "7300400122689",
+   "title": "Sandwich Cheese",
+   "subtitle": "Gressløk 37g Wasa",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:0000032001273",
+    "ean:7300400482059"
+   ],
+   "n": {
+    "kcal": 472.0,
+    "fat_g": 24.0,
+    "sat_fat_g": 8.5,
+    "carbs_g": 49.0,
+    "sugars_g": 2.0,
+    "fibre_g": 12.0,
+    "protein_g": 9.0,
+    "salt_g": 1.3
+   }
+  },
+  {
+   "ean": "7300400127363",
+   "title": "Sandwich Cheese",
+   "subtitle": "Tomat&Basilikum 40g Wasa",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:0000032001273",
+    "ean:7300400482059"
+   ],
+   "n": {
+    "kcal": 479.0,
+    "fat_g": 23.0,
+    "sat_fat_g": 8.0,
+    "carbs_g": 54.0,
+    "sugars_g": 5.0,
+    "fibre_g": 5.0,
+    "protein_g": 12.0,
+    "salt_g": 1.3
+   }
+  },
+  {
+   "ean": "7300400482295",
+   "title": "Sandwich",
+   "subtitle": "Sour Cream&Onion 33g Wasa",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:0000032001273",
+    "ean:7300400151566",
+    "ean:7300400482059",
+    "ean:7300400482929",
+    "ean:7300400483155"
+   ],
+   "n": {
+    "kcal": 430.0,
+    "fat_g": 18.0,
+    "sat_fat_g": 5.0,
+    "carbs_g": 51.0,
+    "sugars_g": 1.0,
+    "fibre_g": 15.0,
+    "protein_g": 8.5,
+    "salt_g": 1.0
+   }
+  }
+ ]
+}
