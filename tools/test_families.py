@@ -206,6 +206,12 @@ class DisplayName(unittest.TestCase):
                           [p(str(i + 3), 'Marabou Mjölkchoklad', brand='Marabou') for i in range(3)])
         self.assertEqual(fam.display_name('Marabou Oreo', 'Marabou', lines), 'Marabou Oreo')
 
+    def test_a_checked_name_keeps_its_last_word(self):
+        # Max, 2026-11-14: a name a person or a label gave ("McFlurry Oreo") keeps its flavour, even when it is a brand.
+        lines = fam.Lines([p(str(i), 'Oreo Original', brand='Oreo') for i in range(3)])
+        self.assertEqual(fam.display_name('McFlurry Oreo', "McDonald's", lines), 'McFlurry')
+        self.assertEqual(fam.display_name('McFlurry Oreo 200 g', "McDonald's", lines, keep_tail=True), 'McFlurry Oreo')
+
     def test_number_codes_go(self):
         lines = fam.Lines([p(str(i), 'Tine Melk', brand='Tine') for i in range(3)])
         self.assertEqual(fam.display_name('Rapsstekolja smörsmak, 260201', 'ICA', lines), 'Rapsstekolja smörsmak')

@@ -107,6 +107,10 @@ class ApplyTest(unittest.TestCase):
         r = self.kept['burgerking-no:double-whopper']
         self.assertEqual((r['kcal'], r['fat_g'], self.units['burgerking-no:double-whopper']), (1376, 104, 'portion'))
 
+    def test_take_eans_marks_barcodes_to_move(self):
+        self.run_apply({'fixes': [{'id': 'c', 'take_eans': ['7038010058639'], 'source_url': 'u'}]})
+        self.assertEqual(self.kept['c']['take_eans'], ['7038010058639'])
+
     def test_a_null_nutrient_becomes_unknown(self):
         self.run_apply({'fixes': [{'id': 'c', 'nutrients': {'fibre_g': None}, 'source_url': 'u'}]})
         self.assertIsNone(self.kept['c']['fibre_g'])

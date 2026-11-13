@@ -104,15 +104,16 @@ def tidy_name(name, brand, short_brands=frozenset()):
     return ' '.join(out)
 
 
-def display_name(name, brand, lines, short_brands=frozenset()):
+def display_name(name, brand, lines, short_brands=frozenset(), keep_tail=False):
     """The name shown in the app: tidied, without pack sizes or promo words, and without a maker
     tacked on at the end ("YT Protein Yoghurt Salt Karamell 200g Tine" -> "... Salt Karamell").
-    The pack size stays in its own column."""
+    The pack size stays in its own column. keep_tail: the name was checked (a label or a person gave it),
+    so a brand at the end is the flavour ("McFlurry Oreo") and stays."""
     s = strip_sizes(tidy_name(name, brand, short_brands))
     s = re.sub(r'[,\s]+\d{4,}\b', '', s)  # article numbers such as ", 260201"
     raw = s.split(' ')
     own = set(words(brand))
-    while len(raw) > 1:
+    while len(raw) > 1 and not keep_tail:
         tail = tuple(words(raw[-1]))
         rest = set(words(' '.join(raw[:-1])))
         # Drop a maker tacked on at the end ("... 200g Tine"), but not when the rest is only the brand
