@@ -21,6 +21,8 @@ x
 import json
 import os
 
+import cleanup
+
 CATEGORIES = frozenset((
     'dairy_eggs', 'meat_fish', 'bread_cereal_grain', 'fruit_vegetables', 'drinks', 'snacks_sweets',
     'ready_meals_sauces', 'protein_drink_or_dessert', 'other_food', 'protein_bar', 'protein_powder',
@@ -97,7 +99,7 @@ def apply(checked, kept, moved, extra_search, flags_by_id, units, stats, open_so
                 moved[k] = new
         moved[old] = new
         folded += 1
-    zero = []
+    zero, impossible = [], []
     # One spelling per brand: an added product takes the spelling the file already uses.
     spelling = {}
     for p in kept.values():
@@ -121,6 +123,11 @@ def apply(checked, kept, moved, extra_search, flags_by_id, units, stats, open_so
             **{k: n.get(k) for k in NUTRIENTS},
         }
         flags_by_id[a['id']] = ([] if n.get('fibre_g') is not None else ['missing_fibre']) + (['per100_derived_from_serving'] if a.get('derived') else [])
+        if cleanup.impossible(kept[a['id']]):
+            del kept[a['id']]
+            impossible.append(a['id'])
+            continue
+        cleanup.tidy_nutrients(kept[a['id']], flags_by_id[a['id']])
         units[a['id']] = a['unit']
         extra_search[a['id']] = ' '.join(a.get('also_known_as', ()))
     sizes = {a['id']: ', '.join(a['sizes']) for a in checked.get('add', ()) if a.get('sizes') and a['id'] in kept}
@@ -145,9 +152,13 @@ def apply(checked, kept, moved, extra_search, flags_by_id, units, stats, open_so
         if n and all(dict(p, **n).get(k) == 0 for k in ('kcal', 'protein_g', 'fat_g', 'carbs_g')):
             zero.append(f['id'])  # all-zero means missing (Zero kcal rule): never write it from a label
             n = None
+        if n and cleanup.impossible(dict(p, **n)):
+            impossible.append(f['id'])
+            n = None
         if n:
             for k, v in n.items():
                 p[k] = v
+            cleanup.tidy_nutrients(p, flags_by_id[f['id']])
             if FLAG not in flags_by_id[f['id']]:
                 flags_by_id[f['id']].append(FLAG)
         fixed += 1
@@ -159,4 +170,5 @@ def apply(checked, kept, moved, extra_search, flags_by_id, units, stats, open_so
     stats['checked_common'] = len(common)
     stats['checked_skipped'] = len(skipped)
     stats['checked_all_zero_refused'] = len(zero)
+    stats['checked_impossible_refused'] = len(impossible)
     return sizes, common
