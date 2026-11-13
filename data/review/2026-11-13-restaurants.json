@@ -12720,5 +12720,3547 @@
    "Iced Matcha Espresso & Vanilla Latte"
   ],
   "skipped": []
+ },
+ "browser_chains_2026_11_14": {
+  "raw": [
+   {
+    "key": "burgerking",
+    "result": {
+     "chain": "Burger King Norge",
+     "items": [
+      {
+       "name": "Gourmet Grill Sweet Heat",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 963,
+        "protein_g": 45,
+        "fat_g": 70,
+        "sat_fat_g": 24,
+        "carbs_g": 40,
+        "sugars_g": 8,
+        "fibre_g": 3.4,
+        "salt_g": 3.3
+       }
+      },
+      {
+       "name": "Double Gourmet Grill Sweet Heat",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 1376,
+        "protein_g": 70,
+        "fat_g": 104,
+        "sat_fat_g": 40,
+        "carbs_g": 40,
+        "sugars_g": 8,
+        "fibre_g": 3.4,
+        "salt_g": 3.6
+       }
+      },
+      {
+       "name": "Gourmet Chicken Sweet Heat",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 775,
+        "protein_g": 40,
+        "fat_g": 45,
+        "sat_fat_g": 10,
+        "carbs_g": 54,
+        "sugars_g": 8,
+        "fibre_g": 4.6,
+        "salt_g": 4.4
+       }
+      },
+      {
+       "name": "Gourmet Japanese Katsu",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 939,
+        "protein_g": 39,
+        "fat_g": 64,
+        "sat_fat_g": 24,
+        "carbs_g": 53,
+        "sugars_g": 14,
+        "fibre_g": 4.2,
+        "salt_g": 3.5
+       }
+      },
+      {
+       "name": "Gourmet Japanese Katsu Double",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 1345,
+        "protein_g": 66,
+        "fat_g": 98,
+        "sat_fat_g": 39,
+        "carbs_g": 53,
+        "sugars_g": 14,
+        "fibre_g": 4.2,
+        "salt_g": 6.8
+       }
+      },
+      {
+       "name": "Gourmet Japanese Katsu Chicken (printed 'GOURMATE JAPANESE KATSU CHICKEN')",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 709,
+        "protein_g": 29,
+        "fat_g": 38,
+        "sat_fat_g": 10,
+        "carbs_g": 63,
+        "sugars_g": 14,
+        "fibre_g": 5,
+        "salt_g": 6.6
+       }
+      },
+      {
+       "name": "Chili Cheese Wrap (CC Wrap)",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 437,
+        "protein_g": 15,
+        "fat_g": 23,
+        "sat_fat_g": 3.1,
+        "carbs_g": 42,
+        "sugars_g": 3.8,
+        "fibre_g": 2.5,
+        "salt_g": 2.8
+       }
+      },
+      {
+       "name": "BBQ Wrap",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 517,
+        "protein_g": 17,
+        "fat_g": 30,
+        "sat_fat_g": 4.3,
+        "carbs_g": 44,
+        "sugars_g": 5.2,
+        "fibre_g": 2,
+        "salt_g": 3.4
+       }
+      },
+      {
+       "name": "Gourmet Chicken Chili Mayo",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 656,
+        "protein_g": 31,
+        "fat_g": 37,
+        "sat_fat_g": 7.6,
+        "carbs_g": 51,
+        "sugars_g": 7.1,
+        "fibre_g": 3.9,
+        "salt_g": 3.7
+       }
+      },
+      {
+       "name": "Gourmet Grill Chili Mayo (Single)",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 883,
+        "protein_g": 41,
+        "fat_g": 67,
+        "sat_fat_g": 22,
+        "carbs_g": 40,
+        "sugars_g": 6.6,
+        "fibre_g": 2.9,
+        "salt_g": 3
+       }
+      },
+      {
+       "name": "Gourmet Grill Chili Mayo Double",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 1289,
+        "protein_g": 67,
+        "fat_g": 97,
+        "sat_fat_g": 36,
+        "carbs_g": 40,
+        "sugars_g": 6.8,
+        "fibre_g": 2.9,
+        "salt_g": 3.3
+       }
+      },
+      {
+       "name": "Gourmet Chicken Bacon Cheese",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 695,
+        "protein_g": 35,
+        "fat_g": 37,
+        "sat_fat_g": 12,
+        "carbs_g": 54,
+        "sugars_g": 9.2,
+        "fibre_g": 4.1,
+        "salt_g": 5
+       }
+      },
+      {
+       "name": "Gourmet Grill Bacon Cheese (Single)",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 923,
+        "protein_g": 46,
+        "fat_g": 63,
+        "sat_fat_g": 26,
+        "carbs_g": 44,
+        "sugars_g": 8.7,
+        "fibre_g": 3.1,
+        "salt_g": 4.3
+       }
+      },
+      {
+       "name": "Gourmet Grill Bacon Cheese Double (Dobbel)",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 1329,
+        "protein_g": 72,
+        "fat_g": 97,
+        "sat_fat_g": 40,
+        "carbs_g": 44,
+        "sugars_g": 8.8,
+        "fibre_g": 3.1,
+        "salt_g": 4.6
+       }
+      },
+      {
+       "name": "Whopper",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 621,
+        "protein_g": 29,
+        "fat_g": 34,
+        "sat_fat_g": 9.1,
+        "carbs_g": 50,
+        "sugars_g": 12,
+        "fibre_g": 3.8,
+        "salt_g": 2.7
+       }
+      },
+      {
+       "name": "Whopper Cheese",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 740,
+        "protein_g": 34,
+        "fat_g": 43,
+        "sat_fat_g": 13,
+        "carbs_g": 53,
+        "sugars_g": 13,
+        "fibre_g": 3.9,
+        "salt_g": 3.1
+       }
+      },
+      {
+       "name": "Double Whopper",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 851,
+        "protein_g": 54,
+        "fat_g": 50,
+        "sat_fat_g": 17,
+        "carbs_g": 50,
+        "sugars_g": 12,
+        "fibre_g": 3.8,
+        "salt_g": 2.9
+       }
+      },
+      {
+       "name": "Double Whopper Cheese",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 929,
+        "protein_g": 54,
+        "fat_g": 57,
+        "sat_fat_g": 21,
+        "carbs_g": 51,
+        "sugars_g": 13,
+        "fibre_g": 3.8,
+        "salt_g": 3.7
+       }
+      },
+      {
+       "name": "Bacon Whopper Cheese",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 771,
+        "protein_g": 36,
+        "fat_g": 45,
+        "sat_fat_g": 14,
+        "carbs_g": 53,
+        "sugars_g": 13,
+        "fibre_g": 4,
+        "salt_g": 3.5
+       }
+      },
+      {
+       "name": "Whopper Jr",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 346,
+        "protein_g": 15,
+        "fat_g": 17,
+        "sat_fat_g": 4,
+        "carbs_g": 31,
+        "sugars_g": 6.9,
+        "fibre_g": 2.3,
+        "salt_g": 1.3
+       }
+      },
+      {
+       "name": "Whopper Jr Cheese",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 385,
+        "protein_g": 17,
+        "fat_g": 20,
+        "sat_fat_g": 6.1,
+        "carbs_g": 32,
+        "sugars_g": 7.3,
+        "fibre_g": 2.3,
+        "salt_g": 1.7
+       }
+      },
+      {
+       "name": "Steakhouse Bacon King 2.0",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 1046,
+        "protein_g": 62,
+        "fat_g": 62,
+        "sat_fat_g": 28,
+        "carbs_g": 58,
+        "sugars_g": 15,
+        "fibre_g": 3.4,
+        "salt_g": 3.9
+       }
+      },
+      {
+       "name": "Steakhouse Bacon King 3.0",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 1411,
+        "protein_g": 87,
+        "fat_g": 92,
+        "sat_fat_g": 39,
+        "carbs_g": 59,
+        "sugars_g": 16,
+        "fibre_g": 3.5,
+        "salt_g": 5.8
+       }
+      },
+      {
+       "name": "Bacon King 2.0",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 1109,
+        "protein_g": 60,
+        "fat_g": 75,
+        "sat_fat_g": 29,
+        "carbs_g": 51,
+        "sugars_g": 12,
+        "fibre_g": 2,
+        "salt_g": 1.5
+       }
+      },
+      {
+       "name": "Bacon King 3.0",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 1342,
+        "protein_g": 88,
+        "fat_g": 87,
+        "sat_fat_g": 37,
+        "carbs_g": 52,
+        "sugars_g": 14,
+        "fibre_g": 3,
+        "salt_g": 5.8
+       }
+      },
+      {
+       "name": "X-Long Chili Cheese",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 721,
+        "protein_g": 43,
+        "fat_g": 42,
+        "sat_fat_g": 14,
+        "carbs_g": 42,
+        "sugars_g": 8.2,
+        "fibre_g": 3,
+        "salt_g": 2.8
+       }
+      },
+      {
+       "name": "Bacon Double Cheeseburger",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 481,
+        "protein_g": 31,
+        "fat_g": 25,
+        "sat_fat_g": 11,
+        "carbs_g": 32,
+        "sugars_g": 7.8,
+        "fibre_g": 1.9,
+        "salt_g": 2.4
+       }
+      },
+      {
+       "name": "Double Cheeseburger",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 461,
+        "protein_g": 29,
+        "fat_g": 23,
+        "sat_fat_g": 10,
+        "carbs_g": 32,
+        "sugars_g": 7.8,
+        "fibre_g": 1.8,
+        "salt_g": 2.1
+       }
+      },
+      {
+       "name": "Chili Cheeseburger",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 365,
+        "protein_g": 15,
+        "fat_g": 19,
+        "sat_fat_g": 4.3,
+        "carbs_g": 32,
+        "sugars_g": 7.3,
+        "fibre_g": 2.2,
+        "salt_g": 1.2
+       }
+      },
+      {
+       "name": "Hamburger",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 279,
+        "protein_g": 15,
+        "fat_g": 10,
+        "sat_fat_g": 3.5,
+        "carbs_g": 31,
+        "sugars_g": 7.1,
+        "fibre_g": 1.8,
+        "salt_g": 1.2
+       }
+      },
+      {
+       "name": "Cheeseburger",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 318,
+        "protein_g": 17,
+        "fat_g": 13,
+        "sat_fat_g": 5.5,
+        "carbs_g": 31,
+        "sugars_g": 7.4,
+        "fibre_g": 1.8,
+        "salt_g": 1.6
+       }
+      },
+      {
+       "name": "Bacon King Crispy Chicken",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 455,
+        "protein_g": 17,
+        "fat_g": 22,
+        "sat_fat_g": 3.5,
+        "carbs_g": 45,
+        "sugars_g": 5.8,
+        "fibre_g": 2.9,
+        "salt_g": 2.9
+       }
+      },
+      {
+       "name": "Chili Cheese Crispy Chicken",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 462,
+        "protein_g": 16,
+        "fat_g": 23,
+        "sat_fat_g": 3.1,
+        "carbs_g": 47,
+        "sugars_g": 7.7,
+        "fibre_g": 2.8,
+        "salt_g": 2.9
+       }
+      },
+      {
+       "name": "BK Fish",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 443,
+        "protein_g": 17,
+        "fat_g": 21,
+        "sat_fat_g": 3.7,
+        "carbs_g": 42,
+        "sugars_g": 6.1,
+        "fibre_g": 3.8,
+        "salt_g": 2.2
+       }
+      },
+      {
+       "name": "Long Chicken",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 618,
+        "protein_g": 26,
+        "fat_g": 35,
+        "sat_fat_g": 3.5,
+        "carbs_g": 49,
+        "sugars_g": 5.8,
+        "fibre_g": 3,
+        "salt_g": 2.9
+       }
+      },
+      {
+       "name": "Crispy Chicken",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 434,
+        "protein_g": 16,
+        "fat_g": 21,
+        "sat_fat_g": 2.9,
+        "carbs_g": 45,
+        "sugars_g": 5.8,
+        "fibre_g": 2.9,
+        "salt_g": 2.7
+       }
+      },
+      {
+       "name": "Plantbased Whopper",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 560,
+        "protein_g": 25,
+        "fat_g": 27,
+        "sat_fat_g": 4.7,
+        "carbs_g": 51,
+        "sugars_g": 10,
+        "fibre_g": 9.3,
+        "salt_g": 2.8
+       }
+      },
+      {
+       "name": "Plantbased Whopper Cheese",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 639,
+        "protein_g": 30,
+        "fat_g": 33,
+        "sat_fat_g": 8.8,
+        "carbs_g": 52,
+        "sugars_g": 11,
+        "fibre_g": 9.3,
+        "salt_g": 3.6
+       }
+      },
+      {
+       "name": "Chicken Nuggets 4",
+       "url": "https://burgerking.no/",
+       "category": "snacks_sweets",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 197,
+        "protein_g": 10,
+        "fat_g": 11,
+        "sat_fat_g": 1.2,
+        "carbs_g": 13,
+        "sugars_g": 0,
+        "fibre_g": 0.8,
+        "salt_g": 0.9
+       }
+      },
+      {
+       "name": "Chicken Nuggets 6",
+       "url": "https://burgerking.no/",
+       "category": "snacks_sweets",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 295,
+        "protein_g": 15,
+        "fat_g": 17,
+        "sat_fat_g": 1.8,
+        "carbs_g": 20,
+        "sugars_g": 0,
+        "fibre_g": 1.1,
+        "salt_g": 1.4
+       }
+      },
+      {
+       "name": "Chicken Nuggets 9",
+       "url": "https://burgerking.no/",
+       "category": "snacks_sweets",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 442,
+        "protein_g": 23,
+        "fat_g": 26,
+        "sat_fat_g": 2.7,
+        "carbs_g": 30,
+        "sugars_g": 0.6,
+        "fibre_g": 1.6,
+        "salt_g": 2.1
+       }
+      },
+      {
+       "name": "Chicken Nuggets 18",
+       "url": "https://burgerking.no/",
+       "category": "snacks_sweets",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 885,
+        "protein_g": 46,
+        "fat_g": 51,
+        "sat_fat_g": 5.4,
+        "carbs_g": 61,
+        "sugars_g": 1.1,
+        "fibre_g": 3.2,
+        "salt_g": 4.3
+       }
+      },
+      {
+       "name": "Chili Cheese 4 (bites)",
+       "url": "https://burgerking.no/",
+       "category": "snacks_sweets",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 235,
+        "protein_g": 6.2,
+        "fat_g": 15,
+        "sat_fat_g": 5.7,
+        "carbs_g": 19,
+        "sugars_g": 0.7,
+        "fibre_g": 1.9,
+        "salt_g": 1.5
+       }
+      },
+      {
+       "name": "Liten Onion Rings 8",
+       "url": "https://burgerking.no/",
+       "category": "snacks_sweets",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 228,
+        "protein_g": 3.7,
+        "fat_g": 11,
+        "sat_fat_g": 4.9,
+        "carbs_g": 29,
+        "sugars_g": 3.8,
+        "fibre_g": 0,
+        "salt_g": 0.5
+       }
+      },
+      {
+       "name": "Medium Onion Rings 12",
+       "url": "https://burgerking.no/",
+       "category": "snacks_sweets",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 341,
+        "protein_g": 5.5,
+        "fat_g": 16,
+        "sat_fat_g": 7.4,
+        "carbs_g": 43,
+        "sugars_g": 5.7,
+        "fibre_g": 0.7,
+        "salt_g": 0.7
+       }
+      },
+      {
+       "name": "Stor Onion Rings 16",
+       "url": "https://burgerking.no/",
+       "category": "snacks_sweets",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 455,
+        "protein_g": 7.4,
+        "fat_g": 22,
+        "sat_fat_g": 9.8,
+        "carbs_g": 57,
+        "sugars_g": 7.6,
+        "fibre_g": 0.9,
+        "salt_g": 1
+       }
+      },
+      {
+       "name": "King Fries S",
+       "url": "https://burgerking.no/",
+       "category": "snacks_sweets",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 330,
+        "protein_g": 3.9,
+        "fat_g": 14,
+        "sat_fat_g": 4.2,
+        "carbs_g": 45,
+        "sugars_g": 0,
+        "fibre_g": 4.3,
+        "salt_g": 0.1
+       }
+      },
+      {
+       "name": "King Fries M",
+       "url": "https://burgerking.no/",
+       "category": "snacks_sweets",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 426,
+        "protein_g": 5,
+        "fat_g": 18,
+        "sat_fat_g": 5.4,
+        "carbs_g": 58,
+        "sugars_g": 0.6,
+        "fibre_g": 5.6,
+        "salt_g": 0.2
+       }
+      },
+      {
+       "name": "King Fries L",
+       "url": "https://burgerking.no/",
+       "category": "snacks_sweets",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 584,
+        "protein_g": 6.9,
+        "fat_g": 25,
+        "sat_fat_g": 7.4,
+        "carbs_g": 80,
+        "sugars_g": 0.8,
+        "fibre_g": 7.6,
+        "salt_g": 0.2
+       }
+      },
+      {
+       "name": "Minipannekaker 8 stk",
+       "url": "https://burgerking.no/",
+       "category": "snacks_sweets",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 284,
+        "protein_g": 4,
+        "fat_g": 13,
+        "sat_fat_g": 5.8,
+        "carbs_g": 37,
+        "sugars_g": 21,
+        "fibre_g": 0.8,
+        "salt_g": 0.5
+       }
+      },
+      {
+       "name": "BBQ Dip",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 45,
+        "protein_g": 0,
+        "fat_g": 0,
+        "sat_fat_g": 0,
+        "carbs_g": 11,
+        "sugars_g": 8.8,
+        "fibre_g": 0,
+        "salt_g": 0.7
+       }
+      },
+      {
+       "name": "Garlic Dip",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 145,
+        "protein_g": 0,
+        "fat_g": 16,
+        "sat_fat_g": 1.2,
+        "carbs_g": 0.9,
+        "sugars_g": 0,
+        "fibre_g": 0,
+        "salt_g": 0.2
+       }
+      },
+      {
+       "name": "Hot Cheese Dip",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 175,
+        "protein_g": 0,
+        "fat_g": 20,
+        "sat_fat_g": 1.5,
+        "carbs_g": 0,
+        "sugars_g": 0,
+        "fibre_g": 0,
+        "salt_g": 0.1
+       }
+      },
+      {
+       "name": "Sweet & Sour Dip",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 47,
+        "protein_g": 0,
+        "fat_g": 0.9,
+        "sat_fat_g": 0,
+        "carbs_g": 9.2,
+        "sugars_g": 8.2,
+        "fibre_g": 0,
+        "salt_g": 0.3
+       }
+      },
+      {
+       "name": "Majones Dip",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 69,
+        "protein_g": 0,
+        "fat_g": 6,
+        "sat_fat_g": 1,
+        "carbs_g": 3,
+        "sugars_g": 2,
+        "fibre_g": 0,
+        "salt_g": 0
+       }
+      },
+      {
+       "name": "Chili Mayonnaise Dip",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 148,
+        "protein_g": 0,
+        "fat_g": 16,
+        "sat_fat_g": 1.2,
+        "carbs_g": 1.1,
+        "sugars_g": 1,
+        "fibre_g": 0,
+        "salt_g": 0.5
+       }
+      },
+      {
+       "name": "Ketchup (Ekstra)",
+       "url": "https://burgerking.no/",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 10,
+        "protein_g": 0,
+        "fat_g": 0,
+        "sat_fat_g": 0,
+        "carbs_g": 2,
+        "sugars_g": 2,
+        "fibre_g": 0,
+        "salt_g": 0
+       }
+      },
+      {
+       "name": "Coca Cola Liten",
+       "url": "https://burgerking.no/",
+       "category": "drinks",
+       "unit": "ml",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 164,
+        "protein_g": 0,
+        "fat_g": 0,
+        "sat_fat_g": 0,
+        "carbs_g": 40,
+        "sugars_g": 40,
+        "fibre_g": 0,
+        "salt_g": 0
+       }
+      },
+      {
+       "name": "Coca Cola Medium",
+       "url": "https://burgerking.no/",
+       "category": "drinks",
+       "unit": "ml",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 205,
+        "protein_g": 0,
+        "fat_g": 0,
+        "sat_fat_g": 0,
+        "carbs_g": 51,
+        "sugars_g": 51,
+        "fibre_g": 0,
+        "salt_g": 0
+       }
+      },
+      {
+       "name": "Coca Cola Stor",
+       "url": "https://burgerking.no/",
+       "category": "drinks",
+       "unit": "ml",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 267,
+        "protein_g": 0,
+        "fat_g": 0,
+        "sat_fat_g": 0,
+        "carbs_g": 66,
+        "sugars_g": 66,
+        "fibre_g": 0,
+        "salt_g": 0
+       }
+      },
+      {
+       "name": "Mer Jordbær Eple",
+       "url": "https://burgerking.no/",
+       "category": "drinks",
+       "unit": "ml",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 48,
+        "protein_g": 0,
+        "fat_g": 0,
+        "sat_fat_g": 0,
+        "carbs_g": 11,
+        "sugars_g": 11,
+        "fibre_g": 0,
+        "salt_g": 0.1
+       }
+      },
+      {
+       "name": "Mer Appelsin",
+       "url": "https://burgerking.no/",
+       "category": "drinks",
+       "unit": "ml",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 48,
+        "protein_g": 0,
+        "fat_g": 0,
+        "sat_fat_g": 0,
+        "carbs_g": 11,
+        "sugars_g": 11,
+        "fibre_g": 0,
+        "salt_g": 0.1
+       }
+      }
+     ],
+     "not_found": [
+      "Strawberry Jam (ingredients only, no nutrition)",
+      "Sirup / Pancake Sirup (ingredients only, no nutrition)",
+      "Urge (not listed)",
+      "Steakhouse/other items all found; no separate single-size 'Chicken Nuggets' (sizes 4, 6, 9, 18 given)"
+     ],
+     "source_note": "Norway. Burger King Norge 'Næring & Allergiguide' PDF, dated 22.10.2026, linked as 'Allergi Guide' in the footer of burgerking.no (https://bknoorderingstorage.blob.core.windows.net/assets/NutritionalInfo.pdf). Read through Flare's browser in the PDF viewer. The nutrition table has no per-100 g columns and prints no portion weights: every value is per item as sold, so it is in per_portion and per100 is null. Column order in the PDF is energy kcal, fat, saturated fat, salt, carbs, sugars, fibre, protein; values copied as printed. The 'Nutrition' PDF URL given in the task redirected to the home page. The PDF's Gourmet items sit on the 'Kampanje' (campaign) table; names are mapped as Gourmet Grill = 'Gourmet ... Single/Double', Gourmet Chicken Katsu = 'GOURMATE JAPANESE KATSU CHICKEN', CC Wrap = 'Chili Cheese Wrap'. The PDF only lists Coca Cola and Mer in S/M/L or flavour variants without ml volumes, so unit is ml but no volume is printed. Drinks values print salt as 0.0 or 0.1; the 'Salt' column is used as printed."
+    }
+   },
+   {
+    "key": "espressohouse",
+    "result": {
+     "chain": "Espresso House Norway",
+     "items": [
+      {
+       "name": "Caffé Latte Standard",
+       "url": "https://no.espressohouse.com/menu/varme-drikker/caffe-latte",
+       "category": "drinks",
+       "unit": "g",
+       "portion_g": 418,
+       "per100": {
+        "kcal": 35,
+        "protein_g": 2.9,
+        "fat_g": 2.9,
+        "sat_fat_g": 1.9,
+        "carbs_g": 3.8,
+        "sugars_g": 3.8,
+        "fibre_g": null,
+        "salt_g": 0.09
+       },
+       "per_portion": {}
+      },
+      {
+       "name": "Cappuccino Dobbel",
+       "url": "https://no.espressohouse.com/menu/varme-drikker/cappuccino",
+       "category": "drinks",
+       "unit": "g",
+       "portion_g": 233,
+       "per100": {
+        "kcal": 30,
+        "protein_g": 2.4,
+        "fat_g": 2.5,
+        "sat_fat_g": 1.6,
+        "carbs_g": 3.3,
+        "sugars_g": 3.2,
+        "fibre_g": null,
+        "salt_g": 0.07
+       },
+       "per_portion": {}
+      },
+      {
+       "name": "Americano",
+       "url": "https://no.espressohouse.com/menu/varme-drikker/americano",
+       "category": "drinks",
+       "unit": "g",
+       "portion_g": 243,
+       "per100": {
+        "kcal": 1,
+        "protein_g": 0,
+        "fat_g": 0,
+        "sat_fat_g": 0,
+        "carbs_g": 0,
+        "sugars_g": 0,
+        "fibre_g": null,
+        "salt_g": 0
+       },
+       "per_portion": {}
+      },
+      {
+       "name": "Chai Latte Standard",
+       "url": "https://no.espressohouse.com/menu/varme-drikker/chai-latte",
+       "category": "drinks",
+       "unit": "g",
+       "portion_g": 375,
+       "per100": {
+        "kcal": 89,
+        "protein_g": 2.2,
+        "fat_g": 4.1,
+        "sat_fat_g": 3.3,
+        "carbs_g": 14,
+        "sugars_g": 9.8,
+        "fibre_g": null,
+        "salt_g": 0.13
+       },
+       "per_portion": {}
+      },
+      {
+       "name": "Varm Sjokolade Standard",
+       "url": "https://no.espressohouse.com/menu/varme-drikker/varm-sjokolade",
+       "category": "drinks",
+       "unit": "g",
+       "portion_g": 517,
+       "per100": {
+        "kcal": 74,
+        "protein_g": 2.8,
+        "fat_g": 4.7,
+        "sat_fat_g": 3.1,
+        "carbs_g": 8.5,
+        "sugars_g": 8.2,
+        "fibre_g": null,
+        "salt_g": 0.08
+       },
+       "per_portion": {}
+      },
+      {
+       "name": "Islatte Standard",
+       "url": "https://no.espressohouse.com/menu/kalde-drikker/islatte",
+       "category": "drinks",
+       "unit": "g",
+       "portion_g": 368,
+       "per100": {
+        "kcal": 34,
+        "protein_g": 2.8,
+        "fat_g": 2.9,
+        "sat_fat_g": 1.9,
+        "carbs_g": 3.8,
+        "sugars_g": 3.7,
+        "fibre_g": null,
+        "salt_g": 0.08
+       },
+       "per_portion": {}
+      },
+      {
+       "name": "Kanelbolle",
+       "url": "https://no.espressohouse.com/menu/bakverk/kanelbolle",
+       "category": "snacks_sweets",
+       "unit": "g",
+       "portion_g": 100,
+       "per100": {
+        "kcal": 336,
+        "protein_g": 5,
+        "fat_g": 15,
+        "sat_fat_g": 8.3,
+        "carbs_g": 45,
+        "sugars_g": 22,
+        "fibre_g": null,
+        "salt_g": 0.9
+       },
+       "per_portion": {}
+      },
+      {
+       "name": "Croissant",
+       "url": "https://no.espressohouse.com/menu/bakverk/croissant",
+       "category": "bread_cereal_grain",
+       "unit": "g",
+       "portion_g": 68,
+       "per100": {
+        "kcal": 350,
+        "protein_g": 7.5,
+        "fat_g": 20,
+        "sat_fat_g": 14,
+        "carbs_g": 34,
+        "sugars_g": 5,
+        "fibre_g": null,
+        "salt_g": 0.7
+       },
+       "per_portion": {}
+      },
+      {
+       "name": "Choco Four Muffin",
+       "url": "https://no.espressohouse.com/menu/bakverk/choco-four-muffin",
+       "category": "snacks_sweets",
+       "unit": "g",
+       "portion_g": 130,
+       "per100": {
+        "kcal": 401,
+        "protein_g": 5,
+        "fat_g": 24,
+        "sat_fat_g": 6,
+        "carbs_g": 41,
+        "sugars_g": 27,
+        "fibre_g": null,
+        "salt_g": 0.8
+       },
+       "per_portion": {}
+      },
+      {
+       "name": "Focaccia Ost & Kalkunskinke",
+       "url": "https://no.espressohouse.com/menu/mat/focaccia-ost-and-kalkunskinke",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": 233,
+       "per100": {
+        "kcal": 275,
+        "protein_g": 11,
+        "fat_g": 15,
+        "sat_fat_g": 4,
+        "carbs_g": 23,
+        "sugars_g": 1.2,
+        "fibre_g": null,
+        "salt_g": 1.7
+       },
+       "per_portion": {}
+      },
+      {
+       "name": "Focaccia Kylling & Mozzarella",
+       "url": "https://no.espressohouse.com/menu/mat/focaccia-kylling-and-mozzarella",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": 266,
+       "per100": {
+        "kcal": 256,
+        "protein_g": 12,
+        "fat_g": 14,
+        "sat_fat_g": 3.7,
+        "carbs_g": 20,
+        "sugars_g": 1.4,
+        "fibre_g": null,
+        "salt_g": 1.7
+       },
+       "per_portion": {}
+      }
+     ],
+     "not_found": [
+      "BBQ Kylling Bagel (page showed no nutrition panel, only option selectors)",
+      "Frapino/frappe and other iced drinks (Ischai, Ismatcha, Pumpkin Frapino) not opened",
+      "Toast Egg & Bacon, Pesto & Mozzarella focaccia, other muffins, wraps not opened",
+      "Flat White, Mocha Latte, Cortado, Espresso not opened"
+     ],
+     "source_note": "Read from the Norwegian site no.espressohouse.com product pages (menu/..., Næringsinnhold accordion, 'PER 100G' view) in Flare's browser on 2026-11-13. Norway, in Norwegian. Only 11 items collected, not 20-30; the rest were not opened. Values are exactly as printed per 100 g; the site prints no fibre, so fibre is null. Per-portion values were not read (the page offers a per-serving toggle); portion_g is the printed serving weight. Energy is printed as kJ/kcal; kcal is used (e.g. Caffé Latte 223/35 kJ/kcal). Drinks are standard size (Cappuccino and Americano have one size). Drink pages list milk options (helmelk, laktosefri, soya, havre, lett, kokos) with none preselected, so the milk type behind the printed numbers is not stated on the page; the Allergener list says Melk. Cookie banner dismissed with 'Allow only necessary cookies'. Americano values printed as 3/1 kJ/kcal and 0 for macros."
+    }
+   },
+   {
+    "key": "waynes",
+    "result": {
+     "chain": "Waynes Coffee (Norway)",
+     "items": [],
+     "not_found": [
+      "All 20 items: no nutrition data could be read"
+     ],
+     "source_note": "No items returned. waynescoffee.no (with and without www, https and http) fails with ERR_SSL_PROTOCOL_ERROR in Flare's browser. waynescoffee.com/no returns 404. waynescoffee.com/menu lists only the Swedish menu (Latte, Cappuccino, Espresso) with no nutrition values, and its links to waynescoffee.se/meny/... return 404. I found no published nutrition numbers for Norway or Sweden, so I did not estimate any."
+    }
+   },
+   {
+    "key": "peppes",
+    "result": {
+     "chain": "Peppes Pizza",
+     "source_note": "Norway. Official PDF \"RETTER næringsinnhold nov 26.pdf\" (updated 12 Nov 2026), linked from https://order.peppes.no/about/nutritional-content. Values are per 100 g, calculated theoretically from the recipe before cooking. No portion weights are printed, so per_portion and portion_g are omitted. Pizza menu entries on order.peppes.no show no nutrition. Gluten-free variants were left out. The PDF lists \"Pepperoni\" and \"Margherita\" under both American and Italian, so names carry the line. Google hit a CAPTCHA and was not solved. All numbers were read from rendered PDF screenshots in Flare's panel.",
+     "items": [
+      {
+       "name": "Beef & Bearnaise (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 195,
+        "protein_g": 11.7,
+        "fat_g": 6.9,
+        "sat_fat_g": 2.7,
+        "carbs_g": 21.2,
+        "sugars_g": 1.4,
+        "fibre_g": 1.5,
+        "salt_g": 1.2
+       }
+      },
+      {
+       "name": "Beef'n Ham (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 203,
+        "protein_g": 12.5,
+        "fat_g": 6,
+        "sat_fat_g": 3,
+        "carbs_g": 24.1,
+        "sugars_g": 1.3,
+        "fibre_g": 1.6,
+        "salt_g": 1.3
+       }
+      },
+      {
+       "name": "Big Shot (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 197,
+        "protein_g": 12,
+        "fat_g": 6.6,
+        "sat_fat_g": 2.9,
+        "carbs_g": 22,
+        "sugars_g": 1.7,
+        "fibre_g": 1.5,
+        "salt_g": 1.3
+       }
+      },
+      {
+       "name": "Cheddar Nachips (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 183,
+        "protein_g": 9.6,
+        "fat_g": 6.2,
+        "sat_fat_g": 3.1,
+        "carbs_g": 21.7,
+        "sugars_g": 2.2,
+        "fibre_g": 1.4,
+        "salt_g": 1.3
+       }
+      },
+      {
+       "name": "Margherita (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 208,
+        "protein_g": 12.3,
+        "fat_g": 5.5,
+        "sat_fat_g": 3.2,
+        "carbs_g": 26.7,
+        "sugars_g": 1.3,
+        "fibre_g": 1.7,
+        "salt_g": 1.3
+       }
+      },
+      {
+       "name": "Chicken Flyaway (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 186,
+        "protein_g": 11.6,
+        "fat_g": 5.3,
+        "sat_fat_g": 2.4,
+        "carbs_g": 22.4,
+        "sugars_g": 2.3,
+        "fibre_g": 1.6,
+        "salt_g": 1.2
+       }
+      },
+      {
+       "name": "Even Heavier Heaven (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 212,
+        "protein_g": 12.8,
+        "fat_g": 8.1,
+        "sat_fat_g": 3.4,
+        "carbs_g": 21.6,
+        "sugars_g": 1.3,
+        "fibre_g": 1.4,
+        "salt_g": 1.4
+       }
+      },
+      {
+       "name": "Green Garden (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 190,
+        "protein_g": 9.3,
+        "fat_g": 7.5,
+        "sat_fat_g": 3,
+        "carbs_g": 20.4,
+        "sugars_g": 1.3,
+        "fibre_g": 1.7,
+        "salt_g": 1.1
+       }
+      },
+      {
+       "name": "Ham (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 203,
+        "protein_g": 12.5,
+        "fat_g": 5.7,
+        "sat_fat_g": 3.2,
+        "carbs_g": 24.8,
+        "sugars_g": 1.3,
+        "fibre_g": 1.6,
+        "salt_g": 1.3
+       }
+      },
+      {
+       "name": "Ham & Mushroom (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 201,
+        "protein_g": 11.7,
+        "fat_g": 6.2,
+        "sat_fat_g": 3,
+        "carbs_g": 24.1,
+        "sugars_g": 1.2,
+        "fibre_g": 1.7,
+        "salt_g": 1.3
+       }
+      },
+      {
+       "name": "Ham & Pepperoni (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 217,
+        "protein_g": 12.7,
+        "fat_g": 7.1,
+        "sat_fat_g": 3.4,
+        "carbs_g": 25.1,
+        "sugars_g": 1.3,
+        "fibre_g": 1.6,
+        "salt_g": 1.4
+       }
+      },
+      {
+       "name": "Heavy Heaven (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 204,
+        "protein_g": 12.2,
+        "fat_g": 6.7,
+        "sat_fat_g": 3.2,
+        "carbs_g": 23.3,
+        "sugars_g": 1.2,
+        "fibre_g": 1.6,
+        "salt_g": 1.3
+       }
+      },
+      {
+       "name": "Oh My Garden! (American, vegan)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 186,
+        "protein_g": 4.8,
+        "fat_g": 8,
+        "sat_fat_g": 1.1,
+        "carbs_g": 22.8,
+        "sugars_g": 1.5,
+        "fibre_g": 1.9,
+        "salt_g": 1.2
+       }
+      },
+      {
+       "name": "Pepperoni (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 232,
+        "protein_g": 13.2,
+        "fat_g": 8.6,
+        "sat_fat_g": 3.7,
+        "carbs_g": 24.9,
+        "sugars_g": 1.3,
+        "fibre_g": 1.6,
+        "salt_g": 1.5
+       }
+      },
+      {
+       "name": "Pepper Steak (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 199,
+        "protein_g": 12.3,
+        "fat_g": 6.3,
+        "sat_fat_g": 2.9,
+        "carbs_g": 22.7,
+        "sugars_g": 1.4,
+        "fibre_g": 1.5,
+        "salt_g": 1.2
+       }
+      },
+      {
+       "name": "Rio Grande (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 184,
+        "protein_g": 10,
+        "fat_g": 5.9,
+        "sat_fat_g": 2.7,
+        "carbs_g": 22.2,
+        "sugars_g": 2.3,
+        "fibre_g": 1.2,
+        "salt_g": 1.3
+       }
+      },
+      {
+       "name": "Thai Chicken (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 192,
+        "protein_g": 11.9,
+        "fat_g": 6.3,
+        "sat_fat_g": 2.4,
+        "carbs_g": 21.1,
+        "sugars_g": 1.7,
+        "fibre_g": 1.6,
+        "salt_g": 1.2
+       }
+      },
+      {
+       "name": "The Tropical (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 222,
+        "protein_g": 12.4,
+        "fat_g": 8.2,
+        "sat_fat_g": 3.5,
+        "carbs_g": 24.3,
+        "sugars_g": 1.4,
+        "fibre_g": 1.5,
+        "salt_g": 1.4
+       }
+      },
+      {
+       "name": "Kebabpizza (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 196,
+        "protein_g": 10.2,
+        "fat_g": 8.1,
+        "sat_fat_g": 3.6,
+        "carbs_g": 20.2,
+        "sugars_g": 1.8,
+        "fibre_g": 1.6,
+        "salt_g": 1.2
+       }
+      },
+      {
+       "name": "Philly Cheese Steak (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 200,
+        "protein_g": 12.3,
+        "fat_g": 7,
+        "sat_fat_g": 3.4,
+        "carbs_g": 21.4,
+        "sugars_g": 1.4,
+        "fibre_g": 1.5,
+        "salt_g": 1.2
+       }
+      },
+      {
+       "name": "Beef, Honey? (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 215,
+        "protein_g": 11.8,
+        "fat_g": 8.7,
+        "sat_fat_g": 3.9,
+        "carbs_g": 21.8,
+        "sugars_g": 1.7,
+        "fibre_g": 1.4,
+        "salt_g": 1.3
+       }
+      },
+      {
+       "name": "New Delhi Supreme (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 195,
+        "protein_g": 11.3,
+        "fat_g": 6.7,
+        "sat_fat_g": 2.8,
+        "carbs_g": 21.6,
+        "sugars_g": 1.8,
+        "fibre_g": 1.5,
+        "salt_g": 1.2
+       }
+      },
+      {
+       "name": "Hot Chick! (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 178,
+        "protein_g": 10.2,
+        "fat_g": 5.2,
+        "sat_fat_g": 2.4,
+        "carbs_g": 22,
+        "sugars_g": 3.6,
+        "fibre_g": 1.4,
+        "salt_g": 1.3
+       }
+      },
+      {
+       "name": "Holiday Honey Crunch (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 237,
+        "protein_g": 13.3,
+        "fat_g": 9.8,
+        "sat_fat_g": 5.5,
+        "carbs_g": 23.3,
+        "sugars_g": 1.5,
+        "fibre_g": 1.4,
+        "salt_g": 1.2
+       }
+      },
+      {
+       "name": "Kalkun pizza Buffet (American)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 194,
+        "protein_g": 13.2,
+        "fat_g": 7.4,
+        "sat_fat_g": 3.4,
+        "carbs_g": 18.1,
+        "sugars_g": 1.2,
+        "fibre_g": 1.3,
+        "salt_g": 1.1
+       }
+      },
+      {
+       "name": "Fantastic Five (Italian)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 294,
+        "protein_g": 12,
+        "fat_g": 16.2,
+        "sat_fat_g": 6.4,
+        "carbs_g": 24.5,
+        "sugars_g": 1.1,
+        "fibre_g": 1.7,
+        "salt_g": 1.4
+       }
+      },
+      {
+       "name": "BBQ Chicken (Italian)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 200,
+        "protein_g": 11.4,
+        "fat_g": 6.9,
+        "sat_fat_g": 3.1,
+        "carbs_g": 22.5,
+        "sugars_g": 3.6,
+        "fibre_g": 1.3,
+        "salt_g": 1.2
+       }
+      },
+      {
+       "name": "Bacon e Prosciutto (Italian)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 248,
+        "protein_g": 11.2,
+        "fat_g": 12.3,
+        "sat_fat_g": 4.1,
+        "carbs_g": 22.6,
+        "sugars_g": 0.5,
+        "fibre_g": 1.6,
+        "salt_g": 1.4
+       }
+      },
+      {
+       "name": "Margherita (Italian)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 229,
+        "protein_g": 11.4,
+        "fat_g": 8.6,
+        "sat_fat_g": 4,
+        "carbs_g": 26,
+        "sugars_g": 1.5,
+        "fibre_g": 1.4,
+        "salt_g": 1.3
+       }
+      },
+      {
+       "name": "Nduja (Italian)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 255,
+        "protein_g": 11,
+        "fat_g": 13.3,
+        "sat_fat_g": 5.1,
+        "carbs_g": 22.1,
+        "sugars_g": 1.3,
+        "fibre_g": 1.3,
+        "salt_g": 1.5
+       }
+      },
+      {
+       "name": "Spicy Bianca (Italian)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 280,
+        "protein_g": 11.5,
+        "fat_g": 15.6,
+        "sat_fat_g": 4.9,
+        "carbs_g": 22.8,
+        "sugars_g": 0.7,
+        "fibre_g": 1.5,
+        "salt_g": 1.5
+       }
+      },
+      {
+       "name": "Pepperoni (Italian)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 248,
+        "protein_g": 12.2,
+        "fat_g": 11.7,
+        "sat_fat_g": 4.4,
+        "carbs_g": 23.2,
+        "sugars_g": 1.3,
+        "fibre_g": 1.3,
+        "salt_g": 1.5
+       }
+      },
+      {
+       "name": "Prosciutto Cotto (Italian)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 218,
+        "protein_g": 11.7,
+        "fat_g": 8.4,
+        "sat_fat_g": 3.7,
+        "carbs_g": 23.4,
+        "sugars_g": 1.4,
+        "fibre_g": 1.2,
+        "salt_g": 1.4
+       }
+      },
+      {
+       "name": "Vegetariano (Italian)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 200,
+        "protein_g": 8.7,
+        "fat_g": 8.8,
+        "sat_fat_g": 3.2,
+        "carbs_g": 21,
+        "sugars_g": 1.4,
+        "fibre_g": 1.5,
+        "salt_g": 1.1
+       }
+      },
+      {
+       "name": "Hot'n Sweet Pepperoni (Italian)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 248,
+        "protein_g": 12.1,
+        "fat_g": 11.8,
+        "sat_fat_g": 4.4,
+        "carbs_g": 23.1,
+        "sugars_g": 2,
+        "fibre_g": 1.1,
+        "salt_g": 1.6
+       }
+      },
+      {
+       "name": "Manzo Blu (Italian)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 226,
+        "protein_g": 11.4,
+        "fat_g": 9.8,
+        "sat_fat_g": 4.1,
+        "carbs_g": 22.7,
+        "sugars_g": 1.8,
+        "fibre_g": 1.3,
+        "salt_g": 1.3
+       }
+      },
+      {
+       "name": "Chicken Alfredo (Italian)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 252,
+        "protein_g": 11.6,
+        "fat_g": 13.4,
+        "sat_fat_g": 4.5,
+        "carbs_g": 20.7,
+        "sugars_g": 0.6,
+        "fibre_g": 1.5,
+        "salt_g": 1.2
+       }
+      },
+      {
+       "name": "Calzone Ham & cheese",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 218,
+        "protein_g": 12.7,
+        "fat_g": 7.1,
+        "sat_fat_g": 3.1,
+        "carbs_g": 25.4,
+        "sugars_g": 1.1,
+        "fibre_g": 1.5,
+        "salt_g": 1.4
+       }
+      },
+      {
+       "name": "Calzone Tikka Masala chicken",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 226,
+        "protein_g": 12.7,
+        "fat_g": 7.7,
+        "sat_fat_g": 3,
+        "carbs_g": 25.8,
+        "sugars_g": 1.3,
+        "fibre_g": 1.5,
+        "salt_g": 1.3
+       }
+      },
+      {
+       "name": "KnockOut Pie",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 189,
+        "protein_g": 12.2,
+        "fat_g": 6.4,
+        "sat_fat_g": 3.4,
+        "carbs_g": 19.9,
+        "sugars_g": 1.4,
+        "fibre_g": 1.4,
+        "salt_g": 1.3
+       }
+      },
+      {
+       "name": "Quesadilla Tacokrydret kjøttdeig",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 187,
+        "protein_g": 6.5,
+        "fat_g": 11.1,
+        "sat_fat_g": 4.3,
+        "carbs_g": 14.6,
+        "sugars_g": 2.6,
+        "fibre_g": 0.5,
+        "salt_g": 0.9
+       }
+      },
+      {
+       "name": "Quesadilla Spicy kylling",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 182,
+        "protein_g": 6.1,
+        "fat_g": 10.7,
+        "sat_fat_g": 3.8,
+        "carbs_g": 14.7,
+        "sugars_g": 2.5,
+        "fibre_g": 0.6,
+        "salt_g": 1.1
+       }
+      },
+      {
+       "name": "Chili Con Carne",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 199,
+        "protein_g": 10.8,
+        "fat_g": 8.1,
+        "sat_fat_g": 2.9,
+        "carbs_g": 18.7,
+        "sugars_g": 3.8,
+        "fibre_g": 4.5,
+        "salt_g": 0.9
+       }
+      },
+      {
+       "name": "FlyAway Chicken Sandwich",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 195,
+        "protein_g": 9.6,
+        "fat_g": 7.7,
+        "sat_fat_g": 3.2,
+        "carbs_g": 22,
+        "sugars_g": 2,
+        "fibre_g": 0.4,
+        "salt_g": 1.1
+       }
+      },
+      {
+       "name": "Side Salad",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 32,
+        "protein_g": 1,
+        "fat_g": 1.6,
+        "sat_fat_g": 0.2,
+        "carbs_g": 2.5,
+        "sugars_g": 2,
+        "fibre_g": 1.7,
+        "salt_g": 0.6
+       }
+      },
+      {
+       "name": "Taco Bowl",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 140,
+        "protein_g": 6.3,
+        "fat_g": 9.8,
+        "sat_fat_g": 3.8,
+        "carbs_g": 6.2,
+        "sugars_g": 2.6,
+        "fibre_g": 0.7,
+        "salt_g": 0.8
+       }
+      },
+      {
+       "name": "Cæsar Chicken salad",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 148,
+        "protein_g": 12.9,
+        "fat_g": 8.4,
+        "sat_fat_g": 3.9,
+        "carbs_g": 4.4,
+        "sugars_g": 1.3,
+        "fibre_g": 1.7,
+        "salt_g": 0.7
+       }
+      },
+      {
+       "name": "Beef burger",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 220,
+        "protein_g": 9.3,
+        "fat_g": 12.4,
+        "sat_fat_g": 3.8,
+        "carbs_g": 17.8,
+        "sugars_g": 1.3,
+        "fibre_g": 0.6,
+        "salt_g": 1.1
+       }
+      },
+      {
+       "name": "Crispy chicken burger",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 198,
+        "protein_g": 8.3,
+        "fat_g": 7.6,
+        "sat_fat_g": 0.5,
+        "carbs_g": 23.6,
+        "sugars_g": 1.5,
+        "fibre_g": 0.5,
+        "salt_g": 1.1
+       }
+      },
+      {
+       "name": "Peppes Minipizza (barnemeny)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 229,
+        "protein_g": 12.6,
+        "fat_g": 5.1,
+        "sat_fat_g": 2.9,
+        "carbs_g": 32.2,
+        "sugars_g": 1.1,
+        "fibre_g": 1.9,
+        "salt_g": 1.2
+       }
+      },
+      {
+       "name": "Hamburger (barnemeny)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 204,
+        "protein_g": 7.6,
+        "fat_g": 10.4,
+        "sat_fat_g": 3,
+        "carbs_g": 19.5,
+        "sugars_g": 1.7,
+        "fibre_g": 0.7,
+        "salt_g": 0.8
+       }
+      },
+      {
+       "name": "Crunchy chicken bites (barnemeny)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 178,
+        "protein_g": 9.1,
+        "fat_g": 6.3,
+        "sat_fat_g": 0.5,
+        "carbs_g": 20.8,
+        "sugars_g": 0.9,
+        "fibre_g": 0.3,
+        "salt_g": 0.8
+       }
+      },
+      {
+       "name": "Chili Con Carne (barnemeny)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 209,
+        "protein_g": 10.9,
+        "fat_g": 8.8,
+        "sat_fat_g": 3.6,
+        "carbs_g": 19.8,
+        "sugars_g": 4.2,
+        "fibre_g": 4.5,
+        "salt_g": 0.9
+       }
+      },
+      {
+       "name": "Garlic Bread enkel",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "bread_cereal_grain",
+       "per100": {
+        "kcal": 263,
+        "protein_g": 6.9,
+        "fat_g": 7.2,
+        "sat_fat_g": 3.9,
+        "carbs_g": 42.7,
+        "sugars_g": 0.8,
+        "fibre_g": 0,
+        "salt_g": 1.4
+       }
+      },
+      {
+       "name": "Breadsticks Bianca",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "bread_cereal_grain",
+       "per100": {
+        "kcal": 264,
+        "protein_g": 8.8,
+        "fat_g": 9.6,
+        "sat_fat_g": 2.4,
+        "carbs_g": 34.4,
+        "sugars_g": 0.8,
+        "fibre_g": 1.7,
+        "salt_g": 1.2
+       }
+      },
+      {
+       "name": "Breadsticks Picante",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "bread_cereal_grain",
+       "per100": {
+        "kcal": 250,
+        "protein_g": 8.3,
+        "fat_g": 9.1,
+        "sat_fat_g": 2.3,
+        "carbs_g": 32.6,
+        "sugars_g": 0.9,
+        "fibre_g": 0.3,
+        "salt_g": 1.3
+       }
+      },
+      {
+       "name": "Bruschetta",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "other_food",
+       "per100": {
+        "kcal": 193,
+        "protein_g": 9.5,
+        "fat_g": 10.2,
+        "sat_fat_g": 5.9,
+        "carbs_g": 15.5,
+        "sugars_g": 1.5,
+        "fibre_g": 0.7,
+        "salt_g": 1.1
+       }
+      },
+      {
+       "name": "Chili Cheese Bites",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "other_food",
+       "per100": {
+        "kcal": 262,
+        "protein_g": 7.3,
+        "fat_g": 12.2,
+        "sat_fat_g": 5.2,
+        "carbs_g": 30,
+        "sugars_g": 1,
+        "fibre_g": 2.3,
+        "salt_g": 2
+       }
+      },
+      {
+       "name": "Nachips med Rømmedressing",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "snacks_sweets",
+       "per100": {
+        "kcal": 395,
+        "protein_g": 5.8,
+        "fat_g": 20.4,
+        "sat_fat_g": 3,
+        "carbs_g": 45,
+        "sugars_g": 1.7,
+        "fibre_g": 0.1,
+        "salt_g": 1.2
+       }
+      },
+      {
+       "name": "Nachips med Salsa",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "snacks_sweets",
+       "per100": {
+        "kcal": 355,
+        "protein_g": 5.5,
+        "fat_g": 15.6,
+        "sat_fat_g": 0.1,
+        "carbs_g": 45.8,
+        "sugars_g": 2.4,
+        "fibre_g": 0,
+        "salt_g": 1.4
+       }
+      },
+      {
+       "name": "Nachips med Guacamole",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "snacks_sweets",
+       "per100": {
+        "kcal": 387,
+        "protein_g": 5.7,
+        "fat_g": 19.5,
+        "sat_fat_g": 1,
+        "carbs_g": 44.4,
+        "sugars_g": 0.5,
+        "fibre_g": 0,
+        "salt_g": 1.1
+       }
+      },
+      {
+       "name": "Nachips Trio (Salsa, RD og Guacamole)",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "snacks_sweets",
+       "per100": {
+        "kcal": 288,
+        "protein_g": 4.3,
+        "fat_g": 15.5,
+        "sat_fat_g": 2.5,
+        "carbs_g": 31.1,
+        "sugars_g": 2.5,
+        "fibre_g": 0,
+        "salt_g": 1.2
+       }
+      },
+      {
+       "name": "Cheesy Nachos",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "snacks_sweets",
+       "per100": {
+        "kcal": 242,
+        "protein_g": 11.4,
+        "fat_g": 13.3,
+        "sat_fat_g": 4.4,
+        "carbs_g": 18.2,
+        "sugars_g": 2.7,
+        "fibre_g": 0.5,
+        "salt_g": 1.2
+       }
+      },
+      {
+       "name": "Buffalo Wings",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "other_food",
+       "per100": {
+        "kcal": 233,
+        "protein_g": 20.9,
+        "fat_g": 15.9,
+        "sat_fat_g": 4.9,
+        "carbs_g": 1.5,
+        "sugars_g": 1.1,
+        "fibre_g": 0,
+        "salt_g": 1.4
+       }
+      },
+      {
+       "name": "Crunchy Chicken Bites",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "other_food",
+       "per100": {
+        "kcal": 219,
+        "protein_g": 18,
+        "fat_g": 6,
+        "sat_fat_g": 0.3,
+        "carbs_g": 23,
+        "sugars_g": 1,
+        "fibre_g": 0,
+        "salt_g": 0.7
+       }
+      },
+      {
+       "name": "Peppes Snack Plate",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "other_food",
+       "per100": {
+        "kcal": 241,
+        "protein_g": 10.9,
+        "fat_g": 11.9,
+        "sat_fat_g": 4,
+        "carbs_g": 22.5,
+        "sugars_g": 0.8,
+        "fibre_g": 0.6,
+        "salt_g": 1.5
+       }
+      },
+      {
+       "name": "Peppes Rømmedressing",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 186,
+        "protein_g": 2.4,
+        "fat_g": 17,
+        "sat_fat_g": 10,
+        "carbs_g": 6.8,
+        "sugars_g": 4.8,
+        "fibre_g": 0.2,
+        "salt_g": 1.2
+       }
+      },
+      {
+       "name": "Ceasardressing",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 492,
+        "protein_g": 4,
+        "fat_g": 53,
+        "sat_fat_g": 29,
+        "carbs_g": 4,
+        "sugars_g": 3.3,
+        "fibre_g": 0,
+        "salt_g": 1.2
+       }
+      },
+      {
+       "name": "Salsa",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 48,
+        "protein_g": 1.2,
+        "fat_g": 0.2,
+        "sat_fat_g": 0.1,
+        "carbs_g": 9.5,
+        "sugars_g": 7,
+        "fibre_g": 0,
+        "salt_g": 1.9
+       }
+      },
+      {
+       "name": "Guacamole",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 160,
+        "protein_g": 2,
+        "fat_g": 14,
+        "sat_fat_g": 3.2,
+        "carbs_g": 4.9,
+        "sugars_g": 0.6,
+        "fibre_g": 0,
+        "salt_g": 0.7
+       }
+      },
+      {
+       "name": "BBQ-saus",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 181,
+        "protein_g": 1,
+        "fat_g": 0.2,
+        "sat_fat_g": 0,
+        "carbs_g": 42,
+        "sugars_g": 41,
+        "fibre_g": 0,
+        "salt_g": 1.9
+       }
+      },
+      {
+       "name": "Bearnaisesaus",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 230,
+        "protein_g": 1.6,
+        "fat_g": 22,
+        "sat_fat_g": 2.8,
+        "carbs_g": 7,
+        "sugars_g": 2.1,
+        "fibre_g": 0,
+        "salt_g": 1.1
+       }
+      },
+      {
+       "name": "Aioli",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 339,
+        "protein_g": 1,
+        "fat_g": 35.8,
+        "sat_fat_g": 2.6,
+        "carbs_g": 4.9,
+        "sugars_g": 1.3,
+        "fibre_g": 0,
+        "salt_g": 1.6
+       }
+      },
+      {
+       "name": "Peppes orginale pizzasaus",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 62,
+        "protein_g": 2,
+        "fat_g": 0.6,
+        "sat_fat_g": 0.1,
+        "carbs_g": 11,
+        "sugars_g": 7.7,
+        "fibre_g": 0,
+        "salt_g": 1.7
+       }
+      },
+      {
+       "name": "Sataysaus",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 353,
+        "protein_g": 1.5,
+        "fat_g": 34,
+        "sat_fat_g": 2.4,
+        "carbs_g": 10,
+        "sugars_g": 5.4,
+        "fibre_g": 0,
+        "salt_g": 3.4
+       }
+      },
+      {
+       "name": "Kebabdressing",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 307,
+        "protein_g": 2.1,
+        "fat_g": 31.2,
+        "sat_fat_g": 3,
+        "carbs_g": 5.4,
+        "sugars_g": 4.7,
+        "fibre_g": 0,
+        "salt_g": 1
+       }
+      },
+      {
+       "name": "Italian style pizzasaus",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 59,
+        "protein_g": 1.5,
+        "fat_g": 1,
+        "sat_fat_g": 0.2,
+        "carbs_g": 10.7,
+        "sugars_g": 6.6,
+        "fibre_g": 0,
+        "salt_g": 1.6
+       }
+      },
+      {
+       "name": "Pico de Gallo Dressing",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 55,
+        "protein_g": 0.9,
+        "fat_g": 4,
+        "sat_fat_g": 0.6,
+        "carbs_g": 3.2,
+        "sugars_g": 3,
+        "fibre_g": 2,
+        "salt_g": 1.4
+       }
+      },
+      {
+       "name": "Raita Dressing",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "ready_meals_sauces",
+       "per100": {
+        "kcal": 101,
+        "protein_g": 2.5,
+        "fat_g": 6,
+        "sat_fat_g": 1.1,
+        "carbs_g": 8.4,
+        "sugars_g": 6.6,
+        "fibre_g": 0.5,
+        "salt_g": 1
+       }
+      },
+      {
+       "name": "Peppes Milkshake Strawberry",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "snacks_sweets",
+       "per100": {
+        "kcal": 148,
+        "protein_g": 2.8,
+        "fat_g": 5.2,
+        "sat_fat_g": 3.4,
+        "carbs_g": 22.3,
+        "sugars_g": 20.8,
+        "fibre_g": 0.1,
+        "salt_g": 0.1
+       }
+      },
+      {
+       "name": "Milkshake Oreo",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "snacks_sweets",
+       "per100": {
+        "kcal": 184,
+        "protein_g": 3.7,
+        "fat_g": 8.1,
+        "sat_fat_g": 5,
+        "carbs_g": 23.6,
+        "sugars_g": 20.2,
+        "fibre_g": 0.2,
+        "salt_g": 0.2
+       }
+      },
+      {
+       "name": "Peppes Milkshake Chocolate",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "snacks_sweets",
+       "per100": {
+        "kcal": 152,
+        "protein_g": 3.7,
+        "fat_g": 6.8,
+        "sat_fat_g": 4.5,
+        "carbs_g": 18.7,
+        "sugars_g": 18.3,
+        "fibre_g": 0.2,
+        "salt_g": 0.1
+       }
+      },
+      {
+       "name": "Frozen Mango Shake",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "snacks_sweets",
+       "per100": {
+        "kcal": 130,
+        "protein_g": 0.1,
+        "fat_g": 0.2,
+        "sat_fat_g": 0,
+        "carbs_g": 31,
+        "sugars_g": 30.9,
+        "fibre_g": 0,
+        "salt_g": 0
+       }
+      },
+      {
+       "name": "Peppis",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "snacks_sweets",
+       "per100": {
+        "kcal": 205,
+        "protein_g": 3.3,
+        "fat_g": 7.9,
+        "sat_fat_g": 5.2,
+        "carbs_g": 29.5,
+        "sugars_g": 28.5,
+        "fibre_g": 0.1,
+        "salt_g": 0.1
+       }
+      },
+      {
+       "name": "My Oreo Dream",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "snacks_sweets",
+       "per100": {
+        "kcal": 317,
+        "protein_g": 3.8,
+        "fat_g": 18.5,
+        "sat_fat_g": 11.4,
+        "carbs_g": 33.1,
+        "sugars_g": 27,
+        "fibre_g": 0.2,
+        "salt_g": 0.3
+       }
+      },
+      {
+       "name": "Oreo Chocolate Cake",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "snacks_sweets",
+       "per100": {
+        "kcal": 420,
+        "protein_g": 4,
+        "fat_g": 28,
+        "sat_fat_g": 17,
+        "carbs_g": 37,
+        "sugars_g": 26,
+        "fibre_g": 0,
+        "salt_g": 0.4
+       }
+      },
+      {
+       "name": "Pecan pie & vanilla ice cream",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "snacks_sweets",
+       "per100": {
+        "kcal": 350,
+        "protein_g": 4,
+        "fat_g": 19.9,
+        "sat_fat_g": 8.2,
+        "carbs_g": 41.7,
+        "sugars_g": 30.2,
+        "fibre_g": 0,
+        "salt_g": 0.6
+       }
+      },
+      {
+       "name": "Raspberry cheesecake",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "snacks_sweets",
+       "per100": {
+        "kcal": 290,
+        "protein_g": 4.8,
+        "fat_g": 16.2,
+        "sat_fat_g": 9.7,
+        "carbs_g": 29.3,
+        "sugars_g": 24.4,
+        "fibre_g": 1.2,
+        "salt_g": 0.4
+       }
+      },
+      {
+       "name": "Chocolate Cookie Ice cream",
+       "url": "https://stageprodpeppespubsa.blob.core.windows.net/staticinformations/RETTER%20n%C3%A6ringsinnhold%20nov%2026.pdf",
+       "unit": "g",
+       "category": "snacks_sweets",
+       "per100": {
+        "kcal": 304,
+        "protein_g": 4,
+        "fat_g": 11.5,
+        "sat_fat_g": 5.8,
+        "carbs_g": 45.1,
+        "sugars_g": 35.7,
+        "fibre_g": 1.7,
+        "salt_g": 0.5
+       }
+      }
+     ],
+     "not_found": [
+      "Per-pizza or per-slice portion weights (not printed anywhere)",
+      "Drinks (the PDF has no drinks section)",
+      "Gluten-free variants (skipped on purpose)",
+      "Pecan pie TO/L and Double chocolate cookie ENKEL TO/L (read, not included)"
+     ]
+    }
+   },
+   {
+    "key": "joejuice",
+    "result": {
+     "chain": "Joe & the Juice",
+     "items": [
+      {
+       "name": "Tunacado",
+       "url": "https://www.joejuice.com/store/112",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 513,
+        "kj": 2145,
+        "protein_g": 21,
+        "fat_g": 27,
+        "sat_fat_g": 4,
+        "carbs_g": 45,
+        "sugars_g": 4,
+        "fibre_g": 6,
+        "salt_g": null,
+        "sodium_mg": 796
+       }
+      },
+      {
+       "name": "Avocado",
+       "url": "https://www.joejuice.com/store/112",
+       "category": "ready_meals_sauces",
+       "unit": "g",
+       "portion_g": null,
+       "per100": {
+        "kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "sat_fat_g": null,
+        "carbs_g": null,
+        "sugars_g": null,
+        "fibre_g": null,
+        "salt_g": null
+       },
+       "per_portion": {
+        "kcal": 541,
+        "kj": 2258,
+        "protein_g": 16,
+        "fat_g": 33,
+        "sat_fat_g": 9,
+        "carbs_g": 44,
+        "sugars_g": 4,
+        "fibre_g": 7,
+        "salt_g": null,
+        "sodium_mg": 496
+       }
+      }
+     ],
+     "not_found": [
+      "Juices",
+      "Shakes",
+      "Coffee and tea",
+      "Other sandwiches (JOEs Club, Spicy Tuna, Serrano, VAVO, The Steak)",
+      "Breakfast bowls"
+     ],
+     "source_note": "Norway market (joejuice.com/store/112, Karl Johans Gate 25, Oslo, market shown as Norway). Numbers are from each product's \"View full allergens and nutrition\" panel, read in Flare's browser. They are per whole item (one sandwich on Joe's Classic Bread). The site prints no per-100 g values and no portion weight, so per100 is null and portion_g is null. It prints sodium in mg and no salt, so salt_g is null and sodium_mg is given in per_portion. The /allergens page has no numbers; it only points to the store menu. I stopped after Tunacado and Avocado, so juices, shakes, coffee and the other sandwiches were not collected. The panel works the same way for every product, so they could be collected the same way. One product panel first showed \"Not found\" for all values and filled in after a short wait."
+    }
+   },
+   {
+    "key": "dolly",
+    "result": {
+     "chain": "Dolly Dimple's (Norway)",
+     "items": [],
+     "not_found": [
+      "01. No. 1",
+      "02. Margherita",
+      "09. SULT!",
+      "10. Banker's",
+      "12. Dolly's Choice",
+      "13. Fredag",
+      "Half n Half",
+      "Mini pizzas",
+      "Dollys Delish dips (sides)"
+     ],
+     "source_note": "No nutrition data found, so no items are returned. Checked in Flare's browser (Norway): dolly.no home page (menu links, FAQ headings, footer), the order menu at order.ninito.com/no/group/dolly-dimples and the Hinna shop menu (pizzas, mini pizzas, Tilbehør dips, drinks), and the product page for 01. No. 1. Product pages show only a description, price, add-ons and an \"Allergener\" dropdown, with no kcal, protein, fat, carbs or salt. I did not read the allergen dropdown contents, because allergens are not nutrition values. dolly.no/allergener returns \"Siden finnes ikke\". A Google search for a nutrition table hit a CAPTCHA, so I stopped and did not solve it. No PDF or nutrition page was linked from dolly.no. Nothing was estimated."
+    }
+   }
+  ],
+  "peppes_added": [
+   "Beef & Bearnaise (American)",
+   "Beef'n Ham (American)",
+   "Big Shot (American)",
+   "Cheddar Nachips (American)",
+   "Margherita (American)",
+   "Chicken Flyaway (American)",
+   "Even Heavier Heaven (American)",
+   "Green Garden (American)",
+   "Ham (American)",
+   "Ham & Mushroom (American)",
+   "Ham & Pepperoni (American)",
+   "Heavy Heaven (American)",
+   "Oh My Garden! (American, vegan)",
+   "Pepperoni (American)",
+   "Pepper Steak (American)",
+   "Rio Grande (American)",
+   "Thai Chicken (American)",
+   "The Tropical (American)",
+   "Kebabpizza (American)",
+   "Philly Cheese Steak (American)",
+   "Beef, Honey? (American)",
+   "New Delhi Supreme (American)",
+   "Hot Chick! (American)",
+   "Holiday Honey Crunch (American)",
+   "Kalkun pizza Buffet (American)",
+   "Fantastic Five (Italian)",
+   "BBQ Chicken (Italian)",
+   "Bacon e Prosciutto (Italian)",
+   "Margherita (Italian)",
+   "Nduja (Italian)",
+   "Spicy Bianca (Italian)",
+   "Pepperoni (Italian)",
+   "Prosciutto Cotto (Italian)",
+   "Vegetariano (Italian)",
+   "Hot'n Sweet Pepperoni (Italian)",
+   "Manzo Blu (Italian)",
+   "Chicken Alfredo (Italian)",
+   "Calzone Ham & cheese",
+   "Calzone Tikka Masala chicken",
+   "KnockOut Pie",
+   "Quesadilla Tacokrydret kjøttdeig",
+   "Quesadilla Spicy kylling",
+   "Chili Con Carne",
+   "FlyAway Chicken Sandwich",
+   "Side Salad",
+   "Taco Bowl",
+   "Cæsar Chicken salad",
+   "Beef burger",
+   "Crispy chicken burger",
+   "Peppes Minipizza (barnemeny)",
+   "Hamburger (barnemeny)",
+   "Crunchy chicken bites (barnemeny)",
+   "Chili Con Carne (barnemeny)",
+   "Garlic Bread enkel",
+   "Breadsticks Bianca",
+   "Breadsticks Picante",
+   "Bruschetta",
+   "Chili Cheese Bites",
+   "Nachips med Rømmedressing",
+   "Nachips med Salsa",
+   "Nachips med Guacamole",
+   "Nachips Trio (Salsa, RD og Guacamole)",
+   "Cheesy Nachos",
+   "Buffalo Wings",
+   "Crunchy Chicken Bites",
+   "Peppes Snack Plate",
+   "Peppes Rømmedressing",
+   "Ceasardressing",
+   "Salsa",
+   "Guacamole",
+   "BBQ-saus",
+   "Bearnaisesaus",
+   "Aioli",
+   "Peppes orginale pizzasaus",
+   "Sataysaus",
+   "Kebabdressing",
+   "Italian style pizzasaus",
+   "Pico de Gallo Dressing",
+   "Raita Dressing",
+   "Peppes Milkshake Strawberry",
+   "Milkshake Oreo",
+   "Peppes Milkshake Chocolate",
+   "Frozen Mango Shake",
+   "Peppis",
+   "My Oreo Dream",
+   "Oreo Chocolate Cake",
+   "Pecan pie & vanilla ice cream",
+   "Raspberry cheesecake",
+   "Chocolate Cookie Ice cream"
+  ],
+  "peppes_skipped": [],
+  "note": "Espresso House (11 items) kept here until checked; Joe & the Juice and Burger King are per portion only; Waynes and Dolly Dimple's publish nothing."
  }
 }
