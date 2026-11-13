@@ -1,0 +1,4739 @@
+{
+ "note": "Round B, 2026-11-13: missing nutrients of common products, and rows that may not be food. All agent answers are here; only label values for empty fields (label numbers matching ours within 5%) and clear non-food drops were applied.",
+ "raw": {
+  "gaps": [
+   {
+    "batch": 0,
+    "rows": [
+     {
+      "id": "ean:0000070390124",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//palegg-frokost/postei-og-pate/leverpostei/leverpostei-70390124",
+      "label_full": {
+       "kcal": 225,
+       "protein_g": 10,
+       "fat_g": 19,
+       "sat_fat_g": 5.5,
+       "carbs_g": 3.6,
+       "sugars_g": 1.4,
+       "fibre_g": null,
+       "salt_g": 1.5
+      },
+      "note": "Exact EAN 70390124 (22g) at Meny. No fibre printed."
+     },
+     {
+      "id": "ean:0000087157031",
+      "status": "not_found",
+      "note": "Heinz organic ketchup not in Meny search."
+     },
+     {
+      "id": "ean:0025414072160",
+      "status": "not_found",
+      "note": "Coop minced beef 14% not in Meny search (Coop item)."
+     },
+     {
+      "id": "ean:0048412006647",
+      "status": "not_found",
+      "note": "Only Kesam Vanilje Laktosefri found (7038010006647 300g: salt 0.1; 7038010072994 420g: salt 0.09). Different EAN, lactose-free variant, two labels disagree on salt. Not safe to fill."
+     },
+     {
+      "id": "ean:0059411005531",
+      "status": "not_found",
+      "note": "Cheez Doodles labels at Meny differ by pack (kcal 500-550, sat fat 4.8/5.5/5.6, fibre 1.1 only on some). Our pack size is null and EAN not found, so cannot tell which label matches."
+     },
+     {
+      "id": "ean:0644408604103",
+      "status": "not_found",
+      "note": "Only Barebells Soft Caramel 55g found (357 kcal, protein 36); different numbers/flavour."
+     },
+     {
+      "id": "ean:2301620100001",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//palegg-frokost/palegg/wienerpolse/wienerpolse-23012798",
+      "label_full": {
+       "kcal": 227,
+       "protein_g": 10,
+       "fat_g": 18,
+       "sat_fat_g": 6.7,
+       "carbs_g": 5.2,
+       "sugars_g": 0.6,
+       "fibre_g": null,
+       "salt_g": 1.7
+      },
+      "note": "Gilde Wienerpolse Ca1,56kg (Meny item 23012798) matches all numbers. No fibre printed. URL path is a guess; item id 23012798."
+     },
+     {
+      "id": "ean:2373112116111",
+      "status": "not_found",
+      "note": "Coop Laks 4x125 not in Meny search."
+     },
+     {
+      "id": "ean:2376091602675",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//palegg-frokost/fisk/7033352770744",
+      "label_full": {
+       "kcal": 223,
+       "protein_g": 19.9,
+       "fat_g": 15.9,
+       "sat_fat_g": 2.3,
+       "carbs_g": 0,
+       "sugars_g": 0,
+       "fibre_g": null,
+       "salt_g": 0.1
+      },
+      "note": "Fiskemannen Laks Loin ca 300g (7033352770744) matches. No fibre printed. URL is a guess; EAN 7033352770744."
+     },
+     {
+      "id": "ean:2387073003021",
+      "status": "not_found",
+      "note": "No Coop lakseloin label found; only generic/other brand salmon loin labels."
+     },
+     {
+      "id": "ean:2391810112648",
+      "status": "filled",
+      "found": {
+       "sugars_g": 0
+      },
+      "source_url": "https://meny.no/varer//fisk/7033352770690",
+      "label_full": {
+       "kcal": 223,
+       "protein_g": 19.9,
+       "fat_g": 15.9,
+       "sat_fat_g": 2.3,
+       "carbs_g": 0,
+       "sugars_g": 0,
+       "fibre_g": null,
+       "salt_g": 0.1
+      },
+      "note": "Fiskemannen Laks Porsjon m/Skinn 4x100g (7033352770690) prints sugars 0 g; no fibre printed. URL is a guess; EAN 7033352770690."
+     },
+     {
+      "id": "ean:5000112545333",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//5000112669220",
+      "label_full": {
+       "kcal": 43,
+       "protein_g": 0,
+       "fat_g": 0,
+       "sat_fat_g": 0,
+       "carbs_g": 11,
+       "sugars_g": 11,
+       "fibre_g": null,
+       "salt_g": 0.01
+      },
+      "note": "Fanta Orange 0,5l (5000112669220) matches all numbers. No fibre printed on that label."
+     },
+     {
+      "id": "ean:5000112637939",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0
+      },
+      "source_url": "https://meny.no/varer//5000112636840",
+      "label_full": {
+       "kcal": 0.3,
+       "protein_g": 0,
+       "fat_g": 0,
+       "sat_fat_g": 0,
+       "carbs_g": 0,
+       "sugars_g": 0,
+       "fibre_g": 0,
+       "salt_g": 0.02
+      },
+      "note": "Coca-Cola Zero 0,5l flaske (5000112636840) prints Kostfiber 0 g; all known numbers identical (0.3 kcal, salt 0.02). 1,5l label prints no fibre."
+     },
+     {
+      "id": "ean:5000112637946",
+      "status": "not_found",
+      "note": "No Meny Fanta Orange label with 50 kcal / 12.3 g carbs (Meny Fanta Orange is 43 kcal, 10.6-11 g carbs)."
+     },
+     {
+      "id": "ean:5000112643763",
+      "status": "not_found",
+      "note": "No Coca-Cola label with 0.4 kcal found; Coca-Cola Zero is 0.3 kcal. Variant unclear."
+     },
+     {
+      "id": "ean:5000159461122",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//5900951311505",
+      "label_full": {
+       "kcal": 489,
+       "protein_g": 8.7,
+       "fat_g": 23,
+       "sat_fat_g": 7.7,
+       "carbs_g": 60,
+       "sugars_g": 51,
+       "fibre_g": null,
+       "salt_g": 0.52
+      },
+      "note": "Snickers Single 50g (5900951311505) has identical numbers; EAN differs (UK vs NO pack). No fibre printed."
+     },
+     {
+      "id": "ean:5000159608794",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//5900951313592",
+      "label_full": {
+       "kcal": 493,
+       "protein_g": 4.6,
+       "fat_g": 24,
+       "sat_fat_g": 14,
+       "carbs_g": 65,
+       "sugars_g": 48,
+       "fibre_g": null,
+       "salt_g": 0.39
+      },
+      "note": "Twix Single 50g (5900951313592): close (sugars 48 vs 50, salt 0.39 vs 0.43, protein 4.6 vs 4.5). EAN differs. No fibre printed."
+     },
+     {
+      "id": "ean:5053990106981",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//5053990106981",
+      "label_full": {
+       "kcal": 514,
+       "protein_g": 6.4,
+       "fat_g": 29,
+       "sat_fat_g": 3,
+       "carbs_g": 55,
+       "sugars_g": 1.4,
+       "fibre_g": null,
+       "salt_g": 1.4
+      },
+      "note": "Exact EAN. No fibre printed."
+     },
+     {
+      "id": "ean:5053990107384",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//5053990107384",
+      "label_full": {
+       "kcal": 517,
+       "protein_g": 6.3,
+       "fat_g": 29,
+       "sat_fat_g": 2.9,
+       "carbs_g": 56,
+       "sugars_g": 2.1,
+       "fibre_g": null,
+       "salt_g": 1.2
+      },
+      "note": "Exact EAN. No fibre printed."
+     },
+     {
+      "id": "ean:5056784919651",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0
+      },
+      "source_url": "https://meny.no/varer//5061013940566",
+      "label_full": {
+       "kcal": 3,
+       "protein_g": 0,
+       "fat_g": 0,
+       "sat_fat_g": 0,
+       "carbs_g": 1,
+       "sugars_g": 0,
+       "fibre_g": 0,
+       "salt_g": 0.19
+      },
+      "note": "Monster Zero Sugar 0,5l (5061013940566) prints Kostfiber 0 g; all known numbers identical. EAN differs (Swedish pack)."
+     },
+     {
+      "id": "ean:5449000259172",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0
+      },
+      "source_url": "https://meny.no/varer//5000112636833",
+      "label_full": {
+       "kcal": 42,
+       "protein_g": 0,
+       "fat_g": 0,
+       "sat_fat_g": 0,
+       "carbs_g": 10.6,
+       "sugars_g": 10.6,
+       "fibre_g": 0,
+       "salt_g": 0
+      },
+      "note": "Coca-Cola 0,5l flaske (5000112636833) prints Kostfiber 0 g; all known numbers identical. EAN differs."
+     },
+     {
+      "id": "ean:5701029019961",
+      "status": "not_found",
+      "note": "Axa havregryn not found in Meny search."
+     },
+     {
+      "id": "ean:5705830611840",
+      "status": "not_found",
+      "note": "Rema 1000 butter not found (Rema not in Meny/Spar/Joker)."
+     },
+     {
+      "id": "ean:5730800523724",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//5730800523724",
+      "label_full": {
+       "kcal": 73,
+       "protein_g": 3.4,
+       "fat_g": 2,
+       "sat_fat_g": 1.3,
+       "carbs_g": 10,
+       "sugars_g": 10,
+       "fibre_g": null,
+       "salt_g": 0.1
+      },
+      "note": "Exact EAN (Cocio Classic 400ml). No fibre printed."
+     },
+     {
+      "id": "ean:5741000119020",
+      "status": "not_found",
+      "note": "Meny Pepsi Max labels have different EANs and salt 0.01 vs our 0.1 (disagree); most print fibre 0 g but product match is not confirmed."
+     }
+    ]
+   },
+   {
+    "batch": 1,
+    "rows": [
+     {
+      "id": "ean:5900951310546",
+      "status": "label_has_none",
+      "note": "Meny label has no fibre",
+      "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/snickers-5900951310546"
+     },
+     {
+      "id": "ean:5902296002247",
+      "status": "label_has_none",
+      "note": "no fibre printed",
+      "source_url": "https://meny.no/varer//middagstilbehor/hermetisk-gront/sylteagurk/agurk-5902296002247"
+     },
+     {
+      "id": "ean:5904603191323",
+      "status": "label_has_none",
+      "note": "no fibre printed",
+      "source_url": "https://meny.no/varer//middagstilbehor/hermetisk-gront/sylteagurk/agurk-5904603191323"
+     },
+     {
+      "id": "ean:7020098003106",
+      "status": "label_has_none",
+      "note": "no fibre printed",
+      "source_url": "https://meny.no/varer//kjott/kjottdeig-og-farse/karbonadedeig/karbonadedeig-7020098003106"
+     },
+     {
+      "id": "ean:7024850083122",
+      "status": "not_found",
+      "note": "not on Meny/Spar/Joker by EAN or words"
+     },
+     {
+      "id": "ean:7025110097200",
+      "status": "not_found",
+      "note": "EAN not in store search; other egg EANs seen are different products"
+     },
+     {
+      "id": "ean:7025110184269",
+      "status": "not_found",
+      "note": "not found by EAN or words"
+     },
+     {
+      "id": "ean:7025110209016",
+      "status": "not_found",
+      "note": "EAN not in store search; other egg EANs seen are different products"
+     },
+     {
+      "id": "ean:7032069101391",
+      "status": "not_found",
+      "note": "not found"
+     },
+     {
+      "id": "ean:7033330013290",
+      "status": "label_has_none",
+      "note": "no fibre printed",
+      "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/smorblanding/bremykt-7033330013290"
+     },
+     {
+      "id": "ean:7033330013559",
+      "status": "not_found",
+      "note": "not found"
+     },
+     {
+      "id": "ean:7033352734074",
+      "status": "filled",
+      "found": {
+       "sugars_g": 0,
+       "salt_g": 0.1
+      },
+      "label_full": {
+       "kcal": 223,
+       "protein_g": 19.9,
+       "fat_g": 15.9,
+       "sat_fat_g": 2.3,
+       "carbs_g": 0,
+       "sugars_g": 0,
+       "fibre_g": null,
+       "salt_g": 0.1
+      },
+      "note": "Same product name/brand/numbers but Meny EAN is 7033352770744 (Laks Loin ca300g), not an exact EAN match. No fibre printed.",
+      "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/laks/laks-naturell/laks-loin-7033352770744"
+     },
+     {
+      "id": "ean:7036110007601",
+      "status": "label_has_none",
+      "note": "no fibre printed",
+      "source_url": "https://meny.no/varer//palegg-frokost/remulade/remulade-7036110007601"
+     },
+     {
+      "id": "ean:7037150121012",
+      "status": "label_has_none",
+      "note": "coffee label prints no protein and no fibre",
+      "source_url": "https://meny.no/varer//drikke/kaffe/kokmalt-kaffe/friele-frokost-7037150121012"
+     },
+     {
+      "id": "ean:7037203630263",
+      "status": "label_has_none",
+      "note": "no fibre printed",
+      "source_url": "https://meny.no/varer//palegg-frokost/kjottpalegg/paleggskinker/kokte-skinker/kokt-skinke-ekte-7037203630263"
+     },
+     {
+      "id": "ean:7037203639723",
+      "status": "label_has_none",
+      "note": "no fibre printed",
+      "source_url": "https://meny.no/varer//palegg-frokost/kjottpalegg/paleggskinker/kokte-skinker/kokt-skinke-ekte-7037203639723"
+     },
+     {
+      "id": "ean:7037203640187",
+      "status": "label_has_none",
+      "note": "EAN not found; sibling Stjernebacon 120g (7037203636074) matches numbers and prints no fibre",
+      "source_url": "https://meny.no/varer//palegg-frokost/bacon/stjernebacon-7037203636074"
+     },
+     {
+      "id": "ean:7037203645618",
+      "status": "label_has_none",
+      "note": "no fibre printed",
+      "source_url": "https://meny.no/varer//kjott/kjottdeig-og-farse/kjottdeig/kjottdeig-7037203645618"
+     },
+     {
+      "id": "ean:7037204303241",
+      "status": "not_found",
+      "note": "EAN not found; Meny Stjernebacon 140g (7037204303258) shows 274 kcal/23 g fat vs our 301/27, so different"
+     },
+     {
+      "id": "ean:7037204742132",
+      "status": "not_found",
+      "note": "not found"
+     },
+     {
+      "id": "ean:7037710020250",
+      "status": "label_has_none",
+      "note": "no fibre printed",
+      "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/smash-bar-7037710020250"
+     },
+     {
+      "id": "ean:7037710021424",
+      "status": "label_has_none",
+      "note": "no fibre printed",
+      "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/stratos-7037710021424"
+     },
+     {
+      "id": "ean:7037710021837",
+      "status": "label_has_none",
+      "note": "no fibre printed",
+      "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/stratos-7037710021837"
+     },
+     {
+      "id": "ean:7037710038019",
+      "status": "label_has_none",
+      "note": "no fibre printed",
+      "source_url": "https://meny.no/varer//snacks-godteri/godteri/laban-seigmenn-7037710038019"
+     },
+     {
+      "id": "ean:7037710090055",
+      "status": "label_has_none",
+      "note": "no fibre printed",
+      "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/smash-7037710090055"
+     }
+    ]
+   },
+   {
+    "batch": 2,
+    "rows": [
+     {
+      "id": "ean:7038010006609",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//meieri-egg/kesam/kesam-7038010006609",
+      "note": "Numbers match; no fibre printed."
+     },
+     {
+      "id": "ean:7038010007224",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//drikke/juice/appelsinjuice-7038010007224",
+      "note": "Matches; no fibre printed."
+     },
+     {
+      "id": "ean:7038010008092",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//drikke/juice/eplejuice-7038010008092",
+      "note": "Matches; no fibre printed."
+     },
+     {
+      "id": "ean:7038010057571",
+      "status": "numbers_disagree",
+      "source_url": "https://meny.no/varer//meieri-egg/yoghurter/yoghurt/go-morgen-yoghurt-7038010057571",
+      "label_full": {
+       "kcal": 104,
+       "protein_g": 5.8,
+       "fat_g": 4.1,
+       "sat_fat_g": 1.3,
+       "carbs_g": 9.7,
+       "sugars_g": 5.2,
+       "fibre_g": null,
+       "salt_g": 0.14
+      },
+      "note": "Fat 4.1 vs 4.4, sugars 5.2 vs 5.7; no fibre printed anyway."
+     },
+     {
+      "id": "ean:7038010067280",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//meieri-egg/yoghurter/yoghurt/go-morgen-yoghurt-7038010067280",
+      "note": "Matches; no fibre printed."
+     },
+     {
+      "id": "ean:7038010068249",
+      "status": "numbers_disagree",
+      "source_url": "https://meny.no/varer//meieri-egg/yoghurter/yoghurt/go-morgen-yoghurt-7038010068249",
+      "label_full": {
+       "kcal": 125,
+       "protein_g": 4.5,
+       "fat_g": 4.4,
+       "sat_fat_g": 2.1,
+       "carbs_g": 17,
+       "sugars_g": 9.8,
+       "fibre_g": null,
+       "salt_g": 0.16
+      },
+      "note": "Carbs 17 vs 16, salt 0.16 vs 0.1; no fibre printed."
+     },
+     {
+      "id": "ean:7038010068256",
+      "status": "numbers_disagree",
+      "source_url": "https://meny.no/varer//meieri-egg/yoghurter/yoghurt/go-morgen-yoghurt-7038010068256",
+      "label_full": {
+       "kcal": 148,
+       "protein_g": 5.4,
+       "fat_g": 8.3,
+       "sat_fat_g": 2.4,
+       "carbs_g": 13,
+       "sugars_g": 9.3,
+       "fibre_g": null,
+       "salt_g": 0.1
+      },
+      "note": "Sugars 9.3 vs 10; no fibre printed."
+     },
+     {
+      "id": "ean:7038010069581",
+      "status": "not_found",
+      "note": "Not on Meny; kassal.app 404."
+     },
+     {
+      "id": "ean:7038010071775",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//meieri-egg/flote/kremflote/kremflote-7038010071775",
+      "note": "Matches; no fibre printed."
+     },
+     {
+      "id": "ean:7038010072628",
+      "status": "not_found",
+      "note": "Not on Meny."
+     },
+     {
+      "id": "ean:7039010016094",
+      "status": "not_found",
+      "note": "Stabburet/Nora strawberry jam on Meny has 147 kcal, not our 114; not the same product."
+     },
+     {
+      "id": "ean:7039010565295",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//palegg-frokost/sotpalegg/sjokoladepalegg/nugatti-7039010565295",
+      "note": "Matches; no fibre printed."
+     },
+     {
+      "id": "ean:7039010569422",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//middagstilbehor/sauser/bearnaisesaus/bearnaisesaus-7039010569422",
+      "note": "Matches; no fibre printed."
+     },
+     {
+      "id": "ean:7039010618809",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//palegg-frokost/fiskepalegg/makrell-i-tomat/stabbur-makrell-7039010618809",
+      "note": "Matches; no fibre printed."
+     },
+     {
+      "id": "ean:7039317005685",
+      "status": "filled",
+      "found": {
+       "fibre_g": 8
+      },
+      "source_url": "https://meny.no/varer//snacks-godteri/notter/peanotter/peanotter-7039317005579",
+      "note": "Same Polly Peanøtter, all numbers identical (628/24/52/11/14/5/1.2) but label found under EAN 7039317005579 (also 7039317008679), not our EAN."
+     },
+     {
+      "id": "ean:7039317007931",
+      "status": "numbers_disagree",
+      "source_url": "https://meny.no/varer//snacks-godteri/snacks/ostesnacks/cheez-doodles-7039317005531",
+      "label_full": {
+       "kcal": 500,
+       "protein_g": 10,
+       "fat_g": 31,
+       "sat_fat_g": 4.8,
+       "carbs_g": 51,
+       "sugars_g": 2.8,
+       "fibre_g": 1.1,
+       "salt_g": 2.1
+      },
+      "note": "Same name but sat fat 4.8 vs our 14, other Cheez Doodles labels also 4.8-5.6; our EAN not on Meny."
+     },
+     {
+      "id": "ean:7039610000172",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//meieri-egg/egg/egg-frittgaende-7039610000172",
+      "note": "Matches; no fibre printed."
+     },
+     {
+      "id": "ean:7039610012793",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kyllingfilet/kyllingfilet-7039610012977",
+      "note": "Same Prior Kyllingfilet numbers (other pack EANs); no fibre printed."
+     },
+     {
+      "id": "ean:7048840210183",
+      "status": "not_found",
+      "note": "No brand, not found on Meny."
+     },
+     {
+      "id": "ean:7048840225019",
+      "status": "not_found",
+      "note": "Closest Q Skyr Vanilje 450g (carbs 3.8 vs our 4.2, 10% off, fibre 1 g) is a different product."
+     },
+     {
+      "id": "ean:7090046153108",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//drikke/brus/coca-cola-7090046153108",
+      "note": "Matches (Coca Cola Cherry Float 355 ml); no fibre printed."
+     },
+     {
+      "id": "ean:7340005406579",
+      "status": "not_found",
+      "note": "Not on Meny."
+     },
+     {
+      "id": "ean:7340005406678",
+      "status": "not_found",
+      "note": "Not on Meny."
+     },
+     {
+      "id": "ean:7340011352891",
+      "status": "not_found",
+      "note": "Not on Meny; kassal.app 404."
+     },
+     {
+      "id": "ean:7340131600056",
+      "status": "not_found",
+      "note": "Nocco Blood Orange labels (3 kcal, 0.8 g protein) do not match our 4.85 kcal / 1.18 g."
+     }
+    ]
+   },
+   {
+    "batch": 3,
+    "rows": [
+     {
+      "id": "ean:7340131601039",
+      "status": "not_found",
+      "note": "No Meny/Spar/Joker label for Nocco BCAA Ice Soda; kassal.app 404."
+     },
+     {
+      "id": "ean:9002490200602",
+      "status": "label_has_none",
+      "note": "Meny Red Bull Sukkerfri 250/355/473 ml labels (3 kcal, salt 0.1) print no fibre.",
+      "source_url": "https://meny.no/varer//drikke/energidrikke/red-bull-energidrikk-90433924"
+     },
+     {
+      "id": "ean:9002490263201",
+      "status": "label_has_none",
+      "note": "Meny Red Bull Energidrikk 250 ml label (46 kcal, 11 g carbs) prints no fibre.",
+      "source_url": "https://meny.no/varer//drikke/energidrikke/red-bull-energidrikk-90433917"
+     },
+     {
+      "id": "grandiosa:https://www.grandiosa.no/produkter/grandiosa-original/",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0
+      },
+      "label_full": {
+       "kcal": 217,
+       "protein_g": 11,
+       "fat_g": 7.6,
+       "sat_fat_g": 4.2,
+       "carbs_g": 26,
+       "sugars_g": 2.7,
+       "fibre_g": 0,
+       "salt_g": 0.9
+      },
+      "source_url": "https://meny.no/varer//middag/pizzaretter/pizza/grandiosa-pizza-7039010019804",
+      "note": "Grandiosa Pizza 575 g; other numbers within 5%."
+     },
+     {
+      "id": "kassalapp:3921",
+      "status": "label_has_none",
+      "note": "Meny Synnove Gresk Yoghurt Naturell 10% 2,5 kg label matches and prints no fibre.",
+      "source_url": "https://meny.no/varer//meieri-egg/yoghurter/matyoghurt/yoghurt-gresk-7034280110299"
+     },
+     {
+      "id": "kavli:https://www.kavli.no/produkter/baconost",
+      "status": "label_has_none",
+      "note": "Baconost 175 g tube label matches and prints no fibre. (200 g beger prints fibre 0 but protein 18 vs ours 16, so not used.)",
+      "source_url": "https://meny.no/varer//palegg-frokost/ost/baconost-7041810010387"
+     },
+     {
+      "id": "kavli:https://www.kavli.no/produkter/skinkeost",
+      "status": "label_has_none",
+      "note": "Skinkeost 175 g tube label matches exactly and prints no fibre.",
+      "source_url": "https://meny.no/varer//palegg-frokost/ost/skinkeost-7041810010394"
+     },
+     {
+      "id": "mills:https://mills.no/mills/produkt/ekte-majones/",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0
+      },
+      "label_full": {
+       "kcal": 705,
+       "protein_g": 1,
+       "fat_g": 77,
+       "sat_fat_g": 5,
+       "carbs_g": 2,
+       "sugars_g": 2,
+       "fibre_g": 0,
+       "salt_g": 0.6
+      },
+      "source_url": "https://meny.no/varer//palegg-frokost/majones/majones-ekte-7036110009841",
+      "note": "Majones Ekte 160 g tube, identical numbers."
+     },
+     {
+      "id": "mills:https://mills.no/mills/produkt/ekte-remulade/",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0
+      },
+      "label_full": {
+       "kcal": 590,
+       "protein_g": 1,
+       "fat_g": 62,
+       "sat_fat_g": 4,
+       "carbs_g": 7,
+       "sugars_g": 6,
+       "fibre_g": 0,
+       "salt_g": 0.8
+      },
+      "source_url": "https://meny.no/varer//middag/remulade/remulade-ekte-7036110009810",
+      "note": "Remulade Ekte 160 g tube, identical numbers."
+     },
+     {
+      "id": "mills:https://mills.no/mills/produkt/original-kaviar/",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0
+      },
+      "label_full": {
+       "kcal": 430,
+       "protein_g": 8,
+       "fat_g": 39,
+       "sat_fat_g": 3,
+       "carbs_g": 13,
+       "sugars_g": 12,
+       "fibre_g": 0,
+       "salt_g": 5.5
+      },
+      "source_url": "https://meny.no/varer//palegg-frokost/fiskepalegg/kaviar/kaviar-7036110009834",
+      "note": "Kaviar 185 g tube, identical numbers."
+     },
+     {
+      "id": "mills:https://mills.no/soft-flora/produkt/soft-flora-original/",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0
+      },
+      "label_full": {
+       "kcal": 540,
+       "protein_g": 0.5,
+       "fat_g": 60,
+       "sat_fat_g": 12,
+       "carbs_g": 0.5,
+       "sugars_g": 0.5,
+       "fibre_g": 0,
+       "salt_g": 1
+      },
+      "source_url": "https://meny.no/varer//palegg-frokost/margarin/soft-flora-7036110010571",
+      "note": "Soft Flora Original 2 kg, identical numbers."
+     },
+     {
+      "id": "mills:https://mills.no/vita-hjertego/produkt/vita-hjertego-margarin/",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0
+      },
+      "label_full": {
+       "kcal": 540,
+       "protein_g": 0.5,
+       "fat_g": 60,
+       "sat_fat_g": 12,
+       "carbs_g": 0.5,
+       "sugars_g": 0.5,
+       "fibre_g": 0,
+       "salt_g": 0.8
+      },
+      "source_url": "https://meny.no/varer//palegg-frokost/margarin/vita-hjertego-7036110008202",
+      "note": "Vita Hjertego Myk Plantemargarin 370 g, identical numbers."
+     },
+     {
+      "id": "nidar:https://www.nidar.no/produkt/smash-mellomplate/",
+      "status": "label_has_none",
+      "note": "Smash 62 g and 150 g labels match exactly and print no fibre.",
+      "source_url": "https://meny.no/varer//palegg-frokost/smash-7037710050240"
+     },
+     {
+      "id": "nidar:https://www.nidar.no/produkt/stratos-helt-sprott/",
+      "status": "label_has_none",
+      "note": "Stratos Helt Sprott 150 g label matches exactly and prints no fibre.",
+      "source_url": "https://meny.no/varer//stratos-7037710021424"
+     },
+     {
+      "id": "nidar:https://www.nidar.no/produkt/stratos-melkeglede/",
+      "status": "label_has_none",
+      "note": "Stratos Melkeglede 175 g label matches exactly and prints no fibre."
+     },
+     {
+      "id": "nidar:https://www.nidar.no/produkt/stratos-mellomplate/",
+      "status": "label_has_none",
+      "note": "Stratos 65 g label matches exactly and prints no fibre."
+     },
+     {
+      "id": "nocco:https://nocco.com/product/arancia/",
+      "status": "not_found",
+      "note": "Only Nocco BCAA Cloudy Soda found (3 kcal, protein 0.8, fibre 0); different flavour and numbers differ, not used."
+     },
+     {
+      "id": "ringnes:https://www.ringnes.no/produkter/solo/solo/",
+      "status": "not_found",
+      "note": "No matching Solo label found in Meny search."
+     },
+     {
+      "id": "synnove:https://www.synnove.no/produkt/gresk-yoghurt-med-vanilje/",
+      "status": "label_has_none",
+      "note": "Vanilje 350 g label matches exactly and prints no fibre.",
+      "source_url": "https://meny.no/varer//meieri-egg/yoghurter/matyoghurt/yoghurt-gresk-7034281583009"
+     },
+     {
+      "id": "synnove:https://www.synnove.no/produkt/gresk-yoghurt-naturell/",
+      "status": "label_has_none",
+      "note": "Naturell 350 g and 750 g labels match exactly and print no fibre.",
+      "source_url": "https://meny.no/varer//meieri-egg/yoghurter/matyoghurt/yoghurt-gresk-7034281582002"
+     },
+     {
+      "id": "synnove:https://www.synnove.no/produkt/synnove-gresk-yoghurt-naturell-0-prosent-750g/",
+      "status": "label_has_none",
+      "note": "Naturell 0% 750 g label matches exactly and prints no fibre.",
+      "source_url": "https://meny.no/varer//meieri-egg/yoghurter/matyoghurt/yoghurt-gresk-7034280111494"
+     },
+     {
+      "id": "synnove:https://www.synnove.no/produkt/synnove-gulost/",
+      "status": "label_has_none",
+      "note": "Gulost Original skivet labels (338 kcal, protein 26, fat 26) print no fibre; salt 1.2 vs ours 1.3.",
+      "source_url": "https://meny.no/varer//palegg-frokost/ost/gulost-original-7034280001757"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/jarlsberg/produkter/jarlsberg-original",
+      "status": "not_found",
+      "note": "Only Jarlsberg Burgerost found (fat 27, sat 20, salt 1.8), a different product."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/litago/produkter/litago-original-sjokolademelk-05-liter",
+      "status": "label_has_none",
+      "note": "Litago Sjokolade 0,5 l and 1 l labels match exactly and print no fibre.",
+      "source_url": "https://meny.no/varer//drikke/melk/litago-melk-7038010002625"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0
+      },
+      "label_full": {
+       "kcal": 344,
+       "protein_g": 27,
+       "fat_g": 26,
+       "sat_fat_g": 16,
+       "carbs_g": 0,
+       "sugars_g": 0,
+       "fibre_g": 0,
+       "salt_g": 1.2
+      },
+      "source_url": "https://meny.no/varer//ost/norvegia-31674",
+      "note": "Norvegia Kuvert 100x2stk, identical numbers."
+     }
+    ]
+   },
+   {
+    "batch": 4,
+    "rows": [
+     {
+      "id": "tine:https://www.tine.no/merkevarer/sn%C3%B8frisk/produkter/sn%C3%B8frisk-naturell",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//ost/smoreoster/kremost/snofrisk-7038010023507",
+      "note": "Meny label matches (252 kcal, 24 fat, 6.6 protein); no fibre printed."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-fl%C3%B8temysost",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ (EAN 7038010029035 Hotellbrett 560g)",
+      "note": "Label matches ours (430 kcal, 26, 38, 33, 11); no fibre printed."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-gudbrandsdalsost-g35",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0
+      },
+      "label_full": {
+       "kcal": 440,
+       "protein_g": 10,
+       "fat_g": 28,
+       "sat_fat_g": 18,
+       "carbs_g": 37,
+       "sugars_g": 31,
+       "fibre_g": 0,
+       "salt_g": 0.72
+      },
+      "source_url": "Meny, Gudbrandsdalsost Kuvert 200x15g Tine, EAN 31675",
+      "note": "Kuvert label prints Kostfiber 0 g and matches our numbers exactly. Retail packs (G35 500g etc.) print no fibre line."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-cottage-cheese/produkter/tine-cottage-cheese-mager-vanilje-uten",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ EAN 7038010070884",
+      "note": "Label matches (79 kcal, 1.8, 2.6, 2.2, 13, 0.45); no fibre printed."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-cottage-cheese/produkter/tine-cottage-cheese-original",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ EAN 7038010054471",
+      "note": "Label matches (96 kcal, 4.3, 1.5, 13, 0.4); no fibre printed."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-cottage-cheese/produkter/tine-laktosefri-mager-cottage-cheese_",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ EAN 7038010066139",
+      "note": "Label matches; no fibre printed."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-cottage-cheese/produkter/tine-mager-cottage-cheese",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ EAN 7038010054488",
+      "note": "Label matches; no fibre printed."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-fl%C3%B8te/produkter/tine-kremfl%C3%B8te",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ EAN 7038010041914",
+      "note": "Tine Kremfløte 37% label matches (353 kcal, 37, 2.9, 2.1); no fibre printed."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-fl%C3%B8te/produkter/tine-matfl%C3%B8te",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ EAN 7038010003615",
+      "note": "Label matches (183 kcal, 18, 3.9, 1.4); no fibre printed."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-r%C3%B8mme/produkter/tine-lettr%C3%B8mme-17-prosent",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ EAN 7038010005459",
+      "note": "Label 179 kcal, 17, 10 sat, 3.7 carbs, 2.8 protein; ours differ slightly on sat/carbs/protein but within tolerance for kcal; no fibre printed anyway."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-revet-ost/produkter/tine-revet-ost-original",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ EAN 7038010069352",
+      "note": "Label matches (340 kcal, 25, 16, 27, 1.1); no fibre printed."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-sm%C3%B8r/produkter/tine-meierism%C3%B8r",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0
+      },
+      "label_full": {
+       "kcal": 742,
+       "protein_g": 0.5,
+       "fat_g": 82,
+       "sat_fat_g": 53,
+       "carbs_g": 0.5,
+       "sugars_g": 0.5,
+       "fibre_g": 0,
+       "salt_g": 1.1
+      },
+      "source_url": "Meny, Meierismør Kuvert 12g Tine, EAN 9001 / 31607",
+      "note": "Kuvert label prints Kostfiber 0 g; numbers match ours (sat 53 vs 52). Retail 250/500g packs print no fibre line."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-fersken",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ EAN 7038010070129",
+      "note": "Label matches exactly; no fibre printed."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-naturell-1kg",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ EAN 7038010072482",
+      "note": "Label matches exactly; no fibre printed."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-naturell-500g",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ EAN 7038010055652",
+      "note": "Label matches exactly; no fibre printed."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tinemelk/produkter/tinemelk-helmelk-3-5-fett",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ EAN 7038010000065",
+      "note": "Label 63 kcal, 3.4 protein, matches within 5%; no fibre printed."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tinemelk/produkter/tinemelk-lettmelk-0-5-fett",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ EAN 7038010001918",
+      "note": "Label matches; no fibre printed."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinmelk-kakao",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ EAN 7038010068164",
+      "note": "Label matches exactly; no fibre printed."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinyoghurt-vanilje",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ EAN 7038010068980",
+      "note": "Vanilje 430g label 67 kcal, 1.8, 3.2, 9.2; ours 69 kcal, 3.5 carbs, within ~5%; no fibre printed."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-yoghurtdrikk-bringeb%C3%A6r",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ EAN 7038010073106",
+      "note": "Yt Drikkeyoghurt Bringebær 300g matches (75 kcal, 6.8, 1.2, 9.1); no fibre printed."
+     },
+     {
+      "id": "toro:https://www.toro.no/produkter/bearnaise/",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ EAN 7039010545792",
+      "note": "Label matches exactly; no fibre printed."
+     },
+     {
+      "id": "toro:https://www.toro.no/produkter/bearnaisesaus-original/",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0
+      },
+      "label_full": {
+       "kcal": 254,
+       "protein_g": 2.2,
+       "fat_g": 24,
+       "sat_fat_g": 7.2,
+       "carbs_g": 7.6,
+       "sugars_g": 3.4,
+       "fibre_g": 0,
+       "salt_g": 0.92
+      },
+      "source_url": "Meny, Bearnaise Saus 28g Toro, EAN 7037610009041 (also 7039010547888)",
+      "note": "Label prints Kostfiber 0 g; all numbers match exactly."
+     },
+     {
+      "id": "toro:https://www.toro.no/produkter/toro-original-tomatsuppe-2/",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ EAN 7039010610667",
+      "note": "Label matches (30 kcal, 0.4, 5.9, 2.6, 0.7, 0.76); no fibre printed."
+     },
+     {
+      "id": "ean:0000040052441",
+      "status": "not_found",
+      "note": "Kitkat 42g with 512 kcal / 60.5 carbs: no matching label found on Meny (only Chunky/other variants with different numbers). Salt not located."
+     },
+     {
+      "id": "ean:0000080310167",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ EAN 80310167",
+      "note": "Kinder Maxi label matches exactly (566 kcal, 35, 22.6, 53.5, 53.3, 8.7, 0.31); no fibre printed."
+     }
+    ]
+   },
+   {
+    "batch": 5,
+    "rows": [
+     {
+      "id": "ean:7031540003469",
+      "status": "filled",
+      "found": {
+       "fibre_g": 1
+      },
+      "label_full": {
+       "kcal": 12,
+       "protein_g": 0.8,
+       "fat_g": 0.1,
+       "sat_fat_g": 0,
+       "carbs_g": 1.5,
+       "sugars_g": 0,
+       "fibre_g": 1,
+       "salt_g": 0
+      },
+      "source_url": "https://meny.no/varer//frukt-gront/gronnsaker/salater/crispisalat/crispi-salat-299000049731",
+      "note": "Bama Crispi Salat 150g; kcal, protein, fat, carbs match ours."
+     },
+     {
+      "id": "ean:0000070390124",
+      "status": "label_has_none",
+      "label_full": {
+       "kcal": 225,
+       "protein_g": 10,
+       "fat_g": 19,
+       "sat_fat_g": 5.5,
+       "carbs_g": 3.6,
+       "sugars_g": 1.4,
+       "fibre_g": null,
+       "salt_g": 1.5
+      },
+      "source_url": "https://meny.no/varer//palegg-frokost/postei-og-pate/leverpostei/leverpostei-70390124",
+      "note": "Stabburet Leverpostei 22g (EAN 70390124); label prints no fibre. Other pack 31570 lists Kostfiber 0 g in the store feed, not treated as printed."
+     },
+     {
+      "id": "ean:2302191902612",
+      "status": "label_has_none",
+      "label_full": {
+       "kcal": 422,
+       "protein_g": 20,
+       "fat_g": 38,
+       "sat_fat_g": 24,
+       "carbs_g": 0,
+       "sugars_g": 0,
+       "fibre_g": null,
+       "salt_g": 1.5
+      },
+      "source_url": "https://meny.no/varer//ost/kittmodnede-oster/kittmodnet-ost/ridderost-7038010019241",
+      "note": "Tine Ridderost 285g and 170g print no fibre. Generic entries 1012/1013 show 0 g in the store feed, not treated as printed."
+     },
+     {
+      "id": "ean:8437005395954",
+      "status": "not_found",
+      "note": "Rode druer Junior: no store label found."
+     },
+     {
+      "id": "ean:7025110185297",
+      "status": "not_found",
+      "note": "Xtra gronne druer: no store label found."
+     },
+     {
+      "id": "ean:7025110156082",
+      "status": "not_found",
+      "note": "Coop steinfrie druer: no store label found."
+     },
+     {
+      "id": "ean:8715700415468",
+      "status": "not_found",
+      "note": "Heinz Ketchup Unlimited Edition 1.5 kg: not on Meny; other Heinz ketchups differ (44 and 103 kcal)."
+     },
+     {
+      "id": "ean:0644408604103",
+      "status": "not_found",
+      "note": "Barebells Soft: Meny soft bars are other flavours with different numbers (357 kcal, 36 g protein)."
+     },
+     {
+      "id": "ean:7312082002159",
+      "status": "not_found",
+      "note": "Leksands Crackers: no store label found."
+     }
+    ]
+   },
+   {
+    "batch": 6,
+    "rows": [
+     {
+      "id": "ean:5900951310546",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/snickers-5900951310546",
+      "note": "Label prints no fibre."
+     },
+     {
+      "id": "ean:5902296002247",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//middagstilbehor/hermetisk-gront/sylteagurk/agurk-5902296002247",
+      "note": "Label prints no fibre."
+     },
+     {
+      "id": "ean:5904603191323",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//middagstilbehor/hermetisk-gront/sylteagurk/agurk-5904603191323",
+      "note": "Label prints no fibre."
+     },
+     {
+      "id": "ean:7020098003106",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//kjott/kjottdeig-og-farse/karbonadedeig/karbonadedeig-7020098003106",
+      "note": "Label prints no fibre."
+     },
+     {
+      "id": "ean:7024850083122",
+      "status": "not_found",
+      "note": "Not on Meny; kassal.app 404."
+     },
+     {
+      "id": "ean:7025110097200",
+      "status": "not_found",
+      "note": "Not found on Meny search or by EAN."
+     },
+     {
+      "id": "ean:7025110184269",
+      "status": "not_found",
+      "note": "Not found on Meny search or by EAN."
+     },
+     {
+      "id": "ean:7025110209016",
+      "status": "not_found",
+      "note": "Not found on Meny by EAN or name; Prior eggs are another brand."
+     },
+     {
+      "id": "ean:7032069101391",
+      "status": "not_found",
+      "note": "Not found on Meny."
+     },
+     {
+      "id": "ean:7033330013290",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/smorblanding/bremykt-7033330013290",
+      "note": "Label prints no fibre."
+     },
+     {
+      "id": "ean:7033330013559",
+      "status": "not_found",
+      "note": "Not found on Meny."
+     },
+     {
+      "id": "ean:7033352734074",
+      "status": "filled",
+      "found": {
+       "sugars_g": 0,
+       "salt_g": 0.1
+      },
+      "label_full": {
+       "kcal": 223,
+       "protein_g": 19.9,
+       "fat_g": 15.9,
+       "sat_fat_g": 2.3,
+       "carbs_g": 0,
+       "sugars_g": 0,
+       "fibre_g": null,
+       "salt_g": 0.1
+      },
+      "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/laks/laks-naturell/laks-loin-7033352770744",
+      "note": "Meny lists Fiskemannen Laks Loin Ca300g under EAN 7033352770744 (different EAN, same name, brand and numbers). Label prints no fibre."
+     },
+     {
+      "id": "ean:7036110007601",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//palegg-frokost/remulade/remulade-7036110007601",
+      "note": "Label prints no fibre."
+     },
+     {
+      "id": "ean:7037150121012",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//drikke/kaffe/kokmalt-kaffe/friele-frokost-7037150121012",
+      "note": "Label prints no protein and no fibre."
+     },
+     {
+      "id": "ean:7037203630263",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//palegg-frokost/kjottpalegg/paleggskinker/kokte-skinker/kokt-skinke-ekte-7037203630263",
+      "note": "Label prints no fibre."
+     },
+     {
+      "id": "ean:7037203639723",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//palegg-frokost/kjottpalegg/paleggskinker/kokte-skinker/kokt-skinke-ekte-7037203639723",
+      "note": "Label prints no fibre."
+     },
+     {
+      "id": "ean:7037203640187",
+      "status": "not_found",
+      "note": "Not on Meny; kassal.app 404."
+     },
+     {
+      "id": "ean:7037203645618",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//kjott/kjottdeig-og-farse/kjottdeig/kjottdeig-7037203645618",
+      "note": "Label prints no fibre."
+     },
+     {
+      "id": "ean:7037204303241",
+      "status": "not_found",
+      "note": "Not on Meny."
+     },
+     {
+      "id": "ean:7037204742132",
+      "status": "not_found",
+      "note": "Not on Meny; kassal.app 404."
+     },
+     {
+      "id": "ean:7037710020250",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/smash-bar-7037710020250",
+      "note": "Label prints no fibre."
+     },
+     {
+      "id": "ean:7037710021424",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/stratos-7037710021424",
+      "note": "Label prints no fibre."
+     },
+     {
+      "id": "ean:7037710021837",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/stratos-7037710021837",
+      "note": "Label prints no fibre."
+     },
+     {
+      "id": "ean:7037710038019",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//snacks-godteri/godteri/laban-seigmenn-7037710038019",
+      "note": "Label prints no fibre."
+     },
+     {
+      "id": "ean:7037710090055",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/smash-7037710090055",
+      "note": "Label prints no fibre."
+     }
+    ]
+   },
+   {
+    "batch": 7,
+    "rows": [
+     {
+      "id": "ean:7037203626563",
+      "status": "label_has_none",
+      "note": "Meny label prints no fibre"
+     },
+     {
+      "id": "ean:7037203640149",
+      "status": "numbers_disagree",
+      "note": "Meny label differs from ours (kcal 216 vs 153, carbs 5.8 vs 6.6); no fibre printed",
+      "label_full": {
+       "kcal": 216,
+       "protein_g": 13,
+       "fat_g": 16,
+       "sat_fat_g": 5.8,
+       "carbs_g": 5.8,
+       "sugars_g": 0.2,
+       "fibre_g": null,
+       "salt_g": 1.7
+      },
+      "source_url": "https://meny.no/varer//palegg-frokost/kjottpalegg/servelater/servelat/servelat-7037203640149"
+     },
+     {
+      "id": "ean:7037203640392",
+      "status": "label_has_none",
+      "note": "Meny label prints no fibre"
+     },
+     {
+      "id": "ean:7037203641023",
+      "status": "not_found",
+      "note": "Not on Meny, Spar or Joker by EAN or words"
+     },
+     {
+      "id": "ean:7037204198724",
+      "status": "label_has_none",
+      "note": "Meny label prints no fibre"
+     },
+     {
+      "id": "ean:7037204651632",
+      "status": "label_has_none",
+      "note": "Meny label prints no fibre"
+     },
+     {
+      "id": "ean:7037206100008",
+      "status": "label_has_none",
+      "note": "Meny label prints no fibre"
+     },
+     {
+      "id": "ean:7037206101692",
+      "status": "not_found",
+      "note": "Not on Meny, Spar or Joker; other Gilde burger EAN differs"
+     },
+     {
+      "id": "ean:7037610063708",
+      "status": "not_found",
+      "note": "Not found; Mr. Lee noodle EANs on Meny are other variants"
+     },
+     {
+      "id": "ean:7037710020540",
+      "status": "label_has_none",
+      "note": "Meny label prints no fibre"
+     },
+     {
+      "id": "ean:7037710020939",
+      "status": "label_has_none",
+      "note": "Meny label prints no fibre"
+     },
+     {
+      "id": "ean:7037710021035",
+      "status": "label_has_none",
+      "note": "Meny label prints no fibre"
+     },
+     {
+      "id": "ean:7037710024937",
+      "status": "label_has_none",
+      "note": "Meny label prints no fibre"
+     },
+     {
+      "id": "ean:7037710034349",
+      "status": "label_has_none",
+      "note": "Meny label prints no fibre"
+     },
+     {
+      "id": "ean:7038010028892",
+      "status": "label_has_none",
+      "note": "Meny label prints no fibre"
+     },
+     {
+      "id": "ean:7038010055843",
+      "status": "numbers_disagree",
+      "note": "Meny label differs (kcal 79 vs 66, carbs 8.5 vs 4.3); no fibre printed",
+      "label_full": {
+       "kcal": 79,
+       "protein_g": 9.2,
+       "fat_g": 0.9,
+       "sat_fat_g": 0.6,
+       "carbs_g": 8.5,
+       "sugars_g": 8.3,
+       "fibre_g": null,
+       "salt_g": 0.1
+      },
+      "source_url": "https://meny.no/varer//meieri-egg/kesam/mager-kesam-vanilje-7038010055843"
+     },
+     {
+      "id": "ean:7038010065569",
+      "status": "label_has_none",
+      "note": "Meny label prints no fibre; numbers match"
+     },
+     {
+      "id": "ean:7038010070334",
+      "status": "label_has_none",
+      "note": "Matched via Meny Biola 1000g (EAN 7038010063220), identical per-100 numbers; no fibre printed",
+      "source_url": "https://meny.no/varer//meieri-egg/melk/syrnet-melk-smakstilsatt/biola-syrnet-melk-7038010063220"
+     },
+     {
+      "id": "ean:7038010071591",
+      "status": "label_has_none",
+      "note": "Matched via Meny Sjokomelk (EAN 7038010035159), identical numbers; no fibre printed",
+      "source_url": "https://meny.no/varer//meieri-egg/melk/sjokolademelk/sjokomelk-7038010035159"
+     },
+     {
+      "id": "ean:7039010524810",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0
+      },
+      "label_full": {
+       "kcal": 503,
+       "protein_g": 1,
+       "fat_g": 52,
+       "sat_fat_g": 3.9,
+       "carbs_g": 6.2,
+       "sugars_g": 5.7,
+       "fibre_g": 0,
+       "salt_g": 1
+      },
+      "note": "Meny label for Idun Hamburgerdressing 795g (different EAN 7039010063401, same pack and numbers) prints Kostfiber 0 g",
+      "source_url": "https://meny.no/varer//middagstilbehor/dressinger/hamburgerdressing/hamburgerdressing-7039010063401"
+     },
+     {
+      "id": "ean:7039010541893",
+      "status": "label_has_none",
+      "note": "Matched via Meny Nudler i Kopp Kjøttsmak (EAN 7039010597326), identical numbers; no fibre printed",
+      "source_url": "https://meny.no/varer//middag/middag-kit/koppretter/nudler-i-kopp-7039010597326"
+     },
+     {
+      "id": "ean:7039010548878",
+      "status": "numbers_disagree",
+      "note": "Meny Idun Bbq Saus 300g (EAN 7039010613682) differs: fat printed 33 g vs our 3.3 (probable site typo), kcal 176 vs 185; no fibre printed",
+      "label_full": {
+       "kcal": 176,
+       "protein_g": 1.8,
+       "fat_g": 33,
+       "sat_fat_g": 0.3,
+       "carbs_g": 34,
+       "sugars_g": 33,
+       "fibre_g": null,
+       "salt_g": 1.8
+      },
+      "source_url": "https://meny.no/varer//middagstilbehor/marinader-og-bbq-saus/barbequesaus/bbq-saus-7039010613682"
+     },
+     {
+      "id": "ean:7039010570688",
+      "status": "not_found",
+      "note": "Not found on Meny, Spar or Joker"
+     },
+     {
+      "id": "ean:7039010572354",
+      "status": "not_found",
+      "note": "Not found on Meny, Spar or Joker"
+     },
+     {
+      "id": "ean:7039010600668",
+      "status": "label_has_none",
+      "note": "Matched via Meny Grandiosa Pepperoni 690g (EAN 7039010600675), identical numbers; no fibre printed",
+      "source_url": "https://meny.no/varer//middag/pizzaretter/pizza/grandiosa-pizza-7039010600675"
+     }
+    ]
+   },
+   {
+    "batch": 8,
+    "rows": [
+     {
+      "id": "ean:7039610001353",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//palegg-frokost/kjottpalegg/kylling-og-kalkunpalegg/kyllingpalegg/kyllingfilet-7039610001353",
+      "label_full": {
+       "kcal": 101,
+       "protein_g": 20,
+       "fat_g": 1.8,
+       "sat_fat_g": 0.5,
+       "carbs_g": 0.9,
+       "sugars_g": 0.2,
+       "fibre_g": null,
+       "salt_g": 1.5
+      },
+      "note": "Meny label matches ours; no fibre printed."
+     },
+     {
+      "id": "ean:7039610001506",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//palegg-frokost/kjottpalegg/kylling-og-kalkunpalegg/kalkunpalegg/kalkunfilet-7039610001506",
+      "label_full": {
+       "kcal": 104,
+       "protein_g": 22,
+       "fat_g": 1.2,
+       "sat_fat_g": 0.4,
+       "carbs_g": 1,
+       "sugars_g": 0.2,
+       "fibre_g": null,
+       "salt_g": 1.5
+      },
+      "note": "Matches; no fibre printed."
+     },
+     {
+      "id": "ean:7039610001629",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//kjott/polser/wienerpolser/wienerpolser-7039610001629",
+      "label_full": {
+       "kcal": 139,
+       "protein_g": 11,
+       "fat_g": 8.3,
+       "sat_fat_g": 2.4,
+       "carbs_g": 4.9,
+       "sugars_g": 0.6,
+       "fibre_g": null,
+       "salt_g": 1.7
+      },
+      "note": "Matches; no fibre printed."
+     },
+     {
+      "id": "ean:7039610006730",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//",
+      "label_full": {
+       "kcal": 146,
+       "protein_g": 13,
+       "fat_g": 11,
+       "sat_fat_g": 2.8,
+       "carbs_g": 0.3,
+       "sugars_g": 0.3,
+       "fibre_g": null,
+       "salt_g": 0.4
+      },
+      "note": "Meny item Prior Egg okologisk 6stk, EAN 7039610005887 (different EAN, identical numbers); no fibre printed. No exact URL kept."
+     },
+     {
+      "id": "ean:7039610013653",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0
+      },
+      "source_url": "https://meny.no/ (Grillpolser Kylling/Kalkun 600g Prior, EAN 7039610025205)",
+      "label_full": {
+       "kcal": 152,
+       "protein_g": 11,
+       "fat_g": 9,
+       "sat_fat_g": 2.5,
+       "carbs_g": 6.2,
+       "sugars_g": 0.4,
+       "fibre_g": 0,
+       "salt_g": 1.6
+      },
+      "note": "Label prints Kostfiber 0 g explicitly. Different EAN (600g pack) but all numbers identical."
+     },
+     {
+      "id": "ean:7039610026776",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ (Kylling Larfilet Biter 500g Kyllingg., EAN 7039610005276)",
+      "label_full": {
+       "kcal": 151,
+       "protein_g": 18,
+       "fat_g": 8.8,
+       "sat_fat_g": 2.4,
+       "carbs_g": 0,
+       "sugars_g": 0,
+       "fibre_g": null,
+       "salt_g": 0.2
+      },
+      "note": "Different EAN, identical numbers; no fibre printed."
+     },
+     {
+      "id": "ean:7041111128484",
+      "status": "numbers_disagree",
+      "source_url": "https://meny.no/ (Supermix Sur 220g Brynild, EAN 7041111155466)",
+      "label_full": {
+       "kcal": 335,
+       "protein_g": 7.4,
+       "fat_g": 0,
+       "sat_fat_g": 0,
+       "carbs_g": 75,
+       "sugars_g": 59,
+       "fibre_g": null,
+       "salt_g": 0.4
+      },
+      "note": "Sugars 59 vs ours 64, salt 0.4 vs 0; no fibre printed anyway."
+     },
+     {
+      "id": "ean:7041111131163",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ (Seigmenn 425g Brynild, EAN 7041111063402)",
+      "label_full": {
+       "kcal": 319,
+       "protein_g": 5,
+       "fat_g": 0,
+       "sat_fat_g": 0,
+       "carbs_g": 76,
+       "sugars_g": 55,
+       "fibre_g": null,
+       "salt_g": 0
+      },
+      "note": "Exact match; no fibre printed."
+     },
+     {
+      "id": "ean:7041111137301",
+      "status": "numbers_disagree",
+      "source_url": "https://meny.no/ (Supermix Original 220g Brynild, EAN 7041111155473)",
+      "label_full": {
+       "kcal": 383,
+       "protein_g": 5.9,
+       "fat_g": 8.2,
+       "sat_fat_g": 5.7,
+       "carbs_g": 71,
+       "sugars_g": 59,
+       "fibre_g": null,
+       "salt_g": 0.1
+      },
+      "note": "Fat 8.2 vs ours 8.8 (7% off); no fibre printed anyway."
+     },
+     {
+      "id": "ean:7041810010028",
+      "status": "numbers_disagree",
+      "source_url": "https://meny.no/ (Rekeost 175g Tube Kavli, EAN 7041810010400)",
+      "label_full": {
+       "kcal": 216,
+       "protein_g": 17,
+       "fat_g": 16,
+       "sat_fat_g": 10,
+       "carbs_g": 0,
+       "sugars_g": 0,
+       "fibre_g": null,
+       "salt_g": 2.8
+      },
+      "note": "Protein 17 vs ours 18 (6%); different EAN; no fibre printed."
+     },
+     {
+      "id": "ean:7046280006663",
+      "status": "not_found",
+      "note": "Not found at Meny/Spar/Joker (Rema own brand)."
+     },
+     {
+      "id": "ean:7050122112689",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ (Ostepop Cheddar 140g Maarud, EAN 7050122116076)",
+      "label_full": {
+       "kcal": 511,
+       "protein_g": 10,
+       "fat_g": 32,
+       "sat_fat_g": 5.9,
+       "carbs_g": 44,
+       "sugars_g": 4.1,
+       "fibre_g": null,
+       "salt_g": 2
+      },
+      "note": "Different EAN, identical numbers; no fibre printed."
+     },
+     {
+      "id": "ean:7071688110261",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/ (Sorlandschips Spansk Paprika 200g, EAN 7071688004164)",
+      "label_full": {
+       "kcal": 504,
+       "protein_g": 7,
+       "fat_g": 26,
+       "sat_fat_g": 4.7,
+       "carbs_g": 58,
+       "sugars_g": 2.7,
+       "fibre_g": null,
+       "salt_g": 1.2
+      },
+      "note": "Label sat fat 4.7 vs ours 6.1 (not within 5%, but sat fat is not null in ours); other numbers match; no fibre printed."
+     },
+     {
+      "id": "ean:7073816513753",
+      "status": "numbers_disagree",
+      "source_url": "https://meny.no/ (Pesto Genovese 190g Barilla, EAN 8076809513753)",
+      "label_full": {
+       "kcal": 492,
+       "protein_g": 4.7,
+       "fat_g": 47,
+       "sat_fat_g": 5.3,
+       "carbs_g": 11,
+       "sugars_g": 5,
+       "fibre_g": 3,
+       "salt_g": 3.2
+      },
+      "note": "Carbs 11 vs 9.8, fibre 3 vs ours 5.0, sugars 5 vs 5.5; possibly a different recipe/variant."
+     },
+     {
+      "id": "ean:7310350115587",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//snacks-godteri/godteri/fox-nox-rox-7310350115587",
+      "label_full": {
+       "kcal": 409,
+       "protein_g": 1.5,
+       "fat_g": 8.9,
+       "sat_fat_g": 8.6,
+       "carbs_g": 81,
+       "sugars_g": 59,
+       "fibre_g": null,
+       "salt_g": 0.06
+      },
+      "note": "Exact match; no fibre printed."
+     },
+     {
+      "id": "ean:7311041077535",
+      "status": "not_found",
+      "note": "No label found by EAN at Meny/Spar/Joker. First Price Tortilla Chips Salt at Meny has different numbers (472 kcal, protein 6.6, fibre 4)."
+     },
+     {
+      "id": "ean:7311041079706",
+      "status": "not_found",
+      "note": "Not found at Meny/Spar/Joker."
+     },
+     {
+      "id": "ean:7311311029387",
+      "status": "not_found",
+      "note": "Taco Sauce Hot not found at Meny/Spar/Joker; kassal.app returned 404."
+     },
+     {
+      "id": "ean:7311312000859",
+      "status": "not_found",
+      "note": "Not found by EAN. Meny Taco Sauce Mild 7311312002075 has different numbers (34 kcal, protein 1.4, sat fat 0), so not the same product."
+     },
+     {
+      "id": "ean:7311312001603",
+      "status": "not_found",
+      "note": "Not found by EAN. Meny Taco Sauce Medium (EAN 7311312002112) has numbers identical to ours (34/1.5/0/5.5/4/1.7, sat fat 0 printed) but is a different EAN and name, so not confirmed same product."
+     },
+     {
+      "id": "ean:7340011315162",
+      "status": "not_found",
+      "note": "No Coop spaghetti label found at Meny/Spar/Joker (Coop does not sell there)."
+     },
+     {
+      "id": "ean:7340011498803",
+      "status": "not_found",
+      "note": "Coop pizza not found at Meny/Spar/Joker."
+     },
+     {
+      "id": "ean:7340011498810",
+      "status": "not_found",
+      "note": "Coop pizza not found at Meny/Spar/Joker."
+     },
+     {
+      "id": "ean:7340191178007",
+      "status": "not_found",
+      "note": "Coop basmati not found at Meny/Spar/Joker."
+     },
+     {
+      "id": "ean:7392672001403",
+      "status": "not_found",
+      "note": "Lindahl's Kvarg not found at Meny/Spar/Joker."
+     }
+    ]
+   },
+   {
+    "batch": 9,
+    "rows": [
+     {
+      "id": "ean:8445291633728",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//drikke/sjokoladedrikk/nesquik-8445291633728",
+      "note": "Meny label matches, no fibre printed"
+     },
+     {
+      "id": "ean:8714100386996",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//middagstilbehor/sauser/pastasaus/spagetti-bolognese-8714100386996",
+      "note": "matches, no fibre printed"
+     },
+     {
+      "id": "grandiosa:https://www.grandiosa.no/produkter/grandiosa-kjottboller-skinke/",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//middag/pizzaretter/pizza/grandiosa-pizza-7039010593502",
+      "note": "Meny 236 kcal vs ours 232 (within 5%), no fibre printed"
+     },
+     {
+      "id": "kavli:https://www.kavli.no/produkter/hapa-original",
+      "status": "not_found",
+      "note": "no matching product in Meny search"
+     },
+     {
+      "id": "kavli:https://www.kavli.no/produkter/magerost-naturell-tube",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//ost/smoreoster/smoreost/magerost-naturell-7041810128921",
+      "note": "Meny Magerost Naturell 126 kcal, fat 6.2, sat 3.9, protein 17, salt 2.4 (within 5% of ours except salt 2.4 vs 2.5, ok); no fibre printed"
+     },
+     {
+      "id": "kavli:https://www.kavli.no/produkter/rekeost",
+      "status": "numbers_disagree",
+      "source_url": "https://meny.no/varer//ost/smoreoster/smoreost/rekeost-7041810010400",
+      "label_full": {
+       "kcal": 216,
+       "protein_g": 17,
+       "fat_g": 16,
+       "sat_fat_g": 10,
+       "carbs_g": 0,
+       "sugars_g": 0,
+       "fibre_g": null,
+       "salt_g": 2.8
+      },
+      "note": "ours 182 kcal, 13 fat; label 216 kcal, 16 fat"
+     },
+     {
+      "id": "mills:https://mills.no/melange/produkt/flytende-melange-med-smor-og-rapsolje/",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/smorblanding/melange-flytende-7036110210803",
+      "note": "matches (sat 10), no fibre printed on 500ml Margarin m/Smor"
+     },
+     {
+      "id": "mills:https://mills.no/melange/produkt/klassisk-melange/",
+      "status": "not_found",
+      "note": "Meny search returned unrelated products"
+     },
+     {
+      "id": "mills:https://mills.no/melange/produkt/melange-med-smor-og-rapsolje/",
+      "status": "not_found",
+      "note": "Meny search returned nothing"
+     },
+     {
+      "id": "mills:https://mills.no/soft-flora/produkt/soft-flora-lett/",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/margarin/soft-flora-lett-7036110010182",
+      "note": "matches, no fibre printed"
+     },
+     {
+      "id": "mills:https://mills.no/vita-hjertego/produkt/vita-hjertego-lettmargarin/",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0.5
+      },
+      "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/margarin/vita-hjertego-7036110010595",
+      "note": "370g Lettmargarin label prints Kostfiber 0.5 g; other numbers match (360/40/8/0.5/0.5/0.5/1). The 500g variant prints no fibre."
+     },
+     {
+      "id": "nidar:https://www.nidar.no/produkter/bamsemums/",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/bamsemums-7037710020083",
+      "note": "220g label 364 kcal, sat 5.6, close to ours; no fibre printed"
+     },
+     {
+      "id": "nidar:https://www.nidar.no/produkt/crispo/",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/crispo-7037710050028",
+      "note": "155g label matches exactly; no fibre printed"
+     },
+     {
+      "id": "nidar:https://www.nidar.no/produkt/smorbukk-sjokoladebomber/",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//snacks-godteri/godteri/smorbukk-7037710021035",
+      "note": "168g label 500 kcal, sat 19 vs 20, sugars 44 vs 50; no fibre printed"
+     },
+     {
+      "id": "norgesgruppen:37600160421",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//palegg-frokost/sotpalegg/peanottsmor/peanottsmor-37600160421",
+      "note": "exact match, no fibre printed"
+     },
+     {
+      "id": "openfoodfacts:0709009651122",
+      "status": "not_found",
+      "note": "barcode not in Meny"
+     },
+     {
+      "id": "openfoodfacts:7032620041709",
+      "status": "not_found",
+      "note": "barcode not in Meny; sat_fat not checked elsewhere"
+     },
+     {
+      "id": "q-meieriene:https://www.q-meieriene.no/produkter/q-melk-hel",
+      "status": "not_found",
+      "note": "no Q helmelk in Meny search"
+     },
+     {
+      "id": "q-meieriene:https://www.q-meieriene.no/produkter/q-melk-lett",
+      "status": "not_found",
+      "note": "only Tine lettmelk found, not Q"
+     },
+     {
+      "id": "q-meieriene:https://www.q-meieriene.no/produkter/q-yoghurt-naturell",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//meieri-egg/yoghurter/matyoghurt/yoghurt-7048840005499",
+      "note": "matches, no fibre printed"
+     },
+     {
+      "id": "q-meieriene:https://www.q-meieriene.no/produkter/q_proteinyoghurt_vanilje-copy",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//meieri-egg/yoghurter/yoghurt/proteinyoghurt-7048840226689",
+      "note": "exact match, no fibre printed"
+     },
+     {
+      "id": "ringnes:https://www.ringnes.no/produkter/solo/solo-super/",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0
+      },
+      "source_url": "https://meny.no/varer//drikke/brus/solo-super-7033850008745",
+      "note": "1.5L label prints Kostfiber 0 g; other numbers match exactly"
+     },
+     {
+      "id": "synnove:https://www.synnove.no/produkt/flotemys/",
+      "status": "numbers_disagree",
+      "source_url": "https://meny.no/varer//ost/brunost/flotemysost-7034280003034",
+      "label_full": {
+       "kcal": 465,
+       "protein_g": 8.5,
+       "fat_g": 30.6,
+       "sat_fat_g": 20,
+       "carbs_g": 39,
+       "sugars_g": 39,
+       "fibre_g": null,
+       "salt_g": 0.5
+      },
+      "note": "salt 0.5 vs ours 1.2; fat and protein differ over 5%"
+     },
+     {
+      "id": "synnove:https://www.synnove.no/produkt/gudbrand/",
+      "status": "numbers_disagree",
+      "source_url": "https://meny.no/varer//ost/brunost/gudbrand-brunost-7034280003010",
+      "label_full": {
+       "kcal": 463,
+       "protein_g": 9,
+       "fat_g": 30.2,
+       "sat_fat_g": 20,
+       "carbs_g": 38.7,
+       "sugars_g": 38.7,
+       "fibre_g": null,
+       "salt_g": 0.5
+      },
+      "note": "sat fat 20 vs ours 18, salt 0.5 vs 1.2"
+     },
+     {
+      "id": "synnove:https://www.synnove.no/produkt/lett-gulost-40-prosent-mindre-fett/",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//ost/gulost/gulost-lett-16-7034280008442",
+      "note": "matches, no fibre printed"
+     }
+    ]
+   },
+   {
+    "batch": 10,
+    "rows": [
+     {
+      "id": "tine:https://www.tine.no/merkevarer/biola/produkter/biola-blaabaer-uten-tilsatt-sukker",
+      "status": "label_has_none",
+      "note": "Meny 7038010067242 label prints no fibre"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/biola/produkter/biola-syrnet-melk-med-bl%C3%A5b%C3%A6r",
+      "status": "label_has_none",
+      "note": "Meny 7038010054730 prints no fibre"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/kesam/produkter/kesam-mager-naturell",
+      "status": "label_has_none",
+      "note": "Meny 7038010072970 prints no fibre"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/kesam/produkter/kesam-mager-vanilje",
+      "status": "label_has_none",
+      "note": "Meny 7038010055843 prints no fibre"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/litago/produkter/litago-sjokolademelk-uten",
+      "status": "not_found",
+      "note": "Meny search returned nothing"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-lettost-16-fett",
+      "status": "not_found",
+      "note": "Meny search returned nothing"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-n%C3%B8kkel",
+      "status": "label_has_none",
+      "note": "Meny 7038010068720 prints no fibre"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-fl%C3%B8temysost-lett",
+      "status": "label_has_none",
+      "note": "Meny 7038010029288 prints no fibre"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-cr%C3%A8me-fra%C3%AEche/produkter/tine-cr%C3%A8me-fra%C3%AEche-original",
+      "status": "not_found",
+      "note": "Meny search returned nothing"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-laktosefri/produkter/tine-laktosefri-helmelk-3-5-fett",
+      "status": "label_has_none",
+      "note": "Meny 7038010056765 prints no fibre"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-r%C3%B8mme/produkter/tine-lett-r%C3%B8mme-10-prosent",
+      "status": "label_has_none",
+      "note": "Meny 7038010068362 prints no fibre"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-r%C3%B8mme/produkter/tine-seterr%C3%B8mme",
+      "status": "label_has_none",
+      "note": "Meny 7038010001055 prints no fibre"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-salatost/produkter/tine-norsk-mozzarella",
+      "status": "label_has_none",
+      "note": "Meny 7038010072864 prints no fibre"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-sm%C3%B8r/produkter/tine-sm%C3%B8r-setertype",
+      "status": "label_has_none",
+      "note": "Meny 7038010011092 prints no fibre"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-sm%C3%B8r/produkter/tine-sm%C3%B8remyk",
+      "status": "label_has_none",
+      "note": "Meny 7038010073168 prints no fibre"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-naturell-gresk-type-430g",
+      "status": "label_has_none",
+      "note": "Meny 7038010069451 prints no fibre"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinpudding-sjokolade",
+      "status": "label_has_none",
+      "note": "Meny 7038010061844 prints no fibre"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/yt/produkter/yt-proteinshake-jordb%C3%A6r-banan",
+      "status": "label_has_none",
+      "note": "Meny 7038010072925 prints no fibre"
+     },
+     {
+      "id": "toro:https://www.toro.no/produkter/blomkalsuppe/",
+      "status": "label_has_none",
+      "note": "Meny 7039010610612 prints no fibre"
+     },
+     {
+      "id": "toro:https://www.toro.no/produkter/hollandaisesaus-original/",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0
+      },
+      "label_full": {
+       "kcal": 226,
+       "protein_g": 2.8,
+       "fat_g": 20,
+       "sat_fat_g": 6.1,
+       "carbs_g": 8.2,
+       "sugars_g": 4.7,
+       "fibre_g": 0,
+       "salt_g": 0.85
+      },
+      "source_url": "https://meny.no/ (EAN 7037610231992, Kostfiber 0 g)",
+      "note": "Label prints Kostfiber 0 g"
+     },
+     {
+      "id": "toro:https://www.toro.no/produkter/hvit-saus-original/",
+      "status": "label_has_none",
+      "note": "Meny 7037610016049 prints no fibre"
+     },
+     {
+      "id": "toro:https://www.toro.no/produkter/lasagne/",
+      "status": "label_has_none",
+      "note": "Meny 7037610050333 (200 g) prints no fibre"
+     },
+     {
+      "id": "toro:https://www.toro.no/produkter/sjokoladedrikk-boks/",
+      "status": "label_has_none",
+      "note": "Meny 7039010563857 prints no fibre"
+     },
+     {
+      "id": "toro:https://www.toro.no/produkter/spagettisaus/",
+      "status": "filled",
+      "found": {
+       "sat_fat_g": 0
+      },
+      "label_full": {
+       "kcal": 39,
+       "protein_g": 0.9,
+       "fat_g": 0.3,
+       "sat_fat_g": 0,
+       "carbs_g": 7.9,
+       "sugars_g": 4.3,
+       "fibre_g": null,
+       "salt_g": 0.81
+      },
+      "source_url": "https://meny.no/varer//middagstilbehor/sauser/pastasaus/spagettisaus-7039010614689",
+      "note": "Label prints Mettet fett 0 g; no fibre printed"
+     },
+     {
+      "id": "toro:https://www.toro.no/produkter/toro-meksikansk-tomatsuppe/",
+      "status": "label_has_none",
+      "note": "Meny 7039010610551 prints no fibre"
+     }
+    ]
+   },
+   {
+    "batch": 11,
+    "rows": [
+     {
+      "id": "toro:https://www.toro.no/produkter/vafler/",
+      "status": "label_has_none",
+      "note": "Meny 7039010603034 matches; no fibre printed",
+      "source_url": "https://meny.no/varer//7039010603034"
+     },
+     {
+      "id": "ean:0000023811614",
+      "status": "label_has_none",
+      "note": "Spar 23811614 Lundal Bacon matches; no fibre printed"
+     },
+     {
+      "id": "ean:0011210622227",
+      "status": "filled",
+      "found": {
+       "fibre_g": 1.2
+      },
+      "note": "Meny 11210622227 Tabasco Jalapeno 60ml; Kostfiber 1.2 g printed; other numbers match",
+      "source_url": "https://meny.no/varer/11210622227"
+     },
+     {
+      "id": "ean:0049412576581",
+      "status": "label_has_none",
+      "note": "Meny 7039010576581 Big One BBQ Chicken; numbers match; no fibre printed"
+     },
+     {
+      "id": "ean:0748454751900",
+      "status": "numbers_disagree",
+      "label_full": {
+       "kcal": 370,
+       "protein_g": 0.6,
+       "fat_g": 0.5,
+       "sat_fat_g": 0.5,
+       "carbs_g": 91,
+       "sugars_g": 29,
+       "fibre_g": null,
+       "salt_g": 0.01
+      },
+      "note": "Nearest is Spar 8718114751900 Maizenajevner Lys 250g (different EAN); sugars 29 vs ours 26 (over 5%), so not same label"
+     },
+     {
+      "id": "ean:2302191902612",
+      "status": "label_has_none",
+      "note": "Meny 7038010019241 Ridderost matches; no fibre printed"
+     },
+     {
+      "id": "ean:2302691102956",
+      "status": "label_has_none",
+      "note": "Meny 23026911 Snofrisk Hvit matches; no fibre printed"
+     },
+     {
+      "id": "ean:2376088213600",
+      "status": "label_has_none",
+      "note": "Meny 23760882 Leroy Lutefisk matches; no fibre printed"
+     },
+     {
+      "id": "ean:4008400163826",
+      "status": "label_has_none",
+      "note": "Meny Ferrero Rocher 350g cone matches exactly; no fibre printed"
+     },
+     {
+      "id": "ean:4014400900651",
+      "status": "label_has_none",
+      "note": "Meny 4014400400007 Toffifee 125g matches exactly; no fibre printed"
+     },
+     {
+      "id": "ean:5000112651201",
+      "status": "label_has_none",
+      "note": "Meny same EAN; no fibre printed"
+     },
+     {
+      "id": "ean:5000159602778",
+      "status": "label_has_none",
+      "note": "Meny same EAN; no fibre printed"
+     },
+     {
+      "id": "ean:5053827202732",
+      "status": "label_has_none",
+      "note": "Meny same EAN; no fibre printed"
+     },
+     {
+      "id": "ean:5201704054244",
+      "status": "label_has_none",
+      "note": "Meny same EAN; no fibre printed"
+     },
+     {
+      "id": "ean:5201704054701",
+      "status": "filled",
+      "found": {
+       "salt_g": 2.5
+      },
+      "note": "Salt from Meny 5201704054404 Kolios Feta Okologisk 200g (different EAN, same name, brand and numbers 275/16/23/16/1); no fibre printed. Medium confidence."
+     },
+     {
+      "id": "ean:5700383839673",
+      "status": "label_has_none",
+      "note": "Meny 7039610008437 Prior Kyllingfilet skivet grillet 200g matches; no fibre printed"
+     },
+     {
+      "id": "ean:5701073066546",
+      "status": "label_has_none",
+      "note": "Meny same EAN; no fibre printed"
+     },
+     {
+      "id": "ean:5709364650207",
+      "status": "label_has_none",
+      "note": "Meny 7037421097565 Berthas Pepperkaker 300g matches; no fibre printed"
+     },
+     {
+      "id": "ean:5711953156847",
+      "status": "label_has_none",
+      "note": "Meny same EAN; no fibre printed"
+     },
+     {
+      "id": "ean:5760466923125",
+      "status": "label_has_none",
+      "note": "Meny same EAN; no fibre printed"
+     },
+     {
+      "id": "ean:6191509900688",
+      "status": "label_has_none",
+      "note": "Meny same EAN; no fibre printed"
+     },
+     {
+      "id": "ean:6415600558259",
+      "status": "not_found",
+      "note": "Not in Meny or Spar by barcode or name"
+     },
+     {
+      "id": "ean:7020655009015",
+      "status": "not_found",
+      "note": "Only a different product found (Holli Molle landhvetemel, 347 kcal, carbs 67.9); not the same"
+     },
+     {
+      "id": "ean:7025050026131",
+      "status": "label_has_none",
+      "note": "Meny same EAN; no fibre printed"
+     },
+     {
+      "id": "ean:7025110115171",
+      "status": "not_found",
+      "note": "Not found in Meny or Spar"
+     }
+    ]
+   },
+   {
+    "batch": 12,
+    "rows": [
+     {
+      "id": "ean:7025110228086",
+      "status": "not_found",
+      "note": "Coop nuggets not in Meny/Spar/Joker search"
+     },
+     {
+      "id": "ean:7028550157466",
+      "status": "label_has_none",
+      "source_url": "meny.no ng.py ean 7028550157466",
+      "label_full": {
+       "kcal": 443,
+       "protein_g": 1,
+       "fat_g": 44.3,
+       "sat_fat_g": 3.3,
+       "carbs_g": 10,
+       "sugars_g": 8.7,
+       "fibre_g": null,
+       "salt_g": 0.6
+      }
+     },
+     {
+      "id": "ean:7032069714843",
+      "status": "not_found",
+      "note": "Rema product, not in NG stores; kassal 404"
+     },
+     {
+      "id": "ean:7032069726563",
+      "status": "not_found",
+      "note": "Rema product, not found"
+     },
+     {
+      "id": "ean:7032069728536",
+      "status": "not_found",
+      "note": "Rema product, not found"
+     },
+     {
+      "id": "ean:7032069732250",
+      "status": "not_found",
+      "note": "Rema product, not found"
+     },
+     {
+      "id": "ean:7033330013276",
+      "status": "label_has_none",
+      "source_url": "meny.no ng.py ean 7033330013276",
+      "label_full": {
+       "kcal": 811,
+       "protein_g": 0.1,
+       "fat_g": 90,
+       "sat_fat_g": 15.7,
+       "carbs_g": 0.2,
+       "sugars_g": 0.2,
+       "fibre_g": null,
+       "salt_g": 1
+      }
+     },
+     {
+      "id": "ean:7033330087710",
+      "status": "numbers_disagree",
+      "note": "Meny label with same EAN: 181 kcal vs our 290, fat 14 vs 21.8",
+      "source_url": "meny.no ng.py ean 7033330087710",
+      "label_full": {
+       "kcal": 181,
+       "protein_g": 6.2,
+       "fat_g": 14,
+       "sat_fat_g": 5,
+       "carbs_g": 8.4,
+       "sugars_g": 3.1,
+       "fibre_g": 0.9,
+       "salt_g": 1
+      }
+     },
+     {
+      "id": "ean:7033330089509",
+      "status": "not_found",
+      "note": "Only other Yoplait Kvarg flavours found"
+     },
+     {
+      "id": "ean:7035620052002",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0.5
+      },
+      "source_url": "meny.no ng.py ean 7035620052002",
+      "label_full": {
+       "kcal": 254,
+       "protein_g": 15,
+       "fat_g": 21,
+       "sat_fat_g": 7.1,
+       "carbs_g": 1,
+       "sugars_g": 0.5,
+       "fibre_g": 0.5,
+       "salt_g": 1.9
+      }
+     },
+     {
+      "id": "ean:7037159627003",
+      "status": "label_has_none",
+      "source_url": "meny.no ng.py ean 7037159627003",
+      "label_full": {
+       "kcal": 1,
+       "protein_g": 0.1,
+       "fat_g": 0,
+       "sat_fat_g": 0,
+       "carbs_g": 0,
+       "sugars_g": 0,
+       "fibre_g": null,
+       "salt_g": 0
+      }
+     },
+     {
+      "id": "ean:7037203635954",
+      "status": "label_has_none",
+      "source_url": "meny.no ng.py ean 7037203635954",
+      "label_full": {
+       "kcal": 362,
+       "protein_g": 13,
+       "fat_g": 34,
+       "sat_fat_g": 12,
+       "carbs_g": 0.2,
+       "sugars_g": 0.2,
+       "fibre_g": null,
+       "salt_g": 2.2
+      }
+     },
+     {
+      "id": "ean:7037203637040",
+      "status": "label_has_none",
+      "source_url": "meny.no ng.py ean 7037203637040",
+      "label_full": {
+       "kcal": 277,
+       "protein_g": 13,
+       "fat_g": 23,
+       "sat_fat_g": 8.6,
+       "carbs_g": 3.7,
+       "sugars_g": 0.3,
+       "fibre_g": null,
+       "salt_g": 1.7
+      }
+     },
+     {
+      "id": "ean:7037203643676",
+      "status": "label_has_none",
+      "source_url": "meny.no ng.py ean 7037203643676",
+      "label_full": {
+       "kcal": 266,
+       "protein_g": 13,
+       "fat_g": 21,
+       "sat_fat_g": 7.7,
+       "carbs_g": 6,
+       "sugars_g": 0.2,
+       "fibre_g": null,
+       "salt_g": 1.8
+      }
+     },
+     {
+      "id": "ean:7037203644130",
+      "status": "not_found",
+      "note": "Gilde Bacon 400g not in Meny/Spar/Joker search"
+     },
+     {
+      "id": "ean:7037203645403",
+      "status": "label_has_none",
+      "source_url": "meny.no ng.py ean 7037203645403",
+      "label_full": {
+       "kcal": 231,
+       "protein_g": 11,
+       "fat_g": 18,
+       "sat_fat_g": 7.2,
+       "carbs_g": 5.7,
+       "sugars_g": 0.2,
+       "fibre_g": null,
+       "salt_g": 1.7
+      }
+     },
+     {
+      "id": "ean:7037203645434",
+      "status": "label_has_none",
+      "source_url": "meny.no ng.py ean 7037203645434",
+      "label_full": {
+       "kcal": 228,
+       "protein_g": 11,
+       "fat_g": 18,
+       "sat_fat_g": 6.8,
+       "carbs_g": 5.9,
+       "sugars_g": 0.3,
+       "fibre_g": null,
+       "salt_g": 1.8
+      }
+     },
+     {
+      "id": "ean:7037203645670",
+      "status": "label_has_none",
+      "source_url": "meny.no ng.py ean 7037203645670",
+      "label_full": {
+       "kcal": 202,
+       "protein_g": 19,
+       "fat_g": 14,
+       "sat_fat_g": 6.3,
+       "carbs_g": 0,
+       "sugars_g": 0,
+       "fibre_g": null,
+       "salt_g": 0.1
+      }
+     },
+     {
+      "id": "ean:7037204612428",
+      "status": "label_has_none",
+      "source_url": "meny.no ng.py ean 7037204612428",
+      "label_full": {
+       "kcal": 227,
+       "protein_g": 17,
+       "fat_g": 18,
+       "sat_fat_g": 7.9,
+       "carbs_g": 0,
+       "sugars_g": 0,
+       "fibre_g": null,
+       "salt_g": 0.8
+      }
+     },
+     {
+      "id": "ean:7037204642821",
+      "status": "not_found",
+      "note": "Only Julepølse Røkt/Kokt/Grov variants found, not this EAN"
+     },
+     {
+      "id": "ean:7037204645259",
+      "status": "label_has_none",
+      "source_url": "meny.no ng.py ean 7037204645259",
+      "label_full": {
+       "kcal": 237,
+       "protein_g": 8.5,
+       "fat_g": 19,
+       "sat_fat_g": 7.1,
+       "carbs_g": 7.1,
+       "sugars_g": 0.3,
+       "fibre_g": null,
+       "salt_g": 1.7
+      }
+     },
+     {
+      "id": "ean:7037204648229",
+      "status": "label_has_none",
+      "source_url": "meny.no ng.py ean 7037204648229",
+      "label_full": {
+       "kcal": 246,
+       "protein_g": 10,
+       "fat_g": 20,
+       "sat_fat_g": 7.1,
+       "carbs_g": 6.3,
+       "sugars_g": 0.4,
+       "fibre_g": null,
+       "salt_g": 1.7
+      }
+     },
+     {
+      "id": "ean:7037204651342",
+      "status": "label_has_none",
+      "source_url": "meny.no ng.py ean 7037204651342",
+      "label_full": {
+       "kcal": 221,
+       "protein_g": 10,
+       "fat_g": 18,
+       "sat_fat_g": 6.2,
+       "carbs_g": 5.7,
+       "sugars_g": 0.4,
+       "fibre_g": null,
+       "salt_g": 1.7
+      }
+     },
+     {
+      "id": "ean:7037204755231",
+      "status": "label_has_none",
+      "source_url": "meny.no ng.py ean 7037204755231",
+      "label_full": {
+       "kcal": 155,
+       "protein_g": 12,
+       "fat_g": 9.1,
+       "sat_fat_g": 3.6,
+       "carbs_g": 6.2,
+       "sugars_g": 0.2,
+       "fibre_g": null,
+       "salt_g": 1.9
+      }
+     },
+     {
+      "id": "ean:7037711023489",
+      "status": "label_has_none",
+      "source_url": "meny.no ng.py ean 7037711023489",
+      "label_full": {
+       "kcal": 403,
+       "protein_g": 3.4,
+       "fat_g": 8,
+       "sat_fat_g": 4.8,
+       "carbs_g": 82,
+       "sugars_g": 62,
+       "fibre_g": null,
+       "salt_g": 0
+      }
+     }
+    ]
+   },
+   {
+    "batch": 13,
+    "rows": [
+     {
+      "id": "ean:7038010014307",
+      "status": "not_found",
+      "note": "No Meny/Spar hit by EAN or name"
+     },
+     {
+      "id": "ean:7038010024597",
+      "status": "label_has_none",
+      "source_url": "meny.no (Snøfrisk Lett Naturell 125g, ean 7038010024597)",
+      "label_full": {
+       "kcal": 179,
+       "protein_g": 7.8,
+       "fat_g": 15,
+       "sat_fat_g": 10,
+       "carbs_g": 3.2,
+       "sugars_g": 3.2,
+       "fibre_g": null,
+       "salt_g": 1.1
+      },
+      "note": "Matches ours; no fibre printed"
+     },
+     {
+      "id": "ean:7038010029776",
+      "status": "label_has_none",
+      "source_url": "meny.no (Brunost Heidal 500g, ean 7038010029776)",
+      "label_full": {
+       "kcal": 452,
+       "protein_g": 11,
+       "fat_g": 29,
+       "sat_fat_g": 19,
+       "carbs_g": 37,
+       "sugars_g": 27,
+       "fibre_g": null,
+       "salt_g": 0.8
+      },
+      "note": "Matches ours; no fibre printed"
+     },
+     {
+      "id": "ean:7038010042577",
+      "status": "label_has_none",
+      "source_url": "meny.no (Styrk Melk Fettfri 1l, ean 7038010042577)",
+      "label_full": {
+       "kcal": 41,
+       "protein_g": 5.3,
+       "fat_g": 0.1,
+       "sat_fat_g": 0.1,
+       "carbs_g": 4.6,
+       "sugars_g": 4.6,
+       "fibre_g": null,
+       "salt_g": 0.1
+      },
+      "note": "Matches ours; no fibre printed"
+     },
+     {
+      "id": "ean:7038010043338",
+      "status": "label_has_none",
+      "source_url": "meny.no (Matfløte Lett 10% 3dl, ean 7038010043338)",
+      "label_full": {
+       "kcal": 119,
+       "protein_g": 3.1,
+       "fat_g": 10,
+       "sat_fat_g": 6.2,
+       "carbs_g": 4.1,
+       "sugars_g": 4.1,
+       "fibre_g": null,
+       "salt_g": 0.09
+      },
+      "note": "Matches ours; no fibre printed"
+     },
+     {
+      "id": "ean:7039010067461",
+      "status": "not_found",
+      "note": "No Meny/Spar hit by EAN or name"
+     },
+     {
+      "id": "ean:7039010555654",
+      "status": "numbers_disagree",
+      "source_url": "meny.no (Supergranola Hassel&Kokos 450g, ean 7039010555654)",
+      "label_full": {
+       "kcal": 457,
+       "protein_g": 11,
+       "fat_g": 21,
+       "sat_fat_g": 2.7,
+       "carbs_g": 45,
+       "sugars_g": 6.8,
+       "fibre_g": null,
+       "salt_g": 0.54
+      },
+      "note": "Same EAN on Meny is Supergranola Hassel&Kokos; our numbers (378 kcal, 8 g fat) match a different Bare Bra granola (Kakao&Bringebær, 7039010578547). Our row looks wrong; no fibre printed"
+     },
+     {
+      "id": "ean:7039010569385",
+      "status": "label_has_none",
+      "source_url": "meny.no (Grandiosa Pizza Take Away Meat Supreme 540g, ean 7039010569385)",
+      "label_full": {
+       "kcal": 239,
+       "protein_g": 11,
+       "fat_g": 11,
+       "sat_fat_g": 4.4,
+       "carbs_g": 23,
+       "sugars_g": 1.7,
+       "fibre_g": null,
+       "salt_g": 1.2
+      },
+      "note": "Matches ours; no fibre printed"
+     },
+     {
+      "id": "ean:7039010578547",
+      "status": "label_has_none",
+      "source_url": "meny.no (Granola Kakao&Bringebær 430g, ean 7039010578547)",
+      "label_full": {
+       "kcal": 378,
+       "protein_g": 11,
+       "fat_g": 8,
+       "sat_fat_g": 2.5,
+       "carbs_g": 52,
+       "sugars_g": 3.6,
+       "fibre_g": null,
+       "salt_g": 0.33
+      },
+      "note": "Matches ours; no fibre printed"
+     },
+     {
+      "id": "ean:7039010612395",
+      "status": "label_has_none",
+      "source_url": "meny.no (Basmatiris Boil In Bag 1kg, ean 7039010612395)",
+      "label_full": {
+       "kcal": 127,
+       "protein_g": 3.2,
+       "fat_g": 0.4,
+       "sat_fat_g": 0.1,
+       "carbs_g": 27,
+       "sugars_g": 0.2,
+       "fibre_g": null,
+       "salt_g": 0.01
+      },
+      "note": "Matches ours; no fibre printed"
+     },
+     {
+      "id": "ean:7039010621144",
+      "status": "label_has_none",
+      "source_url": "meny.no (Meksikansk Gryte 400g, ean 7039010621144)",
+      "label_full": {
+       "kcal": 119,
+       "protein_g": 5.4,
+       "fat_g": 4.6,
+       "sat_fat_g": 1.5,
+       "carbs_g": 13,
+       "sugars_g": 1.5,
+       "fibre_g": null,
+       "salt_g": 0.76
+      },
+      "note": "Matches ours; no fibre printed"
+     },
+     {
+      "id": "ean:7039610001766",
+      "status": "label_has_none",
+      "source_url": "meny.no (Kyllingfilet Micro 400g Prior, ean 7039610001766)",
+      "label_full": {
+       "kcal": 122,
+       "protein_g": 23,
+       "fat_g": 3,
+       "sat_fat_g": 0.5,
+       "carbs_g": 0.6,
+       "sugars_g": 0.5,
+       "fibre_g": null,
+       "salt_g": 1
+      },
+      "note": "Matches ours; no fibre printed"
+     },
+     {
+      "id": "ean:7039610003968",
+      "status": "label_has_none",
+      "source_url": "meny.no (Kyllingbryst 650g Prior, ean 7039610003968)",
+      "label_full": {
+       "kcal": 125,
+       "protein_g": 21,
+       "fat_g": 4.6,
+       "sat_fat_g": 1.2,
+       "carbs_g": 0,
+       "sugars_g": 0,
+       "fibre_g": null,
+       "salt_g": 0.2
+      },
+      "note": "Matches ours; no fibre printed"
+     },
+     {
+      "id": "ean:7039610009403",
+      "status": "not_found",
+      "note": "No EAN hit; name search gave no matching EAN"
+     },
+     {
+      "id": "ean:7039610026752",
+      "status": "not_found",
+      "note": "No EAN hit; name search only gave other Prior/other-brand mince products"
+     },
+     {
+      "id": "ean:7039610027056",
+      "status": "not_found",
+      "note": "No Meny/Spar hit"
+     },
+     {
+      "id": "ean:7043180100521",
+      "status": "label_has_none",
+      "source_url": "meny.no (Kyllingfilet 2,5kg Singelfryst, ean 7043180100521)",
+      "label_full": {
+       "kcal": 101,
+       "protein_g": 21,
+       "fat_g": 1.9,
+       "sat_fat_g": 0.5,
+       "carbs_g": 0.2,
+       "sugars_g": 0.2,
+       "fibre_g": null,
+       "salt_g": 0.6
+      },
+      "note": "Matches ours; no fibre printed"
+     },
+     {
+      "id": "ean:7045386067202",
+      "status": "not_found",
+      "note": "No EAN hit on Meny/Spar"
+     },
+     {
+      "id": "ean:7045386068100",
+      "status": "label_has_none",
+      "source_url": "meny.no (Kjempegrill Cheddar 360g Leiv Vidar, ean 7045386068100)",
+      "label_full": {
+       "kcal": 263,
+       "protein_g": 12.7,
+       "fat_g": 21,
+       "sat_fat_g": 4.7,
+       "carbs_g": 4.1,
+       "sugars_g": 0.1,
+       "fibre_g": null,
+       "salt_g": 1.7
+      },
+      "note": "Matches ours; no fibre printed"
+     },
+     {
+      "id": "ean:7045386069909",
+      "status": "label_has_none",
+      "source_url": "meny.no (Grillpølser 300g Leiv Vidar, ean 7045386069909)",
+      "label_full": {
+       "kcal": 263,
+       "protein_g": 12.7,
+       "fat_g": 21,
+       "sat_fat_g": 4.7,
+       "carbs_g": 4.1,
+       "sugars_g": 0.1,
+       "fibre_g": null,
+       "salt_g": 1.7
+      },
+      "note": "Matches ours; no fibre printed"
+     },
+     {
+      "id": "ean:7050122120677",
+      "status": "label_has_none",
+      "source_url": "meny.no (Tortillachips Hot Salsa 150g Maarud, ean 7050122120677)",
+      "label_full": {
+       "kcal": 500,
+       "protein_g": 6.3,
+       "fat_g": 25,
+       "sat_fat_g": 1.6,
+       "carbs_g": 60,
+       "sugars_g": 3.3,
+       "fibre_g": null,
+       "salt_g": 1.4
+      },
+      "note": "Matches ours; no fibre printed"
+     },
+     {
+      "id": "ean:7052660101255",
+      "status": "not_found",
+      "note": "No Meny/Spar hit"
+     },
+     {
+      "id": "ean:7058040660206",
+      "status": "not_found",
+      "note": "No EAN hit on Meny/Spar; kassal.app 404"
+     },
+     {
+      "id": "ean:7058040664204",
+      "status": "not_found",
+      "note": "No EAN hit on Meny/Spar; kassal.app 404; other Grilstad burgers have different numbers"
+     },
+     {
+      "id": "ean:7058040690609",
+      "status": "label_has_none",
+      "source_url": "meny.no (Cheeseburger 8x100g Grilstad, ean 7058040690609)",
+      "label_full": {
+       "kcal": 262,
+       "protein_g": 16,
+       "fat_g": 22,
+       "sat_fat_g": 10,
+       "carbs_g": 2.2,
+       "sugars_g": 0,
+       "fibre_g": null,
+       "salt_g": 1
+      },
+      "note": "Matches ours; no fibre printed"
+     }
+    ]
+   },
+   {
+    "batch": 14,
+    "rows": [
+     {
+      "id": "ean:7090007276112",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//meieri-egg/egg/egg-okologisk-7090007276112",
+      "label_full": {
+       "kcal": 146,
+       "protein_g": 12.5,
+       "fat_g": 10.5,
+       "sat_fat_g": 2.8,
+       "carbs_g": 0.3,
+       "sugars_g": 0.3,
+       "fibre_g": null,
+       "salt_g": 0.4
+      },
+      "note": "Meny label prints no fibre"
+     },
+     {
+      "id": "ean:7310350135141",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/center-rull-7310350135141",
+      "label_full": {
+       "kcal": 479,
+       "protein_g": 4.1,
+       "fat_g": 23,
+       "sat_fat_g": 15,
+       "carbs_g": 63,
+       "sugars_g": 47,
+       "fibre_g": null,
+       "salt_g": 1
+      },
+      "note": "no fibre printed"
+     },
+     {
+      "id": "ean:7315360061503",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//bakeri/boller-og-smakaker/skumboller/delicatobolle-7315360061503",
+      "label_full": {
+       "kcal": 480,
+       "protein_g": 5,
+       "fat_g": 30,
+       "sat_fat_g": 18,
+       "carbs_g": 49,
+       "sugars_g": 30,
+       "fibre_g": null,
+       "salt_g": 0.4
+      },
+      "note": "no fibre printed"
+     },
+     {
+      "id": "ean:7340131607185",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//drikke/energidrikke/nocco-electrolyte-7340131607185",
+      "label_full": {
+       "kcal": 3,
+       "protein_g": 0,
+       "fat_g": 0,
+       "sat_fat_g": 0,
+       "carbs_g": 0,
+       "sugars_g": 0,
+       "fibre_g": null,
+       "salt_g": 0.02
+      },
+      "note": "no fibre printed"
+     },
+     {
+      "id": "ean:8008706085422",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//middagstilbehor/matoljer/olivenolje/olivenolje-8008706085422",
+      "label_full": {
+       "kcal": 824,
+       "protein_g": 0,
+       "fat_g": 92,
+       "sat_fat_g": 13,
+       "carbs_g": 0,
+       "sugars_g": 0,
+       "fibre_g": null,
+       "salt_g": 0
+      },
+      "note": "no fibre printed"
+     },
+     {
+      "id": "ean:8023767000429",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//middagstilbehor/matoljer/olivenolje/olivenolje-limone-8023767000429",
+      "label_full": {
+       "kcal": 900,
+       "protein_g": 0,
+       "fat_g": 98.5,
+       "sat_fat_g": 14.6,
+       "carbs_g": 0,
+       "sugars_g": 0,
+       "fibre_g": null,
+       "salt_g": 0
+      },
+      "note": "Meny names it Olivenolje Limone (Donnalisa Ex.Virgin 250ml); numbers identical, no fibre printed"
+     },
+     {
+      "id": "ean:7071688005550",
+      "status": "not_found",
+      "note": "not on Meny"
+     },
+     {
+      "id": "ean:7090007278246",
+      "status": "not_found",
+      "note": "not on Meny"
+     },
+     {
+      "id": "ean:7300156491794",
+      "status": "not_found",
+      "note": "Swedish product, not on Meny"
+     },
+     {
+      "id": "ean:7300156491930",
+      "status": "not_found",
+      "note": "Swedish product, not on Meny"
+     },
+     {
+      "id": "ean:7310070005144",
+      "status": "not_found",
+      "note": "not on Meny"
+     },
+     {
+      "id": "ean:7310846460580",
+      "status": "not_found",
+      "note": "not on Meny; salt missing"
+     },
+     {
+      "id": "ean:7310865074362",
+      "status": "not_found",
+      "note": "not on Meny"
+     },
+     {
+      "id": "ean:7310865889157",
+      "status": "not_found",
+      "note": "not on Meny"
+     },
+     {
+      "id": "ean:7310865889799",
+      "status": "not_found",
+      "note": "not on Meny"
+     },
+     {
+      "id": "ean:7310865889904",
+      "status": "not_found",
+      "note": "not on Meny"
+     },
+     {
+      "id": "ean:7311041037195",
+      "status": "not_found",
+      "note": "not on Meny"
+     },
+     {
+      "id": "ean:7311041076590",
+      "status": "not_found",
+      "note": "not on Meny"
+     },
+     {
+      "id": "ean:7340005407040",
+      "status": "not_found",
+      "note": "not on Meny"
+     },
+     {
+      "id": "ean:7340011419303",
+      "status": "not_found",
+      "note": "not on Meny"
+     },
+     {
+      "id": "ean:7340191156135",
+      "status": "not_found",
+      "note": "not on Meny; kassal.app 404; salt missing"
+     },
+     {
+      "id": "ean:7340191159877",
+      "status": "not_found",
+      "note": "not on Meny; salt missing"
+     },
+     {
+      "id": "ean:7350000550382",
+      "status": "not_found",
+      "note": "not on Meny; salt missing"
+     },
+     {
+      "id": "ean:7610400113083",
+      "status": "not_found",
+      "note": "not on Meny; kassal.app 404"
+     },
+     {
+      "id": "ean:7613032181758",
+      "status": "not_found",
+      "note": "not on Meny; kassal.app 404"
+     }
+    ]
+   },
+   {
+    "batch": 15,
+    "rows": [
+     {
+      "id": "ean:8310895074362",
+      "status": "not_found",
+      "note": "Not on Meny; kassal.app 404"
+     },
+     {
+      "id": "ean:8410076482563",
+      "status": "filled",
+      "found": {
+       "sugars_g": 3.5
+      },
+      "label_full": {
+       "kcal": 488,
+       "protein_g": 6.3,
+       "fat_g": 25.2,
+       "sat_fat_g": 2.9,
+       "carbs_g": 0,
+       "sugars_g": 3.5,
+       "fibre_g": 4.7,
+       "salt_g": 1.57
+      },
+      "source_url": "https://meny.no/varer/ (ean 8410076482563, Tortilla Chips Chili 185g Old El Paso)",
+      "note": "Same EAN; other numbers match. Label prints carbs 0 g, as in our row."
+     },
+     {
+      "id": "ean:8410083482570",
+      "status": "not_found",
+      "note": "Meny has Old El Paso Cheese under EAN 8410076482570 with different numbers (488 kcal, 6.7 protein); not the same EAN, so not used"
+     },
+     {
+      "id": "ean:8425212002109",
+      "status": "label_has_none",
+      "label_full": {
+       "kcal": 882,
+       "protein_g": 0,
+       "fat_g": 98,
+       "sat_fat_g": 14,
+       "carbs_g": 0,
+       "sugars_g": 0,
+       "fibre_g": null,
+       "salt_g": 0
+      },
+      "source_url": "https://meny.no/varer/ (ean 8425212002109)"
+     },
+     {
+      "id": "ean:8437003149061",
+      "status": "label_has_none",
+      "label_full": {
+       "kcal": 828,
+       "protein_g": 0,
+       "fat_g": 92,
+       "sat_fat_g": 13,
+       "carbs_g": 0,
+       "sugars_g": 0,
+       "fibre_g": null,
+       "salt_g": 0
+      },
+      "source_url": "https://meny.no/varer/ (ean 8437003149061, Omed 500ml Picual)"
+     },
+     {
+      "id": "ean:8711000393857",
+      "status": "not_found",
+      "note": "Not found on Meny by name"
+     },
+     {
+      "id": "grandiosa:https://www.grandiosa.no/produkter/grandiosa-mozzarella/",
+      "status": "label_has_none",
+      "label_full": {
+       "kcal": 238,
+       "protein_g": 12,
+       "fat_g": 8.6,
+       "sat_fat_g": 4.1,
+       "carbs_g": 27,
+       "sugars_g": 1.4,
+       "fibre_g": null,
+       "salt_g": 1.2
+      },
+      "source_url": "https://meny.no/varer/ (ean 7039010607957)"
+     },
+     {
+      "id": "grandiosa:https://www.grandiosa.no/produkter/pizzarull-skinke-mozzarella/",
+      "status": "label_has_none",
+      "label_full": {
+       "kcal": 221,
+       "protein_g": 11,
+       "fat_g": 8,
+       "sat_fat_g": 3.3,
+       "carbs_g": 25,
+       "sugars_g": 1.9,
+       "fibre_g": null,
+       "salt_g": 1.1
+      },
+      "source_url": "https://meny.no/varer/ (ean 7039010599078)"
+     },
+     {
+      "id": "kassalapp:228894",
+      "status": "label_has_none",
+      "label_full": {
+       "kcal": 53,
+       "protein_g": 8,
+       "fat_g": 0.2,
+       "sat_fat_g": 0.1,
+       "carbs_g": 4.6,
+       "sugars_g": 4.6,
+       "fibre_g": null,
+       "salt_g": 0.22
+      },
+      "source_url": "https://meny.no/varer/ (ean 7070866042721, Maxim Protein Shake Karamell Latte 250ml)"
+     },
+     {
+      "id": "kassalapp:29223",
+      "status": "label_has_none",
+      "label_full": {
+       "kcal": 45,
+       "protein_g": 3.6,
+       "fat_g": 1.3,
+       "sat_fat_g": 0.8,
+       "carbs_g": 4.7,
+       "sugars_g": 4.5,
+       "fibre_g": null,
+       "salt_g": 0.1
+      },
+      "source_url": "https://meny.no/varer/ (ean 7038010058639)"
+     },
+     {
+      "id": "kassalapp:64570",
+      "status": "not_found",
+      "note": "Not found on Meny"
+     },
+     {
+      "id": "kassalapp:67828",
+      "status": "not_found",
+      "note": "Not found on Meny"
+     },
+     {
+      "id": "kavli:https://www.kavli.no/produkter/smaksrikcheddarchili",
+      "status": "not_found",
+      "note": "Not found on Meny"
+     },
+     {
+      "id": "mills:https://mills.no/mills/produkt/kaviarmix/",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0
+      },
+      "label_full": {
+       "kcal": 510,
+       "protein_g": 5,
+       "fat_g": 51,
+       "sat_fat_g": 3,
+       "carbs_g": 8,
+       "sugars_g": 6,
+       "fibre_g": 0,
+       "salt_g": 4.1
+      },
+      "source_url": "https://meny.no/varer/ (ean 7036110009865, Kaviarmix 175g Mills)",
+      "note": "Label prints Kostfiber 0 g"
+     },
+     {
+      "id": "mills:https://mills.no/mills/produkt/ovnsbakt-postei/",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0
+      },
+      "label_full": {
+       "kcal": 225,
+       "protein_g": 9,
+       "fat_g": 18,
+       "sat_fat_g": 2,
+       "carbs_g": 6,
+       "sugars_g": 2,
+       "fibre_g": 0,
+       "salt_g": 1.5
+      },
+      "source_url": "https://meny.no/varer/ (ean 7036110007724, Leverpostei Ovnsbakt 185g Mills)",
+      "note": "Label prints Kostfiber 0 g"
+     },
+     {
+      "id": "mills:https://mills.no/soft-flora/produkt/soft-flora-stekebake/",
+      "status": "label_has_none",
+      "label_full": {
+       "kcal": 630,
+       "protein_g": 0.5,
+       "fat_g": 70,
+       "sat_fat_g": 27,
+       "carbs_g": 0.5,
+       "sugars_g": 0.5,
+       "fibre_g": null,
+       "salt_g": 1.5
+      },
+      "source_url": "https://meny.no/varer/ (ean 7036110009704)"
+     },
+     {
+      "id": "mills:https://mills.no/vita-hjertego/produkt/vita-hjertego-flytende/",
+      "status": "label_has_none",
+      "label_full": {
+       "kcal": 720,
+       "protein_g": 0.5,
+       "fat_g": 80,
+       "sat_fat_g": 7,
+       "carbs_g": 0.5,
+       "sugars_g": 0.5,
+       "fibre_g": null,
+       "salt_g": 1
+      },
+      "source_url": "https://meny.no/varer/ (ean 7036110210827)"
+     },
+     {
+      "id": "nidar:https://www.nidar.no/produkt/hobby/",
+      "status": "numbers_disagree",
+      "label_full": {
+       "kcal": 403,
+       "protein_g": 3.4,
+       "fat_g": 8,
+       "sat_fat_g": 4.8,
+       "carbs_g": 82,
+       "sugars_g": 62,
+       "fibre_g": null,
+       "salt_g": 0
+      },
+      "source_url": "https://meny.no/varer/ (ean 7037711023489, Hobby 48g Nidar)",
+      "note": "Meny label kcal 403 and carbs 82 vs ours 370 and 67.8; no fibre printed"
+     },
+     {
+      "id": "q-meieriene:https://www.q-meieriene.no/produkter/q-melk-skummet",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0
+      },
+      "label_full": {
+       "kcal": 34,
+       "protein_g": 3.7,
+       "fat_g": 0.1,
+       "sat_fat_g": 0.1,
+       "carbs_g": 4.5,
+       "sugars_g": 4.5,
+       "fibre_g": 0,
+       "salt_g": 0.1
+      },
+      "source_url": "https://meny.no/varer/ (ean 7048840000036, Skummet Melk 1l Q)",
+      "note": "Label prints Kostfiber 0 g"
+     },
+     {
+      "id": "q-meieriene:https://www.q-meieriene.no/produkter/q-protein-salty-caramel",
+      "status": "label_has_none",
+      "label_full": {
+       "kcal": 60,
+       "protein_g": 9.1,
+       "fat_g": 0.6,
+       "sat_fat_g": 0.3,
+       "carbs_g": 5.2,
+       "sugars_g": 5.2,
+       "fibre_g": null,
+       "salt_g": 0.25
+      },
+      "source_url": "https://meny.no/varer/ (ean 7048840232260)"
+     },
+     {
+      "id": "q-meieriene:https://www.q-meieriene.no/produkter/skyr-luftig-sitron",
+      "status": "label_has_none",
+      "label_full": {
+       "kcal": 52,
+       "protein_g": 8.7,
+       "fat_g": 0.2,
+       "sat_fat_g": 0.1,
+       "carbs_g": 3.8,
+       "sugars_g": 2.9,
+       "fibre_g": null,
+       "salt_g": 0.1
+      },
+      "source_url": "https://meny.no/varer/ (ean 7048840290826)"
+     },
+     {
+      "id": "synnove:https://www.synnove.no/produkt/proteinyoghurt-vanilje-350g/",
+      "status": "label_has_none",
+      "label_full": {
+       "kcal": 56,
+       "protein_g": 10,
+       "fat_g": 0,
+       "sat_fat_g": 0,
+       "carbs_g": 3.9,
+       "sugars_g": 3.4,
+       "fibre_g": null,
+       "salt_g": 0.1
+      },
+      "source_url": "https://meny.no/varer/ (ean 7034280009821)"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-revet",
+      "status": "label_has_none",
+      "label_full": {
+       "kcal": 321,
+       "protein_g": 28,
+       "fat_g": 23,
+       "sat_fat_g": 15,
+       "carbs_g": 0.8,
+       "sugars_g": 0,
+       "fibre_g": null,
+       "salt_g": 1.2
+      },
+      "source_url": "https://meny.no/varer/ (ean 7038010062322, Norvegia Revet 400g)",
+      "note": "Carbs 0.8 vs ours 1.2 (small absolute gap); other numbers match; no fibre printed"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-gudbrandsdalsost-anno-1863",
+      "status": "label_has_none",
+      "label_full": {
+       "kcal": 450,
+       "protein_g": 11,
+       "fat_g": 30,
+       "sat_fat_g": 21,
+       "carbs_g": 34,
+       "sugars_g": 29,
+       "fibre_g": null,
+       "salt_g": 0.79
+      },
+      "source_url": "https://meny.no/varer/ (ean 7038010025198)"
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-fl%C3%B8te/produkter/tine-kremtopp",
+      "status": "label_has_none",
+      "label_full": {
+       "kcal": 326,
+       "protein_g": 2.2,
+       "fat_g": 33,
+       "sat_fat_g": 21,
+       "carbs_g": 5.1,
+       "sugars_g": 5,
+       "fibre_g": null,
+       "salt_g": 0.03
+      },
+      "source_url": "https://meny.no/varer/ (ean 7038010003202)",
+      "note": "Carbs 5.1 vs ours 5.0; no fibre printed"
+     }
+    ]
+   },
+   {
+    "batch": 16,
+    "rows": [
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-junior/produkter/tine-junior-yoghurt-jordb%C3%A6r-banan",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//meieri-egg/yoghurter/yoghurt/yoghurt-junior-7038010073427",
+      "note": "All numbers match; no fibre printed."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-junior/produkter/tine-junior-yoghurt-jordbaer",
+      "status": "not_found",
+      "note": "Meny only has Junior Yoghurt Jordbær 90g (EAN 7038010063459) at 66 kcal/4.8 protein, which differs from ours (74/7.1); different product."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-junior/produkter/tine-junior-yoghurt-naturell",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//meieri-egg/yoghurter/yoghurt/junior-yoghurt-7038010073472",
+      "note": "Matches; no fibre printed."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-laktosefri/produkter/tine-laktosefri-meierism%C3%B8r",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/smor/smor-laktosefritt-7038010061172",
+      "note": "Matches within 5% (sat fat 53 vs 52); no fibre printed."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-sm%C3%B8r/produkter/tine-usaltet-meierism%C3%B8r",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/smor/smor-usaltet-7038010011702",
+      "note": "Matches within 5% (sat fat 54 vs 53); no fibre printed."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-gresk-vanilje",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//meieri-egg/yoghurter/yoghurt/yoghurt-gresk-type-7038010072901",
+      "note": "Matches (730 g and 850 g identical); no fibre printed."
+     },
+     {
+      "id": "tine:https://www.tine.no/merkevarer/tinemelk/produkter/lett-tinemelk-sjokolade",
+      "status": "filled",
+      "found": {
+       "fibre_g": 0
+      },
+      "source_url": "https://meny.no/varer//meieri-egg/melk/sjokolademelk/lettmelk-sjokolade-7038010071195",
+      "label_full": {
+       "kcal": 47,
+       "protein_g": 3.7,
+       "fat_g": 1.1,
+       "sat_fat_g": 0.7,
+       "carbs_g": 5.6,
+       "sugars_g": 4.6,
+       "fibre_g": 0,
+       "salt_g": 0.1
+      },
+      "note": "Fibre 0 g (Kostfiber) printed only on the 330 ml listing, which matches our numbers exactly. The 1.75 L listing matches too but prints no fibre; the 1 L listing differs (45 kcal). The 0 may be a template value (other sub-nutrients also 0), so low confidence."
+     },
+     {
+      "id": "toro:https://www.toro.no/produkter/kyllingsuppe/",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//middag/supper/kyllingsuppe/kyllingsuppe-7039010610650",
+      "note": "Matches exactly; no fibre printed."
+     },
+     {
+      "id": "toro:https://www.toro.no/produkter/pasta-classico/",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//middag/middag-kit/pastarett-kit/pasta-classico-7039010614726",
+      "note": "Matches exactly; no fibre printed."
+     },
+     {
+      "id": "toro:https://www.toro.no/produkter/ris-jasmin-boil-in-bag/",
+      "status": "filled",
+      "found": {
+       "salt_g": 0.01
+      },
+      "source_url": "https://meny.no/varer//middag/risprodukter/ris/jasminris-7039010612388",
+      "label_full": {
+       "kcal": 124,
+       "protein_g": 2.6,
+       "fat_g": 0.4,
+       "sat_fat_g": 0.1,
+       "carbs_g": 27,
+       "sugars_g": 0.2,
+       "fibre_g": null,
+       "salt_g": 0.01
+      },
+      "note": "Salt printed 0.01 g. Fibre not printed."
+     },
+     {
+      "id": "toro:https://www.toro.no/produkter/toro-bergensk-fiskesuppe-2/",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//middag/supper/fiskesuppe/fiskesuppe-7039010610674",
+      "note": "Matches exactly; no fibre printed."
+     },
+     {
+      "id": "toro:https://www.toro.no/produkter/toro-gronnsaksuppe/",
+      "status": "filled",
+      "found": {
+       "sat_fat_g": 0
+      },
+      "source_url": "https://meny.no/varer//middag/supper/gronnsaksuppe/gronnsakssuppe-7039010610629",
+      "label_full": {
+       "kcal": 20,
+       "protein_g": 0.7,
+       "fat_g": 0.2,
+       "sat_fat_g": 0,
+       "carbs_g": 3.2,
+       "sugars_g": 1.6,
+       "fibre_g": null,
+       "salt_g": 0.79
+      },
+      "note": "Mettet fett 0 g printed. Fibre not printed."
+     },
+     {
+      "id": "toro:https://www.toro.no/produkter/toro-lofoten-fiskesuppe/",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//middag/supper/fiskesuppe/fiskesuppe-7039010610605",
+      "note": "Matches exactly; no fibre printed."
+     },
+     {
+      "id": "toro:https://www.toro.no/produkter/toro-thaisuppe/",
+      "status": "label_has_none",
+      "source_url": "https://meny.no/varer//middag/supper/thaisuppe/thai-red-curry-suppe-7039010610599",
+      "note": "Our numbers match the 118 g Thai Red Curry Suppe exactly; no fibre printed. The 84 g Red Curry (EAN 7039010502481) prints Kostfiber 0 g but its numbers differ more than 5%, so not used."
+     }
+    ]
+   }
+  ],
+  "junk": [
+   {
+    "batch": 0,
+    "rows": [
+     {
+      "id": "ean:0000023753051",
+      "verdict": "keep",
+      "reason": "Lapskaus lys: light stew, real food"
+     },
+     {
+      "id": "ean:17350128640009",
+      "verdict": "keep",
+      "reason": "Sports drink"
+     },
+     {
+      "id": "ean:27350058336826",
+      "verdict": "keep",
+      "reason": "Energy drink"
+     },
+     {
+      "id": "ean:3088540255279",
+      "verdict": "keep",
+      "reason": "Flower honey, food"
+     },
+     {
+      "id": "ean:3088540504308",
+      "verdict": "keep",
+      "reason": "Flower honey, food"
+     },
+     {
+      "id": "ean:3088540508276",
+      "verdict": "keep",
+      "reason": "Flower honey, food"
+     },
+     {
+      "id": "ean:3088541015919",
+      "verdict": "keep",
+      "reason": "Flower honey, food"
+     },
+     {
+      "id": "ean:3088545004001",
+      "verdict": "keep",
+      "reason": "Flower honey, food"
+     },
+     {
+      "id": "ean:3800225476010",
+      "verdict": "keep",
+      "reason": "Chia seeds to eat, 444 kcal"
+     },
+     {
+      "id": "ean:4006040068907",
+      "verdict": "keep",
+      "reason": "Light balsamic vinegar"
+     },
+     {
+      "id": "ean:4015134007661",
+      "verdict": "keep",
+      "reason": "Light cake bun, bakery food"
+     },
+     {
+      "id": "ean:4016249008482",
+      "verdict": "keep",
+      "reason": "Bee pollen, eaten as a food supplement"
+     },
+     {
+      "id": "ean:4044889000078",
+      "verdict": "keep",
+      "reason": "Light chocolate with whole nuts"
+     },
+     {
+      "id": "ean:4335619184411",
+      "verdict": "keep",
+      "reason": "Flower honey, food"
+     },
+     {
+      "id": "ean:5000112690699",
+      "verdict": "keep",
+      "reason": "Sports drink"
+     },
+     {
+      "id": "ean:5000112691788",
+      "verdict": "keep",
+      "reason": "Sports drink"
+     },
+     {
+      "id": "ean:5000488303476",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303483",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303490",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303506",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303513",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303520",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303537",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303544",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303575",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303582",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303599",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303605",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303612",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303629",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303636",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303643",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303650",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303667",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303674",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303681",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303698",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303704",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303711",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     },
+     {
+      "id": "ean:5000488303735",
+      "verdict": "drop",
+      "reason": "Bach flower remedy drops, not food"
+     }
+    ]
+   },
+   {
+    "batch": 1,
+    "rows": [
+     {
+      "id": "ean:5000488303742",
+      "verdict": "drop",
+      "reason": "Bach flower remedy, not food"
+     },
+     {
+      "id": "ean:5000488303759",
+      "verdict": "drop",
+      "reason": "Bach flower remedy, not food"
+     },
+     {
+      "id": "ean:5000488303773",
+      "verdict": "drop",
+      "reason": "Bach flower remedy, not food"
+     },
+     {
+      "id": "ean:5000488303780",
+      "verdict": "drop",
+      "reason": "Bach flower remedy, not food"
+     },
+     {
+      "id": "ean:5000488303797",
+      "verdict": "drop",
+      "reason": "Bach flower remedy, not food"
+     },
+     {
+      "id": "ean:5000488303803",
+      "verdict": "drop",
+      "reason": "Bach flower remedy, not food"
+     },
+     {
+      "id": "ean:5000488303810",
+      "verdict": "drop",
+      "reason": "Bach flower remedy, not food"
+     },
+     {
+      "id": "ean:5000488303827",
+      "verdict": "drop",
+      "reason": "Bach flower remedy, not food"
+     },
+     {
+      "id": "ean:5000488303834",
+      "verdict": "drop",
+      "reason": "Bach flower remedy, not food"
+     },
+     {
+      "id": "ean:5000488303841",
+      "verdict": "drop",
+      "reason": "Bach flower remedy, not food"
+     },
+     {
+      "id": "ean:5010115924721",
+      "verdict": "keep",
+      "reason": "Light brown sugar (lys = light)"
+     },
+     {
+      "id": "ean:5032722304475",
+      "verdict": "keep",
+      "reason": "Light spaghetti, pasta"
+     },
+     {
+      "id": "ean:5056784919873",
+      "verdict": "keep",
+      "reason": "Energy drink; pant = deposit"
+     },
+     {
+      "id": "ean:5060250610058",
+      "verdict": "keep",
+      "reason": "Instant noodles in a cup"
+     },
+     {
+      "id": "ean:5060250610348",
+      "verdict": "keep",
+      "reason": "Instant rice noodles in a cup"
+     },
+     {
+      "id": "ean:5070000210636",
+      "verdict": "keep",
+      "reason": "Gluten-free bread with seeds"
+     },
+     {
+      "id": "ean:5601008600817",
+      "verdict": "keep",
+      "reason": "Milk chocolate (lys = light)"
+     },
+     {
+      "id": "ean:5700002050106",
+      "verdict": "keep",
+      "reason": "Chia seeds to eat"
+     },
+     {
+      "id": "ean:5701259940127",
+      "verdict": "keep",
+      "reason": "Light syrup, food"
+     },
+     {
+      "id": "ean:5703137223308",
+      "verdict": "keep",
+      "reason": "Whole millet grain, organic food"
+     },
+     {
+      "id": "ean:5703137907123",
+      "verdict": "keep",
+      "reason": "Chia seeds to eat"
+     },
+     {
+      "id": "ean:5703137990613",
+      "verdict": "keep",
+      "reason": "Light dried inactive yeast, food ingredient"
+     },
+     {
+      "id": "ean:5704297215103",
+      "verdict": "keep",
+      "reason": "Flower honey"
+     },
+     {
+      "id": "ean:5704297215219",
+      "verdict": "keep",
+      "reason": "Flower honey"
+     },
+     {
+      "id": "ean:5707224022256",
+      "verdict": "keep",
+      "reason": "Light chocolate slices"
+     },
+     {
+      "id": "ean:5707224022942",
+      "verdict": "keep",
+      "reason": "Chocolate dragee almonds; pose is packaging"
+     },
+     {
+      "id": "ean:5707224022966",
+      "verdict": "keep",
+      "reason": "Chocolate dragee hazelnuts; pose is packaging"
+     },
+     {
+      "id": "ean:5708636211412",
+      "verdict": "keep",
+      "reason": "Chia seeds to eat"
+     },
+     {
+      "id": "ean:5708636322675",
+      "verdict": "keep",
+      "reason": "Light cane sugar"
+     },
+     {
+      "id": "ean:5711156004433",
+      "verdict": "keep",
+      "reason": "Light baguette"
+     },
+     {
+      "id": "ean:5997523312008",
+      "verdict": "keep",
+      "reason": "Instant noodles in a cup"
+     },
+     {
+      "id": "ean:5997523313739",
+      "verdict": "keep",
+      "reason": "Instant noodles in a cup"
+     },
+     {
+      "id": "ean:7020655848492",
+      "verdict": "keep",
+      "reason": "Oat porridge with seeds"
+     },
+     {
+      "id": "ean:7020656700058",
+      "verdict": "keep",
+      "reason": "Bread with seeds"
+     },
+     {
+      "id": "ean:7022180022019",
+      "verdict": "keep",
+      "reason": "Light ice mulled drink, drink"
+     },
+     {
+      "id": "ean:7023053165017",
+      "verdict": "keep",
+      "reason": "Light gluten-free baking mix"
+     },
+     {
+      "id": "ean:7025165010841",
+      "verdict": "keep",
+      "reason": "Seed crispbread"
+     },
+     {
+      "id": "ean:7026450053185",
+      "verdict": "keep",
+      "reason": "Flower honey"
+     },
+     {
+      "id": "ean:7026450053307",
+      "verdict": "keep",
+      "reason": "Flower honey"
+     },
+     {
+      "id": "ean:7026450053956",
+      "verdict": "keep",
+      "reason": "Flower honey"
+     }
+    ]
+   },
+   {
+    "batch": 2,
+    "rows": [
+     {
+      "id": "ean:7029161125462",
+      "verdict": "keep",
+      "reason": "Crispbread with seeds"
+     },
+     {
+      "id": "ean:7032069730577",
+      "verdict": "keep",
+      "reason": "Bread rolls with seeds"
+     },
+     {
+      "id": "ean:7033050830061",
+      "verdict": "keep",
+      "reason": "Alcohol-free light lager"
+     },
+     {
+      "id": "ean:7035620015632",
+      "verdict": "keep",
+      "reason": "Light lapskaus, ready meal"
+     },
+     {
+      "id": "ean:7035620038945",
+      "verdict": "unsure",
+      "reason": "Blomsterdill: may be fresh dill herb or a cut flower; has nutrition numbers"
+     },
+     {
+      "id": "ean:7037210069254",
+      "verdict": "keep",
+      "reason": "Light chocolate ice cream sauce"
+     },
+     {
+      "id": "ean:7037421002286",
+      "verdict": "keep",
+      "reason": "Light chocolate loaf cake"
+     },
+     {
+      "id": "ean:7039010541893",
+      "verdict": "keep",
+      "reason": "Instant noodles in a cup"
+     },
+     {
+      "id": "ean:7040512880168",
+      "verdict": "keep",
+      "reason": "Chia seeds to eat, 448 kcal"
+     },
+     {
+      "id": "ean:7044416017149",
+      "verdict": "keep",
+      "reason": "Light brownies"
+     },
+     {
+      "id": "ean:7045810000423",
+      "verdict": "keep",
+      "reason": "Light lapskaus stew"
+     },
+     {
+      "id": "ean:7048790001053",
+      "verdict": "keep",
+      "reason": "Bread with seeds"
+     },
+     {
+      "id": "ean:7048790018044",
+      "verdict": "keep",
+      "reason": "Roll with seeds"
+     },
+     {
+      "id": "ean:7053260189636",
+      "verdict": "keep",
+      "reason": "Chia seeds to eat"
+     },
+     {
+      "id": "ean:7053260220124",
+      "verdict": "keep",
+      "reason": "Whole allspice spice bag"
+     },
+     {
+      "id": "ean:7053260220223",
+      "verdict": "keep",
+      "reason": "Ground allspice spice; category wrong but food"
+     },
+     {
+      "id": "ean:7053260220322",
+      "verdict": "keep",
+      "reason": "Poppy seeds spice"
+     },
+     {
+      "id": "ean:7053260220414",
+      "verdict": "keep",
+      "reason": "Whole aniseed spice"
+     },
+     {
+      "id": "ean:7053260220612",
+      "verdict": "keep",
+      "reason": "Ground aniseed spice"
+     },
+     {
+      "id": "ean:7053260220643",
+      "verdict": "keep",
+      "reason": "Vanilla sugar"
+     },
+     {
+      "id": "ean:7053260220742",
+      "verdict": "keep",
+      "reason": "Vanilla sugar"
+     },
+     {
+      "id": "ean:7053260221114",
+      "verdict": "keep",
+      "reason": "Dried basil"
+     },
+     {
+      "id": "ean:7053260221121",
+      "verdict": "keep",
+      "reason": "Dried thyme"
+     },
+     {
+      "id": "ean:7053260221510",
+      "verdict": "keep",
+      "reason": "Chili powder"
+     },
+     {
+      "id": "ean:7053260221619",
+      "verdict": "keep",
+      "reason": "Dried dill"
+     },
+     {
+      "id": "ean:7053260221817",
+      "verdict": "keep",
+      "reason": "Juniper berries spice"
+     },
+     {
+      "id": "ean:7053260221916",
+      "verdict": "keep",
+      "reason": "Dried tarragon"
+     },
+     {
+      "id": "ean:7053260222104",
+      "verdict": "keep",
+      "reason": "Whole fennel spice"
+     },
+     {
+      "id": "ean:7053260222111",
+      "verdict": "keep",
+      "reason": "Ground fennel spice"
+     },
+     {
+      "id": "ean:7053260222418",
+      "verdict": "keep",
+      "reason": "Garam masala spice"
+     },
+     {
+      "id": "ean:7053260222517",
+      "verdict": "keep",
+      "reason": "Ground star anise spice; fibre value odd but food"
+     },
+     {
+      "id": "ean:7053260222715",
+      "verdict": "keep",
+      "reason": "Dried chives"
+     },
+     {
+      "id": "ean:7053260222814",
+      "verdict": "keep",
+      "reason": "Grill seasoning"
+     },
+     {
+      "id": "ean:7053260222913",
+      "verdict": "keep",
+      "reason": "Ground turmeric"
+     },
+     {
+      "id": "ean:7053260223217",
+      "verdict": "keep",
+      "reason": "Herbes de Provence"
+     },
+     {
+      "id": "ean:7053260223507",
+      "verdict": "keep",
+      "reason": "Garlic pepper seasoning"
+     },
+     {
+      "id": "ean:7053260223514",
+      "verdict": "keep",
+      "reason": "Granulated garlic"
+     },
+     {
+      "id": "ean:7053260223552",
+      "verdict": "keep",
+      "reason": "Garlic salt"
+     },
+     {
+      "id": "ean:7053260224115",
+      "verdict": "keep",
+      "reason": "Ground cinnamon"
+     },
+     {
+      "id": "ean:7053260224320",
+      "verdict": "keep",
+      "reason": "Whole cardamom"
+     }
+    ]
+   },
+   {
+    "batch": 3,
+    "rows": [
+     {
+      "id": "ean:7053260224429",
+      "verdict": "keep",
+      "reason": "Ground cardamom spice, pose = bag"
+     },
+     {
+      "id": "ean:7053260224511",
+      "verdict": "keep",
+      "reason": "Curry powder"
+     },
+     {
+      "id": "ean:7053260224559",
+      "verdict": "keep",
+      "reason": "Curry powder"
+     },
+     {
+      "id": "ean:7053260224610",
+      "verdict": "keep",
+      "reason": "Whole cardamom spice"
+     },
+     {
+      "id": "ean:7053260224719",
+      "viktig": "",
+      "verdict": "keep",
+      "reason": "Cayenne pepper spice"
+     },
+     {
+      "id": "ean:7053260224818",
+      "verdict": "keep",
+      "reason": "Dried chervil herb"
+     },
+     {
+      "id": "ean:7053260225013",
+      "verdict": "keep",
+      "reason": "Whole coriander spice"
+     },
+     {
+      "id": "ean:7053260225112",
+      "verdict": "keep",
+      "reason": "Ground coriander"
+     },
+     {
+      "id": "ean:7053260225259",
+      "verdict": "keep",
+      "reason": "Dried bay leaves, culinary"
+     },
+     {
+      "id": "ean:7053260225310",
+      "verdict": "unsure",
+      "reason": "Dried lavender flower, herbal category, 2 kcal; may be culinary or craft/potpourri"
+     },
+     {
+      "id": "ean:7053260225518",
+      "verdict": "keep",
+      "reason": "Granulated onion powder"
+     },
+     {
+      "id": "ean:7053260225716",
+      "verdict": "keep",
+      "reason": "Dried lovage leaves, culinary herb"
+     },
+     {
+      "id": "ean:7053260225914",
+      "verdict": "keep",
+      "reason": "Dried marjoram"
+     },
+     {
+      "id": "ean:7053260226119",
+      "verdict": "keep",
+      "reason": "Ground mace"
+     },
+     {
+      "id": "ean:7053260226218",
+      "verdict": "keep",
+      "reason": "Whole nutmeg"
+     },
+     {
+      "id": "ean:7053260226416",
+      "verdict": "keep",
+      "reason": "Ground nutmeg"
+     },
+     {
+      "id": "ean:7053260226812",
+      "verdict": "keep",
+      "reason": "Whole cloves"
+     },
+     {
+      "id": "ean:7053260226911",
+      "verdict": "keep",
+      "reason": "Ground cloves"
+     },
+     {
+      "id": "ean:7053260227017",
+      "verdict": "keep",
+      "reason": "Dried oregano"
+     },
+     {
+      "id": "ean:7053260227314",
+      "verdict": "keep",
+      "reason": "Sweet paprika powder"
+     },
+     {
+      "id": "ean:7053260227413",
+      "verdict": "keep",
+      "reason": "Ground rose pepper/paprika spice"
+     },
+     {
+      "id": "ean:7053260227710",
+      "verdict": "keep",
+      "reason": "Black pepper"
+     },
+     {
+      "id": "ean:7053260228007",
+      "verdict": "keep",
+      "reason": "Pepper mix"
+     },
+     {
+      "id": "ean:7053260228014",
+      "verdict": "keep",
+      "reason": "Whole green pepper"
+     },
+     {
+      "id": "ean:7053260228113",
+      "verdict": "keep",
+      "reason": "Pepper mix"
+     },
+     {
+      "id": "ean:7053260228229",
+      "verdict": "keep",
+      "reason": "Dried parsley"
+     },
+     {
+      "id": "ean:7053260228717",
+      "verdict": "keep",
+      "reason": "Coarse rosemary"
+     },
+     {
+      "id": "ean:7053260229110",
+      "verdict": "keep",
+      "reason": "Coarse sage"
+     },
+     {
+      "id": "ean:7053260229219",
+      "verdict": "unsure",
+      "reason": "Name 'tørket sar' unclear, fruit_vegetables category, sugary; likely a Saga dried herb/fruit but unknown"
+     },
+     {
+      "id": "ean:7053260229417",
+      "verdict": "keep",
+      "reason": "Yellow mustard seed, culinary spice"
+     },
+     {
+      "id": "ean:7053260229813",
+      "verdict": "keep",
+      "reason": "Lemon pepper spice"
+     },
+     {
+      "id": "ean:7053260229929",
+      "verdict": "keep",
+      "reason": "Ground cumin"
+     },
+     {
+      "id": "ean:7053260229950",
+      "verdict": "keep",
+      "reason": "Whole cumin"
+     },
+     {
+      "id": "ean:7055330025073",
+      "verdict": "keep",
+      "reason": "Light lapskaus (stew), lys = light"
+     },
+     {
+      "id": "ean:7055330029798",
+      "verdict": "keep",
+      "reason": "Light lapskaus"
+     },
+     {
+      "id": "ean:7071688002696",
+      "verdict": "keep",
+      "reason": "Light vegan chocolate (milk-style)"
+     },
+     {
+      "id": "ean:7071848111053",
+      "verdict": "keep",
+      "reason": "Seeded crispbread"
+     },
+     {
+      "id": "ean:7071848405732",
+      "verdict": "keep",
+      "reason": "Seeded bread roll"
+     },
+     {
+      "id": "ean:7072964101232",
+      "verdict": "keep",
+      "reason": "Light beer, 440 ml"
+     },
+     {
+      "id": "ean:7090006966526",
+      "verdict": "keep",
+      "reason": "Light sausage lapskaus"
+     }
+    ]
+   },
+   {
+    "batch": 4,
+    "rows": [
+     {
+      "id": "ean:7090012712315",
+      "verdict": "keep",
+      "reason": "Moose jerky snack, real food"
+     },
+     {
+      "id": "ean:7090020233000",
+      "verdict": "keep",
+      "reason": "Flower honey"
+     },
+     {
+      "id": "ean:7090020820576",
+      "verdict": "keep",
+      "reason": "Hemp seeds to eat, has nutrition"
+     },
+     {
+      "id": "ean:7090034904019",
+      "verdict": "keep",
+      "reason": "Chia seeds to eat"
+     },
+     {
+      "id": "ean:7090034904040",
+      "verdict": "keep",
+      "reason": "Quinoa seeds to eat"
+     },
+     {
+      "id": "ean:7090046920182",
+      "verdict": "keep",
+      "reason": "Light lager beer"
+     },
+     {
+      "id": "ean:7090036240603",
+      "verdict": "keep",
+      "reason": "Light beer, drink"
+     },
+     {
+      "id": "ean:7090051690742",
+      "verdict": "keep",
+      "reason": "Plant-based spread"
+     },
+     {
+      "id": "ean:7090051690766",
+      "verdict": "keep",
+      "reason": "Plant-based spread"
+     },
+     {
+      "id": "ean:7090056640001",
+      "verdict": "keep",
+      "reason": "Light flour mix"
+     },
+     {
+      "id": "ean:7090065060715",
+      "verdict": "keep",
+      "reason": "Light carrot panini bread"
+     },
+     {
+      "id": "ean:7090070220166",
+      "verdict": "keep",
+      "reason": "Flower honey"
+     },
+     {
+      "id": "ean:7310040012738",
+      "verdict": "keep",
+      "reason": "Light milk chocolate"
+     },
+     {
+      "id": "ean:7312080004278",
+      "verdict": "keep",
+      "reason": "Seed and sea salt crispbread"
+     },
+     {
+      "id": "ean:7312787710564",
+      "verdict": "keep",
+      "reason": "Light psyllium husk, edible fibre supplement"
+     },
+     {
+      "id": "ean:7340062803717",
+      "verdict": "keep",
+      "reason": "Flower honey"
+     },
+     {
+      "id": "ean:7340191160057",
+      "verdict": "keep",
+      "reason": "Light chocolate spread"
+     },
+     {
+      "id": "ean:7350039930537",
+      "verdict": "keep",
+      "reason": "Hulled hemp seeds to eat"
+     },
+     {
+      "id": "ean:7350071870129",
+      "verdict": "keep",
+      "reason": "Flower honey"
+     },
+     {
+      "id": "ean:7350071870334",
+      "verdict": "keep",
+      "reason": "Organic flower honey"
+     },
+     {
+      "id": "ean:7350081602178",
+      "verdict": "keep",
+      "reason": "Light raw chocolate"
+     },
+     {
+      "id": "ean:7350160600200",
+      "verdict": "keep",
+      "reason": "Raspberry soda; pant is deposit"
+     },
+     {
+      "id": "ean:7393460162245",
+      "verdict": "keep",
+      "reason": "Instant noodles in a cup"
+     },
+     {
+      "id": "ean:7613287295309",
+      "verdict": "keep",
+      "reason": "Instant noodles in a cup"
+     },
+     {
+      "id": "ean:8435821600627",
+      "verdict": "keep",
+      "reason": "Sushi product"
+     },
+     {
+      "id": "ean:8711521910823",
+      "verdict": "keep",
+      "reason": "Organic flower honey"
+     },
+     {
+      "id": "ean:8850987123412",
+      "verdict": "keep",
+      "reason": "Instant noodles in a cup"
+     },
+     {
+      "id": "ean:8935311173063",
+      "verdict": "keep",
+      "reason": "Instant noodles in a cup"
+     },
+     {
+      "id": "ean:8992388121021",
+      "verdict": "keep",
+      "reason": "Instant noodles in a cup"
+     },
+     {
+      "id": "kassalapp:19320",
+      "verdict": "keep",
+      "reason": "Christmas chocolate bag, food"
+     },
+     {
+      "id": "kassalapp:25251",
+      "verdict": "keep",
+      "reason": "Baguette with seeds"
+     },
+     {
+      "id": "kassalapp:56777",
+      "verdict": "keep",
+      "reason": "Milk chocolate, sold in bag, food"
+     },
+     {
+      "id": "matvaretabellen:03.288",
+      "verdict": "keep",
+      "reason": "Light-coloured stew, official food table"
+     },
+     {
+      "id": "matvaretabellen:09.104",
+      "verdict": "keep",
+      "reason": "Light cooking chocolate, official food table"
+     },
+     {
+      "id": "norgesgruppen:2208",
+      "verdict": "keep",
+      "reason": "Bread roll with seeds"
+     },
+     {
+      "id": "norgesgruppen:4622",
+      "verdict": "unsure",
+      "reason": "Edible flower, but all nutrients are placeholder 1.0 values"
+     },
+     {
+      "id": "norgesgruppen:7634",
+      "verdict": "keep",
+      "reason": "Light cold lapskaus, food"
+     },
+     {
+      "id": "norgesgruppen:8837",
+      "verdict": "keep",
+      "reason": "Popcorn in a bag, food"
+     },
+     {
+      "id": "ean:7090004539524",
+      "verdict": "keep",
+      "reason": "Sourdough bread with seeds"
+     },
+     {
+      "id": "ean:7025168060157",
+      "verdict": "keep",
+      "reason": "Fibre and seed bread"
+     }
+    ]
+   },
+   {
+    "batch": 5,
+    "rows": [
+     {
+      "id": "ean:7032069719077",
+      "verdict": "keep",
+      "reason": "Light cooking chocolate, food"
+     },
+     {
+      "id": "toro:https://www.toro.no/produkter/glutenfri-lys-melblanding/",
+      "verdict": "keep",
+      "reason": "Light gluten-free flour mix, food"
+     },
+     {
+      "id": "ean:7055330017795",
+      "verdict": "keep",
+      "reason": "Light lapskaus stew, food"
+     },
+     {
+      "id": "ean:7035620056178",
+      "verdict": "keep",
+      "reason": "Instant noodles in a cup, food"
+     },
+     {
+      "id": "ean:7039010562041",
+      "verdict": "keep",
+      "reason": "Game stew mix in a bag, food"
+     },
+     {
+      "id": "ean:7037610139557",
+      "verdict": "keep",
+      "reason": "Light aspic powder, edible"
+     },
+     {
+      "id": "ean:7035620058776",
+      "verdict": "keep",
+      "reason": "Bread rolls with seeds, food"
+     },
+     {
+      "id": "ean:7038010065989",
+      "verdict": "keep",
+      "reason": "Light chocolate cream dessert, food"
+     },
+     {
+      "id": "ean:2000579454905",
+      "verdict": "keep",
+      "reason": "Light bacon burger, food"
+     },
+     {
+      "id": "ean:2000202544904",
+      "verdict": "keep",
+      "reason": "Light bread loaf, food"
+     },
+     {
+      "id": "ean:7037610005043",
+      "verdict": "keep",
+      "reason": "Light bouillon jelly, food"
+     },
+     {
+      "id": "ean:7035620022975",
+      "verdict": "keep",
+      "reason": "Light cooking chocolate, food"
+     },
+     {
+      "id": "ean:7039010535526",
+      "verdict": "keep",
+      "reason": "White sauce mix in a bag, food"
+     },
+     {
+      "id": "ean:7071848110209",
+      "verdict": "keep",
+      "reason": "Light sourdough bread, food"
+     },
+     {
+      "id": "ean:7622400646225",
+      "verdict": "keep",
+      "reason": "Light cooking chocolate, food"
+     },
+     {
+      "id": "ean:7311041020418",
+      "verdict": "keep",
+      "reason": "Light syrup, food"
+     },
+     {
+      "id": "ean:7039010571968",
+      "verdict": "keep",
+      "reason": "Light bouillon powder, food"
+     },
+     {
+      "id": "toro:https://www.toro.no/produkter/lys-kjottbuljong-pulver/",
+      "verdict": "keep",
+      "reason": "Light meat bouillon powder, food"
+     },
+     {
+      "id": "ean:7025168005417",
+      "verdict": "keep",
+      "reason": "Breakfast bread with seeds, food"
+     },
+     {
+      "id": "ean:7032069738153",
+      "verdict": "keep",
+      "reason": "Light lapskaus stew, food"
+     },
+     {
+      "id": "ean:7340191121034",
+      "verdict": "keep",
+      "reason": "Light chocolate spread, food"
+     },
+     {
+      "id": "ean:7037610057134",
+      "verdict": "keep",
+      "reason": "Light flour mix, food"
+     },
+     {
+      "id": "ean:7033330087185",
+      "verdict": "keep",
+      "reason": "Light lapskaus stew, food"
+     },
+     {
+      "id": "ean:7029161128029",
+      "verdict": "keep",
+      "reason": "Seed and kernel snack/bread product with nutrition values, edible (category fruit_vegetables looks odd)"
+     },
+     {
+      "id": "ean:2000467440393",
+      "verdict": "keep",
+      "reason": "Light lapskaus stew, food"
+     }
+    ]
+   }
+  ]
+ },
+ "held": [
+  {
+   "id": "ean:5201704054701",
+   "why": "gap: no row, no values or no source",
+   "row": {
+    "id": "ean:5201704054701",
+    "status": "filled",
+    "found": {
+     "salt_g": 2.5
+    },
+    "note": "Salt from Meny 5201704054404 Kolios Feta Okologisk 200g (different EAN, same name, brand and numbers 275/16/23/16/1); no fibre printed. Medium confidence."
+   }
+  },
+  {
+   "id": "ean:7035620038945",
+   "why": "maybe not food: Blomsterdill: may be fresh dill herb or a cut flower; has nutrition numbers"
+  },
+  {
+   "id": "ean:7053260225310",
+   "why": "maybe not food: Dried lavender flower, herbal category, 2 kcal; may be culinary or craft/potpourri"
+  },
+  {
+   "id": "ean:7053260229219",
+   "why": "maybe not food: Name 'tørket sar' unclear, fruit_vegetables category, sugary; likely a Saga dried herb/fruit but unknown"
+  },
+  {
+   "id": "norgesgruppen:4622",
+   "why": "maybe not food: Edible flower, but all nutrients are placeholder 1.0 values"
+  }
+ ]
+}

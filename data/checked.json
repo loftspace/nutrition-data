@@ -63,6 +63,13 @@
    "source_url": "https://meny.no/varer//middagstilbehor/ketchup-og-sennep/sennep/"
   },
   {
+   "id": "ean:0011210622227",
+   "source_url": "https://meny.no/varer/11210622227",
+   "nutrients": {
+    "fibre_g": 1.2
+   }
+  },
+  {
    "id": "ean:0037600160421",
    "nutrients": {
     "kcal": 605.0,
@@ -167,6 +174,13 @@
     "salt_g": 0.1
    },
    "source_url": "https://spar.no lutefisk"
+  },
+  {
+   "id": "ean:2391810112648",
+   "source_url": "https://meny.no/varer//fisk/7033352770690",
+   "nutrients": {
+    "sugars_g": 0
+   }
   },
   {
    "id": "ean:3387390339499",
@@ -274,6 +288,13 @@
     "salt_g": 0.01
    },
    "source_url": "https://meny.no/varer//drikke/brus/fanta-5000112669220"
+  },
+  {
+   "id": "ean:5000112637939",
+   "source_url": "https://meny.no/varer//5000112636840",
+   "nutrients": {
+    "fibre_g": 0
+   }
   },
   {
    "id": "ean:5000112690002",
@@ -431,6 +452,13 @@
    ]
   },
   {
+   "id": "ean:5056784919651",
+   "source_url": "https://meny.no/varer//5061013940566",
+   "nutrients": {
+    "fibre_g": 0
+   }
+  },
+  {
    "id": "ean:5060337502900",
    "nutrients": {
     "kcal": 48.0,
@@ -528,6 +556,13 @@
     "fibre_g": null
    },
    "source_url": "https://meny.no/varer//meieri-egg/plantedrikker/havre-barista-professional-5411188132110"
+  },
+  {
+   "id": "ean:5449000259172",
+   "source_url": "https://meny.no/varer//5000112636833",
+   "nutrients": {
+    "fibre_g": 0
+   }
   },
   {
    "id": "ean:5601010211032",
@@ -764,6 +799,13 @@
    "source_url": "https://meny.no fiskeboller 7039010073103"
   },
   {
+   "id": "ean:7031540003469",
+   "source_url": "https://meny.no/varer//frukt-gront/gronnsaker/salater/crispisalat/crispi-salat-299000049731",
+   "nutrients": {
+    "fibre_g": 1
+   }
+  },
+  {
    "id": "ean:7032069714850",
    "name": "Rema Peanøttsmør",
    "source_url": "https://world.openfoodfacts.org/product/7032069714850"
@@ -908,6 +950,14 @@
    "source_url": "store listing"
   },
   {
+   "id": "ean:7033352734074",
+   "source_url": "https://meny.no/varer//fisk-skalldyr/fisk/laks/laks-naturell/laks-loin-7033352770744",
+   "nutrients": {
+    "sugars_g": 0,
+    "salt_g": 0.1
+   }
+  },
+  {
    "id": "ean:7034280003201",
    "sizes": [
     "500 g",
@@ -1022,7 +1072,10 @@
    "source_url": "https://meny.no/varer//palegg-frokost/kjottpalegg/sylte/sylte-7035620009600",
    "sizes": [
     "200 g"
-   ]
+   ],
+   "nutrients": {
+    "fibre_g": 0.5
+   }
   },
   {
    "id": "ean:7035620055935",
@@ -1216,6 +1269,13 @@
    "source_url": "https://meny.no/varer//middagstilbehor/ketchup-og-sennep/ketchup/tomatketchup-7039010565257"
   },
   {
+   "id": "ean:7039010524810",
+   "source_url": "https://meny.no/varer//middagstilbehor/dressinger/hamburgerdressing/hamburgerdressing-7039010063401",
+   "nutrients": {
+    "fibre_g": 0
+   }
+  },
+  {
    "id": "ean:7039010541893",
    "nutrients": {
     "kcal": 79.0,
@@ -1321,7 +1381,10 @@
     "275 g",
     "330 g",
     "450 g"
-   ]
+   ],
+   "nutrients": {
+    "fibre_g": 8
+   }
   },
   {
    "id": "ean:7039317007931",
@@ -1354,6 +1417,13 @@
     "700 g"
    ],
    "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kyllingfilet/kyllingfilet-7039610012977"
+  },
+  {
+   "id": "ean:7039610013653",
+   "source_url": "https://meny.no/ (Grillpolser Kylling/Kalkun 600g Prior, EAN 7039610025205)",
+   "nutrients": {
+    "fibre_g": 0
+   }
   },
   {
    "id": "ean:7040110310807",
@@ -2035,6 +2105,13 @@
    "source_url": "https://meny.no/varer//middag/risprodukter/"
   },
   {
+   "id": "ean:8410076482563",
+   "source_url": "https://meny.no/varer/ (ean 8410076482563, Tortilla Chips Chili 185g Old El Paso)",
+   "nutrients": {
+    "sugars_g": 3.5
+   }
+  },
+  {
    "id": "ean:8410086235456",
    "category": "other_food",
    "source_url": "https://meny.no/varer//palegg-frokost/",
@@ -2109,7 +2186,10 @@
     "540 g",
     "575 g"
    ],
-   "source_url": "https://meny.no/varer//middag/pizzaretter/pizza/grandiosa-pizza-7039010019804"
+   "source_url": "https://meny.no/varer//middag/pizzaretter/pizza/grandiosa-pizza-7039010019804",
+   "nutrients": {
+    "fibre_g": 0
+   }
   },
   {
    "id": "kassalapp:228894",
@@ -2213,9 +2293,26 @@
    "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/"
   },
   {
+   "id": "mills:https://mills.no/mills/produkt/ekte-majones/",
+   "source_url": "https://meny.no/varer//palegg-frokost/majones/majones-ekte-7036110009841",
+   "nutrients": {
+    "fibre_g": 0
+   }
+  },
+  {
+   "id": "mills:https://mills.no/mills/produkt/ekte-remulade/",
+   "source_url": "https://meny.no/varer//middag/remulade/remulade-ekte-7036110009810",
+   "nutrients": {
+    "fibre_g": 0
+   }
+  },
+  {
    "id": "mills:https://mills.no/mills/produkt/kaviarmix/",
    "category": "meat_fish",
-   "source_url": "https://meny.no/varer//palegg-frokost/fiskepalegg/kaviar"
+   "source_url": "https://meny.no/varer//palegg-frokost/fiskepalegg/kaviar",
+   "nutrients": {
+    "fibre_g": 0
+   }
   },
   {
    "id": "mills:https://mills.no/mills/produkt/original-kaviar/",
@@ -2225,12 +2322,25 @@
     "185 g",
     "245 g"
    ],
-   "source_url": "https://meny.no/varer//palegg-frokost/fiskepalegg/kaviar/kaviar-7036110009940"
+   "source_url": "https://meny.no/varer//palegg-frokost/fiskepalegg/kaviar/kaviar-7036110009940",
+   "nutrients": {
+    "fibre_g": 0
+   }
+  },
+  {
+   "id": "mills:https://mills.no/mills/produkt/ovnsbakt-postei/",
+   "source_url": "https://meny.no/varer/ (ean 7036110007724, Leverpostei Ovnsbakt 185g Mills)",
+   "nutrients": {
+    "fibre_g": 0
+   }
   },
   {
    "id": "mills:https://mills.no/soft-flora/produkt/soft-flora-original/",
    "category": "other_food",
-   "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/"
+   "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/",
+   "nutrients": {
+    "fibre_g": 0
+   }
   },
   {
    "id": "mills:https://mills.no/soft-flora/produkt/soft-flora-stekebake/",
@@ -2245,12 +2355,18 @@
   {
    "id": "mills:https://mills.no/vita-hjertego/produkt/vita-hjertego-lettmargarin/",
    "category": "other_food",
-   "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/"
+   "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/",
+   "nutrients": {
+    "fibre_g": 0.5
+   }
   },
   {
    "id": "mills:https://mills.no/vita-hjertego/produkt/vita-hjertego-margarin/",
    "category": "other_food",
-   "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/"
+   "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/",
+   "nutrients": {
+    "fibre_g": 0
+   }
   },
   {
    "id": "mills:https://mills.no/vita-hjertego/produkt/vita-hjertego-proaktiv/",
@@ -2315,9 +2431,23 @@
    "source_url": "https://meny.no/varer//meieri-egg/melk/lettmelk"
   },
   {
+   "id": "q-meieriene:https://www.q-meieriene.no/produkter/q-melk-skummet",
+   "source_url": "https://meny.no/varer/ (ean 7048840000036, Skummet Melk 1l Q)",
+   "nutrients": {
+    "fibre_g": 0
+   }
+  },
+  {
    "id": "q-meieriene:https://www.q-meieriene.no/produkter/q-protein-salty-caramel",
    "category": "protein_drink_or_dessert",
    "source_url": "https://meny.no/varer//meieri-egg/melk/skummet-melk/proteinmelk-7048840232260"
+  },
+  {
+   "id": "ringnes:https://www.ringnes.no/produkter/solo/solo-super/",
+   "source_url": "https://meny.no/varer//drikke/brus/solo-super-7033850008745",
+   "nutrients": {
+    "fibre_g": 0
+   }
   },
   {
    "id": "synnove:https://www.synnove.no/produkt/flotemys/",
@@ -2396,7 +2526,10 @@
     "550 g",
     "830 g",
     "1 kg"
-   ]
+   ],
+   "nutrients": {
+    "fibre_g": 0
+   }
   },
   {
    "id": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-lettost-16-fett",
@@ -2436,7 +2569,10 @@
     "750 g",
     "1 kg"
    ],
-   "source_url": "https://meny.no/varer//ost/ostepalegg/gudbrandsdalsost-7038010028397"
+   "source_url": "https://meny.no/varer//ost/ostepalegg/gudbrandsdalsost-7038010028397",
+   "nutrients": {
+    "fibre_g": 0
+   }
   },
   {
    "id": "tine:https://www.tine.no/merkevarer/tine-cottage-cheese/produkter/tine-cottage-cheese-original",
@@ -2446,6 +2582,20 @@
     "2,5 kg"
    ],
    "source_url": "https://meny.no/varer//meieri-egg/yoghurter"
+  },
+  {
+   "id": "tine:https://www.tine.no/merkevarer/tine-sm%C3%B8r/produkter/tine-meierism%C3%B8r",
+   "source_url": "Meny, Meierismør Kuvert 12g Tine, EAN 9001 / 31607",
+   "nutrients": {
+    "fibre_g": 0
+   }
+  },
+  {
+   "id": "tine:https://www.tine.no/merkevarer/tinemelk/produkter/lett-tinemelk-sjokolade",
+   "source_url": "https://meny.no/varer//meieri-egg/melk/sjokolademelk/lettmelk-sjokolade-7038010071195",
+   "nutrients": {
+    "fibre_g": 0
+   }
   },
   {
    "id": "tine:https://www.tine.no/merkevarer/tinemelk/produkter/tinemelk-lettmelk-0-5-fett",
@@ -2472,6 +2622,20 @@
    "source_url": "https://meny.no/varer//middagstilbehor/sauser/bearnaise/bearnaise-7039010545792"
   },
   {
+   "id": "toro:https://www.toro.no/produkter/bearnaisesaus-original/",
+   "source_url": "Meny, Bearnaise Saus 28g Toro, EAN 7037610009041 (also 7039010547888)",
+   "nutrients": {
+    "fibre_g": 0
+   }
+  },
+  {
+   "id": "toro:https://www.toro.no/produkter/hollandaisesaus-original/",
+   "source_url": "https://meny.no/ (EAN 7037610231992, Kostfiber 0 g)",
+   "nutrients": {
+    "fibre_g": 0
+   }
+  },
+  {
    "id": "toro:https://www.toro.no/produkter/middagsris-boil-in-bag-m-villris/",
    "nutrients": {
     "kcal": 128.0,
@@ -2491,6 +2655,13 @@
    "source_url": "store listing"
   },
   {
+   "id": "toro:https://www.toro.no/produkter/ris-jasmin-boil-in-bag/",
+   "source_url": "https://meny.no/varer//middag/risprodukter/ris/jasminris-7039010612388",
+   "nutrients": {
+    "salt_g": 0.01
+   }
+  },
+  {
    "id": "toro:https://www.toro.no/produkter/sjokoladedrikk-boks/",
    "nutrients": {
     "kcal": 54.0,
@@ -2502,6 +2673,20 @@
     "salt_g": 0.17
    },
    "source_url": "https://meny.no/varer/drikke/"
+  },
+  {
+   "id": "toro:https://www.toro.no/produkter/spagettisaus/",
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/pastasaus/spagettisaus-7039010614689",
+   "nutrients": {
+    "sat_fat_g": 0
+   }
+  },
+  {
+   "id": "toro:https://www.toro.no/produkter/toro-gronnsaksuppe/",
+   "source_url": "https://meny.no/varer//middag/supper/gronnsaksuppe/gronnsakssuppe-7039010610629",
+   "nutrients": {
+    "sat_fat_g": 0
+   }
   },
   {
    "id": "toro:https://www.toro.no/produkter/toro-original-tomatsuppe-2/",
@@ -4569,6 +4754,142 @@
   {
    "id": "ean:2100926712006",
    "why": "Salt 12.8 g/100g is clearly broken for fish cakes"
+  },
+  {
+   "id": "ean:5000488303476",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303483",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303490",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303506",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303513",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303520",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303537",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303544",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303575",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303582",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303599",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303605",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303612",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303629",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303636",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303643",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303650",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303667",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303674",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303681",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303698",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303704",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303711",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303735",
+   "why": "not food: Bach flower remedy drops, not food"
+  },
+  {
+   "id": "ean:5000488303742",
+   "why": "not food: Bach flower remedy, not food"
+  },
+  {
+   "id": "ean:5000488303759",
+   "why": "not food: Bach flower remedy, not food"
+  },
+  {
+   "id": "ean:5000488303773",
+   "why": "not food: Bach flower remedy, not food"
+  },
+  {
+   "id": "ean:5000488303780",
+   "why": "not food: Bach flower remedy, not food"
+  },
+  {
+   "id": "ean:5000488303797",
+   "why": "not food: Bach flower remedy, not food"
+  },
+  {
+   "id": "ean:5000488303803",
+   "why": "not food: Bach flower remedy, not food"
+  },
+  {
+   "id": "ean:5000488303810",
+   "why": "not food: Bach flower remedy, not food"
+  },
+  {
+   "id": "ean:5000488303827",
+   "why": "not food: Bach flower remedy, not food"
+  },
+  {
+   "id": "ean:5000488303834",
+   "why": "not food: Bach flower remedy, not food"
+  },
+  {
+   "id": "ean:5000488303841",
+   "why": "not food: Bach flower remedy, not food"
   },
   {
    "id": "ean:5701239277014",
