@@ -1,0 +1,7067 @@
+{
+ "note": "Round C, 2026-11-13: duplicates across the whole database. Applied folds passed a code check (same brand, kcal, protein, fat and carbs within 3%). Unsure rows are listed, not folded.",
+ "groups": [
+  {
+   "keep_id": "ean:5711657051967",
+   "fold_ids": [
+    "bodypower:https://www.bodypower.se/kosttillskott-1/protein/proteinpulver/bodylab-pancake-500g-classic",
+    "ean:5711657012999"
+   ],
+   "reason": "Same Bodylab pancake mix Classic"
+  },
+  {
+   "keep_id": "ean:5711657011473",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:5711657014153"
+   ],
+   "reason": "Flavour variant with identical macros; unclear"
+  },
+  {
+   "keep_id": "ean:5711657012180",
+   "fold_ids": [
+    "ean:5711657012951"
+   ],
+   "reason": "Same brownie mix"
+  },
+  {
+   "keep_id": "ean:5711657021304",
+   "fold_ids": [
+    "ean:5711657032317"
+   ],
+   "reason": "Same pancake and waffle mix"
+  },
+  {
+   "keep_id": "ean:7350058335818",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7350058335078",
+    "gymgrossisten-se:https://www.gymgrossisten.com/48-x-celsius-energidryck-355-ml/SETCELSIUS2.html"
+   ],
+   "reason": "Generic 48-pack row, flavour unknown"
+  },
+  {
+   "keep_id": "ean:7350058337003",
+   "fold_ids": [
+    "tillskottsbolaget:https://www.tillskottsbolaget.se/sv/24-x-celsius-355-ml-astro-vibe"
+   ],
+   "reason": "Same Astro Vibe; Blue Razz kept separate"
+  },
+  {
+   "keep_id": "ean:7350061457682",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7350061457699"
+   ],
+   "reason": "Different flavours, same recipe numbers"
+  },
+  {
+   "keep_id": "ean:7350058336976",
+   "fold_ids": [
+    "tillskottsbolaget:https://www.tillskottsbolaget.se/sv/24-x-celsius-355-ml-galaxy-vibe"
+   ],
+   "reason": "Same Galaxy Vibe"
+  },
+  {
+   "keep_id": "ean:5060335630988",
+   "fold_ids": [
+    "ean:5056784919873"
+   ],
+   "reason": "Same Absolutely Zero (24-pack row)"
+  },
+  {
+   "keep_id": "ean:5056784919651",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:5060335630971"
+   ],
+   "reason": "Zero vs Absolutely Zero, carbs differ slightly"
+  },
+  {
+   "keep_id": "ean:5060947547278",
+   "fold_ids": [
+    "ean:5060751218036"
+   ],
+   "reason": "Same Monster Nitro"
+  },
+  {
+   "keep_id": "bodypower:https://www.bodypower.se/kosttillskott-1/protein/proteinpulver/swedish-supplements-lifestyle-whey-banana-split-900g",
+   "fold_ids": [],
+   "unsure_ids": [],
+   "reason": "placeholder"
+  },
+  {
+   "keep_id": "ean:0748927027891",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:0748927027877"
+   ],
+   "reason": "Whey: flavour of second row unknown"
+  },
+  {
+   "keep_id": "ean:5060469987583",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:5060751994787"
+   ],
+   "reason": "Toffee Crunchy vs generic protein bar flavour unknown"
+  },
+  {
+   "keep_id": "gymgrossisten-discontinued:https://www.gymgrossisten.no/whey-gold-standard-22kg-creatine-300g/SETWGS2CREATINE.html",
+   "fold_ids": [
+    "gymgrossisten-discontinued:https://www.gymgrossisten.no/whey-gold-standard-protein-22kg-creatine-187g/SETWGSCREATINE187.html"
+   ],
+   "reason": "Same whey plus creatine set"
+  },
+  {
+   "keep_id": "ean:7350116316742",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7350116311952"
+   ],
+   "reason": "Cola flavour vs plain kombucha"
+  },
+  {
+   "keep_id": "bodypower:https://www.bodypower.se/varumarken/nobe-aloe-vera/nobe-aloe-vera-sunny-mango-500ml",
+   "fold_ids": [
+    "ean:27340116870201"
+   ],
+   "reason": "Same mango drink, multipack"
+  },
+  {
+   "keep_id": "ean:7350132948040",
+   "fold_ids": [],
+   "unsure_ids": [
+    "bodystore:SETBSVASSLECREATINE"
+   ],
+   "reason": "Bundle with creatine, same whey numbers"
+  },
+  {
+   "keep_id": "gymgrossisten:https://www.gymgrossisten.no/lowcaly-fruktdrikk-1000-ml/73-6835R.html",
+   "fold_ids": [
+    "bodystore-discontinued:73-6835R"
+   ],
+   "reason": "Same item, same SKU"
+  },
+  {
+   "keep_id": "ean:5765228126882",
+   "fold_ids": [
+    "ean:5765228124758"
+   ],
+   "reason": "Same organic oat muesli"
+  },
+  {
+   "keep_id": "ean:0814784026794",
+   "fold_ids": [
+    "ean:0814784029702"
+   ],
+   "reason": "Same flavour and recipe"
+  },
+  {
+   "keep_id": "kungmarkatta:https://www.kungmarkatta.se/produkter/ris-gryn-och-pasta/fullkornsris-langt/",
+   "fold_ids": [
+    "ean:7391835918275"
+   ],
+   "reason": "Same rice, brand source"
+  },
+  {
+   "keep_id": "ean:7350102860853",
+   "fold_ids": [
+    "bodystore-discontinued:FP60001-27.MASTER",
+    "ean:7350102860129"
+   ],
+   "reason": "Same chocolate sea salt bar"
+  },
+  {
+   "keep_id": "ean:7350044501210",
+   "fold_ids": [
+    "ean:7350044502491"
+   ],
+   "reason": "Same flavour, different pack"
+  },
+  {
+   "keep_id": "tights:356424",
+   "fold_ids": [],
+   "unsure_ids": [
+    "tights:373770"
+   ],
+   "reason": "Different flavour names, identical numbers"
+  },
+  {
+   "keep_id": "kassalapp:9220",
+   "fold_ids": [],
+   "unsure_ids": [
+    "bodystore-discontinued:FP9789-054R"
+   ],
+   "reason": "Generic Core Bar vs peanut butter flavour"
+  },
+  {
+   "keep_id": "ean:7340001805376",
+   "fold_ids": [
+    "ean:7340001805321"
+   ],
+   "reason": "Same product, verified row kept"
+  },
+  {
+   "keep_id": "ean:0810000691227",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:6416453073401"
+   ],
+   "reason": "Dumle vs Dumle Bananas"
+  },
+  {
+   "keep_id": "ean:6416453036499",
+   "fold_ids": [
+    "ean:6416453041455"
+   ],
+   "reason": "Same Marianne"
+  },
+  {
+   "keep_id": "ean:7314873525014",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7314875025000"
+   ],
+   "reason": "Havssalt vs plain Lantbrod"
+  },
+  {
+   "keep_id": "ean:2320390802465",
+   "fold_ids": [
+    "ean:7025110172235"
+   ],
+   "reason": "Same ytrefilet"
+  },
+  {
+   "keep_id": "ean:2320390402030",
+   "fold_ids": [
+    "ean:7025110172266"
+   ],
+   "reason": "Same entrecote"
+  },
+  {
+   "keep_id": "ean:7025165010711",
+   "fold_ids": [
+    "ean:7025165013071"
+   ],
+   "reason": "Same burger bun"
+  },
+  {
+   "keep_id": "ean:7025110208774",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7025110215697"
+   ],
+   "reason": "Rustikke may be a different cut"
+  },
+  {
+   "keep_id": "ean:7340191119871",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7340191115354"
+   ],
+   "reason": "Ice cream vs possibly cheese"
+  },
+  {
+   "keep_id": "ean:7340011315186",
+   "fold_ids": [
+    "ean:7340191105423"
+   ],
+   "reason": "Same fusilli"
+  },
+  {
+   "keep_id": "ean:2320225204983",
+   "fold_ids": [
+    "ean:2020225200007"
+   ],
+   "reason": "Same svinenakke"
+  },
+  {
+   "keep_id": "ean:7025110218544",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7025110218667"
+   ],
+   "reason": "Premium may be different juice"
+  },
+  {
+   "keep_id": "ean:7025110200679",
+   "fold_ids": [
+    "ean:7025110184894"
+   ],
+   "reason": "Same chicken strips"
+  },
+  {
+   "keep_id": "ean:2100450217190",
+   "fold_ids": [
+    "ean:2320202701825",
+    "ean:2320202702013"
+   ],
+   "reason": "Same beef tenderloin"
+  },
+  {
+   "keep_id": "ean:2320139906300",
+   "fold_ids": [
+    "ean:2320139904900",
+    "ean:2320139903903"
+   ],
+   "reason": "Same pork loin"
+  },
+  {
+   "keep_id": "ean:2320881115883",
+   "fold_ids": [
+    "ean:2020881100000"
+   ],
+   "reason": "Same cured ham roast"
+  },
+  {
+   "keep_id": "ean:7025110222978",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7025110193995"
+   ],
+   "reason": "Generic smoothie vs red"
+  },
+  {
+   "keep_id": "ean:7025110145284",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7025110160720"
+   ],
+   "reason": "Variety vs generic potatoes"
+  },
+  {
+   "keep_id": "ean:2320893104882",
+   "fold_ids": [
+    "ean:2320893105940",
+    "ean:2320893104363"
+   ],
+   "reason": "Same pork tenderloin"
+  },
+  {
+   "keep_id": "ean:7340191154094",
+   "fold_ids": [
+    "ean:7340011351801"
+   ],
+   "reason": "Same Manzanilla olives"
+  },
+  {
+   "keep_id": "ean:7340011476276",
+   "fold_ids": [
+    "ean:7340191144811",
+    "ean:7340191144750"
+   ],
+   "reason": "Same durum pasta, shapes differ only"
+  },
+  {
+   "keep_id": "ean:7300156598790",
+   "fold_ids": [
+    "ean:7025110200778"
+   ],
+   "reason": "Same ruccola"
+  },
+  {
+   "keep_id": "ean:7340191159365",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7340011486879"
+   ],
+   "reason": "Burger variant may be slices"
+  },
+  {
+   "keep_id": "ean:7025110225887",
+   "fold_ids": [
+    "ean:7340191120389"
+   ],
+   "reason": "Same chili grillost"
+  },
+  {
+   "keep_id": "ean:7340191179769",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7340011486534"
+   ],
+   "reason": "Olivenolje may be refined vs extra virgin; same macros"
+  },
+  {
+   "keep_id": "ean:7340011315162",
+   "fold_ids": [
+    "ean:7340011443735"
+   ],
+   "reason": "Same spaghetti, different pack"
+  },
+  {
+   "keep_id": "ean:7300156485496",
+   "fold_ids": [
+    "ean:7340011467007"
+   ],
+   "reason": "Same bolognese meal, same pack and macros"
+  },
+  {
+   "keep_id": "ean:7025110184139",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7025110218360"
+   ],
+   "reason": "Iste may be a different flavour"
+  },
+  {
+   "keep_id": "ean:2317252002736",
+   "fold_ids": [
+    "ean:2317252002477"
+   ],
+   "reason": "Entrecote, sliced variant of same"
+  },
+  {
+   "keep_id": "ean:7025110195838",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7025110188090"
+   ],
+   "reason": "Red new potatoes vs new potatoes, unclear"
+  },
+  {
+   "keep_id": "ean:4025284217575",
+   "fold_ids": [
+    "ean:7025110218841"
+   ],
+   "reason": "Same apple juice, cloudy premium label"
+  },
+  {
+   "keep_id": "ean:7340011471233",
+   "fold_ids": [
+    "ean:7340011471240"
+   ],
+   "reason": "Jumbo is size of same pita"
+  },
+  {
+   "keep_id": "ean:7025110230737",
+   "fold_ids": [
+    "ean:7025110210852"
+   ],
+   "reason": "Same iced tea without sugar"
+  },
+  {
+   "keep_id": "ean:7340011486893",
+   "fold_ids": [
+    "ean:7340191117990"
+   ],
+   "reason": "Same cheddar 35%"
+  },
+  {
+   "keep_id": "ean:2317258505170",
+   "fold_ids": [
+    "ean:2317258505712"
+   ],
+   "reason": "Same kassler"
+  },
+  {
+   "keep_id": "ean:7300156578907",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2317077100006"
+   ],
+   "reason": "Boneless vs plain pork loin, unclear"
+  },
+  {
+   "keep_id": "ean:2320033808403",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7025110230003"
+   ],
+   "reason": "Boneless variant, unclear"
+  },
+  {
+   "keep_id": "ean:7340191150898",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7340191148833"
+   ],
+   "reason": "Tex Mex vs plain cheese sauce, unclear"
+  },
+  {
+   "keep_id": "ean:7300156598813",
+   "fold_ids": [
+    "ean:7300156462916"
+   ],
+   "reason": "Same mache"
+  },
+  {
+   "keep_id": "ean:7025110115119",
+   "fold_ids": [
+    "ean:7025110115171"
+   ],
+   "reason": "Same gulost 26%, sliced"
+  },
+  {
+   "keep_id": "ean:2320220905106",
+   "fold_ids": [
+    "ean:2320220905588"
+   ],
+   "reason": "Same black garlic pork fillet"
+  },
+  {
+   "keep_id": "ean:2371580908054",
+   "fold_ids": [
+    "ean:0000002371580",
+    "ean:2371580909662"
+   ],
+   "reason": "Same pork fillet, identical macros"
+  },
+  {
+   "keep_id": "ean:2371540026941",
+   "fold_ids": [
+    "ean:2371540026460"
+   ],
+   "reason": "Same julskinka"
+  },
+  {
+   "keep_id": "ean:2371545121788",
+   "fold_ids": [
+    "ean:2371545122600"
+   ],
+   "reason": "Same helgskinka"
+  },
+  {
+   "keep_id": "ean:2371582709826",
+   "fold_ids": [
+    "ean:2371582709123"
+   ],
+   "reason": "Same beef fillet, identical macros"
+  },
+  {
+   "keep_id": "ean:2371586606510",
+   "fold_ids": [
+    "ean:2371586605926"
+   ],
+   "reason": "Same spelling variant"
+  },
+  {
+   "keep_id": "ean:2371587108877",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2371587106644"
+   ],
+   "reason": "Grill-seasoned variant, unclear"
+  },
+  {
+   "keep_id": "ean:7033352734074",
+   "fold_ids": [
+    "ean:2376091602675"
+   ],
+   "reason": "Same salmon loin"
+  },
+  {
+   "keep_id": "ean:0000004211587",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7037421027043"
+   ],
+   "reason": "Cinnamon lefse may differ from plain lefsegodt"
+  },
+  {
+   "keep_id": "ean:7394482001109",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7394482002021"
+   ],
+   "reason": "Citron flavoured oil, unclear"
+  },
+  {
+   "keep_id": "ean:2332895109468",
+   "fold_ids": [
+    "ean:2332895108355",
+    "ean:2332895108447"
+   ],
+   "reason": "Same chicken breast fillet"
+  },
+  {
+   "keep_id": "ean:2332895507271",
+   "fold_ids": [
+    "ean:2332895506830"
+   ],
+   "reason": "Same fresh chicken breast fillet"
+  },
+  {
+   "keep_id": "ean:2340415907036",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2340415906503"
+   ],
+   "reason": "12 month aged vs standard, unclear"
+  },
+  {
+   "keep_id": "ean:2357910610354",
+   "fold_ids": [
+    "ean:2357910609105"
+   ],
+   "reason": "Same stew pieces"
+  },
+  {
+   "keep_id": "ean:2359772806791",
+   "fold_ids": [
+    "ean:2340415507564"
+   ],
+   "unsure_ids": [
+    "ean:2340415907517"
+   ],
+   "reason": "Mild herrgard same; aged variant unclear"
+  },
+  {
+   "keep_id": "ean:4335619115965",
+   "fold_ids": [
+    "ean:4335619115958"
+   ],
+   "reason": "Same smoked ham"
+  },
+  {
+   "keep_id": "ean:4056489770657",
+   "fold_ids": [
+    "ean:4056489770558"
+   ],
+   "reason": "Identical product names and macros"
+  },
+  {
+   "keep_id": "ean:4056489669524",
+   "fold_ids": [
+    "ean:4056489770657",
+    "ean:4056489669562"
+   ],
+   "unsure_ids": [
+    "ean:4056489669975",
+    "ean:4056489669814"
+   ],
+   "reason": "Normal 3% milk rows same; eko is organic, separate"
+  },
+  {
+   "keep_id": "ean:4056489770626",
+   "fold_ids": [
+    "ean:4056489669449"
+   ],
+   "reason": "Same light creme fraiche 13%"
+  },
+  {
+   "keep_id": "ean:7311043017874",
+   "fold_ids": [
+    "ean:0000007775376"
+   ],
+   "reason": "Same coconut cream"
+  },
+  {
+   "keep_id": "ean:2307981209360",
+   "fold_ids": [
+    "ean:2307981208820"
+   ],
+   "reason": "Same chicken legs"
+  },
+  {
+   "keep_id": "ean:7311043029235",
+   "fold_ids": [
+    "ean:2313715210083"
+   ],
+   "reason": "Same organic beef mince 15%"
+  },
+  {
+   "keep_id": "ean:2355005713027",
+   "fold_ids": [
+    "ean:2355005712624",
+    "ean:2355005713386"
+   ],
+   "reason": "Same pork loin"
+  },
+  {
+   "keep_id": "ean:2355021908896",
+   "fold_ids": [
+    "ean:2355021908957"
+   ],
+   "reason": "Same mixed mince 20%"
+  },
+  {
+   "keep_id": "ean:2355022209053",
+   "fold_ids": [
+    "ean:2355022208858",
+    "ean:2355022209015",
+    "ean:2355022210301"
+   ],
+   "reason": "Same beef mince 12%"
+  },
+  {
+   "keep_id": "ean:2355022422216",
+   "fold_ids": [
+    "ean:2355022209794"
+   ],
+   "reason": "Same beef mince 12%"
+  },
+  {
+   "keep_id": "ean:2359634710112",
+   "fold_ids": [
+    "ean:2359634709383"
+   ],
+   "reason": "Same chicken breast fillet"
+  },
+  {
+   "keep_id": "ean:2359749606768",
+   "fold_ids": [
+    "ean:2359773006237"
+   ],
+   "reason": "Same 17% pastost, same numbers"
+  },
+  {
+   "keep_id": "ean:2359762104753",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7340083476815"
+   ],
+   "reason": "Grated vs piece parmigiano, same numbers; organic rows excluded"
+  },
+  {
+   "keep_id": "ean:2359764112701",
+   "fold_ids": [
+    "ean:2359764110080"
+   ],
+   "reason": "Same kamben"
+  },
+  {
+   "keep_id": "ean:2359772606711",
+   "fold_ids": [
+    "ean:2359772607305"
+   ],
+   "reason": "Same greve cheese"
+  },
+  {
+   "keep_id": "ean:2359773305187",
+   "fold_ids": [
+    "ean:2359773305934"
+   ],
+   "reason": "Same kassler"
+  },
+  {
+   "keep_id": "ean:2359749307559",
+   "fold_ids": [
+    "ean:2359778308275"
+   ],
+   "reason": "Same prastost 31%"
+  },
+  {
+   "keep_id": "ean:7340083484568",
+   "fold_ids": [
+    "ean:4340413484568"
+   ],
+   "reason": "Same cauliflower"
+  },
+  {
+   "keep_id": "ean:7311043008315",
+   "fold_ids": [
+    "ean:5110006008322"
+   ],
+   "reason": "Same spaghetti"
+  },
+  {
+   "keep_id": "ean:7311041064337",
+   "fold_ids": [
+    "ean:7311041064375",
+    "ean:7311043002726",
+    "ean:7340083487781"
+   ],
+   "unsure_ids": [
+    "ean:7311043018796",
+    "ean:7340083474675"
+   ],
+   "reason": "Same eggs indoor free range; outdoor hens and unspecified Svenska agg unsure"
+  },
+  {
+   "keep_id": "ean:7311043001354",
+   "fold_ids": [
+    "ean:7340083497353"
+   ],
+   "reason": "Same bacon"
+  },
+  {
+   "keep_id": "ean:7311043002429",
+   "fold_ids": [
+    "ean:7311043002436",
+    "ean:7311043019175"
+   ],
+   "reason": "Same indoor free range eggs"
+  },
+  {
+   "keep_id": "ean:7311043002528",
+   "fold_ids": [
+    "ean:7311043002542"
+   ],
+   "reason": "Same basmati rice, boil in bag pack"
+  },
+  {
+   "keep_id": "ean:7311043004928",
+   "fold_ids": [
+    "ean:7311043004911"
+   ],
+   "reason": "Same corn"
+  },
+  {
+   "keep_id": "ean:7311043005413",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7340083436208"
+   ],
+   "reason": "Klassisk bearnaise, fat 66 vs 68"
+  },
+  {
+   "keep_id": "ean:7311043005833",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7311043005840"
+   ],
+   "reason": "Alpsansrokt may mean smoked"
+  },
+  {
+   "keep_id": "ean:7311043007967",
+   "fold_ids": [
+    "ean:7340045502057"
+   ],
+   "reason": "Same hamburger"
+  },
+  {
+   "keep_id": "ean:7311043016433",
+   "fold_ids": [
+    "ean:7311043008346"
+   ],
+   "reason": "Same fusilli"
+  },
+  {
+   "keep_id": "ean:7311043014101",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7311043025886",
+    "ean:7311043027521"
+   ],
+   "reason": "Bulgur coarse vs fine grind"
+  },
+  {
+   "keep_id": "ean:7311043019113",
+   "fold_ids": [
+    "ean:7311043014316"
+   ],
+   "reason": "Same L eggs"
+  },
+  {
+   "keep_id": "ean:7311043018345",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7311043023752"
+   ],
+   "reason": "Virgin cold pressed vs plain organic coconut oil"
+  },
+  {
+   "keep_id": "ean:7311043018789",
+   "fold_ids": [
+    "ean:7340083445088"
+   ],
+   "reason": "Same organic eggs"
+  },
+  {
+   "keep_id": "ean:7311043019007",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7311043018895"
+   ],
+   "reason": "With fruit pulp vs clear juice"
+  },
+  {
+   "keep_id": "ean:7311043020010",
+   "fold_ids": [
+    "ean:7340083433634"
+   ],
+   "reason": "Same almonds"
+  },
+  {
+   "keep_id": "ean:7311043022151",
+   "fold_ids": [
+    "ean:7323130010354"
+   ],
+   "reason": "Same strawberries"
+  },
+  {
+   "keep_id": "ean:7340083471155",
+   "fold_ids": [
+    "ean:7311043025411"
+   ],
+   "reason": "Same blueberries"
+  },
+  {
+   "keep_id": "ean:7311043026678",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7311043026685"
+   ],
+   "reason": "Crunchy vs probably smooth, same numbers"
+  },
+  {
+   "keep_id": "ean:7340083477188",
+   "fold_ids": [
+    "ean:7311043029372",
+    "ean:9311594088055"
+   ],
+   "reason": "Same falukorv"
+  },
+  {
+   "keep_id": "ean:7340083494215",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7340083436239"
+   ],
+   "reason": "Klassisk romsas vs romsas"
+  },
+  {
+   "keep_id": "ean:7340083466809",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7340083466793"
+   ],
+   "reason": "Chunky mild salsa vs salsa"
+  },
+  {
+   "keep_id": "ean:7340083479410",
+   "fold_ids": [
+    "ean:7340083474576"
+   ],
+   "reason": "Same kabanoss"
+  },
+  {
+   "keep_id": "ean:7340083475580",
+   "fold_ids": [
+    "ean:7340083475627"
+   ],
+   "reason": "Same non-organic potatoes"
+  },
+  {
+   "keep_id": "ean:2359749607598",
+   "fold_ids": [
+    "ean:2359749606461"
+   ],
+   "unsure_ids": [
+    "ean:2359773007579",
+    "ean:2359773006473"
+   ],
+   "reason": "Same prastost 17%; mellanlagrad aged variant unsure"
+  },
+  {
+   "keep_id": "ean:7340083443886",
+   "fold_ids": [
+    "ean:7340083467875"
+   ],
+   "reason": "Same normal milk 3%"
+  },
+  {
+   "keep_id": "ean:7340083457609",
+   "fold_ids": [
+    "ean:7311041070406"
+   ],
+   "reason": "Same organic milk 3%"
+  },
+  {
+   "keep_id": "ean:2359773107569",
+   "fold_ids": [
+    "ean:2359773107378",
+    "ean:2359773107217"
+   ],
+   "unsure_ids": [
+    "ean:2359773106593"
+   ],
+   "reason": "Same herrgardsost 17%; Mild unsure"
+  },
+  {
+   "keep_id": "ean:2359751409593",
+   "fold_ids": [
+    "ean:2359751410681",
+    "ean:2359751410896",
+    "ean:2359751411015"
+   ],
+   "unsure_ids": [
+    "ean:2359751410346"
+   ],
+   "reason": "Same hushallsost 17%; Mild unsure"
+  },
+  {
+   "keep_id": "ean:2359772807613",
+   "fold_ids": [
+    "ean:2359772806876"
+   ],
+   "reason": "Same herrgardsost 28%"
+  },
+  {
+   "keep_id": "ean:7340083440489",
+   "fold_ids": [
+    "ean:7340083435973"
+   ],
+   "reason": "Same Garant lactose-free milk"
+  },
+  {
+   "keep_id": "ean:7041111155701",
+   "fold_ids": [
+    "ean:0031218153981"
+   ],
+   "reason": "Same roasted cashews"
+  },
+  {
+   "keep_id": "ean:4044924155701",
+   "fold_ids": [
+    "ean:7041111158610"
+   ],
+   "reason": "Same cashews, verified row kept"
+  },
+  {
+   "keep_id": "ean:7041111137967",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7041111124929"
+   ],
+   "reason": "Identical numbers; sea salt vs plain unclear"
+  },
+  {
+   "keep_id": "ean:7300207204007",
+   "fold_ids": [
+    "ean:0000013002077"
+   ],
+   "reason": "Same Scan spiced pork pairs"
+  },
+  {
+   "keep_id": "ean:2320719109428",
+   "fold_ids": [
+    "ean:0624116108506"
+   ],
+   "reason": "Same Scan kassler"
+  },
+  {
+   "keep_id": "ean:7300200080004",
+   "fold_ids": [
+    "ean:2000999422379",
+    "ean:2000999561290"
+   ],
+   "reason": "Same Scan meatballs"
+  },
+  {
+   "keep_id": "ean:2320738707841",
+   "fold_ids": [
+    "ean:2000999754463",
+    "ean:2320738710650",
+    "ean:3325930708107"
+   ],
+   "reason": "Same Scan grillskivor"
+  },
+  {
+   "keep_id": "ean:7300203037005",
+   "fold_ids": [
+    "ean:2320051610804"
+   ],
+   "reason": "Same sliced pork carre"
+  },
+  {
+   "keep_id": "ean:2320303607064",
+   "fold_ids": [
+    "ean:2320051615465"
+   ],
+   "reason": "Same boneless carre"
+  },
+  {
+   "keep_id": "ean:2320197103116",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2320051909298"
+   ],
+   "reason": "Benfri vs plain kotlett, same numbers"
+  },
+  {
+   "keep_id": "ean:2320321610466",
+   "fold_ids": [
+    "ean:2320321607138"
+   ],
+   "reason": "Same lean pork"
+  },
+  {
+   "keep_id": "ean:2320321607909",
+   "fold_ids": [
+    "ean:2320321610305"
+   ],
+   "reason": "Same pork tenderloin"
+  },
+  {
+   "keep_id": "ean:2320321610329",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2320321610107"
+   ],
+   "reason": "Vague name, numbers match marinated fillet"
+  },
+  {
+   "keep_id": "ean:7300207693009",
+   "fold_ids": [
+    "ean:2320656710169"
+   ],
+   "reason": "Same 12% beef mince; organic excluded"
+  },
+  {
+   "keep_id": "ean:7300204137001",
+   "fold_ids": [
+    "ean:7300200760005",
+    "ean:7300201239005"
+   ],
+   "reason": "Same Scan christmas ham"
+  },
+  {
+   "keep_id": "ean:7300202713009",
+   "fold_ids": [
+    "ean:7300202739009"
+   ],
+   "reason": "Same medwurst"
+  },
+  {
+   "keep_id": "ean:7300206866008",
+   "fold_ids": [
+    "ean:7300206831006"
+   ],
+   "reason": "Same mixed mince"
+  },
+  {
+   "keep_id": "ean:7300207273003",
+   "fold_ids": [
+    "ean:7300207088003"
+   ],
+   "reason": "Same prinskorv"
+  },
+  {
+   "keep_id": "ean:7300298920008",
+   "fold_ids": [
+    "ean:7300298919002"
+   ],
+   "reason": "Same hamburgers"
+  },
+  {
+   "keep_id": "ean:7310511216405",
+   "fold_ids": [
+    "ean:7310511216306"
+   ],
+   "reason": "Same Schweizernot, different pack"
+  },
+  {
+   "keep_id": "ean:7622202218187",
+   "fold_ids": [
+    "ean:7622210722683"
+   ],
+   "reason": "Same strawberry chocolate"
+  },
+  {
+   "keep_id": "ean:7340005403196",
+   "fold_ids": [
+    "ean:7300400375504"
+   ],
+   "reason": "Same peanuts"
+  },
+  {
+   "keep_id": "ean:7340005403509",
+   "fold_ids": [
+    "ean:7340005402915"
+   ],
+   "reason": "Same salted chips, different pack"
+  },
+  {
+   "keep_id": "ean:7340005405244",
+   "fold_ids": [
+    "ean:7340005405237"
+   ],
+   "reason": "Same popcorn"
+  },
+  {
+   "keep_id": "ean:7340005407040",
+   "fold_ids": [
+    "ean:7340005407163"
+   ],
+   "reason": "Same cheez ballz"
+  },
+  {
+   "keep_id": "ean:7318690077756",
+   "fold_ids": [
+    "ean:0318994036050"
+   ],
+   "reason": "Same pizza Hawaii"
+  },
+  {
+   "keep_id": "ean:0318994055693",
+   "fold_ids": [
+    "ean:7318690055693",
+    "ean:7376690064473"
+   ],
+   "reason": "Same tortilla, different sizes"
+  },
+  {
+   "keep_id": "ean:7318690509158",
+   "fold_ids": [
+    "ean:0318994513223"
+   ],
+   "reason": "Same 20% pork mince"
+  },
+  {
+   "keep_id": "ean:2319260902800",
+   "fold_ids": [
+    "ean:2319100909907",
+    "ean:2319159203971"
+   ],
+   "reason": "Same ICA carre"
+  },
+  {
+   "keep_id": "ean:2319117110884",
+   "fold_ids": [
+    "ean:2319117108010"
+   ],
+   "reason": "Same hogrev"
+  },
+  {
+   "keep_id": "ean:2319118315493",
+   "fold_ids": [
+    "ean:2319260903210"
+   ],
+   "reason": "Same boneless carre"
+  },
+  {
+   "keep_id": "ean:2319158807835",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2319118507829"
+   ],
+   "reason": "Benfri vs plain kotlett, same numbers"
+  },
+  {
+   "keep_id": "ean:2319124009287",
+   "fold_ids": [
+    "ean:2319124008044",
+    "ean:2319124009409",
+    "ean:2319124013970"
+   ],
+   "reason": "Same pork tenderloin"
+  },
+  {
+   "keep_id": "ean:2319172609354",
+   "fold_ids": [
+    "ean:2319172607060"
+   ],
+   "reason": "Same picnic bog"
+  },
+  {
+   "keep_id": "ean:2319203709695",
+   "fold_ids": [
+    "ean:2319203709657",
+    "ean:2319203710868",
+    "ean:2319203712923"
+   ],
+   "reason": "Same flintastek"
+  },
+  {
+   "keep_id": "ean:2319228107834",
+   "fold_ids": [
+    "ean:2319228113132"
+   ],
+   "reason": "Same marinated tenderloin"
+  },
+  {
+   "keep_id": "ean:2319228408344",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2319354909593"
+   ],
+   "reason": "Grill-marinated vs plain carre, 1.5% apart"
+  },
+  {
+   "keep_id": "ean:7318690162902",
+   "fold_ids": [
+    "ean:2319232306919"
+   ],
+   "reason": "Same 28% greve"
+  },
+  {
+   "keep_id": "ean:7318690163060",
+   "fold_ids": [
+    "ean:2319232406671",
+    "ean:2319232406947"
+   ],
+   "reason": "Same 28% herrgard"
+  },
+  {
+   "keep_id": "ean:2319258902393",
+   "fold_ids": [
+    "ean:2319258705437"
+   ],
+   "reason": "Same roast beef"
+  },
+  {
+   "keep_id": "ean:2319259102396",
+   "fold_ids": [
+    "ean:2319259103416"
+   ],
+   "reason": "Same rostas"
+  },
+  {
+   "keep_id": "ean:2319277106116",
+   "fold_ids": [
+    "ean:2319277106833"
+   ],
+   "reason": "Same kassler"
+  },
+  {
+   "keep_id": "ean:2319288405833",
+   "fold_ids": [
+    "ean:2319288406236",
+    "ean:2319288406298"
+   ],
+   "reason": "Same pepparbiff"
+  },
+  {
+   "keep_id": "ean:7318690127123",
+   "fold_ids": [
+    "ean:2319298004330",
+    "ean:2319298005047"
+   ],
+   "reason": "Same Parmigiano; organic excluded"
+  },
+  {
+   "keep_id": "ean:3351664137814",
+   "fold_ids": [
+    "ean:7318690182412"
+   ],
+   "reason": "Same ICA bacon, diced vs plain, identical numbers"
+  },
+  {
+   "keep_id": "ean:7310751101066",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7318690081784"
+   ],
+   "reason": "Jasminris vs Basic line, protein/carbs differ slightly"
+  },
+  {
+   "keep_id": "ean:7318690097235",
+   "fold_ids": [
+    "ean:7318690028574"
+   ],
+   "reason": "Greek olives, pitted label only"
+  },
+  {
+   "keep_id": "ean:7318690029830",
+   "fold_ids": [
+    "ean:7318690029861"
+   ],
+   "reason": "Same olives, identical numbers"
+  },
+  {
+   "keep_id": "ean:7318690032977",
+   "fold_ids": [
+    "ean:7318690043782",
+    "ean:7318690066903",
+    "ean:7318690095903",
+    "ean:7318690135180",
+    "ean:7318690172253",
+    "ean:7318690494850"
+   ],
+   "reason": "All ICA eggs, identical numbers, pack/type variants"
+  },
+  {
+   "keep_id": "ean:7318690079545",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7318690055716"
+   ],
+   "reason": "Cheese flavour vs plain chips, near-identical numbers"
+  },
+  {
+   "keep_id": "ean:7318690089209",
+   "fold_ids": [
+    "ean:7318690089216"
+   ],
+   "reason": "Same pasta, 1 kg, identical numbers"
+  },
+  {
+   "keep_id": "ean:7318690105664",
+   "fold_ids": [
+    "ean:7318690176176",
+    "ean:7318690186168"
+   ],
+   "reason": "Non-organic firm potatoes, identical"
+  },
+  {
+   "keep_id": "ean:7318690506348",
+   "fold_ids": [
+    "ean:7318693441394"
+   ],
+   "reason": "Both organic firm potatoes"
+  },
+  {
+   "keep_id": "ean:7318690113621",
+   "fold_ids": [
+    "ean:7318690488897"
+   ],
+   "reason": "Same bondbrod, identical numbers"
+  },
+  {
+   "keep_id": "ean:7318690129769",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7318690129806"
+   ],
+   "reason": "Roasted vs plain almond flakes, identical numbers"
+  },
+  {
+   "keep_id": "ean:7318690142850",
+   "fold_ids": [
+    "ean:7318690142843"
+   ],
+   "reason": "Same ketchup, different pack"
+  },
+  {
+   "keep_id": "ean:7318690506621",
+   "fold_ids": [
+    "ean:7318690153795"
+   ],
+   "reason": "Delikatesspotatis, variety named only"
+  },
+  {
+   "keep_id": "ean:7318690164531",
+   "fold_ids": [
+    "ean:7318690164494"
+   ],
+   "reason": "Same meatballs, identical numbers"
+  },
+  {
+   "keep_id": "ean:7318690171270",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7318690171669"
+   ],
+   "reason": "Chili flavour vs plain olkorv, identical numbers"
+  },
+  {
+   "keep_id": "ean:7318690185260",
+   "fold_ids": [
+    "ean:7318690697121"
+   ],
+   "reason": "Same mackerel fillet in tomato sauce"
+  },
+  {
+   "keep_id": "ean:7318690186830",
+   "fold_ids": [
+    "ean:7318690186847"
+   ],
+   "reason": "Same grillost 24%"
+  },
+  {
+   "keep_id": "ean:7318690497660",
+   "fold_ids": [
+    "ean:7318690497677"
+   ],
+   "reason": "Same flaxseed, second unverified"
+  },
+  {
+   "keep_id": "ean:7318690502319",
+   "fold_ids": [
+    "ean:7358690502322"
+   ],
+   "reason": "Same mazarin, EAN typo variant"
+  },
+  {
+   "keep_id": "ean:7318690503729",
+   "fold_ids": [
+    "ean:7318690503736",
+    "ean:7318690520832"
+   ],
+   "reason": "Same ICA kaviar, identical numbers"
+  },
+  {
+   "keep_id": "ean:7318690507192",
+   "fold_ids": [
+    "ean:7318690507208"
+   ],
+   "reason": "Exact duplicate name and numbers"
+  },
+  {
+   "keep_id": "ean:2319256810850",
+   "fold_ids": [
+    "ean:2319256810577"
+   ],
+   "reason": "Same hushallsost 17%"
+  },
+  {
+   "keep_id": "ean:7318690105220",
+   "fold_ids": [
+    "ean:7318690125297"
+   ],
+   "reason": "Same graddost 38%"
+  },
+  {
+   "keep_id": "ean:2319256909530",
+   "fold_ids": [
+    "ean:2319256910246"
+   ],
+   "reason": "Same hushallsost 26%"
+  },
+  {
+   "keep_id": "ean:7318690163145",
+   "fold_ids": [
+    "ean:2319232407906"
+   ],
+   "reason": "Same herrgardsost 28%"
+  },
+  {
+   "keep_id": "ean:7350104401245",
+   "fold_ids": [
+    "ean:0000019772899"
+   ],
+   "reason": "Same Nick's peanut bar"
+  },
+  {
+   "keep_id": "ean:7350104401108",
+   "fold_ids": [
+    "ean:17350104401105"
+   ],
+   "reason": "Same crunchy caramel, case-pack EAN"
+  },
+  {
+   "keep_id": "ean:7350104402075",
+   "fold_ids": [
+    "ean:7350104402150"
+   ],
+   "reason": "Same strawberry white"
+  },
+  {
+   "keep_id": "proteincompany-no:https://proteincompany.no/products/12-x-nicks-soft-bar-50-g-hazelnut-chocolate",
+   "fold_ids": [
+    "proteincompany-no:https://proteincompany.no/products/12-x-nicks-soft-bar-50-g-hazelnut-chocolate-super-deal"
+   ],
+   "reason": "Same bar, deal listing"
+  },
+  {
+   "keep_id": "ean:0000020427665",
+   "fold_ids": [
+    "ean:0000020432300"
+   ],
+   "reason": "Same juice, XXL pack"
+  },
+  {
+   "keep_id": "ean:2330099411509",
+   "fold_ids": [
+    "ean:2330125706807"
+   ],
+   "reason": "Same marinated pork fillet, identical numbers"
+  },
+  {
+   "keep_id": "ean:2371581009224",
+   "fold_ids": [
+    "ean:2371581011555"
+   ],
+   "reason": "Same pork fillet, identical numbers"
+  },
+  {
+   "keep_id": "ean:4056489670025",
+   "fold_ids": [
+    "ean:4056489669623"
+   ],
+   "reason": "Same lactose-free milk"
+  },
+  {
+   "keep_id": "ean:4056489065456",
+   "fold_ids": [
+    "ean:4056489669722"
+   ],
+   "reason": "Same eko milk, different pack",
+   "unsure_ids": [
+    "ean:4056489669531"
+   ]
+  },
+  {
+   "keep_id": "ean:2320250604420",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2320250605045"
+   ],
+   "reason": "Marinated vs plain, identical numbers"
+  },
+  {
+   "keep_id": "ean:7072350052186",
+   "fold_ids": [
+    "ean:7072350050434"
+   ],
+   "reason": "Same Mydland bacon"
+  },
+  {
+   "keep_id": "ean:7032890002270",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7032890002188"
+   ],
+   "reason": "Kokt (cooked) vs plain, identical numbers"
+  },
+  {
+   "keep_id": "norgesgruppen:23715203",
+   "fold_ids": [
+    "ean:2371520500003"
+   ],
+   "reason": "Same pinnekjott, same pack"
+  },
+  {
+   "keep_id": "ean:7071341002711",
+   "fold_ids": [
+    "ean:7071341002520",
+    "kassalapp:21644"
+   ],
+   "reason": "Same karbonader recipe, different pack sizes"
+  },
+  {
+   "keep_id": "norgesgruppen:23733042",
+   "fold_ids": [
+    "ean:2373304200000"
+   ],
+   "reason": "Same kyllingklubber"
+  },
+  {
+   "keep_id": "norgesgruppen:23733130",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2373313000004"
+   ],
+   "reason": "Identical numbers but one name says organic"
+  },
+  {
+   "keep_id": "ean:7090015509059",
+   "fold_ids": [
+    "ean:7090015509004"
+   ],
+   "reason": "Same eggs"
+  },
+  {
+   "keep_id": "norgesgruppen:23733702",
+   "fold_ids": [
+    "norgesgruppen:23733752"
+   ],
+   "reason": "Same short ribs"
+  },
+  {
+   "keep_id": "norgesgruppen:23737513",
+   "fold_ids": [],
+   "unsure_ids": [
+    "norgesgruppen:23737003"
+   ],
+   "reason": "Pinnekjott is usually smoked; kcal 452 vs 448"
+  },
+  {
+   "keep_id": "norgesgruppen:23798140",
+   "fold_ids": [
+    "ean:7090023904501"
+   ],
+   "reason": "Same salami, identical numbers"
+  },
+  {
+   "keep_id": "ean:7053290006675",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7053290006651"
+   ],
+   "reason": "Smoked vs plain name, identical numbers"
+  },
+  {
+   "keep_id": "ean:0000023811942",
+   "fold_ids": [
+    "kassalapp:21656"
+   ],
+   "reason": "Same rakfisk filet"
+  },
+  {
+   "keep_id": "norgesgruppen:23811953",
+   "fold_ids": [
+    "ean:2381195300006"
+   ],
+   "reason": "Same fjellorret fillet"
+  },
+  {
+   "keep_id": "norgesgruppen:23811946",
+   "fold_ids": [
+    "ean:7090015733805"
+   ],
+   "reason": "Same rakfisk, sliced is a pack form"
+  },
+  {
+   "keep_id": "ean:0000023860216",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2086021600007"
+   ],
+   "reason": "Plain vs einerroykt name, identical numbers"
+  },
+  {
+   "keep_id": "ean:0000023866324",
+   "fold_ids": [
+    "ean:2386636400000"
+   ],
+   "reason": "Same rakfisk Haadem"
+  },
+  {
+   "keep_id": "ean:7090013751269",
+   "fold_ids": [
+    "ean:2350401500004"
+   ],
+   "reason": "Same kyllinglar"
+  },
+  {
+   "keep_id": "ean:7090050581621",
+   "fold_ids": [
+    "ean:7090050581324"
+   ],
+   "reason": "Same spekeskinke"
+  },
+  {
+   "keep_id": "ean:7310240060638",
+   "fold_ids": [
+    "ean:7310240060072",
+    "ean:7310240060362"
+   ],
+   "reason": "Same Felix ketchup, different packs"
+  },
+  {
+   "keep_id": "ean:7311070347272",
+   "fold_ids": [
+    "ean:0000032145700"
+   ],
+   "reason": "Gifflar is the cinnamon one"
+  },
+  {
+   "keep_id": "ean:2307111207105",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2307111109157"
+   ],
+   "reason": "Sliced vs whole fillet"
+  },
+  {
+   "keep_id": "ean:2307116108995",
+   "fold_ids": [
+    "ean:2307111207822"
+   ],
+   "reason": "Same chicken breast fillet"
+  },
+  {
+   "keep_id": "ean:2307116108810",
+   "fold_ids": [
+    "ean:2307116109466"
+   ],
+   "reason": "Same chicken breast"
+  },
+  {
+   "keep_id": "ean:2307116109053",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7313940012679"
+   ],
+   "reason": "Whole vs strimlad form"
+  },
+  {
+   "keep_id": "ean:2307116808024",
+   "fold_ids": [
+    "ean:2307116808710"
+   ],
+   "unsure_ids": [
+    "ean:7313940011856"
+   ],
+   "reason": "Majskyckling breast fillet variants"
+  },
+  {
+   "keep_id": "ean:7313940531200",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2307124119235",
+    "ean:2307124120422"
+   ],
+   "reason": "Marinated vs plain, same numbers"
+  },
+  {
+   "keep_id": "ean:2307125108436",
+   "fold_ids": [
+    "ean:2307125109181",
+    "ean:2307125107927"
+   ],
+   "reason": "Same two-part breast fillet, identical numbers"
+  },
+  {
+   "keep_id": "ean:2307136108203",
+   "fold_ids": [
+    "ean:7313940012600"
+   ],
+   "reason": "Same lar fillet"
+  },
+  {
+   "keep_id": "ean:2307394815646",
+   "fold_ids": [
+    "ean:2307394814458"
+   ],
+   "reason": "Same whole corn chicken"
+  },
+  {
+   "keep_id": "ean:7313940011566",
+   "fold_ids": [
+    "ean:7313940522802"
+   ],
+   "reason": "Same chicken breast fillets"
+  },
+  {
+   "keep_id": "ean:7313940017063",
+   "fold_ids": [
+    "ean:7313940574900"
+   ],
+   "reason": "Same drumsticks"
+  },
+  {
+   "keep_id": "ean:7313940183478",
+   "fold_ids": [
+    "ean:7313940026188"
+   ],
+   "reason": "Same kycklingspett"
+  },
+  {
+   "keep_id": "ean:7313940574504",
+   "fold_ids": [
+    "ean:7793940574504"
+   ],
+   "reason": "Same buffalo wings"
+  },
+  {
+   "keep_id": "ean:7310532106617",
+   "fold_ids": [
+    "ean:7310532105382"
+   ],
+   "reason": "Same sour cream & ranch"
+  },
+  {
+   "keep_id": "ean:7318690126997",
+   "fold_ids": [
+    "ean:0000037895112"
+   ],
+   "reason": "Same cashews"
+  },
+  {
+   "keep_id": "ean:7318690511526",
+   "fold_ids": [
+    "ean:2319179108386",
+    "ean:2319179108010",
+    "ean:2319179107808"
+   ],
+   "reason": "Same ICA Basic gouda 28%"
+  },
+  {
+   "keep_id": "ean:4260183213178",
+   "fold_ids": [
+    "ean:4260183213604"
+   ],
+   "reason": "Same coconut juice"
+  },
+  {
+   "keep_id": "ean:8715700016504",
+   "fold_ids": [
+    "ean:0000087157260"
+   ],
+   "reason": "Same Heinz ketchup"
+  },
+  {
+   "keep_id": "ean:7613034337399",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7613037801958"
+   ],
+   "reason": "Regular vs organic baby food"
+  },
+  {
+   "keep_id": "ean:7311870010932",
+   "fold_ids": [
+    "ean:7311870011083"
+   ],
+   "reason": "Same Bregott Mellan"
+  },
+  {
+   "keep_id": "ean:7310865043368",
+   "fold_ids": [
+    "ean:0370065051997"
+   ],
+   "reason": "Same Keso mini 1,5%"
+  },
+  {
+   "keep_id": "ean:7310865866356",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7310865866424"
+   ],
+   "reason": "Mild vs plain yoghurt, same numbers"
+  },
+  {
+   "keep_id": "ean:2340379511966",
+   "fold_ids": [
+    "ean:2340379512246"
+   ],
+   "reason": "Same Arla gouda 28%"
+  },
+  {
+   "keep_id": "ean:7310865684707",
+   "fold_ids": [
+    "ean:7310865684752"
+   ],
+   "reason": "Vispgrädde 40%, different pack size"
+  },
+  {
+   "keep_id": "ean:2340380304366",
+   "fold_ids": [
+    "ean:2340380300009"
+   ],
+   "reason": "Port Salut 26% same product"
+  },
+  {
+   "keep_id": "ean:7310865067944",
+   "fold_ids": [
+    "ean:7310865093523"
+   ],
+   "reason": "Identical name and values"
+  },
+  {
+   "keep_id": "ean:2340415205859",
+   "fold_ids": [
+    "ean:2340415206634"
+   ],
+   "reason": "Präst 31% same"
+  },
+  {
+   "keep_id": "ean:7311870013278",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2340375010647",
+    "ean:5711953018275"
+   ],
+   "reason": "Sture and Åseda are named cheese varieties; unsure if same as generic Grädost"
+  },
+  {
+   "keep_id": "ean:7310865001191",
+   "fold_ids": [
+    "ean:7310865001115"
+   ],
+   "reason": "Lättmjölk 0,5% normal; organic row excluded"
+  },
+  {
+   "keep_id": "ean:7311877015626",
+   "fold_ids": [
+    "ean:2340413205219"
+   ],
+   "reason": "Identical Billinge 26%"
+  },
+  {
+   "keep_id": "ean:2340413404841",
+   "fold_ids": [
+    "ean:2340413404957"
+   ],
+   "unsure_ids": [
+    "ean:2340413405206"
+   ],
+   "reason": "Syrlig Ost 10% variants; plain Ost 10% unsure"
+  },
+  {
+   "keep_id": "ean:2340387312838",
+   "fold_ids": [
+    "ean:2340387312821"
+   ],
+   "reason": "Vänerost 33% same"
+  },
+  {
+   "keep_id": "ean:7310865067883",
+   "fold_ids": [
+    "ean:7310865075192"
+   ],
+   "reason": "Two organic lactose-free 1,5% rows; the non-organic row is not a duplicate"
+  },
+  {
+   "keep_id": "ean:7310865000361",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7310865872999"
+   ],
+   "reason": "Mjölk 3,0%; nutrition slightly different, Svensk Mjölk may be a different line"
+  },
+  {
+   "keep_id": "ean:2340414104092",
+   "fold_ids": [
+    "ean:2340414104559"
+   ],
+   "reason": "Cheddar 35% same"
+  },
+  {
+   "keep_id": "ean:5000246727216",
+   "fold_ids": [
+    "ean:5000246727230"
+   ],
+   "reason": "Mild Cheddar 35% mini cheese same"
+  },
+  {
+   "keep_id": "ean:2340413605316",
+   "fold_ids": [
+    "ean:2340413605859"
+   ],
+   "reason": "Mild & Krämig Ost 17% same"
+  },
+  {
+   "keep_id": "ean:2340398000007",
+   "fold_ids": [
+    "ean:2340398009888"
+   ],
+   "reason": "Gräddis 30% same"
+  },
+  {
+   "keep_id": "ean:7037610030038",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7037610021630"
+   ],
+   "reason": "Kremet vs Kremet Blomkålssoppa, slightly different values"
+  },
+  {
+   "keep_id": "ringnes:https://www.ringnes.no/produkter/gatorade/gatorade-lemon/",
+   "fold_ids": [
+    "ean:0000073165699"
+   ],
+   "reason": "Gatorade Lemon, brand distributor source"
+  },
+  {
+   "keep_id": "ean:7350002400340",
+   "fold_ids": [
+    "ean:7350002400326"
+   ],
+   "reason": "Zeta EVOO, different pack size"
+  },
+  {
+   "keep_id": "ean:7350002401828",
+   "fold_ids": [
+    "ean:7350002404300"
+   ],
+   "unsure_ids": [
+    "ean:7350027797173"
+   ],
+   "reason": "Grana Padano 29%; grovriven (grated) form unsure"
+  },
+  {
+   "keep_id": "ean:7350002405215",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7350002408926"
+   ],
+   "reason": "Fruttato vs Fruttato Intenso, may be different oils"
+  },
+  {
+   "keep_id": "ean:7350027797227",
+   "fold_ids": [
+    "ean:7350027798217"
+   ],
+   "reason": "Gentile olive oil same"
+  },
+  {
+   "keep_id": "ean:7350068291555",
+   "fold_ids": [
+    "ean:0000073143604"
+   ],
+   "reason": "ProPud Karamell same"
+  },
+  {
+   "keep_id": "ean:7350068291098",
+   "fold_ids": [
+    "tights:437972"
+   ],
+   "reason": "ProPud Sjokobolle same"
+  },
+  {
+   "keep_id": "ean:7350068291210",
+   "fold_ids": [
+    "proteincompany-no:https://proteincompany.no/products/8-x-njie-propud-protein-milkshake-330-ml-berry-cheesecake-super-deal",
+    "proteincompany-no:https://proteincompany.no/products/8-x-njie-propud-protein-milkshake-330-ml-cappuccino",
+    "proteincompany-no:https://proteincompany.no/products/8-x-njie-propud-protein-milkshake-330-ml-mix"
+   ],
+   "unsure_ids": [
+    "proteincompany-no:https://proteincompany.no/products/8-x-njie-propud-protein-milkshake-330-ml-appelpaj",
+    "proteincompany-no:https://proteincompany.no/sv/products/8-x-njie-propud-protein-milkshake-330-ml-appelpaj"
+   ],
+   "reason": "Flavours with identical values are one recipe; apple pie rows have slightly different values"
+  },
+  {
+   "keep_id": "ean:7350068291418",
+   "fold_ids": [
+    "tights:1403928"
+   ],
+   "reason": "Strawberry milkshake same"
+  },
+  {
+   "keep_id": "ean:7350068292651",
+   "fold_ids": [
+    "tights:3525286"
+   ],
+   "reason": "Mango Mania same, limited edition label only"
+  },
+  {
+   "keep_id": "tights:121740",
+   "fold_ids": [],
+   "unsure_ids": [
+    "tights:1382403"
+   ],
+   "reason": "Mango Vanilje vs Vanilje, different flavours with same numbers"
+  },
+  {
+   "keep_id": "ean:7310070006769",
+   "fold_ids": [
+    "ean:7310070008770"
+   ],
+   "reason": "Festis Wild Strawberry same"
+  },
+  {
+   "keep_id": "ean:7318690129202",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7318690158196"
+   ],
+   "reason": "Frökex vs Havre variant, same values"
+  },
+  {
+   "keep_id": "ean:5701027004198",
+   "fold_ids": [
+    "ean:0000087158021",
+    "ean:5701027004303"
+   ],
+   "reason": "Jozo iodised salt, all zero"
+  },
+  {
+   "keep_id": "ean:9002490215408",
+   "fold_ids": [
+    "ean:9002490291471",
+    "ean:9002490215699"
+   ],
+   "unsure_ids": [
+    "ean:0000090446399",
+    "ean:0000090448324"
+   ],
+   "reason": "Regular Red Bull same; winter editions are other flavours"
+  },
+  {
+   "keep_id": "ean:0000090446955",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:0000090456268"
+   ],
+   "reason": "Summer edition flavour unclear"
+  },
+  {
+   "keep_id": "ean:0000090493065",
+   "fold_ids": [
+    "ean:0000090486791"
+   ],
+   "unsure_ids": [
+    "ean:0000090493515"
+   ],
+   "reason": "White Edition same; White Peach edition may differ"
+  },
+  {
+   "keep_id": "ean:9002490291235",
+   "fold_ids": [
+    "ean:9002490293185"
+   ],
+   "reason": "Sugar free Red Bull same"
+  },
+  {
+   "keep_id": "ean:9002490294168",
+   "fold_ids": [
+    "ean:9002490292959"
+   ],
+   "reason": "Sudachi Lime same"
+  },
+  {
+   "keep_id": "ean:7070866009113",
+   "fold_ids": [
+    "ean:7070866024765"
+   ],
+   "reason": "Same Nutrilett bar"
+  },
+  {
+   "keep_id": "ean:7058040452207",
+   "fold_ids": [
+    "ean:7058040443601",
+    "ean:7058040613301"
+   ],
+   "reason": "Same salami, pack sizes"
+  },
+  {
+   "keep_id": "ean:0041143028919",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:0041143024966"
+   ],
+   "reason": "Organic Sun Maid vs plain raisins"
+  },
+  {
+   "keep_id": "ean:0041500763675",
+   "fold_ids": [
+    "norgesgruppen:41500763675"
+   ],
+   "reason": "Same mustard"
+  },
+  {
+   "keep_id": "ean:7039281553571",
+   "fold_ids": [
+    "ean:7039281549680"
+   ],
+   "reason": "Same blueberries, pack sizes"
+  },
+  {
+   "keep_id": "ean:7041614021794",
+   "fold_ids": [
+    "ean:7041614021787"
+   ],
+   "reason": "Same speltlomper"
+  },
+  {
+   "keep_id": "ean:0072600069633",
+   "fold_ids": [
+    "norgesgruppen:72600069145"
+   ],
+   "reason": "Same Reaper curls"
+  },
+  {
+   "keep_id": "ean:7350035210107",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:0350635210214"
+   ],
+   "reason": "Generic Samyang Ramen flavour unknown"
+  },
+  {
+   "keep_id": "ean:7392055051483",
+   "fold_ids": [
+    "ean:0322655057483"
+   ],
+   "reason": "Same Toulouse sausage"
+  },
+  {
+   "keep_id": "ean:7310155802774",
+   "fold_ids": [
+    "ean:0340555803771"
+   ],
+   "reason": "Same BBQ sauce"
+  },
+  {
+   "keep_id": "ean:7392031040654",
+   "fold_ids": [
+    "ean:7392031040685"
+   ],
+   "reason": "Same chips"
+  },
+  {
+   "keep_id": "ean:7393750010362",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:0383254000362"
+   ],
+   "reason": "Gravad vs plain laxfile, identical numbers"
+  },
+  {
+   "keep_id": "ean:0613008719524",
+   "fold_ids": [
+    "ean:0613008717711"
+   ],
+   "reason": "Same Arizona iced tea"
+  },
+  {
+   "keep_id": "ean:0792816789711",
+   "fold_ids": [
+    "ean:0634114054330"
+   ],
+   "reason": "Same cream of rice"
+  },
+  {
+   "keep_id": "ean:5056555204504",
+   "fold_ids": [
+    "gymgrossisten-se:https://www.gymgrossisten.com/critical-mass-6-kg-shaker-pa-kopet/SETCRITICALMASSSHAKER.html"
+   ],
+   "unsure_ids": [
+    "gymgrossisten-se:https://www.gymgrossisten.com/critical-mass-gainer-24-kg-vanilla-testo-bomb-enhancer-120-kapslar/SETCRITICALMASSTESTO.html"
+   ],
+   "reason": "Shaker bundle same; testo bundle a different set"
+  },
+  {
+   "keep_id": "ean:5056555206485",
+   "fold_ids": [],
+   "unsure_ids": [
+    "gymgrossisten-se:https://www.gymgrossisten.com/abe-pwo-315-g-clear-whey-vassleprotein-875-g/SETAPPLIEDNUTRIWHEY.html",
+    "gymgrossisten:https://www.gymgrossisten.no/abe-pwo-315-g-clear-whey-myseprotein-875-g/SETAPPLIEDNUTRIWHEY.html"
+   ],
+   "reason": "PWO+Clear Whey bundles"
+  },
+  {
+   "keep_id": "ean:3005743101035",
+   "fold_ids": [
+    "ean:3005743101127"
+   ],
+   "reason": "Same AminoCarb"
+  },
+  {
+   "keep_id": "ean:7090020974699",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7090020974798"
+   ],
+   "reason": "Whey flavour unclear"
+  },
+  {
+   "keep_id": "ean:0705044029375",
+   "fold_ids": [
+    "ean:0700000369335"
+   ],
+   "reason": "Same egg bites"
+  },
+  {
+   "keep_id": "ean:5701090068493",
+   "fold_ids": [
+    "ean:5701090080396"
+   ],
+   "reason": "Same Haribo"
+  },
+  {
+   "keep_id": "ean:6415600581516",
+   "fold_ids": [
+    "ean:6415600581592"
+   ],
+   "reason": "Same Battery Mango Coconut"
+  },
+  {
+   "keep_id": "ean:6415600587105",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:6415600600385"
+   ],
+   "reason": "Generic Battery Zero flavour unknown"
+  },
+  {
+   "keep_id": "ean:7622300737955",
+   "fold_ids": [
+    "ean:5410041030006"
+   ],
+   "reason": "3-pack of same Tuc"
+  },
+  {
+   "keep_id": "ean:0708747295269",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:0708747152647"
+   ],
+   "reason": "Organic vs plain flax"
+  },
+  {
+   "keep_id": "ean:7090017540012",
+   "fold_ids": [
+    "ean:7090017541323",
+    "ean:7090017542375"
+   ],
+   "unsure_ids": [
+    "ean:7090017541545"
+   ],
+   "reason": "Sukrin same; organic unsure"
+  },
+  {
+   "keep_id": "ean:7090017540746",
+   "fold_ids": [
+    "ean:7090017541361"
+   ],
+   "reason": "Same chiabrod"
+  },
+  {
+   "keep_id": "ean:7090017541484",
+   "fold_ids": [
+    "life-no-discontinued:https://www.life.no/mat-drikke/mat/sjokolade/sukkerfri/sukrin-melkesjokolade-med-kokos-40g"
+   ],
+   "reason": "Same chocolate"
+  },
+  {
+   "keep_id": "ean:7090017543020",
+   "fold_ids": [
+    "tights-discontinued:14097826"
+   ],
+   "reason": "Same fiberbrod"
+  },
+  {
+   "keep_id": "ean:7350000553383",
+   "fold_ids": [
+    "ean:0720404553383"
+   ],
+   "reason": "Same ProViva, matching barcode tail"
+  },
+  {
+   "keep_id": "ean:0731701002115",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:0731701001460"
+   ],
+   "reason": "Plumas vs generic pasta, carbs differ"
+  },
+  {
+   "keep_id": "ean:7035260000258",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7035260007233"
+   ],
+   "reason": "Julebrus red vs plain"
+  },
+  {
+   "keep_id": "ean:7340012500536",
+   "fold_ids": [
+    "ean:7340012519002"
+   ],
+   "reason": "same Italiensk fresh sausage, identical numbers"
+  },
+  {
+   "keep_id": "ean:2330041709173",
+   "fold_ids": [
+    "ean:2330041710728"
+   ],
+   "reason": "same Flintastek, identical numbers"
+  },
+  {
+   "keep_id": "ean:2330042908131",
+   "fold_ids": [
+    "ean:2330042906748",
+    "ean:2330042907240"
+   ],
+   "reason": "same marinated karre"
+  },
+  {
+   "keep_id": "ean:2384790409433",
+   "fold_ids": [
+    "ean:2384790410316"
+   ],
+   "reason": "Bondmoran same cheese, 31% in name"
+  },
+  {
+   "keep_id": "ean:2384797109244",
+   "fold_ids": [
+    "ean:2384797109237"
+   ],
+   "reason": "same Sommarspecial cheese"
+  },
+  {
+   "keep_id": "ean:2384795696111",
+   "fold_ids": [
+    "ean:2384795606202"
+   ],
+   "reason": "identical name and numbers"
+  },
+  {
+   "keep_id": "proteinfabrikken:https://www.proteinfabrikken.no/100-whey-protein-3000-g-bonusprodukt/SETPFW100BONUS.html",
+   "fold_ids": [
+    "proteinfabrikken:https://www.proteinfabrikken.no/plukk-og-velg-100-whey-3x1kg/SETPFWHEY3.html"
+   ],
+   "reason": "same whey, different pack sets"
+  },
+  {
+   "keep_id": "ean:7310890100685",
+   "fold_ids": [
+    "ean:7310890100333"
+   ],
+   "reason": "same ostkaka, different pack size"
+  },
+  {
+   "keep_id": "ean:7350122560511",
+   "fold_ids": [
+    "ean:7350122293662"
+   ],
+   "reason": "same lemon cake, identical numbers"
+  },
+  {
+   "keep_id": "ean:5707196358551",
+   "fold_ids": [
+    "ean:5851100",
+    "ean:5707196109191"
+   ],
+   "reason": "same Danish salami",
+   "unsure_ids": []
+  },
+  {
+   "keep_id": "ean:5707196047448",
+   "fold_ids": [
+    "ean:5762385638364"
+   ],
+   "reason": "same bacon, thicker slices only"
+  },
+  {
+   "keep_id": "ean:5707196306828",
+   "fold_ids": [
+    "ean:5707196238907"
+   ],
+   "reason": "same ternet bacon 250 g"
+  },
+  {
+   "keep_id": "ean:2100449619158",
+   "fold_ids": [],
+   "unsure_ids": [
+    "openfoodfacts:0200460310393"
+   ],
+   "reason": "Angus variant may be a different cut"
+  },
+  {
+   "keep_id": "norgesgruppen:23739142",
+   "fold_ids": [
+    "ean:2373914200001"
+   ],
+   "reason": "same tynnribbe"
+  },
+  {
+   "keep_id": "ean:2000508463404",
+   "fold_ids": [
+    "ean:2000508451500"
+   ],
+   "reason": "identical name and numbers"
+  },
+  {
+   "keep_id": "ean:7020098003021",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7020098005872"
+   ],
+   "reason": "Big Juicy vs plain burger, kcal slightly differ"
+  },
+  {
+   "keep_id": "ean:7022185500239",
+   "fold_ids": [
+    "ean:7022180003032"
+   ],
+   "reason": "same marinade, different pack size"
+  },
+  {
+   "keep_id": "ean:7330242240098",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7330242230099"
+   ],
+   "reason": "glutenfri label with slightly different numbers"
+  },
+  {
+   "keep_id": "ean:7318690179252",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7318690185246"
+   ],
+   "reason": "whole fillet vs fillet pieces, same numbers"
+  },
+  {
+   "keep_id": "ean:7316150777475",
+   "fold_ids": [
+    "ean:7316150777581"
+   ],
+   "reason": "same Halkidiki olives"
+  },
+  {
+   "keep_id": "ean:7316150980530",
+   "fold_ids": [
+    "ean:7316150980554"
+   ],
+   "reason": "same pizza base"
+  },
+  {
+   "keep_id": "ean:2301009700006",
+   "fold_ids": [
+    "ean:2301009702208"
+   ],
+   "reason": "same lamb fillet, gilde source"
+  },
+  {
+   "keep_id": "ean:7037204194627",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7037204194726"
+   ],
+   "reason": "smoked vs plain pinnekjott, identical numbers"
+  },
+  {
+   "keep_id": "ean:2301120600001",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2301693400008"
+   ],
+   "reason": "smoked vs plain pinnekjott, identical numbers"
+  },
+  {
+   "keep_id": "ean:2301739400009",
+   "fold_ids": [
+    "ean:2301739418820"
+   ],
+   "reason": "same pork chops"
+  },
+  {
+   "keep_id": "ean:2301627200001",
+   "fold_ids": [
+    "ean:2340529515448"
+   ],
+   "reason": "same grillskiver, gilde source"
+  },
+  {
+   "keep_id": "ean:7037204742293",
+   "fold_ids": [
+    "ean:7037206100091"
+   ],
+   "reason": "same hamburgerrygg"
+  },
+  {
+   "keep_id": "ean:2340215300006",
+   "fold_ids": [
+    "ean:2301095200008",
+    "ean:2301343900001"
+   ],
+   "reason": "same lammelar"
+  },
+  {
+   "keep_id": "ean:2301632114461",
+   "fold_ids": [
+    "norgesgruppen:23406037"
+   ],
+   "reason": "same grillribbe, verified row"
+  },
+  {
+   "keep_id": "ean:2301635200000",
+   "fold_ids": [
+    "ean:7037203626631"
+   ],
+   "reason": "same pork ytrefilet, gilde source"
+  },
+  {
+   "keep_id": "ean:7037203644956",
+   "fold_ids": [
+    "ean:7037206101654"
+   ],
+   "reason": "same spekeskinke"
+  },
+  {
+   "keep_id": "ean:2301004500007",
+   "fold_ids": [
+    "ean:2301004503589"
+   ],
+   "reason": "same beef flatbiff",
+   "unsure_ids": [
+    "ean:2301559600009"
+   ]
+  },
+  {
+   "keep_id": "ean:2301519412727",
+   "fold_ids": [
+    "kassalapp:67946"
+   ],
+   "reason": "same grillribbe from neck"
+  },
+  {
+   "keep_id": "ean:0000023010741",
+   "fold_ids": [
+    "ean:2001074100007"
+   ],
+   "reason": "same svinehoder, same pack"
+  },
+  {
+   "keep_id": "ean:2340523400009",
+   "fold_ids": [
+    "ean:2301216000005",
+    "norgesgruppen:23405234"
+   ],
+   "reason": "same lammebog"
+  },
+  {
+   "keep_id": "ean:2301007700008",
+   "fold_ids": [
+    "ean:2301007702958",
+    "ean:2301007703368"
+   ],
+   "reason": "same beef ytrefilet, gilde source"
+  },
+  {
+   "keep_id": "ean:7037204196980",
+   "fold_ids": [
+    "ean:2340110300002"
+   ],
+   "reason": "same farikalkjott"
+  },
+  {
+   "keep_id": "ean:7037203630782",
+   "fold_ids": [
+    "ean:7037204772740"
+   ],
+   "reason": "same salami"
+  },
+  {
+   "keep_id": "ean:2301550900009",
+   "fold_ids": [
+    "ean:2301550911029"
+   ],
+   "reason": "same komlekjott, gilde source"
+  },
+  {
+   "keep_id": "ean:2301217000004",
+   "fold_ids": [
+    "ean:2340163109331"
+   ],
+   "reason": "same lammeskank"
+  },
+  {
+   "keep_id": "norgesgruppen:23402223",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2340222300006"
+   ],
+   "reason": "smoked vs plain skinkeknoke, numbers slightly differ"
+  },
+  {
+   "keep_id": "ean:2301501000000",
+   "fold_ids": [
+    "ean:2301501005944"
+   ],
+   "reason": "same pork indrefilet, gilde source"
+  },
+  {
+   "keep_id": "ean:2301007000009",
+   "fold_ids": [
+    "ean:2301007003437"
+   ],
+   "reason": "same morbradbiff, gilde source"
+  },
+  {
+   "keep_id": "ean:2003850084235",
+   "fold_ids": [
+    "ean:7024850084235"
+   ],
+   "reason": "Same ytrefilet av svin"
+  },
+  {
+   "keep_id": "ean:2310229915343",
+   "fold_ids": [
+    "ean:2310229916524"
+   ],
+   "reason": "Same pinnekjott"
+  },
+  {
+   "keep_id": "ean:2310322405581",
+   "fold_ids": [
+    "ean:2310322403976",
+    "ean:2310322405864"
+   ],
+   "reason": "Same indrefilet"
+  },
+  {
+   "keep_id": "ean:2310567225142",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2310567223445"
+   ],
+   "reason": "Uten knoke may be a different cut"
+  },
+  {
+   "keep_id": "ean:7024850013945",
+   "fold_ids": [
+    "ean:7024850015987"
+   ],
+   "reason": "Same recipe, XXL pack"
+  },
+  {
+   "keep_id": "ean:7024850022411",
+   "fold_ids": [
+    "ean:7024850022404"
+   ],
+   "reason": "Same strynskinke"
+  },
+  {
+   "keep_id": "ean:7024850086666",
+   "fold_ids": [
+    "ean:7024850030058"
+   ],
+   "reason": "Same entrecote"
+  },
+  {
+   "keep_id": "ean:7071012003054",
+   "fold_ids": [
+    "ean:7071012007045"
+   ],
+   "reason": "Same lomper, pack sizes"
+  },
+  {
+   "keep_id": "ean:2317236706483",
+   "fold_ids": [
+    "ean:2317236707008"
+   ],
+   "reason": "Same organic prastost 35%"
+  },
+  {
+   "keep_id": "ean:2340417805132",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2340419506952"
+   ],
+   "reason": "12 month aged may be a different product"
+  },
+  {
+   "keep_id": "ean:2374113103254",
+   "fold_ids": [
+    "ean:2374113102929",
+    "ean:2374113103063"
+   ],
+   "reason": "Same salmon loin"
+  },
+  {
+   "keep_id": "ean:2374113102950",
+   "fold_ids": [
+    "ean:2374113103568"
+   ],
+   "reason": "Half pack of same loin"
+  },
+  {
+   "keep_id": "ean:2351228406210",
+   "fold_ids": [
+    "ean:2351228407040",
+    "ean:2351228405138"
+   ],
+   "reason": "Same Slanke Danica 10%"
+  },
+  {
+   "keep_id": "ean:7057370030260",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7057370031373"
+   ],
+   "reason": "Strips vs plain fillet unclear"
+  },
+  {
+   "keep_id": "norgesgruppen:23545615",
+   "fold_ids": [
+    "ean:2054561500002"
+   ],
+   "reason": "Same peppermakrell, clearer name"
+  },
+  {
+   "keep_id": "ean:7023539700701",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7023539700800",
+    "norgesgruppen:23642616"
+   ],
+   "reason": "Organic flag and unsliced pack uncertain"
+  },
+  {
+   "keep_id": "ean:7023539702835",
+   "fold_ids": [
+    "ean:7023539700718"
+   ],
+   "reason": "Same einerokt laks"
+  },
+  {
+   "keep_id": "ean:7023539702125",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7023539702132"
+   ],
+   "reason": "Spro biter variant uncertain"
+  },
+  {
+   "keep_id": "ean:7057820012044",
+   "fold_ids": [
+    "ean:2081111800008"
+   ],
+   "unsure_ids": [
+    "ean:7057820011023"
+   ],
+   "reason": "Smoked cod duplicates; plain Torskefilet may be unsmoked"
+  },
+  {
+   "keep_id": "norgesgruppen:23812607",
+   "fold_ids": [
+    "ean:2081260700006"
+   ],
+   "reason": "Same whole makrell"
+  },
+  {
+   "keep_id": "ean:2301290802601",
+   "fold_ids": [
+    "ean:2374108602427",
+    "ean:2374108602649"
+   ],
+   "reason": "Same entrecote"
+  },
+  {
+   "keep_id": "ean:7024850087755",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7032069739624"
+   ],
+   "reason": "Fat differs 2.5 vs 2.2, may be different recipe"
+  },
+  {
+   "keep_id": "ean:7032069760598",
+   "fold_ids": [
+    "kassalapp:33335"
+   ],
+   "reason": "Same skinke, verified row kept"
+  },
+  {
+   "keep_id": "ean:7040518206597",
+   "fold_ids": [
+    "ean:7040518206603"
+   ],
+   "reason": "Same maiskolber"
+  },
+  {
+   "keep_id": "kassalapp:4879",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7032069731246"
+   ],
+   "reason": "Flavour unspecified on one row"
+  },
+  {
+   "keep_id": "ean:7032069108505",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7032069108499"
+   ],
+   "reason": "Different fruit list"
+  },
+  {
+   "keep_id": "ean:7032069736180",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7032069739402"
+   ],
+   "reason": "Spicy may be different"
+  },
+  {
+   "keep_id": "ean:2374107905888",
+   "fold_ids": [
+    "ean:2374107904560"
+   ],
+   "reason": "Same pampas indrefilet"
+  },
+  {
+   "keep_id": "ean:5705830004314",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7032069732229"
+   ],
+   "reason": "Bean type and numbers differ slightly"
+  },
+  {
+   "keep_id": "ean:7032069106839",
+   "fold_ids": [
+    "ean:7032069105542"
+   ],
+   "reason": "Same marsipanbrod, seasonal name"
+  },
+  {
+   "keep_id": "ean:7032060011064",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7032069654736"
+   ],
+   "reason": "Roasted lightly salted vs plain almonds"
+  },
+  {
+   "keep_id": "ean:7032069738160",
+   "fold_ids": [
+    "ean:4032499738160"
+   ],
+   "reason": "Same polsegryte"
+  },
+  {
+   "keep_id": "ean:7032069726242",
+   "fold_ids": [
+    "ean:7032069104989"
+   ],
+   "reason": "Same cheddar 35%"
+  },
+  {
+   "keep_id": "ean:2310632646667",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2310632306523"
+   ],
+   "reason": "Tex Mex flavour variant"
+  },
+  {
+   "keep_id": "ean:7040512094800",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7040512094817"
+   ],
+   "reason": "Red vs plain new potatoes"
+  },
+  {
+   "keep_id": "ean:7032069728420",
+   "fold_ids": [
+    "ean:7032069728437"
+   ],
+   "reason": "Identical Brie 32%"
+  },
+  {
+   "keep_id": "ean:7040512041521",
+   "fold_ids": [
+    "ean:7040512017427"
+   ],
+   "reason": "Same kokefaste poteter"
+  },
+  {
+   "keep_id": "ean:2307111208256",
+   "fold_ids": [
+    "ean:2307111207648"
+   ],
+   "reason": "Same kycklingfile"
+  },
+  {
+   "keep_id": "ean:2307116807461",
+   "fold_ids": [
+    "ean:2307116807867"
+   ],
+   "reason": "Same majskyckling"
+  },
+  {
+   "keep_id": "ean:2307136108791",
+   "fold_ids": [
+    "ean:2307136107763"
+   ],
+   "reason": "Same kycklinglarfile"
+  },
+  {
+   "keep_id": "ean:2332800705006",
+   "fold_ids": [
+    "ean:2332802709453"
+   ],
+   "reason": "Same larfile"
+  },
+  {
+   "keep_id": "ean:2332802709132",
+   "fold_ids": [
+    "ean:2332802710442"
+   ],
+   "reason": "Same larfile"
+  },
+  {
+   "keep_id": "ean:2332804008479",
+   "fold_ids": [
+    "ean:2332804011189"
+   ],
+   "reason": "Same chicken breast"
+  },
+  {
+   "keep_id": "ean:2332804009421",
+   "fold_ids": [
+    "ean:2332804008981",
+    "ean:2332804009124",
+    "ean:2332804009568",
+    "ean:2332804009698",
+    "ean:2332804011271"
+   ],
+   "reason": "Same Kronfagel chicken breast fillet, identical numbers"
+  },
+  {
+   "keep_id": "ean:2332804010038",
+   "fold_ids": [
+    "ean:7300328123003",
+    "ean:7300328135006",
+    "ean:7300328139004"
+   ],
+   "reason": "Plain chicken fillet, same numbers; strips/diced are cuts of same product"
+  },
+  {
+   "keep_id": "ean:2332810409512",
+   "fold_ids": [
+    "ean:2332810407945"
+   ],
+   "reason": "Same BBQ chicken"
+  },
+  {
+   "keep_id": "ean:7300328591000",
+   "fold_ids": [
+    "ean:2332813006077"
+   ],
+   "reason": "Same minutfile"
+  },
+  {
+   "keep_id": "ean:2332818408715",
+   "fold_ids": [
+    "ean:2332818408326"
+   ],
+   "reason": "Same chicken steak"
+  },
+  {
+   "keep_id": "ean:4056489849803",
+   "fold_ids": [
+    "ean:4056489849810"
+   ],
+   "reason": "Same hamburger 18%"
+  },
+  {
+   "keep_id": "ean:7393263064258",
+   "fold_ids": [
+    "ean:7393263064234"
+   ],
+   "reason": "Same falukorv"
+  },
+  {
+   "keep_id": "ean:2313115009980",
+   "fold_ids": [
+    "ean:2313115010177"
+   ],
+   "reason": "Same notfars, identical numbers"
+  },
+  {
+   "keep_id": "ean:2313516311224",
+   "fold_ids": [
+    "ean:2313516312627"
+   ],
+   "reason": "Same grillfilet, identical numbers"
+  },
+  {
+   "keep_id": "ean:2313516411382",
+   "fold_ids": [
+    "ean:2313516412167"
+   ],
+   "reason": "Same BBQ grillfilet"
+  },
+  {
+   "keep_id": "ean:7025050042568",
+   "fold_ids": [
+    "ean:7025050042599",
+    "ean:7025050043343"
+   ],
+   "reason": "Same bacon original"
+  },
+  {
+   "keep_id": "ean:2321325905848",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2321325906548"
+   ],
+   "reason": "Alspansrokt variant, unclear if different"
+  },
+  {
+   "keep_id": "ean:2321380908327",
+   "fold_ids": [
+    "ean:2321380906804"
+   ],
+   "reason": "Same flaskytterfile, identical numbers"
+  },
+  {
+   "keep_id": "ean:2323626000000",
+   "fold_ids": [
+    "ean:2323266900005"
+   ],
+   "reason": "Same whole chicken"
+  },
+  {
+   "keep_id": "ean:2384790120222",
+   "fold_ids": [
+    "ean:2384790121465"
+   ],
+   "reason": "Same husallsost 26%"
+  },
+  {
+   "keep_id": "ean:7311870021846",
+   "fold_ids": [
+    "ean:2340343605042"
+   ],
+   "reason": "Same Munkens Svarta 31%"
+  },
+  {
+   "keep_id": "ean:2340449304931",
+   "fold_ids": [
+    "ean:2340449304528"
+   ],
+   "reason": "Same Munkens Svarta 10%"
+  },
+  {
+   "keep_id": "ean:7020099000784",
+   "fold_ids": [
+    "ean:2340530100008"
+   ],
+   "unsure_ids": [
+    "ean:2340516203037"
+   ],
+   "reason": "Black garlic rows match; plain row may be different flavour"
+  },
+  {
+   "keep_id": "ean:2351826012042",
+   "fold_ids": [
+    "norgesgruppen:23518260"
+   ],
+   "reason": "Same chicken wings"
+  },
+  {
+   "keep_id": "ean:2340167300000",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2340310200003"
+   ],
+   "reason": "Krydret (seasoned) vs plain, identical numbers"
+  },
+  {
+   "keep_id": "ean:2340529514984",
+   "fold_ids": [
+    "ean:2340529500000"
+   ],
+   "reason": "Same grillskiver av kam"
+  },
+  {
+   "keep_id": "ean:7035620062063",
+   "fold_ids": [
+    "ean:7035620022906"
+   ],
+   "reason": "Same kokt skinke"
+  },
+  {
+   "keep_id": "ean:5056522304343",
+   "fold_ids": [
+    "ean:7020097033838"
+   ],
+   "reason": "Same biffstrimler"
+  },
+  {
+   "keep_id": "ean:2340040302800",
+   "fold_ids": [
+    "ean:7020099000395"
+   ],
+   "reason": "Same indrefilet"
+  },
+  {
+   "keep_id": "ean:2365657300001",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2365619700009"
+   ],
+   "reason": "Urokt vs unspecified pinnekjott, numbers differ slightly"
+  },
+  {
+   "keep_id": "ean:2340575200008",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:0000023405752"
+   ],
+   "reason": "Marinert vs plain nakkefilet, identical numbers"
+  },
+  {
+   "keep_id": "ean:2340082302929",
+   "fold_ids": [
+    "ean:2340082303131"
+   ],
+   "reason": "Same entrecote"
+  },
+  {
+   "keep_id": "ean:2352403204768",
+   "fold_ids": [
+    "ean:2352403306820"
+   ],
+   "reason": "Same herrgardsost 28%"
+  },
+  {
+   "keep_id": "ean:7310861000495",
+   "fold_ids": [
+    "ean:7310861000426"
+   ],
+   "reason": "Same fresh milk 3.0%"
+  },
+  {
+   "keep_id": "ean:7310861003847",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7310861014690"
+   ],
+   "reason": "Latt vs normal creme fraiche, same 13% fat"
+  },
+  {
+   "keep_id": "ean:2354220104740",
+   "fold_ids": [
+    "ean:2354220104450"
+   ],
+   "reason": "Same chicken breast"
+  },
+  {
+   "keep_id": "ean:2354963305381",
+   "fold_ids": [
+    "ean:2354963306234"
+   ],
+   "reason": "Same smoked ham"
+  },
+  {
+   "keep_id": "ean:2355022610521",
+   "fold_ids": [
+    "ean:2355022610255"
+   ],
+   "reason": "Same notfars 20%"
+  },
+  {
+   "keep_id": "ean:2355022810051",
+   "fold_ids": [
+    "ean:2355022810228"
+   ],
+   "reason": "Same blandfars 50/50 20%"
+  },
+  {
+   "keep_id": "ean:2355446302491",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2355446201282"
+   ],
+   "reason": "Pepper flavour vs plain, identical numbers"
+  },
+  {
+   "keep_id": "ean:7311043016280",
+   "fold_ids": [
+    "ean:7340083472923"
+   ],
+   "reason": "Same Falkenberg salmon"
+  },
+  {
+   "keep_id": "ean:7350046675926",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2362886803709"
+   ],
+   "reason": "Chicken and turkey vs turkey only, identical numbers"
+  },
+  {
+   "keep_id": "ean:2362985308006",
+   "fold_ids": [],
+   "unsure_ids": [
+    "openfoodfacts-nordic-global:0234299530967"
+   ],
+   "reason": "Grill-seasoned marinated vs plain"
+  },
+  {
+   "keep_id": "ean:2364263402895",
+   "fold_ids": [
+    "ean:2364263403342"
+   ],
+   "reason": "Same Salma salmon"
+  },
+  {
+   "keep_id": "ean:2385250401691",
+   "fold_ids": [
+    "ean:2385250902846"
+   ],
+   "reason": "Same Salma salmon, identical numbers"
+  },
+  {
+   "keep_id": "ean:2366150803198",
+   "fold_ids": [
+    "ean:7391196007151"
+   ],
+   "reason": "Same cooked ham"
+  },
+  {
+   "keep_id": "ean:7073599000396",
+   "fold_ids": [
+    "ean:7090006869599"
+   ],
+   "reason": "Same chicken grill skewer"
+  },
+  {
+   "keep_id": "ean:2371580909471",
+   "fold_ids": [
+    "ean:2371580909952"
+   ],
+   "reason": "Same flaskytterfile"
+  },
+  {
+   "keep_id": "ean:2373642710506",
+   "fold_ids": [
+    "ean:7033352757448"
+   ],
+   "reason": "same salmon fillet, same values"
+  },
+  {
+   "keep_id": "norgesgruppen:23792082",
+   "fold_ids": [
+    "ean:7090007391136"
+   ],
+   "reason": "same fenalar"
+  },
+  {
+   "keep_id": "ean:2380045801748",
+   "fold_ids": [
+    "ean:2380045801267"
+   ],
+   "reason": "same bacon"
+  },
+  {
+   "keep_id": "ean:2380100807180",
+   "fold_ids": [
+    "ean:2380100804684"
+   ],
+   "reason": "same chicken thigh fillet"
+  },
+  {
+   "keep_id": "ean:2384795605373",
+   "fold_ids": [
+    "ean:2384795605786"
+   ],
+   "reason": "same cheese 10%"
+  },
+  {
+   "keep_id": "ean:2385903711306",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2385903709723"
+   ],
+   "reason": "boneless vs plain pork neck, identical values"
+  },
+  {
+   "keep_id": "norgesgruppen:23863595",
+   "fold_ids": [
+    "ean:2386351500009"
+   ],
+   "reason": "same whole organic turkey"
+  },
+  {
+   "keep_id": "ean:2386353304186",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:2386353304216"
+   ],
+   "reason": "organic label differs, identical values"
+  },
+  {
+   "keep_id": "norgesgruppen:23863594",
+   "fold_ids": [
+    "ean:2386359400004"
+   ],
+   "reason": "same whole organic turkey"
+  },
+  {
+   "keep_id": "norgesgruppen:23863506",
+   "fold_ids": [
+    "kassalapp:58154"
+   ],
+   "reason": "same turkey breast"
+  },
+  {
+   "keep_id": "ean:2387071206264",
+   "fold_ids": [
+    "ean:2387071206288"
+   ],
+   "reason": "same salmon"
+  },
+  {
+   "keep_id": "norgesgruppen:23870712",
+   "fold_ids": [
+    "ean:7090028512046"
+   ],
+   "reason": "same midloin"
+  },
+  {
+   "keep_id": "norgesgruppen:23870713",
+   "fold_ids": [
+    "ean:7090028512053"
+   ],
+   "reason": "same backloin"
+  },
+  {
+   "keep_id": "ean:7392497008205",
+   "fold_ids": [
+    "ean:2387461114049"
+   ],
+   "reason": "same salmon fillet"
+  },
+  {
+   "keep_id": "norgesgruppen:23893707",
+   "fold_ids": [
+    "ean:2389370700009"
+   ],
+   "reason": "same chicken breast"
+  },
+  {
+   "keep_id": "norgesgruppen:23893708",
+   "fold_ids": [
+    "ean:2389371300000"
+   ],
+   "reason": "same chicken thigh"
+  },
+  {
+   "keep_id": "ean:7350037193484",
+   "fold_ids": [
+    "ean:2560037793484"
+   ],
+   "reason": "same sausage"
+  },
+  {
+   "keep_id": "ean:7350037194566",
+   "fold_ids": [
+    "ean:7350037192524"
+   ],
+   "reason": "same bratwurst"
+  },
+  {
+   "keep_id": "ean:7392672001540",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:0382977001540"
+   ],
+   "reason": "lactose-free label vs plain, identical values"
+  },
+  {
+   "keep_id": "ean:5016143006415",
+   "fold_ids": [
+    "ean:7040518216169"
+   ],
+   "reason": "same celery"
+  },
+  {
+   "keep_id": "ean:7313160006106",
+   "fold_ids": [
+    "ean:7313160000265"
+   ],
+   "reason": "same Hushall cheese"
+  },
+  {
+   "keep_id": "ean:3800225476836",
+   "fold_ids": [
+    "helsam-dk:https://helsam.dk/products/kakaopulver-o-dragon"
+   ],
+   "reason": "same cacao powder"
+  },
+  {
+   "keep_id": "ean:7044610873077",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ringnes:https://www.ringnes.no/produkter/somersby/somersby-apple-lite-cider/"
+   ],
+   "reason": "apple lite vs cider, same values"
+  },
+  {
+   "keep_id": "ean:7044610877990",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7044614877002",
+    "ringnes:https://www.ringnes.no/produkter/somersby/somersby-pink-grapefruit-lite/"
+   ],
+   "reason": "different Lite flavours, similar numbers"
+  },
+  {
+   "keep_id": "ean:4003084595000",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:4000512004912"
+   ],
+   "reason": "Burger vs Party Burger"
+  },
+  {
+   "keep_id": "ean:7310865018496",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7311870011700"
+   ],
+   "reason": "Sunnydise vs fruit yoghurt, near numbers"
+  },
+  {
+   "keep_id": "myprotein-discontinued:https://www.myprotein.no/sports-nutrition/maltodekstrin/10530114.html",
+   "fold_ids": [
+    "ean:5056307323767"
+   ],
+   "reason": "same maltodextrin"
+  },
+  {
+   "keep_id": "myprotein-uk:https://www.myprotein.com/p/sports-nutrition/mars-protein-bundle/17813559/",
+   "fold_ids": [],
+   "unsure_ids": [
+    "myprotein-uk:https://www.myprotein.com/p/sports-nutrition/mars-impact-whey-protein-bundle/17709060/"
+   ],
+   "reason": "bundles"
+  },
+  {
+   "keep_id": "ean:5060746521820",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:5059883483702"
+   ],
+   "reason": "The Whey vs Elite"
+  },
+  {
+   "keep_id": "myprotein-discontinued:https://www.myprotein.no/sports-nutrition/electrofuel-proeve/11332860.html",
+   "fold_ids": [],
+   "unsure_ids": [
+    "bodypower:https://www.bodypower.se/kosttillskott-1/efter-traning/aterhamtning-1/myprotein-hyrox-electrofuel-orange-mango-1-02kg"
+   ],
+   "reason": "Hyrox edition"
+  },
+  {
+   "keep_id": "ean:5055936810228",
+   "fold_ids": [
+    "myprotein-discontinued:https://www.myprotein.no/sports-nutrition/protein-flapjack/11147245.html"
+   ],
+   "reason": "same flapjack"
+  },
+  {
+   "keep_id": "ean:5055936815483",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:5055534309568"
+   ],
+   "reason": "Extra Protein Cookie differs in name"
+  },
+  {
+   "keep_id": "ean:5059883468945",
+   "fold_ids": [
+    "ean:5059883468976"
+   ],
+   "unsure_ids": [
+    "ean:5059883468969"
+   ],
+   "reason": "energy gel; Pro version unsure"
+  },
+  {
+   "keep_id": "ean:5056185738882",
+   "fold_ids": [
+    "ean:5056185738899"
+   ],
+   "reason": "same Carb Crusher"
+  },
+  {
+   "keep_id": "ean:5055936856875",
+   "fold_ids": [
+    "myprotein-discontinued:https://www.myprotein.no/sports-nutrition/proteinsjokolade-fotballer/11276852.html"
+   ],
+   "reason": "same protein chocolate"
+  },
+  {
+   "keep_id": "ean:4032108118208",
+   "fold_ids": [
+    "ean:4032108117867"
+   ],
+   "reason": "same mild curry paste"
+  },
+  {
+   "keep_id": "norgesgruppen:ean:4062300309036",
+   "fold_ids": [],
+   "unsure_ids": [],
+   "reason": "placeholder"
+  },
+  {
+   "keep_id": "ean:4062300338029",
+   "fold_ids": [
+    "ean:4062300268050"
+   ],
+   "reason": "same Combiotik 2, different pack"
+  },
+  {
+   "keep_id": "ean:7090048371654",
+   "fold_ids": [
+    "ean:7090048378349"
+   ],
+   "reason": "same cashews"
+  },
+  {
+   "keep_id": "ean:5712840020012",
+   "fold_ids": [
+    "ean:4255919528077",
+    "ean:4255919580259"
+   ],
+   "reason": "same cashew snack, multipack of same"
+  },
+  {
+   "keep_id": "ean:4255919580556",
+   "fold_ids": [
+    "ean:4255919558074"
+   ],
+   "reason": "same protein smooth cacao"
+  },
+  {
+   "keep_id": "ean:4255919580150",
+   "fold_ids": [
+    "ean:4255919568066"
+   ],
+   "reason": "Same Rawbite Cacao, officebox vs single"
+  },
+  {
+   "keep_id": "ean:5712840020067",
+   "fold_ids": [
+    "ean:4255919580013"
+   ],
+   "reason": "Same Apple Cinnamon, verified row kept"
+  },
+  {
+   "keep_id": "ean:4260334140001",
+   "fold_ids": [
+    "ean:8006070132841"
+   ],
+   "reason": "Mini vs regular, same recipe"
+  },
+  {
+   "keep_id": "ean:4260505021276",
+   "fold_ids": [
+    "tights:1253381"
+   ],
+   "reason": "Same Tasty Drops"
+  },
+  {
+   "keep_id": "ean:7350049100029",
+   "fold_ids": [
+    "ean:4350479100029"
+   ],
+   "reason": "Identical Gyros rows"
+  },
+  {
+   "keep_id": "ean:7340224402512",
+   "fold_ids": [
+    "ean:7340224406954"
+   ],
+   "reason": "Same strawberry whey"
+  },
+  {
+   "keep_id": "ean:7340224409665",
+   "fold_ids": [
+    "ean:7340224406060"
+   ],
+   "reason": "Same French Vanilla whey"
+  },
+  {
+   "keep_id": "mmsports:https://www.mmsports.se/Kosttillskott/Protein/Isolat/body-science-2-st-whey-isolate.html",
+   "fold_ids": [
+    "mmsports:https://www.mmsports.se/Kosttillskott/Protein/Isolat/body-science-4-st-whey-isolate.html"
+   ],
+   "reason": "Same product, 2 vs 4 pack"
+  },
+  {
+   "keep_id": "mmsports:https://www.mmsports.se/Kosttillskott/Veganska-Produkter/Protein/body-science-vegan-protein-2st.html",
+   "fold_ids": [
+    "mmsports:https://www.mmsports.se/Kosttillskott/Veganska-Produkter/Protein/body-science-vegan-protein-4st.html"
+   ],
+   "reason": "Same product, pack count"
+  },
+  {
+   "keep_id": "mmsports:https://www.mmsports.se/Kosttillskott/Viktnedgang/maltidsersattning/body-science-2-st-protein-breakfast-shake.html",
+   "fold_ids": [
+    "mmsports:https://www.mmsports.se/Kosttillskott/Viktnedgang/maltidsersattning/body-science-4-st-protein-breakfast-shake.html"
+   ],
+   "reason": "Same product, pack count"
+  },
+  {
+   "keep_id": "mmsports:https://www.mmsports.se/kosttillskott/protein/body-science-2-st-whey-and-soy-protein.html",
+   "fold_ids": [
+    "mmsports:https://www.mmsports.se/kosttillskott/protein/body-science-4-st-whey-and-soy-protein.html"
+   ],
+   "reason": "Same product, pack count"
+  },
+  {
+   "keep_id": "mmsports:https://www.mmsports.se/kosttillskott/protein/body-science-2-st-whey-creatine.html",
+   "fold_ids": [
+    "mmsports:https://www.mmsports.se/kosttillskott/protein/body-science-4-st-whey-creatine.html"
+   ],
+   "reason": "Same product, pack count"
+  },
+  {
+   "keep_id": "mmsports:https://www.mmsports.se/kosttillskott/protein/body-science-milk-and-soy-protein.html",
+   "fold_ids": [
+    "mmsports:https://www.mmsports.se/kosttillskott/protein/body-science-4-st-milk-and-soy-protein.html"
+   ],
+   "reason": "Same product, pack count"
+  },
+  {
+   "keep_id": "mmsports:https://www.mmsports.se/kosttillskott/protein/kasein/body-science-2-st-casein.html",
+   "fold_ids": [
+    "mmsports:https://www.mmsports.se/kosttillskott/protein/kasein/body-science-4-st-casein.html"
+   ],
+   "reason": "Same product, pack count"
+  },
+  {
+   "keep_id": "mmsports:https://www.mmsports.se/kosttillskott/protein/protein-for-matlagning/body-science-2-st-protein-pancake-mix.html",
+   "fold_ids": [
+    "mmsports:https://www.mmsports.se/kosttillskott/protein/protein-for-matlagning/body-science-4-st-protein-pancake-mix.html"
+   ],
+   "reason": "Same product, pack count"
+  },
+  {
+   "keep_id": "mmsports:https://www.mmsports.se/kosttillskott/viktnedgang/body-science-2-st-clear-diet-shake.html",
+   "fold_ids": [
+    "mmsports:https://www.mmsports.se/kosttillskott/viktnedgang/body-science-3-st-clear-diet-shake.html"
+   ],
+   "reason": "Same product, pack count"
+  },
+  {
+   "keep_id": "ringnes:https://www.ringnes.no/produkter/ringnes/ringnes-skjaergaardspils-lite/",
+   "fold_ids": [
+    "ean:7044610870939"
+   ],
+   "reason": "Same beer, brand source kept"
+  },
+  {
+   "keep_id": "ean:7350021424709",
+   "fold_ids": [
+    "proteinbolaget:https://proteinbolaget.se/products/healthyco-hazelnut-bites-21-g-x-2-st"
+   ],
+   "reason": "Multipack of same item"
+  },
+  {
+   "keep_id": "ean:4770583201618",
+   "fold_ids": [
+    "ean:4770583219316"
+   ],
+   "reason": "Same pickled cucumber, different jar size"
+  },
+  {
+   "keep_id": "ean:5060402902390",
+   "fold_ids": [
+    "tights-discontinued:13818837"
+   ],
+   "reason": "Same Snickers Protein bar, verified kept"
+  },
+  {
+   "keep_id": "ean:5060402906961",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:5060402906954"
+   ],
+   "reason": "Two EANs, identical numbers; may be different flavours"
+  },
+  {
+   "keep_id": "ean:5060402909542",
+   "fold_ids": [],
+   "unsure_ids": [
+    "proteinbolaget:https://proteinbolaget.se/products/mars-hi-protein-bar-59-g",
+    "tights-discontinued:13796272"
+   ],
+   "reason": "Generic Mars hi protein rows may be other flavours"
+  },
+  {
+   "keep_id": "ean:5011308302210",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:5011308303279"
+   ],
+   "reason": "Mild vs plain butter chicken unclear"
+  },
+  {
+   "keep_id": "ean:5021554989660",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:5021554002406"
+   ],
+   "reason": "Organic flag only in one name; likely same"
+  },
+  {
+   "keep_id": "ean:7044711320241",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7044710300329"
+   ],
+   "reason": "Glatt may be a variety"
+  },
+  {
+   "keep_id": "ean:7350130121582",
+   "fold_ids": [
+    "ean:7350130121599"
+   ],
+   "reason": "Same basmati rice"
+  },
+  {
+   "keep_id": "ean:5060834810140",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:5060834810126"
+   ],
+   "reason": "Vanilla vs generic, same numbers"
+  },
+  {
+   "keep_id": "ean:5708636185393",
+   "fold_ids": [
+    "ean:5708636185386"
+   ],
+   "reason": "Same organic red cabbage jar"
+  },
+  {
+   "keep_id": "ean:5202390015380",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:5202390015359"
+   ],
+   "reason": "Generic slices may be same cheddar flavour"
+  },
+  {
+   "keep_id": "ean:7331217010050",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7331217010067"
+   ],
+   "reason": "Bulgur vs medium coarse unclear"
+  },
+  {
+   "keep_id": "ean:7331217010135",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7331217012528"
+   ],
+   "reason": "Grov vs grov and mork unclear"
+  },
+  {
+   "keep_id": "ean:5413623101002",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:5413623700052"
+   ],
+   "reason": "With stevia vs plain, same numbers"
+  },
+  {
+   "keep_id": "ean:5413623201009",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:5413623700342"
+   ],
+   "reason": "With stevia vs plain, same numbers"
+  },
+  {
+   "keep_id": "ean:5413623301006",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:5413623700069"
+   ],
+   "reason": "With stevia vs plain, same numbers"
+  },
+  {
+   "keep_id": "ean:5420005753650",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:5420005754633"
+   ],
+   "reason": "Vegarizo vs Gourmet unclear"
+  },
+  {
+   "keep_id": "ean:7041011013118",
+   "fold_ids": [
+    "ean:7041013203111"
+   ],
+   "reason": "Same Oreo ice, stick vs 6-pack, identical values"
+  },
+  {
+   "keep_id": "ean:7041015201115",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7041013150118"
+   ],
+   "reason": "Nude may be the mango sorbet; unclear"
+  },
+  {
+   "keep_id": "ean:7041018011308",
+   "fold_ids": [
+    "ean:7041014930009"
+   ],
+   "reason": "Same Anita ice cake; brand source kept"
+  },
+  {
+   "keep_id": "ean:5701977062316",
+   "fold_ids": [],
+   "unsure_ids": [],
+   "reason": "placeholder"
+  },
+  {
+   "keep_id": "ean:8713576100143",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:8713576004151"
+   ],
+   "reason": "crunchy vs plain may differ in texture only"
+  },
+  {
+   "keep_id": "ean:8713576100150",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:8713576004168"
+   ],
+   "reason": "crunchy vs plain may differ"
+  },
+  {
+   "keep_id": "ean:7313619001683",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7310865074768"
+   ],
+   "reason": "Godmorgon juice, slightly different values"
+  },
+  {
+   "keep_id": "ean:7313619002284",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7313619002468"
+   ],
+   "reason": "Energy shot vs apple flavour unclear"
+  },
+  {
+   "keep_id": "ean:5707293052130",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:5707293052109"
+   ],
+   "reason": "Groft (coarse) vs plain Ølandshvedemel"
+  },
+  {
+   "keep_id": "ean:5707653006087",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:5707653000856"
+   ],
+   "reason": "Generic fruit bar vs vanilla mango"
+  },
+  {
+   "keep_id": "ean:5707810102645",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7047716134127"
+   ],
+   "reason": "Luxus line may be a different recipe"
+  },
+  {
+   "keep_id": "ean:5713162000058",
+   "fold_ids": [
+    "ean:5713162100666"
+   ],
+   "reason": "Same Guru Snack original granola"
+  },
+  {
+   "keep_id": "ean:7025110150745",
+   "fold_ids": [
+    "ean:7025110217196"
+   ],
+   "reason": "Same Xtra mayonnaise"
+  },
+  {
+   "keep_id": "ean:2320236009706",
+   "fold_ids": [
+    "ean:7025110153111"
+   ],
+   "reason": "Same Xtra entrecote, identical values"
+  },
+  {
+   "keep_id": "ean:2382660210745",
+   "fold_ids": [
+    "ean:2382660209992"
+   ],
+   "reason": "Same Gulost 23%, different pack sizes"
+  },
+  {
+   "keep_id": "ean:7340011470304",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:6415711803774"
+   ],
+   "reason": "Salsa vs Chunky Salsa unclear"
+  },
+  {
+   "keep_id": "ean:5740301036319",
+   "fold_ids": [
+    "ean:5740301107132"
+   ],
+   "reason": "Same peeled shrimp"
+  },
+  {
+   "keep_id": "ean:5740301151623",
+   "fold_ids": [
+    "ean:5740301169666"
+   ],
+   "reason": "Same cod fillet"
+  },
+  {
+   "keep_id": "ean:7350020691119",
+   "fold_ids": [
+    "ean:5741000221044"
+   ],
+   "reason": "Same Cult Original sugar free"
+  },
+  {
+   "keep_id": "ean:5744001420065",
+   "fold_ids": [
+    "ean:5744001421024"
+   ],
+   "reason": "Same sweet chili protein chips"
+  },
+  {
+   "keep_id": "ean:5744001420157",
+   "fold_ids": [
+    "ean:5744001420645",
+    "ean:5744001420980"
+   ],
+   "reason": "Same sour cream and onion chips"
+  },
+  {
+   "keep_id": "ean:5744001420171",
+   "fold_ids": [
+    "ean:5744001420942"
+   ],
+   "reason": "Same salt and pepper chips"
+  },
+  {
+   "keep_id": "ean:7311800009586",
+   "fold_ids": [
+    "ean:7311800351708"
+   ],
+   "reason": "Same Polarbrød fullkorn"
+  },
+  {
+   "keep_id": "ean:7311800373700",
+   "fold_ids": [
+    "ean:7311800374707"
+   ],
+   "reason": "Same Polarbrød hvete"
+  },
+  {
+   "keep_id": "ean:7350042721689",
+   "fold_ids": [
+    "ean:7350042721788"
+   ],
+   "reason": "Same Max dressing"
+  },
+  {
+   "keep_id": "max-burgers:kylling-nuggets-6-stk",
+   "fold_ids": [
+    "max-burgers:kylling-nuggets-9-stk"
+   ],
+   "reason": "Same nuggets, different count"
+  },
+  {
+   "keep_id": "ean:6430104920340",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:6430104920418"
+   ],
+   "reason": "Small Nordic peas vs Nordic peas unclear"
+  },
+  {
+   "keep_id": "ean:7350116921465",
+   "fold_ids": [
+    "ean:8936007820506"
+   ],
+   "reason": "Same rice paper"
+  },
+  {
+   "keep_id": "ean:7350116923681",
+   "fold_ids": [
+    "ean:7350116923698"
+   ],
+   "reason": "Same sesame oil"
+  },
+  {
+   "keep_id": "ean:8008698003947",
+   "fold_ids": [
+    "ean:8008698010402"
+   ],
+   "reason": "Same Schär Maria biscuits"
+  },
+  {
+   "keep_id": "ean:7020430000053",
+   "fold_ids": [
+    "kassalapp:39453"
+   ],
+   "reason": "Same shrimp salad"
+  },
+  {
+   "keep_id": "ean:7020656504021",
+   "fold_ids": [
+    "kassalapp:46862"
+   ],
+   "reason": "Same oat bar, identical values"
+  },
+  {
+   "keep_id": "ean:7020656504083",
+   "fold_ids": [
+    "kassalapp:46858"
+   ],
+   "reason": "Same oat bar, identical values"
+  },
+  {
+   "keep_id": "ean:7029121010876",
+   "fold_ids": [],
+   "unsure_ids": [
+    "life-no-discontinued:https://www.life.no/mat-drikke/mat/fro-kjerner/helios-linfro-knust-okologisk-350g"
+   ],
+   "reason": "Whole vs crushed organic unclear"
+  },
+  {
+   "keep_id": "ean:7029121012085",
+   "fold_ids": [],
+   "unsure_ids": [
+    "kassalapp:22133"
+   ],
+   "reason": "Organic unsalted vs plain unclear"
+  },
+  {
+   "keep_id": "ean:7023860067580",
+   "fold_ids": [
+    "ean:7023860067085"
+   ],
+   "reason": "Same Balholm Margaret"
+  },
+  {
+   "keep_id": "ean:7024975626648",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7024975626662"
+   ],
+   "reason": "Agder variant vs plain apple must unclear"
+  },
+  {
+   "keep_id": "synnove:https://www.synnove.no/produkt/gresk-yoghurt-vanilje-og-granola/",
+   "fold_ids": [
+    "ean:7034280110756"
+   ],
+   "reason": "Same Greek yoghurt vanilla granola, brand source verified"
+  },
+  {
+   "keep_id": "ean:2382664612927",
+   "fold_ids": [
+    "ean:2382664613115"
+   ],
+   "unsure_ids": [
+    "ean:2382664613054"
+   ],
+   "reason": "Same Mild og Fyldig 29%; Fyldig Gulost may be same"
+  },
+  {
+   "keep_id": "synnove:https://www.synnove.no/produkt/glutenfri-granola-bringebaer/",
+   "fold_ids": [
+    "ean:7034280001566"
+   ],
+   "reason": "Same granola, brand source verified"
+  },
+  {
+   "keep_id": "synnove:https://www.synnove.no/produkt/glutenfri-pasta-med-ostesaus/",
+   "fold_ids": [
+    "ean:7071319033945"
+   ],
+   "reason": "Same pasta"
+  },
+  {
+   "keep_id": "synnove:https://www.synnove.no/produkt/synnove-glutenfri-gulrotkake-mix/",
+   "fold_ids": [
+    "ean:7071319032269"
+   ],
+   "reason": "Same mix"
+  },
+  {
+   "keep_id": "synnove:https://www.synnove.no/produkt/synnove-cheddar-skivet/",
+   "fold_ids": [],
+   "unsure_ids": [
+    "synnove:https://www.synnove.no/produkt/ostesnacks-cheddar/"
+   ],
+   "reason": "Sliced vs snack cheddar, same numbers"
+  },
+  {
+   "keep_id": "ean:7025110144751",
+   "fold_ids": [
+    "ean:7025110185518"
+   ],
+   "reason": "Same pizza base"
+  },
+  {
+   "keep_id": "ean:7039750000100",
+   "fold_ids": [
+    "ean:7039750001510"
+   ],
+   "reason": "Same shrimp in brine"
+  },
+  {
+   "keep_id": "ean:7026450054236",
+   "fold_ids": [
+    "ean:7026450030056"
+   ],
+   "reason": "Same honey, verified kept"
+  },
+  {
+   "keep_id": "ean:7026450053307",
+   "fold_ids": [
+    "ean:7026450053185"
+   ],
+   "reason": "Same blossom honey"
+  },
+  {
+   "keep_id": "ean:7026450054267",
+   "fold_ids": [
+    "ean:7026450054472"
+   ],
+   "reason": "Same agave honey"
+  },
+  {
+   "keep_id": "ean:7030019537566",
+   "fold_ids": [
+    "ean:7030019537573"
+   ],
+   "reason": "Same drink, multipack"
+  },
+  {
+   "keep_id": "ean:7033050315032",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7033050315995"
+   ],
+   "reason": "Fatøl vs Premium Fatøl, slightly different numbers"
+  },
+  {
+   "keep_id": "ean:7033050515678",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7033050315094"
+   ],
+   "reason": "Lite vs Lite Vienna"
+  },
+  {
+   "keep_id": "ean:7033330088120",
+   "fold_ids": [
+    "kassalapp:25190"
+   ],
+   "reason": "Same pasta box"
+  },
+  {
+   "keep_id": "tine:https://www.tine.no/merkevarer/tine-iskaffe/produkter/tine-iskaffe-protein-uten-sukker",
+   "fold_ids": [
+    "kassalapp:213275"
+   ],
+   "reason": "Same protein latte"
+  },
+  {
+   "keep_id": "tine:https://www.tine.no/merkevarer/tine-prim/produkter/tine-prim",
+   "fold_ids": [
+    "ean:7038010030628"
+   ],
+   "reason": "Same Prim"
+  },
+  {
+   "keep_id": "tine:https://www.tine.no/merkevarer/tine-edamer-vellagret-placeholder",
+   "fold_ids": [],
+   "reason": "placeholder"
+  },
+  {
+   "keep_id": "tine:https://www.tine.no/merkevarer/tine-norsk-edamer/produkter/tine-norsk-edamer-vellagret",
+   "fold_ids": [
+    "ean:7038010016882"
+   ],
+   "reason": "Same edamer"
+  },
+  {
+   "keep_id": "tine:https://www.tine.no/merkevarer/tine-prim/produkter/tine-junior-prim",
+   "fold_ids": [
+    "ean:7038010030635"
+   ],
+   "reason": "Same Junior Prim"
+  },
+  {
+   "keep_id": "ean:2000623900006",
+   "fold_ids": [
+    "norgesgruppen:23022242"
+   ],
+   "reason": "Same Kvitlin, clearer name"
+  },
+  {
+   "keep_id": "tine:https://www.tine.no/merkevarer/tine-milkshake/produkter/tine-milkshake-sjokolade",
+   "fold_ids": [
+    "ean:7038010071867"
+   ],
+   "reason": "Same milkshake"
+  },
+  {
+   "keep_id": "tine:https://www.tine.no/merkevarer/tine-iskaffe/produkter/tine-iskaffe-original-mocca",
+   "fold_ids": [
+    "ean:7038010003820"
+   ],
+   "reason": "Same Mocha"
+  },
+  {
+   "keep_id": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-gudbrandsdalsost-anno-1863",
+   "fold_ids": [
+    "ean:7038010025198"
+   ],
+   "reason": "Same Anno"
+  },
+  {
+   "keep_id": "tine:https://www.tine.no/merkevarer/tine-revet-ost/produkter/tine-revet-ost-norsk-mozzarella",
+   "fold_ids": [
+    "ean:7038010062490"
+   ],
+   "reason": "Same mozzarella"
+  },
+  {
+   "keep_id": "ean:7038010045851",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7038010007224"
+   ],
+   "reason": "Premium with pulp vs plain juice"
+  },
+  {
+   "keep_id": "ean:7035450045205",
+   "fold_ids": [
+    "ean:7035450100362"
+   ],
+   "reason": "Same mayo"
+  },
+  {
+   "keep_id": "ean:7035620027284",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7035620049644"
+   ],
+   "reason": "Smoked salmon vs salmon, same numbers"
+  },
+  {
+   "keep_id": "ean:7340083427473",
+   "fold_ids": [
+    "ean:7340083427466"
+   ],
+   "reason": "Same sliced bacon"
+  },
+  {
+   "keep_id": "ean:2359742711339",
+   "fold_ids": [
+    "ean:2359761826014"
+   ],
+   "unsure_ids": [
+    "ean:7340083435652"
+   ],
+   "reason": "Same Gouda 28%"
+  },
+  {
+   "keep_id": "ean:7340083443183",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7311043014170"
+   ],
+   "reason": "Frozen blueberries, maybe cultivated variant"
+  },
+  {
+   "keep_id": "ean:7340083402272",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7340083444098"
+   ],
+   "reason": "Parboiled vs plain long grain rice, same numbers"
+  },
+  {
+   "keep_id": "ean:7035620026836",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7035620047428"
+   ],
+   "reason": "Wok frying oil vs frying oil, both pure oil"
+  },
+  {
+   "keep_id": "ean:7035620040948",
+   "fold_ids": [
+    "openfoodfacts:70356300"
+   ],
+   "reason": "Same mince, both verified"
+  },
+  {
+   "keep_id": "ean:2365679300003",
+   "fold_ids": [
+    "ean:2365615700003"
+   ],
+   "reason": "Same lamb fårikål meat, different pack"
+  },
+  {
+   "keep_id": "ean:7036110010656",
+   "fold_ids": [
+    "ean:7036110005959"
+   ],
+   "reason": "Same mango chili mayo, different pack"
+  },
+  {
+   "keep_id": "ean:7036110011691",
+   "fold_ids": [
+    "ean:7036110011684"
+   ],
+   "reason": "Same salmon spread, 1 kcal difference"
+  },
+  {
+   "keep_id": "mills:https://mills.no/delikat/produkt/sursild-i-spann/",
+   "fold_ids": [
+    "ean:7036110009124"
+   ],
+   "reason": "Same sursild, brand source verified"
+  },
+  {
+   "keep_id": "ean:7037120000682",
+   "fold_ids": [
+    "ean:7037120012234"
+   ],
+   "reason": "Same Mack Arctic beer"
+  },
+  {
+   "keep_id": "ean:7037120009296",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7037120012173"
+   ],
+   "reason": "Mack Lite vs Isbjorn Lite, probably same"
+  },
+  {
+   "keep_id": "ean:7037120034366",
+   "fold_ids": [
+    "ean:7037120034373"
+   ],
+   "reason": "Same cider, second is 6-pack"
+  },
+  {
+   "keep_id": "toro:https://www.toro.no/produkter/lofoten-fiskesaus/",
+   "fold_ids": [
+    "ean:7037610232005"
+   ],
+   "reason": "Same sauce, brand source"
+  },
+  {
+   "keep_id": "ean:7039010613033",
+   "fold_ids": [
+    "toro:https://www.toro.no/produkter/kinesisk-szechuan/"
+   ],
+   "reason": "Same Szechuan kit, verified row"
+  },
+  {
+   "keep_id": "toro:https://www.toro.no/produkter/kyllingsaus-rosepepper/",
+   "fold_ids": [
+    "ean:7037610237321"
+   ],
+   "reason": "Same sauce, brand source"
+  },
+  {
+   "keep_id": "toro:https://www.toro.no/produkter/kremet-polsegryte/",
+   "fold_ids": [
+    "ean:7039010613149"
+   ],
+   "reason": "Same pølsegryte, brand source"
+  },
+  {
+   "keep_id": "toro:https://www.toro.no/produkter/parisienne-fiskesaus-til-stekt-fisk/",
+   "fold_ids": [
+    "ean:7037610237369"
+   ],
+   "reason": "Same fish sauce, brand source"
+  },
+  {
+   "keep_id": "ean:7039010609708",
+   "fold_ids": [
+    "toro:https://www.toro.no/produkter/toro-kit-teriyaki/"
+   ],
+   "reason": "Same teriyaki kit, verified row"
+  },
+  {
+   "keep_id": "toro:https://www.toro.no/produkter/glutenfri-grov-melblanding/",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7037610057332"
+   ],
+   "reason": "Gluten-free vs unclear"
+  },
+  {
+   "keep_id": "toro:https://www.toro.no/produkter/glutenfri-lys-melblanding/",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7037610057134"
+   ],
+   "reason": "Gluten-free vs unclear"
+  },
+  {
+   "keep_id": "nidar:https://www.nidar.no/produkt/stratos-storplate/",
+   "fold_ids": [
+    "nidar:https://www.nidar.no/produkt/stratos-sjokoladefamilien-storplate/"
+   ],
+   "reason": "Same Stratos bar, identical numbers"
+  },
+  {
+   "keep_id": "tine:https://www.tine.no/merkevarer/sunniva/produkter/sunniva-presset-eple-med-ingef%C3%A6r",
+   "fold_ids": [
+    "ean:7038010072246"
+   ],
+   "reason": "Same juice, identical numbers"
+  },
+  {
+   "keep_id": "tine:https://www.tine.no/merkevarer/piano/produkter/piano-vaniljesaus-uten",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7038010055515"
+   ],
+   "reason": "Sugar-free variant uncertain"
+  },
+  {
+   "keep_id": "ean:7038420002109",
+   "fold_ids": [
+    "ean:7038420002703",
+    "ean:7038420003007",
+    "norgesgruppen:23865332"
+   ],
+   "reason": "Same klippfisk, only cut differs, identical numbers"
+  },
+  {
+   "keep_id": "ean:7039010555654",
+   "fold_ids": [
+    "ean:7039010578547"
+   ],
+   "reason": "Same granola"
+  },
+  {
+   "keep_id": "ean:7040913336509",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7040913337278"
+   ],
+   "reason": "Different coffee names, same numbers"
+  },
+  {
+   "keep_id": "ean:7040913337421",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7040913337599"
+   ],
+   "reason": "Brasil vs Vivenza Brasil, maybe same"
+  },
+  {
+   "keep_id": "ean:7041260002130",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7041260002178"
+   ],
+   "reason": "Reindeer meatballs vs generic meatballs"
+  },
+  {
+   "keep_id": "ean:7044610873312",
+   "fold_ids": [
+    "ringnes:https://www.ringnes.no/produkter/imsdal/imsdal-eple/"
+   ],
+   "reason": "Same Imsdal Eple"
+  },
+  {
+   "keep_id": "ean:7044610875798",
+   "fold_ids": [
+    "ringnes:https://www.ringnes.no/produkter/imsdal/imsdal-fersken/"
+   ],
+   "reason": "Same Imsdal Fersken"
+  },
+  {
+   "keep_id": "ringnes:https://www.ringnes.no/produkter/munkholm/munkholm-juleoel/",
+   "fold_ids": [
+    "ean:7044610876498"
+   ],
+   "reason": "Same Munkholm julebrew, both verified, brand source"
+  },
+  {
+   "keep_id": "ringnes:https://www.ringnes.no/produkter/frydenlund/frydenlund-lite-juicy-ipa/",
+   "fold_ids": [
+    "ean:7044613877669"
+   ],
+   "reason": "Same Juicy lite IPA"
+  },
+  {
+   "keep_id": "ringnes:https://www.ringnes.no/produkter/frydenlund/frydenlund-fatoel-lite/",
+   "fold_ids": [
+    "ean:7044614877217"
+   ],
+   "reason": "Same Fatøl lite"
+  },
+  {
+   "keep_id": "ean:7053260220643",
+   "fold_ids": [
+    "ean:7053260220742"
+   ],
+   "reason": "Same vanilla sugar, different pack"
+  },
+  {
+   "keep_id": "ean:7053260221411",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7053260221459"
+   ],
+   "reason": "Chili vs Chili Knust, maybe different"
+  },
+  {
+   "keep_id": "ean:7044930431704",
+   "fold_ids": [
+    "ean:7044930431803"
+   ],
+   "reason": "Same beer, second is 6-pack"
+  },
+  {
+   "keep_id": "ean:7045386068803",
+   "fold_ids": [
+    "ean:7045386067400"
+   ],
+   "reason": "Same Ostedog, verified row"
+  },
+  {
+   "keep_id": "kavli:https://www.kavli.no/produkter/flatbrod-korni-copy",
+   "fold_ids": [
+    "ean:7045910003041"
+   ],
+   "reason": "Same Korni flatbread, brand source verified"
+  },
+  {
+   "keep_id": "ean:7048840202850",
+   "fold_ids": [],
+   "unsure_ids": [
+    "kassalapp:9041"
+   ],
+   "reason": "Plain Q Planti vs a specific flavour, numbers differ slightly"
+  },
+  {
+   "keep_id": "q-meieriene:https://www.q-meieriene.no/produkter/q-melk-lett-0-5",
+   "fold_ids": [
+    "ean:7048840221295"
+   ],
+   "reason": "Same 0.5% light milk"
+  },
+  {
+   "keep_id": "ean:7051860305333",
+   "fold_ids": [
+    "ean:7051860305401"
+   ],
+   "reason": "Same Gaffelbit, identical numbers"
+  },
+  {
+   "keep_id": "ean:7050122301052",
+   "fold_ids": [
+    "ean:0050129301052"
+   ],
+   "reason": "Same Maarud Salt & Pepper chips"
+  },
+  {
+   "keep_id": "ean:7059330074246",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7059330076677"
+   ],
+   "reason": "Light vs normal coconut milk with identical numbers, likely data error"
+  },
+  {
+   "keep_id": "ean:7059330075557",
+   "fold_ids": [
+    "ean:7059330075519"
+   ],
+   "reason": "Same Time Out pasta sauce"
+  },
+  {
+   "keep_id": "ean:7071688003082",
+   "fold_ids": [
+    "ean:7071688005871"
+   ],
+   "reason": "Same salt and pepper chips"
+  },
+  {
+   "keep_id": "ean:7071688005888",
+   "fold_ids": [
+    "ean:7071688005376"
+   ],
+   "reason": "Same rømme chili lime chips"
+  },
+  {
+   "keep_id": "ean:7072175105395",
+   "fold_ids": [
+    "kassalapp:21759"
+   ],
+   "reason": "Same Ytterøy chicken fillet"
+  },
+  {
+   "keep_id": "ean:7072175800603",
+   "fold_ids": [
+    "ean:7072175800726",
+    "ean:7072175802706",
+    "ean:7072175804748"
+   ],
+   "reason": "Same naturell chicken fillet, identical numbers"
+  },
+  {
+   "keep_id": "ean:7072175803840",
+   "fold_ids": [
+    "ean:7072175800931"
+   ],
+   "reason": "Same naturell chicken, identical numbers"
+  },
+  {
+   "keep_id": "ean:7350001321967",
+   "fold_ids": [
+    "ean:7350001321240"
+   ],
+   "reason": "Same Delivida mozzarella 21%"
+  },
+  {
+   "keep_id": "ean:7072836001110",
+   "fold_ids": [
+    "ean:7072836001141"
+   ],
+   "reason": "Same product, two EANs"
+  },
+  {
+   "keep_id": "ean:7073298000352",
+   "fold_ids": [
+    "ean:7073298000017"
+   ],
+   "reason": "Same Frosta sea salt chips"
+  },
+  {
+   "keep_id": "ean:7073313039701",
+   "fold_ids": [
+    "tights-discontinued:14543382"
+   ],
+   "reason": "Same syrup, bundle with pump"
+  },
+  {
+   "keep_id": "ean:7090046141600",
+   "fold_ids": [
+    "tights-discontinued:1464331"
+   ],
+   "reason": "Same chocolate, bundle listing"
+  },
+  {
+   "keep_id": "ean:7090046146131",
+   "fold_ids": [
+    "tights-discontinued:802455"
+   ],
+   "reason": "Same Fit Kat, bundle listing"
+  },
+  {
+   "keep_id": "ean:7090099998381",
+   "fold_ids": [
+    "tights:14543404"
+   ],
+   "reason": "Same syrup, bundle with pump"
+  },
+  {
+   "keep_id": "ean:9102222027177",
+   "fold_ids": [
+    "tights-discontinued:10656065"
+   ],
+   "reason": "Same chocolate, multipack listing"
+  },
+  {
+   "keep_id": "ean:9102222030191",
+   "fold_ids": [
+    "tights-discontinued:10568310",
+    "tights-discontinued:12798594"
+   ],
+   "reason": "Same dark chocolate, pack listings"
+  },
+  {
+   "keep_id": "tights-discontinued:1360452",
+   "fold_ids": [
+    "tights-discontinued:1363125",
+    "tights-discontinued:3393020"
+   ],
+   "reason": "Same Miracle Rice, offer listings"
+  },
+  {
+   "keep_id": "ean:7090046128519",
+   "fold_ids": [
+    "tights-discontinued:3749317"
+   ],
+   "reason": "Same almonds, identical numbers and pack"
+  },
+  {
+   "keep_id": "ean:7090069699423",
+   "fold_ids": [
+    "ean:7092344446029"
+   ],
+   "reason": "Same dried mango, identical numbers"
+  },
+  {
+   "keep_id": "ean:7092344449358",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7092344449341"
+   ],
+   "reason": "Wholegrain vs plain couscous with identical numbers"
+  },
+  {
+   "keep_id": "ean:7090000700027",
+   "fold_ids": [
+    "ean:7090000700041",
+    "ean:7090000700058"
+   ],
+   "reason": "Same Skjelbred eggs, different pack counts"
+  },
+  {
+   "keep_id": "ean:7090006633213",
+   "fold_ids": [
+    "ean:7090006633251"
+   ],
+   "unsure_ids": [
+    "ean:7090006930022"
+   ],
+   "reason": "Same Eplemost; Liereple variety unclear"
+  },
+  {
+   "keep_id": "ean:7090008410003",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7090008410034"
+   ],
+   "reason": "Eplesirup vs Dessert variant with identical numbers"
+  },
+  {
+   "keep_id": "ean:7090040917386",
+   "fold_ids": [
+    "ean:7090040913098"
+   ],
+   "reason": "Same Ask salsiccia, verified row kept"
+  },
+  {
+   "keep_id": "ean:7090042530958",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:9004253000061"
+   ],
+   "reason": "Coated vs plain peanuts with identical numbers"
+  },
+  {
+   "keep_id": "ean:7092344446180",
+   "fold_ids": [
+    "ean:7090077774303"
+   ],
+   "unsure_ids": [
+    "ean:7090046126102"
+   ],
+   "reason": "BodyFuel Whey flavours with near identical numbers"
+  },
+  {
+   "keep_id": "ean:9102222035882",
+   "fold_ids": [
+    "tights:10650498"
+   ],
+   "reason": "Same Carbo Fuel, multipack listing"
+  },
+  {
+   "keep_id": "ean:7090046136415",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7090046130475",
+    "ean:7090046130482"
+   ],
+   "reason": "Different candy flavours, similar numbers"
+  },
+  {
+   "keep_id": "ean:7310070010506",
+   "fold_ids": [
+    "ean:7310070010636"
+   ],
+   "unsure_ids": [
+    "ean:7310070010841"
+   ],
+   "reason": "Pink Lemonade same; plain 7up Zero is a different flavour"
+  },
+  {
+   "keep_id": "ean:7090047410170",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7090047410187",
+    "ean:7090047410330"
+   ],
+   "reason": "Flavour variants with identical numbers"
+  },
+  {
+   "keep_id": "ean:7090052030028",
+   "fold_ids": [
+    "kassalapp:19355"
+   ],
+   "reason": "Same Grogro smoothie, identical numbers"
+  },
+  {
+   "keep_id": "ean:7090052260630",
+   "fold_ids": [
+    "kassalapp:8648"
+   ],
+   "reason": "Same bao bun"
+  },
+  {
+   "keep_id": "ean:7090052960561",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7090052960585"
+   ],
+   "reason": "Apple variety variant with identical numbers"
+  },
+  {
+   "keep_id": "ean:7090066710008",
+   "fold_ids": [
+    "ean:7090066710336"
+   ],
+   "reason": "Same honey"
+  },
+  {
+   "keep_id": "ean:7310070005175",
+   "fold_ids": [
+    "ean:7310070010674"
+   ],
+   "reason": "Same Daylight alcohol-free IPA"
+  },
+  {
+   "keep_id": "ean:7310072000987",
+   "fold_ids": [
+    "ean:7310072000666"
+   ],
+   "reason": "Same Eriksberg Original folköl"
+  },
+  {
+   "keep_id": "ean:7310090643128",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7310090645122"
+   ],
+   "reason": "Svarta vinbär vs unspecified vinbär; flavour may differ"
+  },
+  {
+   "keep_id": "ean:7310130003547",
+   "fold_ids": [
+    "ean:7310130003561"
+   ],
+   "reason": "Same Ideal makaroner, different pack"
+  },
+  {
+   "keep_id": "ean:7310525501412",
+   "fold_ids": [
+    "ean:7310525501511"
+   ],
+   "reason": "Same Jätten biscuit"
+  },
+  {
+   "keep_id": "ean:7310867000369",
+   "fold_ids": [
+    "ean:7310867561709"
+   ],
+   "unsure_ids": [],
+   "reason": "Same Bravo orange juice; fruktkött version kept separate"
+  },
+  {
+   "keep_id": "ean:7310867501644",
+   "fold_ids": [
+    "ean:7310867502719"
+   ],
+   "reason": "Same lactose-free lättmjölk 0.5%"
+  },
+  {
+   "keep_id": "ean:7310867500319",
+   "fold_ids": [
+    "ean:7310867000178"
+   ],
+   "reason": "Same fresh milk 3.0%"
+  },
+  {
+   "keep_id": "ean:2324552712692",
+   "fold_ids": [
+    "ean:2324552711916"
+   ],
+   "reason": "Identical Gouda 28%"
+  },
+  {
+   "keep_id": "ean:7310960035992",
+   "fold_ids": [
+    "openfoodfacts-nordic-global:2000000151195"
+   ],
+   "reason": "Same Food Box Creole Chicken"
+  },
+  {
+   "keep_id": "ean:7611612142212",
+   "fold_ids": [
+    "ean:7611612142571"
+   ],
+   "reason": "Same sun-dried tomatoes"
+  },
+  {
+   "keep_id": "ean:7311043032365",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7611612190374"
+   ],
+   "reason": "Portion pieces vs plain laxfilé, same numbers"
+  },
+  {
+   "keep_id": "ean:7311312008077",
+   "fold_ids": [
+    "ean:7311310032005"
+   ],
+   "reason": "Same Santa Maria nacho chips"
+  },
+  {
+   "keep_id": "ean:7311310034474",
+   "fold_ids": [
+    "ean:7311311012594"
+   ],
+   "reason": "Same Tom Kha soup"
+  },
+  {
+   "keep_id": "ean:7311311003486",
+   "fold_ids": [
+    "ean:7311311012693"
+   ],
+   "reason": "Same Tandoori spice mix"
+  },
+  {
+   "keep_id": "ean:7311312009418",
+   "fold_ids": [
+    "ean:7311312006363"
+   ],
+   "reason": "Same roasted garlic BBQ sauce"
+  },
+  {
+   "keep_id": "ean:7311312007834",
+   "fold_ids": [
+    "ean:7311312006929"
+   ],
+   "reason": "Same sweet chili tortilla strips"
+  },
+  {
+   "keep_id": "ean:7311360544008",
+   "fold_ids": [
+    "ean:7311360000016"
+   ],
+   "reason": "Same kräftmarinerad sill"
+  },
+  {
+   "keep_id": "ean:7311631500603",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7311631503000"
+   ],
+   "reason": "Fine salt vs fine salt from Mediterranean, probably same"
+  },
+  {
+   "keep_id": "ean:7312060501179",
+   "fold_ids": [
+    "ean:7312060502497"
+   ],
+   "reason": "Same ice cream, case difference only"
+  },
+  {
+   "keep_id": "ean:7312690117047",
+   "fold_ids": [
+    "ean:7312690800345"
+   ],
+   "reason": "Same Sia ice cream sandwich"
+  },
+  {
+   "keep_id": "ean:7313160019885",
+   "fold_ids": [
+    "ean:7350002395004"
+   ],
+   "reason": "Same Delikatessfabriken bearnaise"
+  },
+  {
+   "keep_id": "ean:7313619001218",
+   "fold_ids": [
+    "ean:7313619002857"
+   ],
+   "reason": "Same Brämhults raspberry smoothie"
+  },
+  {
+   "keep_id": "ean:7313619002499",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7313619003052"
+   ],
+   "reason": "Peach+Passion flavour vs generic vitamin water"
+  },
+  {
+   "keep_id": "ean:7350046227590",
+   "fold_ids": [
+    "ean:7350046221710"
+   ],
+   "reason": "Same organic pistachios"
+  },
+  {
+   "keep_id": "ean:7316260001576",
+   "fold_ids": [
+    "ean:7316260001590"
+   ],
+   "reason": "Same Isterband"
+  },
+  {
+   "keep_id": "ean:7316843015075",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7316840612321"
+   ],
+   "reason": "Extra Gul eggs may be a variety of plain egg"
+  },
+  {
+   "keep_id": "ean:7318690177333",
+   "fold_ids": [
+    "ean:7318690177340"
+   ],
+   "reason": "Same marshmallows; Unicorn kept separate"
+  },
+  {
+   "keep_id": "ean:7318690488422",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7318690680864"
+   ],
+   "reason": "Choklad vs gift pack, unclear"
+  },
+  {
+   "keep_id": "ean:7322550031833",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7322550033400"
+   ],
+   "reason": "Slightly different values, may be different recipe"
+  },
+  {
+   "keep_id": "ean:7332489004303",
+   "fold_ids": [
+    "ean:7332489003115"
+   ],
+   "reason": "Same Stjärnägg free-range eggs"
+  },
+  {
+   "keep_id": "ean:7332489004112",
+   "fold_ids": [
+    "ean:7332489004648"
+   ],
+   "reason": "Same Västkustägg, size M"
+  },
+  {
+   "keep_id": "ean:7332489004860",
+   "fold_ids": [
+    "ean:7332489207506"
+   ],
+   "reason": "Same Stjärnägg large eggs"
+  },
+  {
+   "keep_id": "ean:7340023126527",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7340023803527"
+   ],
+   "reason": "Grilled chicken vs plain chicken, same numbers, unclear"
+  },
+  {
+   "keep_id": "ean:7340028824688",
+   "fold_ids": [
+    "ean:7340028824695"
+   ],
+   "reason": "Same Triple Whey recipe, flavour only"
+  },
+  {
+   "keep_id": "ean:7350000552881",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7354003368067"
+   ],
+   "reason": "YoPro, numbers differ slightly, flavours unknown"
+  },
+  {
+   "keep_id": "ean:7340191117884",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7340191117891"
+   ],
+   "reason": "Identical numbers but generic Smoothie name"
+  },
+  {
+   "keep_id": "ean:7340195400180",
+   "fold_ids": [
+    "ean:7350077758131"
+   ],
+   "reason": "Same zero energy drink"
+  },
+  {
+   "keep_id": "ean:7350077753983",
+   "fold_ids": [
+    "ean:7350077750012",
+    "ean:7350077750234"
+   ],
+   "reason": "Gaam Whey flavours with identical numbers"
+  },
+  {
+   "keep_id": "ean:7350077756601",
+   "fold_ids": [
+    "proteincompany-no:https://proteincompany.no/products/2-x-gaam-meal-solution-900-g-maltidsersattning",
+    "proteincompany-no:https://proteincompany.no/sv/products/2-x-gaam-meal-solution-900-g-maltidsersattning"
+   ],
+   "reason": "Same product, shop page duplicates"
+  },
+  {
+   "keep_id": "ean:7350077759961",
+   "fold_ids": [
+    "ean:7350077757783"
+   ],
+   "reason": "Same toffee soft bar"
+  },
+  {
+   "keep_id": "ean:7350077759954",
+   "fold_ids": [
+    "proteincompany-no:https://proteincompany.no/products/12-x-gaam-protein-bar-soft-bar-45-g-mixlada",
+    "proteincompany-no:https://proteincompany.no/sv/products/12-x-gaam-protein-bar-soft-bar-45-g-mixlada"
+   ],
+   "reason": "Same bar, shop page duplicates"
+  },
+  {
+   "keep_id": "ean:7340222800051",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7340222801362"
+   ],
+   "reason": "Vitamin Well Zero, lemon flavour vs generic, carbs differ"
+  },
+  {
+   "keep_id": "mmsports:https://www.mmsports.se/kosttillskott/protein/xlnt-sports-2-st-whey-protein.html",
+   "fold_ids": [
+    "mmsports:https://www.mmsports.se/kosttillskott/protein/xlnt-sports-2-st-whey-protein-SKU2716811.html"
+   ],
+   "reason": "Multipack of same whey"
+  },
+  {
+   "keep_id": "ean:5410146410581",
+   "fold_ids": [
+    "ean:7350000552935",
+    "ean:5410146963964",
+    "ean:5410146964954"
+   ],
+   "reason": "Same Actimel drink, different EANs"
+  },
+  {
+   "keep_id": "ean:7350076412805",
+   "fold_ids": [
+    "ean:7350076412492"
+   ],
+   "reason": "Same ISO Complex, flavour only"
+  },
+  {
+   "keep_id": "ean:7350005701291",
+   "fold_ids": [
+    "ean:7350005701284"
+   ],
+   "reason": "Same Lättkorv 15%"
+  },
+  {
+   "keep_id": "ean:7350011741267",
+   "fold_ids": [
+    "ean:7350011740390"
+   ],
+   "reason": "Same chicken nuggets"
+  },
+  {
+   "keep_id": "ean:7350024340150",
+   "fold_ids": [
+    "tights:515628"
+   ],
+   "reason": "Same Carbzone tortilla"
+  },
+  {
+   "keep_id": "ean:7350037197369",
+   "fold_ids": [
+    "ean:7350128390020"
+   ],
+   "reason": "Same chorizo protein sausage"
+  },
+  {
+   "keep_id": "ean:7350094821634",
+   "fold_ids": [
+    "ean:7350094821610"
+   ],
+   "reason": "Same isolate, flavour only"
+  },
+  {
+   "keep_id": "ean:7350094823126",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7350094820378"
+   ],
+   "reason": "Whey flavour, numbers slightly differ"
+  },
+  {
+   "keep_id": "ean:7350094821146",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7350094822464"
+   ],
+   "reason": "Casein vs unnamed chocolate, unclear"
+  },
+  {
+   "keep_id": "ean:7350115944137",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7350115944120"
+   ],
+   "reason": "Corn chips, numbers differ slightly"
+  },
+  {
+   "keep_id": "ean:7393061019368",
+   "fold_ids": [
+    "ean:0000020444273"
+   ],
+   "reason": "Same filmjölk pepparkaka"
+  },
+  {
+   "keep_id": "ean:7393061001721",
+   "fold_ids": [
+    "ean:7393061001462"
+   ],
+   "reason": "Same mellanmjölk 1,5%"
+  },
+  {
+   "keep_id": "ean:7393061001356",
+   "fold_ids": [
+    "ean:7393061001165"
+   ],
+   "reason": "Same lättmjölk 0,5%"
+  },
+  {
+   "keep_id": "ean:7393061015865",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7393061015858"
+   ],
+   "reason": "Normal vs Lätt creme fraiche, same fat"
+  },
+  {
+   "keep_id": "ean:7393720091452",
+   "fold_ids": [
+    "ean:7393720092442"
+   ],
+   "reason": "Same Greve 28%"
+  },
+  {
+   "keep_id": "ean:7393720090226",
+   "fold_ids": [
+    "ean:7393720091322"
+   ],
+   "unsure_ids": [
+    "ean:7393720092480"
+   ],
+   "reason": "Same Prästost 35%; aged 12 months variant unsure"
+  },
+  {
+   "keep_id": "ean:7394122002060",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7394122002107"
+   ],
+   "reason": "Eggs, carbs differ"
+  },
+  {
+   "keep_id": "ean:7611612160896",
+   "fold_ids": [
+    "ean:7611612160889"
+   ],
+   "reason": "Same Fresca D'oro hard cheese"
+  },
+  {
+   "keep_id": "ean:7613036275965",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:8445290749079"
+   ],
+   "reason": "Nan 2 drinkable, protein differs"
+  },
+  {
+   "keep_id": "ean:7640104952619",
+   "fold_ids": [
+    "ean:7640104953135"
+   ],
+   "reason": "Same organic Holle oat porridge"
+  },
+  {
+   "keep_id": "ean:8004690052815",
+   "fold_ids": [
+    "ean:8004690632819"
+   ],
+   "reason": "Same casarecce, different pack"
+  },
+  {
+   "keep_id": "ean:8010721977385",
+   "fold_ids": [
+    "ean:8010721991824"
+   ],
+   "unsure_ids": [
+    "ean:8010721981689"
+   ],
+   "reason": "Same Parmesan 30%; 12 month variant unsure"
+  },
+  {
+   "keep_id": "ean:8013885051625",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:8013885051649"
+   ],
+   "reason": "Spelt spaghetti, names unclear"
+  },
+  {
+   "keep_id": "ean:7350056793160",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7350056793146"
+   ],
+   "reason": "Plain Greek yoghurt vs Äkta, numbers slightly differ"
+  },
+  {
+   "keep_id": "ean:8020693100735",
+   "fold_ids": [
+    "openfoodfacts-nordic-global:10206938"
+   ],
+   "reason": "Same product, identical values"
+  },
+  {
+   "keep_id": "ean:8717545140345",
+   "fold_ids": [
+    "ean:8717545140079"
+   ],
+   "reason": "Same fish burger, identical values"
+  },
+  {
+   "keep_id": "ean:8720211191800",
+   "fold_ids": [
+    "ean:8720211192487"
+   ],
+   "reason": "Same Bang Candy Apple"
+  },
+  {
+   "keep_id": "ean:8989388145492",
+   "fold_ids": [
+    "ean:8992388145577"
+   ],
+   "reason": "Same noodle, single vs 4-pack"
+  },
+  {
+   "keep_id": "ean:9004617071485",
+   "fold_ids": [
+    "ean:9004617071997"
+   ],
+   "reason": "Same organic apple-cinnamon granola"
+  },
+  {
+   "keep_id": "norgesgruppen:23534003",
+   "fold_ids": [],
+   "unsure_ids": [
+    "norgesgruppen:7983"
+   ],
+   "reason": "Angus cote vs dry age cote de boeuf, may be different cuts"
+  },
+  {
+   "keep_id": "norgesgruppen:1072",
+   "fold_ids": [
+    "ean:2000107200004"
+   ],
+   "reason": "Same Hitra grotteost ung 27%"
+  },
+  {
+   "keep_id": "norgesgruppen:23010584",
+   "fold_ids": [],
+   "unsure_ids": [
+    "norgesgruppen:23016418"
+   ],
+   "reason": "Lammestek vs lammestek av lar, unclear"
+  },
+  {
+   "keep_id": "tights:1298244",
+   "fold_ids": [
+    "tights:1298276"
+   ],
+   "reason": "Same Coco Fuzion, single vs 12-pack"
+  },
+  {
+   "keep_id": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-vellagret-m-skorpe",
+   "fold_ids": [],
+   "unsure_ids": [
+    "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-ekstra-vellagret-m-skorpe"
+   ],
+   "reason": "Vellagret vs Ekstra Vellagret, different maturity, same numbers"
+  },
+  {
+   "keep_id": "ean:7020098006206",
+   "fold_ids": [],
+   "unsure_ids": [
+    "ean:7020098002994"
+   ],
+   "reason": "Spar Burger vs Big Juicy, maybe different recipe"
+  },
+  {
+   "keep_id": "ean:7340131607185",
+   "fold_ids": [],
+   "unsure_ids": [
+    "tillskottsbolaget:https://www.tillskottsbolaget.se/sv/24-x-nocco-electrolyte-355-ml-lemon-lime"
+   ],
+   "reason": "Generic Nocco Electrolyte vs Lemon Lime flavour, unclear"
+  },
+  {
+   "keep_id": "norgesgruppen:1301",
+   "fold_ids": [
+    "ean:2000122200003"
+   ],
+   "reason": "Same Prestholt leirgrov geitost 32%"
+  }
+ ],
+ "held": [
+  {
+   "id": "ean:5711657014153",
+   "keep_id": "ean:5711657011473",
+   "why": "duplicate? Flavour variant with identical macros; unclear"
+  },
+  {
+   "id": "ean:7350058335078",
+   "keep_id": "ean:7350058335818",
+   "why": "duplicate? Generic 48-pack row, flavour unknown"
+  },
+  {
+   "id": "gymgrossisten-se:https://www.gymgrossisten.com/48-x-celsius-energidryck-355-ml/SETCELSIUS2.html",
+   "keep_id": "ean:7350058335818",
+   "why": "duplicate? Generic 48-pack row, flavour unknown"
+  },
+  {
+   "id": "ean:7350061457699",
+   "keep_id": "ean:7350061457682",
+   "why": "duplicate? Different flavours, same recipe numbers"
+  },
+  {
+   "id": "ean:5060335630971",
+   "keep_id": "ean:5056784919651",
+   "why": "duplicate? Zero vs Absolutely Zero, carbs differ slightly"
+  },
+  {
+   "id": "ean:0748927027877",
+   "keep_id": "ean:0748927027891",
+   "why": "duplicate? Whey: flavour of second row unknown"
+  },
+  {
+   "id": "ean:5060751994787",
+   "keep_id": "ean:5060469987583",
+   "why": "duplicate? Toffee Crunchy vs generic protein bar flavour unknown"
+  },
+  {
+   "id": "ean:7350116311952",
+   "keep_id": "ean:7350116316742",
+   "why": "duplicate? Cola flavour vs plain kombucha"
+  },
+  {
+   "id": "bodystore:SETBSVASSLECREATINE",
+   "keep_id": "ean:7350132948040",
+   "why": "duplicate? Bundle with creatine, same whey numbers"
+  },
+  {
+   "id": "ean:5765228124758",
+   "keep_id": "ean:5765228126882",
+   "why": "variant words differ: Urtekram Havremysli multi Ø vs Urtekram Havremysli Multi Økologisk"
+  },
+  {
+   "id": "tights:373770",
+   "keep_id": "tights:356424",
+   "why": "duplicate? Different flavour names, identical numbers"
+  },
+  {
+   "id": "bodystore-discontinued:FP9789-054R",
+   "keep_id": "kassalapp:9220",
+   "why": "duplicate? Generic Core Bar vs peanut butter flavour"
+  },
+  {
+   "id": "ean:6416453073401",
+   "keep_id": "ean:0810000691227",
+   "why": "duplicate? Dumle vs Dumle Bananas"
+  },
+  {
+   "id": "ean:7314875025000",
+   "keep_id": "ean:7314873525014",
+   "why": "duplicate? Havssalt vs plain Lantbrod"
+  },
+  {
+   "id": "ean:7025110215697",
+   "keep_id": "ean:7025110208774",
+   "why": "duplicate? Rustikke may be a different cut"
+  },
+  {
+   "id": "ean:7340191115354",
+   "keep_id": "ean:7340191119871",
+   "why": "duplicate? Ice cream vs possibly cheese"
+  },
+  {
+   "id": "ean:7025110218667",
+   "keep_id": "ean:7025110218544",
+   "why": "duplicate? Premium may be different juice"
+  },
+  {
+   "id": "ean:7025110193995",
+   "keep_id": "ean:7025110222978",
+   "why": "duplicate? Generic smoothie vs red"
+  },
+  {
+   "id": "ean:7025110160720",
+   "keep_id": "ean:7025110145284",
+   "why": "duplicate? Variety vs generic potatoes"
+  },
+  {
+   "id": "ean:7340011486879",
+   "keep_id": "ean:7340191159365",
+   "why": "duplicate? Burger variant may be slices"
+  },
+  {
+   "id": "ean:7340011486534",
+   "keep_id": "ean:7340191179769",
+   "why": "duplicate? Olivenolje may be refined vs extra virgin; same macros"
+  },
+  {
+   "id": "ean:7025110218360",
+   "keep_id": "ean:7025110184139",
+   "why": "duplicate? Iste may be a different flavour"
+  },
+  {
+   "id": "ean:7025110188090",
+   "keep_id": "ean:7025110195838",
+   "why": "duplicate? Red new potatoes vs new potatoes, unclear"
+  },
+  {
+   "id": "ean:2317258505712",
+   "keep_id": "ean:2317258505170",
+   "why": "variant words differ: Coop Kassler Rimmad og Varmrökt vs Coop Kassler"
+  },
+  {
+   "id": "ean:2317077100006",
+   "keep_id": "ean:7300156578907",
+   "why": "duplicate? Boneless vs plain pork loin, unclear"
+  },
+  {
+   "id": "ean:7025110230003",
+   "keep_id": "ean:2320033808403",
+   "why": "duplicate? Boneless variant, unclear"
+  },
+  {
+   "id": "ean:7340191148833",
+   "keep_id": "ean:7340191150898",
+   "why": "duplicate? Tex Mex vs plain cheese sauce, unclear"
+  },
+  {
+   "id": "ean:2371540026460",
+   "keep_id": "ean:2371540026941",
+   "why": "variant words differ: Nybergs Deli Julskinka vs Nybergs Deli Julskinka Färdigkokt"
+  },
+  {
+   "id": "ean:2371545122600",
+   "keep_id": "ean:2371545121788",
+   "why": "variant words differ: Nybergs Deli Helgskinka vs Nybergs Deli Helgskinka Färdigkokt"
+  },
+  {
+   "id": "ean:2371587106644",
+   "keep_id": "ean:2371587108877",
+   "why": "duplicate? Grill-seasoned variant, unclear"
+  },
+  {
+   "id": "ean:7037421027043",
+   "keep_id": "ean:0000004211587",
+   "why": "duplicate? Cinnamon lefse may differ from plain lefsegodt"
+  },
+  {
+   "id": "ean:7394482002021",
+   "keep_id": "ean:7394482001109",
+   "why": "duplicate? Citron flavoured oil, unclear"
+  },
+  {
+   "id": "ean:2340415906503",
+   "keep_id": "ean:2340415907036",
+   "why": "duplicate? 12 month aged vs standard, unclear"
+  },
+  {
+   "id": "ean:2340415907517",
+   "keep_id": "ean:2359772806791",
+   "why": "duplicate? Mild herrgard same; aged variant unclear"
+  },
+  {
+   "id": "ean:4335619115958",
+   "keep_id": "ean:4335619115965",
+   "why": "variant words differ: Matriket Extra Rökt Skinka vs Matriket Rökt Skinka"
+  },
+  {
+   "id": "ean:4056489770558",
+   "keep_id": "ean:4056489770657",
+   "why": "agent said duplicate, code check failed"
+  },
+  {
+   "id": "ean:4056489669975",
+   "keep_id": "ean:4056489669524",
+   "why": "duplicate? Normal 3% milk rows same; eko is organic, separate"
+  },
+  {
+   "id": "ean:4056489669814",
+   "keep_id": "ean:4056489669524",
+   "why": "duplicate? Normal 3% milk rows same; eko is organic, separate"
+  },
+  {
+   "id": "ean:7340083476815",
+   "keep_id": "ean:2359762104753",
+   "why": "duplicate? Grated vs piece parmigiano, same numbers; organic rows excluded"
+  },
+  {
+   "id": "ean:2359773305934",
+   "keep_id": "ean:2359773305187",
+   "why": "variant words differ: Garant Kassler Rökt med alspån vs Garant Kassler"
+  },
+  {
+   "id": "ean:7311043018796",
+   "keep_id": "ean:7311041064337",
+   "why": "duplicate? Same eggs indoor free range; outdoor hens and unspecified Svenska agg unsure"
+  },
+  {
+   "id": "ean:7340083474675",
+   "keep_id": "ean:7311041064337",
+   "why": "duplicate? Same eggs indoor free range; outdoor hens and unspecified Svenska agg unsure"
+  },
+  {
+   "id": "ean:7311043002726",
+   "keep_id": "ean:7311041064337",
+   "why": "variant words differ: Garant Frigående Inomhus Stora Ägg vs Garant Ägg"
+  },
+  {
+   "id": "ean:7340083497353",
+   "keep_id": "ean:7311043001354",
+   "why": "variant words differ: Garant Bacon Rökt & Skivat vs Garant Bacon"
+  },
+  {
+   "id": "ean:7340083436208",
+   "keep_id": "ean:7311043005413",
+   "why": "duplicate? Klassisk bearnaise, fat 66 vs 68"
+  },
+  {
+   "id": "ean:7311043005840",
+   "keep_id": "ean:7311043005833",
+   "why": "duplicate? Alpsansrokt may mean smoked"
+  },
+  {
+   "id": "ean:7311043025886",
+   "keep_id": "ean:7311043014101",
+   "why": "duplicate? Bulgur coarse vs fine grind"
+  },
+  {
+   "id": "ean:7311043027521",
+   "keep_id": "ean:7311043014101",
+   "why": "duplicate? Bulgur coarse vs fine grind"
+  },
+  {
+   "id": "ean:7311043023752",
+   "keep_id": "ean:7311043018345",
+   "why": "duplicate? Virgin cold pressed vs plain organic coconut oil"
+  },
+  {
+   "id": "ean:7311043018895",
+   "keep_id": "ean:7311043019007",
+   "why": "duplicate? With fruit pulp vs clear juice"
+  },
+  {
+   "id": "ean:7311043025411",
+   "keep_id": "ean:7340083471155",
+   "why": "variant words differ: Garant Stora Odlade Blåbär vs Garant Blåbär"
+  },
+  {
+   "id": "ean:7311043026685",
+   "keep_id": "ean:7311043026678",
+   "why": "duplicate? Crunchy vs probably smooth, same numbers"
+  },
+  {
+   "id": "ean:7340083436239",
+   "keep_id": "ean:7340083494215",
+   "why": "duplicate? Klassisk romsas vs romsas"
+  },
+  {
+   "id": "ean:7340083466793",
+   "keep_id": "ean:7340083466809",
+   "why": "duplicate? Chunky mild salsa vs salsa"
+  },
+  {
+   "id": "ean:2359773007579",
+   "keep_id": "ean:2359749607598",
+   "why": "duplicate? Same prastost 17%; mellanlagrad aged variant unsure"
+  },
+  {
+   "id": "ean:2359773006473",
+   "keep_id": "ean:2359749607598",
+   "why": "duplicate? Same prastost 17%; mellanlagrad aged variant unsure"
+  },
+  {
+   "id": "ean:2359773106593",
+   "keep_id": "ean:2359773107569",
+   "why": "duplicate? Same herrgardsost 17%; Mild unsure"
+  },
+  {
+   "id": "ean:2359751410346",
+   "keep_id": "ean:2359751409593",
+   "why": "duplicate? Same hushallsost 17%; Mild unsure"
+  },
+  {
+   "id": "ean:0031218153981",
+   "keep_id": "ean:7041111155701",
+   "why": "variant words differ: Den Lille Nøttefabrikken Cashew vs Den Lille Nøttefabrikken Cashew Stora & Rostade"
+  },
+  {
+   "id": "ean:7041111124929",
+   "keep_id": "ean:7041111137967",
+   "why": "duplicate? Identical numbers; sea salt vs plain unclear"
+  },
+  {
+   "id": "ean:0624116108506",
+   "keep_id": "ean:2320719109428",
+   "why": "variant words differ: Scan Kassler vs Scan Kassler Varmrökt Rimmad"
+  },
+  {
+   "id": "ean:2320051909298",
+   "keep_id": "ean:2320197103116",
+   "why": "duplicate? Benfri vs plain kotlett, same numbers"
+  },
+  {
+   "id": "ean:2320321610107",
+   "keep_id": "ean:2320321610329",
+   "why": "duplicate? Vague name, numbers match marinated fillet"
+  },
+  {
+   "id": "ean:2319118507829",
+   "keep_id": "ean:2319158807835",
+   "why": "duplicate? Benfri vs plain kotlett, same numbers"
+  },
+  {
+   "id": "ean:2319124008044",
+   "keep_id": "ean:2319124009287",
+   "why": "variant words differ: ICA Fläskytterfile Mörmarinerad vs ICA Fläskytterfilé"
+  },
+  {
+   "id": "ean:2319203709657",
+   "keep_id": "ean:2319203709695",
+   "why": "variant words differ: ICA Flintastek vs ICA Grillmarinerad Flintastek"
+  },
+  {
+   "id": "ean:2319228113132",
+   "keep_id": "ean:2319228107834",
+   "why": "variant words differ: ICA FLÄSKYTTERFILÉ GRILL, Mörmarinerad vs ICA Fläskytterfilé"
+  },
+  {
+   "id": "ean:2319354909593",
+   "keep_id": "ean:2319228408344",
+   "why": "duplicate? Grill-marinated vs plain carre, 1.5% apart"
+  },
+  {
+   "id": "ean:7318690081784",
+   "keep_id": "ean:7310751101066",
+   "why": "duplicate? Jasminris vs Basic line, protein/carbs differ slightly"
+  },
+  {
+   "id": "ean:7318690055716",
+   "keep_id": "ean:7318690079545",
+   "why": "duplicate? Cheese flavour vs plain chips, near-identical numbers"
+  },
+  {
+   "id": "ean:7318690129806",
+   "keep_id": "ean:7318690129769",
+   "why": "duplicate? Roasted vs plain almond flakes, identical numbers"
+  },
+  {
+   "id": "ean:7318690171669",
+   "keep_id": "ean:7318690171270",
+   "why": "duplicate? Chili flavour vs plain olkorv, identical numbers"
+  },
+  {
+   "id": "ean:7318690503736",
+   "keep_id": "ean:7318690503729",
+   "why": "variant words differ: ICA Kaviar Mild rökt vs ICA Kaviar"
+  },
+  {
+   "id": "ean:7318690520832",
+   "keep_id": "ean:7318690503729",
+   "why": "variant words differ: ICA Mildrökt Kaviar vs ICA Kaviar"
+  },
+  {
+   "id": "ean:2371581011555",
+   "keep_id": "ean:2371581009224",
+   "why": "variant words differ: Lidl Fläskytterfile vs Lidl Fläskytterfilé, mörmarinerad"
+  },
+  {
+   "id": "ean:4056489669531",
+   "keep_id": "ean:4056489065456",
+   "why": "duplicate? Same eko milk, different pack"
+  },
+  {
+   "id": "ean:2320250605045",
+   "keep_id": "ean:2320250604420",
+   "why": "duplicate? Marinated vs plain, identical numbers"
+  },
+  {
+   "id": "ean:7032890002188",
+   "keep_id": "ean:7032890002270",
+   "why": "duplicate? Kokt (cooked) vs plain, identical numbers"
+  },
+  {
+   "id": "ean:2371520500003",
+   "keep_id": "norgesgruppen:23715203",
+   "why": "variant words differ: Brødr Ringstad Pinnekjøtt Av Lam Røkt ca. vs Brødr Ringstad Pinnekjøtt"
+  },
+  {
+   "id": "ean:2373313000004",
+   "keep_id": "norgesgruppen:23733130",
+   "why": "duplicate? Identical numbers but one name says organic"
+  },
+  {
+   "id": "norgesgruppen:23737003",
+   "keep_id": "norgesgruppen:23737513",
+   "why": "duplicate? Pinnekjott is usually smoked; kcal 452 vs 448"
+  },
+  {
+   "id": "ean:7053290006651",
+   "keep_id": "ean:7053290006675",
+   "why": "duplicate? Smoked vs plain name, identical numbers"
+  },
+  {
+   "id": "ean:2086021600007",
+   "keep_id": "ean:0000023860216",
+   "why": "duplicate? Plain vs einerroykt name, identical numbers"
+  },
+  {
+   "id": "ean:2307111109157",
+   "keep_id": "ean:2307111207105",
+   "why": "duplicate? Sliced vs whole fillet"
+  },
+  {
+   "id": "ean:7313940012679",
+   "keep_id": "ean:2307116109053",
+   "why": "duplicate? Whole vs strimlad form"
+  },
+  {
+   "id": "ean:7313940011856",
+   "keep_id": "ean:2307116808024",
+   "why": "duplicate? Majskyckling breast fillet variants"
+  },
+  {
+   "id": "ean:2307124119235",
+   "keep_id": "ean:7313940531200",
+   "why": "duplicate? Marinated vs plain, same numbers"
+  },
+  {
+   "id": "ean:2307124120422",
+   "keep_id": "ean:7313940531200",
+   "why": "duplicate? Marinated vs plain, same numbers"
+  },
+  {
+   "id": "ean:2307125109181",
+   "keep_id": "ean:2307125108436",
+   "why": "variant words differ: Guldfågeln Marinerad Bröstfile vs Guldfågeln Tvådelad Bröstfilé"
+  },
+  {
+   "id": "ean:2307125107927",
+   "keep_id": "ean:2307125108436",
+   "why": "variant words differ: Guldfågeln Tvådelad Bröstfile Grillkryddad Och Marinerad vs Guldfågeln Tvådelad Bröstfilé"
+  },
+  {
+   "id": "ean:7313940574900",
+   "keep_id": "ean:7313940017063",
+   "why": "variant words differ: Guldfågeln Chicken Drumsticks vs Guldfågeln Färdiggrillade Chicken Drumsticks"
+  },
+  {
+   "id": "ean:7313940026188",
+   "keep_id": "ean:7313940183478",
+   "why": "variant words differ: Guldfågeln Kycklingspett Grillkryddade vs Guldfågeln Kycklingspett"
+  },
+  {
+   "id": "ean:7793940574504",
+   "keep_id": "ean:7313940574504",
+   "why": "variant words differ: Guldfågeln Buffalo wings vs Guldfågeln Färdiggrillade Buffalo Wings av Svensk Kyckling"
+  },
+  {
+   "id": "ean:4260183213604",
+   "keep_id": "ean:4260183213178",
+   "why": "variant words differ: Kokosjuice Ø Dr. Martins vs Dr. Antonio Martins Kokosjuice Økologisk"
+  },
+  {
+   "id": "ean:7613037801958",
+   "keep_id": "ean:7613034337399",
+   "why": "duplicate? Regular vs organic baby food"
+  },
+  {
+   "id": "ean:7310865866424",
+   "keep_id": "ean:7310865866356",
+   "why": "duplicate? Mild vs plain yoghurt, same numbers"
+  },
+  {
+   "id": "ean:2340375010647",
+   "keep_id": "ean:7311870013278",
+   "why": "duplicate? Sture and Åseda are named cheese varieties; unsure if same as generic Grädost"
+  },
+  {
+   "id": "ean:5711953018275",
+   "keep_id": "ean:7311870013278",
+   "why": "duplicate? Sture and Åseda are named cheese varieties; unsure if same as generic Grädost"
+  },
+  {
+   "id": "ean:2340413405206",
+   "keep_id": "ean:2340413404841",
+   "why": "duplicate? Syrlig Ost 10% variants; plain Ost 10% unsure"
+  },
+  {
+   "id": "ean:7310865872999",
+   "keep_id": "ean:7310865000361",
+   "why": "duplicate? Mjölk 3,0%; nutrition slightly different, Svensk Mjölk may be a different line"
+  },
+  {
+   "id": "ean:7037610021630",
+   "keep_id": "ean:7037610030038",
+   "why": "duplicate? Kremet vs Kremet Blomkålssoppa, slightly different values"
+  },
+  {
+   "id": "ean:7350027797173",
+   "keep_id": "ean:7350002401828",
+   "why": "duplicate? Grana Padano 29%; grovriven (grated) form unsure"
+  },
+  {
+   "id": "ean:7350002408926",
+   "keep_id": "ean:7350002405215",
+   "why": "duplicate? Fruttato vs Fruttato Intenso, may be different oils"
+  },
+  {
+   "id": "proteincompany-no:https://proteincompany.no/products/8-x-njie-propud-protein-milkshake-330-ml-appelpaj",
+   "keep_id": "ean:7350068291210",
+   "why": "duplicate? Flavours with identical values are one recipe; apple pie rows have slightly different values"
+  },
+  {
+   "id": "proteincompany-no:https://proteincompany.no/sv/products/8-x-njie-propud-protein-milkshake-330-ml-appelpaj",
+   "keep_id": "ean:7350068291210",
+   "why": "duplicate? Flavours with identical values are one recipe; apple pie rows have slightly different values"
+  },
+  {
+   "id": "tights:1382403",
+   "keep_id": "tights:121740",
+   "why": "duplicate? Mango Vanilje vs Vanilje, different flavours with same numbers"
+  },
+  {
+   "id": "ean:7318690158196",
+   "keep_id": "ean:7318690129202",
+   "why": "duplicate? Frökex vs Havre variant, same values"
+  },
+  {
+   "id": "ean:0000090446399",
+   "keep_id": "ean:9002490215408",
+   "why": "duplicate? Regular Red Bull same; winter editions are other flavours"
+  },
+  {
+   "id": "ean:0000090448324",
+   "keep_id": "ean:9002490215408",
+   "why": "duplicate? Regular Red Bull same; winter editions are other flavours"
+  },
+  {
+   "id": "ean:0000090456268",
+   "keep_id": "ean:0000090446955",
+   "why": "duplicate? Summer edition flavour unclear"
+  },
+  {
+   "id": "ean:0000090493515",
+   "keep_id": "ean:0000090493065",
+   "why": "duplicate? White Edition same; White Peach edition may differ"
+  },
+  {
+   "id": "ean:0041143024966",
+   "keep_id": "ean:0041143028919",
+   "why": "duplicate? Organic Sun Maid vs plain raisins"
+  },
+  {
+   "id": "ean:0350635210214",
+   "keep_id": "ean:7350035210107",
+   "why": "duplicate? Generic Samyang Ramen flavour unknown"
+  },
+  {
+   "id": "ean:0383254000362",
+   "keep_id": "ean:7393750010362",
+   "why": "duplicate? Gravad vs plain laxfile, identical numbers"
+  },
+  {
+   "id": "gymgrossisten-se:https://www.gymgrossisten.com/critical-mass-gainer-24-kg-vanilla-testo-bomb-enhancer-120-kapslar/SETCRITICALMASSTESTO.html",
+   "keep_id": "ean:5056555204504",
+   "why": "duplicate? Shaker bundle same; testo bundle a different set"
+  },
+  {
+   "id": "gymgrossisten-se:https://www.gymgrossisten.com/abe-pwo-315-g-clear-whey-vassleprotein-875-g/SETAPPLIEDNUTRIWHEY.html",
+   "keep_id": "ean:5056555206485",
+   "why": "duplicate? PWO+Clear Whey bundles"
+  },
+  {
+   "id": "gymgrossisten:https://www.gymgrossisten.no/abe-pwo-315-g-clear-whey-myseprotein-875-g/SETAPPLIEDNUTRIWHEY.html",
+   "keep_id": "ean:5056555206485",
+   "why": "duplicate? PWO+Clear Whey bundles"
+  },
+  {
+   "id": "ean:7090020974798",
+   "keep_id": "ean:7090020974699",
+   "why": "duplicate? Whey flavour unclear"
+  },
+  {
+   "id": "ean:6415600600385",
+   "keep_id": "ean:6415600587105",
+   "why": "duplicate? Generic Battery Zero flavour unknown"
+  },
+  {
+   "id": "ean:0708747152647",
+   "keep_id": "ean:0708747295269",
+   "why": "duplicate? Organic vs plain flax"
+  },
+  {
+   "id": "ean:7090017541545",
+   "keep_id": "ean:7090017540012",
+   "why": "duplicate? Sukrin same; organic unsure"
+  },
+  {
+   "id": "tights-discontinued:14097826",
+   "keep_id": "ean:7090017543020",
+   "why": "variant words differ: Funksjonell Mat Fiberbrød vs Funksjonell Mat Fiberbrød Glutenfri"
+  },
+  {
+   "id": "ean:0731701001460",
+   "keep_id": "ean:0731701002115",
+   "why": "duplicate? Plumas vs generic pasta, carbs differ"
+  },
+  {
+   "id": "ean:7035260007233",
+   "keep_id": "ean:7035260000258",
+   "why": "duplicate? Julebrus red vs plain"
+  },
+  {
+   "id": "ean:2330042907240",
+   "keep_id": "ean:2330042908131",
+   "why": "variant words differ: Dalsjöfors Karre vs Dalsjöfors Grillmarinerad Karré"
+  },
+  {
+   "id": "ean:5707196238907",
+   "keep_id": "ean:5707196306828",
+   "why": "variant words differ: Tulip Ternet Røkt Bacon vs Tulip Ternet bacon"
+  },
+  {
+   "id": "openfoodfacts:0200460310393",
+   "keep_id": "ean:2100449619158",
+   "why": "duplicate? Angus variant may be a different cut"
+  },
+  {
+   "id": "ean:7020098005872",
+   "keep_id": "ean:7020098003021",
+   "why": "duplicate? Big Juicy vs plain burger, kcal slightly differ"
+  },
+  {
+   "id": "ean:7330242230099",
+   "keep_id": "ean:7330242240098",
+   "why": "duplicate? glutenfri label with slightly different numbers"
+  },
+  {
+   "id": "ean:7318690185246",
+   "keep_id": "ean:7318690179252",
+   "why": "duplicate? whole fillet vs fillet pieces, same numbers"
+  },
+  {
+   "id": "ean:7037204194726",
+   "keep_id": "ean:7037204194627",
+   "why": "duplicate? smoked vs plain pinnekjott, identical numbers"
+  },
+  {
+   "id": "ean:2301693400008",
+   "keep_id": "ean:2301120600001",
+   "why": "duplicate? smoked vs plain pinnekjott, identical numbers"
+  },
+  {
+   "id": "norgesgruppen:23406037",
+   "keep_id": "ean:2301632114461",
+   "why": "variant words differ: Gilde Grillribbe vs Gilde Krydret Grillribbe"
+  },
+  {
+   "id": "ean:2301559600009",
+   "keep_id": "ean:2301004500007",
+   "why": "duplicate? same beef flatbiff"
+  },
+  {
+   "id": "ean:2340222300006",
+   "keep_id": "norgesgruppen:23402223",
+   "why": "duplicate? smoked vs plain skinkeknoke, numbers slightly differ"
+  },
+  {
+   "id": "ean:2310229916524",
+   "keep_id": "ean:2310229915343",
+   "why": "variant words differ: Nordfjord Pinnekjøtt vs Nordfjord Urøkt pinnekjøtt av lam, saltet og tørket"
+  },
+  {
+   "id": "ean:2310567223445",
+   "keep_id": "ean:2310567225142",
+   "why": "duplicate? Uten knoke may be a different cut"
+  },
+  {
+   "id": "ean:7024850022404",
+   "keep_id": "ean:7024850022411",
+   "why": "variant words differ: Nordfjord Strynskinke vs Nordfjord Bøkerøkt strynskinke"
+  },
+  {
+   "id": "ean:2340419506952",
+   "keep_id": "ean:2340417805132",
+   "why": "duplicate? 12 month aged may be a different product"
+  },
+  {
+   "id": "ean:7057370031373",
+   "keep_id": "ean:7057370030260",
+   "why": "duplicate? Strips vs plain fillet unclear"
+  },
+  {
+   "id": "ean:7023539700800",
+   "keep_id": "ean:7023539700701",
+   "why": "duplicate? Organic flag and unsliced pack uncertain"
+  },
+  {
+   "id": "norgesgruppen:23642616",
+   "keep_id": "ean:7023539700701",
+   "why": "duplicate? Organic flag and unsliced pack uncertain"
+  },
+  {
+   "id": "ean:7023539702132",
+   "keep_id": "ean:7023539702125",
+   "why": "duplicate? Spro biter variant uncertain"
+  },
+  {
+   "id": "ean:7057820011023",
+   "keep_id": "ean:7057820012044",
+   "why": "duplicate? Smoked cod duplicates; plain Torskefilet may be unsmoked"
+  },
+  {
+   "id": "ean:2081260700006",
+   "keep_id": "norgesgruppen:23812607",
+   "why": "variant words differ: Gjendemsjø Hel Kaldrøkt Makrell vs Makrell hel"
+  },
+  {
+   "id": "ean:7032069739624",
+   "keep_id": "ean:7024850087755",
+   "why": "duplicate? Fat differs 2.5 vs 2.2, may be different recipe"
+  },
+  {
+   "id": "ean:7032069731246",
+   "keep_id": "kassalapp:4879",
+   "why": "duplicate? Flavour unspecified on one row"
+  },
+  {
+   "id": "ean:7032069108499",
+   "keep_id": "ean:7032069108505",
+   "why": "duplicate? Different fruit list"
+  },
+  {
+   "id": "ean:7032069739402",
+   "keep_id": "ean:7032069736180",
+   "why": "duplicate? Spicy may be different"
+  },
+  {
+   "id": "ean:7032069732229",
+   "keep_id": "ean:5705830004314",
+   "why": "duplicate? Bean type and numbers differ slightly"
+  },
+  {
+   "id": "ean:7032069654736",
+   "keep_id": "ean:7032060011064",
+   "why": "duplicate? Roasted lightly salted vs plain almonds"
+  },
+  {
+   "id": "ean:4032499738160",
+   "keep_id": "ean:7032069738160",
+   "why": "variant words differ: Rema Pølsegryte vs Rema Pølsegryte med Røkt Kjøttpølse"
+  },
+  {
+   "id": "ean:2310632306523",
+   "keep_id": "ean:2310632646667",
+   "why": "duplicate? Tex Mex flavour variant"
+  },
+  {
+   "id": "ean:7040512094817",
+   "keep_id": "ean:7040512094800",
+   "why": "duplicate? Red vs plain new potatoes"
+  },
+  {
+   "id": "ean:2313516312627",
+   "keep_id": "ean:2313516311224",
+   "why": "variant words differ: Finsbråten Grillfilet Hvitløksmarinert vs Finsbråten Grillfilet"
+  },
+  {
+   "id": "ean:2313516412167",
+   "keep_id": "ean:2313516411382",
+   "why": "variant words differ: Finsbråten Grillfilet BBQ Marinert vs Finsbråten Grillfilet Bbq"
+  },
+  {
+   "id": "ean:2321325906548",
+   "keep_id": "ean:2321325905848",
+   "why": "duplicate? Alspansrokt variant, unclear if different"
+  },
+  {
+   "id": "ean:2321380906804",
+   "keep_id": "ean:2321380908327",
+   "why": "variant words differ: Gudruns Fläskytterfilé Mörmarinerad vs Gudruns Fläskytterfilé"
+  },
+  {
+   "id": "ean:2340516203037",
+   "keep_id": "ean:7020099000784",
+   "why": "duplicate? Black garlic rows match; plain row may be different flavour"
+  },
+  {
+   "id": "ean:2340310200003",
+   "keep_id": "ean:2340167300000",
+   "why": "duplicate? Krydret (seasoned) vs plain, identical numbers"
+  },
+  {
+   "id": "ean:2365619700009",
+   "keep_id": "ean:2365657300001",
+   "why": "duplicate? Urokt vs unspecified pinnekjott, numbers differ slightly"
+  },
+  {
+   "id": "ean:0000023405752",
+   "keep_id": "ean:2340575200008",
+   "why": "duplicate? Marinert vs plain nakkefilet, identical numbers"
+  },
+  {
+   "id": "ean:7310861014690",
+   "keep_id": "ean:7310861003847",
+   "why": "duplicate? Latt vs normal creme fraiche, same 13% fat"
+  },
+  {
+   "id": "ean:2355446201282",
+   "keep_id": "ean:2355446302491",
+   "why": "duplicate? Pepper flavour vs plain, identical numbers"
+  },
+  {
+   "id": "ean:2362886803709",
+   "keep_id": "ean:7350046675926",
+   "why": "duplicate? Chicken and turkey vs turkey only, identical numbers"
+  },
+  {
+   "id": "openfoodfacts-nordic-global:0234299530967",
+   "keep_id": "ean:2362985308006",
+   "why": "duplicate? Grill-seasoned marinated vs plain"
+  },
+  {
+   "id": "ean:7391196007151",
+   "keep_id": "ean:2366150803198",
+   "why": "variant words differ: Skinka vs Kokt Skinka"
+  },
+  {
+   "id": "ean:2385903709723",
+   "keep_id": "ean:2385903711306",
+   "why": "duplicate? boneless vs plain pork neck, identical values"
+  },
+  {
+   "id": "ean:2386353304216",
+   "keep_id": "ean:2386353304186",
+   "why": "duplicate? organic label differs, identical values"
+  },
+  {
+   "id": "ean:2389370700009",
+   "keep_id": "norgesgruppen:23893707",
+   "why": "variant words differ: Kyllingbryst Økologisk Ca vs Kyllingbryst"
+  },
+  {
+   "id": "ean:2389371300000",
+   "keep_id": "norgesgruppen:23893708",
+   "why": "variant words differ: Kyllinglår Økologisk Ca vs Kyllinglår"
+  },
+  {
+   "id": "ean:2560037793484",
+   "keep_id": "ean:7350037193484",
+   "why": "variant words differ: Vegan Middagskorv vs Middagskorv"
+  },
+  {
+   "id": "ean:0382977001540",
+   "keep_id": "ean:7392672001540",
+   "why": "duplicate? lactose-free label vs plain, identical values"
+  },
+  {
+   "id": "helsam-dk:https://helsam.dk/products/kakaopulver-o-dragon",
+   "keep_id": "ean:3800225476836",
+   "why": "variant words differ: Kakaopulver Ø - Dragon vs Dragon Superfoods Kakaopulver Økologisk"
+  },
+  {
+   "id": "ringnes:https://www.ringnes.no/produkter/somersby/somersby-apple-lite-cider/",
+   "keep_id": "ean:7044610873077",
+   "why": "duplicate? apple lite vs cider, same values"
+  },
+  {
+   "id": "ean:7044614877002",
+   "keep_id": "ean:7044610877990",
+   "why": "duplicate? different Lite flavours, similar numbers"
+  },
+  {
+   "id": "ringnes:https://www.ringnes.no/produkter/somersby/somersby-pink-grapefruit-lite/",
+   "keep_id": "ean:7044610877990",
+   "why": "duplicate? different Lite flavours, similar numbers"
+  },
+  {
+   "id": "ean:4000512004912",
+   "keep_id": "ean:4003084595000",
+   "why": "duplicate? Burger vs Party Burger"
+  },
+  {
+   "id": "ean:7311870011700",
+   "keep_id": "ean:7310865018496",
+   "why": "duplicate? Sunnydise vs fruit yoghurt, near numbers"
+  },
+  {
+   "id": "ean:5056307323767",
+   "keep_id": "myprotein-discontinued:https://www.myprotein.no/sports-nutrition/maltodekstrin/10530114.html",
+   "why": "variant words differ: Myprotein Myvegan Maltodekstrin vs Myprotein Maltodekstrin"
+  },
+  {
+   "id": "myprotein-uk:https://www.myprotein.com/p/sports-nutrition/mars-impact-whey-protein-bundle/17709060/",
+   "keep_id": "myprotein-uk:https://www.myprotein.com/p/sports-nutrition/mars-protein-bundle/17813559/",
+   "why": "duplicate? bundles"
+  },
+  {
+   "id": "ean:5059883483702",
+   "keep_id": "ean:5060746521820",
+   "why": "duplicate? The Whey vs Elite"
+  },
+  {
+   "id": "bodypower:https://www.bodypower.se/kosttillskott-1/efter-traning/aterhamtning-1/myprotein-hyrox-electrofuel-orange-mango-1-02kg",
+   "keep_id": "myprotein-discontinued:https://www.myprotein.no/sports-nutrition/electrofuel-proeve/11332860.html",
+   "why": "duplicate? Hyrox edition"
+  },
+  {
+   "id": "ean:5055534309568",
+   "keep_id": "ean:5055936815483",
+   "why": "duplicate? Extra Protein Cookie differs in name"
+  },
+  {
+   "id": "ean:5059883468969",
+   "keep_id": "ean:5059883468945",
+   "why": "duplicate? energy gel; Pro version unsure"
+  },
+  {
+   "id": "ean:4770583219316",
+   "keep_id": "ean:4770583201618",
+   "why": "variant words differ: Kedainiu Agurk vs Kedainiu Agurk Marinert"
+  },
+  {
+   "id": "ean:5060402906954",
+   "keep_id": "ean:5060402906961",
+   "why": "duplicate? Two EANs, identical numbers; may be different flavours"
+  },
+  {
+   "id": "proteinbolaget:https://proteinbolaget.se/products/mars-hi-protein-bar-59-g",
+   "keep_id": "ean:5060402909542",
+   "why": "duplicate? Generic Mars hi protein rows may be other flavours"
+  },
+  {
+   "id": "tights-discontinued:13796272",
+   "keep_id": "ean:5060402909542",
+   "why": "duplicate? Generic Mars hi protein rows may be other flavours"
+  },
+  {
+   "id": "ean:5011308303279",
+   "keep_id": "ean:5011308302210",
+   "why": "duplicate? Mild vs plain butter chicken unclear"
+  },
+  {
+   "id": "ean:5021554002406",
+   "keep_id": "ean:5021554989660",
+   "why": "duplicate? Organic flag only in one name; likely same"
+  },
+  {
+   "id": "ean:7044710300329",
+   "keep_id": "ean:7044711320241",
+   "why": "duplicate? Glatt may be a variety"
+  },
+  {
+   "id": "ean:5060834810126",
+   "keep_id": "ean:5060834810140",
+   "why": "duplicate? Vanilla vs generic, same numbers"
+  },
+  {
+   "id": "ean:5708636185386",
+   "keep_id": "ean:5708636185393",
+   "why": "variant words differ: Rømer Surkål i glas Ø vs Rømer Surkål I Glas Økologisk"
+  },
+  {
+   "id": "ean:5202390015359",
+   "keep_id": "ean:5202390015380",
+   "why": "duplicate? Generic slices may be same cheddar flavour"
+  },
+  {
+   "id": "ean:7331217010067",
+   "keep_id": "ean:7331217010050",
+   "why": "duplicate? Bulgur vs medium coarse unclear"
+  },
+  {
+   "id": "ean:7331217012528",
+   "keep_id": "ean:7331217010135",
+   "why": "duplicate? Grov vs grov and mork unclear"
+  },
+  {
+   "id": "ean:5413623700052",
+   "keep_id": "ean:5413623101002",
+   "why": "duplicate? With stevia vs plain, same numbers"
+  },
+  {
+   "id": "ean:5413623700342",
+   "keep_id": "ean:5413623201009",
+   "why": "duplicate? With stevia vs plain, same numbers"
+  },
+  {
+   "id": "ean:5413623700069",
+   "keep_id": "ean:5413623301006",
+   "why": "duplicate? With stevia vs plain, same numbers"
+  },
+  {
+   "id": "ean:5420005754633",
+   "keep_id": "ean:5420005753650",
+   "why": "duplicate? Vegarizo vs Gourmet unclear"
+  },
+  {
+   "id": "ean:7041013150118",
+   "keep_id": "ean:7041015201115",
+   "why": "duplicate? Nude may be the mango sorbet; unclear"
+  },
+  {
+   "id": "ean:8713576004151",
+   "keep_id": "ean:8713576100143",
+   "why": "duplicate? crunchy vs plain may differ in texture only"
+  },
+  {
+   "id": "ean:8713576004168",
+   "keep_id": "ean:8713576100150",
+   "why": "duplicate? crunchy vs plain may differ"
+  },
+  {
+   "id": "ean:7310865074768",
+   "keep_id": "ean:7313619001683",
+   "why": "duplicate? Godmorgon juice, slightly different values"
+  },
+  {
+   "id": "ean:7313619002468",
+   "keep_id": "ean:7313619002284",
+   "why": "duplicate? Energy shot vs apple flavour unclear"
+  },
+  {
+   "id": "ean:5707293052109",
+   "keep_id": "ean:5707293052130",
+   "why": "duplicate? Groft (coarse) vs plain Ølandshvedemel"
+  },
+  {
+   "id": "ean:5707653000856",
+   "keep_id": "ean:5707653006087",
+   "why": "duplicate? Generic fruit bar vs vanilla mango"
+  },
+  {
+   "id": "ean:7047716134127",
+   "keep_id": "ean:5707810102645",
+   "why": "duplicate? Luxus line may be a different recipe"
+  },
+  {
+   "id": "ean:5713162100666",
+   "keep_id": "ean:5713162000058",
+   "why": "variant words differ: Guru Snack Original Granola vs Guru Snack Granola Original Økologisk"
+  },
+  {
+   "id": "ean:6415711803774",
+   "keep_id": "ean:7340011470304",
+   "why": "duplicate? Salsa vs Chunky Salsa unclear"
+  },
+  {
+   "id": "ean:5744001421024",
+   "keep_id": "ean:5744001420065",
+   "why": "variant words differ: Protein chips m. sweet chili Ø vs The Organic Crave Veganske Protein Chips M. Sweet Chili Økologisk"
+  },
+  {
+   "id": "ean:5744001420980",
+   "keep_id": "ean:5744001420157",
+   "why": "variant words differ: Protein chips m. sour cream & Onion Ø vs The Organic Crave Veganske Protein Chips M. Sour Cream And Onion Økologisk"
+  },
+  {
+   "id": "ean:5744001420942",
+   "keep_id": "ean:5744001420171",
+   "why": "variant words differ: Protein chips m. salt & peber Ø vs The Organic Crave Veganske Protein Chips M. Salt Og Peber Økologisk"
+  },
+  {
+   "id": "ean:6430104920418",
+   "keep_id": "ean:6430104920340",
+   "why": "duplicate? Small Nordic peas vs Nordic peas unclear"
+  },
+  {
+   "id": "ean:8008698010402",
+   "keep_id": "ean:8008698003947",
+   "why": "variant words differ: Schär Maria Kjeks vs Schär Maria Kjeks glutenfri"
+  },
+  {
+   "id": "life-no-discontinued:https://www.life.no/mat-drikke/mat/fro-kjerner/helios-linfro-knust-okologisk-350g",
+   "keep_id": "ean:7029121010876",
+   "why": "duplicate? Whole vs crushed organic unclear"
+  },
+  {
+   "id": "kassalapp:22133",
+   "keep_id": "ean:7029121012085",
+   "why": "duplicate? Organic unsalted vs plain unclear"
+  },
+  {
+   "id": "ean:7023860067085",
+   "keep_id": "ean:7023860067580",
+   "why": "variant words differ: Margaret vs Sprudlande Margaret Økologisk eple og rabarbra"
+  },
+  {
+   "id": "ean:7024975626662",
+   "keep_id": "ean:7024975626648",
+   "why": "duplicate? Agder variant vs plain apple must unclear"
+  },
+  {
+   "id": "ean:2382664613054",
+   "keep_id": "ean:2382664612927",
+   "why": "duplicate? Same Mild og Fyldig 29%; Fyldig Gulost may be same"
+  },
+  {
+   "id": "ean:7034280001566",
+   "keep_id": "synnove:https://www.synnove.no/produkt/glutenfri-granola-bringebaer/",
+   "why": "variant words differ: Synnøve Granola glutenfri Bringebær vs Synnøve Granola Bringebær"
+  },
+  {
+   "id": "ean:7071319033945",
+   "keep_id": "synnove:https://www.synnove.no/produkt/glutenfri-pasta-med-ostesaus/",
+   "why": "variant words differ: Synnøve Pasta vs Synnøve Glutenfri Pasta med Ostesaus"
+  },
+  {
+   "id": "ean:7071319032269",
+   "keep_id": "synnove:https://www.synnove.no/produkt/synnove-glutenfri-gulrotkake-mix/",
+   "why": "variant words differ: Synnøve Gulrotkakemix vs Synnøve Glutenfri Gulrotkakemix"
+  },
+  {
+   "id": "synnove:https://www.synnove.no/produkt/ostesnacks-cheddar/",
+   "keep_id": "synnove:https://www.synnove.no/produkt/synnove-cheddar-skivet/",
+   "why": "duplicate? Sliced vs snack cheddar, same numbers"
+  },
+  {
+   "id": "ean:7033050315995",
+   "keep_id": "ean:7033050315032",
+   "why": "duplicate? Fatøl vs Premium Fatøl, slightly different numbers"
+  },
+  {
+   "id": "ean:7033050315094",
+   "keep_id": "ean:7033050515678",
+   "why": "duplicate? Lite vs Lite Vienna"
+  },
+  {
+   "id": "ean:7038010007224",
+   "keep_id": "ean:7038010045851",
+   "why": "duplicate? Premium with pulp vs plain juice"
+  },
+  {
+   "id": "ean:7035620049644",
+   "keep_id": "ean:7035620027284",
+   "why": "duplicate? Smoked salmon vs salmon, same numbers"
+  },
+  {
+   "id": "ean:7340083435652",
+   "keep_id": "ean:2359742711339",
+   "why": "duplicate? Same Gouda 28%"
+  },
+  {
+   "id": "ean:7311043014170",
+   "keep_id": "ean:7340083443183",
+   "why": "duplicate? Frozen blueberries, maybe cultivated variant"
+  },
+  {
+   "id": "ean:7340083444098",
+   "keep_id": "ean:7340083402272",
+   "why": "duplicate? Parboiled vs plain long grain rice, same numbers"
+  },
+  {
+   "id": "ean:7035620047428",
+   "keep_id": "ean:7035620026836",
+   "why": "duplicate? Wok frying oil vs frying oil, both pure oil"
+  },
+  {
+   "id": "ean:7036110011684",
+   "keep_id": "ean:7036110011691",
+   "why": "variant words differ: Mills Laksepålegg Varmrøkt Laks og Pepper vs Mills Laksepålegg"
+  },
+  {
+   "id": "ean:7036110009124",
+   "keep_id": "mills:https://mills.no/delikat/produkt/sursild-i-spann/",
+   "why": "variant words differ: Delikat Krydret Sursild vs Delikat Sursild"
+  },
+  {
+   "id": "ean:7037120012173",
+   "keep_id": "ean:7037120009296",
+   "why": "duplicate? Mack Lite vs Isbjorn Lite, probably same"
+  },
+  {
+   "id": "ean:7037610057332",
+   "keep_id": "toro:https://www.toro.no/produkter/glutenfri-grov-melblanding/",
+   "why": "duplicate? Gluten-free vs unclear"
+  },
+  {
+   "id": "ean:7037610057134",
+   "keep_id": "toro:https://www.toro.no/produkter/glutenfri-lys-melblanding/",
+   "why": "duplicate? Gluten-free vs unclear"
+  },
+  {
+   "id": "ean:7038010055515",
+   "keep_id": "tine:https://www.tine.no/merkevarer/piano/produkter/piano-vaniljesaus-uten",
+   "why": "duplicate? Sugar-free variant uncertain"
+  },
+  {
+   "id": "ean:7039010578547",
+   "keep_id": "ean:7039010555654",
+   "why": "variant words differ: Granola vs Bare Bra Granola"
+  },
+  {
+   "id": "ean:7040913337278",
+   "keep_id": "ean:7040913336509",
+   "why": "duplicate? Different coffee names, same numbers"
+  },
+  {
+   "id": "ean:7040913337599",
+   "keep_id": "ean:7040913337421",
+   "why": "duplicate? Brasil vs Vivenza Brasil, maybe same"
+  },
+  {
+   "id": "ean:7041260002178",
+   "keep_id": "ean:7041260002130",
+   "why": "duplicate? Reindeer meatballs vs generic meatballs"
+  },
+  {
+   "id": "ean:7053260221459",
+   "keep_id": "ean:7053260221411",
+   "why": "duplicate? Chili vs Chili Knust, maybe different"
+  },
+  {
+   "id": "kassalapp:9041",
+   "keep_id": "ean:7048840202850",
+   "why": "duplicate? Plain Q Planti vs a specific flavour, numbers differ slightly"
+  },
+  {
+   "id": "ean:7059330076677",
+   "keep_id": "ean:7059330074246",
+   "why": "duplicate? Light vs normal coconut milk with identical numbers, likely data error"
+  },
+  {
+   "id": "tights-discontinued:1464331",
+   "keep_id": "ean:7090046141600",
+   "why": "variant words differ: Monster Sukkerfri Belgisk Hvit Sjokolade - PAKKETILBUD vs Monster Belgisk Hvit Sjokolade"
+  },
+  {
+   "id": "tights-discontinued:802455",
+   "keep_id": "ean:7090046146131",
+   "why": "variant words differ: Monster Fit Kat Sukkerfri Kjekssjokolade - PAKKETILBUD vs Monster Fit Kat Kjekssjokolade"
+  },
+  {
+   "id": "tights-discontinued:10656065",
+   "keep_id": "ean:9102222027177",
+   "why": "variant words differ: Monster Sukkerfri Melkesjokolade Med Luftbobler - ØKONOMIPAKKE 24 SJOKOLADER! vs Monster Melkesjokolade Med Luftbobler"
+  },
+  {
+   "id": "tights-discontinued:10568310",
+   "keep_id": "ean:9102222030191",
+   "why": "variant words differ: Monster Sukkerfri Belgisk Mørk Sjokolade - TOLVPAKNING! vs Monster Belgisk Mørk Sjokolade"
+  },
+  {
+   "id": "tights-discontinued:12798594",
+   "keep_id": "ean:9102222030191",
+   "why": "variant words differ: Monster Sukkerfri Belgisk Mørk Sjokolade vs Monster Belgisk Mørk Sjokolade"
+  },
+  {
+   "id": "ean:7092344449341",
+   "keep_id": "ean:7092344449358",
+   "why": "duplicate? Wholegrain vs plain couscous with identical numbers"
+  },
+  {
+   "id": "ean:7090006930022",
+   "keep_id": "ean:7090006633213",
+   "why": "duplicate? Same Eplemost; Liereple variety unclear"
+  },
+  {
+   "id": "ean:7090008410034",
+   "keep_id": "ean:7090008410003",
+   "why": "duplicate? Eplesirup vs Dessert variant with identical numbers"
+  },
+  {
+   "id": "ean:9004253000061",
+   "keep_id": "ean:7090042530958",
+   "why": "duplicate? Coated vs plain peanuts with identical numbers"
+  },
+  {
+   "id": "ean:7090046126102",
+   "keep_id": "ean:7092344446180",
+   "why": "duplicate? BodyFuel Whey flavours with near identical numbers"
+  },
+  {
+   "id": "ean:7090046130475",
+   "keep_id": "ean:7090046136415",
+   "why": "duplicate? Different candy flavours, similar numbers"
+  },
+  {
+   "id": "ean:7090046130482",
+   "keep_id": "ean:7090046136415",
+   "why": "duplicate? Different candy flavours, similar numbers"
+  },
+  {
+   "id": "ean:7310070010841",
+   "keep_id": "ean:7310070010506",
+   "why": "duplicate? Pink Lemonade same; plain 7up Zero is a different flavour"
+  },
+  {
+   "id": "ean:7310070010636",
+   "keep_id": "ean:7310070010506",
+   "why": "variant words differ: Pink Lemonade vs 7up Zero Pink Lemonade"
+  },
+  {
+   "id": "ean:7090047410187",
+   "keep_id": "ean:7090047410170",
+   "why": "duplicate? Flavour variants with identical numbers"
+  },
+  {
+   "id": "ean:7090047410330",
+   "keep_id": "ean:7090047410170",
+   "why": "duplicate? Flavour variants with identical numbers"
+  },
+  {
+   "id": "kassalapp:19355",
+   "keep_id": "ean:7090052030028",
+   "why": "variant words differ: Økologisk smoothie med eple og blåbær Fra 6 mnd vs Smoothie m/Eple"
+  },
+  {
+   "id": "ean:7090052960585",
+   "keep_id": "ean:7090052960561",
+   "why": "duplicate? Apple variety variant with identical numbers"
+  },
+  {
+   "id": "ean:7090066710336",
+   "keep_id": "ean:7090066710008",
+   "why": "variant words differ: Honning vs Flytende Honning fra Rogaland"
+  },
+  {
+   "id": "ean:7310090645122",
+   "keep_id": "ean:7310090643128",
+   "why": "duplicate? Svarta vinbär vs unspecified vinbär; flavour may differ"
+  },
+  {
+   "id": "ean:7611612190374",
+   "keep_id": "ean:7311043032365",
+   "why": "duplicate? Portion pieces vs plain laxfilé, same numbers"
+  },
+  {
+   "id": "ean:7311631503000",
+   "keep_id": "ean:7311631500603",
+   "why": "duplicate? Fine salt vs fine salt from Mediterranean, probably same"
+  },
+  {
+   "id": "ean:7313619003052",
+   "keep_id": "ean:7313619002499",
+   "why": "duplicate? Peach+Passion flavour vs generic vitamin water"
+  },
+  {
+   "id": "ean:7316840612321",
+   "keep_id": "ean:7316843015075",
+   "why": "duplicate? Extra Gul eggs may be a variety of plain egg"
+  },
+  {
+   "id": "ean:7318690177340",
+   "keep_id": "ean:7318690177333",
+   "why": "variant words differ: Stora marshmallows vs Marshmallows"
+  },
+  {
+   "id": "ean:7318690680864",
+   "keep_id": "ean:7318690488422",
+   "why": "duplicate? Choklad vs gift pack, unclear"
+  },
+  {
+   "id": "ean:7322550033400",
+   "keep_id": "ean:7322550031833",
+   "why": "duplicate? Slightly different values, may be different recipe"
+  },
+  {
+   "id": "ean:7332489207506",
+   "keep_id": "ean:7332489004860",
+   "why": "variant words differ: Stjärnägg Extra Stora Ägg vs Stjärnägg Ägg Stora+"
+  },
+  {
+   "id": "ean:7340023803527",
+   "keep_id": "ean:7340023126527",
+   "why": "duplicate? Grilled chicken vs plain chicken, same numbers, unclear"
+  },
+  {
+   "id": "ean:7354003368067",
+   "keep_id": "ean:7350000552881",
+   "why": "duplicate? YoPro, numbers differ slightly, flavours unknown"
+  },
+  {
+   "id": "ean:7340191117891",
+   "keep_id": "ean:7340191117884",
+   "why": "duplicate? Identical numbers but generic Smoothie name"
+  },
+  {
+   "id": "ean:7340222801362",
+   "keep_id": "ean:7340222800051",
+   "why": "duplicate? Vitamin Well Zero, lemon flavour vs generic, carbs differ"
+  },
+  {
+   "id": "ean:7350094820378",
+   "keep_id": "ean:7350094823126",
+   "why": "duplicate? Whey flavour, numbers slightly differ"
+  },
+  {
+   "id": "ean:7350094822464",
+   "keep_id": "ean:7350094821146",
+   "why": "duplicate? Casein vs unnamed chocolate, unclear"
+  },
+  {
+   "id": "ean:7350115944120",
+   "keep_id": "ean:7350115944137",
+   "why": "duplicate? Corn chips, numbers differ slightly"
+  },
+  {
+   "id": "ean:7393061015858",
+   "keep_id": "ean:7393061015865",
+   "why": "duplicate? Normal vs Lätt creme fraiche, same fat"
+  },
+  {
+   "id": "ean:7393720092480",
+   "keep_id": "ean:7393720090226",
+   "why": "duplicate? Same Prästost 35%; aged 12 months variant unsure"
+  },
+  {
+   "id": "ean:7394122002107",
+   "keep_id": "ean:7394122002060",
+   "why": "duplicate? Eggs, carbs differ"
+  },
+  {
+   "id": "ean:8445290749079",
+   "keep_id": "ean:7613036275965",
+   "why": "duplicate? Nan 2 drinkable, protein differs"
+  },
+  {
+   "id": "ean:7640104953135",
+   "keep_id": "ean:7640104952619",
+   "why": "variant words differ: Holle Havregrød Ø vs Holle Havregrød Økologisk"
+  },
+  {
+   "id": "ean:8010721981689",
+   "keep_id": "ean:8010721977385",
+   "why": "duplicate? Same Parmesan 30%; 12 month variant unsure"
+  },
+  {
+   "id": "ean:8013885051649",
+   "keep_id": "ean:8013885051625",
+   "why": "duplicate? Spelt spaghetti, names unclear"
+  },
+  {
+   "id": "ean:7350056793146",
+   "keep_id": "ean:7350056793160",
+   "why": "duplicate? Plain Greek yoghurt vs Äkta, numbers slightly differ"
+  },
+  {
+   "id": "ean:9004617071997",
+   "keep_id": "ean:9004617071485",
+   "why": "variant words differ: Granola Æble-Kanel Ø vs Verival Granola Æble-kanel Økologisk"
+  },
+  {
+   "id": "norgesgruppen:7983",
+   "keep_id": "norgesgruppen:23534003",
+   "why": "duplicate? Angus cote vs dry age cote de boeuf, may be different cuts"
+  },
+  {
+   "id": "norgesgruppen:23016418",
+   "keep_id": "norgesgruppen:23010584",
+   "why": "duplicate? Lammestek vs lammestek av lar, unclear"
+  },
+  {
+   "id": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-ekstra-vellagret-m-skorpe",
+   "keep_id": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-vellagret-m-skorpe",
+   "why": "duplicate? Vellagret vs Ekstra Vellagret, different maturity, same numbers"
+  },
+  {
+   "id": "ean:7020098002994",
+   "keep_id": "ean:7020098006206",
+   "why": "duplicate? Spar Burger vs Big Juicy, maybe different recipe"
+  },
+  {
+   "id": "tillskottsbolaget:https://www.tillskottsbolaget.se/sv/24-x-nocco-electrolyte-355-ml-lemon-lime",
+   "keep_id": "ean:7340131607185",
+   "why": "duplicate? Generic Nocco Electrolyte vs Lemon Lime flavour, unclear"
+  }
+ ]
+}

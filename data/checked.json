@@ -49,15 +49,6 @@
    "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/kinder-bueno-4008400935225"
   },
   {
-   "id": "ean:0000087157260",
-   "sizes": [
-    "570 g",
-    "700 g",
-    "1,35 kg"
-   ],
-   "source_url": "https://meny.no/varer//middagstilbehor/ketchup-og-sennep/ketchup/tomatketchup-87157239"
-  },
-  {
    "id": "ean:0000096107775",
    "name": "Colman's Sennep",
    "source_url": "https://meny.no/varer//middagstilbehor/ketchup-og-sennep/sennep/"
@@ -768,16 +759,6 @@
    "id": "ean:7025050026131",
    "category": "meat_fish",
    "source_url": "https://meny.no (ean 7025050026186)"
-  },
-  {
-   "id": "ean:7025110115171",
-   "nutrients": {
-    "kcal": 338.0,
-    "protein_g": 26.0,
-    "fat_g": 26.0,
-    "salt_g": null
-   },
-   "source_url": "Our DB only; Coop page not read"
   },
   {
    "id": "ean:7025168001594",
@@ -1836,16 +1817,6 @@
    "source_url": "https://meny.no/varer//middag/"
   },
   {
-   "id": "ean:7311800351708",
-   "name": "Polarbrød Fullkorn",
-   "source_url": "https://meny.no/varer//bakeri/myke-runde-porsjonsbrod/polarbrod-7311800361707"
-  },
-  {
-   "id": "ean:7311800374707",
-   "name": "Polarbrød Hvete",
-   "source_url": "https://meny.no/varer//bakeri/myke-runde-porsjonsbrod/polarbrod-7311800376701"
-  },
-  {
    "id": "ean:7312080004018",
    "name": "Leksands Knekke Normalt Stekt",
    "source_url": "https://meny.no/varer//bakeri/knekkebrod/leksands-knekke-7312080004025"
@@ -2415,12 +2386,6 @@
    "source_url": "https://meny.no laks rokt 7090009651122"
   },
   {
-   "id": "openfoodfacts:70356300",
-   "category": "meat_fish",
-   "source_url": "our database only",
-   "name": "First Price Karbonadedeig"
-  },
-  {
    "id": "q-meieriene:https://www.q-meieriene.no/produkter/q-melk-lett",
    "sizes": [
     "250 ml",
@@ -2719,9 +2684,64 @@
    "why": "duplicate: Barebells Proteinbar Peppermint Bark -> Barebells Proteinbar"
   },
   {
+   "id": "bodypower:https://www.bodypower.se/kosttillskott-1/protein/proteinpulver/bodylab-pancake-500g-classic",
+   "into": "ean:5711657051967",
+   "why": "duplicate (round C): Bodylab Protein Pancake Mix Classic -> Bodylab American Style Protein Pancake & Waffle Mix - Classic"
+  },
+  {
+   "id": "bodystore-discontinued:73-6835R",
+   "into": "gymgrossisten:https://www.gymgrossisten.no/lowcaly-fruktdrikk-1000-ml/73-6835R.html",
+   "why": "duplicate (round C): Lowcaly Fruit Drink White Peach -> Lowcaly Fruit Drink"
+  },
+  {
+   "id": "bodystore-discontinued:FP60001-27.MASTER",
+   "into": "ean:7350102860853",
+   "why": "duplicate (round C): Moonvalley Oats & Dates Bar Chocolate & Sea Salt GF -> Moonvalley Oats & Dates Bar Chocolate & Sea"
+  },
+  {
    "id": "ean:0000000004091",
    "into": "matvaretabellen:06.136",
    "why": "fold_store_generic: Bama Søtpotet stykk -> Søtpotet, rå"
+  },
+  {
+   "id": "ean:0000002371580",
+   "into": "ean:2371580908054",
+   "why": "duplicate (round C): Nybergs Deli Gourmetmörad Fläskytterfilé -> Nybergs Deli Fläskytterfilé"
+  },
+  {
+   "id": "ean:0000007775376",
+   "into": "ean:7311043017874",
+   "why": "duplicate (round C): Garant Kokosgrädde -> Garant Kokosgrädde 22–24%"
+  },
+  {
+   "id": "ean:0000013002077",
+   "into": "ean:7300207204007",
+   "why": "duplicate (round C): Scan Kryddjärpar -> Scan Svenska kryddjärpar örter och vitlök"
+  },
+  {
+   "id": "ean:0000019772899",
+   "into": "ean:7350104401245",
+   "why": "duplicate (round C): Nicks peanut protein bar -> Nick's Peanut protein bar"
+  },
+  {
+   "id": "ean:0000020432300",
+   "into": "ean:0000020427665",
+   "why": "duplicate (round C): Solevita Apelsinjuice XXL -> Solevita Apelsinjuice"
+  },
+  {
+   "id": "ean:0000020444273",
+   "into": "ean:7393061019368",
+   "why": "duplicate (round C): Falköpings Mejeri Ängens Svensk Filmjölk Pepparkaka 2,6% -> Falköpings Mejeri Filmjölk Pepparkaka 2,6%"
+  },
+  {
+   "id": "ean:0000032145700",
+   "into": "ean:7311070347272",
+   "why": "duplicate (round C): Pågen Gifflar -> Pågen Kanel Gifflar"
+  },
+  {
+   "id": "ean:0000037895112",
+   "into": "ean:7318690126997",
+   "why": "duplicate (round C): ICA Basic Cashewnötter rostade och saltade -> ICA Basic Cashewnötter"
   },
   {
    "id": "ean:0000040111216",
@@ -2734,9 +2754,24 @@
    "why": "duplicate: Melk Lait -> Twix"
   },
   {
+   "id": "ean:0000073143604",
+   "into": "ean:7350068291555",
+   "why": "duplicate (round C): Njie ProPud Karamell -> Njie ProPud Karamell"
+  },
+  {
+   "id": "ean:0000073165699",
+   "into": "ringnes:https://www.ringnes.no/produkter/gatorade/gatorade-lemon/",
+   "why": "duplicate (round C): Gatorade Lemon Flavor -> Gatorade Lemon"
+  },
+  {
    "id": "ean:0000084281906",
    "into": "matvaretabellen:05.255",
    "why": "store label: Meny Ris -> Ris, upolert, naturris, langkornet, kokt"
+  },
+  {
+   "id": "ean:0000087157260",
+   "into": "ean:8715700016504",
+   "why": "duplicate (round C): Heinz Tomato Ketchup -> Heinz Ketchup"
   },
   {
    "id": "ean:0000087157604",
@@ -2744,9 +2779,24 @@
    "why": "merge_duplicates: Heinz Ketchup Økologisk -> Tomatketchup Heinz Økologisk"
   },
   {
+   "id": "ean:0000087158021",
+   "into": "ean:5701027004198",
+   "why": "duplicate (round C): Salt med jod -> Fint salt med jod"
+  },
+  {
+   "id": "ean:0000090486791",
+   "into": "ean:0000090493065",
+   "why": "duplicate (round C): Energidryck White Edition Red Bull -> Red Bull White Edition"
+  },
+  {
    "id": "ean:0048412068997",
    "into": "tine:https://www.tine.no/merkevarer/tine-yoghurt/produkter/tine-yoghurt-naturell-gresk-type-430g",
    "why": "merge_duplicates: Tine Yoghurt Gresk Type Naturell -> Tine Yoghurt Gresk Type Naturell"
+  },
+  {
+   "id": "ean:0050129301052",
+   "into": "ean:7050122301052",
+   "why": "duplicate (round C): Maarud Salt & Pepper -> Maarud Potetgull Salt & Pepper"
   },
   {
    "id": "ean:0292000000801",
@@ -2759,14 +2809,64 @@
    "why": "duplicate: Crispi Salat -> Bama Crispi Salat pakke"
   },
   {
+   "id": "ean:0318994036050",
+   "into": "ean:7318690077756",
+   "why": "duplicate (round C): ICA Stenugnsbakad pizza Hawaii -> ICA Pizza Hawaii"
+  },
+  {
+   "id": "ean:0318994513223",
+   "into": "ean:7318690509158",
+   "why": "duplicate (round C): ICA Fläskfärs -> ICA Fläskfärs (Fetthalt 20%)"
+  },
+  {
+   "id": "ean:0322655057483",
+   "into": "ean:7392055051483",
+   "why": "duplicate (round C): Köttkultur Toulouse -> Köttkultur Saucisse De Toulouse"
+  },
+  {
+   "id": "ean:0340555803771",
+   "into": "ean:7310155802774",
+   "why": "duplicate (round C): Johnny's Bbq Sauce original -> Johnny's BBQ Sauce Original"
+  },
+  {
+   "id": "ean:0370065051997",
+   "into": "ean:7310865043368",
+   "why": "duplicate (round C): Arla Keso Cottage Cheese Mini 1,5% -> Arla Keso Cottage Cheese Mini Naturell 1,5%"
+  },
+  {
+   "id": "ean:0613008717711",
+   "into": "ean:0613008719524",
+   "why": "duplicate (round C): Arizona Tea -> Arizona Iced Tea"
+  },
+  {
+   "id": "ean:0634114054330",
+   "into": "ean:0792816789711",
+   "why": "duplicate (round C): Tbjp Cream of Rice Cream -> Trained By JP Cream Of Rice"
+  },
+  {
    "id": "ean:0692004633768",
    "into": "ean:7622201007805",
    "why": "merge_duplicates: Freia Premium 70% -> Premium Dark"
   },
   {
+   "id": "ean:0700000369335",
+   "into": "ean:0705044029375",
+   "why": "duplicate (round C): Starbucks Egg bites -> Starbucks Sous Vide Egg Bites Egg White and Roasted Red Pepper"
+  },
+  {
+   "id": "ean:0720404553383",
+   "into": "ean:7350000553383",
+   "why": "duplicate (round C): ProViva Fläderblom & Äpple -> ProViva Fläderblom äpple lime"
+  },
+  {
    "id": "ean:0731208004193",
    "into": "ean:7312080004193",
    "why": "duplicate: Leksands -> Leksands Knekke"
+  },
+  {
+   "id": "ean:0814784029702",
+   "into": "ean:0814784026794",
+   "why": "duplicate (round C): Sunwarrior Collagen Building Protein Chocolate Fudge -> Sunwarrior Plant Based Collagen Building Protein Peptides Chocolate Fudge"
   },
   {
    "id": "ean:1230000301015",
@@ -2779,9 +2879,24 @@
    "why": "duplicate: Barebells Proteinbar Minty Chocolate -> Barebells Soft Proteinbar"
   },
   {
+   "id": "ean:17350104401105",
+   "into": "ean:7350104401108",
+   "why": "duplicate (round C): NICKS Bar Crunchy Caramel -> Nick's Crunchy Caramel"
+  },
+  {
    "id": "ean:2000101200000",
    "into": "ean:2302191902612",
    "why": "merge_duplicates: Ridderost 38% -> Tine Ridderost 38%"
+  },
+  {
+   "id": "ean:2000107200004",
+   "into": "norgesgruppen:1072",
+   "why": "duplicate (round C): Hitra Grotteost Ung Lagret 6+ Mnd 27% -> Hitra Grotteost Ung 27%"
+  },
+  {
+   "id": "ean:2000122200003",
+   "into": "norgesgruppen:1301",
+   "why": "duplicate (round C): Prestholt Leirgrøv Lagret 6+ Mnd Geitost 32% -> Prestholt Leirgrøv Geitost 32%"
   },
   {
    "id": "ean:2000178800004",
@@ -2802,6 +2917,11 @@
    "id": "ean:2000433819802",
    "into": "ean:7023026104364",
    "why": "store label: Meny Vannmelon -> Bama Vannmelon"
+  },
+  {
+   "id": "ean:2000508451500",
+   "into": "ean:2000508463404",
+   "why": "duplicate (round C): Meny Pasta Arrabbiata -> Meny Pasta Arrabbiata"
   },
   {
    "id": "ean:2000525120007",
@@ -2845,7 +2965,7 @@
   },
   {
    "id": "ean:2000671236508",
-   "into": "ean:2301739418820",
+   "into": "ean:2301739400009",
    "why": "store label: Meny Svinekotelett -> Gilde Svinekoteletter"
   },
   {
@@ -2884,9 +3004,49 @@
    "why": "duplicate: Laksefilet u/Skinn Natur Oppdr stykk -> Laks, oppdrett, rå"
   },
   {
+   "id": "ean:2000999422379",
+   "into": "ean:7300200080004",
+   "why": "duplicate (round C): Scan Köttbullar Mamma -> Scan Köttbullar"
+  },
+  {
+   "id": "ean:2000999561290",
+   "into": "ean:7300200080004",
+   "why": "duplicate (round C): Mamma Scans Köttbullar -> Scan Köttbullar"
+  },
+  {
+   "id": "ean:2000999754463",
+   "into": "ean:2320738707841",
+   "why": "duplicate (round C): Scan Grillskivor -> Scan Grillskivor Original"
+  },
+  {
+   "id": "ean:2001074100007",
+   "into": "ean:0000023010741",
+   "why": "duplicate (round C): Gilde Delte Svinehoder -> Gilde Svinehoder"
+  },
+  {
+   "id": "ean:2020225200007",
+   "into": "ean:2320225204983",
+   "why": "duplicate (round C): Coop Grill Perfekt Svinenakke -> Coop Svinenakke"
+  },
+  {
+   "id": "ean:2020881100000",
+   "into": "ean:2320881115883",
+   "why": "duplicate (round C): Coop Surret Skinkestek -> Coop Skinkestek Surret"
+  },
+  {
    "id": "ean:2049610003306",
    "into": "ean:7039610026776",
    "why": "duplicate: Prior Lårfilet av Kylling -> Prior KyllingGården Lårfilet av kylling"
+  },
+  {
+   "id": "ean:2054561500002",
+   "into": "norgesgruppen:23545615",
+   "why": "duplicate (round C): Hjønnevåg Peppermakrellfilet ca -> Peppermakrellfilet"
+  },
+  {
+   "id": "ean:2081111800008",
+   "into": "ean:7057820012044",
+   "why": "duplicate (round C): Domstein Hel Røkt Torskefilet -> Torskefilet Røkt"
   },
   {
    "id": "ean:2100122012474",
@@ -2910,7 +3070,7 @@
   },
   {
    "id": "ean:2100600012507",
-   "into": "ean:2323266900005",
+   "into": "ean:2323626000000",
    "why": "store label: Meny Hel Kylling -> Prior KyllingGården Hel fersk kylling"
   },
   {
@@ -2984,14 +3144,424 @@
    "why": "store label: Meny Grønn Asparges -> Asparges, rå"
   },
   {
+   "id": "ean:2301004503589",
+   "into": "ean:2301004500007",
+   "why": "duplicate (round C): Gilde Flatbiff -> Gilde Storfe Flatbiff"
+  },
+  {
+   "id": "ean:2301007003437",
+   "into": "ean:2301007000009",
+   "why": "duplicate (round C): Gilde Mørbradbiff -> Gilde Storfe Mørbradbiff"
+  },
+  {
+   "id": "ean:2301007702958",
+   "into": "ean:2301007700008",
+   "why": "duplicate (round C): Gilde Ytrefilet av Storfe -> Gilde Storfe Ytrefilet"
+  },
+  {
+   "id": "ean:2301007703368",
+   "into": "ean:2301007700008",
+   "why": "duplicate (round C): Gilde Ytrefilet -> Gilde Storfe Ytrefilet"
+  },
+  {
+   "id": "ean:2301009702208",
+   "into": "ean:2301009700006",
+   "why": "duplicate (round C): Gilde Indrefilet Lam -> Gilde Gourmet Lam Indrefilet Pk"
+  },
+  {
+   "id": "ean:2301095200008",
+   "into": "ean:2340215300006",
+   "why": "duplicate (round C): Gilde Klosterlam Lammelår i Skiver -> Gilde Lammelår i Skiver"
+  },
+  {
+   "id": "ean:2301216000005",
+   "into": "ean:2340523400009",
+   "why": "duplicate (round C): Gilde Klosterlam Lammebog i Skiver -> Gilde Lammebog i Skiver"
+  },
+  {
+   "id": "ean:2301343900001",
+   "into": "ean:2340215300006",
+   "why": "duplicate (round C): Gilde Lammelår -> Gilde Lammelår i Skiver"
+  },
+  {
+   "id": "ean:2301501005944",
+   "into": "ean:2301501000000",
+   "why": "duplicate (round C): Gilde Indrefilet Svin -> Gilde Svin Indrefilet"
+  },
+  {
+   "id": "ean:2301550911029",
+   "into": "ean:2301550900009",
+   "why": "duplicate (round C): Gilde Komlekjøtt -> Gilde Svin Komlekjøtt"
+  },
+  {
    "id": "ean:2301616100008",
    "into": "ean:7037203640187",
    "why": "duplicate: Gilde Stjernebacon i Bit -> Gilde Stjernebacon"
   },
   {
+   "id": "ean:2301739418820",
+   "into": "ean:2301739400009",
+   "why": "duplicate (round C): Gilde Svinekoteletter -> Gilde Svinekoteletter med Skalk"
+  },
+  {
    "id": "ean:2302687104889",
    "into": "tine:https://www.tine.no/merkevarer/norvegia/produkter/norvegia-n%C3%B8kkel",
    "why": "duplicate: Tine Nøkkelost 26% -> Norvegia Nøkkelost 26%"
+  },
+  {
+   "id": "ean:2307111207648",
+   "into": "ean:2307111208256",
+   "why": "duplicate (round C): Tvådelad Kycklingfilé -> Kycklingfilé"
+  },
+  {
+   "id": "ean:2307111207822",
+   "into": "ean:2307116108995",
+   "why": "duplicate (round C): Guldfågeln Kyckling Bröst File -> Guldfågeln Färsk Kyckling Bröst Filé Färsk Svensk Kyckling"
+  },
+  {
+   "id": "ean:2307116109466",
+   "into": "ean:2307116108810",
+   "why": "duplicate (round C): Guldfågeln Raw Chicken Breast Filét -> Guldfågeln Chicken Breast"
+  },
+  {
+   "id": "ean:2307116807867",
+   "into": "ean:2307116807461",
+   "why": "duplicate (round C): Majskyckling -> Majskyckling Bröstfilé"
+  },
+  {
+   "id": "ean:2307116808710",
+   "into": "ean:2307116808024",
+   "why": "duplicate (round C): Guldfågeln Majskyckling Brlstfilé -> Guldfågeln Majskyckling"
+  },
+  {
+   "id": "ean:2307136107763",
+   "into": "ean:2307136108791",
+   "why": "duplicate (round C): Kycklinglårfile -> Färsk Kycklinglårfilé"
+  },
+  {
+   "id": "ean:2307394814458",
+   "into": "ean:2307394815646",
+   "why": "duplicate (round C): Guldfågeln Färsk Hel Majskyckling -> Guldfågeln Hel Majskyckling"
+  },
+  {
+   "id": "ean:2307981208820",
+   "into": "ean:2307981209360",
+   "why": "duplicate (round C): Garant Färska Kycklingben -> Garant Kycklingben"
+  },
+  {
+   "id": "ean:2310322403976",
+   "into": "ean:2310322405581",
+   "why": "duplicate (round C): Nordfjord Indrefilet Av Svin -> Nordfjord Svin Indrefilet"
+  },
+  {
+   "id": "ean:2310322405864",
+   "into": "ean:2310322405581",
+   "why": "duplicate (round C): Nordfjord Indrefilet -> Nordfjord Svin Indrefilet"
+  },
+  {
+   "id": "ean:2313115010177",
+   "into": "ean:2313115009980",
+   "why": "duplicate (round C): Nötfärs 12 -> Nötfärs"
+  },
+  {
+   "id": "ean:2313715210083",
+   "into": "ean:7311043029235",
+   "why": "duplicate (round C): Garant Nötfärs 15% Ekologisk -> Garant Ekologisk Nötfärs"
+  },
+  {
+   "id": "ean:2317236707008",
+   "into": "ean:2317236706483",
+   "why": "duplicate (round C): Änglamark Økologisk Prästost 35% -> Änglamark Økologisk Prästost Mellanlagrad 35%"
+  },
+  {
+   "id": "ean:2317252002477",
+   "into": "ean:2317252002736",
+   "why": "duplicate (round C): Coop Entrecôte Skivad -> Coop Entrecote"
+  },
+  {
+   "id": "ean:2319100909907",
+   "into": "ean:2319260902800",
+   "why": "duplicate (round C): ICA KARRÉ MED BEN, skivad -> ICA Karré"
+  },
+  {
+   "id": "ean:2319117108010",
+   "into": "ean:2319117110884",
+   "why": "duplicate (round C): ICA Högrev Av Nöt -> ICA Högrev"
+  },
+  {
+   "id": "ean:2319124009409",
+   "into": "ean:2319124009287",
+   "why": "duplicate (round C): ICA Fläskytterfilé -> ICA Fläskytterfilé"
+  },
+  {
+   "id": "ean:2319124013970",
+   "into": "ean:2319124009287",
+   "why": "duplicate (round C): ICA Fläskytterfilé -> ICA Fläskytterfilé"
+  },
+  {
+   "id": "ean:2319159203971",
+   "into": "ean:2319260902800",
+   "why": "duplicate (round C): ICA Karre Med Ben -> ICA Karré"
+  },
+  {
+   "id": "ean:2319172607060",
+   "into": "ean:2319172609354",
+   "why": "duplicate (round C): ICA Grillmarinerad Picnicbog -> ICA Picnicbog grillmarinerad"
+  },
+  {
+   "id": "ean:2319179107808",
+   "into": "ean:7318690511526",
+   "why": "duplicate (round C): ICA Basic Goudaost 28% -> ICA Basic Goudaost I Skivor 28%"
+  },
+  {
+   "id": "ean:2319179108010",
+   "into": "ean:7318690511526",
+   "why": "duplicate (round C): ICA Basic Goudaost 28% -> ICA Basic Goudaost I Skivor 28%"
+  },
+  {
+   "id": "ean:2319179108386",
+   "into": "ean:7318690511526",
+   "why": "duplicate (round C): ICA Basic Goudaost 28% -> ICA Basic Goudaost I Skivor 28%"
+  },
+  {
+   "id": "ean:2319203710868",
+   "into": "ean:2319203709695",
+   "why": "duplicate (round C): ICA Grillmarinerad Flintastek -> ICA Grillmarinerad Flintastek"
+  },
+  {
+   "id": "ean:2319203712923",
+   "into": "ean:2319203709695",
+   "why": "duplicate (round C): ICA Flintastek Grillmarinerad -> ICA Grillmarinerad Flintastek"
+  },
+  {
+   "id": "ean:2319232306919",
+   "into": "ean:7318690162902",
+   "why": "duplicate (round C): ICA Greve 28% Mellanlagrad -> ICA Greve"
+  },
+  {
+   "id": "ean:2319232406671",
+   "into": "ean:7318690163060",
+   "why": "duplicate (round C): ICA Herrgård -> ICA Herrgård 28% skivad"
+  },
+  {
+   "id": "ean:2319232406947",
+   "into": "ean:7318690163060",
+   "why": "duplicate (round C): ICA Herrgård (28%) -> ICA Herrgård 28% skivad"
+  },
+  {
+   "id": "ean:2319232407906",
+   "into": "ean:7318690163145",
+   "why": "duplicate (round C): ICA Herrgårdsost 28% -> ICA Herrgårdsost 28%"
+  },
+  {
+   "id": "ean:2319256810577",
+   "into": "ean:2319256810850",
+   "why": "duplicate (round C): ICA Hushållsost Svensk 17% -> ICA Hushållsost 17%"
+  },
+  {
+   "id": "ean:2319256910246",
+   "into": "ean:2319256909530",
+   "why": "duplicate (round C): ICA Hushållsost 26% -> ICA Hushållsost 26%"
+  },
+  {
+   "id": "ean:2319258705437",
+   "into": "ean:2319258902393",
+   "why": "duplicate (round C): ICA Skivad Rostbiff -> ICA Rostbiff"
+  },
+  {
+   "id": "ean:2319259103416",
+   "into": "ean:2319259102396",
+   "why": "duplicate (round C): ICA ROSTAS, skivad -> ICA Rostas"
+  },
+  {
+   "id": "ean:2319260903210",
+   "into": "ean:2319118315493",
+   "why": "duplicate (round C): ICA Benfri Karre -> ICA Karré Benfri"
+  },
+  {
+   "id": "ean:2319277106833",
+   "into": "ean:2319277106116",
+   "why": "duplicate (round C): ICA Svensk Kassler -> ICA Kassler"
+  },
+  {
+   "id": "ean:2319288406236",
+   "into": "ean:2319288405833",
+   "why": "duplicate (round C): ICA Pepparbiff RIMMAD, Skivad -> ICA Pepparbiff"
+  },
+  {
+   "id": "ean:2319288406298",
+   "into": "ean:2319288405833",
+   "why": "duplicate (round C): ICA Pepparbiff av svensk rostbiff -> ICA Pepparbiff"
+  },
+  {
+   "id": "ean:2319298004330",
+   "into": "ean:7318690127123",
+   "why": "duplicate (round C): ICA Parmigiano Reggiano DOP -> ICA Parmigiano Reggiano D.O.P"
+  },
+  {
+   "id": "ean:2319298005047",
+   "into": "ean:7318690127123",
+   "why": "duplicate (round C): ICA Parmigiano Reggiano -> ICA Parmigiano Reggiano D.O.P"
+  },
+  {
+   "id": "ean:2320051610804",
+   "into": "ean:7300203037005",
+   "why": "duplicate (round C): Scan Fläskkarré -> Scan Skivad Fläskkarré"
+  },
+  {
+   "id": "ean:2320051615465",
+   "into": "ean:2320303607064",
+   "why": "duplicate (round C): Scan Karré -> Scan Benfri karré"
+  },
+  {
+   "id": "ean:2320139903903",
+   "into": "ean:2320139906300",
+   "why": "duplicate (round C): Coop Grill Perfekt Ytrefilet Svin -> Coop Svin Ytrefilet"
+  },
+  {
+   "id": "ean:2320139904900",
+   "into": "ean:2320139906300",
+   "why": "duplicate (round C): Coop Ytrefilet av Svin -> Coop Svin Ytrefilet"
+  },
+  {
+   "id": "ean:2320202701825",
+   "into": "ean:2100450217190",
+   "why": "duplicate (round C): Coop Norsk Indrefilet av Storfe -> Coop Storfe Indrefilet"
+  },
+  {
+   "id": "ean:2320202702013",
+   "into": "ean:2100450217190",
+   "why": "duplicate (round C): Coop Indrefilet av Storfe -> Coop Storfe Indrefilet"
+  },
+  {
+   "id": "ean:2320220905588",
+   "into": "ean:2320220905106",
+   "why": "duplicate (round C): Coop Grill Perfekt Indrefilet Svin Black Garlic -> Coop Indrefilet Black Garlic"
+  },
+  {
+   "id": "ean:2320321607138",
+   "into": "ean:2320321610466",
+   "why": "duplicate (round C): Scan 120kcal Lean Pork -> Scan Lean Pork"
+  },
+  {
+   "id": "ean:2320321610305",
+   "into": "ean:2320321607909",
+   "why": "duplicate (round C): Scan Grillklar Fläskytterfilé -> Scan Fläskytterfilé"
+  },
+  {
+   "id": "ean:2320656710169",
+   "into": "ean:7300207693009",
+   "why": "duplicate (round C): Scan Nötfärs -> Scan Nötfärs 12%"
+  },
+  {
+   "id": "ean:2320738710650",
+   "into": "ean:2320738707841",
+   "why": "duplicate (round C): Scan Grillklar - Grillskivor Original Av Svenskt Fläskkött -> Scan Grillskivor Original"
+  },
+  {
+   "id": "ean:2320893104363",
+   "into": "ean:2320893104882",
+   "why": "duplicate (round C): Coop Indrefilet av Svin -> Coop Svin Indrefilet"
+  },
+  {
+   "id": "ean:2320893105940",
+   "into": "ean:2320893104882",
+   "why": "duplicate (round C): Coop Grill Perfekt Indrefilet Svin -> Coop Svin Indrefilet"
+  },
+  {
+   "id": "ean:2323266900005",
+   "into": "ean:2323626000000",
+   "why": "duplicate (round C): Prior KyllingGården Hel fersk kylling -> Prior Hel Kylling"
+  },
+  {
+   "id": "ean:2324552711916",
+   "into": "ean:2324552712692",
+   "why": "duplicate (round C): Skånemejerier Gouda 28% -> Skånemejerier Gouda 28%"
+  },
+  {
+   "id": "ean:2330041710728",
+   "into": "ean:2330041709173",
+   "why": "duplicate (round C): Dalsjöfors Flintastek Grillmarinad original -> Dalsjöfors Flintastek"
+  },
+  {
+   "id": "ean:2330042906748",
+   "into": "ean:2330042908131",
+   "why": "duplicate (round C): Dalsjöfors Grillmarinerad karré original -> Dalsjöfors Grillmarinerad Karré"
+  },
+  {
+   "id": "ean:2330125706807",
+   "into": "ean:2330099411509",
+   "why": "duplicate (round C): Lidl Fläskytterfilé Marinerad -> Lidl BBQ-marinerad fläskytterfilé"
+  },
+  {
+   "id": "ean:2332802709453",
+   "into": "ean:2332800705006",
+   "why": "duplicate (round C): Kronfågel Kycklinglårfilé Naturell -> Kronfågel Kycklinglårfilé"
+  },
+  {
+   "id": "ean:2332802710442",
+   "into": "ean:2332802709132",
+   "why": "duplicate (round C): Kronfågel Lårfile -> Kronfågel Kykling Lårfile"
+  },
+  {
+   "id": "ean:2332804008981",
+   "into": "ean:2332804009421",
+   "why": "duplicate (round C): Kronfågel Bröstfile -> Kronfågel Kyckling Bröstfilé"
+  },
+  {
+   "id": "ean:2332804009124",
+   "into": "ean:2332804009421",
+   "why": "duplicate (round C): Kronfågel Kyckling Bröstfilé Naturell -> Kronfågel Kyckling Bröstfilé"
+  },
+  {
+   "id": "ean:2332804009568",
+   "into": "ean:2332804009421",
+   "why": "duplicate (round C): Kronfågel Kykling Bröstfile -> Kronfågel Kyckling Bröstfilé"
+  },
+  {
+   "id": "ean:2332804009698",
+   "into": "ean:2332804009421",
+   "why": "duplicate (round C): Kronfågel Kyckling Bröstfile Färsk -> Kronfågel Kyckling Bröstfilé"
+  },
+  {
+   "id": "ean:2332804011189",
+   "into": "ean:2332804008479",
+   "why": "duplicate (round C): Kronfågel Chicken Breast Fresh -> Kronfågel Chicken Breast"
+  },
+  {
+   "id": "ean:2332804011271",
+   "into": "ean:2332804009421",
+   "why": "duplicate (round C): Kronfågel Kykcling bröstfile -> Kronfågel Kyckling Bröstfilé"
+  },
+  {
+   "id": "ean:2332810407945",
+   "into": "ean:2332810409512",
+   "why": "duplicate (round C): Kronfågel BBQ -> Kronfågel Lårfile BBQ New Orleans"
+  },
+  {
+   "id": "ean:2332813006077",
+   "into": "ean:7300328591000",
+   "why": "duplicate (round C): Kronfågel Minutfile -> Kronfågel Minutfilé Bröst"
+  },
+  {
+   "id": "ean:2332818408326",
+   "into": "ean:2332818408715",
+   "why": "duplicate (round C): Kronfågel Kyckling Steak -> Kronfågel Kyckling Steak Naturell"
+  },
+  {
+   "id": "ean:2332895108355",
+   "into": "ean:2332895109468",
+   "why": "duplicate (round C): Matriket Bröstfile -> Matriket Svensk Kyckling Bröstfilé"
+  },
+  {
+   "id": "ean:2332895108447",
+   "into": "ean:2332895109468",
+   "why": "duplicate (round C): Matriket Kyckling Bröstfile -> Matriket Svensk Kyckling Bröstfilé"
+  },
+  {
+   "id": "ean:2332895506830",
+   "into": "ean:2332895507271",
+   "why": "duplicate (round C): Matriket Färsk kycklingbröstfilé, tvådelad -> Matriket Färsk kycklingbröstfilé"
   },
   {
    "id": "ean:2340000100002",
@@ -3044,6 +3614,11 @@
    "why": "store label: Spar Entrecote -> Storfe, entrecôte, rå"
   },
   {
+   "id": "ean:2340082303131",
+   "into": "ean:2340082302929",
+   "why": "duplicate (round C): Folkets Entrecôte -> Folkets Mør Entrecote"
+  },
+  {
    "id": "ean:2340083102467",
    "into": "ean:2374108702066",
    "why": "store label: Meny Ytrefilet av Storfe -> Prima Ytrefilet av storfe"
@@ -3064,9 +3639,19 @@
    "why": "store label: Spar Storfe Mørbrad -> Storfe, mørbrad, rå"
   },
   {
+   "id": "ean:2340110300002",
+   "into": "ean:7037204196980",
+   "why": "duplicate (round C): Gilde Lam Fårikålkjøtt -> Gilde Fårikålkjøtt"
+  },
+  {
    "id": "ean:2340151104683",
    "into": "norgesgruppen:23585063",
    "why": "store label: Meny Minuttbiff -> Storfe Stek"
+  },
+  {
+   "id": "ean:2340163109331",
+   "into": "ean:2301217000004",
+   "why": "duplicate (round C): Gilde Lammeskank -> Gilde Klosterlam Lammeskank"
   },
   {
    "id": "ean:2340222100002",
@@ -3074,9 +3659,99 @@
    "why": "store label: Meny Svin Skinkeknoke Røkt -> Gilde Skinkeknoke Røkt"
   },
   {
+   "id": "ean:2340343605042",
+   "into": "ean:7311870021846",
+   "why": "duplicate (round C): Munkens Svarta -> Wästgöta Kloster Munkens Svarta Ost 31%"
+  },
+  {
+   "id": "ean:2340379512246",
+   "into": "ean:2340379511966",
+   "why": "duplicate (round C): Arla Gouda 28% -> Arla Familjefavoriter Gouda 28%"
+  },
+  {
+   "id": "ean:2340380300009",
+   "into": "ean:2340380304366",
+   "why": "duplicate (round C): Arla Familjefavoriter Port Salut 26% -> Arla Port Salut 26%"
+  },
+  {
+   "id": "ean:2340387312821",
+   "into": "ean:2340387312838",
+   "why": "duplicate (round C): Arla Familjefavoriter Vänerost 33% -> Arla Vänerost 33%"
+  },
+  {
+   "id": "ean:2340398009888",
+   "into": "ean:2340398000007",
+   "why": "duplicate (round C): Arla Familjefavoriter Gräddis 30% -> Arla Gräddis 30%"
+  },
+  {
+   "id": "ean:2340413205219",
+   "into": "ean:7311877015626",
+   "why": "duplicate (round C): Arla Billinge 26% -> Arla Billinge 26%"
+  },
+  {
+   "id": "ean:2340413404957",
+   "into": "ean:2340413404841",
+   "why": "duplicate (round C): Arla Mild & Syrlig Ost 10% -> Arla Syrlig Ost 10%"
+  },
+  {
+   "id": "ean:2340413605859",
+   "into": "ean:2340413605316",
+   "why": "duplicate (round C): Arla Ost Mild & Krämig 17% -> Arla Mild & Krämig Ost 17%"
+  },
+  {
+   "id": "ean:2340414104559",
+   "into": "ean:2340414104092",
+   "why": "duplicate (round C): Arla Smakrike Cheddar 35% -> Arla Cheddar 35%"
+  },
+  {
+   "id": "ean:2340415206634",
+   "into": "ean:2340415205859",
+   "why": "duplicate (round C): Arla Präst Mellanlagrad 31% -> Arla Präst 31%"
+  },
+  {
+   "id": "ean:2340415507564",
+   "into": "ean:2359772806791",
+   "why": "duplicate (round C): Matriket Herrgård Mild Ost 28% -> Matriket Herrgård 28%"
+  },
+  {
+   "id": "ean:2340449304528",
+   "into": "ean:2340449304931",
+   "why": "duplicate (round C): Wästgöta Kloster Munkens Svarta Ost 10% -> Wästgöta Kloster Munkens Svarta"
+  },
+  {
    "id": "ean:2340504100003",
    "into": "matvaretabellen:03.057",
    "why": "store label: Spar Storfe Høyrygg -> Storfe, høyrygg, rå"
+  },
+  {
+   "id": "ean:2340529500000",
+   "into": "ean:2340529514984",
+   "why": "duplicate (round C): Folkets Svin Grillskiver av Kam -> Folkets Grillskiver av Kam"
+  },
+  {
+   "id": "ean:2340529515448",
+   "into": "ean:2301627200001",
+   "why": "duplicate (round C): Gilde Grillskiver av Kam -> Gilde Svin Grillskiver av Kam"
+  },
+  {
+   "id": "ean:2340530100008",
+   "into": "ean:7020099000784",
+   "why": "duplicate (round C): Folkets Storfe Ytrefilet Black Garlic -> Folkets Ytrefilet Black Garlic av Storfe"
+  },
+  {
+   "id": "ean:2350401500004",
+   "into": "ean:7090013751269",
+   "why": "duplicate (round C): Lerstang Kyllinglår Ca -> Lerstang Kyllinglår"
+  },
+  {
+   "id": "ean:2351228405138",
+   "into": "ean:2351228406210",
+   "why": "duplicate (round C): Wernerssons Slanke Danica Ost 10% -> Wernerssons Slanke Danica Ost 10%"
+  },
+  {
+   "id": "ean:2351228407040",
+   "into": "ean:2351228406210",
+   "why": "duplicate (round C): Wernerssons Slanke -> Wernerssons Slanke Danica Ost 10%"
   },
   {
    "id": "ean:2351830621186",
@@ -3084,14 +3759,244 @@
    "why": "merge_duplicates: First Price Kyllingfilet - Dypfryst -> First Price Kyllingfilet"
   },
   {
+   "id": "ean:2352403306820",
+   "into": "ean:2352403204768",
+   "why": "duplicate (round C): Norrmejerier Norrländsk Herrgårdsost 28% -> Norrmejerier Herrgårdsost 28%"
+  },
+  {
+   "id": "ean:2354220104450",
+   "into": "ean:2354220104740",
+   "why": "duplicate (round C): Bjärte Kycklingbröst -> Kycklingbröst"
+  },
+  {
+   "id": "ean:2354963306234",
+   "into": "ean:2354963305381",
+   "why": "duplicate (round C): Charkuteri Fabriken Vindelnrökt Skinka Ojämna Skivor -> Charkuteri Fabriken Vindelnrökt skinka ojämna"
+  },
+  {
+   "id": "ean:2355005712624",
+   "into": "ean:2355005713027",
+   "why": "duplicate (round C): Garant Fläskkarre -> Garant Fläskkarré med ben"
+  },
+  {
+   "id": "ean:2355005713386",
+   "into": "ean:2355005713027",
+   "why": "duplicate (round C): Garant Fläskkarré Med Ben Kött Från Svenska Gårdar -> Garant Fläskkarré med ben"
+  },
+  {
+   "id": "ean:2355021908957",
+   "into": "ean:2355021908896",
+   "why": "duplicate (round C): Garant Blandfärs -> Garant Blandfärs 20%"
+  },
+  {
+   "id": "ean:2355022208858",
+   "into": "ean:2355022209053",
+   "why": "duplicate (round C): Garant Nötfärs Lägre Än 12% -> Garant Nötfärs 12%"
+  },
+  {
+   "id": "ean:2355022209015",
+   "into": "ean:2355022209053",
+   "why": "duplicate (round C): Garant Nötfärs Fetthalt Lägre Än 12% -> Garant Nötfärs 12%"
+  },
+  {
+   "id": "ean:2355022209794",
+   "into": "ean:2355022422216",
+   "why": "duplicate (round C): Garant Nötkött -> Garant Nötkött Färs 12%"
+  },
+  {
+   "id": "ean:2355022210301",
+   "into": "ean:2355022209053",
+   "why": "duplicate (round C): Garant Nötfärs -> Garant Nötfärs 12%"
+  },
+  {
+   "id": "ean:2355022610255",
+   "into": "ean:2355022610521",
+   "why": "duplicate (round C): Axfood Nötfärs -> Axfood Nötfärs 20%"
+  },
+  {
+   "id": "ean:2355022810228",
+   "into": "ean:2355022810051",
+   "why": "duplicate (round C): Axfood Nöt & Fläsk 50/50 20% -> Axfood Blandfärs Nöt & Fläsk 50/50 20%"
+  },
+  {
+   "id": "ean:2357910609105",
+   "into": "ean:2357910610354",
+   "why": "duplicate (round C): Matriket Grytbitar Av Nöttytterlår -> Matriket Grytbitar"
+  },
+  {
+   "id": "ean:2359634709383",
+   "into": "ean:2359634710112",
+   "why": "duplicate (round C): Garant Kyckling Filé -> Garant Kyckling Bröst Filé"
+  },
+  {
+   "id": "ean:2359749606461",
+   "into": "ean:2359749607598",
+   "why": "duplicate (round C): Garant Prästost 17% -> Garant Prästost 17%"
+  },
+  {
+   "id": "ean:2359751410681",
+   "into": "ean:2359751409593",
+   "why": "duplicate (round C): Garant Hushållsost 17% -> Garant Hushållsost 17%"
+  },
+  {
+   "id": "ean:2359751410896",
+   "into": "ean:2359751409593",
+   "why": "duplicate (round C): Garant Hushållsost 17% -> Garant Hushållsost 17%"
+  },
+  {
+   "id": "ean:2359751411015",
+   "into": "ean:2359751409593",
+   "why": "duplicate (round C): Garant Hushållsost 17% -> Garant Hushållsost 17%"
+  },
+  {
+   "id": "ean:2359761826014",
+   "into": "ean:2359742711339",
+   "why": "duplicate (round C): Eldorado Gouda 28% -> Eldorado Gouda 28%"
+  },
+  {
+   "id": "ean:2359764110080",
+   "into": "ean:2359764112701",
+   "why": "duplicate (round C): Garant Fläsk Kamben -> Garant Kamben"
+  },
+  {
+   "id": "ean:2359772607305",
+   "into": "ean:2359772606711",
+   "why": "duplicate (round C): Garant Grevé -> Garant Greve Ost"
+  },
+  {
+   "id": "ean:2359772806876",
+   "into": "ean:2359772807613",
+   "why": "duplicate (round C): Garant Herrgårdsost 28% -> Garant Herrgårdsost 28%"
+  },
+  {
+   "id": "ean:2359773006237",
+   "into": "ean:2359749606768",
+   "why": "duplicate (round C): Garant Prast Latt -> Garant Präst"
+  },
+  {
+   "id": "ean:2359773107217",
+   "into": "ean:2359773107569",
+   "why": "duplicate (round C): Garant Herrgårdsost 17% -> Garant Herrgårdsost 17%"
+  },
+  {
+   "id": "ean:2359773107378",
+   "into": "ean:2359773107569",
+   "why": "duplicate (round C): Garant Herrgårdsost 17% -> Garant Herrgårdsost 17%"
+  },
+  {
+   "id": "ean:2359778308275",
+   "into": "ean:2359749307559",
+   "why": "duplicate (round C): Garant Prästost, 31% -> Garant Prästost 31%"
+  },
+  {
+   "id": "ean:2364263403342",
+   "into": "ean:2364263402895",
+   "why": "duplicate (round C): Salma Salmon Loin -> Salma Salmon"
+  },
+  {
    "id": "ean:2365612402238",
    "into": "ean:2313191010108",
    "why": "store label: Jacobs Utvalgte Entrecote -> Entrecote av nöt"
   },
   {
+   "id": "ean:2365615700003",
+   "into": "ean:2365679300003",
+   "why": "duplicate (round C): First Price Lam Fårikålkjøtt -> First Price Fårikålkjøtt"
+  },
+  {
+   "id": "ean:2371580909662",
+   "into": "ean:2371580908054",
+   "why": "duplicate (round C): Nybergs Deli Fläskytterfilé -> Nybergs Deli Fläskytterfilé"
+  },
+  {
+   "id": "ean:2371580909952",
+   "into": "ean:2371580909471",
+   "why": "duplicate (round C): Gourmetmörad Fläskytterfile -> Fläskytterfile"
+  },
+  {
+   "id": "ean:2371582709123",
+   "into": "ean:2371582709826",
+   "why": "duplicate (round C): Nybergs Deli Nötytterfilé -> Nybergs Deli Gourmetmörad Nötytterfilé"
+  },
+  {
+   "id": "ean:2371586605926",
+   "into": "ean:2371586606510",
+   "why": "duplicate (round C): Nybergs Deli Fläskfile -> Nybergs Deli Fläskfilé"
+  },
+  {
+   "id": "ean:2373304200000",
+   "into": "norgesgruppen:23733042",
+   "why": "duplicate (round C): Kyllingklubber Fersk Ca Holte -> Holte gård Kyllingklubber"
+  },
+  {
+   "id": "ean:2373914200001",
+   "into": "norgesgruppen:23739142",
+   "why": "duplicate (round C): Tynnribbe av svin ca Jæren Smak -> Tynnribbe"
+  },
+  {
+   "id": "ean:2374107904560",
+   "into": "ean:2374107905888",
+   "why": "duplicate (round C): Rema Indrefilet Pampas -> Rema Pampas Indrefilet"
+  },
+  {
+   "id": "ean:2374108602427",
+   "into": "ean:2301290802601",
+   "why": "duplicate (round C): Prima Lavpris Entrecõte av storfe -> Prima Entrecôte"
+  },
+  {
+   "id": "ean:2374108602649",
+   "into": "ean:2301290802601",
+   "why": "duplicate (round C): Prima Lavpris Entrecôte -> Prima Entrecôte"
+  },
+  {
+   "id": "ean:2374113102929",
+   "into": "ean:2374113103254",
+   "why": "duplicate (round C): Gode Hav Laks Loin -> Gode Hav Loin Laks Uten Skinn Og Bein"
+  },
+  {
+   "id": "ean:2374113103063",
+   "into": "ean:2374113103254",
+   "why": "duplicate (round C): Gode Hav Loin -> Gode Hav Loin Laks Uten Skinn Og Bein"
+  },
+  {
+   "id": "ean:2374113103568",
+   "into": "ean:2374113102950",
+   "why": "duplicate (round C): Gode Hav Halv Lakseloin Uten Skinn Og Ben -> Gode Hav Lakseloin Uten Skinn Og Ben"
+  },
+  {
    "id": "ean:2376091602354",
    "into": "ean:7033352734074",
    "why": "duplicate: Fiskemannen Laks Loin (Rå) -> Fiskemannen Laks Loin"
+  },
+  {
+   "id": "ean:2376091602675",
+   "into": "ean:7033352734074",
+   "why": "duplicate (round C): Fiskemannen Loin -> Fiskemannen Laks Loin"
+  },
+  {
+   "id": "ean:2380045801267",
+   "into": "ean:2380045801748",
+   "why": "duplicate (round C): Oppskåre Evanger Bacon -> Bacon"
+  },
+  {
+   "id": "ean:2380100804684",
+   "into": "ean:2380100807180",
+   "why": "duplicate (round C): Kycklinglårfile -> Färsk Kycklinglårfilé"
+  },
+  {
+   "id": "ean:2381195300006",
+   "into": "norgesgruppen:23811953",
+   "why": "duplicate (round C): Raket Fjellørret Filet -> Fjellørret"
+  },
+  {
+   "id": "ean:2382660209992",
+   "into": "ean:2382660210745",
+   "why": "duplicate (round C): Xtra Gulost 23% -> Xtra Gulost 23%"
+  },
+  {
+   "id": "ean:2382664613115",
+   "into": "ean:2382664612927",
+   "why": "duplicate (round C): Synnøve Gulost Mild og Fyldig 29% -> Synnøve Gulost Mild og Fyldig 29%"
   },
   {
    "id": "ean:2382668512490",
@@ -3104,9 +4009,79 @@
    "why": "merge_duplicates: Synnøve Gouda Lettost 16% -> Synnøve Gulost Lett 16%"
   },
   {
+   "id": "ean:2384790121465",
+   "into": "ean:2384790120222",
+   "why": "duplicate (round C): Gäsene Hushållsost 26% -> Gäsene Hushållsost 26%"
+  },
+  {
+   "id": "ean:2384790410316",
+   "into": "ean:2384790409433",
+   "why": "duplicate (round C): Bondmoran -> Bondmoran 31%"
+  },
+  {
+   "id": "ean:2384795605786",
+   "into": "ean:2384795605373",
+   "why": "duplicate (round C): Bondmoran Västsvensk Ost 10% -> Bondmoran Ost 10%"
+  },
+  {
+   "id": "ean:2384795606202",
+   "into": "ean:2384795696111",
+   "why": "duplicate (round C): Gäsene Mejeri Ost 10% -> Gäsene Mejeri Ost 10%"
+  },
+  {
+   "id": "ean:2384797109237",
+   "into": "ean:2384797109244",
+   "why": "duplicate (round C): Sommarspecial -> Gäsene Mejeri Sommarspecial Lagrad Ost 34%"
+  },
+  {
+   "id": "ean:2385250902846",
+   "into": "ean:2385250401691",
+   "why": "duplicate (round C): Salma Laks -> Salma Sashimi Laks"
+  },
+  {
+   "id": "ean:2386351500009",
+   "into": "norgesgruppen:23863595",
+   "why": "duplicate (round C): Økokalkun hel Ca5 -> Økokalkun hel"
+  },
+  {
+   "id": "ean:2386359400004",
+   "into": "norgesgruppen:23863594",
+   "why": "duplicate (round C): Økokalkun hel Ca Black Turkey -> Økokalkun hel"
+  },
+  {
+   "id": "ean:2386636400000",
+   "into": "ean:0000023866324",
+   "why": "duplicate (round C): Rakfisk Filet Lagret Haadem -> Rakfisk"
+  },
+  {
+   "id": "ean:2387071206288",
+   "into": "ean:2387071206264",
+   "why": "duplicate (round C): Skinn og benfri Ultrafersk Norsk Laks -> Ultrafersk Norsk Laks"
+  },
+  {
    "id": "ean:2387072803684",
    "into": "ean:7033352734074",
    "why": "duplicate: Fiskemannen Laks Mid Loin -> Fiskemannen Laks Loin"
+  },
+  {
+   "id": "ean:2387461114049",
+   "into": "ean:7392497008205",
+   "why": "duplicate (round C): Färsk Laxfilé -> Laxfilé"
+  },
+  {
+   "id": "ean:27340116870201",
+   "into": "bodypower:https://www.bodypower.se/varumarken/nobe-aloe-vera/nobe-aloe-vera-sunny-mango-500ml",
+   "why": "duplicate (round C): Nobe Aloe Vera Mango -> Nobe Aloe Vera Sunny Mango"
+  },
+  {
+   "id": "ean:3005743101127",
+   "into": "ean:3005743101035",
+   "why": "duplicate (round C): Aminocarb -> AminoCarb Muscle Shake"
+  },
+  {
+   "id": "ean:3325930708107",
+   "into": "ean:2320738707841",
+   "why": "duplicate (round C): Scan Grillklar Grillskivor -> Scan Grillskivor Original"
   },
   {
    "id": "ean:4000008753768",
@@ -3132,6 +4107,81 @@
    "id": "ean:4008400409627",
    "into": "ean:0000059032823",
    "why": "merge_duplicates: Nutella -> Nutella"
+  },
+  {
+   "id": "ean:4032108117867",
+   "into": "ean:4032108118208",
+   "why": "duplicate (round C): Cosmoveda Mild Goa Curry Paste Økologisk -> Cosmoveda Curry Paste Mild Økologisk"
+  },
+  {
+   "id": "ean:4056489669449",
+   "into": "ean:4056489770626",
+   "why": "duplicate (round C): Matriket Lätt Crème Fraîche 13% -> Matriket Lätt Crème Fraîche 13%"
+  },
+  {
+   "id": "ean:4056489669562",
+   "into": "ean:4056489669524",
+   "why": "duplicate (round C): Matriket Mjölk 3,0% -> Matriket Mjölk 3,0%"
+  },
+  {
+   "id": "ean:4056489669623",
+   "into": "ean:4056489670025",
+   "why": "duplicate (round C): Lidl Mellanmjölk Laktosfri 1,5% -> Lidl Mellanmjölk Laktosfri 1,5%"
+  },
+  {
+   "id": "ean:4056489669722",
+   "into": "ean:4056489065456",
+   "why": "duplicate (round C): Lidl Svensk Mellanmjölk Eko 1,5% -> Lidl Svensk Mellanmjölk Eko 1,5%"
+  },
+  {
+   "id": "ean:4056489770657",
+   "into": "ean:4056489669524",
+   "why": "duplicate (round C): Matriket Mjölk 3,0% -> Matriket Mjölk 3,0%"
+  },
+  {
+   "id": "ean:4056489849810",
+   "into": "ean:4056489849803",
+   "why": "duplicate (round C): Hamburgare -> Hamburgare Nöt 18%"
+  },
+  {
+   "id": "ean:4062300268050",
+   "into": "ean:4062300338029",
+   "why": "duplicate (round C): Hipp Baby Combiotik 2 -> Hipp Combiotik 2"
+  },
+  {
+   "id": "ean:4255919528077",
+   "into": "ean:5712840020012",
+   "why": "duplicate (round C): Rawbite Officebox Cashew Ø -> RawBite Cashew"
+  },
+  {
+   "id": "ean:4255919558074",
+   "into": "ean:4255919580556",
+   "why": "duplicate (round C): Rawbite Officebox Protein Smooth Cacao Ø -> Rawbite Protein Smooth Cacao Ø"
+  },
+  {
+   "id": "ean:4255919568066",
+   "into": "ean:4255919580150",
+   "why": "duplicate (round C): Rawbite Officebox Cacao Ø -> Rawbite Cacao Ø"
+  },
+  {
+   "id": "ean:4255919580013",
+   "into": "ean:5712840020067",
+   "why": "duplicate (round C): Rawbite Apple Cinnamon Ø -> RawBite Apple Cinnamon"
+  },
+  {
+   "id": "ean:4255919580259",
+   "into": "ean:5712840020012",
+   "why": "duplicate (round C): Rawbite Cashew Ø -> RawBite Cashew"
+  },
+  {
+   "id": "ean:4340413484568",
+   "into": "ean:7340083484568",
+   "why": "duplicate (round C): Garant Blomkål -> Garant Frozen Blomkål"
+  },
+  {
+   "id": "ean:4350479100029",
+   "into": "ean:7350049100029",
+   "why": "duplicate (round C): Gyros -> Gyros"
   },
   {
    "id": "ean:4771085205685",
@@ -3194,6 +4244,11 @@
    "why": "merge_duplicates: Snickers Minis -> Snickers"
   },
   {
+   "id": "ean:5000246727230",
+   "into": "ean:5000246727216",
+   "why": "duplicate (round C): Arla Mini Ost Mild Cheddar 35% -> Arla Mild Cheddar 35%"
+  },
+  {
    "id": "ean:5010029000696",
    "into": "ean:5010029000160",
    "why": "merge_duplicates: Weetabix -> Weetabix Original"
@@ -3204,9 +4259,34 @@
    "why": "merge_duplicates: Kellogg`s Corn Flakes -> Kellogg's Corn Flakes"
   },
   {
+   "id": "ean:5056185738899",
+   "into": "ean:5056185738882",
+   "why": "duplicate (round C): Myprotein Carb Crusher -> Myprotein The Carb Crusher"
+  },
+  {
+   "id": "ean:5056784919873",
+   "into": "ean:5060335630988",
+   "why": "duplicate (round C): Monster Energy Absolutley Zero 2 kr pant -> Monster Energy Absolutley Zero Absolutley Zero"
+  },
+  {
+   "id": "ean:5059883468976",
+   "into": "ean:5059883468945",
+   "why": "duplicate (round C): Myprotein Energy Gel -> Myprotein The Energy Gel"
+  },
+  {
+   "id": "ean:5060751218036",
+   "into": "ean:5060947547278",
+   "why": "duplicate (round C): Energidryck Nitro Super Dry Monster Energy -> Monster Nitro"
+  },
+  {
    "id": "ean:5063270109557",
    "into": "ean:5063270101179",
    "why": "duplicate: Lipton Forest Fruit Tea -> Lipton Black Tea Forest Fruits"
+  },
+  {
+   "id": "ean:5110006008322",
+   "into": "ean:7311043008315",
+   "why": "duplicate (round C): Garant Spaghetti NO 03 -> Garant Spaghetti"
   },
   {
    "id": "ean:5201704053131",
@@ -3224,6 +4304,21 @@
    "why": "duplicate: Blåbær Shaker -> Blåbær, rå"
   },
   {
+   "id": "ean:5410041030006",
+   "into": "ean:7622300737955",
+   "why": "duplicate (round C): Tuc Original 3-pack -> Tuc Original"
+  },
+  {
+   "id": "ean:5410146963964",
+   "into": "ean:5410146410581",
+   "why": "duplicate (round C): Actimel Drikkeyoghurt -> Actimel Drikkeyoghurt"
+  },
+  {
+   "id": "ean:5410146964954",
+   "into": "ean:5410146410581",
+   "why": "duplicate (round C): Actimel Drikkeyoghurt -> Actimel Drikkeyoghurt"
+  },
+  {
    "id": "ean:5415191817453",
    "into": "matvaretabellen:06.539",
    "why": "duplicate: Kiwi -> Kiwi, rå"
@@ -3234,9 +4329,39 @@
    "why": "fold_store_generic: Tomat -> Tomat, norsk, rå"
   },
   {
+   "id": "ean:5701027004303",
+   "into": "ean:5701027004198",
+   "why": "duplicate (round C): Salt m/Jod -> Fint salt med jod"
+  },
+  {
+   "id": "ean:5701090080396",
+   "into": "ean:5701090068493",
+   "why": "duplicate (round C): Haribo Stjärn Mix -> Haribo Stjärn Mix"
+  },
+  {
    "id": "ean:5701243990954",
    "into": "matvaretabellen:06.059",
    "why": "duplicate: Vilje Isbergsalat -> Isbergsalat, issalat, rå"
+  },
+  {
+   "id": "ean:5707196109191",
+   "into": "ean:5707196358551",
+   "why": "duplicate (round C): Tulip Salami Dansk -> Tulip Salami"
+  },
+  {
+   "id": "ean:5711657012951",
+   "into": "ean:5711657012180",
+   "why": "duplicate (round C): Bodylab Brownie -> Bodylab Protein Brownie Mix"
+  },
+  {
+   "id": "ean:5711657012999",
+   "into": "ean:5711657051967",
+   "why": "duplicate (round C): Bodylab Mix -> Bodylab American Style Protein Pancake & Waffle Mix - Classic"
+  },
+  {
+   "id": "ean:5711657032317",
+   "into": "ean:5711657021304",
+   "why": "duplicate (round C): Bodylab Pancake & Waffle Mix -> Bodylab American Style Protein Pancake & Waffle Mix - Ultimate Chocolate"
   },
   {
    "id": "ean:5711953217722",
@@ -3269,6 +4394,31 @@
    "why": "duplicate: Kellogg's Corn Flakes -> Corn flakes, Kelloggs"
   },
   {
+   "id": "ean:5740301107132",
+   "into": "ean:5740301036319",
+   "why": "duplicate (round C): Skalade Räkor -> Nordatlantiska Skalade Räkor"
+  },
+  {
+   "id": "ean:5740301169666",
+   "into": "ean:5740301151623",
+   "why": "duplicate (round C): Torskfile -> Torskfilé I Bitar"
+  },
+  {
+   "id": "ean:5741000221044",
+   "into": "ean:7350020691119",
+   "why": "duplicate (round C): Cult Original -> Cult Energy - Original Sugar Free"
+  },
+  {
+   "id": "ean:5744001420645",
+   "into": "ean:5744001420157",
+   "why": "duplicate (round C): The Organic Crave Veganske Protein Chips M. Sour Cream & Onion Økologisk -> The Organic Crave Veganske Protein Chips M. Sour Cream And Onion Økologisk"
+  },
+  {
+   "id": "ean:5762385638364",
+   "into": "ean:5707196047448",
+   "why": "duplicate (round C): Tulip Bacon Tjockare Skivor -> Tulip Bacon"
+  },
+  {
    "id": "ean:5900020013194",
    "into": "ean:5011476103053",
    "why": "merge_duplicates: Nesquik -> Nesquik Frokostblanding"
@@ -3299,6 +4449,16 @@
    "why": "merge_duplicates: Battery -> Battery Energy Drink"
   },
   {
+   "id": "ean:6415600581592",
+   "into": "ean:6415600581516",
+   "why": "duplicate (round C): Battery Zero Mango Coconut -> Battery Fully Charged Mango Coconut - Zero Sugar"
+  },
+  {
+   "id": "ean:6416453041455",
+   "into": "ean:6416453036499",
+   "why": "duplicate (round C): Fazer Marianne -> Fazer Marianne, sjokoladefylt mint"
+  },
+  {
    "id": "ean:7020097005415",
    "into": "matvaretabellen:03.348",
    "why": "fold_store_generic: Meny Kjøttdeig Svin -> Kjøttdeig, svin, 9% fett, rå"
@@ -3322,6 +4482,11 @@
    "id": "ean:7020097026113",
    "into": "ean:7037203645618",
    "why": "fold_store_generic: Meny Kjøttdeig av Storfe -> Gilde Kjøttdeig Storfe"
+  },
+  {
+   "id": "ean:7020097033838",
+   "into": "ean:5056522304343",
+   "why": "duplicate (round C): Folkets Storfe Biffstrimler -> Folkets Biffstrimler av Storfe"
   },
   {
    "id": "ean:7020098000013",
@@ -3404,6 +4569,11 @@
    "why": "store label: Meny Svin Indrefilet -> Nordfjord Svin Indrefilet"
   },
   {
+   "id": "ean:7020099000395",
+   "into": "ean:2340040302800",
+   "why": "duplicate (round C): Folkets Svin Indrefilet -> Folkets Indrefilet av Svin"
+  },
+  {
    "id": "ean:7020099000401",
    "into": "norgesgruppen:7212",
    "why": "store label: Meny Storfe Bibringe -> Bibringe Av Storfe"
@@ -3449,6 +4619,11 @@
    "why": "merge_duplicates: Nugatti Original -> Nugatti"
   },
   {
+   "id": "ean:7022180003032",
+   "into": "ean:7022185500239",
+   "why": "duplicate (round C): Engebretsen Marinade Provence -> Engebretsen Marinade"
+  },
+  {
    "id": "ean:7023026093859",
    "into": "matvaretabellen:06.042",
    "why": "duplicate: Gul Løk -> Løk, gul, norsk, rå"
@@ -3459,14 +4634,114 @@
    "why": "duplicate: Bama Brokkoli -> Brokkoli, importert, rå"
   },
   {
+   "id": "ean:7023539700718",
+   "into": "ean:7023539702835",
+   "why": "duplicate (round C): Lofoten Einerrøkt Laks Skivet -> Lofoten Laks Einerrøkt"
+  },
+  {
+   "id": "ean:7024850015987",
+   "into": "ean:7024850013945",
+   "why": "duplicate (round C): Nordfjord Xxl Kokt Skinke -> Nordfjord Kokt Skinke"
+  },
+  {
+   "id": "ean:7024850030058",
+   "into": "ean:7024850086666",
+   "why": "duplicate (round C): Nordfjord Konge Entrecôte -> Nordfjord Entrecôte"
+  },
+  {
+   "id": "ean:7024850084235",
+   "into": "ean:2003850084235",
+   "why": "duplicate (round C): Nordfjord Ytrefilet Av Svin -> Nordfjord Tynnskåret Ytrefilet Av Svin"
+  },
+  {
+   "id": "ean:7025050042599",
+   "into": "ean:7025050042568",
+   "why": "duplicate (round C): Finsbråten Bacon Original skivet -> Finsbråten Bacon Original"
+  },
+  {
+   "id": "ean:7025050043343",
+   "into": "ean:7025050042568",
+   "why": "duplicate (round C): Finsbråten Bacon -> Finsbråten Bacon Original"
+  },
+  {
+   "id": "ean:7025110115171",
+   "into": "ean:7025110115119",
+   "why": "duplicate (round C): Coop Skivet Gulost 26% -> Coop Gulost 26%"
+  },
+  {
+   "id": "ean:7025110153111",
+   "into": "ean:2320236009706",
+   "why": "duplicate (round C): Xtra Skivet Entrecôte Storfe -> Xtra Entrecôte"
+  },
+  {
+   "id": "ean:7025110172235",
+   "into": "ean:2320390802465",
+   "why": "duplicate (round C): Coop Prime Cut Ytrefilet av Storfe -> Coop Ytrefilet av Storfe"
+  },
+  {
+   "id": "ean:7025110172266",
+   "into": "ean:2320390402030",
+   "why": "duplicate (round C): Coop Prime Cut Entrecote av Storfe -> Coop Entrecote"
+  },
+  {
    "id": "ean:7025110173898",
    "into": "ean:7025110209016",
    "why": "duplicate: Coop Ut Egg -> Coop Egg Frittgående"
   },
   {
+   "id": "ean:7025110184894",
+   "into": "ean:7025110200679",
+   "why": "duplicate (round C): Coop Strimlet Kylling Lårfilet -> Coop Kylling Strimlet Lårfilet"
+  },
+  {
+   "id": "ean:7025110185518",
+   "into": "ean:7025110144751",
+   "why": "duplicate (round C): Steinovnsbakte Pizzabunner -> Pizzabunner"
+  },
+  {
+   "id": "ean:7025110200778",
+   "into": "ean:7300156598790",
+   "why": "duplicate (round C): Coop Vasket og Spiseklar Ruccola -> Coop Ruccola"
+  },
+  {
+   "id": "ean:7025110210852",
+   "into": "ean:7025110230737",
+   "why": "duplicate (round C): Coop Iste uten Sukker -> Coop Sort Iste uten Sukker"
+  },
+  {
+   "id": "ean:7025110217196",
+   "into": "ean:7025110150745",
+   "why": "duplicate (round C): Xtra Majones -> Xtra Majones"
+  },
+  {
+   "id": "ean:7025110218841",
+   "into": "ean:4025284217575",
+   "why": "duplicate (round C): Coop Premium Cloudy Eplejuice -> Coop Eplejuice"
+  },
+  {
    "id": "ean:7025110224736",
    "into": "ean:2373112116111",
    "why": "duplicate: Coop Laks med skinn -> Coop Laks"
+  },
+  {
+   "id": "ean:7025165013071",
+   "into": "ean:7025165010711",
+   "why": "duplicate (round C): Coop Burgerbrød Prime Time -> Coop Prime Time BurgerBrød"
+  },
+  {
+   "id": "ean:7026450030056",
+   "into": "ean:7026450054236",
+   "why": "duplicate (round C): Honning Flytende -> Honning"
+  },
+  {
+   "id": "ean:7026450053185",
+   "into": "ean:7026450053307",
+   "why": "duplicate (round C): Blomsterhonning -> Økonomi Blomsterhonning"
+  },
+  {
+   "id": "ean:7026450054472",
+   "into": "ean:7026450054267",
+   "why": "duplicate (round C): Agave&Honning -> Agave & Honning Topping"
   },
   {
    "id": "ean:7026510021741",
@@ -3489,6 +4764,11 @@
    "why": "merge_duplicates: Hamburgerdressing -> Gorines Hamburgerdressing"
   },
   {
+   "id": "ean:7030019537573",
+   "into": "ean:7030019537566",
+   "why": "duplicate (round C): Hansa Ananas Ipa -> Hansa Ananas"
+  },
+  {
    "id": "ean:7031540003964",
    "into": "ean:1151105215062",
    "why": "merge_duplicates: Gulrot BUNT -> Bama Gulrot"
@@ -3509,9 +4789,24 @@
    "why": "fold_store_generic: Brokkolibuketter -> Bama Brokkoli"
   },
   {
+   "id": "ean:7032069104989",
+   "into": "ean:7032069726242",
+   "why": "duplicate (round C): Rema Hvit Cheddar 35% -> Rema Cheddar 35%"
+  },
+  {
+   "id": "ean:7032069105542",
+   "into": "ean:7032069106839",
+   "why": "duplicate (round C): Rema Julens Marsipanbrød -> Rema Marsipanbrød"
+  },
+  {
    "id": "ean:7032069715482",
    "into": "ean:7032069715550",
    "why": "merge_duplicates: Rema Nacho Chips -> Rema Tex Mex Tortilla Chips"
+  },
+  {
+   "id": "ean:7032069728437",
+   "into": "ean:7032069728420",
+   "why": "duplicate (round C): Rema Brie 32% -> Rema Brie 32%"
   },
   {
    "id": "ean:7033330013184",
@@ -3539,6 +4834,16 @@
    "why": "duplicate: Lerøy Laks Porsjon -> Lerøy Laks Porsjoner"
   },
   {
+   "id": "ean:7033352757448",
+   "into": "ean:2373642710506",
+   "why": "duplicate (round C): Laxfile I Bitar -> Laxfilé"
+  },
+  {
+   "id": "ean:7034280110756",
+   "into": "synnove:https://www.synnove.no/produkt/gresk-yoghurt-vanilje-og-granola/",
+   "why": "duplicate (round C): Synnøve Gresk Yoghurt med Vanilje og Granola -> Synnøve Gresk Yoghurt med Granola"
+  },
+  {
    "id": "ean:7034281582002",
    "into": "synnove:https://www.synnove.no/produkt/gresk-yoghurt-naturell/",
    "why": "merge_duplicates: Synnøve Gresk Yoghurt 2% -> Synnøve Gresk Yoghurt Naturell"
@@ -3547,6 +4852,11 @@
    "id": "ean:7034284268002",
    "into": "synnove:https://www.synnove.no/produkt/gudbrand/",
    "why": "merge_duplicates: Synnøve Gudbrandsdalsost 29% -> Synnøve Gudbrand Brunost"
+  },
+  {
+   "id": "ean:7035450100362",
+   "into": "ean:7035450045205",
+   "why": "duplicate (round C): Majones -> Røros Majones"
   },
   {
    "id": "ean:7035620000188",
@@ -3562,6 +4872,11 @@
    "id": "ean:7035620006579",
    "into": "matvaretabellen:06.189",
    "why": "store label: Jacobs Utvalgte Safran -> Safran, tørket"
+  },
+  {
+   "id": "ean:7035620022906",
+   "into": "ean:7035620062063",
+   "why": "duplicate (round C): Folkets Skinke Kokt -> Folkets Kokt Skinke"
   },
   {
    "id": "ean:7035620029769",
@@ -3587,6 +4902,11 @@
    "id": "ean:7036110005560",
    "into": "mills:https://mills.no/vita-hjertego/produkt/vita-hjertego-lettmajones/",
    "why": "duplicate: Majones Lett -> Vita Hjertego’ Lettmajones"
+  },
+  {
+   "id": "ean:7036110005959",
+   "into": "ean:7036110010656",
+   "why": "duplicate (round C): Mills Red Mango Chili Majones -> Mills Mango Chili Majones"
   },
   {
    "id": "ean:7036110009728",
@@ -3619,9 +4939,54 @@
    "why": "merge_duplicates: Melange -> Melange med smør- og rapsolje"
   },
   {
+   "id": "ean:7037120012234",
+   "into": "ean:7037120000682",
+   "why": "duplicate (round C): Mack Arctic beer, 4,5% -> Mack Arctic Beer"
+  },
+  {
+   "id": "ean:7037120034373",
+   "into": "ean:7037120034366",
+   "why": "duplicate (round C): Isbjørn Cider -> Mack Isbjørn Cider"
+  },
+  {
+   "id": "ean:7037203626631",
+   "into": "ean:2301635200000",
+   "why": "duplicate (round C): Gilde Edelgris Svin Ytrefilet -> Gilde Svin Ytrefilet"
+  },
+  {
    "id": "ean:7037203644529",
    "into": "ean:7037204726255",
    "why": "duplicate: Kjøttkaker -> Gilde Kjøttkaker"
+  },
+  {
+   "id": "ean:7037204772740",
+   "into": "ean:7037203630782",
+   "why": "duplicate (round C): Gilde Salami -> Gilde Salami Spekeskalk"
+  },
+  {
+   "id": "ean:7037206100091",
+   "into": "ean:7037204742293",
+   "why": "duplicate (round C): Gilde Løvtynn Hamburgerrygg -> Gilde Hamburgerrygg"
+  },
+  {
+   "id": "ean:7037206101654",
+   "into": "ean:7037203644956",
+   "why": "duplicate (round C): Gilde Familiens Spekeskinke -> Gilde Spekeskinke"
+  },
+  {
+   "id": "ean:7037610232005",
+   "into": "toro:https://www.toro.no/produkter/lofoten-fiskesaus/",
+   "why": "duplicate (round C): Toro Lofoten Fiskesaus -> Toro Lofoten Fiskesaus"
+  },
+  {
+   "id": "ean:7037610237321",
+   "into": "toro:https://www.toro.no/produkter/kyllingsaus-rosepepper/",
+   "why": "duplicate (round C): Toro Rosepepper Kyllingsaus -> Toro Kyllingsaus Rosépepper"
+  },
+  {
+   "id": "ean:7037610237369",
+   "into": "toro:https://www.toro.no/produkter/parisienne-fiskesaus-til-stekt-fisk/",
+   "why": "duplicate (round C): Toro Fiskesaus -> Toro Parisienne Fiskesaus"
   },
   {
    "id": "ean:7037710025187",
@@ -3639,6 +5004,16 @@
    "why": "merge_duplicates: Tine Lettrømme 20% -> Tine Lettrømme 17%"
   },
   {
+   "id": "ean:7038010003820",
+   "into": "tine:https://www.tine.no/merkevarer/tine-iskaffe/produkter/tine-iskaffe-original-mocca",
+   "why": "duplicate (round C): Tine Iskaffe Mocha -> Tine Iskaffe Original Mocha"
+  },
+  {
+   "id": "ean:7038010016882",
+   "into": "tine:https://www.tine.no/merkevarer/tine-norsk-edamer/produkter/tine-norsk-edamer-vellagret",
+   "why": "duplicate (round C): Tine Edamer Vellagret -> Tine Norsk Edamer Vellagret"
+  },
+  {
    "id": "ean:7038010023255",
    "into": "ean:7038010024801",
    "why": "merge_duplicates: Tine Kremgo Naturell -> Kremgo"
@@ -3649,9 +5024,24 @@
    "why": "merge_duplicates: Snøfrisk Kremost -> Snøfrisk Naturell"
   },
   {
+   "id": "ean:7038010025198",
+   "into": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-gudbrandsdalsost-anno-1863",
+   "why": "duplicate (round C): Tine Anno -> Tine Gudbrandsdalsost Anno 30%"
+  },
+  {
    "id": "ean:7038010026416",
    "into": "ean:7038010024801",
    "why": "merge_duplicates: Tine Kremgo -> Kremgo"
+  },
+  {
+   "id": "ean:7038010030628",
+   "into": "tine:https://www.tine.no/merkevarer/tine-prim/produkter/tine-prim",
+   "why": "duplicate (round C): Tine Prim Original -> Tine Prim"
+  },
+  {
+   "id": "ean:7038010030635",
+   "into": "tine:https://www.tine.no/merkevarer/tine-prim/produkter/tine-junior-prim",
+   "why": "duplicate (round C): Tine Prim Junior -> Tine Junior Prim"
   },
   {
    "id": "ean:7038010043307",
@@ -3672,6 +5062,11 @@
    "id": "ean:7038010061172",
    "into": "tine:https://www.tine.no/merkevarer/tine-laktosefri/produkter/tine-laktosefri-meierism%C3%B8r",
    "why": "merge_duplicates: Tine Smør Laktosefritt -> Tine Meierismør Laktosefri"
+  },
+  {
+   "id": "ean:7038010062490",
+   "into": "tine:https://www.tine.no/merkevarer/tine-revet-ost/produkter/tine-revet-ost-norsk-mozzarella",
+   "why": "duplicate (round C): Tine Mozzarella 21% -> Tine Ekte Revet Ost Norsk Mozzarella 21%"
   },
   {
    "id": "ean:7038010066191",
@@ -3704,6 +5099,16 @@
    "why": "duplicate: Tine Gresk Type Yoghurt Mango og Pasjonsfrukt -> Tine Yoghurt Gresk Type Vanilje"
   },
   {
+   "id": "ean:7038010071867",
+   "into": "tine:https://www.tine.no/merkevarer/tine-milkshake/produkter/tine-milkshake-sjokolade",
+   "why": "duplicate (round C): Tine Milkshake -> Tine Milkshake Sjokolade"
+  },
+  {
+   "id": "ean:7038010072246",
+   "into": "tine:https://www.tine.no/merkevarer/sunniva/produkter/sunniva-presset-eple-med-ingef%C3%A6r",
+   "why": "duplicate (round C): Sunniva Eple Med Ingefær -> Sunniva Presset Eple med Ingefær"
+  },
+  {
    "id": "ean:7038010072970",
    "into": "tine:https://www.tine.no/merkevarer/kesam/produkter/kesam-mager-naturell",
    "why": "merge_duplicates: Tine Mager Kesam Original 1,0% -> Kesam Mager Naturell 1,0%"
@@ -3729,6 +5134,16 @@
    "why": "merge_duplicates: Klippfisk i Biter -> Klippfisk"
   },
   {
+   "id": "ean:7038420002703",
+   "into": "ean:7038420002109",
+   "why": "duplicate (round C): Klippfisk Loins -> Klippfisk"
+  },
+  {
+   "id": "ean:7038420003007",
+   "into": "ean:7038420002109",
+   "why": "duplicate (round C): Klippfisk Kuttet -> Klippfisk"
+  },
+  {
    "id": "ean:7039010076616",
    "into": "ean:0000070110982",
    "why": "merge_duplicates: Nugatti Tube -> Nugatti"
@@ -3737,6 +5152,11 @@
    "id": "ean:7039010076647",
    "into": "ean:0000070110982",
    "why": "merge_duplicates: Nugatti Porsjon -> Nugatti"
+  },
+  {
+   "id": "ean:7039010613149",
+   "into": "toro:https://www.toro.no/produkter/kremet-polsegryte/",
+   "why": "duplicate (round C): Toro Pølsegryte -> Toro Kremet Pølsegryte"
   },
   {
    "id": "ean:7039281547228",
@@ -3752,6 +5172,11 @@
    "id": "ean:7039281548324",
    "into": "ean:4000007066289",
    "why": "duplicate: Druer -> Druer"
+  },
+  {
+   "id": "ean:7039281549680",
+   "into": "ean:7039281553571",
+   "why": "duplicate (round C): Bama Snækk Blåbær -> Bama Blåbær"
   },
   {
    "id": "ean:7039281553502",
@@ -3829,6 +5254,11 @@
    "why": "duplicate: Prior KyllingGården Strimler av kyllingfilet -> Prior Kyllingfilet"
   },
   {
+   "id": "ean:7039750001510",
+   "into": "ean:7039750000100",
+   "why": "duplicate (round C): Reker i Lake -> Reimes Ferske Reker i Lake"
+  },
+  {
    "id": "ean:7040110663408",
    "into": "ean:7040110663200",
    "why": "merge_duplicates: Freia Japp -> Marabou Japp"
@@ -3847,6 +5277,11 @@
    "id": "ean:7040511801386",
    "into": "matvaretabellen:06.504",
    "why": "duplicate: Bama Jordbær -> Jordbær, rå"
+  },
+  {
+   "id": "ean:7040512017427",
+   "into": "ean:7040512041521",
+   "why": "duplicate (round C): Rema Flova Poteter Kokefaste -> Rema Poteter Kokefaste"
   },
   {
    "id": "ean:7040512515275",
@@ -3899,6 +5334,16 @@
    "why": "fold_store_generic: Tomat Goutini -> Tomat, norsk, rå"
   },
   {
+   "id": "ean:7040518206603",
+   "into": "ean:7040518206597",
+   "why": "duplicate (round C): Rema 1000 Ferdigkokte Maiskolber -> Rema Maiskolber Ferdigkokte"
+  },
+  {
+   "id": "ean:7040518216169",
+   "into": "ean:5016143006415",
+   "why": "duplicate (round C): Vilje Onkologisk Stangselleri -> Vilje Stangselleri"
+  },
+  {
    "id": "ean:7040913334406",
    "into": "ean:7040913334024",
    "why": "merge_duplicates: Evergood Classic -> Evergood Classic"
@@ -3919,6 +5364,26 @@
    "why": "merge_duplicates: Ali Original -> Ali Original"
   },
   {
+   "id": "ean:7041013203111",
+   "into": "ean:7041011013118",
+   "why": "duplicate (round C): Hennig-Olsen Oreo -> Hennig-Olsen Oreo Pinneis"
+  },
+  {
+   "id": "ean:7041014930009",
+   "into": "ean:7041018011308",
+   "why": "duplicate (round C): Hennig-Olsen Anita -> Hennig-Olsen Anita Hestesko Iskake"
+  },
+  {
+   "id": "ean:7041111158610",
+   "into": "ean:4044924155701",
+   "why": "duplicate (round C): Den Lille Nøttefabrikken Cashewnøtter -> Den Lille Nøttefabrikken Store Og Røstede Cashewnøtter"
+  },
+  {
+   "id": "ean:7041614021787",
+   "into": "ean:7041614021794",
+   "why": "duplicate (round C): Bakehuset Speltlomper -> Bakehuset Reale Speltlomper"
+  },
+  {
    "id": "ean:7041810005703",
    "into": "matvaretabellen:05.309",
    "why": "duplicate: Sibas Havrekjeks -> Kjeks, søt, havrekjeks, Sibas"
@@ -3934,9 +5399,44 @@
    "why": "duplicate: Spaghettini -> Spaghetti"
   },
   {
+   "id": "ean:7044610870939",
+   "into": "ringnes:https://www.ringnes.no/produkter/ringnes/ringnes-skjaergaardspils-lite/",
+   "why": "duplicate (round C): Ringnes Lite -> Ringnes Skjærgårdspils Lite"
+  },
+  {
+   "id": "ean:7044610876498",
+   "into": "ringnes:https://www.ringnes.no/produkter/munkholm/munkholm-juleoel/",
+   "why": "duplicate (round C): Alkoholfritt juleøl -> Munkholm Juleøl"
+  },
+  {
+   "id": "ean:7044613877669",
+   "into": "ringnes:https://www.ringnes.no/produkter/frydenlund/frydenlund-lite-juicy-ipa/",
+   "why": "duplicate (round C): Frydenlund Juicy -> Frydenlund LITE Juicy IPA"
+  },
+  {
+   "id": "ean:7044614877217",
+   "into": "ringnes:https://www.ringnes.no/produkter/frydenlund/frydenlund-fatoel-lite/",
+   "why": "duplicate (round C): Frydenlund Fatøl -> Frydenlund Fatøl LITE"
+  },
+  {
+   "id": "ean:7044930431803",
+   "into": "ean:7044930431704",
+   "why": "duplicate (round C): Hvete, alkoholfri øl, 6-pakk -> Hvete"
+  },
+  {
    "id": "ean:7045386064805",
    "into": "ean:7045386067202",
    "why": "merge_duplicates: Wienerpølser u/Allergener Leiv Vidar -> Wienerpølse"
+  },
+  {
+   "id": "ean:7045386067400",
+   "into": "ean:7045386068803",
+   "why": "duplicate (round C): Ostedog -> Leiv Vidar Ostedog med Cheddar og Kongsgårdsost 19%"
+  },
+  {
+   "id": "ean:7045910003041",
+   "into": "kavli:https://www.kavli.no/produkter/flatbrod-korni-copy",
+   "why": "duplicate (round C): Flatbrød -> Korni Flatbrød"
   },
   {
    "id": "ean:7048840207664",
@@ -3944,9 +5444,39 @@
    "why": "merge_duplicates: Q Skyr Aktiv -> Skyr Aktiv"
   },
   {
+   "id": "ean:7048840221295",
+   "into": "q-meieriene:https://www.q-meieriene.no/produkter/q-melk-lett-0-5",
+   "why": "duplicate (round C): Q Lettmelk Med Gode Melkesyrebakterier 0,5% -> Q Lettmelk 0,5%"
+  },
+  {
    "id": "ean:7050122305166",
    "into": "ean:7050122106152",
    "why": "merge_duplicates: Kims Rifla Salt -> Maarud Potetgull Rifla"
+  },
+  {
+   "id": "ean:7051860305401",
+   "into": "ean:7051860305333",
+   "why": "duplicate (round C): Sildakongens Gaffelbit Tom -> Gaffelbit"
+  },
+  {
+   "id": "ean:7053260220742",
+   "into": "ean:7053260220643",
+   "why": "duplicate (round C): Saga vaniljesukker pose -> Saga ekte vaniljesukker pose"
+  },
+  {
+   "id": "ean:7058040443601",
+   "into": "ean:7058040452207",
+   "why": "duplicate (round C): Grilstad Nistesalami Bordpakning -> Grilstad Nistesalami"
+  },
+  {
+   "id": "ean:7058040613301",
+   "into": "ean:7058040452207",
+   "why": "duplicate (round C): Grilstad Nistesalami -> Grilstad Nistesalami"
+  },
+  {
+   "id": "ean:7059330075519",
+   "into": "ean:7059330075557",
+   "why": "duplicate (round C): Pastasaus -> Pastasaus med tomat og urter"
   },
   {
    "id": "ean:7059720000039",
@@ -3959,9 +5489,24 @@
    "why": "merge_duplicates: Gårdsegg L/XL -> Egg Hvite"
   },
   {
+   "id": "ean:7070866024765",
+   "into": "ean:7070866009113",
+   "why": "duplicate (round C): Nutrilett Bar Crunch Seasalt & chocolate 4-p -> Nutrilett Viktkontroll Bar Chocolate Crunch Seasalt"
+  },
+  {
+   "id": "ean:7071012007045",
+   "into": "ean:7071012003054",
+   "why": "duplicate (round C): Buer Lomper -> Buer Original lomper"
+  },
+  {
    "id": "ean:7071026100213",
    "into": "ean:7071026100084",
    "why": "merge_duplicates: Wienerpølse -> Pølse (Wienerpølser)"
+  },
+  {
+   "id": "ean:7071341002520",
+   "into": "ean:7071341002711",
+   "why": "duplicate (round C): Brødrene Ringstad Grove Karbonader med Løk -> Brødr Ringstad Grove Karbonader"
   },
   {
    "id": "ean:7071688000593",
@@ -3969,9 +5514,54 @@
    "why": "duplicate: Sørlandschips Havsalt -> Sørlandschips Havsalt"
   },
   {
+   "id": "ean:7071688005376",
+   "into": "ean:7071688005888",
+   "why": "duplicate (round C): Sørlandschips Tynn&sprø Med Smak Av Rømme, Chili Og Lime -> Sørlandschips Tynn & Sprø med smak av Rømme, Chili & Lime"
+  },
+  {
+   "id": "ean:7071688005871",
+   "into": "ean:7071688003082",
+   "why": "duplicate (round C): Sørlandschips Tynn Og Sprø Chips Havsalt & Kvernet Pepper -> Sørlandschips Tynn & Sprø Havsalt & Kvernet Pepper"
+  },
+  {
+   "id": "ean:7072175800726",
+   "into": "ean:7072175800603",
+   "why": "duplicate (round C): Ytterøy Kyllingfilet -> Ytterøy Kyllingfilet Naturell Strimlet"
+  },
+  {
+   "id": "ean:7072175800931",
+   "into": "ean:7072175803840",
+   "why": "duplicate (round C): Ytterøy Kylling Butterfly Naturell -> Ytterøy Kylling Naturell"
+  },
+  {
+   "id": "ean:7072175802706",
+   "into": "ean:7072175800603",
+   "why": "duplicate (round C): Ytterøy Kyllingfilet Strimlet Naturell -> Ytterøy Kyllingfilet Naturell Strimlet"
+  },
+  {
+   "id": "ean:7072175804748",
+   "into": "ean:7072175800603",
+   "why": "duplicate (round C): Ytterøy Kyllingfilet Naturell -> Ytterøy Kyllingfilet Naturell Strimlet"
+  },
+  {
+   "id": "ean:7072350050434",
+   "into": "ean:7072350052186",
+   "why": "duplicate (round C): Mydland Ternet Bacon -> Mydland Bacon"
+  },
+  {
+   "id": "ean:7072836001141",
+   "into": "ean:7072836001110",
+   "why": "duplicate (round C): Favorittgull -> Favorittgull"
+  },
+  {
    "id": "ean:7073103000003",
    "into": "ean:7031540003469",
    "why": "duplicate: Crispisalat -> Bama Crispi Salat pakke"
+  },
+  {
+   "id": "ean:7073298000017",
+   "into": "ean:7073298000352",
+   "why": "duplicate (round C): Havsnø flaksalt -> Rifla VM-chips Havsnø flaksalt"
   },
   {
    "id": "ean:7090000515027",
@@ -3979,9 +5569,34 @@
    "why": "merge_duplicates: Gårdsegg -> Egg Frittgående"
   },
   {
+   "id": "ean:7090000700041",
+   "into": "ean:7090000700027",
+   "why": "duplicate (round C): Brune/Kvite Egg -> Brune Egg"
+  },
+  {
+   "id": "ean:7090000700058",
+   "into": "ean:7090000700027",
+   "why": "duplicate (round C): Egg -> Brune Egg"
+  },
+  {
    "id": "ean:7090004539630",
    "into": "ean:7037400058457",
    "why": "store label: Meny Nypresset Appelsinjuice -> Appelsinjuice"
+  },
+  {
+   "id": "ean:7090006633251",
+   "into": "ean:7090006633213",
+   "why": "duplicate (round C): Eplemost -> Eplemost"
+  },
+  {
+   "id": "ean:7090006869599",
+   "into": "ean:7073599000396",
+   "why": "duplicate (round C): Stange Grillspyd av Kylling Med Grillmarinade -> Stange Grillspyd Av Kylling"
+  },
+  {
+   "id": "ean:7090007391136",
+   "into": "norgesgruppen:23792082",
+   "why": "duplicate (round C): Aronmat Fenalår -> Aronmat Fenalår Villsau"
   },
   {
    "id": "ean:7090014260159",
@@ -3989,9 +5604,54 @@
    "why": "duplicate: Jordbær Norske -> Jordbær, rå"
   },
   {
+   "id": "ean:7090015509004",
+   "into": "ean:7090015509059",
+   "why": "duplicate (round C): Egg Holte -> Holte gård Unghøne Egg"
+  },
+  {
+   "id": "ean:7090015733805",
+   "into": "norgesgruppen:23811946",
+   "why": "duplicate (round C): Rakfisk skivet -> Rakfisk"
+  },
+  {
+   "id": "ean:7090017541323",
+   "into": "ean:7090017540012",
+   "why": "duplicate (round C): Funksjonell Mat Sukrin:1 -> Funksjonell Mat Sukrin+"
+  },
+  {
+   "id": "ean:7090017541361",
+   "into": "ean:7090017540746",
+   "why": "duplicate (round C): Funksjonell Mat Chiabrød -> Funksjonell Mat Sunnere Chiabrød"
+  },
+  {
+   "id": "ean:7090017542375",
+   "into": "ean:7090017540012",
+   "why": "duplicate (round C): Funksjonell Mat Sukrin:1 -> Funksjonell Mat Sukrin+"
+  },
+  {
+   "id": "ean:7090023904501",
+   "into": "norgesgruppen:23798140",
+   "why": "duplicate (round C): Jens Eide Salami Snabb -> Jens Eide Salami"
+  },
+  {
+   "id": "ean:7090028512046",
+   "into": "norgesgruppen:23870712",
+   "why": "duplicate (round C): Laks Midloin 1/2 -> Laks Midloin"
+  },
+  {
+   "id": "ean:7090028512053",
+   "into": "norgesgruppen:23870713",
+   "why": "duplicate (round C): Laks Backloin 1/2 -> Laks Backloin"
+  },
+  {
    "id": "ean:7090029565102",
    "into": "matvaretabellen:04.220",
    "why": "duplicate: Laks Porsjonsbiter -> Laks, oppdrett, rå"
+  },
+  {
+   "id": "ean:7090040913098",
+   "into": "ean:7090040917386",
+   "why": "duplicate (round C): Salsiccia -> RÅTASS Salsiccia"
   },
   {
    "id": "ean:7090042481625",
@@ -4004,6 +5664,16 @@
    "why": "duplicate: Røyland Blåbær -> Blåbær, rå"
   },
   {
+   "id": "ean:7090048378349",
+   "into": "ean:7090048371654",
+   "why": "duplicate (round C): Nøtteblanderen Ovnsristede Cashewnøtter XXL -> Nøtteblanderen Cashewnøtter"
+  },
+  {
+   "id": "ean:7090050581324",
+   "into": "ean:7090050581621",
+   "why": "duplicate (round C): Spekeskinke Benfri -> Spekeskinke"
+  },
+  {
    "id": "ean:7090069360019",
    "into": "ean:7040515007692",
    "why": "merge_duplicates: Klimatomater -> Tomat Cherry"
@@ -4012,6 +5682,101 @@
    "id": "ean:7090072150034",
    "into": "matvaretabellen:04.220",
    "why": "duplicate: Lakseporsjoner -> Laks, oppdrett, rå"
+  },
+  {
+   "id": "ean:7090077774303",
+   "into": "ean:7092344446180",
+   "why": "duplicate (round C): BodyFuel Whey Double Chocolate -> BodyFuel Whey"
+  },
+  {
+   "id": "ean:7092344446029",
+   "into": "ean:7090069699423",
+   "why": "duplicate (round C): SunnRask Tørket Mango (uten sukker) -> SunnRask Tørket Mango"
+  },
+  {
+   "id": "ean:7300156462916",
+   "into": "ean:7300156598813",
+   "why": "duplicate (round C): Coop Småblad Mâche -> Coop Mâche"
+  },
+  {
+   "id": "ean:7300200760005",
+   "into": "ean:7300204137001",
+   "why": "duplicate (round C): Scan Julskinka -> Scan Svensk Julskinka"
+  },
+  {
+   "id": "ean:7300201239005",
+   "into": "ean:7300204137001",
+   "why": "duplicate (round C): Scan Gourmet Julskinka -> Scan Svensk Julskinka"
+  },
+  {
+   "id": "ean:7300202739009",
+   "into": "ean:7300202713009",
+   "why": "duplicate (round C): Scan Kokt Medwurst -> Scan Svensk Kokt medwurst"
+  },
+  {
+   "id": "ean:7300206831006",
+   "into": "ean:7300206866008",
+   "why": "duplicate (round C): Scan Svensk Blandfärs -> Scan Blandfärs"
+  },
+  {
+   "id": "ean:7300207088003",
+   "into": "ean:7300207273003",
+   "why": "duplicate (round C): Scan Svensk prinskorv -> Scan Prinskorv"
+  },
+  {
+   "id": "ean:7300298919002",
+   "into": "ean:7300298920008",
+   "why": "duplicate (round C): Scan Hamburgare Orginal -> Scan Hamburgare"
+  },
+  {
+   "id": "ean:7300328123003",
+   "into": "ean:2332804010038",
+   "why": "duplicate (round C): Kronfågel Minutstrimlor kycklingfilé -> Kronfågel Kycklingfilé"
+  },
+  {
+   "id": "ean:7300328135006",
+   "into": "ean:2332804010038",
+   "why": "duplicate (round C): Kronfågel Minutstrimlor Strimlad Kycklingfilé -> Kronfågel Kycklingfilé"
+  },
+  {
+   "id": "ean:7300328139004",
+   "into": "ean:2332804010038",
+   "why": "duplicate (round C): Kronfågel Tärnad Kycklingfilé -> Kronfågel Kycklingfilé"
+  },
+  {
+   "id": "ean:7300400375504",
+   "into": "ean:7340005403196",
+   "why": "duplicate (round C): OLW Jordnötter -> OLW Jordnötter"
+  },
+  {
+   "id": "ean:7310070008770",
+   "into": "ean:7310070006769",
+   "why": "duplicate (round C): Wild Strawberry Drink -> Festis Wild Strawberry"
+  },
+  {
+   "id": "ean:7310070010674",
+   "into": "ean:7310070005175",
+   "why": "duplicate (round C): Daylight -> Daylight Alcohol Free IPA"
+  },
+  {
+   "id": "ean:7310072000666",
+   "into": "ean:7310072000987",
+   "why": "duplicate (round C): Original Ljus Lager Folköl -> Eriksberg Original Folköl"
+  },
+  {
+   "id": "ean:7310130003561",
+   "into": "ean:7310130003547",
+   "why": "duplicate (round C): Kungsörnen Gammaldags Ideal makaroner -> Kungsörnen Ideal Makaroner"
+  },
+  {
+   "id": "ean:7310240060072",
+   "into": "ean:7310240060638",
+   "why": "duplicate (round C): Felix Tomatketchup Original -> Felix Tomatketchup"
+  },
+  {
+   "id": "ean:7310240060362",
+   "into": "ean:7310240060638",
+   "why": "duplicate (round C): Felix Tomatketchup Original Megapack -> Felix Tomatketchup"
   },
   {
    "id": "ean:7310340111483",
@@ -4029,6 +5794,11 @@
    "why": "merge_duplicates: Marabou Non Stop -> Freia Non Stop"
   },
   {
+   "id": "ean:7310511216306",
+   "into": "ean:7310511216405",
+   "why": "duplicate (round C): Marabou Schweizernöt chocolate -> Marabou Schweizernöt"
+  },
+  {
    "id": "ean:7310511250706",
    "into": "ean:7310511257507",
    "why": "merge_duplicates: Daim Singel -> Daim Dobbel"
@@ -4039,9 +5809,329 @@
    "why": "merge_duplicates: Ballerina Original -> Ballerina Kjeks"
   },
   {
+   "id": "ean:7310525501511",
+   "into": "ean:7310525501412",
+   "why": "duplicate (round C): Jätten -> Göteborgs Kex Jätten"
+  },
+  {
+   "id": "ean:7310532105382",
+   "into": "ean:7310532106617",
+   "why": "duplicate (round C): Estrella sourcream & ranch -> Estrella Ranch Sourcream"
+  },
+  {
+   "id": "ean:7310861000426",
+   "into": "ean:7310861000495",
+   "why": "duplicate (round C): Norrmejerier Färsk Mjölk 3,0% -> Norrmejerier Mjölk 3,0%"
+  },
+  {
+   "id": "ean:7310865001115",
+   "into": "ean:7310865001191",
+   "why": "duplicate (round C): Arla Färsk Lättmjölk 0,5% -> Arla Lättmjölk 0,5%"
+  },
+  {
+   "id": "ean:7310865075192",
+   "into": "ean:7310865067883",
+   "why": "duplicate (round C): Arla Ekologisk Mellanmjölk Laktosfri 1,5% -> Arla Ekologisk Mellanmjölk Laktosfri 1,5%"
+  },
+  {
+   "id": "ean:7310865093523",
+   "into": "ean:7310865067944",
+   "why": "duplicate (round C): Arla Lättmjölk Laktosfri 0,5% -> Arla Lättmjölk Laktosfri 0,5%"
+  },
+  {
+   "id": "ean:7310865684752",
+   "into": "ean:7310865684707",
+   "why": "duplicate (round C): Arla Vispgrädde 40% -> Arla Färsk Vispgrädde 40%"
+  },
+  {
+   "id": "ean:7310867000178",
+   "into": "ean:7310867500319",
+   "why": "duplicate (round C): Skånemejerier Färsk Mjölk 3,0% -> Skånemejerier Mjölk 3,0%"
+  },
+  {
+   "id": "ean:7310867502719",
+   "into": "ean:7310867501644",
+   "why": "duplicate (round C): Skånemejerier Lättmjölk Laktosfri 0,5% -> Skånemejerier Lättmjölk Laktosfri 0,5%"
+  },
+  {
+   "id": "ean:7310867561709",
+   "into": "ean:7310867000369",
+   "why": "duplicate (round C): Bravo Originalet Apelsinjuice -> Apelsinjuice"
+  },
+  {
+   "id": "ean:7310890100333",
+   "into": "ean:7310890100685",
+   "why": "duplicate (round C): Frödinge Grödinge ostkaka -> Frödinge Ostkaka"
+  },
+  {
+   "id": "ean:7311041064375",
+   "into": "ean:7311041064337",
+   "why": "duplicate (round C): Garant 15 ägg från frigående höns inomhus -> Garant Ägg"
+  },
+  {
+   "id": "ean:7311041070406",
+   "into": "ean:7340083457609",
+   "why": "duplicate (round C): Garant Ekologisk Mjölk 3,0% -> Garant Ekologisk Mjölk 3,0%"
+  },
+  {
+   "id": "ean:7311043002436",
+   "into": "ean:7311043002429",
+   "why": "duplicate (round C): Garant Ägg 15p Frigående Inomhus Medium -> Garant Frigående Inomhus"
+  },
+  {
+   "id": "ean:7311043002542",
+   "into": "ean:7311043002528",
+   "why": "duplicate (round C): Garant Basmatiris boil in bag -> Garant Basmatiris"
+  },
+  {
+   "id": "ean:7311043004911",
+   "into": "ean:7311043004928",
+   "why": "duplicate (round C): Garant Majskorn Burk -> Garant Majskorn"
+  },
+  {
+   "id": "ean:7311043008346",
+   "into": "ean:7311043016433",
+   "why": "duplicate (round C): Garant Fusilli No 57 -> Garant Fusilli"
+  },
+  {
+   "id": "ean:7311043014316",
+   "into": "ean:7311043019113",
+   "why": "duplicate (round C): Garant svenska ägg från höns L -> Garant Ägg L"
+  },
+  {
+   "id": "ean:7311043019175",
+   "into": "ean:7311043002429",
+   "why": "duplicate (round C): Garant Svenska Ägg Från Höns Frigående Inomhus -> Garant Frigående Inomhus"
+  },
+  {
+   "id": "ean:7311043029372",
+   "into": "ean:7340083477188",
+   "why": "duplicate (round C): Garant Falukorv -> Garant Svensk Falukorv"
+  },
+  {
+   "id": "ean:7311310032005",
+   "into": "ean:7311312008077",
+   "why": "duplicate (round C): Santa Maria Nacho Chips St.Maria -> Santa Maria Nacho Chips"
+  },
+  {
+   "id": "ean:7311311012594",
+   "into": "ean:7311310034474",
+   "why": "duplicate (round C): Santa Maria Asian Spices Tom Kha Soup -> Santa Maria Tom Kha Soup"
+  },
+  {
+   "id": "ean:7311311012693",
+   "into": "ean:7311311003486",
+   "why": "duplicate (round C): Santa Maria Tandoori -> Santa Maria Indian Spices Tandoori Chicken"
+  },
+  {
+   "id": "ean:7311312006363",
+   "into": "ean:7311312009418",
+   "why": "duplicate (round C): Santa Maria American style BBQ sauce roasted garlic -> Santa Maria Roasted Garlic BBQ Sauce"
+  },
+  {
+   "id": "ean:7311312006929",
+   "into": "ean:7311312007834",
+   "why": "duplicate (round C): Santa Maria Strips Chili -> Santa Maria Tortilla Strips Sweet Chili"
+  },
+  {
+   "id": "ean:7311360000016",
+   "into": "ean:7311360544008",
+   "why": "duplicate (round C): Kräftmarinerad Sill -> Kräftmarinerad sill"
+  },
+  {
+   "id": "ean:7311800351708",
+   "into": "ean:7311800009586",
+   "why": "duplicate (round C): Polarbrød Fullkorn -> Polarbrød Polarpärlan Fullkorn"
+  },
+  {
+   "id": "ean:7311800374707",
+   "into": "ean:7311800373700",
+   "why": "duplicate (round C): Polarbrød Hvete -> Polarbrød Hvete"
+  },
+  {
+   "id": "ean:7311870011083",
+   "into": "ean:7311870010932",
+   "why": "duplicate (round C): Arla Bregott Smör Mellan -> Arla Bregott Mellan"
+  },
+  {
+   "id": "ean:7312060502497",
+   "into": "ean:7312060501179",
+   "why": "duplicate (round C): Triumf Glass Gräddglass Himmelsk Röra -> Triumf Glass Gräddglass Himmelsk röra"
+  },
+  {
+   "id": "ean:7312690800345",
+   "into": "ean:7312690117047",
+   "why": "duplicate (round C): Sia Sandwich -> Sia Ice Cream Sandwich"
+  },
+  {
+   "id": "ean:7313160000265",
+   "into": "ean:7313160006106",
+   "why": "duplicate (round C): Hushåll -> Mjukost Smakrik Hushåll"
+  },
+  {
+   "id": "ean:7313619002857",
+   "into": "ean:7313619001218",
+   "why": "duplicate (round C): Brämhults Bringebær -> Brämhults Smoothie Bringebær"
+  },
+  {
+   "id": "ean:7313940012600",
+   "into": "ean:2307136108203",
+   "why": "duplicate (round C): Guldfågeln Färsk Strimlad Kycklinglårfilé -> Guldfågeln Kycklinglårfilé"
+  },
+  {
+   "id": "ean:7313940522802",
+   "into": "ean:7313940011566",
+   "why": "duplicate (round C): Guldfågeln Svenska Kycklingbröstfiléer -> Guldfågeln Kycklingbröstfiléer"
+  },
+  {
+   "id": "ean:7316150777581",
+   "into": "ean:7316150777475",
+   "why": "duplicate (round C): Fontana Oliver av sorten Halkidiki Utan Kärnor -> Fontana Halkidiki Oliver utan kärnor"
+  },
+  {
+   "id": "ean:7316150980554",
+   "into": "ean:7316150980530",
+   "why": "duplicate (round C): Fontana Pizzabotten -> Fontana Stenungsbakad Pizzabotten"
+  },
+  {
+   "id": "ean:7316260001590",
+   "into": "ean:7316260001576",
+   "why": "duplicate (round C): Kalas Isterband -> Isterband"
+  },
+  {
+   "id": "ean:7318690028574",
+   "into": "ean:7318690097235",
+   "why": "duplicate (round C): ICA Grekiska Oliver, Kärnor -> ICA Grekiska Oliver"
+  },
+  {
+   "id": "ean:7318690029861",
+   "into": "ean:7318690029830",
+   "why": "duplicate (round C): ICA Oliver -> ICA Spanska Oliver"
+  },
+  {
+   "id": "ean:7318690043782",
+   "into": "ean:7318690032977",
+   "why": "duplicate (round C): ICA Gyllengula ägg -> ICA Ägg"
+  },
+  {
+   "id": "ean:7318690055693",
+   "into": "ean:0318994055693",
+   "why": "duplicate (round C): ICA Tortilla Small Size -> ICA Tortilla"
+  },
+  {
+   "id": "ean:7318690066903",
+   "into": "ean:7318690032977",
+   "why": "duplicate (round C): ICA Ägg 6 st -> ICA Ägg"
+  },
+  {
+   "id": "ean:7318690089216",
+   "into": "ean:7318690089209",
+   "why": "duplicate (round C): ICA Pasta -> ICA Pasta Penne"
+  },
+  {
+   "id": "ean:7318690095903",
+   "into": "ean:7318690032977",
+   "why": "duplicate (round C): ICA Ägg 20st Från Frigående Höns Inomhus -> ICA Ägg"
+  },
+  {
+   "id": "ean:7318690125297",
+   "into": "ean:7318690105220",
+   "why": "duplicate (round C): ICA Gräddost 38% -> ICA Gräddost Mild 38%"
+  },
+  {
+   "id": "ean:7318690135180",
+   "into": "ean:7318690032977",
+   "why": "duplicate (round C): ICA Ägg Utomhus M-L -> ICA Ägg"
+  },
+  {
+   "id": "ean:7318690142843",
+   "into": "ean:7318690142850",
+   "why": "duplicate (round C): ICA Ketchup -> ICA Tomat Ketchup"
+  },
+  {
+   "id": "ean:7318690153795",
+   "into": "ean:7318690506621",
+   "why": "duplicate (round C): ICA Delikatesspotatis Amandine -> ICA Delikatesspotatis"
+  },
+  {
+   "id": "ean:7318690164494",
+   "into": "ean:7318690164531",
+   "why": "duplicate (round C): ICA Klassiska Köttbullar -> ICA Köttbullar"
+  },
+  {
+   "id": "ean:7318690172253",
+   "into": "ean:7318690032977",
+   "why": "duplicate (round C): ICA Brunch ägg -> ICA Ägg"
+  },
+  {
+   "id": "ean:7318690176176",
+   "into": "ean:7318690105664",
+   "why": "duplicate (round C): ICA Svensk Potatis, Fast och Fyllig Ugns & Bak -> ICA Fast Potatis"
+  },
+  {
+   "id": "ean:7318690182412",
+   "into": "ean:3351664137814",
+   "why": "duplicate (round C): ICA Tärnat bacon -> ICA Bacon"
+  },
+  {
+   "id": "ean:7318690186168",
+   "into": "ean:7318690105664",
+   "why": "duplicate (round C): ICA Potatis -> ICA Fast Potatis"
+  },
+  {
+   "id": "ean:7318690186847",
+   "into": "ean:7318690186830",
+   "why": "duplicate (round C): ICA Grillost -> ICA Grillost Norrländsk 24%"
+  },
+  {
+   "id": "ean:7318690488897",
+   "into": "ean:7318690113621",
+   "why": "duplicate (round C): ICA Bondbröd -> ICA Halländskt bondbröd"
+  },
+  {
+   "id": "ean:7318690494850",
+   "into": "ean:7318690032977",
+   "why": "duplicate (round C): ICA Ägg Från Frigående Höns Inomhus -> ICA Ägg"
+  },
+  {
+   "id": "ean:7318690497677",
+   "into": "ean:7318690497660",
+   "why": "duplicate (round C): ICA Flax Seed (Linfrön) -> ICA Linfrön"
+  },
+  {
+   "id": "ean:7318690507208",
+   "into": "ean:7318690507192",
+   "why": "duplicate (round C): ICA Coleslaw -> ICA Coleslaw"
+  },
+  {
+   "id": "ean:7318690697121",
+   "into": "ean:7318690185260",
+   "why": "duplicate (round C): ICA Spansk MAKRILL FILÉ i tomatsås -> ICA Makrill filé"
+  },
+  {
+   "id": "ean:7318693441394",
+   "into": "ean:7318690506348",
+   "why": "duplicate (round C): ICA Ekologisk Fast Potatis -> ICA Fast Potatis Ekologisk"
+  },
+  {
+   "id": "ean:7323130010354",
+   "into": "ean:7311043022151",
+   "why": "duplicate (round C): Garant Jordgubbar -> Garant Svenska jordgubbar"
+  },
+  {
    "id": "ean:7330869002307",
    "into": "ean:5700417000703",
    "why": "merge_duplicates: Cloetta Fox -> Malaco Fox"
+  },
+  {
+   "id": "ean:7332489003115",
+   "into": "ean:7332489004303",
+   "why": "duplicate (round C): 10 Ägg Stjärnägg Frigående -> Stjärnägg Ägg"
+  },
+  {
+   "id": "ean:7332489004648",
+   "into": "ean:7332489004112",
+   "why": "duplicate (round C): Stjärnägg Västkustägg strl M -> Stjärnägg Västkustägg"
   },
   {
    "id": "ean:7340001802665",
@@ -4049,9 +6139,309 @@
    "why": "duplicate: Barebells Proteinbar Lemon Curd White Chocolate -> Barebells Proteinbar"
   },
   {
+   "id": "ean:7340001805321",
+   "into": "ean:7340001805376",
+   "why": "duplicate (round C): Barebells Fast Food Måltidserstatning -> Barebells Fast Food"
+  },
+  {
+   "id": "ean:7340005402915",
+   "into": "ean:7340005403509",
+   "why": "duplicate (round C): OLW Saltade Chips Maxibag -> OLW Saltade"
+  },
+  {
+   "id": "ean:7340005405237",
+   "into": "ean:7340005405244",
+   "why": "duplicate (round C): OLW Saltade Popcorn Micro-Pop -> OLW Popcorn"
+  },
+  {
+   "id": "ean:7340005407163",
+   "into": "ean:7340005407040",
+   "why": "duplicate (round C): OLW OWL cheez Ballz -> OLW Cheez Ballz"
+  },
+  {
+   "id": "ean:7340011351801",
+   "into": "ean:7340191154094",
+   "why": "duplicate (round C): Coop Manzanilla Spanish Olives with Pimiento -> Coop Spanish Olives Manzanilla"
+  },
+  {
    "id": "ean:7340011360797",
    "into": "ean:2373112116111",
    "why": "duplicate: Coop Laksefilet uten Skinn -> Coop Laks"
+  },
+  {
+   "id": "ean:7340011443735",
+   "into": "ean:7340011315162",
+   "why": "duplicate (round C): Coop Spaghetti No 5 -> Coop Spaghetti"
+  },
+  {
+   "id": "ean:7340011467007",
+   "into": "ean:7300156485496",
+   "why": "duplicate (round C): Coop Bolognese -> Coop Dagens Pasta Bolognese"
+  },
+  {
+   "id": "ean:7340011471240",
+   "into": "ean:7340011471233",
+   "why": "duplicate (round C): Coop Jumbo Pitabrød -> Coop Pitabrød"
+  },
+  {
+   "id": "ean:7340012519002",
+   "into": "ean:7340012500536",
+   "why": "duplicate (round C): Färsk Italiensk Salsiccia -> Färsk Italiensk"
+  },
+  {
+   "id": "ean:7340028824695",
+   "into": "ean:7340028824688",
+   "why": "duplicate (round C): Triple Whey -> Triple Whey , Sjokolade"
+  },
+  {
+   "id": "ean:7340045502057",
+   "into": "ean:7311043007967",
+   "why": "duplicate (round C): Garant Hamburgare -> Garant Hamburgare Av Nötkött"
+  },
+  {
+   "id": "ean:7340083427466",
+   "into": "ean:7340083427473",
+   "why": "duplicate (round C): Eldorado Bacon Skivat -> Eldorado Skivat Bacon"
+  },
+  {
+   "id": "ean:7340083433634",
+   "into": "ean:7311043020010",
+   "why": "duplicate (round C): Garant Sötmandel Naturell -> Garant Sötmandel"
+  },
+  {
+   "id": "ean:7340083435973",
+   "into": "ean:7340083440489",
+   "why": "duplicate (round C): Garant Mellanmjölk Laktosfri 1,5% -> Garant Mellanmjölk Laktosfri 1,5%"
+  },
+  {
+   "id": "ean:7340083445088",
+   "into": "ean:7311043018789",
+   "why": "duplicate (round C): Garant 15 ekologiska ägg från frigående höns -> Garant Ekologiska Ägg"
+  },
+  {
+   "id": "ean:7340083467875",
+   "into": "ean:7340083443886",
+   "why": "duplicate (round C): Garant Mjölk 3,0% -> Garant Mjölk 3,0%"
+  },
+  {
+   "id": "ean:7340083472923",
+   "into": "ean:7311043016280",
+   "why": "duplicate (round C): Lax -> Grytbitar Av Lax"
+  },
+  {
+   "id": "ean:7340083474576",
+   "into": "ean:7340083479410",
+   "why": "duplicate (round C): Garant Smal Kabanoss -> Garant Kabanoss"
+  },
+  {
+   "id": "ean:7340083475627",
+   "into": "ean:7340083475580",
+   "why": "duplicate (round C): Garant Potatis -> Garant Fast potatis"
+  },
+  {
+   "id": "ean:7340083487781",
+   "into": "ean:7311041064337",
+   "why": "duplicate (round C): Garant Frigående Inomhus Ägg -> Garant Ägg"
+  },
+  {
+   "id": "ean:7340191105423",
+   "into": "ean:7340011315186",
+   "why": "duplicate (round C): Coop Fusilli -> Coop Pasta Fusilli"
+  },
+  {
+   "id": "ean:7340191117990",
+   "into": "ean:7340011486893",
+   "why": "duplicate (round C): Coop Rød Cheddar 35% -> Coop Cheddar 35%"
+  },
+  {
+   "id": "ean:7340191120389",
+   "into": "ean:7025110225887",
+   "why": "duplicate (round C): Coop Chili Grillost -> Coop Grillost Chili"
+  },
+  {
+   "id": "ean:7340191144750",
+   "into": "ean:7340011476276",
+   "why": "duplicate (round C): Coop Farfalle Durumpasta -> Coop Durumpasta"
+  },
+  {
+   "id": "ean:7340191144811",
+   "into": "ean:7340011476276",
+   "why": "duplicate (round C): Coop Ruote Durumpasta -> Coop Durumpasta"
+  },
+  {
+   "id": "ean:7340224406060",
+   "into": "ean:7340224409665",
+   "why": "duplicate (round C): Body Science Whey 100 French Vanilla -> Body Science Whey French Vanilla"
+  },
+  {
+   "id": "ean:7340224406954",
+   "into": "ean:7340224402512",
+   "why": "duplicate (round C): Body Science Whey 100%, Strawberry -> Body Science 100% Whey Strawberry"
+  },
+  {
+   "id": "ean:7350000552935",
+   "into": "ean:5410146410581",
+   "why": "duplicate (round C): Actimel Drikkeyoghurt -> Actimel Drikkeyoghurt"
+  },
+  {
+   "id": "ean:7350001321240",
+   "into": "ean:7350001321967",
+   "why": "duplicate (round C): Delivida Mozzarella 21% -> Delivida Mozzarella Riven 21%"
+  },
+  {
+   "id": "ean:7350002395004",
+   "into": "ean:7313160019885",
+   "why": "duplicate (round C): Bearnaise -> Bearnaise"
+  },
+  {
+   "id": "ean:7350002400326",
+   "into": "ean:7350002400340",
+   "why": "duplicate (round C): Zeta Olio extra vergine di oliva classico -> Zeta Olio extra vergine di oliva"
+  },
+  {
+   "id": "ean:7350002404300",
+   "into": "ean:7350002401828",
+   "why": "duplicate (round C): Zeta Grana Padano -> Zeta Grana Padano 29%"
+  },
+  {
+   "id": "ean:7350005701284",
+   "into": "ean:7350005701291",
+   "why": "duplicate (round C): Lättkorv -> Lättkorv 15%"
+  },
+  {
+   "id": "ean:7350011740390",
+   "into": "ean:7350011741267",
+   "why": "duplicate (round C): Nuggets -> Chicken Nuggets"
+  },
+  {
+   "id": "ean:7350027798217",
+   "into": "ean:7350027797227",
+   "why": "duplicate (round C): Zeta Gentile Olivolja Mild -> Zeta Olivolja Gentile"
+  },
+  {
+   "id": "ean:7350037192524",
+   "into": "ean:7350037194566",
+   "why": "duplicate (round C): Växtbaserad Bratwurst -> Bratwurst"
+  },
+  {
+   "id": "ean:7350042721788",
+   "into": "ean:7350042721689",
+   "why": "duplicate (round C): Max Dressing -> Max Original Dressing"
+  },
+  {
+   "id": "ean:7350044502491",
+   "into": "ean:7350044501210",
+   "why": "duplicate (round C): Fairing Complete Protein 3 , Chocolate Toffee -> Fairing Complete Protein 3 Proteinpulver Chocolate Toffee"
+  },
+  {
+   "id": "ean:7350046221710",
+   "into": "ean:7350046227590",
+   "why": "duplicate (round C): Powerfruits Ekologiska Pistagekärnor -> Powerfruits Ekologiska Pistagekärnor"
+  },
+  {
+   "id": "ean:7350076412492",
+   "into": "ean:7350076412805",
+   "why": "duplicate (round C): Iso Complex Toffee Caramel -> ISO Complex"
+  },
+  {
+   "id": "ean:7350077750012",
+   "into": "ean:7350077753983",
+   "why": "duplicate (round C): Gaam Whey Chocolate -> Gaam Whey"
+  },
+  {
+   "id": "ean:7350077750234",
+   "into": "ean:7350077753983",
+   "why": "duplicate (round C): Gaam Whey Strawberry White Chocolate -> Gaam Whey"
+  },
+  {
+   "id": "ean:7350077757783",
+   "into": "ean:7350077759961",
+   "why": "duplicate (round C): Gaam Toffee Soft Bar -> Gaam Soft bar Smooth Toffee"
+  },
+  {
+   "id": "ean:7350077758131",
+   "into": "ean:7340195400180",
+   "why": "duplicate (round C): Gaam Energidryck lemonade Energy SF -> Gaam Energidryck"
+  },
+  {
+   "id": "ean:7350094821610",
+   "into": "ean:7350094821634",
+   "why": "duplicate (round C): Solid Nutrition Strawberry White Chocolate Protein Isolate -> Solid Nutrition Isolate"
+  },
+  {
+   "id": "ean:7350102860129",
+   "into": "ean:7350102860853",
+   "why": "duplicate (round C): Moonvalley Oats & Dates bar Chocolate -> Moonvalley Oats & Dates Bar Chocolate & Sea"
+  },
+  {
+   "id": "ean:7350104402150",
+   "into": "ean:7350104402075",
+   "why": "duplicate (round C): Nick's strawberry white -> Nick's Strawberry White Ice Cream"
+  },
+  {
+   "id": "ean:7350116923698",
+   "into": "ean:7350116923681",
+   "why": "duplicate (round C): Twin Dragon Sesame Oil -> Twin Dragon Sesame Seed Oil"
+  },
+  {
+   "id": "ean:7350122293662",
+   "into": "ean:7350122560511",
+   "why": "duplicate (round C): Frödinge Citronkladdkaka med vit choklad -> Frödinge Citronkladdkaka"
+  },
+  {
+   "id": "ean:7350128390020",
+   "into": "ean:7350037197369",
+   "why": "duplicate (round C): Proteinkorv chorizo -> Proteinkorv-Chorizo"
+  },
+  {
+   "id": "ean:7350130121599",
+   "into": "ean:7350130121582",
+   "why": "duplicate (round C): Ella's Långkorningt Basmatiris -> Ella's Basmatiris"
+  },
+  {
+   "id": "ean:7358690502322",
+   "into": "ean:7318690502319",
+   "why": "duplicate (round C): ICA Mazarin -> ICA Mazarin klassisk"
+  },
+  {
+   "id": "ean:7376690064473",
+   "into": "ean:0318994055693",
+   "why": "duplicate (round C): ICA Tortilla Bröd large -> ICA Tortilla"
+  },
+  {
+   "id": "ean:7391835918275",
+   "into": "kungmarkatta:https://www.kungmarkatta.se/produkter/ris-gryn-och-pasta/fullkornsris-langt/",
+   "why": "duplicate (round C): Kung Markatta Långt Fullkornsris -> Kung Markatta Fullkornsris långt"
+  },
+  {
+   "id": "ean:7392031040685",
+   "into": "ean:7392031040654",
+   "why": "duplicate (round C): Johnny's Cheezy Jalapeño Chips -> Johnny's Cheezy Jalapeño Potato Chips"
+  },
+  {
+   "id": "ean:7393061001165",
+   "into": "ean:7393061001356",
+   "why": "duplicate (round C): Falköpings Mejeri Färsk Lättmjölk 0,5% -> Falköpings Mejeri Lättmjölk 0,5%"
+  },
+  {
+   "id": "ean:7393061001462",
+   "into": "ean:7393061001721",
+   "why": "duplicate (round C): Falköpings Mejeri Färsk Mellanmjölk 1,5% -> Falköpings Mejeri Mellanmjölk 1,5%"
+  },
+  {
+   "id": "ean:7393263064234",
+   "into": "ean:7393263064258",
+   "why": "duplicate (round C): Nyhléns Hugosons Norrlands Falukorv -> Nyhléns Hugosons Falukorv"
+  },
+  {
+   "id": "ean:7393720091322",
+   "into": "ean:7393720090226",
+   "why": "duplicate (round C): Allerum Prästost 35% -> Allerum Prästost 35%"
+  },
+  {
+   "id": "ean:7393720092442",
+   "into": "ean:7393720091452",
+   "why": "duplicate (round C): Allerum Grevé -> Allerum Greve 28%"
   },
   {
    "id": "ean:7394376616037",
@@ -4067,6 +6457,16 @@
    "id": "ean:7394376621697",
    "into": "ean:7394376619939",
    "why": "merge_duplicates: Oatly Havredrikke Ikaffe -> Oatly Havredrikk"
+  },
+  {
+   "id": "ean:7611612142571",
+   "into": "ean:7611612142212",
+   "why": "duplicate (round C): Pomodori Secchi Saltorkade tomater -> Pomodori secchi"
+  },
+  {
+   "id": "ean:7611612160889",
+   "into": "ean:7611612160896",
+   "why": "duplicate (round C): Lagrad Hårdost -> Fresca D'oro Lagrad Hårdost 26%"
   },
   {
    "id": "ean:7613034671103",
@@ -4114,6 +6514,11 @@
    "why": "merge_duplicates: Freia Daim Mini Xxl -> Daim Dobbel"
   },
   {
+   "id": "ean:7622210722683",
+   "into": "ean:7622202218187",
+   "why": "duplicate (round C): Marabou Jordgubb Limited Edition -> Marabou Jordgubb"
+  },
+  {
    "id": "ean:7622210882936",
    "into": "ean:1722021264788",
    "why": "merge_duplicates: M -> Freia M"
@@ -4132,6 +6537,21 @@
    "id": "ean:7622300348373",
    "into": "ean:7622300348342",
    "why": "merge_duplicates: Freia Twist Variant -> Marabou Twist"
+  },
+  {
+   "id": "ean:8004690632819",
+   "into": "ean:8004690052815",
+   "why": "duplicate (round C): Casarecce -> Pasta Casarecce"
+  },
+  {
+   "id": "ean:8006070132841",
+   "into": "ean:4260334140001",
+   "why": "duplicate (round C): Vego mini hasselnøttsjokolade -> Vego hasselnøttsjokolade"
+  },
+  {
+   "id": "ean:8010721991824",
+   "into": "ean:8010721977385",
+   "why": "duplicate (round C): Parmareggio Parmesan 30% -> Parmareggio Parmesan Trekant 30%"
   },
   {
    "id": "ean:8076800105988",
@@ -4175,8 +6595,18 @@
   },
   {
    "id": "ean:8715700415468",
-   "into": "ean:0000087157260",
+   "into": "ean:8715700016504",
    "why": "duplicate: Heinz Tomato Ketchup Unlimited Edition -> Heinz Tomato Ketchup"
+  },
+  {
+   "id": "ean:8717545140079",
+   "into": "ean:8717545140345",
+   "why": "duplicate (round C): Frasiga Fiskburgare -> Fiskburgare"
+  },
+  {
+   "id": "ean:8720211192487",
+   "into": "ean:8720211191800",
+   "why": "duplicate (round C): Bang Candy Apple -> Bang Energy Drink Candy Apple Crisp"
   },
   {
    "id": "ean:8722700696551",
@@ -4184,14 +6614,79 @@
    "why": "duplicate: Lipton Green Te -> Lipton Grønn Te"
   },
   {
+   "id": "ean:8936007820506",
+   "into": "ean:7350116921465",
+   "why": "duplicate (round C): Twin Dragon Vietnamese Rice Paper -> Twin Dragon Rice Paper"
+  },
+  {
+   "id": "ean:8992388145577",
+   "into": "ean:8989388145492",
+   "why": "duplicate (round C): ABC super spicy -> Super Spicy Instant Fried Noodle Spicy Chicken"
+  },
+  {
+   "id": "ean:9002490215699",
+   "into": "ean:9002490215408",
+   "why": "duplicate (round C): Energidryck 8-p Red Bull -> Energidryck Red Bull"
+  },
+  {
+   "id": "ean:9002490291471",
+   "into": "ean:9002490215408",
+   "why": "duplicate (round C): Energidryck Red Bull -> Energidryck Red Bull"
+  },
+  {
+   "id": "ean:9002490292959",
+   "into": "ean:9002490294168",
+   "why": "duplicate (round C): Red Bull Sudachi Lime -> Red Bull The Summer Edition Sudachi Lime"
+  },
+  {
+   "id": "ean:9002490293185",
+   "into": "ean:9002490291235",
+   "why": "duplicate (round C): Energidryck Edition sockerfri Red Bull -> Energidryck Sockerfri Red Bull"
+  },
+  {
    "id": "ean:9002490293277",
    "into": "ean:9002490279745",
    "why": "duplicate: Energidryck Red Bull Zero Red Bull -> Red Bull Zero"
   },
   {
+   "id": "ean:9311594088055",
+   "into": "ean:7340083477188",
+   "why": "duplicate (round C): Garant Svensk Falukorv -> Garant Svensk Falukorv"
+  },
+  {
+   "id": "gymgrossisten-discontinued:https://www.gymgrossisten.no/whey-gold-standard-protein-22kg-creatine-187g/SETWGSCREATINE187.html",
+   "into": "gymgrossisten-discontinued:https://www.gymgrossisten.no/whey-gold-standard-22kg-creatine-300g/SETWGS2CREATINE.html",
+   "why": "duplicate (round C): Optimum Nutrition Whey gold standard Protein + Creatine -> Optimum Nutrition Whey Gold Standard + Creatine"
+  },
+  {
+   "id": "gymgrossisten-se:https://www.gymgrossisten.com/critical-mass-6-kg-shaker-pa-kopet/SETCRITICALMASSSHAKER.html",
+   "into": "ean:5056555204504",
+   "why": "duplicate (round C): Applied Nutrition Critical Mass + Shaker på köpet -> Applied Nutrition Critical Mass"
+  },
+  {
+   "id": "kassalapp:213275",
+   "into": "tine:https://www.tine.no/merkevarer/tine-iskaffe/produkter/tine-iskaffe-protein-uten-sukker",
+   "why": "duplicate (round C): TINE IsKaffe Protein latte -> Tine Iskaffe Protein Latte Uten Tilsatt Sukker"
+  },
+  {
    "id": "kassalapp:213473",
    "into": "q-meieriene:https://www.q-meieriene.no/produkter/q-proteinmelk-sjokolade",
    "why": "merge_duplicates: Q Proteinmelk Sjokolade Laktosefri -> Q Proteinmelk Sjokolade"
+  },
+  {
+   "id": "kassalapp:21644",
+   "into": "ean:7071341002711",
+   "why": "duplicate (round C): Brødr Ringstad Grove karbonader Med Løk -> Brødr Ringstad Grove Karbonader"
+  },
+  {
+   "id": "kassalapp:21656",
+   "into": "ean:0000023811942",
+   "why": "duplicate (round C): Lagret Rakfiskfilet Skinnfri, ca. -> Rakfiskfilet"
+  },
+  {
+   "id": "kassalapp:21759",
+   "into": "ean:7072175105395",
+   "why": "duplicate (round C): Ytterøy Strimlet Kyllingfilet Naturell -> Ytterøy Kyllingfilet"
   },
   {
    "id": "kassalapp:21844",
@@ -4209,6 +6704,11 @@
    "why": "merge_duplicates: Ridderost Classic -> Tine Ridderost 38%"
   },
   {
+   "id": "kassalapp:25190",
+   "into": "ean:7033330088120",
+   "why": "duplicate (round C): Fjordland Pasta Cheese og Bacon -> Fjordland Box Pasta Cheese og Bacon"
+  },
+  {
    "id": "kassalapp:26428",
    "into": "ean:7090000510060",
    "why": "merge_duplicates: Store Egg Fra Frittgående Høner Str L -> Egg Frittgående"
@@ -4219,14 +6719,54 @@
    "why": "merge_duplicates: Sjokoladekaffe Filtermalt -> Friele Kaffe"
   },
   {
+   "id": "kassalapp:33335",
+   "into": "ean:7032069760598",
+   "why": "duplicate (round C): Rema Vår Beste Skinke -> Rema 1000 Vår Beste Skinke"
+  },
+  {
+   "id": "kassalapp:39453",
+   "into": "ean:7020430000053",
+   "why": "duplicate (round C): Rekesalat 40% Reker -> Rekesalat"
+  },
+  {
+   "id": "kassalapp:46858",
+   "into": "ean:7020656504083",
+   "why": "duplicate (round C): Havrebar Jordbær & Bringebær Med Sjokolade -> Urkraft Havrebar"
+  },
+  {
+   "id": "kassalapp:46862",
+   "into": "ean:7020656504021",
+   "why": "duplicate (round C): Havrebar Eple & Rips Med Sjokolade -> Urkraft Havrebar"
+  },
+  {
+   "id": "kassalapp:58154",
+   "into": "norgesgruppen:23863506",
+   "why": "duplicate (round C): Kalkunbryst Black Turkey ca. -> Kalkunbryst"
+  },
+  {
+   "id": "kassalapp:67946",
+   "into": "ean:2301519412727",
+   "why": "duplicate (round C): Gilde Svin Grillribbe av Nakke -> Gilde Grillribbe"
+  },
+  {
    "id": "kassalapp:68366",
    "into": "q-meieriene:https://www.q-meieriene.no/produkter/skyr-luftig-sitron",
    "why": "merge_duplicates: Q Skyr Luftig -> Skyr Luftig"
   },
   {
+   "id": "kassalapp:8648",
+   "into": "ean:7090052260630",
+   "why": "duplicate (round C): Dampet bao bolle Fylt med svinekjøtt -> Bao Bolle"
+  },
+  {
    "id": "kavli:https://www.kavli.no/produkter/korni-sibas-havrekjeks",
    "into": "matvaretabellen:05.309",
    "why": "merge_duplicates: Korni Sibas Havrekjeks -> Sibas Havrekjeks"
+  },
+  {
+   "id": "life-no-discontinued:https://www.life.no/mat-drikke/mat/sjokolade/sukkerfri/sukrin-melkesjokolade-med-kokos-40g",
+   "into": "ean:7090017541484",
+   "why": "duplicate (round C): Funksjonell Mat Sukrin Melkesjokolade med kokos -> Funksjonell Mat Sukrin Melkesjokolade med Kokos"
   },
   {
    "id": "matvaretabellen:01.048",
@@ -4319,9 +6859,79 @@
    "why": "merge_duplicates: Mineralvann, med kullsyre, Farris naturell -> Farris Bris"
   },
   {
+   "id": "max-burgers:kylling-nuggets-9-stk",
+   "into": "max-burgers:kylling-nuggets-6-stk",
+   "why": "duplicate (round C): Max Kylling Nuggets -> Max Kylling Nuggets"
+  },
+  {
    "id": "mills:https://mills.no/olivero/produkt/olivero/",
    "into": "ean:7036110009773",
    "why": "merge_duplicates: Olivero Original -> Olivero"
+  },
+  {
+   "id": "mmsports:https://www.mmsports.se/Kosttillskott/Protein/Isolat/body-science-4-st-whey-isolate.html",
+   "into": "mmsports:https://www.mmsports.se/Kosttillskott/Protein/Isolat/body-science-2-st-whey-isolate.html",
+   "why": "duplicate (round C): Body Science 4 st Whey Isolate -> Body Science 2 st Whey Isolate"
+  },
+  {
+   "id": "mmsports:https://www.mmsports.se/Kosttillskott/Veganska-Produkter/Protein/body-science-vegan-protein-4st.html",
+   "into": "mmsports:https://www.mmsports.se/Kosttillskott/Veganska-Produkter/Protein/body-science-vegan-protein-2st.html",
+   "why": "duplicate (round C): Body Science 4 st Vegan Protein -> Body Science 2 st Vegan Protein"
+  },
+  {
+   "id": "mmsports:https://www.mmsports.se/Kosttillskott/Viktnedgang/maltidsersattning/body-science-4-st-protein-breakfast-shake.html",
+   "into": "mmsports:https://www.mmsports.se/Kosttillskott/Viktnedgang/maltidsersattning/body-science-2-st-protein-breakfast-shake.html",
+   "why": "duplicate (round C): Body Science 4 st Protein Breakfast Shake -> Body Science 2 st Protein Breakfast Shake"
+  },
+  {
+   "id": "mmsports:https://www.mmsports.se/kosttillskott/protein/body-science-4-st-milk-and-soy-protein.html",
+   "into": "mmsports:https://www.mmsports.se/kosttillskott/protein/body-science-milk-and-soy-protein.html",
+   "why": "duplicate (round C): Body Science 4 st Milk & Soy Protein -> Body Science 2 st Milk & Soy Protein"
+  },
+  {
+   "id": "mmsports:https://www.mmsports.se/kosttillskott/protein/body-science-4-st-whey-and-soy-protein.html",
+   "into": "mmsports:https://www.mmsports.se/kosttillskott/protein/body-science-2-st-whey-and-soy-protein.html",
+   "why": "duplicate (round C): Body Science 4 st Whey & Soy Protein -> Body Science 2 st Whey & Soy Protein"
+  },
+  {
+   "id": "mmsports:https://www.mmsports.se/kosttillskott/protein/body-science-4-st-whey-creatine.html",
+   "into": "mmsports:https://www.mmsports.se/kosttillskott/protein/body-science-2-st-whey-creatine.html",
+   "why": "duplicate (round C): Body Science 4 st Whey+Creatine -> Body Science 2 st Whey+Creatine"
+  },
+  {
+   "id": "mmsports:https://www.mmsports.se/kosttillskott/protein/kasein/body-science-4-st-casein.html",
+   "into": "mmsports:https://www.mmsports.se/kosttillskott/protein/kasein/body-science-2-st-casein.html",
+   "why": "duplicate (round C): Body Science 4 st Casein -> Body Science 2 st Casein"
+  },
+  {
+   "id": "mmsports:https://www.mmsports.se/kosttillskott/protein/protein-for-matlagning/body-science-4-st-protein-pancake-mix.html",
+   "into": "mmsports:https://www.mmsports.se/kosttillskott/protein/protein-for-matlagning/body-science-2-st-protein-pancake-mix.html",
+   "why": "duplicate (round C): Body Science 4 st Protein Pancake Mix -> Body Science 2 st Protein Pancake Mix"
+  },
+  {
+   "id": "mmsports:https://www.mmsports.se/kosttillskott/protein/xlnt-sports-2-st-whey-protein-SKU2716811.html",
+   "into": "mmsports:https://www.mmsports.se/kosttillskott/protein/xlnt-sports-2-st-whey-protein.html",
+   "why": "duplicate (round C): 3 st Whey Protein -> 2 st Whey Protein"
+  },
+  {
+   "id": "mmsports:https://www.mmsports.se/kosttillskott/viktnedgang/body-science-3-st-clear-diet-shake.html",
+   "into": "mmsports:https://www.mmsports.se/kosttillskott/viktnedgang/body-science-2-st-clear-diet-shake.html",
+   "why": "duplicate (round C): Body Science 3 st Clear Diet Shake -> Body Science 2 st Clear Diet Shake"
+  },
+  {
+   "id": "myprotein-discontinued:https://www.myprotein.no/sports-nutrition/protein-flapjack/11147245.html",
+   "into": "ean:5055936810228",
+   "why": "duplicate (round C): Myprotein Protein Flapjack -> Myprotein Oat Protein Flapjack"
+  },
+  {
+   "id": "myprotein-discontinued:https://www.myprotein.no/sports-nutrition/proteinsjokolade-fotballer/11276852.html",
+   "into": "ean:5055936856875",
+   "why": "duplicate (round C): Myprotein Proteinsjokolade Fotballer -> Myprotein Proteinsjokolade"
+  },
+  {
+   "id": "nidar:https://www.nidar.no/produkt/stratos-sjokoladefamilien-storplate/",
+   "into": "nidar:https://www.nidar.no/produkt/stratos-storplate/",
+   "why": "duplicate (round C): Nidar Stratos Sjokoladefamilien Storplate -> Nidar Stratos Storplate"
   },
   {
    "id": "nidar:https://www.nidar.no/produkt/troika-multipakk/",
@@ -4399,6 +7009,11 @@
    "why": "duplicate: Torsk Filet u/Skinn Oppdrett -> Torsk, vill, rå"
   },
   {
+   "id": "norgesgruppen:23022242",
+   "into": "ean:2000623900006",
+   "why": "duplicate (round C): Tine Kvitlin -> Tine Kvitlin Geitost Kvit Lagret 4+ Mnd 33%"
+  },
+  {
    "id": "norgesgruppen:23400021",
    "into": "norgesgruppen:7431",
    "why": "store label: Meny Skinkestek -> Skinkestek Av Svin m/Ben"
@@ -4424,9 +7039,19 @@
    "why": "store label: Meny Svin Nakkefilet -> Gilde Tynnskåret Nakkefilet"
   },
   {
+   "id": "norgesgruppen:23405234",
+   "into": "ean:2340523400009",
+   "why": "duplicate (round C): Gilde Lammebog -> Gilde Lammebog i Skiver"
+  },
+  {
    "id": "norgesgruppen:23518083",
    "into": "ean:2304663404525",
    "why": "store label: Jacobs Utvalgte Svin Indrefilet -> Grilstad Indrefilet Av Svin"
+  },
+  {
+   "id": "norgesgruppen:23518260",
+   "into": "ean:2351826012042",
+   "why": "duplicate (round C): Folkets Kyllingvinger -> Folkets Saftig og Sprø Kyllingvinger"
   },
   {
    "id": "norgesgruppen:23656057",
@@ -4442,6 +7067,11 @@
    "id": "norgesgruppen:23656467",
    "into": "matvaretabellen:03.058",
    "why": "store label: Jacobs Utvalgte Storfe Indrefilet -> Storfe, indrefilet, rå"
+  },
+  {
+   "id": "norgesgruppen:23733752",
+   "into": "norgesgruppen:23733702",
+   "why": "duplicate (round C): Holte gård Short Ribs -> Holte gård Storfe Short Ribs"
   },
   {
    "id": "norgesgruppen:23737001",
@@ -4462,6 +7092,11 @@
    "id": "norgesgruppen:23806066",
    "into": "ean:2060229400003",
    "why": "store label: Meny Pinnekjøtt -> Ringdal Pinnekjøtt Lam"
+  },
+  {
+   "id": "norgesgruppen:23865332",
+   "into": "ean:7038420002109",
+   "why": "duplicate (round C): Klippfisk hel -> Klippfisk"
   },
   {
    "id": "norgesgruppen:2434",
@@ -4549,6 +7184,11 @@
    "why": "fold_store_generic: Epler granny smith -> Eple, norsk, uspesifisert, rå"
   },
   {
+   "id": "norgesgruppen:41500763675",
+   "into": "ean:0041500763675",
+   "why": "duplicate (round C): Yellow Mustard -> French’s Classic Yellow Mustard"
+  },
+  {
    "id": "norgesgruppen:4205",
    "into": "matvaretabellen:06.529",
    "why": "fold_store_generic: Norske epler -> Eple, norsk, uspesifisert, rå"
@@ -4592,6 +7232,11 @@
    "id": "norgesgruppen:7148",
    "into": "ean:2000714800000",
    "why": "duplicate: Angus Kjøttdeig Av Storfe 14% Fett -> Angus Kjøttdeig Av Storfe 14% Fett"
+  },
+  {
+   "id": "norgesgruppen:72600069145",
+   "into": "ean:0072600069633",
+   "why": "duplicate (round C): Reaper Curls -> Caroline Reaper Cheese Curls"
   },
   {
    "id": "norgesgruppen:8429",
@@ -4639,6 +7284,16 @@
    "why": "fold_store_generic: Idun Ketchup Porsjonspkn -> Idun Tomatketchup"
   },
   {
+   "id": "openfoodfacts-nordic-global:10206938",
+   "into": "ean:8020693100735",
+   "why": "duplicate (round C): Salami & ost -> Salami Och Ost"
+  },
+  {
+   "id": "openfoodfacts-nordic-global:2000000151195",
+   "into": "ean:7310960035992",
+   "why": "duplicate (round C): Creole Chicken & Sweet Potato -> Food Box Creole Chicken & Sweet Potato"
+  },
+  {
    "id": "openfoodfacts:00004360",
    "into": "matvaretabellen:06.048",
    "why": "fold_store_generic: First Price Paprika -> Paprika Rød"
@@ -4654,9 +7309,59 @@
    "why": "store label: Meny Middagsris Ferdigkokt -> Ris, upolert, naturris, langkornet, kokt"
   },
   {
+   "id": "openfoodfacts:70356300",
+   "into": "ean:7035620040948",
+   "why": "duplicate (round C): First Price Karbonadedeig -> First Price Karbonadedeig"
+  },
+  {
    "id": "openfoodfacts:70488402058680000795",
    "into": "q-meieriene:https://www.q-meieriene.no/produkter/q-yoghurt-blaabaer",
    "why": "merge_duplicates: Q Frokostyoghurt -> Q Yoghurt"
+  },
+  {
+   "id": "proteinbolaget:https://proteinbolaget.se/products/healthyco-hazelnut-bites-21-g-x-2-st",
+   "into": "ean:7350021424709",
+   "why": "duplicate (round C): Healthyco Hazelnut Bites x 2 st -> Healthyco Hazelnut Bites"
+  },
+  {
+   "id": "proteincompany-no:https://proteincompany.no/products/12-x-gaam-protein-bar-soft-bar-45-g-mixlada",
+   "into": "ean:7350077759954",
+   "why": "duplicate (round C): GAAM Protein bar & Soft bar mikseske -> Gaam Protein & Soft bar"
+  },
+  {
+   "id": "proteincompany-no:https://proteincompany.no/products/12-x-nicks-soft-bar-50-g-hazelnut-chocolate-super-deal",
+   "into": "proteincompany-no:https://proteincompany.no/products/12-x-nicks-soft-bar-50-g-hazelnut-chocolate",
+   "why": "duplicate (round C): Nick's Soft bar Hazelnut Chocolate SUPER DEAL -> Nick's Soft bar Hazelnut Chocolate"
+  },
+  {
+   "id": "proteincompany-no:https://proteincompany.no/products/2-x-gaam-meal-solution-900-g-maltidsersattning",
+   "into": "ean:7350077756601",
+   "why": "duplicate (round C): Gaam Meal Solution Måltidserstatning -> Gaam Meal Solution"
+  },
+  {
+   "id": "proteincompany-no:https://proteincompany.no/products/8-x-njie-propud-protein-milkshake-330-ml-berry-cheesecake-super-deal",
+   "into": "ean:7350068291210",
+   "why": "duplicate (round C): Njie ProPud Protein Milkshake Berry Cheesecake SUPER DEAL -> Njie ProPud Protein Milkshake"
+  },
+  {
+   "id": "proteincompany-no:https://proteincompany.no/products/8-x-njie-propud-protein-milkshake-330-ml-cappuccino",
+   "into": "ean:7350068291210",
+   "why": "duplicate (round C): Njie ProPud Protein Milkshake Cappuccino -> Njie ProPud Protein Milkshake"
+  },
+  {
+   "id": "proteincompany-no:https://proteincompany.no/sv/products/12-x-gaam-protein-bar-soft-bar-45-g-mixlada",
+   "into": "ean:7350077759954",
+   "why": "duplicate (round C): GAAM Protein bar & Soft bar Mixlåda -> Gaam Protein & Soft bar"
+  },
+  {
+   "id": "proteincompany-no:https://proteincompany.no/sv/products/2-x-gaam-meal-solution-900-g-maltidsersattning",
+   "into": "ean:7350077756601",
+   "why": "duplicate (round C): Gaam Meal Solution Måltidsersättning -> Gaam Meal Solution"
+  },
+  {
+   "id": "proteinfabrikken:https://www.proteinfabrikken.no/plukk-og-velg-100-whey-3x1kg/SETPFWHEY3.html",
+   "into": "proteinfabrikken:https://www.proteinfabrikken.no/100-whey-protein-3000-g-bonusprodukt/SETPFW100BONUS.html",
+   "why": "duplicate (round C): Proteinfabrikken 100% Whey -> Proteinfabrikken 100% Whey Protein"
   },
   {
    "id": "q-meieriene:https://www.q-meieriene.no/produkter/q_proteinyoghurt_naturell",
@@ -4694,6 +7399,16 @@
    "why": "duplicate: Farris Bris Sitron & Sitrongress -> Farris Bris"
   },
   {
+   "id": "ringnes:https://www.ringnes.no/produkter/imsdal/imsdal-eple/",
+   "into": "ean:7044610873312",
+   "why": "duplicate (round C): Imsdal Eple -> Imsdal Eple"
+  },
+  {
+   "id": "ringnes:https://www.ringnes.no/produkter/imsdal/imsdal-fersken/",
+   "into": "ean:7044610875798",
+   "why": "duplicate (round C): Imsdal Fersken -> Imsdal Fersken"
+  },
+  {
    "id": "saetre:https://www.saetre.no/product/bixit-original/",
    "into": "ean:7039317007412",
    "why": "merge_duplicates: Sætre Bixit Original -> Bixit Original"
@@ -4714,6 +7429,81 @@
    "why": "merge_duplicates: Synnøve Gulost Lett 40% Mindre Fett 16% -> Synnøve Gulost Lett 16%"
   },
   {
+   "id": "tights-discontinued:1363125",
+   "into": "tights-discontinued:1360452",
+   "why": "duplicate (round C): Monster Diet Miracle Rice - PAKKETILBUD -> Monster Diet Miracle Rice"
+  },
+  {
+   "id": "tights-discontinued:13818837",
+   "into": "ean:5060402902390",
+   "why": "duplicate (round C): Mars Snickers Protein Bar -> Mars Snickers Protein"
+  },
+  {
+   "id": "tights-discontinued:14543382",
+   "into": "ean:7073313039701",
+   "why": "duplicate (round C): Monster Zero Coffee Syrup Pumpkin Pie + Pump Dispenser -> Monster Zero Coffee Syrup Pumpkin Pie"
+  },
+  {
+   "id": "tights-discontinued:3393020",
+   "into": "tights-discontinued:1360452",
+   "why": "duplicate (round C): Monster Diet Miracle Rice – SUPERTILBUD -> Monster Diet Miracle Rice"
+  },
+  {
+   "id": "tights-discontinued:3749317",
+   "into": "ean:7090046128519",
+   "why": "duplicate (round C): SunnRask Mandler -> SunnRask Salte/Ristede Mandler"
+  },
+  {
+   "id": "tights:10650498",
+   "into": "ean:9102222035882",
+   "why": "duplicate (round C): BodyFuel Carbo Fuel - TREPAKNING! -> BodyFuel Carbo Fuel"
+  },
+  {
+   "id": "tights:1253381",
+   "into": "ean:4260505021276",
+   "why": "duplicate (round C): Gymqueen Tasty Drops – 20 SMAKER! -> Gymqueen Tasty Drops"
+  },
+  {
+   "id": "tights:1298276",
+   "into": "tights:1298244",
+   "why": "duplicate (round C): 12-pack Coco Fuzion - Datotilbud -> Coco Fuzion – Datotilbud"
+  },
+  {
+   "id": "tights:1403928",
+   "into": "ean:7350068291418",
+   "why": "duplicate (round C): Njie ProPud Milkshake Strawberry -> Njie Propud Milkshake - Strawberry Flavor"
+  },
+  {
+   "id": "tights:14543404",
+   "into": "ean:7090099998381",
+   "why": "duplicate (round C): Monster Zero Coffee Syrup Salted Caramel + Pump Dispenser -> Monster Zero Coffee Syrup Salted Caramel"
+  },
+  {
+   "id": "tights:3525286",
+   "into": "ean:7350068292651",
+   "why": "duplicate (round C): Njie ProPud Milkshake - Mango Mania Limited Summer Edition -> Njie ProPud Milkshake - Mango Mania"
+  },
+  {
+   "id": "tights:437972",
+   "into": "ean:7350068291098",
+   "why": "duplicate (round C): Njie ProPud Sjokobolle -> Njie ProPud Sjokobolle"
+  },
+  {
+   "id": "tights:515628",
+   "into": "ean:7350024340150",
+   "why": "duplicate (round C): Carbzone Low Carb -> Carbzone Low Carb Tortilla Small"
+  },
+  {
+   "id": "tillskottsbolaget:https://www.tillskottsbolaget.se/sv/24-x-celsius-355-ml-astro-vibe",
+   "into": "ean:7350058337003",
+   "why": "duplicate (round C): Celsius, (Astro Vibe) -> Celsius Energidryck Astro Vibe"
+  },
+  {
+   "id": "tillskottsbolaget:https://www.tillskottsbolaget.se/sv/24-x-celsius-355-ml-galaxy-vibe",
+   "into": "ean:7350058336976",
+   "why": "duplicate (round C): Celsius, (Galaxy Vibe) -> Celsius Energidryck Galaxy Vibe"
+  },
+  {
    "id": "tine:https://www.tine.no/merkevarer/gomorgen/produkter/gomorgen-mango-bananyoghurt-og-m%C3%BCsli",
    "into": "tine:https://www.tine.no/merkevarer/gomorgen/produkter/gomorgen-jordb%C3%A6ryoghurt-og-m%C3%BCsli",
    "why": "duplicate: Go'morgen Mango/Banan med müsli -> Go'morgen"
@@ -4729,9 +7519,19 @@
    "why": "merge_duplicates: Kesam Vanilje Laktosefri 6,5% -> Tine Kesam Vanilje 6,5%"
   },
   {
+   "id": "toro:https://www.toro.no/produkter/kinesisk-szechuan/",
+   "into": "ean:7039010613033",
+   "why": "duplicate (round C): Toro Kinesisk Szechuan -> Toro Szechuan Kinesisk Kyllingrett"
+  },
+  {
    "id": "toro:https://www.toro.no/produkter/ris-basmati-boil-in-bag/",
    "into": "ean:7039010612395",
    "why": "merge_duplicates: Toro Ris Basmati -> Toro Basmatiris"
+  },
+  {
+   "id": "toro:https://www.toro.no/produkter/toro-kit-teriyaki/",
+   "into": "ean:7039010609708",
+   "why": "duplicate (round C): Toro Japansk Teriyaki -> Toro Teriyaki Japansk Kit"
   }
  ],
  "drop": [
@@ -8884,7 +11684,6 @@
   "ean:0000080310167": 2,
   "ean:0000080761761": 2,
   "ean:0000087157031": 3,
-  "ean:0000087157260": 3,
   "ean:0000096107775": 2,
   "ean:0011210608221": 1,
   "ean:0011210610064": 1,
@@ -8918,7 +11717,6 @@
   "ean:2373112116111": 3,
   "ean:2376051403267": 2,
   "ean:2376088213600": 1,
-  "ean:2376091602675": 3,
   "ean:2387073003021": 3,
   "ean:2391810112648": 3,
   "ean:3017760002073": 2,
@@ -9042,7 +11840,6 @@
   "ean:7025110094940": 1,
   "ean:7025110097200": 3,
   "ean:7025110106513": 2,
-  "ean:7025110115171": 1,
   "ean:7025110144805": 2,
   "ean:7025110151131": 3,
   "ean:7025110178138": 2,
@@ -9496,8 +12293,6 @@
   "ean:7311312000859": 2,
   "ean:7311312001603": 2,
   "ean:7311800009869": 2,
-  "ean:7311800351708": 3,
-  "ean:7311800374707": 3,
   "ean:7312080004018": 2,
   "ean:7312080004025": 2,
   "ean:7315360061503": 1,
@@ -9509,7 +12304,6 @@
   "ean:7340011315162": 2,
   "ean:7340011352891": 3,
   "ean:7340011419303": 1,
-  "ean:7340011443735": 2,
   "ean:7340011454915": 1,
   "ean:7340011470014": 1,
   "ean:7340011473046": 1,
@@ -9812,6 +12606,10 @@
   "toro:https://www.toro.no/produkter/toro-meksikansk-tomatsuppe/": 2,
   "toro:https://www.toro.no/produkter/toro-original-tomatsuppe-2/": 3,
   "toro:https://www.toro.no/produkter/toro-thaisuppe/": 1,
-  "toro:https://www.toro.no/produkter/vafler/": 2
+  "toro:https://www.toro.no/produkter/vafler/": 2,
+  "ean:8715700016504": 3,
+  "ean:7025110115119": 1,
+  "ean:7311800009586": 3,
+  "ean:7311800373700": 3
  }
 }
