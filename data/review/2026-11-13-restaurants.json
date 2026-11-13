@@ -9037,5 +9037,1961 @@
     "same id"
    ]
   ]
+ },
+ "burger_king_no_2026_11_14": {
+  "source": "https://bknoorderingstorage.blob.core.windows.net/assets/NutritionalInfo.pdf (Burger King Norway, Naering & Allergiguide, dated 22.10.2026)",
+  "note": "Per portion only; the guide prints no portion weights, so per-100 g values cannot be worked out. Read from the PDF text in code.",
+  "items": [
+   {
+    "name": "WHOPPER®",
+    "per_portion": {
+     "kcal": 621.0,
+     "fat_g": 34.0,
+     "sat_fat_g": 9.1,
+     "salt_g": 2.7,
+     "carbs_g": 50.0,
+     "sugars_g": 12.0,
+     "fibre_g": 3.8,
+     "protein_g": 29.0
+    }
+   },
+   {
+    "name": "CRISPY CHICKEN",
+    "per_portion": {
+     "kcal": 434.0,
+     "fat_g": 21.0,
+     "sat_fat_g": 2.9,
+     "salt_g": 2.7,
+     "carbs_g": 45.0,
+     "sugars_g": 5.8,
+     "fibre_g": 2.9,
+     "protein_g": 16.0
+    }
+   },
+   {
+    "name": "WHOPPER® CHEESE",
+    "per_portion": {
+     "kcal": 740.0,
+     "fat_g": 43.0,
+     "sat_fat_g": 13.0,
+     "salt_g": 3.1,
+     "carbs_g": 53.0,
+     "sugars_g": 13.0,
+     "fibre_g": 3.9,
+     "protein_g": 34.0
+    }
+   },
+   {
+    "name": "BACON KING CRISPY CHICKEN",
+    "per_portion": {
+     "kcal": 455.0,
+     "fat_g": 22.0,
+     "sat_fat_g": 3.5,
+     "salt_g": 2.9,
+     "carbs_g": 45.0,
+     "sugars_g": 5.8,
+     "fibre_g": 2.9,
+     "protein_g": 17.0
+    }
+   },
+   {
+    "name": "DOUBLE WHOPPER® CHEESE",
+    "per_portion": {
+     "kcal": 929.0,
+     "fat_g": 57.0,
+     "sat_fat_g": 21.0,
+     "salt_g": 3.7,
+     "carbs_g": 51.0,
+     "sugars_g": 13.0,
+     "fibre_g": 3.8,
+     "protein_g": 54.0
+    }
+   },
+   {
+    "name": "LONG CHICKEN",
+    "per_portion": {
+     "kcal": 618.0,
+     "fat_g": 35.0,
+     "sat_fat_g": 3.5,
+     "salt_g": 2.9,
+     "carbs_g": 49.0,
+     "sugars_g": 5.8,
+     "fibre_g": 3.0,
+     "protein_g": 26.0
+    }
+   },
+   {
+    "name": "DOUBLE WHOPPER®",
+    "per_portion": {
+     "kcal": 851.0,
+     "fat_g": 50.0,
+     "sat_fat_g": 17.0,
+     "salt_g": 2.9,
+     "carbs_g": 50.0,
+     "sugars_g": 12.0,
+     "fibre_g": 3.8,
+     "protein_g": 54.0
+    }
+   },
+   {
+    "name": "CHICKEN NUGGETS 4",
+    "per_portion": {
+     "kcal": 197.0,
+     "fat_g": 11.0,
+     "sat_fat_g": 1.2,
+     "salt_g": 0.9,
+     "carbs_g": 13.0,
+     "sugars_g": 0.0,
+     "fibre_g": 0.8,
+     "protein_g": 10.0
+    }
+   },
+   {
+    "name": "BACON WHOPPER® CHEESE",
+    "per_portion": {
+     "kcal": 771.0,
+     "fat_g": 45.0,
+     "sat_fat_g": 14.0,
+     "salt_g": 3.5,
+     "carbs_g": 53.0,
+     "sugars_g": 13.0,
+     "fibre_g": 4.0,
+     "protein_g": 36.0
+    }
+   },
+   {
+    "name": "CHICKEN NUGGETS 6",
+    "per_portion": {
+     "kcal": 295.0,
+     "fat_g": 17.0,
+     "sat_fat_g": 1.8,
+     "salt_g": 1.4,
+     "carbs_g": 20.0,
+     "sugars_g": 0.0,
+     "fibre_g": 1.1,
+     "protein_g": 15.0
+    }
+   },
+   {
+    "name": "WHOPPER® JR",
+    "per_portion": {
+     "kcal": 346.0,
+     "fat_g": 17.0,
+     "sat_fat_g": 4.0,
+     "salt_g": 1.3,
+     "carbs_g": 31.0,
+     "sugars_g": 6.9,
+     "fibre_g": 2.3,
+     "protein_g": 15.0
+    }
+   },
+   {
+    "name": "CHICKEN NUGGETS 9",
+    "per_portion": {
+     "kcal": 442.0,
+     "fat_g": 26.0,
+     "sat_fat_g": 2.7,
+     "salt_g": 2.1,
+     "carbs_g": 30.0,
+     "sugars_g": 0.6,
+     "fibre_g": 1.6,
+     "protein_g": 23.0
+    }
+   },
+   {
+    "name": "WHOPPER® JR, CHEESE",
+    "per_portion": {
+     "kcal": 385.0,
+     "fat_g": 20.0,
+     "sat_fat_g": 6.1,
+     "salt_g": 1.7,
+     "carbs_g": 32.0,
+     "sugars_g": 7.3,
+     "fibre_g": 2.3,
+     "protein_g": 17.0
+    }
+   },
+   {
+    "name": "CHICKEN NUGGETS 18",
+    "per_portion": {
+     "kcal": 885.0,
+     "fat_g": 51.0,
+     "sat_fat_g": 5.4,
+     "salt_g": 4.3,
+     "carbs_g": 61.0,
+     "sugars_g": 1.1,
+     "fibre_g": 3.2,
+     "protein_g": 46.0
+    }
+   },
+   {
+    "name": "BACON KING 2.0",
+    "per_portion": {
+     "kcal": 1109.0,
+     "fat_g": 75.0,
+     "sat_fat_g": 29.0,
+     "salt_g": 1.5,
+     "carbs_g": 51.0,
+     "sugars_g": 12.0,
+     "fibre_g": 2.0,
+     "protein_g": 60.0
+    }
+   },
+   {
+    "name": "BK® FISH",
+    "per_portion": {
+     "kcal": 443.0,
+     "fat_g": 21.0,
+     "sat_fat_g": 3.7,
+     "salt_g": 2.2,
+     "carbs_g": 42.0,
+     "sugars_g": 6.1,
+     "fibre_g": 3.8,
+     "protein_g": 17.0
+    }
+   },
+   {
+    "name": "BACON KING 3.0",
+    "per_portion": {
+     "kcal": 1342.0,
+     "fat_g": 87.0,
+     "sat_fat_g": 37.0,
+     "salt_g": 5.8,
+     "carbs_g": 52.0,
+     "sugars_g": 14.0,
+     "fibre_g": 3.0,
+     "protein_g": 88.0
+    }
+   },
+   {
+    "name": "CRISPY CHICKEN DOBBEL",
+    "per_portion": {
+     "kcal": 659.0,
+     "fat_g": 35.0,
+     "sat_fat_g": 4.0,
+     "salt_g": 3.7,
+     "carbs_g": 58.0,
+     "sugars_g": 6.8,
+     "fibre_g": 3.9,
+     "protein_g": 28.0
+    }
+   },
+   {
+    "name": "STEAKHOUSE BACON KING 2.0",
+    "per_portion": {
+     "kcal": 1046.0,
+     "fat_g": 62.0,
+     "sat_fat_g": 28.0,
+     "salt_g": 3.9,
+     "carbs_g": 58.0,
+     "sugars_g": 15.0,
+     "fibre_g": 3.4,
+     "protein_g": 62.0
+    }
+   },
+   {
+    "name": "CRISPY CHICKEN DOBBEL BBQ",
+    "per_portion": {
+     "kcal": 713.0,
+     "fat_g": 42.0,
+     "sat_fat_g": 7.4,
+     "salt_g": 3.9,
+     "carbs_g": 58.0,
+     "sugars_g": 7.7,
+     "fibre_g": 3.7,
+     "protein_g": 28.0
+    }
+   },
+   {
+    "name": "STEAKHOUSE BACON KING 3.0",
+    "per_portion": {
+     "kcal": 1411.0,
+     "fat_g": 92.0,
+     "sat_fat_g": 39.0,
+     "salt_g": 5.8,
+     "carbs_g": 59.0,
+     "sugars_g": 16.0,
+     "fibre_g": 3.5,
+     "protein_g": 87.0
+    }
+   },
+   {
+    "name": "X-LONG CHILI CHEESE",
+    "per_portion": {
+     "kcal": 721.0,
+     "fat_g": 42.0,
+     "sat_fat_g": 14.0,
+     "salt_g": 2.8,
+     "carbs_g": 42.0,
+     "sugars_g": 8.2,
+     "fibre_g": 3.0,
+     "protein_g": 43.0
+    }
+   },
+   {
+    "name": "HAMBURGER",
+    "per_portion": {
+     "kcal": 279.0,
+     "fat_g": 10.0,
+     "sat_fat_g": 3.5,
+     "salt_g": 1.2,
+     "carbs_g": 31.0,
+     "sugars_g": 7.1,
+     "fibre_g": 1.8,
+     "protein_g": 15.0
+    }
+   },
+   {
+    "name": "CHEESEBURGER",
+    "per_portion": {
+     "kcal": 318.0,
+     "fat_g": 13.0,
+     "sat_fat_g": 5.5,
+     "salt_g": 1.6,
+     "carbs_g": 31.0,
+     "sugars_g": 7.4,
+     "fibre_g": 1.8,
+     "protein_g": 17.0
+    }
+   },
+   {
+    "name": "DOUBLE CHEESEBURGER",
+    "per_portion": {
+     "kcal": 461.0,
+     "fat_g": 23.0,
+     "sat_fat_g": 10.0,
+     "salt_g": 2.1,
+     "carbs_g": 32.0,
+     "sugars_g": 7.8,
+     "fibre_g": 1.8,
+     "protein_g": 29.0
+    }
+   },
+   {
+    "name": "BACON DOUBLE CHEESEBURGER",
+    "per_portion": {
+     "kcal": 481.0,
+     "fat_g": 25.0,
+     "sat_fat_g": 11.0,
+     "salt_g": 2.4,
+     "carbs_g": 32.0,
+     "sugars_g": 7.8,
+     "fibre_g": 1.9,
+     "protein_g": 31.0
+    }
+   },
+   {
+    "name": "CHILI CHEESE BURGER",
+    "per_portion": {
+     "kcal": 365.0,
+     "fat_g": 19.0,
+     "sat_fat_g": 4.3,
+     "salt_g": 1.2,
+     "carbs_g": 32.0,
+     "sugars_g": 7.3,
+     "fibre_g": 2.2,
+     "protein_g": 15.0
+    }
+   },
+   {
+    "name": "CHILI CHEESE 4",
+    "per_portion": {
+     "kcal": 235.0,
+     "fat_g": 15.0,
+     "sat_fat_g": 5.7,
+     "salt_g": 1.5,
+     "carbs_g": 19.0,
+     "sugars_g": 0.7,
+     "fibre_g": 1.9,
+     "protein_g": 6.2
+    }
+   },
+   {
+    "name": "BBQ DIP",
+    "per_portion": {
+     "kcal": 45.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.7,
+     "carbs_g": 11.0,
+     "sugars_g": 8.8,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "LITEN ONION RINGS 8",
+    "per_portion": {
+     "kcal": 228.0,
+     "fat_g": 11.0,
+     "sat_fat_g": 4.9,
+     "salt_g": 0.5,
+     "carbs_g": 29.0,
+     "sugars_g": 3.8,
+     "fibre_g": 0.0,
+     "protein_g": 3.7
+    }
+   },
+   {
+    "name": "GARLIC DIP",
+    "per_portion": {
+     "kcal": 145.0,
+     "fat_g": 16.0,
+     "sat_fat_g": 1.2,
+     "salt_g": 0.2,
+     "carbs_g": 0.9,
+     "sugars_g": 0.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "MEDIUM ONION RINGS 12",
+    "per_portion": {
+     "kcal": 341.0,
+     "fat_g": 16.0,
+     "sat_fat_g": 7.4,
+     "salt_g": 0.7,
+     "carbs_g": 43.0,
+     "sugars_g": 5.7,
+     "fibre_g": 0.7,
+     "protein_g": 5.5
+    }
+   },
+   {
+    "name": "HOT CHEESE DIP",
+    "per_portion": {
+     "kcal": 175.0,
+     "fat_g": 20.0,
+     "sat_fat_g": 1.5,
+     "salt_g": 0.1,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "STOR ONION RINGS 16",
+    "per_portion": {
+     "kcal": 455.0,
+     "fat_g": 22.0,
+     "sat_fat_g": 9.8,
+     "salt_g": 1.0,
+     "carbs_g": 57.0,
+     "sugars_g": 7.6,
+     "fibre_g": 0.9,
+     "protein_g": 7.4
+    }
+   },
+   {
+    "name": "SWEET & SOUR DIP",
+    "per_portion": {
+     "kcal": 47.0,
+     "fat_g": 0.9,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.3,
+     "carbs_g": 9.2,
+     "sugars_g": 8.2,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "KING FRIES S",
+    "per_portion": {
+     "kcal": 330.0,
+     "fat_g": 14.0,
+     "sat_fat_g": 4.2,
+     "salt_g": 0.1,
+     "carbs_g": 45.0,
+     "sugars_g": 0.0,
+     "fibre_g": 4.3,
+     "protein_g": 3.9
+    }
+   },
+   {
+    "name": "MAJONES DIP",
+    "per_portion": {
+     "kcal": 69.0,
+     "fat_g": 6.0,
+     "sat_fat_g": 1.0,
+     "salt_g": 0.0,
+     "carbs_g": 3.0,
+     "sugars_g": 2.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "KING FRIES M",
+    "per_portion": {
+     "kcal": 426.0,
+     "fat_g": 18.0,
+     "sat_fat_g": 5.4,
+     "salt_g": 0.2,
+     "carbs_g": 58.0,
+     "sugars_g": 0.6,
+     "fibre_g": 5.6,
+     "protein_g": 5.0
+    }
+   },
+   {
+    "name": "CHILI MAYONNAISE DIP",
+    "per_portion": {
+     "kcal": 148.0,
+     "fat_g": 16.0,
+     "sat_fat_g": 1.2,
+     "salt_g": 0.5,
+     "carbs_g": 1.1,
+     "sugars_g": 1.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "KING FRIES L",
+    "per_portion": {
+     "kcal": 584.0,
+     "fat_g": 25.0,
+     "sat_fat_g": 7.4,
+     "salt_g": 0.2,
+     "carbs_g": 80.0,
+     "sugars_g": 0.8,
+     "fibre_g": 7.6,
+     "protein_g": 6.9
+    }
+   },
+   {
+    "name": "CHILI CHEESE FRIES",
+    "per_portion": {
+     "kcal": 561.0,
+     "fat_g": 31.0,
+     "sat_fat_g": 6.5,
+     "salt_g": 0.9,
+     "carbs_g": 62.0,
+     "sugars_g": 3.9,
+     "fibre_g": 6.4,
+     "protein_g": 5.5
+    }
+   },
+   {
+    "name": "SNACK PACK",
+    "per_portion": {
+     "kcal": 796.0,
+     "fat_g": 51.0,
+     "sat_fat_g": 12.0,
+     "salt_g": 3.4,
+     "carbs_g": 63.0,
+     "sugars_g": 6.3,
+     "fibre_g": 2.6,
+     "protein_g": 21.0
+    }
+   },
+   {
+    "name": "T2T2T2",
+    "per_portion": {
+     "kcal": 196.0,
+     "fat_g": 11.0,
+     "sat_fat_g": 2.0,
+     "salt_g": 1.0,
+     "carbs_g": 11.0,
+     "sugars_g": 1.0,
+     "fibre_g": 2.0,
+     "protein_g": 12.0
+    }
+   },
+   {
+    "name": "PANNEKAKER",
+    "per_portion": {
+     "kcal": 284.0,
+     "fat_g": 13.0,
+     "sat_fat_g": 5.8,
+     "salt_g": 0.5,
+     "carbs_g": 37.0,
+     "sugars_g": 21.0,
+     "fibre_g": 0.8,
+     "protein_g": 4.0
+    }
+   },
+   {
+    "name": "KIDS COCA COLA",
+    "per_portion": {
+     "kcal": 103.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 25.0,
+     "sugars_g": 25.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "KIDS COCA COLA ZERO",
+    "per_portion": {
+     "kcal": 1.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.1,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "KIDS FANTA",
+    "per_portion": {
+     "kcal": 108.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 27.0,
+     "sugars_g": 25.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "KIDS FANTA EXOTIC",
+    "per_portion": {
+     "kcal": 135.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 33.0,
+     "sugars_g": 33.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "KIDS SPRITE",
+    "per_portion": {
+     "kcal": 2.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "MINIPANNEKAKER 8 STK",
+    "per_portion": {
+     "kcal": 284.0,
+     "fat_g": 13.0,
+     "sat_fat_g": 5.8,
+     "salt_g": 0.5,
+     "carbs_g": 37.0,
+     "sugars_g": 21.0,
+     "fibre_g": 0.8,
+     "protein_g": 4.0
+    }
+   },
+   {
+    "name": "MER JORDBÆR EPLE",
+    "per_portion": {
+     "kcal": 48.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.1,
+     "carbs_g": 11.0,
+     "sugars_g": 11.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "SOFT-IS",
+    "per_portion": {
+     "kcal": 158.0,
+     "fat_g": 4.3,
+     "sat_fat_g": 3.0,
+     "salt_g": 0.2,
+     "carbs_g": 25.0,
+     "sugars_g": 23.0,
+     "fibre_g": 0.0,
+     "protein_g": 3.9
+    }
+   },
+   {
+    "name": "MER APPELSIN",
+    "per_portion": {
+     "kcal": 48.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 11.0,
+     "sugars_g": 11.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "SOFT-IS MED KARAMELL TOPPING",
+    "per_portion": {
+     "kcal": 213.0,
+     "fat_g": 4.3,
+     "sat_fat_g": 3.0,
+     "salt_g": 0.3,
+     "carbs_g": 39.0,
+     "sugars_g": 33.0,
+     "fibre_g": 0.0,
+     "protein_g": 4.0
+    }
+   },
+   {
+    "name": "COCA COLA LITEN",
+    "per_portion": {
+     "kcal": 164.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 40.0,
+     "sugars_g": 40.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "SOFT-IS MED SJOKOLADE TOPPING",
+    "per_portion": {
+     "kcal": 233.0,
+     "fat_g": 10.0,
+     "sat_fat_g": 6.7,
+     "salt_g": 0.2,
+     "carbs_g": 28.0,
+     "sugars_g": 25.0,
+     "fibre_g": 0.2,
+     "protein_g": 4.8
+    }
+   },
+   {
+    "name": "COCA COLA MEDIUM",
+    "per_portion": {
+     "kcal": 205.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 51.0,
+     "sugars_g": 51.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "KING FUSION SMARTIES",
+    "per_portion": {
+     "kcal": 300.0,
+     "fat_g": 9.9,
+     "sat_fat_g": 6.4,
+     "salt_g": 0.3,
+     "carbs_g": 46.0,
+     "sugars_g": 42.0,
+     "fibre_g": 0.6,
+     "protein_g": 5.8
+    }
+   },
+   {
+    "name": "COCA COLA STOR",
+    "per_portion": {
+     "kcal": 267.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 66.0,
+     "sugars_g": 66.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "KING FUSION OREO",
+    "per_portion": {
+     "kcal": 289.0,
+     "fat_g": 8.5,
+     "sat_fat_g": 3.5,
+     "salt_g": 0.5,
+     "carbs_g": 46.0,
+     "sugars_g": 31.0,
+     "fibre_g": 1.3,
+     "protein_g": 6.0
+    }
+   },
+   {
+    "name": "COKE ZERO LITEN",
+    "per_portion": {
+     "kcal": 2.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.1,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "CREAMY CHOCOLATE SHAKE",
+    "per_portion": {
+     "kcal": 412.0,
+     "fat_g": 13.0,
+     "sat_fat_g": 3.0,
+     "salt_g": 0.0,
+     "carbs_g": 62.0,
+     "sugars_g": 51.0,
+     "fibre_g": 1.0,
+     "protein_g": 9.0
+    }
+   },
+   {
+    "name": "COKE ZERO MEDIUM",
+    "per_portion": {
+     "kcal": 2.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.1,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "KING FUSION SALTY CARAMEL",
+    "per_portion": {
+     "kcal": 375.0,
+     "fat_g": 13.0,
+     "sat_fat_g": 7.8,
+     "salt_g": 0.6,
+     "carbs_g": 56.0,
+     "sugars_g": 46.0,
+     "fibre_g": 0.6,
+     "protein_g": 6.7
+    }
+   },
+   {
+    "name": "COKE ZERO STOR",
+    "per_portion": {
+     "kcal": 3.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.2,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "CREAMY COFFEE SHAKE CARAMEL",
+    "per_portion": {
+     "kcal": 316.0,
+     "fat_g": 9.8,
+     "sat_fat_g": 6.9,
+     "salt_g": 0.4,
+     "carbs_g": 51.0,
+     "sugars_g": 42.0,
+     "fibre_g": 0.0,
+     "protein_g": 6.4
+    }
+   },
+   {
+    "name": "SPRITE LITEN",
+    "per_portion": {
+     "kcal": 4.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "CREAMY SALTY CARAMEL SHAKE",
+    "per_portion": {
+     "kcal": 351.0,
+     "fat_g": 10.0,
+     "sat_fat_g": 7.1,
+     "salt_g": 0.7,
+     "carbs_g": 58.0,
+     "sugars_g": 52.0,
+     "fibre_g": 0.0,
+     "protein_g": 6.7
+    }
+   },
+   {
+    "name": "SPRITE MEDIUM",
+    "per_portion": {
+     "kcal": 5.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "CREAMY OREO SHAKE",
+    "per_portion": {
+     "kcal": 570.0,
+     "fat_g": 21.0,
+     "sat_fat_g": 6.0,
+     "salt_g": 2.0,
+     "carbs_g": 81.0,
+     "sugars_g": 65.0,
+     "fibre_g": 1.0,
+     "protein_g": 12.0
+    }
+   },
+   {
+    "name": "SPRITE STOR",
+    "per_portion": {
+     "kcal": 6.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "MILKSHAKE BANAN LITEN",
+    "per_portion": {
+     "kcal": 319.0,
+     "fat_g": 6.7,
+     "sat_fat_g": 4.9,
+     "salt_g": 0.5,
+     "carbs_g": 56.0,
+     "sugars_g": 60.0,
+     "fibre_g": 0.1,
+     "protein_g": 8.4
+    }
+   },
+   {
+    "name": "FANTA ZERO ORANGE LITEN",
+    "per_portion": {
+     "kcal": 2.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.1,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "MILKSHAKE BANAN MEDIUM",
+    "per_portion": {
+     "kcal": 399.0,
+     "fat_g": 8.4,
+     "sat_fat_g": 6.1,
+     "salt_g": 0.7,
+     "carbs_g": 70.0,
+     "sugars_g": 62.0,
+     "fibre_g": 0.1,
+     "protein_g": 10.0
+    }
+   },
+   {
+    "name": "FANTA ZERO ORANGE MEDIUM",
+    "per_portion": {
+     "kcal": 2.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.1,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "MILKSHAKE BANAN STOR",
+    "per_portion": {
+     "kcal": 517.0,
+     "fat_g": 11.0,
+     "sat_fat_g": 7.9,
+     "salt_g": 0.8,
+     "carbs_g": 91.0,
+     "sugars_g": 81.0,
+     "fibre_g": 0.1,
+     "protein_g": 14.0
+    }
+   },
+   {
+    "name": "FANTA ZERO ORANGE STOR",
+    "per_portion": {
+     "kcal": 3.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.2,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "MILKSHAKE VANILJE LITEN",
+    "per_portion": {
+     "kcal": 183.0,
+     "fat_g": 4.5,
+     "sat_fat_g": 3.2,
+     "salt_g": 0.3,
+     "carbs_g": 30.0,
+     "sugars_g": 26.0,
+     "fibre_g": 0.0,
+     "protein_g": 5.7
+    }
+   },
+   {
+    "name": "FANTA EXOTIC LITEN",
+    "per_portion": {
+     "kcal": 216.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 53.0,
+     "sugars_g": 53.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "MILKSHAKE VANILJE MEDIUM",
+    "per_portion": {
+     "kcal": 228.0,
+     "fat_g": 5.6,
+     "sat_fat_g": 4.0,
+     "salt_g": 0.3,
+     "carbs_g": 37.0,
+     "sugars_g": 32.0,
+     "fibre_g": 0.0,
+     "protein_g": 7.1
+    }
+   },
+   {
+    "name": "FANTA EXOTIC MEDIUM",
+    "per_portion": {
+     "kcal": 270.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 66.0,
+     "sugars_g": 66.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "MILKSHAKE VANILJE STOR",
+    "per_portion": {
+     "kcal": 296.0,
+     "fat_g": 7.3,
+     "sat_fat_g": 5.1,
+     "salt_g": 0.4,
+     "carbs_g": 49.0,
+     "sugars_g": 42.0,
+     "fibre_g": 0.0,
+     "protein_g": 9.3
+    }
+   },
+   {
+    "name": "FANTA EXOTIC STOR",
+    "per_portion": {
+     "kcal": 351.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 86.0,
+     "sugars_g": 86.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "MILKSHAKE JORDBÆR LITEN",
+    "per_portion": {
+     "kcal": 279.0,
+     "fat_g": 4.8,
+     "sat_fat_g": 3.3,
+     "salt_g": 0.3,
+     "carbs_g": 52.0,
+     "sugars_g": 42.0,
+     "fibre_g": 0.5,
+     "protein_g": 6.1
+    }
+   },
+   {
+    "name": "REDBULL ORIGINAL",
+    "per_portion": {
+     "kcal": 115.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.25,
+     "carbs_g": 27.5,
+     "sugars_g": 27.5,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "MILKSHAKE JORDBÆR MEDIUM",
+    "per_portion": {
+     "kcal": 348.0,
+     "fat_g": 6.0,
+     "sat_fat_g": 4.1,
+     "salt_g": 0.4,
+     "carbs_g": 66.0,
+     "sugars_g": 52.0,
+     "fibre_g": 0.7,
+     "protein_g": 7.6
+    }
+   },
+   {
+    "name": "REDBULL ZERO SUGAR",
+    "per_portion": {
+     "kcal": 7.5,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "MILKSHAKE JORDBÆR STOR",
+    "per_portion": {
+     "kcal": 397.0,
+     "fat_g": 7.3,
+     "sat_fat_g": 5.1,
+     "salt_g": 0.5,
+     "carbs_g": 74.0,
+     "sugars_g": 61.0,
+     "fibre_g": 0.0,
+     "protein_g": 9.3
+    }
+   },
+   {
+    "name": "REDBULL TROPICAL",
+    "per_portion": {
+     "kcal": 115.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.25,
+     "carbs_g": 27.5,
+     "sugars_g": 27.5,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "MILKSHAKE SJOKLOADE LITEN",
+    "per_portion": {
+     "kcal": 279.0,
+     "fat_g": 4.8,
+     "sat_fat_g": 3.3,
+     "salt_g": 0.3,
+     "carbs_g": 52.0,
+     "sugars_g": 42.0,
+     "fibre_g": 0.5,
+     "protein_g": 6.1
+    }
+   },
+   {
+    "name": "REDBULL INFUSION STRAWBERRY",
+    "per_portion": {
+     "kcal": 181.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.26,
+     "carbs_g": 44.2,
+     "sugars_g": 44.2,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "MILKSHAKE SJOKLOADE MEDIUM",
+    "per_portion": {
+     "kcal": 319.0,
+     "fat_g": 9.8,
+     "sat_fat_g": 6.9,
+     "salt_g": 0.3,
+     "carbs_g": 51.0,
+     "sugars_g": 44.0,
+     "fibre_g": 0.0,
+     "protein_g": 6.3
+    }
+   },
+   {
+    "name": "REDBULL INFUSION PASSIONFRUIT",
+    "per_portion": {
+     "kcal": 76.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.26,
+     "carbs_g": 18.7,
+     "sugars_g": 16.7,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "MILKSHAKE SJOKLOADE STOR",
+    "per_portion": {
+     "kcal": 397.0,
+     "fat_g": 7.3,
+     "sat_fat_g": 5.1,
+     "salt_g": 0.5,
+     "carbs_g": 74.0,
+     "sugars_g": 61.0,
+     "fibre_g": 0.0,
+     "protein_g": 9.3
+    }
+   },
+   {
+    "name": "KAFFE",
+    "per_portion": {
+     "kcal": 1.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "CAPPUCCINO",
+    "per_portion": {
+     "kcal": 46.0,
+     "fat_g": 2.0,
+     "sat_fat_g": 1.0,
+     "salt_g": 0.0,
+     "carbs_g": 5.0,
+     "sugars_g": 5.0,
+     "fibre_g": 0.0,
+     "protein_g": 3.0
+    }
+   },
+   {
+    "name": "KAFFE-LATTE",
+    "per_portion": {
+     "kcal": 50.0,
+     "fat_g": 2.0,
+     "sat_fat_g": 1.0,
+     "salt_g": 0.0,
+     "carbs_g": 6.0,
+     "sugars_g": 30.0,
+     "fibre_g": 0.0,
+     "protein_g": 4.0
+    }
+   },
+   {
+    "name": "KAFFE-LATTE PUMPKIN",
+    "per_portion": {
+     "kcal": 110.0,
+     "fat_g": 2.0,
+     "sat_fat_g": 1.0,
+     "salt_g": 0.5,
+     "carbs_g": 18.0,
+     "sugars_g": 18.0,
+     "fibre_g": 0.0,
+     "protein_g": 4.0
+    }
+   },
+   {
+    "name": "ESPRESSO",
+    "per_portion": {
+     "kcal": 1.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "DOBBEL ESPRESSO",
+    "per_portion": {
+     "kcal": 1.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "VARM SJOKOLADE MASKIN",
+    "per_portion": {
+     "kcal": 125.0,
+     "fat_g": 1.4,
+     "sat_fat_g": 1.2,
+     "salt_g": 0.2,
+     "carbs_g": 25.0,
+     "sugars_g": 23.0,
+     "fibre_g": 1.0,
+     "protein_g": 3.1
+    }
+   },
+   {
+    "name": "EARL GREY TE",
+    "per_portion": {
+     "kcal": 1.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "ISKAFFE",
+    "per_portion": {
+     "kcal": 50.0,
+     "fat_g": 2.0,
+     "sat_fat_g": 1.0,
+     "salt_g": 0.0,
+     "carbs_g": 6.0,
+     "sugars_g": 30.0,
+     "fibre_g": 0.0,
+     "protein_g": 4.0
+    }
+   },
+   {
+    "name": "ISKAFFE SJOKOLADE",
+    "per_portion": {
+     "kcal": 114.0,
+     "fat_g": 2.0,
+     "sat_fat_g": 1.0,
+     "salt_g": 0.5,
+     "carbs_g": 22.0,
+     "sugars_g": 18.0,
+     "fibre_g": 0.0,
+     "protein_g": 4.0
+    }
+   },
+   {
+    "name": "ISKAFFE KARAMELL",
+    "per_portion": {
+     "kcal": 116.0,
+     "fat_g": 2.0,
+     "sat_fat_g": 1.0,
+     "salt_g": 0.8,
+     "carbs_g": 22.0,
+     "sugars_g": 19.0,
+     "fibre_g": 0.0,
+     "protein_g": 4.0
+    }
+   },
+   {
+    "name": "ISKAFFE PUMPKIN",
+    "per_portion": {
+     "kcal": 110.0,
+     "fat_g": 2.0,
+     "sat_fat_g": 1.0,
+     "salt_g": 0.5,
+     "carbs_g": 18.0,
+     "sugars_g": 18.0,
+     "fibre_g": 0.0,
+     "protein_g": 4.0
+    }
+   },
+   {
+    "name": "CHILI CHEESE CRISPY CHICKEN",
+    "per_portion": {
+     "kcal": 462.0,
+     "fat_g": 23.0,
+     "sat_fat_g": 3.1,
+     "salt_g": 2.9,
+     "carbs_g": 47.0,
+     "sugars_g": 7.7,
+     "fibre_g": 2.8,
+     "protein_g": 16.0
+    }
+   },
+   {
+    "name": "CHILI CHEESE SAUS",
+    "per_portion": {
+     "kcal": 117.0,
+     "fat_g": 12.0,
+     "sat_fat_g": 1.0,
+     "salt_g": 0.0,
+     "carbs_g": 2.0,
+     "sugars_g": 1.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "AIOLI CRISPY CHICKEN",
+    "per_portion": {
+     "kcal": 462.0,
+     "fat_g": 23.0,
+     "sat_fat_g": 3.1,
+     "salt_g": 2.9,
+     "carbs_g": 47.0,
+     "sugars_g": 7.7,
+     "fibre_g": 2.8,
+     "protein_g": 16.0
+    }
+   },
+   {
+    "name": "KETCHUP",
+    "per_portion": {
+     "kcal": 10.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 2.0,
+     "sugars_g": 2.0,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "AIOLI CHEESEBURGER",
+    "per_portion": {
+     "kcal": 365.0,
+     "fat_g": 19.0,
+     "sat_fat_g": 4.3,
+     "salt_g": 1.2,
+     "carbs_g": 32.0,
+     "sugars_g": 7.3,
+     "fibre_g": 2.2,
+     "protein_g": 15.0
+    }
+   },
+   {
+    "name": "MAJONES",
+    "per_portion": {
+     "kcal": 127.0,
+     "fat_g": 14.0,
+     "sat_fat_g": 0.9,
+     "salt_g": 0.5,
+     "carbs_g": 1.1,
+     "sugars_g": 0.4,
+     "fibre_g": 0.1,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "GOURMET BACON CHEESE SINGLE",
+    "per_portion": {
+     "kcal": 923.0,
+     "fat_g": 63.0,
+     "sat_fat_g": 26.0,
+     "salt_g": 4.3,
+     "carbs_g": 44.0,
+     "sugars_g": 8.7,
+     "fibre_g": 3.1,
+     "protein_g": 46.0
+    }
+   },
+   {
+    "name": "HAMBURGERBRØD",
+    "per_portion": {
+     "kcal": 165.0,
+     "fat_g": 3.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 1.0,
+     "carbs_g": 29.0,
+     "sugars_g": 4.0,
+     "fibre_g": 1.0,
+     "protein_g": 5.0
+    }
+   },
+   {
+    "name": "GOURMET BACON CHEESE DOUBLE",
+    "per_portion": {
+     "kcal": 1329.0,
+     "fat_g": 97.0,
+     "sat_fat_g": 40.0,
+     "salt_g": 4.6,
+     "carbs_g": 44.0,
+     "sugars_g": 8.8,
+     "fibre_g": 3.1,
+     "protein_g": 72.0
+    }
+   },
+   {
+    "name": "GLUTENFRITT BRØD",
+    "per_portion": {
+     "kcal": 234.0,
+     "fat_g": 6.0,
+     "sat_fat_g": 1.0,
+     "salt_g": 1.0,
+     "carbs_g": 43.0,
+     "sugars_g": 3.0,
+     "fibre_g": 2.0,
+     "protein_g": 2.0
+    }
+   },
+   {
+    "name": "GOURMET CHICKEN BACON CHEESE",
+    "per_portion": {
+     "kcal": 695.0,
+     "fat_g": 37.0,
+     "sat_fat_g": 12.0,
+     "salt_g": 5.0,
+     "carbs_g": 54.0,
+     "sugars_g": 9.2,
+     "fibre_g": 4.1,
+     "protein_g": 35.0
+    }
+   },
+   {
+    "name": "LONG BRØD",
+    "per_portion": {
+     "kcal": 206.0,
+     "fat_g": 2.5,
+     "sat_fat_g": 0.5,
+     "salt_g": 1.0,
+     "carbs_g": 37.0,
+     "sugars_g": 4.4,
+     "fibre_g": 2.2,
+     "protein_g": 7.7
+    }
+   },
+   {
+    "name": "GOURMET JAPANESE KATSU",
+    "per_portion": {
+     "kcal": 939.0,
+     "fat_g": 64.0,
+     "sat_fat_g": 24.0,
+     "salt_g": 3.5,
+     "carbs_g": 53.0,
+     "sugars_g": 14.0,
+     "fibre_g": 4.2,
+     "protein_g": 39.0
+    }
+   },
+   {
+    "name": "SHINY BRØD",
+    "per_portion": {
+     "kcal": 229.0,
+     "fat_g": 3.8,
+     "sat_fat_g": 1.2,
+     "salt_g": 0.8,
+     "carbs_g": 41.0,
+     "sugars_g": 8.3,
+     "fibre_g": 2.2,
+     "protein_g": 7.1
+    }
+   },
+   {
+    "name": "GOURMET JAPANESE KATSU DOUBLE",
+    "per_portion": {
+     "kcal": 1345.0,
+     "fat_g": 98.0,
+     "sat_fat_g": 39.0,
+     "salt_g": 6.8,
+     "carbs_g": 53.0,
+     "sugars_g": 14.0,
+     "fibre_g": 4.2,
+     "protein_g": 66.0
+    }
+   },
+   {
+    "name": "WHOPPER BRØD",
+    "per_portion": {
+     "kcal": 245.0,
+     "fat_g": 5.0,
+     "sat_fat_g": 1.0,
+     "salt_g": 1.0,
+     "carbs_g": 44.0,
+     "sugars_g": 6.0,
+     "fibre_g": 2.0,
+     "protein_g": 8.0
+    }
+   },
+   {
+    "name": "GOURMATE JAPANESE KATSU CHICKEN",
+    "per_portion": {
+     "kcal": 709.0,
+     "fat_g": 38.0,
+     "sat_fat_g": 10.0,
+     "salt_g": 6.6,
+     "carbs_g": 63.0,
+     "sugars_g": 14.0,
+     "fibre_g": 5.0,
+     "protein_g": 29.0
+    }
+   },
+   {
+    "name": "HAMBURGER KJØTT",
+    "per_portion": {
+     "kcal": 103.0,
+     "fat_g": 8.0,
+     "sat_fat_g": 4.0,
+     "salt_g": 0.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "fibre_g": 0.0,
+     "protein_g": 8.0
+    }
+   },
+   {
+    "name": "CHILI CHEESE WRAP",
+    "per_portion": {
+     "kcal": 437.0,
+     "fat_g": 23.0,
+     "sat_fat_g": 3.1,
+     "salt_g": 2.8,
+     "carbs_g": 42.0,
+     "sugars_g": 3.8,
+     "fibre_g": 2.5,
+     "protein_g": 15.0
+    }
+   },
+   {
+    "name": "WHOPPER KJØTT",
+    "per_portion": {
+     "kcal": 244.0,
+     "fat_g": 18.0,
+     "sat_fat_g": 7.0,
+     "salt_g": 0.0,
+     "carbs_g": 0.0,
+     "sugars_g": 0.0,
+     "fibre_g": 0.0,
+     "protein_g": 20.0
+    }
+   },
+   {
+    "name": "BBQ WRAP",
+    "per_portion": {
+     "kcal": 517.0,
+     "fat_g": 30.0,
+     "sat_fat_g": 4.3,
+     "salt_g": 3.4,
+     "carbs_g": 44.0,
+     "sugars_g": 5.2,
+     "fibre_g": 2.0,
+     "protein_g": 17.0
+    }
+   },
+   {
+    "name": "GOURMET KJØTT",
+    "per_portion": {
+     "kcal": 305.0,
+     "fat_g": 21.0,
+     "sat_fat_g": 10.0,
+     "salt_g": 0.6,
+     "carbs_g": 0.5,
+     "sugars_g": 0.5,
+     "fibre_g": 0.0,
+     "protein_g": 26.0
+    }
+   },
+   {
+    "name": "KING FUSION BISCOFF",
+    "per_portion": {
+     "kcal": 335.0,
+     "fat_g": 7.7,
+     "sat_fat_g": 4.4,
+     "salt_g": 0.54,
+     "carbs_g": 62.0,
+     "sugars_g": 57.0,
+     "fibre_g": 1.9,
+     "protein_g": 4.8
+    }
+   },
+   {
+    "name": "T2T2",
+    "per_portion": {
+     "kcal": 225.0,
+     "fat_g": 14.0,
+     "sat_fat_g": 4.0,
+     "salt_g": 1.0,
+     "carbs_g": 13.0,
+     "sugars_g": 1.0,
+     "fibre_g": 1.0,
+     "protein_g": 12.0
+    }
+   },
+   {
+    "name": "CREAMY SHAKE BISCOFF",
+    "per_portion": {
+     "kcal": 528.0,
+     "fat_g": 15.0,
+     "sat_fat_g": 10.0,
+     "salt_g": 0.5,
+     "carbs_g": 89.0,
+     "sugars_g": 80.0,
+     "fibre_g": 1.4,
+     "protein_g": 10.0
+    }
+   },
+   {
+    "name": "T2T2T2",
+    "per_portion": {
+     "kcal": 203.0,
+     "fat_g": 12.0,
+     "sat_fat_g": 2.0,
+     "salt_g": 2.0,
+     "carbs_g": 11.0,
+     "sugars_g": 1.0,
+     "fibre_g": 1.0,
+     "protein_g": 13.0
+    }
+   },
+   {
+    "name": "CHEESEBURGER BBQ",
+    "per_portion": {
+     "kcal": 325.0,
+     "fat_g": 15.0,
+     "sat_fat_g": 6.0,
+     "salt_g": 1.6,
+     "carbs_g": 29.0,
+     "sugars_g": 7.4,
+     "fibre_g": 1.6,
+     "protein_g": 18.0
+    }
+   },
+   {
+    "name": "T2T2T2",
+    "per_portion": {
+     "kcal": 275.0,
+     "fat_g": 14.0,
+     "sat_fat_g": 1.8,
+     "salt_g": 1.7,
+     "carbs_g": 19.0,
+     "sugars_g": 1.7,
+     "fibre_g": 1.0,
+     "protein_g": 18.0
+    }
+   },
+   {
+    "name": "GOURMET CHILI MAYO SINGLE",
+    "per_portion": {
+     "kcal": 883.0,
+     "fat_g": 67.0,
+     "sat_fat_g": 22.0,
+     "salt_g": 3.0,
+     "carbs_g": 40.0,
+     "sugars_g": 6.6,
+     "fibre_g": 2.9,
+     "protein_g": 41.0
+    }
+   },
+   {
+    "name": "GOURMET CHILI MAYO DOUBLE",
+    "per_portion": {
+     "kcal": 1289.0,
+     "fat_g": 97.0,
+     "sat_fat_g": 36.0,
+     "salt_g": 3.3,
+     "carbs_g": 40.0,
+     "sugars_g": 6.8,
+     "fibre_g": 2.9,
+     "protein_g": 67.0
+    }
+   },
+   {
+    "name": "PLANTEBASERT KJØTT",
+    "per_portion": {
+     "kcal": 213.0,
+     "fat_g": 13.0,
+     "sat_fat_g": 6.0,
+     "salt_g": 1.0,
+     "carbs_g": 5.0,
+     "sugars_g": 1.0,
+     "fibre_g": 5.0,
+     "protein_g": 15.0
+    }
+   },
+   {
+    "name": "GOURMET CHILI MAYO CHICKEN",
+    "per_portion": {
+     "kcal": 656.0,
+     "fat_g": 37.0,
+     "sat_fat_g": 7.6,
+     "salt_g": 3.7,
+     "carbs_g": 51.0,
+     "sugars_g": 7.1,
+     "fibre_g": 3.9,
+     "protein_g": 31.0
+    }
+   },
+   {
+    "name": "ISKAFFE SJOKOLADE",
+    "per_portion": {
+     "kcal": 114.0,
+     "fat_g": 2.0,
+     "sat_fat_g": 1.0,
+     "salt_g": 0.5,
+     "carbs_g": 22.0,
+     "sugars_g": 18.0,
+     "fibre_g": 0.0,
+     "protein_g": 4.0
+    }
+   },
+   {
+    "name": "TOMAT",
+    "per_portion": {
+     "kcal": 4.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 0.3,
+     "sugars_g": 0.0,
+     "fibre_g": 0.1,
+     "protein_g": 0.2
+    }
+   },
+   {
+    "name": "ISKAFFE KARAMELL",
+    "per_portion": {
+     "kcal": 116.0,
+     "fat_g": 2.0,
+     "sat_fat_g": 1.0,
+     "salt_g": 0.8,
+     "carbs_g": 22.0,
+     "sugars_g": 19.0,
+     "fibre_g": 0.0,
+     "protein_g": 4.0
+    }
+   },
+   {
+    "name": "SYLTEAGURK",
+    "per_portion": {
+     "kcal": 1.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.1,
+     "carbs_g": 0.2,
+     "sugars_g": 0.1,
+     "fibre_g": 0.0,
+     "protein_g": 0.0
+    }
+   },
+   {
+    "name": "DOBBEL CHEESEBURGER BBQ",
+    "per_portion": {
+     "kcal": 428.0,
+     "fat_g": 23.0,
+     "sat_fat_g": 10.0,
+     "salt_g": 1.6,
+     "carbs_g": 29.0,
+     "sugars_g": 7.4,
+     "fibre_g": 1.6,
+     "protein_g": 36.0
+    }
+   },
+   {
+    "name": "LØK",
+    "per_portion": {
+     "kcal": 4.0,
+     "fat_g": 0.0,
+     "sat_fat_g": 0.0,
+     "salt_g": 0.0,
+     "carbs_g": 1.0,
+     "sugars_g": 0.3,
+     "fibre_g": 0.4,
+     "protein_g": 0.3
+    }
+   },
+   {
+    "name": "DOBBEL CHEESEBURGER CHILI MAYO",
+    "per_portion": {
+     "kcal": 431.0,
+     "fat_g": 27.0,
+     "sat_fat_g": 10.0,
+     "salt_g": 1.6,
+     "carbs_g": 30.0,
+     "sugars_g": 7.4,
+     "fibre_g": 1.6,
+     "protein_g": 25.0
+    }
+   },
+   {
+    "name": "ISKAFFE SJOKOLADE",
+    "per_portion": {
+     "kcal": 110.0,
+     "fat_g": 2.0,
+     "sat_fat_g": 1.0,
+     "salt_g": 0.5,
+     "carbs_g": 18.0,
+     "sugars_g": 18.0,
+     "fibre_g": 0.0,
+     "protein_g": 4.0
+    }
+   },
+   {
+    "name": "GOURMET SWEET HEAT",
+    "per_portion": {
+     "kcal": 963.0,
+     "fat_g": 70.0,
+     "sat_fat_g": 24.0,
+     "salt_g": 3.3,
+     "carbs_g": 40.0,
+     "sugars_g": 8.0,
+     "fibre_g": 3.4,
+     "protein_g": 45.0
+    }
+   },
+   {
+    "name": "DOUBLE GOURMET SWEET HEAT",
+    "per_portion": {
+     "kcal": 1376.0,
+     "fat_g": 104.0,
+     "sat_fat_g": 40.0,
+     "salt_g": 3.6,
+     "carbs_g": 40.0,
+     "sugars_g": 8.0,
+     "fibre_g": 3.4,
+     "protein_g": 70.0
+    }
+   },
+   {
+    "name": "GOURMET CHICKEN SWEET HEAT",
+    "per_portion": {
+     "kcal": 775.0,
+     "fat_g": 45.0,
+     "sat_fat_g": 10.0,
+     "salt_g": 4.4,
+     "carbs_g": 54.0,
+     "sugars_g": 8.0,
+     "fibre_g": 4.6,
+     "protein_g": 40.0
+    }
+   },
+   {
+    "name": "SHAKING SPICY FRIES",
+    "per_portion": {
+     "kcal": 434.0,
+     "fat_g": 18.0,
+     "sat_fat_g": 5.0,
+     "salt_g": 0.3,
+     "carbs_g": 60.0,
+     "sugars_g": 0.0,
+     "fibre_g": 6.4,
+     "protein_g": 5.0
+    }
+   }
+  ]
  }
 }
