@@ -3,6 +3,24 @@
  "checked": "2026-11-12",
  "fixes": [
   {
+   "id": "ean:0000006430061",
+   "name": "Idun Vaniljesukker",
+   "source_url": "https://meny.no/"
+  },
+  {
+   "id": "ean:0000032145700",
+   "nutrients": {
+    "kcal": 373.0,
+    "fat_g": 14.0,
+    "sat_fat_g": 2.5,
+    "carbs_g": 52.0,
+    "sugars_g": 19.0,
+    "protein_g": 7.3,
+    "salt_g": 0.76
+   },
+   "source_url": "https://meny.no"
+  },
+  {
    "id": "ean:0000040111001",
    "nutrients": {
     "kcal": 487.0,
@@ -109,6 +127,20 @@
    "source_url": "https://meny.no/varer//middagstilbehor/sauser/grillsaus/"
   },
   {
+   "id": "ean:0748454751900",
+   "name": "Maizenajevner Lys",
+   "source_url": "https://meny.no/",
+   "nutrients": {
+    "kcal": 370.0,
+    "protein_g": 0.6,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.5,
+    "carbs_g": 91.0,
+    "sugars_g": 29.0,
+    "salt_g": 0.01
+   }
+  },
+  {
    "id": "ean:0810000691227",
    "nutrients": {
     "kcal": 474.0,
@@ -130,6 +162,11 @@
    ]
   },
   {
+   "id": "ean:0850004207024",
+   "name": "Beyond Burger",
+   "source_url": "https://meny.no/varer//"
+  },
+  {
    "id": "ean:1151105215062",
    "sizes": [
     "150 g",
@@ -138,6 +175,20 @@
     "1 kg"
    ],
    "source_url": "https://meny.no/varer//frukt-gront/gronnsaker/gulrot"
+  },
+  {
+   "id": "ean:17041614004077",
+   "nutrients": {
+    "kcal": 305.0,
+    "fat_g": 8.1,
+    "sat_fat_g": 5.0,
+    "carbs_g": 51.2,
+    "sugars_g": 24.9,
+    "fibre_g": 2.7,
+    "protein_g": 5.1,
+    "salt_g": 0.21
+   },
+   "source_url": "https://meny.no/varer/bakeri/boller-og-smakaker/skolebrod-7041614008849"
   },
   {
    "id": "ean:1722021264788",
@@ -172,6 +223,11 @@
    "nutrients": {
     "sugars_g": 0
    }
+  },
+  {
+   "id": "ean:3254474019274",
+   "name": "Green Giant Maiskorn",
+   "source_url": "store listing"
   },
   {
    "id": "ean:3387390339499",
@@ -249,6 +305,20 @@
    }
   },
   {
+   "id": "ean:4009700021571",
+   "nutrients": {
+    "kcal": 152.0,
+    "protein_g": 2.8,
+    "fat_g": 7.3,
+    "sat_fat_g": 5.1,
+    "carbs_g": 18.0,
+    "sugars_g": 16.0,
+    "fibre_g": 0.9,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer/dessert-og-iskrem/"
+  },
+  {
    "id": "ean:4014400900651",
    "nutrients": {
     "kcal": 516.0,
@@ -261,6 +331,25 @@
     "fibre_g": null
    },
    "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/toffifee-4014400400007"
+  },
+  {
+   "id": "ean:4062300307131",
+   "name": "Hipp Hippis Eple Banan Jordbær",
+   "source_url": "https://meny.no/varer//barneprodukter/barnedessert"
+  },
+  {
+   "id": "ean:4062300307254",
+   "name": "Hipp Hippis Pære Plomme Solbær",
+   "source_url": "https://meny.no/varer//barneprodukter/barnedessert"
+  },
+  {
+   "id": "ean:4062300365674",
+   "sizes": [
+    "3 g",
+    "500 g"
+   ],
+   "source_url": "https://meny.no/varer//barneprodukter/morsmelkerstatning",
+   "category": "dairy_eggs"
   },
   {
    "id": "ean:4751001585336",
@@ -332,6 +421,11 @@
    "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/twix-5000159559331"
   },
   {
+   "id": "ean:5010115924752",
+   "category": "other_food",
+   "source_url": "https://meny.no/"
+  },
+  {
    "id": "ean:5010265000382",
    "name": "Ryvita Knekkebrød Sesam",
    "source_url": "https://meny.no/varer//bakeri/knekkebrod/ryvita-knekkebrod-5010265000382"
@@ -360,6 +454,16 @@
    },
    "source_url": "meny.no ean 5011476103053",
    "category": "bread_cereal_grain"
+  },
+  {
+   "id": "ean:5019503006377",
+   "name": "Quorn Vegetar Biter",
+   "source_url": "https://meny.no/varer//middag/vegetarretter/vegetar-biter-5019503006377"
+  },
+  {
+   "id": "ean:5019503015850",
+   "name": "Quorn Vegetar Fileter",
+   "source_url": "https://meny.no/varer//middag/vegetarretter/vegetar-fileter-5019503015850"
   },
   {
    "id": "ean:5050083123313",
@@ -450,6 +554,75 @@
    }
   },
   {
+   "id": "ean:5060040254639",
+   "name": "Kiddylicious Poppis Blåbær",
+   "source_url": "https://meny.no/varer//barneprodukter"
+  },
+  {
+   "id": "ean:5060040255483",
+   "name": "Kiddylicious Riskjeks",
+   "source_url": "https://meny.no/varer//barneprodukter"
+  },
+  {
+   "id": "ean:5060040255506",
+   "name": "Kiddylicious Krispig Fruktfisk",
+   "source_url": "https://meny.no/varer//barneprodukter"
+  },
+  {
+   "id": "ean:5060107330016",
+   "category": "fruit_vegetables",
+   "source_url": "https://meny.no/varer//barneprodukter/barnedessert"
+  },
+  {
+   "id": "ean:5060107330412",
+   "category": "fruit_vegetables",
+   "source_url": "https://meny.no/varer//barneprodukter/barnedessert",
+   "nutrients": {
+    "kcal": 54.0,
+    "protein_g": 0.5,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.1,
+    "carbs_g": 12.0,
+    "sugars_g": 10.7,
+    "fibre_g": 1.1,
+    "salt_g": 0.01
+   }
+  },
+  {
+   "id": "ean:5060107332959",
+   "nutrients": {
+    "kcal": 54.0,
+    "protein_g": 0.5,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.1,
+    "carbs_g": 12.0,
+    "sugars_g": 10.7,
+    "fibre_g": 1.1,
+    "salt_g": 0.01
+   },
+   "source_url": "https://meny.no/varer//barneprodukter/barnedessert"
+  },
+  {
+   "id": "ean:5060107335554",
+   "category": "fruit_vegetables",
+   "source_url": "https://meny.no/varer//barneprodukter/barnedessert"
+  },
+  {
+   "id": "ean:5060107336780",
+   "category": "fruit_vegetables",
+   "source_url": "https://meny.no/varer//barneprodukter/barnedessert",
+   "nutrients": {
+    "kcal": 54.0,
+    "protein_g": 0.5,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.5,
+    "carbs_g": 12.0,
+    "sugars_g": 10.7,
+    "fibre_g": 1.1,
+    "salt_g": 0.01
+   }
+  },
+  {
    "id": "ean:5060337502900",
    "nutrients": {
     "kcal": 48.0,
@@ -487,12 +660,30 @@
    "source_url": "Meny via ng.py"
   },
   {
+   "id": "ean:5202390015984",
+   "nutrients": {
+    "kcal": 285.0,
+    "protein_g": 0.0,
+    "fat_g": 23.0,
+    "sat_fat_g": 21.0,
+    "carbs_g": 20.0,
+    "sugars_g": 0.0,
+    "salt_g": 2.8
+   },
+   "source_url": "https://meny.no/varer//"
+  },
+  {
    "id": "ean:5410126806090",
    "sizes": [
     "140 g",
     "250 g"
    ],
    "source_url": "https://meny.no/varer/bakevarer-og-kjeks/kjeks/biscoff-kjeks-7312220096019"
+  },
+  {
+   "id": "ean:5410188036664",
+   "name": "Tropicana Appelsin Presset",
+   "source_url": "Meny via ng.py, EAN 5410188036664; Eplejuice Presset 45/0/0/11/10/0.2/0; Tropisk 44/0/0/11/9/0.4/0"
   },
   {
    "id": "ean:5410673728968",
@@ -549,6 +740,15 @@
    "source_url": "https://meny.no/varer//meieri-egg/plantedrikker/havre-barista-professional-5411188132110"
   },
   {
+   "id": "ean:5411188133476",
+   "sizes": [
+    "250 ml",
+    "1 L"
+   ],
+   "source_url": "https://meny.no/varer//meieri-egg/",
+   "name": "Alpro Proteindrikk Soya Sjokolade"
+  },
+  {
    "id": "ean:5449000259172",
    "source_url": "https://meny.no/varer//5000112636833",
    "nutrients": {
@@ -587,6 +787,11 @@
    "source_url": "https://meny.no/varer//bakeri/brod/myke-pitabrod-5701014071950"
   },
   {
+   "id": "ean:5701073066362",
+   "category": "other_food",
+   "source_url": "https://meny.no/"
+  },
+  {
    "id": "ean:5701073066546",
    "category": "other_food",
    "source_url": "https://meny.no/varer/drikke/"
@@ -595,6 +800,19 @@
    "id": "ean:5701259100187",
    "category": "other_food",
    "source_url": "https://meny.no/varer//bakeingredienser/"
+  },
+  {
+   "id": "ean:5701977002091",
+   "nutrients": {
+    "kcal": 69.0,
+    "protein_g": 1.0,
+    "fat_g": 2.9,
+    "sat_fat_g": 0.3,
+    "carbs_g": 9.4,
+    "sugars_g": 4.0,
+    "salt_g": 0.12
+   },
+   "source_url": "https://meny.no/varer//meieri-egg/"
   },
   {
    "id": "ean:5705830017857",
@@ -778,6 +996,30 @@
    "id": "ean:7029013010175",
    "name": "Vesteraalens Fiskeboller i Kraft",
    "source_url": "https://meny.no fiskeboller 7039010073103"
+  },
+  {
+   "id": "ean:7029121010043",
+   "category": "fruit_vegetables",
+   "source_url": "store listing"
+  },
+  {
+   "id": "ean:7029121012092",
+   "category": "snacks_sweets",
+   "source_url": "store listing"
+  },
+  {
+   "id": "ean:7030019516530",
+   "nutrients": {
+    "kcal": 23.0,
+    "protein_g": 0.2,
+    "fat_g": 0.2,
+    "sat_fat_g": 0.1,
+    "carbs_g": 4.3,
+    "sugars_g": 2.3,
+    "fibre_g": 0.0,
+    "salt_g": 0.01
+   },
+   "source_url": "Meny via ng.py, EAN 7030019532530"
   },
   {
    "id": "ean:7031540003469",
@@ -968,6 +1210,16 @@
    "source_url": "https://meny.no/varer//meieri-egg/yoghurter/matyoghurt"
   },
   {
+   "id": "ean:7035110400719",
+   "name": "Findus Grønnsaker Ovnsbakt Basil og Timian",
+   "source_url": "store listing"
+  },
+  {
+   "id": "ean:7035110400788",
+   "name": "Findus Grønnsaker Ovnsbakt Soya og Lime",
+   "source_url": "store listing"
+  },
+  {
    "id": "ean:7035110400900",
    "nutrients": {
     "kcal": 230.0,
@@ -988,6 +1240,20 @@
    "sizes": [
     "400 g"
    ]
+  },
+  {
+   "id": "ean:7035620003424",
+   "sizes": [
+    "42 g",
+    "250 g",
+    "500 g"
+   ],
+   "source_url": "store listing"
+  },
+  {
+   "id": "ean:7035620004391",
+   "category": "fruit_vegetables",
+   "source_url": "store listing"
   },
   {
    "id": "ean:7035620017667",
@@ -1017,6 +1283,16 @@
     "salt_g": 1.75
    },
    "source_url": "https://meny.no surimi 7035620040337"
+  },
+  {
+   "id": "ean:7035620026379",
+   "name": "Lillego Frukt&Grøt",
+   "source_url": "https://meny.no/varer//barneprodukter"
+  },
+  {
+   "id": "ean:7035620028328",
+   "name": "Lillego Smoothie",
+   "source_url": "https://meny.no/varer//barneprodukter"
   },
   {
    "id": "ean:7035620037450",
@@ -1072,6 +1348,16 @@
    "source_url": "https://meny.no (ean 7035620061134)"
   },
   {
+   "id": "ean:7035620062384",
+   "category": "ready_meals_sauces",
+   "source_url": "store listing"
+  },
+  {
+   "id": "ean:7035620065392",
+   "category": "fruit_vegetables",
+   "source_url": "store listing"
+  },
+  {
    "id": "ean:7035620069598",
    "name": "Kyllinggården Kyllingfilet Strimlet",
    "source_url": "https://meny.no/varer/kylling-og-fjaerkre/kylling/kyllingfilet/",
@@ -1096,6 +1382,11 @@
    "id": "ean:7036110010946",
    "name": "Olivero Steke og Bake",
    "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/"
+  },
+  {
+   "id": "ean:7036230001268",
+   "name": "Holmsens Brente Mandler",
+   "source_url": "store listing"
   },
   {
    "id": "ean:7037150121012",
@@ -1144,9 +1435,74 @@
    "source_url": "https://meny.no/varer//kjott/kjottdeig-og-farse/kjottdeig/kjottdeig-storfe-7037204612428"
   },
   {
+   "id": "ean:7037210118846",
+   "name": "Royal Is Crème Brûlée",
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/royal-is-7037210118846"
+  },
+  {
+   "id": "ean:7037210120566",
+   "name": "Krone-Is Jordbær Diplom-Is",
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/smais/krone-is-jordbaer-7037210005009",
+   "nutrients": {
+    "kcal": 261.0,
+    "protein_g": 3.4,
+    "fat_g": 11.0,
+    "sat_fat_g": 8.5,
+    "carbs_g": 36.0,
+    "sugars_g": 27.0,
+    "salt_g": 0.18
+   }
+  },
+  {
+   "id": "ean:7037210120771",
+   "name": "Kjempe Yes Diplom-Is",
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/smais/kjempe-yes-7037210120771"
+  },
+  {
+   "id": "ean:7037210120986",
+   "name": "Diplom-Is Fløteis Vanilje",
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/floteis-vanilje-7037210119256"
+  },
+  {
+   "id": "ean:7037230020105",
+   "nutrients": {
+    "kcal": 433.0,
+    "fat_g": 23.5,
+    "sat_fat_g": 2.3,
+    "carbs_g": 49.6,
+    "sugars_g": 25.6,
+    "protein_g": 5.8,
+    "salt_g": 0.56
+   },
+   "source_url": "https://meny.no"
+  },
+  {
+   "id": "ean:7037421007335",
+   "nutrients": {
+    "kcal": 430.0,
+    "fat_g": 23.0,
+    "sat_fat_g": 8.4,
+    "carbs_g": 52.0,
+    "sugars_g": 35.0,
+    "protein_g": 4.6,
+    "salt_g": 1.1
+   },
+   "source_url": "https://meny.no"
+  },
+  {
    "id": "ean:7037610063708",
    "name": "Mr. Lee Nudler",
-   "source_url": "https://meny.no/varer//middag/"
+   "source_url": "https://meny.no/varer//middag/",
+   "category": "ready_meals_sauces",
+   "nutrients": {
+    "kcal": 79.0,
+    "protein_g": 1.7,
+    "fat_g": 3.1,
+    "sat_fat_g": 0.4,
+    "carbs_g": 11.0,
+    "sugars_g": 0.2,
+    "salt_g": 0.84
+   }
   },
   {
    "id": "ean:7037710020304",
@@ -1195,6 +1551,16 @@
    ]
   },
   {
+   "id": "ean:7038010007224",
+   "name": "Sunniva Appelsinjuice",
+   "source_url": "Meny via ng.py, EAN 7038010043635"
+  },
+  {
+   "id": "ean:7038010008092",
+   "name": "Sunniva Eplejuice",
+   "source_url": "Meny via ng.py, EAN 7038010008139 (Original)"
+  },
+  {
    "id": "ean:7038010024801",
    "name": "Tine Kremgo",
    "source_url": "https://meny.no/varer//ost/smoreoster/kremost/kremgo-7038010024801"
@@ -1212,6 +1578,16 @@
     "fibre_g": null
    },
    "source_url": "https://meny.no/varer//meieri-egg/yoghurter"
+  },
+  {
+   "id": "ean:7038010063350",
+   "name": "Sunniva Iste",
+   "source_url": "Meny via ng.py, EAN 7038010067365 (Fersken); Guava 27 kcal/6.4/6.3; Sitron u/sukker 2 kcal/0/0/0.06 salt"
+  },
+  {
+   "id": "ean:7038080087300",
+   "category": "other_food",
+   "source_url": "https://meny.no/"
   },
   {
    "id": "ean:7038319119888",
@@ -1255,6 +1631,11 @@
    "nutrients": {
     "fibre_g": 0
    }
+  },
+  {
+   "id": "ean:7039010529778",
+   "category": "ready_meals_sauces",
+   "source_url": "https://meny.no/varer//middag/ (Tomatsuppe Original 92g Toro, ean 7039010610667)"
   },
   {
    "id": "ean:7039010541893",
@@ -1417,9 +1798,60 @@
    "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/japp-7622202268472"
   },
   {
+   "id": "ean:7040512837452",
+   "name": "Season Valnøtter",
+   "source_url": "store listing"
+  },
+  {
+   "id": "ean:7040512857030",
+   "name": "Season Aprikoser Tørket",
+   "source_url": "store listing"
+  },
+  {
    "id": "ean:7040913334031",
    "name": "Evergood Dark Roast",
    "source_url": "https://meny.no/varer/drikke/kaffe/"
+  },
+  {
+   "id": "ean:7041011230119",
+   "name": "Hennig-Olsen Creme Deluxe",
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/smais/creme-deluxe-7041011230119"
+  },
+  {
+   "id": "ean:7041011279118",
+   "name": "Krone-Is Sjokolade Hennig-Olsen",
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/smais/krone-is-7041011279118"
+  },
+  {
+   "id": "ean:7041015010113",
+   "name": "Hennig-Olsen Sørlandsis Vanilje",
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/sorlandsis-7041018011001"
+  },
+  {
+   "id": "ean:7041015108117",
+   "name": "Hennig-Olsen Daim Fløteis",
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/daim-floteis-7041015108117"
+  },
+  {
+   "id": "ean:7041018011100",
+   "name": "Hennig-Olsen Sørlandsis Sjokolade",
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/sorlandsis-7041018011001"
+  },
+  {
+   "id": "ean:7041111133440",
+   "sizes": [
+    "50 g",
+    "60 g",
+    "190 g",
+    "330 g",
+    "350 g"
+   ],
+   "source_url": "store listing"
+  },
+  {
+   "id": "ean:7041111152427",
+   "name": "Den Lille Nøttefabrikken Macadamianøtter",
+   "source_url": "store listing"
   },
   {
    "id": "ean:7041461020520",
@@ -1446,6 +1878,34 @@
    "source_url": "https://meny.no/varer/ (Loff 7041610031124)"
   },
   {
+   "id": "ean:7041614003110",
+   "nutrients": {
+    "kcal": 326.0,
+    "fat_g": 8.0,
+    "sat_fat_g": 1.9,
+    "carbs_g": 56.0,
+    "sugars_g": 18.2,
+    "fibre_g": 2.8,
+    "protein_g": 7.8,
+    "salt_g": 0.41
+   },
+   "source_url": "https://meny.no"
+  },
+  {
+   "id": "ean:7041614003127",
+   "nutrients": {
+    "kcal": 348.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 3.6,
+    "carbs_g": 52.9,
+    "sugars_g": 17.0,
+    "fibre_g": 2.7,
+    "protein_g": 8.3,
+    "salt_g": 0.44
+   },
+   "source_url": "https://meny.no"
+  },
+  {
    "id": "ean:7043180100521",
    "name": "Den Stolte Hane Kyllingfilet Singelfryst",
    "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kyllingfilet/kyllingfilet-7043180100521"
@@ -1454,6 +1914,11 @@
    "id": "ean:7043180108428",
    "name": "Den Stolte Hane Kyllingvinger Lollipop Chili BBQ",
    "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kyllingvinger/kyllingvinger-7043180108428"
+  },
+  {
+   "id": "ean:7044410144193",
+   "category": "bread_cereal_grain",
+   "source_url": "https://meny.no/"
   },
   {
    "id": "ean:7044410154239",
@@ -1527,6 +1992,61 @@
    "source_url": "https://meny.no/varer//drikke/brus/farris-7044610874777"
   },
   {
+   "id": "ean:7044710090398",
+   "name": "Hoff Pommes Frites Krydder",
+   "source_url": "store listing",
+   "category": "other_food"
+  },
+  {
+   "id": "ean:7044710300374",
+   "category": "fruit_vegetables",
+   "source_url": "store listing"
+  },
+  {
+   "id": "ean:7044711301042",
+   "category": "fruit_vegetables",
+   "source_url": "store listing",
+   "sizes": [
+    "150 g",
+    "475 g",
+    "480 g",
+    "800 g"
+   ]
+  },
+  {
+   "id": "ean:7044711320203",
+   "name": "Hoff Opphøgde Poteter Airfryer Rifla Båter",
+   "source_url": "store listing",
+   "category": "fruit_vegetables"
+  },
+  {
+   "id": "ean:7044713300319",
+   "category": "fruit_vegetables",
+   "source_url": "store listing"
+  },
+  {
+   "id": "ean:7045010001138",
+   "category": "ready_meals_sauces",
+   "source_url": "store listing",
+   "sizes": [
+    "7 g",
+    "14 g",
+    "46 g",
+    "84 g"
+   ]
+  },
+  {
+   "id": "ean:7045010001282",
+   "sizes": [
+    "13 g",
+    "36 g",
+    "42 g",
+    "93 g",
+    "98 g"
+   ],
+   "source_url": "store listing"
+  },
+  {
    "id": "ean:7045386067202",
    "name": "Leiv Vidar Wienerpølser",
    "source_url": "store listing"
@@ -1592,6 +2112,16 @@
    }
   },
   {
+   "id": "ean:7050122120677",
+   "sizes": [
+    "45 g",
+    "125 g",
+    "150 g",
+    "175 g"
+   ],
+   "source_url": "Meny via ng.py, Cheese 7050122120769 / Chili&Lime 7050122120950"
+  },
+  {
    "id": "ean:7050122170023",
    "nutrients": {
     "kcal": 507.0,
@@ -1604,6 +2134,20 @@
     "salt_g": 2.4
    },
    "source_url": "https://meny.no/varer//snacks-godteri/snacks/chips/crispers-7050122116090"
+  },
+  {
+   "id": "ean:7051150000115",
+   "nutrients": {
+    "kcal": 299.0,
+    "fat_g": 7.2,
+    "sat_fat_g": 1.0,
+    "carbs_g": 55.0,
+    "sugars_g": 17.2,
+    "fibre_g": 2.1,
+    "protein_g": 6.8,
+    "salt_g": 0.5
+   },
+   "source_url": "https://meny.no"
   },
   {
    "id": "ean:7052660101255",
@@ -1620,6 +2164,19 @@
     "salt_g": 0.4925,
     "kcal": 42.0
    }
+  },
+  {
+   "id": "ean:7052860000044",
+   "name": "Bergbys Ketchup",
+   "source_url": "store listing"
+  },
+  {
+   "id": "ean:7055450000097",
+   "sizes": [
+    "280 g",
+    "290 g"
+   ],
+   "source_url": "https://meny.no"
   },
   {
    "id": "ean:7058040664204",
@@ -1660,6 +2217,18 @@
    "source_url": "https://meny.no/varer//bakeri/knekkebrod/knekkebrod-7071848111053"
   },
   {
+   "id": "ean:7071848404797",
+   "sizes": [
+    "160 g"
+   ],
+   "source_url": "https://meny.no/varer/bakeri/boller-og-smakaker/kanelbakst/kanelsnurr-7071848404797"
+  },
+  {
+   "id": "ean:7072130118910",
+   "name": "Idun Sjokoladesaus Lys",
+   "source_url": "https://meny.no/varer/dessert-og-iskrem/"
+  },
+  {
    "id": "ean:7072350052186",
    "nutrients": {
     "kcal": 341.0,
@@ -1672,6 +2241,25 @@
     "salt_g": 2.3
    },
    "source_url": "https://meny.no/varer//palegg-frokost/bacon/bacon-7072350014719"
+  },
+  {
+   "id": "ean:7090000698065",
+   "category": "bread_cereal_grain",
+   "source_url": "https://meny.no"
+  },
+  {
+   "id": "ean:7090000873417",
+   "nutrients": {
+    "kcal": 348.0,
+    "fat_g": 19.1,
+    "sat_fat_g": 2.2,
+    "carbs_g": 40.3,
+    "sugars_g": 22.1,
+    "fibre_g": 3.2,
+    "protein_g": 5.0,
+    "salt_g": 1.0
+   },
+   "source_url": "https://meny.no"
   },
   {
    "id": "ean:7090007276112",
@@ -1708,9 +2296,29 @@
    "source_url": "https://spar.no sei 7090029220124"
   },
   {
+   "id": "ean:7090052030028",
+   "name": "GroGro Smoothie m/Eple og Blåbær",
+   "source_url": "https://meny.no/varer//barneprodukter"
+  },
+  {
+   "id": "ean:7090052030608",
+   "name": "GroGro Pulvergrøt Chunky",
+   "source_url": "https://meny.no/varer//barneprodukter"
+  },
+  {
+   "id": "ean:7090052030752",
+   "name": "GroGro Grøtpinner",
+   "source_url": "https://meny.no/varer//barneprodukter"
+  },
+  {
    "id": "ean:7300156491930",
    "category": "dairy_eggs",
    "source_url": "store listing"
+  },
+  {
+   "id": "ean:7310100690395",
+   "name": "Semper Grøt Frukt",
+   "source_url": "https://meny.no/varer//barneprodukter/barnegrot"
   },
   {
    "id": "ean:7310130003240",
@@ -1781,6 +2389,11 @@
    "source_url": "https://meny.no/varer//middag/pizzaretter/pizza/"
   },
   {
+   "id": "ean:7310500175997",
+   "category": "fruit_vegetables",
+   "source_url": "store listing"
+  },
+  {
    "id": "ean:7310511257507",
    "name": "Daim",
    "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/daim-dobbel-7310511257507"
@@ -1791,16 +2404,99 @@
    "source_url": "https://meny.no/varer//ost/smoreoster/kremost/philadelphia-7310700676492"
   },
   {
+   "id": "ean:7310865074768",
+   "name": "God Morgen Juice Appelsin",
+   "source_url": "Meny via ng.py, EAN 7310865081650 (Eple); Appelsin m/fruktkjøtt 42/0/0/8.8/8.4/0.8/0"
+  },
+  {
+   "id": "ean:7310865081650",
+   "name": "God Morgen Juice Eple",
+   "source_url": "Meny via ng.py, EAN 7310865081650 (Eple); Appelsin m/fruktkjøtt 42/0/0/8.8/8.4/0.8/0"
+  },
+  {
+   "id": "ean:7311040058610",
+   "category": "fruit_vegetables",
+   "source_url": "store listing"
+  },
+  {
+   "id": "ean:7311040062303",
+   "category": "fruit_vegetables",
+   "source_url": "store listing"
+  },
+  {
+   "id": "ean:7311040172521",
+   "category": "snacks_sweets",
+   "source_url": "store listing"
+  },
+  {
+   "id": "ean:7311041002339",
+   "category": "fruit_vegetables",
+   "source_url": "store listing"
+  },
+  {
+   "id": "ean:7311041013625",
+   "category": "fruit_vegetables",
+   "source_url": "Meny via ng.py, EAN 7311041013625"
+  },
+  {
+   "id": "ean:7311041020630",
+   "sizes": [
+    "85 g"
+   ],
+   "source_url": "Meny via ng.py, 7311041020630"
+  },
+  {
    "id": "ean:7311041029985",
    "name": "First Price Fiskeboller i Kraft",
    "source_url": "https://meny.no/varer/ (Fiskeboller i Kraft 7311041029985)"
+  },
+  {
+   "id": "ean:7311310021191",
+   "sizes": [
+    "4 g"
+   ],
+   "source_url": "store listing"
+  },
+  {
+   "id": "ean:7311310038205",
+   "nutrients": {
+    "kcal": 483.0,
+    "protein_g": 5.7,
+    "fat_g": 24.0,
+    "sat_fat_g": 2.3,
+    "carbs_g": 57.0,
+    "sugars_g": 1.1,
+    "fibre_g": 6.6,
+    "salt_g": 1.5
+   },
+   "source_url": "Meny via ng.py, 7311312008268"
+  },
+  {
+   "id": "ean:7311311025686",
+   "sizes": [
+    "320 g",
+    "371 g",
+    "400 g",
+    "742 g"
+   ],
+   "source_url": "Meny via ng.py, 7311311020599"
   },
   {
    "id": "ean:7311311029387",
    "sizes": [
     "230 g"
    ],
-   "source_url": "store listing"
+   "source_url": "store listing",
+   "nutrients": {
+    "kcal": 34.0,
+    "protein_g": 1.4,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 5.8,
+    "sugars_g": 4.3,
+    "fibre_g": 1.9,
+    "salt_g": 1.2
+   }
   },
   {
    "id": "ean:7311312000583",
@@ -1815,6 +2511,23 @@
     "salt_g": 0.04
    },
    "source_url": "https://meny.no/varer//middag/"
+  },
+  {
+   "id": "ean:7311312001177",
+   "category": "ready_meals_sauces",
+   "source_url": "Meny via ng.py, Coconut Milk Original 7311312005458"
+  },
+  {
+   "id": "ean:7311312002389",
+   "nutrients": {
+    "kcal": 32.0,
+    "protein_g": 1.5,
+    "carbs_g": 5.1,
+    "sugars_g": 4.2,
+    "fibre_g": 1.7,
+    "salt_g": 0.78
+   },
+   "source_url": "Meny via ng.py, Salsa Dip Medium 7311312002341"
   },
   {
    "id": "ean:7312080004018",
@@ -1899,6 +2612,11 @@
    "source_url": "https://meny.no/varer/drikke/energidrikke/nocco-electrolyte-7340131607185"
   },
   {
+   "id": "ean:7350020720758",
+   "name": "Froosh Shorty Mango&Appelsin",
+   "source_url": "Meny via ng.py, EAN 7350020720758 (Mango&Appelsin); Jordbær flavours 44/9.8/9.4/0.7/0"
+  },
+  {
    "id": "ean:7350028548682",
    "nutrients": {
     "kcal": 370.0,
@@ -1928,6 +2646,28 @@
    "source_url": "https://meny.no/varer//meieri-egg/plantedrikker/havredrikk-1-5-fett-7394376620799"
   },
   {
+   "id": "ean:7394376615771",
+   "sizes": [
+    "250 ml",
+    "1 L"
+   ],
+   "source_url": "https://meny.no/varer//meieri-egg/"
+  },
+  {
+   "id": "ean:7394376618963",
+   "nutrients": {
+    "kcal": 61.0,
+    "protein_g": 1.1,
+    "fat_g": 3.0,
+    "sat_fat_g": 0.3,
+    "carbs_g": 7.1,
+    "sugars_g": 3.4,
+    "fibre_g": 0.8,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//meieri-egg/"
+  },
+  {
    "id": "ean:7394376619939",
    "name": "Oatly Havredrikk Barista",
    "source_url": "https://meny.no/varer//meieri-egg/plantedrikker/havredrikk-barista-7394376618963",
@@ -1951,6 +2691,34 @@
    "id": "ean:7394376621666",
    "name": "Oatly Havredrikk Ikaffe Økologisk",
    "source_url": "https://meny.no/varer//meieri-egg/plantedrikker/havredrikk-ikaffe-okologisk-7394376621666"
+  },
+  {
+   "id": "ean:7613030863434",
+   "name": "Mövenpick Chocolata",
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/movenpick-7613030863434"
+  },
+  {
+   "id": "ean:7613030863656",
+   "name": "Mövenpick Maple Walnut",
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/movenpick-7613030863656"
+  },
+  {
+   "id": "ean:7613030871811",
+   "name": "Mövenpick Vanilla",
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/movenpick-7613030871811"
+  },
+  {
+   "id": "ean:7613036876599",
+   "nutrients": {
+    "kcal": 62.0,
+    "protein_g": 2.7,
+    "fat_g": 2.5,
+    "carbs_g": 7.5,
+    "sugars_g": 1.5,
+    "fibre_g": 1.0,
+    "salt_g": 0.04
+   },
+   "source_url": "https://meny.no/varer//barneprodukter/barnemat"
   },
   {
    "id": "ean:7622201007805",
@@ -2016,6 +2784,11 @@
    "source_url": "https://meny.no/varer/drikke/"
   },
   {
+   "id": "ean:7622210115720",
+   "category": "other_food",
+   "source_url": "https://meny.no/"
+  },
+  {
    "id": "ean:7622210410337",
    "sizes": [
     "47 g",
@@ -2041,9 +2814,24 @@
    "source_url": "https://meny.no/varer//ost/smoreoster/kremost/philadelphia-7622300684327"
   },
   {
+   "id": "ean:7622400944543",
+   "name": "Freia Vaniljesaus Instant",
+   "source_url": "https://meny.no/varer/dessert-og-iskrem/"
+  },
+  {
+   "id": "ean:8000920576502",
+   "name": "Magnum Is After Dinner",
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/smais-multipack/magnum-is-8000920576502"
+  },
+  {
    "id": "ean:8005110005695",
    "name": "Mutti Pastasaus Hvitløk",
    "source_url": "https://meny.no/varer//middagstilbehor/"
+  },
+  {
+   "id": "ean:8005110170348",
+   "name": "Mutti Hakkede Tomater",
+   "source_url": "store listing"
   },
   {
    "id": "ean:8008706085422",
@@ -2076,10 +2864,45 @@
    "source_url": "https://meny.no/varer//middag/risprodukter/"
   },
   {
+   "id": "ean:8410076410078",
+   "nutrients": {
+    "kcal": 43.0,
+    "protein_g": 1.2,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.0,
+    "carbs_g": 8.9,
+    "sugars_g": 4.5,
+    "fibre_g": 1.3,
+    "salt_g": 1.01
+   },
+   "source_url": "Meny via ng.py, 8410076410108"
+  },
+  {
+   "id": "ean:8410076481511",
+   "nutrients": {
+    "kcal": 497.0,
+    "protein_g": 6.1,
+    "fat_g": 26.5,
+    "sat_fat_g": 3.0,
+    "carbs_g": 56.1,
+    "sugars_g": 0.5,
+    "fibre_g": 4.7,
+    "salt_g": 0.98
+   },
+   "source_url": "Meny via ng.py, 8410076482594"
+  },
+  {
    "id": "ean:8410076482563",
    "source_url": "https://meny.no/varer/ (ean 8410076482563, Tortilla Chips Chili 185g Old El Paso)",
    "nutrients": {
-    "sugars_g": 3.5
+    "sugars_g": 3.5,
+    "kcal": 497.0,
+    "protein_g": 6.1,
+    "fat_g": 26.5,
+    "sat_fat_g": 3.0,
+    "carbs_g": null,
+    "fibre_g": 4.7,
+    "salt_g": 0.98
    }
   },
   {
@@ -2089,9 +2912,54 @@
    "name": "Ybarra Rapsolje"
   },
   {
+   "id": "ean:8436536120028",
+   "name": "Almondelli Mandler uten skall Marcona",
+   "source_url": "store listing"
+  },
+  {
+   "id": "ean:8436536120073",
+   "name": "Almondelli Mandler med skall Valencia",
+   "source_url": "store listing"
+  },
+  {
+   "id": "ean:8436536120127",
+   "name": "Almondelli Mandler uten skall Valencia",
+   "source_url": "store listing"
+  },
+  {
+   "id": "ean:8445290017024",
+   "category": "fruit_vegetables",
+   "source_url": "store listing"
+  },
+  {
+   "id": "ean:8445290805010",
+   "nutrients": {
+    "kcal": 431.0,
+    "protein_g": 17.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 2.5,
+    "carbs_g": 61.0,
+    "sugars_g": 22.0,
+    "fibre_g": 5.5,
+    "salt_g": 0.3
+   },
+   "source_url": "https://meny.no/varer//barneprodukter/barnegrot/min-velling-7613035622241",
+   "name": "Nestlé Min Velling Fullkorn"
+  },
+  {
+   "id": "ean:8445291080706",
+   "category": "bread_cereal_grain",
+   "source_url": "https://meny.no/varer//barneprodukter/barnegrot"
+  },
+  {
    "id": "ean:8445291179653",
    "category": "drinks",
    "source_url": "store listing"
+  },
+  {
+   "id": "ean:8445291245471",
+   "name": "Nestlé Min Fruktgrøt",
+   "source_url": "https://meny.no/varer//barneprodukter"
   },
   {
    "id": "ean:8445291306516",
@@ -2102,6 +2970,16 @@
    "id": "ean:8445291633728",
    "name": "Nesquik Jordbaer",
    "source_url": "https://meny.no/varer/drikke/"
+  },
+  {
+   "id": "ean:8445291886230",
+   "category": "ready_meals_sauces",
+   "source_url": "https://meny.no/ (Maggi Ramen Noodles Chicken 62g)"
+  },
+  {
+   "id": "ean:8690538023026",
+   "name": "Garland Fiken",
+   "source_url": "store listing"
   },
   {
    "id": "ean:8710398518705",
@@ -2117,14 +2995,54 @@
    "source_url": "meny.no ean 8710398535047"
   },
   {
+   "id": "ean:8711327370708",
+   "name": "Ben & Jerry's Chocolate Fudge Brownie",
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/benjerrys-8711327370708"
+  },
+  {
+   "id": "ean:8711327371002",
+   "name": "Ben & Jerry's Half Baked",
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/benjerrys-8711327371002"
+  },
+  {
+   "id": "ean:8711327374171",
+   "name": "Ben & Jerry's Karamel Sutra Core",
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/benjerrys-8711327374171"
+  },
+  {
+   "id": "ean:8714100289969",
+   "name": "Magnum Is Classic",
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/magnum-is-8714100289969"
+  },
+  {
+   "id": "ean:8714100289983",
+   "name": "Magnum Is Almond",
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/magnum-is-8714100289983"
+  },
+  {
    "id": "ean:8715035110106",
    "name": "Kikkoman Soyasaus",
    "source_url": "https://meny.no/varer//middagstilbehor/"
   },
   {
+   "id": "ean:8715035130104",
+   "name": "Soyasaus Mindre Salt",
+   "source_url": "Meny via ng.py, 8715035670501 (protein and salt cut off in my read)"
+  },
+  {
    "id": "ean:8715035670501",
    "name": "Kikkoman Soyasaus Mindre Salt",
    "source_url": "https://meny.no/varer//middagstilbehor/"
+  },
+  {
+   "id": "ean:8721274813104",
+   "name": "Magnum Småis La Pistache",
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/smais-multipack/magnum-smais-8721274813104"
+  },
+  {
+   "id": "ean:8850987148361",
+   "name": "Mama Nudler",
+   "source_url": "Meny via ng.py, Nudler m/Kyllingsmak 5x55g 8850987149962"
   },
   {
    "id": "ean:9002490200602",
@@ -2150,6 +3068,11 @@
    "source_url": "https://meny.no/varer//middag/ferdigretter/lasagne-ferdig/lasagnette-7033330089691"
   },
   {
+   "id": "fjordland:https://www.fjordland.no/kos/produkter/kos-sjokoladepudding-med-vaniljesaus",
+   "name": "Kos Sjokoladepudding m/vaniljesaus",
+   "source_url": "https://meny.no/varer/dessert-og-iskrem/"
+  },
+  {
    "id": "grandiosa:https://www.grandiosa.no/produkter/grandiosa-original/",
    "sizes": [
     "375 g",
@@ -2171,6 +3094,11 @@
    "id": "kavli:https://www.kavli.no/produkter/baconost",
    "category": "dairy_eggs",
    "source_url": "https://meny.no/varer//ost/smoreoster/baconost-7041810010387"
+  },
+  {
+   "id": "kavli:https://www.kavli.no/produkter/druvan-rodvinseddik",
+   "name": "Druvan Rødvinseddik",
+   "source_url": "store listing"
   },
   {
    "id": "kavli:https://www.kavli.no/produkter/hapa-original",
@@ -2268,7 +3196,13 @@
    "source_url": "https://meny.no/varer//palegg-frokost/majones/majones-ekte-7036110009841",
    "nutrients": {
     "fibre_g": 0
-   }
+   },
+   "sizes": [
+    "100 g",
+    "160 g",
+    "165 g",
+    "260 g"
+   ]
   },
   {
    "id": "mills:https://mills.no/mills/produkt/ekte-remulade/",
@@ -2343,6 +3277,12 @@
    "id": "mills:https://mills.no/vita-hjertego/produkt/vita-hjertego-proaktiv/",
    "category": "other_food",
    "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/"
+  },
+  {
+   "id": "norgesgruppen:24000146643",
+   "name": "Del Monte Ananas i Biter",
+   "source_url": "store listing",
+   "category": "fruit_vegetables"
   },
   {
    "id": "norgesgruppen:31954",
@@ -2507,6 +3447,16 @@
    "source_url": "Meny via ng.py"
   },
   {
+   "id": "tine:https://www.tine.no/merkevarer/piano/produkter/piano-karamellpudding",
+   "category": "snacks_sweets",
+   "source_url": "https://meny.no/varer/dessert-og-iskrem/"
+  },
+  {
+   "id": "tine:https://www.tine.no/merkevarer/piano/produkter/piano-mandelpudding",
+   "category": "snacks_sweets",
+   "source_url": "https://meny.no/varer/dessert-og-iskrem/"
+  },
+  {
    "id": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-fl%C3%B8temysost",
    "sizes": [
     "130 g",
@@ -2613,6 +3563,17 @@
     "salt_g": 0.0
    },
    "source_url": "https://meny.no/varer//middag/risprodukter/ris/"
+  },
+  {
+   "id": "toro:https://www.toro.no/produkter/original-tomatsuppe-med-makaroni-2/",
+   "sizes": [
+    "119 g",
+    "122 g",
+    "127 g",
+    "131 g",
+    "192 g"
+   ],
+   "source_url": "https://meny.no/ (Tomatsuppe m/Makaroni 122g Toro, 7039010610575)"
   },
   {
    "id": "toro:https://www.toro.no/produkter/pasta-classico/",
@@ -7532,6 +8493,131 @@
    "id": "toro:https://www.toro.no/produkter/toro-kit-teriyaki/",
    "into": "ean:7039010609708",
    "why": "duplicate (round C): Toro Japansk Teriyaki -> Toro Teriyaki Japansk Kit"
+  },
+  {
+   "id": "ean:0041143024966",
+   "into": "ean:0041143024324",
+   "why": "merge_duplicates: Rosiner Økologisk Sun Maid -> Sun-Maid Rosiner"
+  },
+  {
+   "id": "ean:0041143028919",
+   "into": "ean:0041143024324",
+   "why": "merge_duplicates: Rosiner -> Sun-Maid Rosiner"
+  },
+  {
+   "id": "ean:0641243998695",
+   "into": "ean:7037610063708",
+   "why": "merge_duplicates: Nudler -> Orkla Foods Norge Nudler"
+  },
+  {
+   "id": "ean:2000053444224",
+   "into": "ean:7020560956138",
+   "why": "merge_duplicates: Lomper -> Lomper"
+  },
+  {
+   "id": "ean:4062300466104",
+   "into": "ean:4062300359437",
+   "why": "merge_duplicates: Hipp Combiotik 1 Rtd -> Hipp Baby Combiotik 1"
+  },
+  {
+   "id": "ean:5060040252109",
+   "into": "ean:5060040255452",
+   "why": "merge_duplicates: Smoothiebiter 4pkn -> Smoothie Biter Jordbær&Banan"
+  },
+  {
+   "id": "ean:6135121000098",
+   "into": "ean:6135121000302",
+   "why": "merge_duplicates: Dadler -> Dadler Nour u/Sten"
+  },
+  {
+   "id": "ean:7026450030124",
+   "into": "ean:7026450030094",
+   "why": "merge_duplicates: Sommerhonning -> Norsk Honning"
+  },
+  {
+   "id": "ean:7026450054236",
+   "into": "ean:7026450030094",
+   "why": "merge_duplicates: Honning -> Norsk Honning"
+  },
+  {
+   "id": "ean:7035620013805",
+   "into": "ean:7035620065392",
+   "why": "merge_duplicates: Unil Potetbåter m/Skall Express -> Eldorado Potetbåter med Skall Express"
+  },
+  {
+   "id": "ean:7037610023832",
+   "into": "toro:https://www.toro.no/produkter/meksikansk-tomatsuppe/",
+   "why": "merge_duplicates: Orkla Foods Norge Tomatsuppe Meksikansk Toro, med Fløte -> Toro Meksikansk Tomatsuppe"
+  },
+  {
+   "id": "ean:7041012570009",
+   "into": "ean:7041011280114",
+   "why": "merge_duplicates: Freia Krone-Is Non Stop -> Krone-Is Nonstop Hennig Olsen"
+  },
+  {
+   "id": "ean:7041018009503",
+   "into": "ean:7041011050007",
+   "why": "merge_duplicates: Hennig-Olsen Friskis -> Hennig-Olsen Friskis Jordbær/appelsin"
+  },
+  {
+   "id": "ean:7041110121394",
+   "into": "ean:7041111158610",
+   "why": "merge_duplicates: Den Lille Nøttefabrikken Cashewnøtter -> Den Lille Nøttefabrikken Cashewnøtter"
+  },
+  {
+   "id": "ean:7041111122222",
+   "into": "ean:7041111133440",
+   "why": "merge_duplicates: Brynild Nøtti Frutti -> Den Lille Nøttefabrikken Nøtti Frutti"
+  },
+  {
+   "id": "ean:7041111155794",
+   "into": "ean:7041111158610",
+   "why": "merge_duplicates: Den Lille Nøttefabrikken Cashewnøtter -> Den Lille Nøttefabrikken Cashewnøtter"
+  },
+  {
+   "id": "ean:7394376619939",
+   "into": "ean:7394376618963",
+   "why": "merge_duplicates: Oatly Havredrikk -> Oatly Havredrikk Barista"
+  },
+  {
+   "id": "ean:7622210115805",
+   "into": "ean:7622210115720",
+   "why": "merge_duplicates: Bakepulver -> Freia Bakepulver"
+  },
+  {
+   "id": "ean:8410076475756",
+   "into": "ean:8410076472410",
+   "why": "merge_duplicates: Old El Paso Street Vibes Soft Taco Wraps -> Tortillas Large Old El Paso"
+  },
+  {
+   "id": "kassalapp:39150",
+   "into": "fjordland:https://www.fjordland.no/kos/produkter/kos-sjokoladepudding-med-vaniljesaus",
+   "why": "merge_duplicates: Fjordland Sjokoladepudding -> Sjokoladepudding med vaniljesaus Nettoinnhold: g"
+  },
+  {
+   "id": "kassalapp:9041",
+   "into": "ean:7048840202850",
+   "why": "merge_duplicates: Q Planti Yoghurt Bringebær & Lime -> Q Planti"
+  },
+  {
+   "id": "openfoodfacts:0070447113202",
+   "into": "ean:7044711301042",
+   "why": "merge_duplicates: Hoff Opphøgde Poteter -> Hoff Opphøgde Potteter"
+  },
+  {
+   "id": "tine:https://www.tine.no/merkevarer/sunniva/produkter/sunniva-original-appelsinjuice",
+   "into": "ean:7038010007224",
+   "why": "merge_duplicates: Sunniva Original Appelsinjuice -> Tine Appelsinjuice"
+  },
+  {
+   "id": "tine:https://www.tine.no/merkevarer/sunniva/produkter/sunniva-original-appelsinjuice-med-fruktkj%C3%B8tt",
+   "into": "ean:7038010007224",
+   "why": "merge_duplicates: Sunniva Original Appelsinjuice m/fruktkjøtt -> Tine Appelsinjuice"
+  },
+  {
+   "id": "tine:https://www.tine.no/merkevarer/sunniva/produkter/sunniva-original-eplejuice",
+   "into": "ean:7038010008092",
+   "why": "merge_duplicates: Sunniva Original Eplejuice -> Tine Eplejuice"
   }
  ],
  "drop": [
@@ -11662,6 +12748,554 @@
    },
    "source_url": "https://www.starbucks.no/sites/starbucks-no-pwa/files/2026-11/N%C3%A6ringsinnhold%20mat%20og%20pastries_SBUX_NO%20til%20hjemmeside_v3_0.pdf",
    "menu": true
+  },
+  {
+   "id": "store:5411188110712",
+   "name": "Alpro Plantgurt",
+   "brand": "Alpro",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [
+    "400 g",
+    "750 g"
+   ],
+   "eans": [
+    "5411188110712",
+    "5411188110743",
+    "5411188138013"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 66.0,
+    "protein_g": 3.7,
+    "fat_g": 2.2,
+    "sat_fat_g": 0.4,
+    "carbs_g": 7.4,
+    "sugars_g": 7.4,
+    "fibre_g": 0.8,
+    "salt_g": 0.13
+   },
+   "source_url": "https://meny.no/varer//meieri-egg/yoghurter/yoghurt/plantgurt-5411188110712"
+  },
+  {
+   "id": "store:5701073066225",
+   "name": "Natron",
+   "brand": "Dr. Oetker",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [
+    "100 g"
+   ],
+   "eans": [
+    "5701073066225"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 0.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "salt_g": 67.5
+   },
+   "source_url": "https://meny.no/"
+  },
+  {
+   "id": "store:7020560009797",
+   "name": "Rosinboller",
+   "brand": "Baker Nilsen",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [
+    "470 g"
+   ],
+   "eans": [
+    "7020560009797"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 278.0,
+    "protein_g": 8.0,
+    "fat_g": 5.7,
+    "sat_fat_g": 0.7,
+    "carbs_g": 46.6,
+    "sugars_g": 9.7,
+    "salt_g": 0.2
+   },
+   "source_url": "https://meny.no"
+  },
+  {
+   "id": "store:7033330089752",
+   "name": "Karamellpudding m/karamellsaus",
+   "brand": "Kos",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [
+    "425 g"
+   ],
+   "eans": [
+    "7033330089752"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 134.0,
+    "protein_g": 4.5,
+    "fat_g": 3.9,
+    "sat_fat_g": 1.9,
+    "carbs_g": 20.0,
+    "sugars_g": 19.0,
+    "salt_g": 0.13
+   },
+   "source_url": "https://meny.no/varer/dessert-og-iskrem/"
+  },
+  {
+   "id": "store:7036470005736",
+   "name": "Marsipankake",
+   "brand": "Bakeriet",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [
+    "750 g"
+   ],
+   "eans": [
+    "7036470005736"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 340.0,
+    "protein_g": 5.5,
+    "fat_g": 14.0,
+    "sat_fat_g": 1.0,
+    "carbs_g": 47.0,
+    "sugars_g": 32.0,
+    "fibre_g": 0.9,
+    "salt_g": 0.28
+   },
+   "source_url": "https://spar.no"
+  },
+  {
+   "id": "store:7036470005941",
+   "name": "Romkake",
+   "brand": "Bakeriet",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [
+    "700 g"
+   ],
+   "eans": [
+    "7036470005941"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 262.0,
+    "protein_g": 2.9,
+    "fat_g": 17.2,
+    "sat_fat_g": 10.5,
+    "carbs_g": 23.3,
+    "sugars_g": 16.1,
+    "fibre_g": 0.4,
+    "salt_g": 0.22
+   },
+   "source_url": "https://spar.no"
+  },
+  {
+   "id": "store:7037210119690",
+   "name": "Lollipop Is",
+   "brand": "Diplom-Is",
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [
+    "1,2 L"
+   ],
+   "eans": [
+    "7037210119690",
+    "7037210118426"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 118.0,
+    "protein_g": 0.5,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.3,
+    "carbs_g": 29.0,
+    "sugars_g": 25.0,
+    "salt_g": 0.01
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/lollipop-is-7037210119690"
+  },
+  {
+   "id": "store:7037210121761",
+   "name": "Krone-Is Sjokomums",
+   "brand": "Diplom-Is",
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [
+    "125 ml"
+   ],
+   "eans": [
+    "7037210121761"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 287.0,
+    "protein_g": 3.6,
+    "fat_g": 14.0,
+    "sat_fat_g": 11.0,
+    "carbs_g": 36.0,
+    "sugars_g": 27.0,
+    "salt_g": 0.29
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/smais/krone-is-sjokomums-7037210121761"
+  },
+  {
+   "id": "store:7041614008931",
+   "name": "Wienerbrød Skårne",
+   "brand": "Bakehuset",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [
+    "75 g"
+   ],
+   "eans": [
+    "7041614008931"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 270.0,
+    "protein_g": 2.8,
+    "fat_g": 14.0,
+    "sat_fat_g": 7.2,
+    "carbs_g": 33.3,
+    "sugars_g": 19.1,
+    "fibre_g": 0.8,
+    "salt_g": 0.34
+   },
+   "source_url": "https://meny.no"
+  },
+  {
+   "id": "store:7041614022906",
+   "name": "Romkake Sesong",
+   "brand": "Bakehuset",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [
+    "900 g"
+   ],
+   "eans": [
+    "7041614022906"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 288.0,
+    "protein_g": 2.8,
+    "fat_g": 12.5,
+    "sat_fat_g": 7.8,
+    "carbs_g": 40.6,
+    "sugars_g": 28.0,
+    "fibre_g": 1.1,
+    "salt_g": 0.46
+   },
+   "source_url": "https://meny.no"
+  },
+  {
+   "id": "store:7071848102143",
+   "name": "Mini Donut Melkesjokolade",
+   "brand": "United Bakeries",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [
+    "95 g"
+   ],
+   "eans": [
+    "7071848102143",
+    "7071848007615",
+    "7071848008575"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 475.0,
+    "protein_g": 5.8,
+    "fat_g": 30.0,
+    "sat_fat_g": 13.0,
+    "carbs_g": 45.0,
+    "sugars_g": 21.0,
+    "fibre_g": 2.8,
+    "salt_g": 0.98
+   },
+   "source_url": "https://meny.no"
+  },
+  {
+   "id": "store:7310100708885",
+   "name": "Fruktmums",
+   "brand": "Semper",
+   "category": "fruit_vegetables",
+   "unit": "g",
+   "sizes": [
+    "110 g"
+   ],
+   "eans": [
+    "7310100708885",
+    "7310100703187",
+    "7310100703347",
+    "7310100718945"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 61.0,
+    "protein_g": 0.7,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.1,
+    "carbs_g": 14.0,
+    "sugars_g": 12.0,
+    "salt_g": 0.02
+   },
+   "source_url": "https://meny.no/varer//barneprodukter/barnedessert"
+  },
+  {
+   "id": "store:7312690024000",
+   "name": "Oatly Iskrem Vanilje",
+   "brand": "Oatly",
+   "category": "snacks_sweets",
+   "unit": "ml",
+   "sizes": [
+    "500 ml"
+   ],
+   "eans": [
+    "7312690024000"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 185.0,
+    "protein_g": 0.7,
+    "fat_g": 10.0,
+    "sat_fat_g": 6.0,
+    "carbs_g": 22.0,
+    "sugars_g": 20.0,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/oatly-iskrem-7312690024000"
+  },
+  {
+   "id": "store:7394376617768",
+   "name": "Oatly Imat Visp",
+   "brand": "Oatly",
+   "category": "dairy_eggs",
+   "unit": "ml",
+   "sizes": [
+    "250 ml"
+   ],
+   "eans": [
+    "7394376617768",
+    "7394376624711"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 263.0,
+    "protein_g": 0.5,
+    "fat_g": 24.0,
+    "sat_fat_g": 23.0,
+    "carbs_g": 11.0,
+    "sugars_g": 2.4,
+    "fibre_g": 0.5,
+    "salt_g": 0.22
+   },
+   "source_url": "https://meny.no/varer//meieri-egg/"
+  },
+  {
+   "id": "store:7613033880537",
+   "name": "Min Frukt Smoothie",
+   "brand": "Nestlé",
+   "category": "fruit_vegetables",
+   "unit": "g",
+   "sizes": [
+    "90 g",
+    "110 g"
+   ],
+   "eans": [
+    "7613033880537",
+    "7613035605893",
+    "7613033881824",
+    "7613287402554"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 59.0,
+    "protein_g": 0.5,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.1,
+    "carbs_g": 13.0,
+    "sugars_g": 12.0,
+    "fibre_g": 1.3,
+    "salt_g": 0.01
+   },
+   "source_url": "https://meny.no/varer//barneprodukter/barnedessert"
+  },
+  {
+   "id": "store:7613035642683",
+   "name": "Min Fullkornsgrøt",
+   "brand": "Nestlé",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [
+    "410 g",
+    "480 g"
+   ],
+   "eans": [
+    "7613035642683",
+    "8445292428026",
+    "8445292084987",
+    "8445292428187",
+    "8445292428729",
+    "8445292085564",
+    "8445292428484",
+    "8445292062381",
+    "8445292085083",
+    "8445292061704"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 410.0,
+    "protein_g": 16.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 2.5,
+    "carbs_g": 59.0,
+    "sugars_g": 27.0,
+    "fibre_g": 5.5,
+    "salt_g": 0.3
+   },
+   "source_url": "https://meny.no/varer//barneprodukter/barnegrot/min-grot-fullkorn-7613035642683"
+  },
+  {
+   "id": "store:8445290748133",
+   "name": "Nan Pro 1/2/3/4",
+   "brand": "Nestlé",
+   "category": "dairy_eggs",
+   "unit": "ml",
+   "sizes": [
+    "200 ml",
+    "500 ml"
+   ],
+   "eans": [
+    "8445290748133",
+    "8445290748072",
+    "7613038019208",
+    "8445291078932",
+    "8445291084711",
+    "7613038160023",
+    "7613038155463"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 67.0,
+    "protein_g": 1.2,
+    "fat_g": 3.5,
+    "sat_fat_g": 0.3,
+    "carbs_g": 7.4,
+    "sugars_g": 7.3,
+    "fibre_g": 0.1,
+    "salt_g": 0.0
+   },
+   "source_url": "https://meny.no/varer//barneprodukter/morsmelkerstatning"
+  },
+  {
+   "id": "store:8445291280656",
+   "name": "Min Grøt Søvntid",
+   "brand": "Nestlé",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [
+    "110 g"
+   ],
+   "eans": [
+    "8445291280656"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 103.0,
+    "protein_g": 3.6,
+    "fat_g": 2.6,
+    "sat_fat_g": 0.3,
+    "carbs_g": 16.0,
+    "sugars_g": 8.0,
+    "fibre_g": 0.7,
+    "salt_g": 0.05
+   },
+   "source_url": "https://meny.no/varer//barneprodukter/barnegrot"
+  },
+  {
+   "id": "store:8711327374515",
+   "name": "Peanut Butter Cup",
+   "brand": "Ben & Jerry's",
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [
+    "465 ml"
+   ],
+   "eans": [
+    "8711327374515"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 282.0,
+    "protein_g": 5.9,
+    "fat_g": 19.0,
+    "sat_fat_g": 11.0,
+    "carbs_g": 22.0,
+    "sugars_g": 21.0,
+    "salt_g": 0.4
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/benjerrys-8711327374515"
+  },
+  {
+   "id": "store:8711327480438",
+   "name": "Magnum Double Gold Caramel Billionaire",
+   "brand": "Magnum",
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [
+    "440 ml"
+   ],
+   "eans": [
+    "8711327480438"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 207.0,
+    "protein_g": 2.6,
+    "fat_g": 12.0,
+    "sat_fat_g": 7.2,
+    "carbs_g": 23.0,
+    "sugars_g": 19.0,
+    "salt_g": 0.17
+   },
+   "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/magnum-double-gold-8711327480438"
+  },
+  {
+   "id": "store:8712566121458",
+   "name": "Fond du Chef",
+   "brand": "Knorr",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8712566121458",
+    "8712566121397",
+    "8712566121496",
+    "8712566246182"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 5.0,
+    "protein_g": 0.5,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.2,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "fibre_g": 0.5,
+    "salt_g": 1.2
+   },
+   "source_url": "https://meny.no/ (Fond Du Chef Kylling 4x28g Knorr, 8712566121458). Kjott 5 kcal, Gronnsak 6 kcal, Fisk 4 kcal/0.85 g salt."
   }
  ],
  "common": {
@@ -11702,7 +13336,7 @@
   "ean:0400005678974": 1,
   "ean:0644408604103": 3,
   "ean:0727027265082": 2,
-  "ean:0748454751900": 1,
+  "ean:0748454751900": 2,
   "ean:0810000691227": 2,
   "ean:1151105215062": 3,
   "ean:17040912223661": 2,
@@ -11778,11 +13412,11 @@
   "ean:5410673005861": 2,
   "ean:5410673006004": 1,
   "ean:5410673728968": 2,
-  "ean:5411188091912": 2,
-  "ean:5411188110675": 1,
-  "ean:5411188111085": 1,
-  "ean:5411188115458": 1,
-  "ean:5411188115496": 2,
+  "ean:5411188091912": 3,
+  "ean:5411188110675": 2,
+  "ean:5411188111085": 2,
+  "ean:5411188115458": 2,
+  "ean:5411188115496": 3,
   "ean:5449000259172": 3,
   "ean:5700383839673": 1,
   "ean:5700417000703": 2,
@@ -11958,7 +13592,7 @@
   "ean:7035620027963": 3,
   "ean:7035620032332": 3,
   "ean:7035620034114": 1,
-  "ean:7035620034367": 1,
+  "ean:7035620034367": 2,
   "ean:7035620034428": 1,
   "ean:7035620035678": 2,
   "ean:7035620035708": 2,
@@ -11998,7 +13632,7 @@
   "ean:7035620066627": 1,
   "ean:7035620066726": 2,
   "ean:7035620067778": 2,
-  "ean:7035620067853": 1,
+  "ean:7035620067853": 2,
   "ean:7035620067983": 3,
   "ean:7035620068614": 1,
   "ean:7035620068867": 2,
@@ -12051,7 +13685,7 @@
   "ean:7037206100008": 2,
   "ean:7037206101692": 2,
   "ean:7037610059442": 1,
-  "ean:7037610063708": 2,
+  "ean:7037610063708": 3,
   "ean:7037710020250": 3,
   "ean:7037710020304": 3,
   "ean:7037710020540": 2,
@@ -12084,7 +13718,7 @@
   "ean:7038010068249": 3,
   "ean:7038010068256": 3,
   "ean:7038010069581": 3,
-  "ean:7038010069949": 1,
+  "ean:7038010069949": 2,
   "ean:7038010070334": 2,
   "ean:7038010071591": 2,
   "ean:7038010071775": 3,
@@ -12106,7 +13740,7 @@
   "ean:7039010181341": 3,
   "ean:7039010524810": 2,
   "ean:7039010528832": 3,
-  "ean:7039010541893": 2,
+  "ean:7039010541893": 3,
   "ean:7039010542296": 2,
   "ean:7039010542302": 2,
   "ean:7039010548878": 2,
@@ -12122,7 +13756,7 @@
   "ean:7039010600668": 2,
   "ean:7039010612395": 1,
   "ean:7039010618809": 3,
-  "ean:7039010621144": 1,
+  "ean:7039010621144": 2,
   "ean:7039317002608": 2,
   "ean:7039317005203": 3,
   "ean:7039317005487": 2,
@@ -12150,7 +13784,7 @@
   "ean:7039610026752": 1,
   "ean:7039610026776": 2,
   "ean:7039610027056": 1,
-  "ean:7040110310807": 1,
+  "ean:7040110310807": 2,
   "ean:7040110663200": 2,
   "ean:7040511035125": 2,
   "ean:7040511037020": 2,
@@ -12198,7 +13832,7 @@
   "ean:7050122107715": 3,
   "ean:7050122112689": 2,
   "ean:7050122114201": 1,
-  "ean:7050122120677": 1,
+  "ean:7050122120677": 3,
   "ean:7050122170023": 1,
   "ean:7052660007007": 1,
   "ean:7052660101255": 1,
@@ -12282,13 +13916,13 @@
   "ean:7311041077535": 2,
   "ean:7311041079706": 2,
   "ean:7311041083918": 2,
-  "ean:7311041084441": 1,
+  "ean:7311041084441": 2,
   "ean:7311041084519": 2,
   "ean:7311041084700": 1,
   "ean:7311041085851": 2,
   "ean:7311041085929": 1,
   "ean:7311311025686": 3,
-  "ean:7311311029387": 2,
+  "ean:7311311029387": 3,
   "ean:7311312000088": 2,
   "ean:7311312000859": 2,
   "ean:7311312001603": 2,
@@ -12331,7 +13965,7 @@
   "ean:7392672004459": 1,
   "ean:7392672104050": 1,
   "ean:7392672104500": 1,
-  "ean:7394376614804": 1,
+  "ean:7394376614804": 2,
   "ean:7394376615665": 2,
   "ean:7394376619939": 3,
   "ean:7394376620799": 2,
@@ -12368,7 +14002,7 @@
   "ean:8005110551215": 1,
   "ean:8007150905492": 1,
   "ean:8008706085422": 1,
-  "ean:8014531200329": 1,
+  "ean:8014531200329": 2,
   "ean:8022327000015": 1,
   "ean:8023767000429": 1,
   "ean:8031403000108": 1,
@@ -12466,7 +14100,7 @@
   "matvaretabellen:08.103": 2,
   "matvaretabellen:08.260": 2,
   "matvaretabellen:08.262": 3,
-  "matvaretabellen:09.108": 1,
+  "matvaretabellen:09.108": 2,
   "matvaretabellen:13.072": 1,
   "matvaretabellen:13.075": 1,
   "mills:https://mills.no/melange/produkt/flytende-melange-med-smor-og-rapsolje/": 2,
@@ -12610,6 +14244,419 @@
   "ean:8715700016504": 3,
   "ean:7025110115119": 1,
   "ean:7311800009586": 3,
-  "ean:7311800373700": 3
+  "ean:7311800373700": 3,
+  "ean:0000006430061": 2,
+  "ean:0000076106002": 1,
+  "ean:0041143024324": 3,
+  "ean:0850004207024": 1,
+  "ean:0950404671132": 1,
+  "ean:1210002014397": 1,
+  "ean:17041614004077": 3,
+  "ean:3254474013968": 2,
+  "ean:3254474019274": 2,
+  "ean:3254474022915": 2,
+  "ean:4002103248286": 1,
+  "ean:4009700021571": 2,
+  "ean:4062300023734": 1,
+  "ean:4062300045088": 1,
+  "ean:4062300258501": 1,
+  "ean:4062300307131": 1,
+  "ean:4062300307254": 1,
+  "ean:4062300307407": 1,
+  "ean:4062300338029": 1,
+  "ean:4062300359437": 2,
+  "ean:4062300365674": 1,
+  "ean:4062300365704": 1,
+  "ean:4062300374126": 1,
+  "ean:4062300460799": 1,
+  "ean:4062300464438": 1,
+  "ean:5010115924721": 1,
+  "ean:5010115924752": 1,
+  "ean:5010338018238": 2,
+  "ean:5010338018245": 2,
+  "ean:5010338018269": 2,
+  "ean:5010338018290": 2,
+  "ean:5010338101169": 2,
+  "ean:5010338103514": 2,
+  "ean:5010338103521": 2,
+  "ean:5010338300654": 1,
+  "ean:5010338404475": 1,
+  "ean:5019503006377": 2,
+  "ean:5019503015850": 1,
+  "ean:5040110020593": 2,
+  "ean:5060040253731": 1,
+  "ean:5060040254639": 1,
+  "ean:5060040255452": 1,
+  "ean:5060040255483": 1,
+  "ean:5060040255506": 1,
+  "ean:5060107330016": 2,
+  "ean:5060107330412": 2,
+  "ean:5060107332959": 2,
+  "ean:5060107335554": 2,
+  "ean:5060107335868": 2,
+  "ean:5060107336780": 2,
+  "ean:5060107338463": 1,
+  "ean:5060107339750": 2,
+  "ean:5060503501225": 2,
+  "ean:5202390015359": 1,
+  "ean:5202390015984": 1,
+  "ean:5410188036664": 1,
+  "ean:5410233710020": 2,
+  "ean:5411188082583": 2,
+  "ean:5411188112709": 2,
+  "ean:5411188125808": 2,
+  "ean:5411188132110": 1,
+  "ean:5411188133476": 1,
+  "ean:5411188138839": 1,
+  "ean:5411188139621": 2,
+  "ean:5701027004198": 3,
+  "ean:5701027004211": 3,
+  "ean:5701027004488": 1,
+  "ean:5701027004761": 1,
+  "ean:5701073066362": 2,
+  "ean:5701259000661": 2,
+  "ean:5701259507115": 1,
+  "ean:5701977000516": 1,
+  "ean:5701977000615": 1,
+  "ean:5701977002091": 1,
+  "ean:5709152017595": 2,
+  "ean:5709364673497": 1,
+  "ean:5709521022656": 1,
+  "ean:5709521030910": 3,
+  "ean:6135121000302": 1,
+  "ean:6410708434740": 3,
+  "ean:7020560956138": 2,
+  "ean:7020650113205": 3,
+  "ean:7020655001040": 3,
+  "ean:7025830000054": 2,
+  "ean:7026450030094": 3,
+  "ean:7026450051051": 1,
+  "ean:7026450051181": 3,
+  "ean:7026450053338": 3,
+  "ean:7028250001403": 1,
+  "ean:7029121011378": 2,
+  "ean:7029121011705": 1,
+  "ean:7030019516530": 2,
+  "ean:7032069727492": 2,
+  "ean:7032069755402": 2,
+  "ean:7032069761106": 2,
+  "ean:7033550601222": 3,
+  "ean:7033550601277": 2,
+  "ean:7034280004420": 1,
+  "ean:7035110400108": 1,
+  "ean:7035110400719": 1,
+  "ean:7035110400795": 1,
+  "ean:7035119999092": 1,
+  "ean:7035119999122": 1,
+  "ean:7035620001710": 1,
+  "ean:7035620001994": 1,
+  "ean:7035620003424": 2,
+  "ean:7035620003936": 2,
+  "ean:7035620004391": 2,
+  "ean:7035620020278": 1,
+  "ean:7035620021275": 2,
+  "ean:7035620024924": 2,
+  "ean:7035620026379": 1,
+  "ean:7035620027918": 1,
+  "ean:7035620028328": 1,
+  "ean:7035620028564": 1,
+  "ean:7035620031762": 2,
+  "ean:7035620032172": 1,
+  "ean:7035620035555": 1,
+  "ean:7035620039201": 1,
+  "ean:7035620043208": 1,
+  "ean:7035620043598": 2,
+  "ean:7035620045370": 1,
+  "ean:7035620046148": 2,
+  "ean:7035620046940": 1,
+  "ean:7035620048326": 1,
+  "ean:7035620055072": 1,
+  "ean:7035620055676": 2,
+  "ean:7035620056147": 1,
+  "ean:7035620058219": 1,
+  "ean:7035620059636": 1,
+  "ean:7035620060281": 1,
+  "ean:7035620061684": 1,
+  "ean:7035620061783": 1,
+  "ean:7035620062384": 2,
+  "ean:7035620065392": 2,
+  "ean:7035620073106": 1,
+  "ean:7036230001268": 1,
+  "ean:7037210035600": 1,
+  "ean:7037210069063": 1,
+  "ean:7037210110055": 3,
+  "ean:7037210111373": 1,
+  "ean:7037210112714": 1,
+  "ean:7037210115319": 1,
+  "ean:7037210118068": 1,
+  "ean:7037210118815": 1,
+  "ean:7037210118846": 2,
+  "ean:7037210120566": 2,
+  "ean:7037210120771": 1,
+  "ean:7037210120986": 2,
+  "ean:7037210121150": 3,
+  "ean:7037210121235": 3,
+  "ean:7037230020105": 2,
+  "ean:7037421007335": 1,
+  "ean:7037421025773": 1,
+  "ean:7037610027045": 2,
+  "ean:7037610045735": 2,
+  "ean:7037610064149": 1,
+  "ean:7037610186711": 3,
+  "ean:7037610186728": 1,
+  "ean:7037610224659": 2,
+  "ean:7038010055515": 1,
+  "ean:7038010062933": 1,
+  "ean:7038010063350": 2,
+  "ean:7038010070846": 2,
+  "ean:7038080087300": 1,
+  "ean:7039010066815": 2,
+  "ean:7039010081047": 2,
+  "ean:7039010529778": 3,
+  "ean:7039010545761": 1,
+  "ean:7039010552264": 2,
+  "ean:7039010562041": 2,
+  "ean:7039010571968": 2,
+  "ean:7039010572859": 1,
+  "ean:7039317005104": 2,
+  "ean:7039317005128": 1,
+  "ean:7039610002046": 2,
+  "ean:7040110643707": 1,
+  "ean:7040110643806": 1,
+  "ean:7040511812252": 1,
+  "ean:7040518507410": 1,
+  "ean:7040518510427": 2,
+  "ean:7041011050007": 2,
+  "ean:7041011083203": 1,
+  "ean:7041011230119": 1,
+  "ean:7041011278111": 3,
+  "ean:7041011279118": 3,
+  "ean:7041011280114": 2,
+  "ean:7041011360007": 1,
+  "ean:7041015010113": 3,
+  "ean:7041015108117": 2,
+  "ean:7041018011100": 3,
+  "ean:7041018011308": 1,
+  "ean:7041111133440": 2,
+  "ean:7041611051107": 1,
+  "ean:7041614003110": 2,
+  "ean:7041614003127": 2,
+  "ean:7041614003332": 3,
+  "ean:7041614021763": 2,
+  "ean:7041614021817": 2,
+  "ean:7041614022517": 2,
+  "ean:7042115003456": 1,
+  "ean:7042961012831": 1,
+  "ean:7044410124324": 1,
+  "ean:7044610876849": 3,
+  "ean:7044610876856": 3,
+  "ean:7044710080214": 1,
+  "ean:7044710300374": 1,
+  "ean:7044711301042": 3,
+  "ean:7044711320203": 3,
+  "ean:7044711320210": 3,
+  "ean:7044711320289": 3,
+  "ean:7044713300319": 1,
+  "ean:7045010001138": 3,
+  "ean:7045010001268": 2,
+  "ean:7045010001282": 3,
+  "ean:7045010002036": 3,
+  "ean:7045010003163": 2,
+  "ean:7045010003187": 1,
+  "ean:7045010003248": 2,
+  "ean:7045615000352": 1,
+  "ean:7045615000383": 1,
+  "ean:7045615000420": 1,
+  "ean:7048840202850": 1,
+  "ean:7051150000115": 1,
+  "ean:7052860000044": 1,
+  "ean:7055450000097": 2,
+  "ean:7055450010034": 1,
+  "ean:7056120102233": 1,
+  "ean:7070622010377": 1,
+  "ean:7071848404797": 2,
+  "ean:7071864014376": 2,
+  "ean:7072130010580": 3,
+  "ean:7072130060943": 2,
+  "ean:7072130118910": 2,
+  "ean:7090000518004": 1,
+  "ean:7090000518028": 1,
+  "ean:7090000690212": 1,
+  "ean:7090000697655": 2,
+  "ean:7090000698034": 2,
+  "ean:7090000698065": 1,
+  "ean:7090000873417": 2,
+  "ean:7090006040202": 1,
+  "ean:7090047980468": 1,
+  "ean:7090052030004": 1,
+  "ean:7090052030028": 1,
+  "ean:7090052030189": 1,
+  "ean:7090052030196": 1,
+  "ean:7090052030608": 1,
+  "ean:7090052030691": 1,
+  "ean:7090052030752": 1,
+  "ean:7090052030783": 1,
+  "ean:7090059840217": 1,
+  "ean:7290112964663": 1,
+  "ean:7310100369055": 1,
+  "ean:7310100690395": 3,
+  "ean:7310100690548": 3,
+  "ean:7310100690883": 3,
+  "ean:7310100694683": 2,
+  "ean:7310100714497": 3,
+  "ean:7310100718297": 2,
+  "ean:7310100748805": 1,
+  "ean:7310100974693": 2,
+  "ean:7310100974853": 2,
+  "ean:7310100976673": 2,
+  "ean:7310100977410": 2,
+  "ean:7310155506405": 1,
+  "ean:7310240120011": 2,
+  "ean:7310240120035": 2,
+  "ean:7310240120042": 1,
+  "ean:7310240121124": 2,
+  "ean:7310401050065": 2,
+  "ean:7310500000343": 1,
+  "ean:7310500045573": 1,
+  "ean:7310500106328": 2,
+  "ean:7310500113388": 1,
+  "ean:7310500114507": 2,
+  "ean:7310500114620": 3,
+  "ean:7310500122595": 2,
+  "ean:7310500130453": 2,
+  "ean:7310500130484": 1,
+  "ean:7310500130576": 1,
+  "ean:7310500141091": 1,
+  "ean:7310500141121": 1,
+  "ean:7310500175997": 1,
+  "ean:7310500176055": 1,
+  "ean:7310865074768": 1,
+  "ean:7310865081650": 1,
+  "ean:7311040058610": 2,
+  "ean:7311040062303": 1,
+  "ean:7311040084794": 2,
+  "ean:7311040172521": 2,
+  "ean:7311040172729": 1,
+  "ean:7311041000403": 1,
+  "ean:7311041000663": 3,
+  "ean:7311041002339": 1,
+  "ean:7311041002346": 1,
+  "ean:7311041020630": 2,
+  "ean:7311041022641": 1,
+  "ean:7311041024973": 1,
+  "ean:7311041048290": 3,
+  "ean:7311041048931": 1,
+  "ean:7311041049228": 3,
+  "ean:7311041058558": 2,
+  "ean:7311041088418": 1,
+  "ean:7311310021191": 1,
+  "ean:7311310032098": 2,
+  "ean:7311310035464": 2,
+  "ean:7311310038205": 2,
+  "ean:7311311012112": 2,
+  "ean:7311311014598": 1,
+  "ean:7311312001177": 2,
+  "ean:7311312002389": 1,
+  "ean:7311312006950": 2,
+  "ean:7311312007834": 2,
+  "ean:7311312007933": 2,
+  "ean:7311312008091": 2,
+  "ean:7311440603083": 1,
+  "ean:7311440603106": 1,
+  "ean:7312170095636": 2,
+  "ean:7340191108943": 1,
+  "ean:7340191129924": 1,
+  "ean:7340191129948": 1,
+  "ean:7350020720697": 1,
+  "ean:7350020720758": 1,
+  "ean:7350020720789": 1,
+  "ean:7350020722752": 2,
+  "ean:7350020726217": 2,
+  "ean:7394376615771": 1,
+  "ean:7394376620300": 1,
+  "ean:7394376622816": 1,
+  "ean:7613030863434": 1,
+  "ean:7613030871811": 1,
+  "ean:7613033391934": 1,
+  "ean:7613034048493": 1,
+  "ean:7613034049940": 1,
+  "ean:7613034337399": 2,
+  "ean:7613034831736": 1,
+  "ean:7613036082389": 2,
+  "ean:7613036082419": 2,
+  "ean:7613036135030": 2,
+  "ean:7613036876537": 2,
+  "ean:7613036876599": 2,
+  "ean:7613037142402": 2,
+  "ean:7613287302038": 1,
+  "ean:7622210115720": 2,
+  "ean:7622210115782": 1,
+  "ean:7622400944352": 1,
+  "ean:7622400944543": 1,
+  "ean:7622400944581": 1,
+  "ean:7622400944635": 2,
+  "ean:8000920576502": 1,
+  "ean:8005110007033": 2,
+  "ean:8005110170348": 3,
+  "ean:8410076472410": 2,
+  "ean:8410076481511": 1,
+  "ean:8410076483263": 1,
+  "ean:8445290017024": 1,
+  "ean:8445290647320": 2,
+  "ean:8445290748492": 2,
+  "ean:8445290749079": 2,
+  "ean:8445290805010": 3,
+  "ean:8445291061088": 2,
+  "ean:8445291061538": 2,
+  "ean:8445291061576": 2,
+  "ean:8445291061668": 2,
+  "ean:8445291080706": 1,
+  "ean:8445291245471": 2,
+  "ean:8445291514386": 2,
+  "ean:8445291886056": 1,
+  "ean:8445291886230": 1,
+  "ean:8445292299107": 1,
+  "ean:8585002441300": 1,
+  "ean:8585002445599": 1,
+  "ean:8711200333295": 1,
+  "ean:8711327370708": 2,
+  "ean:8711327371002": 2,
+  "ean:8711327374171": 1,
+  "ean:8712100694707": 3,
+  "ean:8712566761388": 1,
+  "ean:8713500011880": 1,
+  "ean:8714100289969": 2,
+  "ean:8714100289983": 1,
+  "ean:8715800002339": 3,
+  "ean:8715800100516": 2,
+  "ean:8721274813104": 1,
+  "ean:8721497015248": 3,
+  "ean:8721497022208": 3,
+  "ean:8850987123412": 2,
+  "ean:8850987148361": 2,
+  "ean:8850987148385": 2,
+  "fjordland:https://www.fjordland.no/kos/produkter/kos-sjokoladepudding-med-vaniljesaus": 2,
+  "kavli:https://www.kavli.no/produkter/druvan-rodvinseddik": 1,
+  "matvaretabellen:09.004": 2,
+  "matvaretabellen:12.010": 1,
+  "mills:https://mills.no/mills/produkt/lett-majones/": 2,
+  "norgesgruppen:24000146087": 1,
+  "norgesgruppen:24000146643": 1,
+  "norgesgruppen:24000160465": 1,
+  "ringnes:https://www.ringnes.no/produkter/ringnes/ringnes-voerteroel/": 2,
+  "tine:https://www.tine.no/merkevarer/noisy/produkter/noisy-zero-mango-pasjon": 1,
+  "tine:https://www.tine.no/merkevarer/piano/produkter/piano-karamellpudding": 2,
+  "tine:https://www.tine.no/merkevarer/piano/produkter/piano-mandelpudding": 1,
+  "tine:https://www.tine.no/merkevarer/piano/produkter/piano-sjokoladepudding": 3,
+  "tine:https://www.tine.no/merkevarer/piano/produkter/piano-vaniljekrem": 1,
+  "tine:https://www.tine.no/merkevarer/piano/produkter/piano-vaniljesaus": 3,
+  "tine:https://www.tine.no/merkevarer/sunniva-iste/produkter/sunniva-iste-UTEN-fersken": 2,
+  "tine:https://www.tine.no/merkevarer/sunniva-iste/produkter/sunniva-iste-fersken": 2,
+  "tine:https://www.tine.no/merkevarer/sunniva/produkter/sunniva-original-frokostjuice": 2,
+  "tine:https://www.tine.no/merkevarer/sunniva/produkter/sunniva-original-tropisk": 2,
+  "toro:https://www.toro.no/produkter/brownies-original/": 2,
+  "toro:https://www.toro.no/produkter/meksikansk-tomatsuppe/": 2,
+  "toro:https://www.toro.no/produkter/original-tomatsuppe-med-makaroni-2/": 3,
+  "toro:https://www.toro.no/produkter/sjokolademousse/": 1
  }
 }
