@@ -570,6 +570,13 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "ean:2301290802663",
+   "add_eans": [
+    "7032069734322"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:2301310800006",
    "add_eans": [
     "0000023013108"
@@ -990,6 +997,13 @@
    "id": "ean:2386011600001",
    "add_eans": [
     "0000023860116"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:2386353103970",
+   "add_eans": [
+    "2086353100008"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -1896,9 +1910,51 @@
    "source_url": "https://meny.no (ean 7025050026186)"
   },
   {
+   "id": "ean:7025110076571",
+   "add_eans": [
+    "7025110172921"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:7025110106483",
+   "add_eans": [
+    "7025110203458"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:7025110142092",
+   "add_eans": [
+    "7025110142122"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:7025110159670",
    "add_eans": [
     "7037210120542"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:7025110184078",
+   "add_eans": [
+    "7025110200914"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:7025110212658",
+   "add_eans": [
+    "7025110193353"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:7025110216731",
+   "add_eans": [
+    "7025110208743"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -2010,6 +2066,20 @@
    "id": "ean:7032069714850",
    "name": "Rema Peanøttsmør",
    "source_url": "https://world.openfoodfacts.org/product/7032069714850"
+  },
+  {
+   "id": "ean:7032069715505",
+   "add_eans": [
+    "7032069734957"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:7032069715550",
+   "add_eans": [
+    "7032069715567"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "ean:7032069716274",
@@ -4081,6 +4151,13 @@
    "source_url": "store listing"
   },
   {
+   "id": "ean:7300156578990",
+   "add_eans": [
+    "7340011456537"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:7300400482059",
    "add_eans": [
     "7300400127394"
@@ -4449,6 +4526,35 @@
    "id": "ean:7340131607185",
    "name": "Nocco Electrolyte",
    "source_url": "https://meny.no/varer/drikke/energidrikke/nocco-electrolyte-7340131607185"
+  },
+  {
+   "id": "ean:7340191130203",
+   "add_eans": [
+    "7340011428848"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:7340191144477",
+   "add_eans": [
+    "7340011364177",
+    "7340191108837"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:7340191145771",
+   "add_eans": [
+    "7340191129863"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:7340191178007",
+   "add_eans": [
+    "7340011437192"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "ean:7350020720758",
@@ -60247,6 +60353,5189 @@
     "salt_g": 1.5
    },
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "store:7025167001885",
+   "name": "Coop Melkesjokolademuffins",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025167001885"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 375.0,
+    "fat_g": 21.0,
+    "carbs_g": 41.0,
+    "sat_fat_g": 2.8,
+    "protein_g": 5.5,
+    "salt_g": 1.0,
+    "sugars_g": 24.0
+   },
+   "source_url": "https://kassal.app/vare/192458-coop-melkesjokolademuffins-125g-7025167001885"
+  },
+  {
+   "id": "store:7025110046840",
+   "name": "Coop Frokostkaffe Filtermalt",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110046840"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 1.0,
+    "fat_g": 0.02,
+    "carbs_g": 0.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.12,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/22314-coop-frokostkaffe-filtermalt-250g-7025110046840"
+  },
+  {
+   "id": "store:7025167001205",
+   "name": "Coop Ostekake",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025167001205"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 298.0,
+    "fat_g": 20.0,
+    "carbs_g": 25.0,
+    "sat_fat_g": 12.0,
+    "protein_g": 4.5,
+    "salt_g": 0.2,
+    "sugars_g": 17.0
+   },
+   "source_url": "https://kassal.app/vare/16616-coop-ostekake-650g-7025167001205"
+  },
+  {
+   "id": "store:7025165311467",
+   "name": "Coop Frøknekkebrød med Gresskar",
+   "brand": "Coop",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025165311467"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 465.0,
+    "fat_g": 38.0,
+    "carbs_g": 3.0,
+    "fibre_g": 18.0,
+    "sat_fat_g": 4.6,
+    "protein_g": 20.0,
+    "salt_g": 0.1,
+    "sugars_g": 1.4
+   },
+   "source_url": "https://kassal.app/vare/187889-coop-froknekkebrod-med-gresskar-og-salt-200g-7025165311467"
+  },
+  {
+   "id": "store:7340011448105",
+   "name": "Coop Pastasaus Classico",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011448105"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 36.0,
+    "fat_g": 0.1,
+    "carbs_g": 7.3,
+    "fibre_g": 1.8,
+    "sat_fat_g": 0.2,
+    "protein_g": 1.5,
+    "salt_g": 0.6,
+    "sugars_g": 5.5
+   },
+   "source_url": "https://kassal.app/vare/29889-coop-pastasaus-classico-420g-7340011448105"
+  },
+  {
+   "id": "store:7340011352518",
+   "name": "Coop Arrabiata Pastasaus",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011352518"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 39.0,
+    "fat_g": 1.1,
+    "carbs_g": 6.9,
+    "sat_fat_g": 0.1,
+    "protein_g": 0.4,
+    "salt_g": 0.7,
+    "sugars_g": 5.3
+   },
+   "source_url": "https://kassal.app/vare/29837-coop-arrabiata-pastasaus-420g-7340011352518"
+  },
+  {
+   "id": "store:7340011350583",
+   "name": "Coop Pastasaus Hvitløk og Basilikum",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011350583"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 46.0,
+    "fat_g": 1.1,
+    "carbs_g": 7.4,
+    "fibre_g": 1.6,
+    "sat_fat_g": 0.2,
+    "protein_g": 1.5,
+    "salt_g": 0.8,
+    "sugars_g": 5.3
+   },
+   "source_url": "https://kassal.app/vare/7867-coop-pastasaus-hvitlok-og-basilikum-420g-7340011350583"
+  },
+  {
+   "id": "store:7025110189837",
+   "name": "Coop Crispy Fish",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110189837"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 169.0,
+    "fat_g": 5.7,
+    "carbs_g": 19.0,
+    "sat_fat_g": 0.4,
+    "protein_g": 10.0,
+    "salt_g": 1.1,
+    "sugars_g": 3.2
+   },
+   "source_url": "https://kassal.app/vare/23753-coop-crispy-fish-240g-7025110189837"
+  },
+  {
+   "id": "store:7025165009395",
+   "name": "Coop Heidevegg",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025165009395"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 315.0,
+    "fat_g": 6.4,
+    "carbs_g": 54.0,
+    "fibre_g": 2.3,
+    "sat_fat_g": 1.7,
+    "protein_g": 7.9,
+    "salt_g": 0.58,
+    "sugars_g": 9.7
+   },
+   "source_url": "https://kassal.app/vare/187245-coop-heidevegg-2pk-160g-7025165009395"
+  },
+  {
+   "id": "store:7340011465508",
+   "name": "Laksepålegg 100grm Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011465508"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 140.0,
+    "fat_g": 8.4,
+    "carbs_g": 6.2,
+    "fibre_g": 0.7,
+    "sat_fat_g": 1.0,
+    "protein_g": 9.5,
+    "salt_g": 2.2,
+    "sugars_g": 1.3
+   },
+   "source_url": "https://kassal.app/vare/96501-laksepalegg-100grm-coop-7340011465508"
+  },
+  {
+   "id": "store:7310960027508",
+   "name": "Coop Kanelbolle med Smør",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7310960027508"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 299.0,
+    "fat_g": 8.8,
+    "carbs_g": 50.0,
+    "sat_fat_g": 4.2,
+    "protein_g": 7.3,
+    "salt_g": 0.58,
+    "sugars_g": 17.0
+   },
+   "source_url": "https://kassal.app/vare/191725-coop-kanelbolle-med-smor-85g-7310960027508"
+  },
+  {
+   "id": "store:7025110130815",
+   "name": "Coop Premium Eplejuice",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110130815"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 45.0,
+    "fat_g": 0.0,
+    "carbs_g": 11.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.2,
+    "salt_g": 0.0,
+    "sugars_g": 10.0
+   },
+   "source_url": "https://kassal.app/vare/18611-coop-premium-eplejuice-15l-7025110130815"
+  },
+  {
+   "id": "store:7025110116970",
+   "name": "Coop Plussjuice av Ananas,Gulrot,Rødbete&App",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110116970"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 45.0,
+    "fat_g": 0.2,
+    "carbs_g": 9.6,
+    "fibre_g": 0.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.7,
+    "salt_g": 0.1,
+    "sugars_g": 9.6
+   },
+   "source_url": "https://kassal.app/vare/22635-coop-plussjuice-av-ananasgulrotrodbeteapp-1l-7025110116970"
+  },
+  {
+   "id": "store:7025110073785",
+   "name": "Coop Pluss Gulrot/Appelsin Juice",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110073785"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 44.0,
+    "fat_g": 0.5,
+    "carbs_g": 10.7,
+    "fibre_g": 0.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 1.0,
+    "salt_g": 0.0,
+    "sugars_g": 9.6
+   },
+   "source_url": "https://kassal.app/vare/14924-coop-pluss-gulrotappelsin-juice-1l-7025110073785"
+  },
+  {
+   "id": "store:7025110114815",
+   "name": "Coop Tyrol Eplejuice",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110114815"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 45.0,
+    "fat_g": 0.0,
+    "carbs_g": 10.5,
+    "fibre_g": 0.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 10.0
+   },
+   "source_url": "https://kassal.app/vare/29622-coop-tyrol-eplejuice-1l-7025110114815"
+  },
+  {
+   "id": "store:7025110166715",
+   "name": "Coop Appelsinjuice Dyreparken",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110166715"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 49.0,
+    "fat_g": 0.2,
+    "carbs_g": 10.5,
+    "fibre_g": 0.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 1.0,
+    "salt_g": 0.0,
+    "sugars_g": 10.0
+   },
+   "source_url": "https://kassal.app/vare/32063-coop-appelsinjuice-dyreparken-025l-7025110166715"
+  },
+  {
+   "id": "store:7025167001618",
+   "name": "Coop Donutbolle Sjokolade",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025167001618"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 414.0,
+    "fat_g": 23.0,
+    "carbs_g": 44.0,
+    "sat_fat_g": 11.0,
+    "protein_g": 6.8,
+    "salt_g": 0.9,
+    "sugars_g": 19.0
+   },
+   "source_url": "https://kassal.app/vare/192430-coop-donutbolle-sjokolade-85g-7025167001618"
+  },
+  {
+   "id": "store:7340011353201",
+   "name": "Coop Cappuccino Instant Kaffe",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011353201"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 452.0,
+    "fat_g": 18.0,
+    "carbs_g": 58.0,
+    "sat_fat_g": 16.0,
+    "protein_g": 13.0,
+    "salt_g": 1.2,
+    "sugars_g": 36.0
+   },
+   "source_url": "https://kassal.app/vare/43279-coop-cappuccino-instant-kaffe-250g-7340011353201"
+  },
+  {
+   "id": "store:7025111283480",
+   "name": "Coop Filtermalt Kaffe Rød",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025111283480"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 1.0,
+    "fat_g": 0.02,
+    "carbs_g": 0.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 0.02,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/25850-coop-filtermalt-kaffe-rod-500g-7025111283480"
+  },
+  {
+   "id": "store:7025110047014",
+   "name": "Coop Smak Hel Blå Java Kaffe",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110047014"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 1.0,
+    "fat_g": 0.02,
+    "carbs_g": 0.0,
+    "sat_fat_g": 0.02,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/10509-coop-smak-hel-bla-java-kaffe-225g-7025110047014"
+  },
+  {
+   "id": "store:7025111283220",
+   "name": "Coop Filtermalt Kaffe Gul",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025111283220"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 1.0,
+    "fat_g": 0.02,
+    "carbs_g": 0.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 0.02,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/15682-coop-filtermalt-kaffe-gul-500g-7025111283220"
+  },
+  {
+   "id": "store:7025110045348",
+   "name": "Coop Espressomalt Kaffe",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110045348"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 1.0,
+    "fat_g": 0.02,
+    "carbs_g": 0.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/28813-coop-espressomalt-kaffe-225g-7025110045348"
+  },
+  {
+   "id": "store:7025111283305",
+   "name": "Coop Kokmalt Kaffe Rød",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025111283145",
+    "7025111283305"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 1.0,
+    "fat_g": 0.02,
+    "carbs_g": 0.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 0.02,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/31288-coop-kokmalt-kaffe-rod-500g-7025111283305"
+  },
+  {
+   "id": "store:7025110040275",
+   "name": "Coop Kaffe Kokmalt Blå",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110040275"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 1.0,
+    "fat_g": 0.02,
+    "carbs_g": 0.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 0.02,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/22469-coop-kaffe-kokmalt-bla-250g-7025110040275"
+  },
+  {
+   "id": "store:7025110040282",
+   "name": "Coop Filtermalt Kaffe Blå",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110040282"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 1.0,
+    "fat_g": 0.02,
+    "carbs_g": 0.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 2.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/17045-coop-filtermalt-kaffe-bla-250g-7025110040282"
+  },
+  {
+   "id": "store:7025110046390",
+   "name": "Coop Hel Espresso Kaffe",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110046390"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 1.0,
+    "fat_g": 0.02,
+    "carbs_g": 0.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.12,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/25193-coop-hel-espresso-kaffe-450g-7025110046390"
+  },
+  {
+   "id": "store:7025110045522",
+   "name": "Coop Irish Cream Coop Kaffe",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110045522"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 1.0,
+    "fat_g": 0.02,
+    "carbs_g": 0.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/174900-coop-irish-cream-200g-coop-kaffe-7025110045522"
+  },
+  {
+   "id": "store:2368413000009",
+   "name": "Einebærrøykt Laks Bit Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "2368413000009"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 225.0,
+    "fat_g": 15.0,
+    "carbs_g": 0.5,
+    "sat_fat_g": 2.5,
+    "protein_g": 23.0,
+    "salt_g": 2.9,
+    "sugars_g": 0.5
+   },
+   "source_url": "https://kassal.app/vare/92931-einebaerroykt-laks-bit-coop-2368413000009"
+  },
+  {
+   "id": "store:7025110165923",
+   "name": "Laks Teriyaki Sesam Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110165923"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 255.0,
+    "fat_g": 14.0,
+    "carbs_g": 11.0,
+    "sat_fat_g": 2.2,
+    "protein_g": 21.0,
+    "salt_g": 2.01,
+    "sugars_g": 11.0
+   },
+   "source_url": "https://kassal.app/vare/93346-laks-teriyaki-sesam-380g-coop-7025110165923"
+  },
+  {
+   "id": "store:7025110079503",
+   "name": "Coop Kjøttpølser uten Skinn",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110079503"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 239.0,
+    "fat_g": 19.0,
+    "carbs_g": 5.9,
+    "fibre_g": 0.0,
+    "sat_fat_g": 6.9,
+    "protein_g": 10.0,
+    "salt_g": 1.5,
+    "sugars_g": 0.1
+   },
+   "source_url": "https://kassal.app/vare/15512-coop-kjottpolser-uten-skinn-500g-7025110079503"
+  },
+  {
+   "id": "store:7025110118394",
+   "name": "Coop Fleskepølse",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110118394"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 463.0,
+    "fat_g": 46.0,
+    "carbs_g": 0.1,
+    "fibre_g": 0.0,
+    "sat_fat_g": 19.0,
+    "protein_g": 13.0,
+    "salt_g": 2.3,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/15452-coop-fleskepolse-150g-7025110118394"
+  },
+  {
+   "id": "store:7025110102737",
+   "name": "Coop Smak Middelhavspølse",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110102737"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 220.0,
+    "fat_g": 17.0,
+    "carbs_g": 0.2,
+    "fibre_g": 0.0,
+    "sat_fat_g": 6.8,
+    "protein_g": 17.0,
+    "salt_g": 1.3,
+    "sugars_g": 0.2
+   },
+   "source_url": "https://kassal.app/vare/31010-coop-smak-middelhavspolse-225g-7025110102737"
+  },
+  {
+   "id": "store:7025110118738",
+   "name": "Coop Kjøttpølser med Skinn",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110118738"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 244.0,
+    "fat_g": 20.0,
+    "carbs_g": 5.6,
+    "fibre_g": 0.0,
+    "sat_fat_g": 7.8,
+    "protein_g": 9.9,
+    "salt_g": 1.7,
+    "sugars_g": 0.1
+   },
+   "source_url": "https://kassal.app/vare/21425-coop-kjottpolser-med-skinn-ca-16kg-7025110118738"
+  },
+  {
+   "id": "store:7025110133045",
+   "name": "Coop Reale Grillpølser",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110133045"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 237.0,
+    "fat_g": 20.0,
+    "carbs_g": 3.8,
+    "fibre_g": 0.0,
+    "sat_fat_g": 6.7,
+    "protein_g": 11.0,
+    "salt_g": 1.4,
+    "sugars_g": 0.6
+   },
+   "source_url": "https://kassal.app/vare/22281-coop-reale-grillpolser-600g-7025110133045"
+  },
+  {
+   "id": "store:7340191120242",
+   "name": "Coop Müslibar Choco Coco",
+   "brand": "Coop",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340191120242"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 438.0,
+    "fat_g": 18.0,
+    "carbs_g": 60.0,
+    "fibre_g": 7.3,
+    "sat_fat_g": 10.0,
+    "protein_g": 6.9,
+    "salt_g": 0.55,
+    "sugars_g": 25.0
+   },
+   "source_url": "https://kassal.app/vare/18791-coop-muslibar-choco-coco-6pk-138g-7340191120242"
+  },
+  {
+   "id": "store:7340011363552",
+   "name": "Muslinger Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011363552"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 92.0,
+    "fat_g": 2.8,
+    "carbs_g": 1.6,
+    "sat_fat_g": 0.5,
+    "protein_g": 15.0,
+    "salt_g": 2.2,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/176880-muslinger-170-g-coop-7340011363552"
+  },
+  {
+   "id": "store:7025110159939",
+   "name": "Rømmedressing Coop Emv",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110159939"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 426.0,
+    "fat_g": 45.0,
+    "carbs_g": 3.8,
+    "sat_fat_g": 4.2,
+    "protein_g": 1.9,
+    "salt_g": 0.3,
+    "sugars_g": 3.7
+   },
+   "source_url": "https://kassal.app/vare/131231-rommedressing-390g-coop-emv-7025110159939"
+  },
+  {
+   "id": "store:7025168050523",
+   "name": "Coop Fløtesnitter",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025168050523"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 309.0,
+    "fat_g": 19.8,
+    "carbs_g": 30.0,
+    "sat_fat_g": 11.7,
+    "protein_g": 3.2,
+    "salt_g": 0.2,
+    "sugars_g": 22.6
+   },
+   "source_url": "https://kassal.app/vare/189528-coop-flotesnitter-200g-7025168050523"
+  },
+  {
+   "id": "store:7025110159649",
+   "name": "Krone-is Jordbær Coop Diplom-is",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110159649"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 246.0,
+    "fat_g": 9.5,
+    "carbs_g": 37.0,
+    "sat_fat_g": 6.5,
+    "protein_g": 3.3,
+    "salt_g": 0.19,
+    "sugars_g": 27.0
+   },
+   "source_url": "https://kassal.app/vare/133130-krone-is-jordbaer-coop-6pk-075l-diplom-is-7025110159649"
+  },
+  {
+   "id": "store:8711000504987",
+   "name": "Coop Tassimo Fyldig & Aromatisk 16 kapsler",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8711000504987"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 1.0,
+    "fat_g": 0.02,
+    "carbs_g": 1.0,
+    "sat_fat_g": 0.02,
+    "protein_g": 0.12,
+    "salt_g": 0.0,
+    "sugars_g": 1.0
+   },
+   "source_url": "https://kassal.app/vare/20654-coop-tassimo-fyldig-aromatisk-16-kapsler-8711000504987"
+  },
+  {
+   "id": "store:7025110172624",
+   "name": "X-tra Brun Saus Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110172624"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 39.0,
+    "fat_g": 2.6,
+    "carbs_g": 2.7,
+    "sat_fat_g": 0.4,
+    "protein_g": 1.1,
+    "salt_g": 1.0,
+    "sugars_g": 1.3
+   },
+   "source_url": "https://kassal.app/vare/135362-x-tra-brun-saus-coop-7025110172624"
+  },
+  {
+   "id": "store:7025110151612",
+   "name": "Coop Sennepsaus",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110151612"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 499.0,
+    "fat_g": 48.0,
+    "carbs_g": 16.0,
+    "sat_fat_g": 3.3,
+    "protein_g": 2.2,
+    "salt_g": 0.8,
+    "sugars_g": 14.0
+   },
+   "source_url": "https://kassal.app/vare/5863-coop-sennepsaus-200g-7025110151612"
+  },
+  {
+   "id": "store:7340191106093",
+   "name": "Coop Pad Thai Saus",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340191106093"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 129.0,
+    "fat_g": 2.9,
+    "carbs_g": 22.0,
+    "sat_fat_g": 0.5,
+    "protein_g": 2.9,
+    "salt_g": 3.1,
+    "sugars_g": 16.0
+   },
+   "source_url": "https://kassal.app/vare/30482-coop-pad-thai-saus-375g-7340191106093"
+  },
+  {
+   "id": "store:7340011401773",
+   "name": "Coop Indian Tikka Masala Saus",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011401773"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 134.0,
+    "fat_g": 8.5,
+    "carbs_g": 12.0,
+    "fibre_g": 1.0,
+    "sat_fat_g": 1.2,
+    "protein_g": 1.8,
+    "salt_g": 0.85,
+    "sugars_g": 7.5
+   },
+   "source_url": "https://kassal.app/vare/31155-coop-indian-tikka-masala-saus-490g-7340011401773"
+  },
+  {
+   "id": "store:7025110204288",
+   "name": "Coop Baconpostei",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110204288"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 283.0,
+    "fat_g": 24.0,
+    "carbs_g": 7.4,
+    "sat_fat_g": 7.3,
+    "protein_g": 11.0,
+    "salt_g": 1.7,
+    "sugars_g": 1.3
+   },
+   "source_url": "https://kassal.app/vare/77183-coop-baconpostei-200g-7025110204288"
+  },
+  {
+   "id": "store:7025110193063",
+   "name": "Coop Fiskegrateng med Makaroni",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110193063"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 141.0,
+    "fat_g": 6.2,
+    "carbs_g": 11.0,
+    "fibre_g": 0.5,
+    "sat_fat_g": 0.9,
+    "protein_g": 11.0,
+    "salt_g": 0.7,
+    "sugars_g": 2.6
+   },
+   "source_url": "https://kassal.app/vare/26706-coop-fiskegrateng-med-makaroni-500g-7025110193063"
+  },
+  {
+   "id": "store:7025110193094",
+   "name": "Coop Fiskegrateng med Potetmos",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110193094"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 119.0,
+    "fat_g": 4.8,
+    "carbs_g": 11.0,
+    "fibre_g": 0.6,
+    "sat_fat_g": 3.2,
+    "protein_g": 7.7,
+    "salt_g": 0.8,
+    "sugars_g": 3.6
+   },
+   "source_url": "https://kassal.app/vare/974-coop-fiskegrateng-med-potetmos-350g-7025110193094"
+  },
+  {
+   "id": "store:2087175100009",
+   "name": "Coop Helside Lutefisk",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "2087175100009"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 48.0,
+    "fat_g": 0.5,
+    "carbs_g": 0.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 11.4,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/55429-coop-helside-lutefisk-ca-149kg-2087175100009"
+  },
+  {
+   "id": "store:7025110166807",
+   "name": "Coop Klippfisk Bit FV i Stykke",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110166807"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 160.0,
+    "fat_g": 1.0,
+    "carbs_g": 0.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 37.8,
+    "salt_g": 17.6,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/16562-coop-klippfisk-bit-fv-i-stykke-400g-7025110166807"
+  },
+  {
+   "id": "store:7025110188533",
+   "name": "Coop Sprø Fiskenuggets",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110188533"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 187.0,
+    "fat_g": 5.0,
+    "carbs_g": 22.0,
+    "fibre_g": 1.2,
+    "sat_fat_g": 0.4,
+    "protein_g": 13.0,
+    "salt_g": 1.2,
+    "sugars_g": 0.6
+   },
+   "source_url": "https://kassal.app/vare/32936-coop-spro-fiskenuggets-300g-7025110188533"
+  },
+  {
+   "id": "store:7025110198709",
+   "name": "Coop Naturell Fiskeburger",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110198709"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 168.0,
+    "fat_g": 10.0,
+    "carbs_g": 8.0,
+    "fibre_g": 1.1,
+    "sat_fat_g": 0.7,
+    "protein_g": 12.0,
+    "salt_g": 1.0,
+    "sugars_g": 0.7
+   },
+   "source_url": "https://kassal.app/vare/6228-coop-naturell-fiskeburger-480g-7025110198709"
+  },
+  {
+   "id": "store:7340011494973",
+   "name": "Coop Paranøtter",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011494973"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 706.0,
+    "fat_g": 69.0,
+    "carbs_g": 2.6,
+    "sat_fat_g": 16.0,
+    "protein_g": 15.0,
+    "salt_g": 0.0,
+    "sugars_g": 2.3
+   },
+   "source_url": "https://kassal.app/vare/15059-coop-paranotter-100g-7340011494973"
+  },
+  {
+   "id": "store:7025110188748",
+   "name": "Coop Greske Kjøttboller",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110188748"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 251.0,
+    "fat_g": 19.0,
+    "carbs_g": 3.8,
+    "fibre_g": 0.1,
+    "sat_fat_g": 8.2,
+    "protein_g": 16.0,
+    "salt_g": 1.7,
+    "sugars_g": 0.2
+   },
+   "source_url": "https://kassal.app/vare/25078-coop-greske-kjottboller-360g-7025110188748"
+  },
+  {
+   "id": "store:7340011422747",
+   "name": "Coop Kalamata Gresk Oliven med Sten",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011422747"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 247.0,
+    "fat_g": 25.0,
+    "carbs_g": 2.7,
+    "fibre_g": 1.0,
+    "sat_fat_g": 3.5,
+    "protein_g": 1.5,
+    "salt_g": 3.5,
+    "sugars_g": 0.1
+   },
+   "source_url": "https://kassal.app/vare/29526-coop-kalamata-gresk-oliven-med-sten-350g-7340011422747"
+  },
+  {
+   "id": "store:7340191102996",
+   "name": "Coop Mozzarella Lett Revet",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340191102996"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 269.0,
+    "fat_g": 17.0,
+    "carbs_g": 0.1,
+    "sat_fat_g": 11.0,
+    "protein_g": 29.0,
+    "salt_g": 1.2,
+    "sugars_g": 0.1
+   },
+   "source_url": "https://kassal.app/vare/14959-coop-mozzarella-lett-revet-175g-7340191102996"
+  },
+  {
+   "id": "store:7340011488989",
+   "name": "Coop Frityrolje",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011488989"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 900.0,
+    "fat_g": 100.0,
+    "carbs_g": 0.0,
+    "sat_fat_g": 8.6,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/31846-coop-frityrolje-2l-7340011488989"
+  },
+  {
+   "id": "store:7340011350804",
+   "name": "Coop Soyaolje",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011350804"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 900.0,
+    "fat_g": 100.0,
+    "carbs_g": 0.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 15.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/10525-coop-soyaolje-1l-7340011350804"
+  },
+  {
+   "id": "store:7340011355045",
+   "name": "Coop Maisolje",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011355045"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 900.0,
+    "fat_g": 100.0,
+    "carbs_g": 0.0,
+    "sat_fat_g": 14.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/4807-coop-maisolje-1l-7340011355045"
+  },
+  {
+   "id": "store:7025165017413",
+   "name": "Coop Lettstekt Grovbrød",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025165017413"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 248.0,
+    "fat_g": 3.2,
+    "carbs_g": 42.0,
+    "fibre_g": 6.2,
+    "sat_fat_g": 0.4,
+    "protein_g": 10.0,
+    "salt_g": 1.1,
+    "sugars_g": 2.5
+   },
+   "source_url": "https://kassal.app/vare/189596-coop-lettstekt-grovbrod-750g-7025165017413"
+  },
+  {
+   "id": "store:7025165011183",
+   "name": "Coop Grovbrød med Hvete- og Havrekli Bs",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025165011183"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 220.0,
+    "fat_g": 3.2,
+    "carbs_g": 31.0,
+    "fibre_g": 11.0,
+    "sat_fat_g": 0.4,
+    "protein_g": 11.0,
+    "salt_g": 0.6,
+    "sugars_g": 1.1
+   },
+   "source_url": "https://kassal.app/vare/81476-coop-grovbrod-med-hvete-og-havrekli-bs-750g-7025165011183"
+  },
+  {
+   "id": "store:7025165008688",
+   "name": "Coop Grovbrød med Solsikkefrø Bs",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025165008688"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 287.0,
+    "fat_g": 8.6,
+    "carbs_g": 38.0,
+    "fibre_g": 6.4,
+    "sat_fat_g": 1.0,
+    "protein_g": 11.0,
+    "salt_g": 1.02,
+    "sugars_g": 1.1
+   },
+   "source_url": "https://kassal.app/vare/187805-coop-grovbrod-med-solsikkefro-bs-650g-7025165008688"
+  },
+  {
+   "id": "store:7025160000076",
+   "name": "Coop Spiralloff",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025160000076"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 256.0,
+    "fat_g": 3.5,
+    "carbs_g": 46.0,
+    "fibre_g": 2.6,
+    "sat_fat_g": 0.4,
+    "protein_g": 8.4,
+    "salt_g": 0.9,
+    "sugars_g": 1.0
+   },
+   "source_url": "https://kassal.app/vare/188292-coop-spiralloff-400g-7025160000076"
+  },
+  {
+   "id": "store:7025168003796",
+   "name": "Coop Amalies Grove Rundstykker",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025168003796"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 277.0,
+    "fat_g": 8.1,
+    "carbs_g": 30.5,
+    "fibre_g": 10.9,
+    "sat_fat_g": 1.8,
+    "protein_g": 14.8,
+    "salt_g": 0.84,
+    "sugars_g": 2.4
+   },
+   "source_url": "https://kassal.app/vare/190223-coop-amalies-grove-rundstykker-210g-7025168003796"
+  },
+  {
+   "id": "store:7025168003802",
+   "name": "Coop Tinde Rundstykker",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025168003802"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 316.0,
+    "fat_g": 12.0,
+    "carbs_g": 34.0,
+    "fibre_g": 9.1,
+    "sat_fat_g": 1.6,
+    "protein_g": 14.0,
+    "salt_g": 0.93,
+    "sugars_g": 0.8
+   },
+   "source_url": "https://kassal.app/vare/190423-coop-tinde-rundstykker-210g-7025168003802"
+  },
+  {
+   "id": "store:7025110180971",
+   "name": "Coop Vegetardag Boller",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110180971"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 149.0,
+    "fat_g": 11.2,
+    "carbs_g": 3.3,
+    "sat_fat_g": 2.6,
+    "protein_g": 8.8,
+    "salt_g": 1.9,
+    "sugars_g": 2.6
+   },
+   "source_url": "https://kassal.app/vare/12005-coop-vegetardag-boller-350g-7025110180971"
+  },
+  {
+   "id": "store:7025110193186",
+   "name": "Coop Rå Kjøttboller Spansk",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110193186"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 225.0,
+    "fat_g": 17.0,
+    "carbs_g": 0.1,
+    "fibre_g": 0.0,
+    "sat_fat_g": 5.9,
+    "protein_g": 18.0,
+    "salt_g": 1.3,
+    "sugars_g": 0.1
+   },
+   "source_url": "https://kassal.app/vare/26642-coop-ra-kjottboller-spansk-360g-7025110193186"
+  },
+  {
+   "id": "store:7025168007091",
+   "name": "Coop Store Sjokoladeboller",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025168007091"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 364.0,
+    "fat_g": 11.0,
+    "carbs_g": 56.0,
+    "fibre_g": 2.3,
+    "sat_fat_g": 4.4,
+    "protein_g": 9.3,
+    "salt_g": 0.61,
+    "sugars_g": 20.0
+   },
+   "source_url": "https://kassal.app/vare/189535-coop-store-sjokoladeboller-5pk-550g-7025168007091"
+  },
+  {
+   "id": "store:7025110193520",
+   "name": "Coop Kjøttkaker",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110193520"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 190.0,
+    "fat_g": 13.0,
+    "carbs_g": 5.3,
+    "fibre_g": 2.2,
+    "sat_fat_g": 5.7,
+    "protein_g": 13.0,
+    "salt_g": 1.3,
+    "sugars_g": 0.8
+   },
+   "source_url": "https://kassal.app/vare/26903-coop-kjottkaker-520g-7025110193520"
+  },
+  {
+   "id": "store:7025110178459",
+   "name": "Coop Dagens Lunsjkaker",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110178459"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 215.0,
+    "fat_g": 15.0,
+    "carbs_g": 7.7,
+    "fibre_g": 1.4,
+    "sat_fat_g": 4.9,
+    "protein_g": 12.0,
+    "salt_g": 1.6,
+    "sugars_g": 1.0
+   },
+   "source_url": "https://kassal.app/vare/11918-coop-dagens-lunsjkaker-240g-7025110178459"
+  },
+  {
+   "id": "store:7025110173072",
+   "name": "Coop Kjøttkaker",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110173072"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 180.0,
+    "fat_g": 12.0,
+    "carbs_g": 6.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 5.0,
+    "protein_g": 12.0,
+    "salt_g": 1.5,
+    "sugars_g": 0.5
+   },
+   "source_url": "https://kassal.app/vare/22426-coop-kjottkaker-12kg-7025110173072"
+  },
+  {
+   "id": "store:7025110101570",
+   "name": "Coop Kjøttkaker",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110101570"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 174.0,
+    "fat_g": 13.0,
+    "carbs_g": 4.7,
+    "fibre_g": 0.0,
+    "sat_fat_g": 5.6,
+    "protein_g": 12.0,
+    "salt_g": 1.5,
+    "sugars_g": 1.1
+   },
+   "source_url": "https://kassal.app/vare/97192-coop-kjottkaker-720g-7025110101570"
+  },
+  {
+   "id": "store:7025110144980",
+   "name": "Coop Karbonadedeig av Svin",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110144980"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 134.0,
+    "fat_g": 6.0,
+    "carbs_g": 0.0,
+    "sat_fat_g": 2.0,
+    "protein_g": 20.0,
+    "salt_g": 0.1,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/189217-karbonadedeig-av-svin-400g-coop-7025110144980"
+  },
+  {
+   "id": "store:7025110178633",
+   "name": "Coop Dagens Spaghetti & Kjøttboller",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110178633"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 159.0,
+    "fat_g": 3.6,
+    "carbs_g": 24.0,
+    "fibre_g": 1.8,
+    "sat_fat_g": 1.2,
+    "protein_g": 6.5,
+    "salt_g": 0.8,
+    "sugars_g": 2.0
+   },
+   "source_url": "https://kassal.app/vare/6042-coop-dagens-spaghetti-kjottboller-350g-7025110178633"
+  },
+  {
+   "id": "store:7025110214416",
+   "name": "Coop Salami i Skiver",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110214416"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 397.0,
+    "fat_g": 33.0,
+    "carbs_g": 0.0,
+    "sat_fat_g": 9.2,
+    "protein_g": 24.0,
+    "salt_g": 3.6,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/132443-coop-salami-i-skiver-100g-7025110214416"
+  },
+  {
+   "id": "store:7025110214386",
+   "name": "Coop Mager Salami",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110214386"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 268.0,
+    "fat_g": 16.0,
+    "carbs_g": 0.0,
+    "sat_fat_g": 2.7,
+    "protein_g": 31.0,
+    "salt_g": 4.2,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/134820-coop-mager-salami-80g-7025110214386"
+  },
+  {
+   "id": "store:7025110232618",
+   "name": "Coop Lett Servelat Std",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110232618"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 165.0,
+    "fat_g": 9.8,
+    "carbs_g": 7.4,
+    "fibre_g": 0.4,
+    "sat_fat_g": 3.6,
+    "protein_g": 10.5,
+    "salt_g": 1.6,
+    "sugars_g": 1.5
+   },
+   "source_url": "https://kassal.app/vare/234545-coop-lett-servelat-100g-std-7025110232618"
+  },
+  {
+   "id": "store:7025110190857",
+   "name": "Coop Leverpostei Grov",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110190857"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 221.0,
+    "fat_g": 15.0,
+    "carbs_g": 10.0,
+    "sat_fat_g": 5.9,
+    "protein_g": 11.0,
+    "salt_g": 1.4,
+    "sugars_g": 1.6
+   },
+   "source_url": "https://kassal.app/vare/125779-coop-leverpostei-grov-190g-7025110190857"
+  },
+  {
+   "id": "store:7025110206015",
+   "name": "Coop Falukorv Kalkun",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110206015"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 169.0,
+    "fat_g": 12.0,
+    "carbs_g": 5.3,
+    "fibre_g": 0.0,
+    "sat_fat_g": 3.6,
+    "protein_g": 10.0,
+    "salt_g": 1.2,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/175068-coop-falukorv-kalkun-200g-7025110206015"
+  },
+  {
+   "id": "store:7025110164889",
+   "name": "Panert Torsk Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110164889"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 210.0,
+    "fat_g": 10.0,
+    "carbs_g": 18.0,
+    "sat_fat_g": 0.8,
+    "protein_g": 11.0,
+    "salt_g": 1.0,
+    "sugars_g": 2.7
+   },
+   "source_url": "https://kassal.app/vare/93735-panert-torsk-360g-coop-7025110164889"
+  },
+  {
+   "id": "store:7025110164919",
+   "name": "Tempura Panert Torsk Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110164919"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 164.0,
+    "fat_g": 6.0,
+    "carbs_g": 15.0,
+    "sat_fat_g": 0.5,
+    "protein_g": 12.0,
+    "salt_g": 0.9,
+    "sugars_g": 0.4
+   },
+   "source_url": "https://kassal.app/vare/93574-tempura-panert-torsk-420g-coop-7025110164919"
+  },
+  {
+   "id": "store:2375601300001",
+   "name": "Letts Torskefilet Hel Vacum Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "2375601300001"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 75.0,
+    "fat_g": 0.3,
+    "carbs_g": 0.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 18.1,
+    "salt_g": 1.4,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/177719-letts-torskefilet-hel-vacum-coop-2375601300001"
+  },
+  {
+   "id": "store:7025110165862",
+   "name": "Tempura Panert Sei Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110165862"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 164.0,
+    "fat_g": 4.5,
+    "carbs_g": 17.0,
+    "sat_fat_g": 0.4,
+    "protein_g": 14.0,
+    "salt_g": 1.0,
+    "sugars_g": 0.4
+   },
+   "source_url": "https://kassal.app/vare/93572-tempura-panert-sei-330g-coop-7025110165862"
+  },
+  {
+   "id": "store:2375601100007",
+   "name": "Seifilet U/skinn, m/Bein Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "2375601100007"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 69.0,
+    "fat_g": 0.3,
+    "carbs_g": 0.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 16.5,
+    "salt_g": 0.2,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/96870-seifilet-uskinn-mbein-coop-2375601100007"
+  },
+  {
+   "id": "store:7025110202178",
+   "name": "Argentinske Reker Smaken av India Grillspyd Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110202178"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 75.0,
+    "fat_g": 1.1,
+    "carbs_g": 2.0,
+    "fibre_g": 0.1,
+    "sat_fat_g": 0.0,
+    "protein_g": 15.0,
+    "salt_g": 1.9,
+    "sugars_g": 1.1
+   },
+   "source_url": "https://kassal.app/vare/78871-argentinske-reker-smaken-av-india-grillspyd-125g-coop-7025110202178"
+  },
+  {
+   "id": "store:7340011320982",
+   "name": "Håndp Reker i Lake Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011320982"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 81.0,
+    "fat_g": 1.0,
+    "carbs_g": 0.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 0.2,
+    "protein_g": 18.0,
+    "salt_g": 1.7,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/180692-handp-reker-i-lake-300g-coop-7340011320982"
+  },
+  {
+   "id": "store:7340011358817",
+   "name": "Coop Lasagne Ovnsrett",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011358817"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 339.0,
+    "fat_g": 1.5,
+    "carbs_g": 68.0,
+    "fibre_g": 4.7,
+    "sat_fat_g": 0.4,
+    "protein_g": 11.0,
+    "salt_g": 3.2,
+    "sugars_g": 13.0
+   },
+   "source_url": "https://kassal.app/vare/24015-coop-lasagne-ovnsrett-247g-7340011358817"
+  },
+  {
+   "id": "store:5700383301545",
+   "name": "Coop Goulash Suppe",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5700383301545"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 73.0,
+    "fat_g": 4.4,
+    "carbs_g": 5.6,
+    "fibre_g": 0.7,
+    "sat_fat_g": 0.5,
+    "protein_g": 2.3,
+    "salt_g": 0.7,
+    "sugars_g": 1.5
+   },
+   "source_url": "https://kassal.app/vare/28523-coop-goulash-suppe-1l-5700383301545"
+  },
+  {
+   "id": "store:7025110193445",
+   "name": "Coop Ertesuppe",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110193445"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 68.0,
+    "fat_g": 1.0,
+    "carbs_g": 9.1,
+    "fibre_g": 2.2,
+    "sat_fat_g": 0.2,
+    "protein_g": 4.4,
+    "salt_g": 1.0,
+    "sugars_g": 1.8
+   },
+   "source_url": "https://kassal.app/vare/9177-coop-ertesuppe-1kg-7025110193445"
+  },
+  {
+   "id": "store:7025110197184",
+   "name": "Coop Dagens Grønnsaksuppe",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110197184"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 36.0,
+    "fat_g": 0.8,
+    "carbs_g": 6.0,
+    "fibre_g": 1.4,
+    "sat_fat_g": 0.1,
+    "protein_g": 0.6,
+    "salt_g": 0.8,
+    "sugars_g": 2.1
+   },
+   "source_url": "https://kassal.app/vare/2560-coop-dagens-gronnsaksuppe-1kg-7025110197184"
+  },
+  {
+   "id": "store:7025110180827",
+   "name": "Coop Dagens Tomatsuppe",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110180827"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 55.0,
+    "fat_g": 1.5,
+    "carbs_g": 8.6,
+    "fibre_g": 0.6,
+    "sat_fat_g": 0.9,
+    "protein_g": 1.6,
+    "salt_g": 1.2,
+    "sugars_g": 4.9
+   },
+   "source_url": "https://kassal.app/vare/26639-coop-dagens-tomatsuppe-1l-7025110180827"
+  },
+  {
+   "id": "store:7025110065469",
+   "name": "Suppe Lapskausbl Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110065469"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 56.0,
+    "fat_g": 0.5,
+    "carbs_g": 8.2,
+    "fibre_g": 3.0,
+    "sat_fat_g": 0.1,
+    "protein_g": 2.7,
+    "salt_g": 0.0,
+    "sugars_g": 8.2
+   },
+   "source_url": "https://kassal.app/vare/93694-suppe-lapskausbl-800g-coop-7025110065469"
+  },
+  {
+   "id": "store:7025110189424",
+   "name": "Coop Vegetardag Tacodeig",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110189424"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 439.0,
+    "fat_g": 26.0,
+    "carbs_g": 16.0,
+    "fibre_g": 11.0,
+    "sat_fat_g": 2.0,
+    "protein_g": 30.0,
+    "salt_g": 2.2,
+    "sugars_g": 3.8
+   },
+   "source_url": "https://kassal.app/vare/13194-coop-vegetardag-tacodeig-100g-7025110189424"
+  },
+  {
+   "id": "store:7025110208927",
+   "name": "Coop Tacodeig Storfe/svin 50/50",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110208927"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 241.0,
+    "fat_g": 18.0,
+    "carbs_g": 1.5,
+    "sat_fat_g": 6.9,
+    "protein_g": 18.0,
+    "salt_g": 0.7,
+    "sugars_g": 0.7
+   },
+   "source_url": "https://kassal.app/vare/75666-coop-tacodeig-storfesvin-5050-400g-7025110208927"
+  },
+  {
+   "id": "store:7025110208835",
+   "name": "Coop Tacodeig Storfe/svin m Gr.saker 50/50",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110208835"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 134.0,
+    "fat_g": 6.0,
+    "carbs_g": 7.2,
+    "sat_fat_g": 2.3,
+    "protein_g": 12.0,
+    "salt_g": 1.3,
+    "sugars_g": 2.0
+   },
+   "source_url": "https://kassal.app/vare/141855-coop-tacodeig-storfesvin-m-grsaker-5050-400g-7025110208835"
+  },
+  {
+   "id": "store:7340191102590",
+   "name": "Coop Spaghetti Glutenfri",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340191102590"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 356.0,
+    "fat_g": 2.3,
+    "carbs_g": 76.0,
+    "fibre_g": 2.2,
+    "sat_fat_g": 0.8,
+    "protein_g": 6.8,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/7697-coop-spaghetti-glutenfri-400g-7340191102590"
+  },
+  {
+   "id": "store:7025110176868",
+   "name": "Coop Dagens Spaghetti Carbonara",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110176868"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 164.0,
+    "fat_g": 10.0,
+    "carbs_g": 12.0,
+    "fibre_g": 1.0,
+    "sat_fat_g": 3.3,
+    "protein_g": 5.5,
+    "salt_g": 1.1,
+    "sugars_g": 1.7
+   },
+   "source_url": "https://kassal.app/vare/30190-coop-dagens-spaghetti-carbonara-1kg-7025110176868"
+  },
+  {
+   "id": "store:7025110176837",
+   "name": "Coop Dagens Spaghetti Bolognese",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110176837"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 93.0,
+    "fat_g": 2.1,
+    "carbs_g": 13.0,
+    "fibre_g": 1.0,
+    "sat_fat_g": 0.9,
+    "protein_g": 4.8,
+    "salt_g": 1.1,
+    "sugars_g": 1.3
+   },
+   "source_url": "https://kassal.app/vare/32566-coop-dagens-spaghetti-bolognese-1kg-7025110176837"
+  },
+  {
+   "id": "store:7340191111578",
+   "name": "Coop Makaroni Glutenfri",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340191111578"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 356.0,
+    "fat_g": 2.3,
+    "carbs_g": 76.0,
+    "fibre_g": 2.2,
+    "sat_fat_g": 0.8,
+    "protein_g": 6.8,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/28797-coop-makaroni-glutenfri-500g-7340191111578"
+  },
+  {
+   "id": "store:7025110187352",
+   "name": "Coop Sprø Potetstaver",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110187352"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 193.0,
+    "fat_g": 5.0,
+    "carbs_g": 32.0,
+    "fibre_g": 3.0,
+    "sat_fat_g": 0.4,
+    "protein_g": 3.5,
+    "salt_g": 0.2,
+    "sugars_g": 0.6
+   },
+   "source_url": "https://kassal.app/vare/30362-coop-spro-potetstaver-450g-7025110187352"
+  },
+  {
+   "id": "store:7025110200884",
+   "name": "Coop Stuede Rotgrønnsaker",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110200884"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 77.0,
+    "fat_g": 3.3,
+    "carbs_g": 9.0,
+    "fibre_g": 1.3,
+    "sat_fat_g": 2.1,
+    "protein_g": 2.0,
+    "salt_g": 0.8,
+    "sugars_g": 4.9
+   },
+   "source_url": "https://kassal.app/vare/48125-coop-stuede-rotgronnsaker-500g-7025110200884"
+  },
+  {
+   "id": "store:7025110154767",
+   "name": "Rustikke Rotgrønnsaker Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110154767"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 33.0,
+    "fat_g": 0.3,
+    "carbs_g": 5.1,
+    "fibre_g": 2.9,
+    "sat_fat_g": 0.1,
+    "protein_g": 1.0,
+    "salt_g": 0.08,
+    "sugars_g": 4.5
+   },
+   "source_url": "https://kassal.app/vare/95149-rustikke-rotgronnsaker-500g-coop-7025110154767"
+  },
+  {
+   "id": "store:7340011312239",
+   "name": "Coop Gule Erter",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011312239"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 312.0,
+    "fat_g": 1.6,
+    "carbs_g": 46.2,
+    "fibre_g": 16.6,
+    "sat_fat_g": 0.3,
+    "protein_g": 19.8,
+    "salt_g": 0.01,
+    "sugars_g": 2.8
+   },
+   "source_url": "https://kassal.app/vare/29873-coop-gule-erter-500g-7340011312239"
+  },
+  {
+   "id": "store:7025110107145",
+   "name": "Coop Erter og Gulerøtter",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110107145"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 42.0,
+    "fat_g": 0.4,
+    "carbs_g": 4.4,
+    "fibre_g": 4.9,
+    "sat_fat_g": 0.1,
+    "protein_g": 2.7,
+    "salt_g": 0.7,
+    "sugars_g": 1.4
+   },
+   "source_url": "https://kassal.app/vare/31918-coop-erter-og-gulerotter-410g-7025110107145"
+  },
+  {
+   "id": "store:7340191134850",
+   "name": "Coop Maiskorn",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340191134850"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 78.0,
+    "fat_g": 1.2,
+    "carbs_g": 13.0,
+    "fibre_g": 2.7,
+    "sat_fat_g": 0.3,
+    "protein_g": 2.5,
+    "salt_g": 0.38,
+    "sugars_g": 7.0
+   },
+   "source_url": "https://kassal.app/vare/27367-coop-maiskorn-300g-7340191134850"
+  },
+  {
+   "id": "store:7025165012494",
+   "name": "Coop Maistriangel Bs",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025165012494"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 273.0,
+    "fat_g": 4.3,
+    "carbs_g": 48.0,
+    "fibre_g": 2.9,
+    "sat_fat_g": 0.9,
+    "protein_g": 8.7,
+    "salt_g": 1.4,
+    "sugars_g": 1.8
+   },
+   "source_url": "https://kassal.app/vare/234350-coop-maistriangel-bs-125g-7025165012494"
+  },
+  {
+   "id": "store:7340011353881",
+   "name": "Sprø Maisskjell 135grm Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011353881"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 460.0,
+    "fat_g": 20.0,
+    "carbs_g": 61.2,
+    "fibre_g": 5.0,
+    "sat_fat_g": 2.0,
+    "protein_g": 6.5,
+    "salt_g": 0.88,
+    "sugars_g": 1.4
+   },
+   "source_url": "https://kassal.app/vare/179436-spro-maisskjell-135grm-coop-7340011353881"
+  },
+  {
+   "id": "store:7340191126541",
+   "name": "Coop Brune Bønner",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340191126541"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 98.0,
+    "fat_g": 0.6,
+    "carbs_g": 14.0,
+    "fibre_g": 5.5,
+    "sat_fat_g": 0.0,
+    "protein_g": 6.3,
+    "salt_g": 0.45,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/42736-coop-brune-bonner-380g-7340191126541"
+  },
+  {
+   "id": "store:7340011351245",
+   "name": "Coop Cherrytomater",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011351245"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 19.0,
+    "fat_g": 0.0,
+    "carbs_g": 3.0,
+    "fibre_g": 0.9,
+    "sat_fat_g": 0.0,
+    "protein_g": 1.2,
+    "salt_g": 0.08,
+    "sugars_g": 3.0
+   },
+   "source_url": "https://kassal.app/vare/33123-coop-cherrytomater-400g-7340011351245"
+  },
+  {
+   "id": "store:7340011351306",
+   "name": "Coop Hele Flådde Tomater",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011351306"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 19.0,
+    "fat_g": 0.0,
+    "carbs_g": 3.0,
+    "fibre_g": 0.9,
+    "sat_fat_g": 0.0,
+    "protein_g": 1.2,
+    "salt_g": 0.05,
+    "sugars_g": 3.0
+   },
+   "source_url": "https://kassal.app/vare/18455-coop-hele-fladde-tomater-400g-7340011351306"
+  },
+  {
+   "id": "store:7340011476122",
+   "name": "Finhakkede Tomater 400grm Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011476122"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 29.0,
+    "fat_g": 0.2,
+    "carbs_g": 5.0,
+    "fibre_g": 1.1,
+    "sat_fat_g": 0.0,
+    "protein_g": 1.6,
+    "salt_g": 0.15,
+    "sugars_g": 5.0
+   },
+   "source_url": "https://kassal.app/vare/94172-finhakkede-tomater-400grm-coop-7340011476122"
+  },
+  {
+   "id": "store:7025110178169",
+   "name": "Coop Vegan Majones",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110178169"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 622.0,
+    "fat_g": 68.0,
+    "carbs_g": 2.7,
+    "sat_fat_g": 4.7,
+    "protein_g": 0.9,
+    "salt_g": 0.6,
+    "sugars_g": 2.2
+   },
+   "source_url": "https://kassal.app/vare/6320-coop-vegan-majones-330g-7025110178169"
+  },
+  {
+   "id": "store:7025110186621",
+   "name": "Coop Chilimajones",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110186621"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 496.0,
+    "fat_g": 51.0,
+    "carbs_g": 10.0,
+    "sat_fat_g": 3.7,
+    "protein_g": 0.8,
+    "salt_g": 0.8,
+    "sugars_g": 7.0
+   },
+   "source_url": "https://kassal.app/vare/20590-coop-chilimajones-80g-7025110186621"
+  },
+  {
+   "id": "store:7025110179555",
+   "name": "Coop Majones med Røkt Paprika",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110179555"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 638.0,
+    "fat_g": 69.0,
+    "carbs_g": 2.9,
+    "sat_fat_g": 4.9,
+    "protein_g": 0.4,
+    "salt_g": 0.8,
+    "sugars_g": 2.4
+   },
+   "source_url": "https://kassal.app/vare/189365-majones-med-rokt-paprika-coop-80g-7025110179555"
+  },
+  {
+   "id": "store:7025110179494",
+   "name": "Bbq Majones Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110179494"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 562.0,
+    "fat_g": 56.0,
+    "carbs_g": 15.0,
+    "sat_fat_g": 3.9,
+    "protein_g": 0.5,
+    "salt_g": 0.9,
+    "sugars_g": 14.0
+   },
+   "source_url": "https://kassal.app/vare/90417-bbq-majones-coop-80g-7025110179494"
+  },
+  {
+   "id": "store:7025110179524",
+   "name": "Majones med Roasted Garlic Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110179524"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 607.0,
+    "fat_g": 65.0,
+    "carbs_g": 3.8,
+    "sat_fat_g": 4.6,
+    "protein_g": 0.7,
+    "salt_g": 0.8,
+    "sugars_g": 2.3
+   },
+   "source_url": "https://kassal.app/vare/188654-majones-med-roasted-garlic-coop-80g-7025110179524"
+  },
+  {
+   "id": "store:7025110179463",
+   "name": "Majones med Sitronpepper Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110179463"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 635.0,
+    "fat_g": 69.0,
+    "carbs_g": 3.2,
+    "sat_fat_g": 4.9,
+    "protein_g": 0.5,
+    "salt_g": 0.8,
+    "sugars_g": 2.5
+   },
+   "source_url": "https://kassal.app/vare/187760-majones-med-sitronpepper-coop-80g-7025110179463"
+  },
+  {
+   "id": "store:7025110158697",
+   "name": "X-tra Lett Majones",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110158697"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 386.0,
+    "fat_g": 40.0,
+    "carbs_g": 4.9,
+    "fibre_g": 0.01,
+    "sat_fat_g": 3.3,
+    "protein_g": 0.7,
+    "salt_g": 0.64,
+    "sugars_g": 2.2
+   },
+   "source_url": "https://kassal.app/vare/93785-x-tra-lett-majones-coop-flaske-coop-7025110158697"
+  },
+  {
+   "id": "store:7025110169822",
+   "name": "Kebabdressing Mild Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110169822"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 245.0,
+    "fat_g": 24.0,
+    "carbs_g": 4.1,
+    "sat_fat_g": 3.1,
+    "protein_g": 2.1,
+    "salt_g": 0.6,
+    "sugars_g": 3.9
+   },
+   "source_url": "https://kassal.app/vare/131631-kebabdressing-mild-415g-coop-7025110169822"
+  },
+  {
+   "id": "store:7025110169853",
+   "name": "Kebabdressing Hot Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110169853"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 56.0,
+    "fat_g": 3.0,
+    "carbs_g": 7.0,
+    "sat_fat_g": 0.3,
+    "protein_g": 1.4,
+    "salt_g": 0.7,
+    "sugars_g": 6.1
+   },
+   "source_url": "https://kassal.app/vare/133815-kebabdressing-hot-435g-coop-7025110169853"
+  },
+  {
+   "id": "store:7025110186447",
+   "name": "Coop Hot Mango Dressing",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110186447"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 109.0,
+    "fat_g": 4.4,
+    "carbs_g": 15.0,
+    "sat_fat_g": 0.8,
+    "protein_g": 0.5,
+    "salt_g": 0.1,
+    "sugars_g": 13.0
+   },
+   "source_url": "https://kassal.app/vare/87446-coop-hot-mango-dressing-200g-7025110186447"
+  },
+  {
+   "id": "store:7025110151193",
+   "name": "Selskapsdressing Coop Emv",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110151193"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 450.0,
+    "fat_g": 46.0,
+    "carbs_g": 8.9,
+    "sat_fat_g": 3.3,
+    "protein_g": 0.5,
+    "salt_g": 0.9,
+    "sugars_g": 8.3
+   },
+   "source_url": "https://kassal.app/vare/136428-selskapsdressing-410g-coop-emv-7025110151193"
+  },
+  {
+   "id": "store:7025110095626",
+   "name": "Coop Multesyltetøy",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110095626"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 170.0,
+    "fat_g": 0.0,
+    "carbs_g": 42.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.5,
+    "salt_g": 0.0,
+    "sugars_g": 42.0
+   },
+   "source_url": "https://kassal.app/vare/11884-coop-multesyltetoy-500g-7025110095626"
+  },
+  {
+   "id": "store:7025110115416",
+   "name": "Coop Lett Eplesyltetøy",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110115416"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 123.0,
+    "fat_g": 0.0,
+    "carbs_g": 30.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 30.0
+   },
+   "source_url": "https://kassal.app/vare/9767-coop-lett-eplesyltetoy-500g-7025110115416"
+  },
+  {
+   "id": "store:7025110115355",
+   "name": "Coop Lett Jordbærsyltetøy",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110115355"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 127.0,
+    "fat_g": 0.0,
+    "carbs_g": 30.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 30.0
+   },
+   "source_url": "https://kassal.app/vare/20567-coop-lett-jordbaersyltetoy-500g-7025110115355"
+  },
+  {
+   "id": "store:7025110180353",
+   "name": "Coop Julebrus uten Sukker",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110180353",
+    "7025110197955",
+    "7025110200549"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 1.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/56267-coop-julebrus-uten-sukker-15l-7025110180353"
+  },
+  {
+   "id": "store:7025110192110",
+   "name": "Coop Frii Mango&Fersken Uten Tilsatt Sukker",
+   "brand": "Coop",
+   "category": "drinks",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110192110"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 10.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/24205-coop-frii-mangofersken-uten-tilsatt-sukker-075l-7025110192110"
+  },
+  {
+   "id": "store:7025165011855",
+   "name": "Coop Kanelknute med Perlesukker",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025165011855"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 314.0,
+    "fat_g": 7.8,
+    "carbs_g": 52.0,
+    "fibre_g": 2.1,
+    "sat_fat_g": 3.8,
+    "protein_g": 6.9,
+    "salt_g": 0.33,
+    "sugars_g": 19.0
+   },
+   "source_url": "https://kassal.app/vare/188660-coop-kanelknute-med-perlesukker-140g-7025165011855"
+  },
+  {
+   "id": "store:7025110168252",
+   "name": "Coop Appelsinsaft Uten Sukker",
+   "brand": "Coop",
+   "category": "drinks",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110168252"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 21.0,
+    "fat_g": 0.0,
+    "carbs_g": 4.8,
+    "fibre_g": 0.1,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.4,
+    "salt_g": 0.0,
+    "sugars_g": 4.8
+   },
+   "source_url": "https://kassal.app/vare/18135-coop-appelsinsaft-uten-sukker-09l-7025110168252"
+  },
+  {
+   "id": "store:7025110200518",
+   "name": "Coop Julebrus m/Sukker",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110200518"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 45.0,
+    "fat_g": 0.0,
+    "carbs_g": 11.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 11.0
+   },
+   "source_url": "https://kassal.app/vare/143305-coop-julebrus-msukker-7025110200518"
+  },
+  {
+   "id": "store:7025168001921",
+   "name": "Coop Glutenfri Brød med Chiamel",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025168001921"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 240.0,
+    "fat_g": 6.3,
+    "carbs_g": 41.0,
+    "fibre_g": 6.3,
+    "sat_fat_g": 0.4,
+    "protein_g": 1.2,
+    "salt_g": 1.1,
+    "sugars_g": 1.0
+   },
+   "source_url": "https://kassal.app/vare/29710-coop-glutenfri-brod-med-chiamel-500g-7025168001921"
+  },
+  {
+   "id": "store:7025110173584",
+   "name": "Coop Melmix Bakemix Glutenfri",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110173584"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 361.0,
+    "fat_g": 1.5,
+    "carbs_g": 85.0,
+    "fibre_g": 5.9,
+    "sat_fat_g": 0.6,
+    "protein_g": 1.8,
+    "salt_g": 2.0,
+    "sugars_g": 2.1
+   },
+   "source_url": "https://kassal.app/vare/7147-coop-melmix-bakemix-glutenfri-450g-7025110173584"
+  },
+  {
+   "id": "store:7025168008326",
+   "name": "Coop Karamellkake",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025168008326"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 352.0,
+    "fat_g": 16.0,
+    "carbs_g": 49.0,
+    "sat_fat_g": 9.0,
+    "protein_g": 3.1,
+    "salt_g": 0.4,
+    "sugars_g": 34.0
+   },
+   "source_url": "https://kassal.app/vare/187239-coop-karamellkake-850g-7025168008326"
+  },
+  {
+   "id": "store:2020135100008",
+   "name": "Coop Lammelår med Ben",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "2020135100008"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 181.0,
+    "fat_g": 12.0,
+    "carbs_g": 0.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 5.2,
+    "protein_g": 19.0,
+    "salt_g": 0.2,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/29913-coop-lammelar-med-ben-ca-3kg-2020135100008"
+  },
+  {
+   "id": "store:7025110200990",
+   "name": "Coop Frii Jordbær & Vannmelon",
+   "brand": "Coop",
+   "category": "drinks",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110200990"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 10.0,
+    "fat_g": 0.0,
+    "carbs_g": 0.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/42709-coop-frii-jordbaer-vannmelon-075l-7025110200990"
+  },
+  {
+   "id": "store:7025165310125",
+   "name": "Coop Karamellkake med Marshmallow",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025165310125"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 452.0,
+    "fat_g": 26.0,
+    "carbs_g": 51.0,
+    "sat_fat_g": 8.2,
+    "protein_g": 3.8,
+    "salt_g": 0.85,
+    "sugars_g": 39.0
+   },
+   "source_url": "https://kassal.app/vare/189531-coop-karamellkake-med-marshmallow-400g-7025165310125"
+  },
+  {
+   "id": "store:7025168010275",
+   "name": "Coop Saftig Eplekake",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025168010275"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 359.0,
+    "fat_g": 20.0,
+    "carbs_g": 41.0,
+    "fibre_g": 1.05,
+    "sat_fat_g": 2.0,
+    "protein_g": 4.2,
+    "salt_g": 1.05,
+    "sugars_g": 27.0
+   },
+   "source_url": "https://kassal.app/vare/187494-coop-saftig-eplekake-450g-7025168010275"
+  },
+  {
+   "id": "store:7020560000718",
+   "name": "Coop Vannkringler",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7020560000718"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 310.0,
+    "fat_g": 7.1,
+    "carbs_g": 51.0,
+    "fibre_g": 3.1,
+    "sat_fat_g": 2.6,
+    "protein_g": 9.1,
+    "salt_g": 0.81,
+    "sugars_g": 2.3
+   },
+   "source_url": "https://kassal.app/vare/85555-coop-vannkringler-200g-7020560000718"
+  },
+  {
+   "id": "store:7025110116666",
+   "name": "Coop Medisterdeig",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110116666"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 257.0,
+    "fat_g": 22.0,
+    "carbs_g": 0.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 7.4,
+    "protein_g": 15.0,
+    "salt_g": 1.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/76503-coop-medisterdeig-500g-7025110116666"
+  },
+  {
+   "id": "store:7025110118455",
+   "name": "Coop Blodpudding",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110118455"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 265.0,
+    "fat_g": 18.0,
+    "carbs_g": 22.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 7.9,
+    "protein_g": 4.6,
+    "salt_g": 1.3,
+    "sugars_g": 13.0
+   },
+   "source_url": "https://kassal.app/vare/21224-coop-blodpudding-400g-7025110118455"
+  },
+  {
+   "id": "store:7025110189684",
+   "name": "Coop Vegetardag Pudding",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110189684"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 232.0,
+    "fat_g": 19.0,
+    "carbs_g": 10.0,
+    "sat_fat_g": 1.4,
+    "protein_g": 5.3,
+    "salt_g": 2.5,
+    "sugars_g": 5.8
+   },
+   "source_url": "https://kassal.app/vare/25882-coop-vegetardag-pudding-200g-7025110189684"
+  },
+  {
+   "id": "store:7340011458036",
+   "name": "Micropopcorn 225grm Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011458036"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 381.0,
+    "fat_g": 0.92,
+    "carbs_g": 79.82,
+    "fibre_g": 8.15,
+    "sat_fat_g": 0.09,
+    "protein_g": 8.96,
+    "salt_g": 2.5,
+    "sugars_g": 2.2
+   },
+   "source_url": "https://kassal.app/vare/97132-micropopcorn-225grm-coop-7340011458036"
+  },
+  {
+   "id": "store:7340011460930",
+   "name": "Coop Nøttemix & Rosiner Naturell",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011460930"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 499.0,
+    "fat_g": 31.0,
+    "carbs_g": 41.0,
+    "fibre_g": 4.5,
+    "sat_fat_g": 3.6,
+    "protein_g": 11.0,
+    "salt_g": 0.07,
+    "sugars_g": 35.0
+   },
+   "source_url": "https://kassal.app/vare/14242-coop-nottemix-rosiner-naturell-150g-7340011460930"
+  },
+  {
+   "id": "store:7340011350989",
+   "name": "Coop Knerten Rosiner",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011350989"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 336.0,
+    "fat_g": 0.0,
+    "carbs_g": 79.0,
+    "fibre_g": 3.7,
+    "sat_fat_g": 0.0,
+    "protein_g": 3.1,
+    "salt_g": 0.0,
+    "sugars_g": 59.0
+   },
+   "source_url": "https://kassal.app/vare/18714-coop-knerten-rosiner-6pk-252g-7340011350989"
+  },
+  {
+   "id": "store:7340011483250",
+   "name": "Rosiner 252grm Coop",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011483250"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 336.0,
+    "fat_g": 0.0,
+    "carbs_g": 79.2,
+    "fibre_g": 3.7,
+    "sat_fat_g": 0.0,
+    "protein_g": 3.1,
+    "salt_g": 0.0,
+    "sugars_g": 59.2
+   },
+   "source_url": "https://kassal.app/vare/93305-rosiner-252grm-coop-7340011483250"
+  },
+  {
+   "id": "store:7025165011213",
+   "name": "Coop Landbrød med Havre og Solsikke Bs",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025165011213"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 264.0,
+    "fat_g": 5.5,
+    "carbs_g": 40.0,
+    "fibre_g": 5.8,
+    "sat_fat_g": 0.9,
+    "protein_g": 10.6,
+    "salt_g": 1.2,
+    "sugars_g": 1.3
+   },
+   "source_url": "https://kassal.app/vare/81649-coop-landbrod-med-havre-og-solsikke-bs-650g-7025165011213"
+  },
+  {
+   "id": "store:7025110173553",
+   "name": "Coop Frøbrød Bakemix Glutenfri",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110163028",
+    "7025110173553"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 420.0,
+    "fat_g": 19.0,
+    "carbs_g": 46.0,
+    "fibre_g": 12.0,
+    "sat_fat_g": 2.2,
+    "protein_g": 11.0,
+    "salt_g": 1.64,
+    "sugars_g": 1.8
+   },
+   "source_url": "https://kassal.app/vare/177156-coop-frobrod-glutenfri-bakemix-coop-7025110173553"
+  },
+  {
+   "id": "store:7025168001914",
+   "name": "Coop Glutenfri Spirebrød",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025168001914"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 269.0,
+    "fat_g": 6.3,
+    "carbs_g": 39.0,
+    "fibre_g": 8.1,
+    "sat_fat_g": 0.9,
+    "protein_g": 5.5,
+    "salt_g": 1.4,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/190481-coop-glutenfri-frobrod-med-spirende-solsikkefro-500g-7025168001914"
+  },
+  {
+   "id": "store:7340011473398",
+   "name": "Påleggsjokolade 108grm Xtra",
+   "brand": "Coop Xtra",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011473398"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 524.0,
+    "fat_g": 29.0,
+    "carbs_g": 58.0,
+    "fibre_g": 1.8,
+    "sat_fat_g": 17.0,
+    "protein_g": 6.9,
+    "salt_g": 0.28,
+    "sugars_g": 57.0
+   },
+   "source_url": "https://kassal.app/vare/95333-paleggsjokolade-108grm-xtra-7340011473398"
+  },
+  {
+   "id": "store:7025110207098",
+   "name": "Xtra Blåbærsyltetøy",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110207098"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 180.0,
+    "fat_g": 0.4,
+    "carbs_g": 43.0,
+    "fibre_g": 1.8,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.4,
+    "salt_g": 0.0,
+    "sugars_g": 43.0
+   },
+   "source_url": "https://kassal.app/vare/233591-xtra-blabaersyltetoy-940g-7025110207098"
+  },
+  {
+   "id": "store:7025110191960",
+   "name": "Änglamark Ostebriks",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110191960"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 309.0,
+    "fat_g": 8.8,
+    "carbs_g": 43.0,
+    "fibre_g": 3.2,
+    "sat_fat_g": 2.7,
+    "protein_g": 13.0,
+    "salt_g": 1.0,
+    "sugars_g": 1.3
+   },
+   "source_url": "https://kassal.app/vare/12546-anglamark-ostebriks-300g-7025110191960"
+  },
+  {
+   "id": "store:7025165009029",
+   "name": "Änglamark Sesam Knekkebrød",
+   "brand": "Änglamark",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025165009029"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 535.0,
+    "fat_g": 36.0,
+    "carbs_g": 30.0,
+    "fibre_g": 9.7,
+    "sat_fat_g": 4.5,
+    "protein_g": 19.0,
+    "salt_g": 0.05,
+    "sugars_g": 2.3
+   },
+   "source_url": "https://kassal.app/vare/189771-anglamark-okologiske-knekkebrod-med-sesam-230g-7025165009029"
+  },
+  {
+   "id": "store:7025165011022",
+   "name": "Änglamark Grove Burgerbrød",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025165011022"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 270.0,
+    "fat_g": 3.6,
+    "carbs_g": 49.0,
+    "fibre_g": 2.4,
+    "sat_fat_g": 0.4,
+    "protein_g": 8.2,
+    "salt_g": 0.8,
+    "sugars_g": 2.9
+   },
+   "source_url": "https://kassal.app/vare/33422-anglamark-grove-burgerbrod-320g-7025165011022"
+  },
+  {
+   "id": "store:7025165010575",
+   "name": "Änglamark Grovbrød",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025165010575"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 200.0,
+    "fat_g": 2.3,
+    "carbs_g": 35.0,
+    "fibre_g": 5.0,
+    "sat_fat_g": 0.3,
+    "protein_g": 7.0,
+    "salt_g": 1.02,
+    "sugars_g": 0.9
+   },
+   "source_url": "https://kassal.app/vare/26480-anglamark-grovbrod-750g-7025165010575"
+  },
+  {
+   "id": "store:7340011490920",
+   "name": "Änglamark Fond Kylling",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011490920"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 2.0,
+    "fat_g": 0.1,
+    "carbs_g": 0.2,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.1,
+    "salt_g": 0.6,
+    "sugars_g": 0.2
+   },
+   "source_url": "https://kassal.app/vare/3531-anglamark-fond-kylling-180ml-7340011490920"
+  },
+  {
+   "id": "store:7340191105386",
+   "name": "Änglamark Zoo Pasta",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340191105386"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 359.0,
+    "fat_g": 1.4,
+    "carbs_g": 73.0,
+    "sat_fat_g": 0.3,
+    "protein_g": 12.0,
+    "salt_g": 0.01,
+    "sugars_g": 2.4
+   },
+   "source_url": "https://kassal.app/vare/20137-anglamark-zoo-pasta-500g-7340191105386"
+  },
+  {
+   "id": "store:7340011316640",
+   "name": "Änglamark Pasta Penne Fullkorn",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011316640"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 332.0,
+    "fat_g": 2.5,
+    "carbs_g": 62.0,
+    "fibre_g": 6.5,
+    "sat_fat_g": 0.4,
+    "protein_g": 12.0,
+    "salt_g": 0.01,
+    "sugars_g": 1.6
+   },
+   "source_url": "https://kassal.app/vare/33347-anglamark-pasta-penne-fullkorn-500g-7340011316640"
+  },
+  {
+   "id": "store:7340011454359",
+   "name": "Änglamark Pasta Tagliolini",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011454359"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 267.0,
+    "fat_g": 2.1,
+    "carbs_g": 48.0,
+    "fibre_g": 5.8,
+    "sat_fat_g": 0.6,
+    "protein_g": 11.0,
+    "salt_g": 0.56,
+    "sugars_g": 1.4
+   },
+   "source_url": "https://kassal.app/vare/17694-anglamark-pasta-tagliolini-250g-7340011454359"
+  },
+  {
+   "id": "store:7300156505620",
+   "name": "Änglamark Zoopasta",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7300156505620"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 359.0,
+    "fat_g": 1.6,
+    "carbs_g": 73.0,
+    "fibre_g": 2.3,
+    "sat_fat_g": 0.4,
+    "protein_g": 12.0,
+    "salt_g": 0.0,
+    "sugars_g": 3.9
+   },
+   "source_url": "https://kassal.app/vare/48010-anglamark-zoopasta-400g-7300156505620"
+  },
+  {
+   "id": "store:7340011427100",
+   "name": "Änglamark Risdrikk Økologisk",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011427100"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 52.0,
+    "fat_g": 0.8,
+    "carbs_g": 11.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.06,
+    "sugars_g": 6.4
+   },
+   "source_url": "https://kassal.app/vare/24688-anglamark-risdrikk-okologisk-1l-7340011427100"
+  },
+  {
+   "id": "store:7340011496687",
+   "name": "Änglamark Finsk Lakris",
+   "brand": "Änglamark",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011496687"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 330.0,
+    "fat_g": 2.5,
+    "carbs_g": 72.0,
+    "fibre_g": 1.7,
+    "sat_fat_g": 1.9,
+    "protein_g": 4.0,
+    "salt_g": 0.28,
+    "sugars_g": 43.0
+   },
+   "source_url": "https://kassal.app/vare/2019-anglamark-finsk-lakris-120g-7340011496687"
+  },
+  {
+   "id": "store:2000608500009",
+   "name": "Minipizza stykk",
+   "brand": "Änglamark",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "2000608500009"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 213.0,
+    "fat_g": 2.1,
+    "carbs_g": 39.2,
+    "fibre_g": 0.0,
+    "sat_fat_g": 0.4,
+    "protein_g": 8.1,
+    "salt_g": 0.93,
+    "sugars_g": 2.5
+   },
+   "source_url": "https://kassal.app/vare/43029-anglamark-crispi-salat-120g-okologisk-2000608500009"
+  },
+  {
+   "id": "store:7025110040442",
+   "name": "Änglamark Filtermalt Kaffe",
+   "brand": "Coop",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110040442"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 1.0,
+    "fat_g": 0.02,
+    "carbs_g": 0.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/24809-anglamark-filtermalt-kaffe-250g-7025110040442"
+  },
+  {
+   "id": "store:7070806004345",
+   "name": "Økologisk Laksfilet Änglamark",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7070806004345"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 191.0,
+    "fat_g": 12.0,
+    "carbs_g": 0.0,
+    "sat_fat_g": 2.2,
+    "protein_g": 20.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/131939-okologisk-laksfilet-2x140g-anglamark-7070806004345"
+  },
+  {
+   "id": "store:7340011421689",
+   "name": "Änglamark Müsli Grøt",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011421689"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 417.0,
+    "fat_g": 10.7,
+    "carbs_g": 65.0,
+    "fibre_g": 4.2,
+    "sat_fat_g": 3.3,
+    "protein_g": 13.0,
+    "salt_g": 0.31,
+    "sugars_g": 31.0
+   },
+   "source_url": "https://kassal.app/vare/14022-anglamark-musli-grot-200g-7340011421689"
+  },
+  {
+   "id": "store:7025110181879",
+   "name": "Änglamark Økologisk Lettrømme",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110181879"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 188.0,
+    "fat_g": 18.0,
+    "carbs_g": 3.4,
+    "sat_fat_g": 12.0,
+    "protein_g": 3.1,
+    "salt_g": 0.1,
+    "sugars_g": 3.4
+   },
+   "source_url": "https://kassal.app/vare/19131-anglamark-okologisk-lettromme-250ml-7025110181879"
+  },
+  {
+   "id": "store:7025110172716",
+   "name": "Änglamark Fløte 38% Fett Økologisk",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110172716"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 362.0,
+    "fat_g": 38.0,
+    "carbs_g": 2.9,
+    "sat_fat_g": 25.0,
+    "protein_g": 2.1,
+    "salt_g": 0.1,
+    "sugars_g": 2.9
+   },
+   "source_url": "https://kassal.app/vare/29827-anglamark-flote-38-fett-okologisk-3dl-7025110172716"
+  },
+  {
+   "id": "store:7340011301547",
+   "name": "Änglamark Rosiner Økologisk",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011301547"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 330.0,
+    "fat_g": 0.0,
+    "carbs_g": 77.0,
+    "fibre_g": 5.8,
+    "sat_fat_g": 0.0,
+    "protein_g": 2.5,
+    "salt_g": 0.03,
+    "sugars_g": 52.0
+   },
+   "source_url": "https://kassal.app/vare/10529-anglamark-rosiner-okologisk-250g-7340011301547"
+  },
+  {
+   "id": "store:7340011491552",
+   "name": "Änglamark Smoothie Sviske",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011491552"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 94.0,
+    "fat_g": 0.7,
+    "carbs_g": 21.0,
+    "fibre_g": 1.9,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.01,
+    "sugars_g": 17.0
+   },
+   "source_url": "https://kassal.app/vare/5596-anglamark-smoothie-sviske-70g-7340011491552"
+  },
+  {
+   "id": "store:7340011463528",
+   "name": "Änglamark Peanøtter",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011463528"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 615.0,
+    "fat_g": 51.0,
+    "carbs_g": 12.0,
+    "sat_fat_g": 7.7,
+    "protein_g": 23.0,
+    "salt_g": 1.3,
+    "sugars_g": 4.7
+   },
+   "source_url": "https://kassal.app/vare/7614-anglamark-peanotter-200g-7340011463528"
+  },
+  {
+   "id": "store:7340011315735",
+   "name": "Änglamark Italiensk EV. Olivenolje",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011315735"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 900.0,
+    "fat_g": 100.0,
+    "carbs_g": 0.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 14.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/20696-anglamark-italiensk-ev-olivenolje-500ml-7340011315735"
+  },
+  {
+   "id": "store:7340011346159",
+   "name": "Änglamark Lasagne",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011346159"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 332.0,
+    "fat_g": 2.5,
+    "carbs_g": 62.0,
+    "fibre_g": 6.5,
+    "sat_fat_g": 0.4,
+    "protein_g": 12.0,
+    "salt_g": 0.01,
+    "sugars_g": 1.6
+   },
+   "source_url": "https://kassal.app/vare/7509-anglamark-lasagne-500g-7340011346159"
+  },
+  {
+   "id": "store:7340011487890",
+   "name": "Änglamark Hvite Bønner",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011487890"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 96.0,
+    "fat_g": 0.5,
+    "carbs_g": 13.0,
+    "fibre_g": 6.4,
+    "sat_fat_g": 0.1,
+    "protein_g": 6.7,
+    "salt_g": 0.47,
+    "sugars_g": 0.6
+   },
+   "source_url": "https://kassal.app/vare/3419-anglamark-hvite-bonner-380g-7340011487890"
+  },
+  {
+   "id": "store:7340011471899",
+   "name": "Änglamark Jordbærsyltetøy",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011471899"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 186.0,
+    "fat_g": 0.2,
+    "carbs_g": 45.0,
+    "fibre_g": 1.4,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.4,
+    "salt_g": 0.06,
+    "sugars_g": 43.0
+   },
+   "source_url": "https://kassal.app/vare/6313-anglamark-jordbaersyltetoy-340g-7340011471899"
+  },
+  {
+   "id": "store:7340011471691",
+   "name": "Änglamark Solbærsyltetøy",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011471691"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 193.0,
+    "fat_g": 0.1,
+    "carbs_g": 45.0,
+    "fibre_g": 2.6,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.7,
+    "salt_g": 0.03,
+    "sugars_g": 45.0
+   },
+   "source_url": "https://kassal.app/vare/26582-anglamark-solbaersyltetoy-340g-7340011471691"
+  },
+  {
+   "id": "store:7340191126206",
+   "name": "Änglamark Bringebærsyltetøy",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340191126206"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 192.0,
+    "fat_g": 0.6,
+    "carbs_g": 45.0,
+    "fibre_g": 3.8,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.6,
+    "salt_g": 0.05,
+    "sugars_g": 45.0
+   },
+   "source_url": "https://kassal.app/vare/10933-anglamark-bringebaersyltetoy-340g-7340191126206"
+  },
+  {
+   "id": "store:7340011471677",
+   "name": "Änglamark Aprikossyltetøy",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011471677"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 184.0,
+    "fat_g": 0.1,
+    "carbs_g": 45.0,
+    "fibre_g": 1.3,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.2,
+    "salt_g": 0.03,
+    "sugars_g": 44.0
+   },
+   "source_url": "https://kassal.app/vare/16425-anglamark-aprikossyltetoy-340g-7340011471677"
+  },
+  {
+   "id": "store:7340011459316",
+   "name": "Änglamark Akasiehonning",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011459316"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 332.0,
+    "fat_g": 0.0,
+    "carbs_g": 83.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 83.0
+   },
+   "source_url": "https://kassal.app/vare/23342-anglamark-akasiehonning-250g-7340011459316"
+  },
+  {
+   "id": "store:7340011471806",
+   "name": "Änglamark Appelsinmarmelade",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011471806"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 185.0,
+    "fat_g": 0.2,
+    "carbs_g": 45.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.4,
+    "salt_g": 0.02,
+    "sugars_g": 44.0
+   },
+   "source_url": "https://kassal.app/vare/17009-anglamark-appelsinmarmelade-340g-7340011471806"
+  },
+  {
+   "id": "store:7340011451372",
+   "name": "Änglamark Smoothie Pære/Banan/Kiwi",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011451372"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 54.0,
+    "fat_g": 0.0,
+    "carbs_g": 12.0,
+    "fibre_g": 1.8,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.6,
+    "salt_g": 0.0,
+    "sugars_g": 11.0
+   },
+   "source_url": "https://kassal.app/vare/15788-anglamark-smoothie-paerebanankiwi-90g-7340011451372"
+  },
+  {
+   "id": "store:7340011496106",
+   "name": "Änglamark Grønne Linser",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011496106"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 136.0,
+    "fat_g": 0.4,
+    "carbs_g": 20.0,
+    "fibre_g": 8.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 9.0,
+    "salt_g": 0.3,
+    "sugars_g": 1.8
+   },
+   "source_url": "https://kassal.app/vare/725-anglamark-gronne-linser-380g-7340011496106"
+  },
+  {
+   "id": "store:7025110191991",
+   "name": "Änglamark Økologisk Multikornbriks",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7025110191991"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 257.0,
+    "fat_g": 4.1,
+    "carbs_g": 44.0,
+    "fibre_g": 5.3,
+    "sat_fat_g": 0.3,
+    "protein_g": 8.7,
+    "salt_g": 1.0,
+    "sugars_g": 1.1
+   },
+   "source_url": "https://kassal.app/vare/15336-anglamark-okologisk-multikornbriks-7025110191991"
+  },
+  {
+   "id": "store:7340011470885",
+   "name": "Änglamark Fullkornsgrøt med Frukt",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011470885"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 416.0,
+    "fat_g": 10.6,
+    "carbs_g": 64.0,
+    "fibre_g": 4.2,
+    "sat_fat_g": 3.4,
+    "protein_g": 14.0,
+    "salt_g": 0.31,
+    "sugars_g": 26.0
+   },
+   "source_url": "https://kassal.app/vare/29677-anglamark-fullkornsgrot-med-frukt-270g-7340011470885"
+  },
+  {
+   "id": "store:7340011470861",
+   "name": "Änglamark Fullkorns Grøt",
+   "brand": "Änglamark",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7340011470861"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 421.0,
+    "fat_g": 11.2,
+    "carbs_g": 63.0,
+    "fibre_g": 4.1,
+    "sat_fat_g": 3.5,
+    "protein_g": 15.1,
+    "salt_g": 0.33,
+    "sugars_g": 23.0
+   },
+   "source_url": "https://kassal.app/vare/7438-anglamark-fullkorns-grot-270g-7340011470861"
+  },
+  {
+   "id": "store:7032069733554",
+   "name": "Salatost i Krydderolje Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069733554"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 507.0,
+    "fat_g": 52.0,
+    "carbs_g": 0.8,
+    "fibre_g": 0.5,
+    "sat_fat_g": 9.3,
+    "protein_g": 8.7,
+    "salt_g": 1.7,
+    "sugars_g": 0.8
+   },
+   "source_url": "https://kassal.app/vare/83365-salatost-i-krydderolje-265g-rema-1000-7032069733554"
+  },
+  {
+   "id": "store:7032069736418",
+   "name": "Pizzabunn med Tomatsaus",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069736418"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 225.0,
+    "fat_g": 3.8,
+    "carbs_g": 39.0,
+    "fibre_g": 3.2,
+    "sat_fat_g": 0.6,
+    "protein_g": 7.1,
+    "salt_g": 1.4,
+    "sugars_g": 3.7
+   },
+   "source_url": "https://kassal.app/vare/75036-pizzabunner-msaus-3x260g-rema-1000-7032069736418"
+  },
+  {
+   "id": "store:7032069731284",
+   "name": "Pastasaus Bolognese Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069731284"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 78.0,
+    "fat_g": 3.3,
+    "carbs_g": 6.8,
+    "fibre_g": 1.5,
+    "sat_fat_g": 1.7,
+    "protein_g": 4.6,
+    "salt_g": 0.6,
+    "sugars_g": 4.8
+   },
+   "source_url": "https://kassal.app/vare/83366-pastasaus-bolognese-400g-rema-1000-7032069731284"
+  },
+  {
+   "id": "store:7032069715369",
+   "name": "Middagsris Ståpose",
+   "brand": "Rema 1000",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069715369"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 357.0,
+    "fat_g": 1.0,
+    "carbs_g": 79.0,
+    "fibre_g": 1.8,
+    "sat_fat_g": 0.3,
+    "protein_g": 7.2,
+    "salt_g": 0.0,
+    "sugars_g": 0.6
+   },
+   "source_url": "https://kassal.app/vare/83104-middagsris-stapose-2kg-rema-1000-7032069715369"
+  },
+  {
+   "id": "store:7032069724736",
+   "name": "Mandler Saltet Og Ristet",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069724736"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 600.0,
+    "fat_g": 52.0,
+    "carbs_g": 6.6,
+    "fibre_g": 11.0,
+    "sat_fat_g": 4.1,
+    "protein_g": 21.0,
+    "salt_g": 0.8,
+    "sugars_g": 6.6
+   },
+   "source_url": "https://kassal.app/vare/83420-mandler-saltet-og-ristet-50g-rema-1000-7032069724736"
+  },
+  {
+   "id": "store:7032069728628",
+   "name": "Fersk Spagetti med Egg Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069728628"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 282.0,
+    "fat_g": 1.7,
+    "carbs_g": 57.0,
+    "fibre_g": 2.0,
+    "sat_fat_g": 0.6,
+    "protein_g": 8.7,
+    "salt_g": 0.05,
+    "sugars_g": 1.4
+   },
+   "source_url": "https://kassal.app/vare/89313-fersk-spagetti-med-egg-300g-rema-1000-7032069728628"
+  },
+  {
+   "id": "store:7032069728611",
+   "name": "Ferske Nudler",
+   "brand": "Rema 1000",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069728611"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 258.0,
+    "fat_g": 1.4,
+    "carbs_g": 51.0,
+    "fibre_g": 2.8,
+    "sat_fat_g": 0.2,
+    "protein_g": 8.9,
+    "salt_g": 0.03,
+    "sugars_g": 1.1
+   },
+   "source_url": "https://kassal.app/vare/83296-ferske-nudler-med-egg-300g-rema-1000-7032069728611"
+  },
+  {
+   "id": "store:7032069735299",
+   "name": "Eple og Bær Juice Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069735299"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 40.0,
+    "fat_g": 0.5,
+    "carbs_g": 9.3,
+    "fibre_g": 0.5,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.2,
+    "salt_g": 0.01,
+    "sugars_g": 9.3
+   },
+   "source_url": "https://kassal.app/vare/77100-eple-og-baer-juice-1l-rema-1000-7032069735299"
+  },
+  {
+   "id": "store:7032069735640",
+   "name": "Eplejuice m/Kanel og Nellik Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069735640"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 40.0,
+    "fat_g": 0.1,
+    "carbs_g": 9.7,
+    "fibre_g": 0.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.5,
+    "salt_g": 0.01,
+    "sugars_g": 9.7
+   },
+   "source_url": "https://kassal.app/vare/76066-eplejuice-mkanel-og-nellik-1l-rema-1000-7032069735640"
+  },
+  {
+   "id": "store:7032069735268",
+   "name": "Sitrusjuice Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069735268"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 42.0,
+    "fat_g": 0.5,
+    "carbs_g": 8.5,
+    "fibre_g": 0.5,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.8,
+    "salt_g": 0.01,
+    "sugars_g": 8.5
+   },
+   "source_url": "https://kassal.app/vare/77109-sitrusjuice-1l-rema-1000-7032069735268"
+  },
+  {
+   "id": "store:7032069730690",
+   "name": "Nødbar m/Nøtter og Sjokolade Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069730690"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 497.0,
+    "fat_g": 29.0,
+    "carbs_g": 43.0,
+    "fibre_g": 6.7,
+    "sat_fat_g": 4.0,
+    "protein_g": 13.0,
+    "salt_g": 0.25,
+    "sugars_g": 21.0
+   },
+   "source_url": "https://kassal.app/vare/83442-nodbar-mnotter-og-sjokolade-35g-rema-1000-7032069730690"
+  },
+  {
+   "id": "store:2374106800009",
+   "name": "Laks Helside m/Skinn Frys 0,8- Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "2374106800009"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 224.0,
+    "fat_g": 16.0,
+    "carbs_g": 0.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 2.3,
+    "protein_g": 20.0,
+    "salt_g": 0.1,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/75177-laks-helside-mskinn-frys-08-17kg-rema-1000-2374106800009"
+  },
+  {
+   "id": "store:7032069736166",
+   "name": "Lys Pølselapskaus Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069736166"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 77.0,
+    "fat_g": 3.1,
+    "carbs_g": 8.1,
+    "fibre_g": 1.5,
+    "sat_fat_g": 1.1,
+    "protein_g": 3.4,
+    "salt_g": 0.99,
+    "sugars_g": 2.5
+   },
+   "source_url": "https://kassal.app/vare/83202-lys-polselapskaus-1kg-rema-1000-7032069736166"
+  },
+  {
+   "id": "store:7032069736173",
+   "name": "Fiskegrateng Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069736173"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 127.0,
+    "fat_g": 5.6,
+    "carbs_g": 9.9,
+    "fibre_g": 0.6,
+    "sat_fat_g": 2.8,
+    "protein_g": 9.2,
+    "salt_g": 1.3,
+    "sugars_g": 2.0
+   },
+   "source_url": "https://kassal.app/vare/83049-fiskegrateng-1kg-rema-1000-7032069736173"
+  },
+  {
+   "id": "store:7032069732496",
+   "name": "Maiskorn",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069732496"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 79.0,
+    "fat_g": 1.0,
+    "carbs_g": 14.0,
+    "fibre_g": 2.6,
+    "sat_fat_g": 0.3,
+    "protein_g": 2.3,
+    "salt_g": 0.7,
+    "sugars_g": 5.3
+   },
+   "source_url": "https://kassal.app/vare/82459-mais-3pk-3x190g-rema-1000-7032069732496"
+  },
+  {
+   "id": "store:7032069736630",
+   "name": "Panneklar Indisk Masala Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069736630"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 118.0,
+    "fat_g": 0.9,
+    "carbs_g": 21.0,
+    "fibre_g": 4.5,
+    "sat_fat_g": 0.3,
+    "protein_g": 4.1,
+    "salt_g": 1.1,
+    "sugars_g": 4.5
+   },
+   "source_url": "https://kassal.app/vare/83438-panneklar-indisk-masala-445g-rema-1000-7032069736630"
+  },
+  {
+   "id": "store:7032069719008",
+   "name": "Fettuccine Økologisk Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069719008"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 357.0,
+    "fat_g": 1.6,
+    "carbs_g": 73.0,
+    "fibre_g": 3.3,
+    "sat_fat_g": 0.3,
+    "protein_g": 11.0,
+    "salt_g": 0.01,
+    "sugars_g": 2.9
+   },
+   "source_url": "https://kassal.app/vare/83221-fettuccine-okologisk-500g-rema-1000-7032069719008"
+  },
+  {
+   "id": "store:7032069737439",
+   "name": "Fiskegrateng",
+   "brand": "Rema 1000",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069737439"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 147.0,
+    "fat_g": 5.1,
+    "carbs_g": 15.0,
+    "fibre_g": 0.7,
+    "sat_fat_g": 3.1,
+    "protein_g": 10.0,
+    "salt_g": 0.8,
+    "sugars_g": 2.1
+   },
+   "source_url": "https://kassal.app/vare/75134-fiskegrateng-400g-rema-1000-7032069737439"
+  },
+  {
+   "id": "store:7032069720646",
+   "name": "Fusilli Fullkorn Økologisk Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069720646"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 349.0,
+    "fat_g": 2.5,
+    "carbs_g": 66.0,
+    "fibre_g": 7.5,
+    "sat_fat_g": 0.6,
+    "protein_g": 12.0,
+    "salt_g": 0.01,
+    "sugars_g": 3.7
+   },
+   "source_url": "https://kassal.app/vare/83456-fusilli-fullkorn-okologisk-500g-rema-1000-7032069720646"
+  },
+  {
+   "id": "store:7032069732083",
+   "name": "Maiskorn Til Popcorn",
+   "brand": "Rema 1000",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069732083"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 309.0,
+    "fat_g": 3.0,
+    "carbs_g": 50.0,
+    "fibre_g": 15.0,
+    "sat_fat_g": 0.5,
+    "protein_g": 13.0,
+    "salt_g": 0.0,
+    "sugars_g": 1.4
+   },
+   "source_url": "https://kassal.app/vare/82573-maiskorn-til-popcorn-400g-rema-1000-7032069732083"
+  },
+  {
+   "id": "store:7032069736524",
+   "name": "Kjøttboller Sweet Chili Saus Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069736524"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 197.0,
+    "fat_g": 7.0,
+    "carbs_g": 24.0,
+    "fibre_g": 0.5,
+    "sat_fat_g": 2.7,
+    "protein_g": 9.0,
+    "salt_g": 2.2,
+    "sugars_g": 19.0
+   },
+   "source_url": "https://kassal.app/vare/74795-kjottboller-sweet-chili-saus-600g-rema-1000-7032069736524"
+  },
+  {
+   "id": "store:7032069738238",
+   "name": "Ponzusaus Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069738238"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 122.0,
+    "fat_g": 0.1,
+    "carbs_g": 27.0,
+    "fibre_g": 0.7,
+    "sat_fat_g": 0.0,
+    "protein_g": 2.8,
+    "salt_g": 4.5,
+    "sugars_g": 24.0
+   },
+   "source_url": "https://kassal.app/vare/75005-ponzusaus-150g-rema-1000-7032069738238"
+  },
+  {
+   "id": "store:7032069719671",
+   "name": "Sardiner i Tomatsaus Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069719671"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 242.0,
+    "fat_g": 18.0,
+    "carbs_g": 4.2,
+    "fibre_g": 1.4,
+    "sat_fat_g": 4.7,
+    "protein_g": 15.0,
+    "salt_g": 1.2,
+    "sugars_g": 1.2
+   },
+   "source_url": "https://kassal.app/vare/83330-sardiner-i-tomatsaus-105g-rema-1000-7032069719671"
+  },
+  {
+   "id": "store:7032069730683",
+   "name": "Turbar m/Peanøtter Tranebær og Mandler Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069730683"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 438.0,
+    "fat_g": 19.0,
+    "carbs_g": 55.0,
+    "fibre_g": 5.7,
+    "sat_fat_g": 3.3,
+    "protein_g": 9.1,
+    "salt_g": 0.25,
+    "sugars_g": 28.0
+   },
+   "source_url": "https://kassal.app/vare/83354-turbar-mpeanotter-tranebaer-og-mandler-35g-rema-1000-7032069730683"
+  },
+  {
+   "id": "store:7032069716717",
+   "name": "Pistasjnøtter",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069716717"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 604.0,
+    "fat_g": 51.0,
+    "carbs_g": 9.1,
+    "fibre_g": 8.2,
+    "sat_fat_g": 5.8,
+    "protein_g": 23.0,
+    "salt_g": 1.4,
+    "sugars_g": 7.7
+   },
+   "source_url": "https://kassal.app/vare/83194-pistasjnotter-175g-rema-1000-7032069716717"
+  },
+  {
+   "id": "store:7032069734070",
+   "name": "Cashewnøtter med Salt & Pepper",
+   "brand": "Rema 1000",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069734070"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 637.0,
+    "fat_g": 53.0,
+    "carbs_g": 17.0,
+    "fibre_g": 4.1,
+    "sat_fat_g": 8.0,
+    "protein_g": 21.0,
+    "salt_g": 1.2,
+    "sugars_g": 3.5
+   },
+   "source_url": "https://kassal.app/vare/76892-cashewnotter-msalt-pepper-150g-rema-1000-7032069734070"
+  },
+  {
+   "id": "store:7032069735206",
+   "name": "Frityrolje Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069734292",
+    "7032069735206"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 828.0,
+    "fat_g": 92.0,
+    "carbs_g": 0.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 7.7,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   },
+   "source_url": "https://kassal.app/vare/76916-frityrolje-2l-rema-1000-7032069735206"
+  },
+  {
+   "id": "store:7032069716366",
+   "name": "Frøloff, Lettstekt",
+   "brand": "Rema 1000",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069716366"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 261.0,
+    "fat_g": 3.9,
+    "carbs_g": 47.0,
+    "fibre_g": 2.6,
+    "sat_fat_g": 0.4,
+    "protein_g": 8.2,
+    "salt_g": 1.1,
+    "sugars_g": 1.2
+   },
+   "source_url": "https://kassal.app/vare/83161-froloff-lettstekt-670g-rema-1000-7032069716366"
+  },
+  {
+   "id": "store:7032069736500",
+   "name": "Kjøttboller Red Thai Curry Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069736500"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 151.0,
+    "fat_g": 10.0,
+    "carbs_g": 5.0,
+    "fibre_g": 0.6,
+    "sat_fat_g": 5.0,
+    "protein_g": 10.0,
+    "salt_g": 1.2,
+    "sugars_g": 1.2
+   },
+   "source_url": "https://kassal.app/vare/74783-kjottboller-red-thai-curry-600g-rema-1000-7032069736500"
+  },
+  {
+   "id": "store:7032069737613",
+   "name": "Seibiff m/Løk Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069737613"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 208.0,
+    "fat_g": 8.9,
+    "carbs_g": 17.0,
+    "fibre_g": 0.7,
+    "sat_fat_g": 0.9,
+    "protein_g": 14.0,
+    "salt_g": 1.2,
+    "sugars_g": 0.3
+   },
+   "source_url": "https://kassal.app/vare/74986-seibiff-mlok-525g-rema-1000-7032069737613"
+  },
+  {
+   "id": "store:7032069734087",
+   "name": "Lasagne Bolognese Fryst Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069734087"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 140.0,
+    "fat_g": 6.5,
+    "carbs_g": 14.0,
+    "fibre_g": 0.9,
+    "sat_fat_g": 2.4,
+    "protein_g": 5.9,
+    "salt_g": 1.0,
+    "sugars_g": 2.1
+   },
+   "source_url": "https://kassal.app/vare/83415-lasagne-bolognese-400g-fryst-rema-1000-7032069734087"
+  },
+  {
+   "id": "store:7032069736258",
+   "name": "Grønnsaksuppe Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069736258"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 45.0,
+    "fat_g": 0.8,
+    "carbs_g": 8.1,
+    "fibre_g": 1.4,
+    "sat_fat_g": 0.1,
+    "protein_g": 0.6,
+    "salt_g": 0.83,
+    "sugars_g": 2.0
+   },
+   "source_url": "https://kassal.app/vare/83143-gronnsaksuppe-1kg-rema-1000-7032069736258"
+  },
+  {
+   "id": "store:7032069735961",
+   "name": "Birria Taco Kit Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069735961"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 188.0,
+    "fat_g": 13.0,
+    "carbs_g": 2.3,
+    "sat_fat_g": 4.7,
+    "protein_g": 15.0,
+    "salt_g": 0.9,
+    "sugars_g": 1.5
+   },
+   "source_url": "https://kassal.app/vare/83352-birria-taco-kit-800g-rema-1000-7032069735961"
+  },
+  {
+   "id": "store:7032069719268",
+   "name": "Potetbåter Express",
+   "brand": "Rema 1000",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069719268"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 149.0,
+    "fat_g": 4.0,
+    "carbs_g": 25.0,
+    "fibre_g": 2.3,
+    "sat_fat_g": 0.3,
+    "protein_g": 2.0,
+    "salt_g": 0.08,
+    "sugars_g": 0.5
+   },
+   "source_url": "https://kassal.app/vare/83207-potetbater-express-600g-rema-1000-7032069719268"
+  },
+  {
+   "id": "store:7032060011118",
+   "name": "Erter Grønne Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032060011118"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 336.0,
+    "fat_g": 2.4,
+    "carbs_g": 50.0,
+    "fibre_g": 13.0,
+    "sat_fat_g": 0.4,
+    "protein_g": 22.0,
+    "salt_g": 0.1,
+    "sugars_g": 2.4
+   },
+   "source_url": "https://kassal.app/vare/83302-erter-gronne-500g-rema-1000-7032060011118"
+  },
+  {
+   "id": "store:7032060011101",
+   "name": "Tørkede erter Gule",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032060011101"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 336.0,
+    "fat_g": 2.4,
+    "carbs_g": 50.0,
+    "fibre_g": 13.0,
+    "sat_fat_g": 0.4,
+    "protein_g": 22.0,
+    "salt_g": 0.1,
+    "sugars_g": 2.4
+   },
+   "source_url": "https://kassal.app/vare/83237-erter-gule-500g-rema-1000-7032060011101"
+  },
+  {
+   "id": "store:7032060010975",
+   "name": "Erter og gulrøtter",
+   "brand": "Rema 1000",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032060010975"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 43.0,
+    "fat_g": 0.5,
+    "carbs_g": 4.4,
+    "fibre_g": 4.9,
+    "sat_fat_g": 0.1,
+    "protein_g": 2.7,
+    "salt_g": 0.7,
+    "sugars_g": 1.4
+   },
+   "source_url": "https://kassal.app/vare/83240-erter-gulrotter-410g-rema-1000-7032060010975"
+  },
+  {
+   "id": "store:7032060010951",
+   "name": "Tørkede erter",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032060010951"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 106.0,
+    "fat_g": 0.5,
+    "carbs_g": 16.0,
+    "fibre_g": 5.1,
+    "sat_fat_g": 0.1,
+    "protein_g": 6.9,
+    "salt_g": 0.8,
+    "sugars_g": 1.5
+   },
+   "source_url": "https://kassal.app/vare/83230-torkede-erter-410g-rema-1000-7032060010951"
+  },
+  {
+   "id": "store:7032069734384",
+   "name": "Edamamebønner Fryst Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069734384"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 130.0,
+    "fat_g": 7.2,
+    "carbs_g": 2.8,
+    "fibre_g": 5.0,
+    "sat_fat_g": 1.0,
+    "protein_g": 11.0,
+    "salt_g": 0.0,
+    "sugars_g": 2.5
+   },
+   "source_url": "https://kassal.app/vare/77922-edamamebonner-400g-fryst-rema-1000-7032069734384"
+  },
+  {
+   "id": "store:7032069732212",
+   "name": "Multesyltetøy",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069732212"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 137.0,
+    "fat_g": 0.7,
+    "carbs_g": 30.0,
+    "fibre_g": 2.7,
+    "sat_fat_g": 0.1,
+    "protein_g": 0.7,
+    "salt_g": 0.04,
+    "sugars_g": 30.0
+   },
+   "source_url": "https://kassal.app/vare/82562-multesyltetoy-320g-rema-1000-7032069732212"
+  },
+  {
+   "id": "store:7032069715420",
+   "name": "Blåbærsyltetøy Lett",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069715420"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 136.0,
+    "fat_g": 0.5,
+    "carbs_g": 32.0,
+    "fibre_g": 2.0,
+    "sat_fat_g": 0.1,
+    "protein_g": 0.6,
+    "salt_g": 0.03,
+    "sugars_g": 29.0
+   },
+   "source_url": "https://kassal.app/vare/83154-blabaersyltetoy-525g-rema-1000-7032069715420"
+  },
+  {
+   "id": "store:7032069730676",
+   "name": "Ladbar m/Mandler Frø og Honning Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069730676"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 512.0,
+    "fat_g": 30.0,
+    "carbs_g": 42.0,
+    "fibre_g": 7.4,
+    "sat_fat_g": 3.6,
+    "protein_g": 15.0,
+    "salt_g": 0.25,
+    "sugars_g": 16.0
+   },
+   "source_url": "https://kassal.app/vare/83388-ladbar-mmandler-fro-og-honning-35g-rema-1000-7032069730676"
+  },
+  {
+   "id": "store:7032069734360",
+   "name": "Tyttebær Fryst Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069734360"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 44.0,
+    "fat_g": 0.6,
+    "carbs_g": 7.0,
+    "fibre_g": 4.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.7,
+    "salt_g": 0.0,
+    "sugars_g": 7.0
+   },
+   "source_url": "https://kassal.app/vare/77075-tyttebaer-300g-fryst-rema-1000-7032069734360"
+  },
+  {
+   "id": "store:7032069717738",
+   "name": "Tagliatelle Glutenfri Rema 1000",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069717738"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 262.0,
+    "fat_g": 4.8,
+    "carbs_g": 45.0,
+    "fibre_g": 5.8,
+    "sat_fat_g": 1.0,
+    "protein_g": 6.9,
+    "salt_g": 0.28,
+    "sugars_g": 0.1
+   },
+   "source_url": "https://kassal.app/vare/83119-tagliatelle-glutenfri-250g-rema-1000-7032069717738"
+  },
+  {
+   "id": "store:7032069732540",
+   "name": "Fettuccine Økologisk Rema 1000 (plant#2 - De Matteis)",
+   "brand": "Rema 1000",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7032069732540"
+   ],
+   "source": "kassalapp",
+   "nutrients": {
+    "kcal": 353.0,
+    "fat_g": 1.3,
+    "carbs_g": 73.0,
+    "fibre_g": 2.7,
+    "sat_fat_g": 0.2,
+    "protein_g": 11.0,
+    "salt_g": 0.01,
+    "sugars_g": 3.2
+   },
+   "source_url": "https://kassal.app/vare/83350-fettuccine-okologisk-500g-rema-1000-plant2-de-matteis-7032069732540"
   }
  ],
  "common": {

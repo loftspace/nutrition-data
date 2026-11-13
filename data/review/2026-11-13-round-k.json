@@ -1,0 +1,1800 @@
+{
+ "note": "Round K, 2026-11-13: Coop (Coop, Xtra, Änglamark) and Rema 1000 own brands via kassal.app's public catalogue, checked by barcode in code as rounds F to I. Held items listed here.",
+ "stats": {
+  "add": 233,
+  "same_name_other_numbers": 59,
+  "attach": 16,
+  "does_not_add_up": 9,
+  "no_numbers": 78,
+  "all_zero": 14,
+  "several_matches": 1
+ },
+ "review": [
+  {
+   "ean": "3760049798135",
+   "title": "Coop Brioche Burgerbrød 200g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7340191130098"
+   ],
+   "n": {
+    "kcal": 277.0,
+    "fat_g": 3.8,
+    "carbs_g": 50.0,
+    "fibre_g": 2.3,
+    "sat_fat_g": 1.5,
+    "protein_g": 9.1,
+    "salt_g": 0.7,
+    "sugars_g": 6.4
+   }
+  },
+  {
+   "ean": "7025110199652",
+   "title": "Coop Kjøttdeig 18% 1.3kg",
+   "subtitle": "",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 205.0,
+    "fat_g": 18.0,
+    "carbs_g": 0.0,
+    "sat_fat_g": 6.4,
+    "protein_g": 20.0,
+    "salt_g": 0.1,
+    "sugars_g": 0.0
+   }
+  },
+  {
+   "ean": "7340011498872",
+   "title": "Coop Pizza Pepperoni 555g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7340011498810",
+    "ean:7340191176355",
+    "ean:7340011464495",
+    "ean:7340191147959",
+    "ean:7300156489715",
+    "ean:7300156585523"
+   ],
+   "n": {
+    "kcal": 246.0,
+    "fat_g": 11.0,
+    "carbs_g": 24.0,
+    "sat_fat_g": 4.4,
+    "protein_g": 12.0,
+    "salt_g": 0.8,
+    "sugars_g": 1.7
+   }
+  },
+  {
+   "ean": "7340191101524",
+   "title": "Coop Pasta Bolognese 68g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025110213426",
+    "ean:7300156587862",
+    "ean:7300156485496"
+   ],
+   "n": {
+    "kcal": 90.0,
+    "fat_g": 0.7,
+    "carbs_g": 17.0,
+    "sat_fat_g": 0.2,
+    "protein_g": 3.2,
+    "salt_g": 0.83,
+    "sugars_g": 4.6
+   }
+  },
+  {
+   "ean": "5700382353385",
+   "title": "Coop Rispapir 200g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7340191124134"
+   ],
+   "n": {
+    "kcal": 342.0,
+    "fat_g": 0.0,
+    "carbs_g": 85.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.6,
+    "sugars_g": 5.0
+   }
+  },
+  {
+   "ean": "7340011372226",
+   "title": "Coop Truseinnlegg Normal 32stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025110195173",
+   "title": "Coop Grill Perfekt Kryddersmør 90g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2320893104707",
+    "ean:7025110219008",
+    "ean:7025110230201",
+    "ean:7025110224859",
+    "ean:2020317300004",
+    "ean:7025110224644"
+   ],
+   "n": {
+    "kcal": 707.0,
+    "fat_g": 77.0,
+    "carbs_g": 2.5,
+    "sat_fat_g": 48.0,
+    "protein_g": 1.7,
+    "salt_g": 3.0,
+    "sugars_g": 1.6
+   }
+  },
+  {
+   "ean": "7025110195142",
+   "title": "Coop Grill Perfekt Urtesmør 90g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2320893104707",
+    "ean:7025110219008",
+    "ean:7025110230201",
+    "ean:7025110224859",
+    "ean:2020317300004",
+    "ean:7025110224644"
+   ],
+   "n": {
+    "kcal": 728.0,
+    "fat_g": 79.0,
+    "carbs_g": 1.4,
+    "sat_fat_g": 50.0,
+    "protein_g": 1.1,
+    "salt_g": 1.8,
+    "sugars_g": 0.9
+   }
+  },
+  {
+   "ean": "7025110195203",
+   "title": "Coop Grill Perfekt Bearnaisesmør 90g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2320893104707",
+    "ean:7025110219008",
+    "ean:7025110230201",
+    "ean:7025110224859",
+    "ean:2020317300004",
+    "ean:7025110224644"
+   ],
+   "n": {
+    "kcal": 723.0,
+    "fat_g": 78.0,
+    "carbs_g": 1.8,
+    "sat_fat_g": 50.0,
+    "protein_g": 1.1,
+    "salt_g": 2.4,
+    "sugars_g": 1.2
+   }
+  },
+  {
+   "ean": "7025110195234",
+   "title": "Coop Grill Perfekt Grillsmør 90g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2320893104707",
+    "ean:7025110219008",
+    "ean:7025110230201",
+    "ean:7025110224859",
+    "ean:2020317300004",
+    "ean:7025110224644"
+   ],
+   "n": {
+    "kcal": 721.0,
+    "fat_g": 78.0,
+    "carbs_g": 2.3,
+    "sat_fat_g": 50.0,
+    "protein_g": 0.9,
+    "salt_g": 1.8,
+    "sugars_g": 1.8
+   }
+  },
+  {
+   "ean": "7025110170002",
+   "title": "Coop Blå Kaffe Filtermalt 500g",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025110046154",
+   "title": "Coop Presskannekaffe Blå 250g",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025110099976",
+   "title": "Coop Kaffefilter 4/200stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025110045256",
+   "title": "Coop Kokmalt Kaffe Gul 250g",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025110044723",
+   "title": "Coop Continental Filtermalt Kaffe 250g",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025110099945",
+   "title": "Coop Kaffefilter 2/200stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340191100022",
+   "title": "Coop Flaksalt 170g",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340011373766",
+   "title": "Coop Catz Laks/Reker 100g",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025110172891",
+   "title": "Coop Grillpølser 1kg",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025110206107"
+   ],
+   "n": {
+    "kcal": 251.0,
+    "fat_g": 21.0,
+    "carbs_g": 4.1,
+    "sat_fat_g": 7.0,
+    "protein_g": 12.0,
+    "salt_g": 1.7,
+    "sugars_g": 0.7
+   }
+  },
+  {
+   "ean": "3760049798142",
+   "title": "Coop Brioche Pølsebrød 270g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7300156589798"
+   ],
+   "n": {
+    "kcal": 343.0,
+    "fat_g": 11.0,
+    "carbs_g": 52.0,
+    "fibre_g": 2.0,
+    "sat_fat_g": 1.8,
+    "protein_g": 7.6,
+    "salt_g": 1.2,
+    "sugars_g": 9.4
+   }
+  },
+  {
+   "ean": "7025110100740",
+   "title": "Coop Røkte Kjøttpølser uten Skinn 1kg",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025110227225"
+   ],
+   "n": {
+    "kcal": 244.0,
+    "fat_g": 20.0,
+    "carbs_g": 5.6,
+    "fibre_g": 0.0,
+    "sat_fat_g": 7.8,
+    "protein_g": 9.9,
+    "salt_g": 1.7,
+    "sugars_g": 0.1
+   }
+  },
+  {
+   "ean": "7340011373650",
+   "title": "Coop Dogz Biff & Leverpølse 1kg",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025165010889",
+   "title": "Coop Prime Pølsebrød 400g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025165010322",
+    "ean:7025165003775"
+   ],
+   "n": {
+    "kcal": 321.0,
+    "fat_g": 8.1,
+    "carbs_g": 52.0,
+    "fibre_g": 2.5,
+    "sat_fat_g": 0.7,
+    "protein_g": 8.0,
+    "salt_g": 0.7,
+    "sugars_g": 7.9
+   }
+  },
+  {
+   "ean": "7025165309082",
+   "title": "Coop Knekkebrød med Musli 230g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025165009074"
+   ],
+   "n": {
+    "kcal": 485.0,
+    "fat_g": 25.0,
+    "carbs_g": 44.0,
+    "fibre_g": 11.0,
+    "sat_fat_g": 3.1,
+    "protein_g": 16.0,
+    "salt_g": 0.57,
+    "sugars_g": 3.1
+   }
+  },
+  {
+   "ean": "7025110133229",
+   "title": "Coop Rømmedressing 125g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025110214249"
+   ],
+   "n": {
+    "kcal": 316.0,
+    "fat_g": 32.0,
+    "carbs_g": 4.4,
+    "sat_fat_g": 16.0,
+    "protein_g": 2.3,
+    "salt_g": 0.89,
+    "sugars_g": 3.5
+   }
+  },
+  {
+   "ean": "7025165009081",
+   "title": "Coop Fløterull 550g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2100946611907"
+   ],
+   "n": {
+    "kcal": 315.0,
+    "fat_g": 15.0,
+    "carbs_g": 42.0,
+    "sat_fat_g": 9.1,
+    "protein_g": 2.9,
+    "salt_g": 0.35,
+    "sugars_g": 34.0
+   }
+  },
+  {
+   "ean": "7025160103906",
+   "title": "Coop Fløtekakeblokk med Tekst 50pers 6.8kg",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025160104149",
+   "title": "Coop Fløtekake 8-10pers 0.9kg",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025160103555",
+   "title": "Coop Fløtekakeblokk med Tekst 30pers 4.7kg",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025160103654",
+   "title": "Coop Fløtekakeblokk med Tekst 40pers 5.5kg",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025160101438",
+   "title": "Coop Fløtekake 20pers 2.54kg",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025160103890",
+   "title": "Coop Fløtekakeblokk 50pers 6.8kg",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025160103579",
+   "title": "Coop Fløtekakeblokk m Tekst 60pers 9.2kg",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025160103548",
+   "title": "Coop Fløtekakeblokk 30pers 4.7kg",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025160101353",
+   "title": "Coop Fløtekake 15pers 1.8kg",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025160004814",
+   "title": "Coop Fløtekake Makronbunn 15pers 1.8kg",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025160004821",
+   "title": "Coop Fløtekake Makronbunn med Tekst 15pers 1.8kg",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340011354260",
+   "title": "Coop Japanese Soya Saus 400ml",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025110186508",
+   "title": "Coop Bbq Saus Hot & Smokey 200g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7300156574992"
+   ],
+   "n": {
+    "kcal": 161.0,
+    "fat_g": 0.4,
+    "carbs_g": 34.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 1.2,
+    "salt_g": 1.5,
+    "sugars_g": 28.0
+   }
+  },
+  {
+   "ean": "7340011454595",
+   "title": "Coop Catz Saus 12pk a 100g",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025110176684",
+   "title": "Coop Dagens Fiskesuppe Base 1l",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025110207463"
+   ],
+   "n": {
+    "kcal": 52.0,
+    "fat_g": 3.4,
+    "carbs_g": 3.3,
+    "fibre_g": 0.0,
+    "sat_fat_g": 2.0,
+    "protein_g": 1.9,
+    "salt_g": 0.8,
+    "sugars_g": 1.3
+   }
+  },
+  {
+   "ean": "7340011432630",
+   "title": "Coop Tørrfisk 300g",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340011442738",
+   "title": "Coop Frukt og Nøtter 750g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7340011442684"
+   ],
+   "n": {
+    "kcal": 375.0,
+    "fat_g": 8.7,
+    "carbs_g": 61.0,
+    "fibre_g": 8.5,
+    "sat_fat_g": 1.0,
+    "protein_g": 8.8,
+    "salt_g": 0.08,
+    "sugars_g": 26.0
+   }
+  },
+  {
+   "ean": "7340011486541",
+   "title": "Coop Extra Virgin Olivenolje Spansk 500ml",
+   "subtitle": "",
+   "why": "several rows match",
+   "rows": [
+    "ean:7340191119864",
+    "ean:7340191142534",
+    "ean:7340191135079",
+    "ean:7340011350798"
+   ]
+  },
+  {
+   "ean": "7340011488965",
+   "title": "Coop Matolje 1l",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025165310255",
+   "title": "Coop Grovbrød 500g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025168060157",
+    "ean:2017169001036",
+    "ean:7025168060072",
+    "ean:7025165011190",
+    "ean:7025168060171"
+   ],
+   "n": {
+    "kcal": 250.0,
+    "fat_g": 3.0,
+    "carbs_g": 42.0,
+    "fibre_g": 5.7,
+    "sat_fat_g": 0.5,
+    "protein_g": 10.0,
+    "salt_g": 0.8,
+    "sugars_g": 1.3
+   }
+  },
+  {
+   "ean": "7025165017437",
+   "title": "Coop Lettstekt Frøloff 670g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025165012449"
+   ],
+   "n": {
+    "kcal": 254.0,
+    "fat_g": 3.4,
+    "carbs_g": 46.5,
+    "fibre_g": 2.6,
+    "sat_fat_g": 0.4,
+    "protein_g": 7.8,
+    "salt_g": 1.3,
+    "sugars_g": 1.0
+   }
+  },
+  {
+   "ean": "7340011479611",
+   "title": "Coop Glutenfri Knekkebrød 170g",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025165010278",
+   "title": "Coop Knekkebrød med Chia 180g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025165009074"
+   ],
+   "n": {
+    "kcal": 469.0,
+    "fat_g": 30.0,
+    "carbs_g": 25.0,
+    "fibre_g": 15.0,
+    "sat_fat_g": 3.7,
+    "protein_g": 18.0,
+    "salt_g": 0.7,
+    "sugars_g": 1.6
+   }
+  },
+  {
+   "ean": "7025110197870",
+   "title": "Coop Dagens Kjøttboller 290g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025110221964"
+   ],
+   "n": {
+    "kcal": 157.0,
+    "fat_g": 9.9,
+    "carbs_g": 9.5,
+    "fibre_g": 0.6,
+    "sat_fat_g": 4.7,
+    "protein_g": 7.1,
+    "salt_g": 1.3,
+    "sugars_g": 1.4
+   }
+  },
+  {
+   "ean": "7025110097835",
+   "title": "Coop Svenske Kjøttboller 1kg",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025110184757"
+   ],
+   "n": {
+    "kcal": 206.0,
+    "fat_g": 14.0,
+    "carbs_g": 9.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 4.76,
+    "protein_g": 11.0,
+    "salt_g": 1.6,
+    "sugars_g": 1.0
+   }
+  },
+  {
+   "ean": "7025110213549",
+   "title": "Coop Italienske Kjøttboller 120g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025110088390",
+    "ean:7025110188687"
+   ],
+   "n": {
+    "kcal": 224.0,
+    "fat_g": 17.0,
+    "carbs_g": 3.8,
+    "fibre_g": 0.0,
+    "sat_fat_g": 6.0,
+    "protein_g": 14.0,
+    "salt_g": 1.6,
+    "sugars_g": 0.4
+   }
+  },
+  {
+   "ean": "2320332700002",
+   "title": "Coop mm Wienerpølser Ca 1,6kg Vv",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025110208958"
+   ],
+   "n": {
+    "kcal": 226.0,
+    "fat_g": 19.0,
+    "carbs_g": 2.8,
+    "fibre_g": 0.0,
+    "sat_fat_g": 6.9,
+    "protein_g": 10.0,
+    "salt_g": 1.7,
+    "sugars_g": 1.5
+   }
+  },
+  {
+   "ean": "7340011403388",
+   "title": "Reker i Lake 450g Coop",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7340011390053"
+   ],
+   "n": {
+    "kcal": 69.0,
+    "fat_g": 1.0,
+    "carbs_g": 0.0,
+    "sat_fat_g": 0.2,
+    "protein_g": 15.0,
+    "salt_g": 2.3,
+    "sugars_g": 0.0
+   }
+  },
+  {
+   "ean": "7340011469209",
+   "title": "Coop Lasagne 375g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7300156597120",
+    "ean:7340011446958",
+    "ean:7025110178695",
+    "ean:7025110200310",
+    "ean:2000466764674"
+   ],
+   "n": {
+    "kcal": 134.0,
+    "fat_g": 4.9,
+    "carbs_g": 15.0,
+    "sat_fat_g": 1.4,
+    "protein_g": 6.3,
+    "salt_g": 0.75,
+    "sugars_g": 1.4
+   }
+  },
+  {
+   "ean": "7025110176745",
+   "title": "Coop Dagens Thaisuppe Base 1l",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025110207401"
+   ],
+   "n": {
+    "kcal": 165.0,
+    "fat_g": 11.0,
+    "carbs_g": 7.7,
+    "fibre_g": 1.0,
+    "sat_fat_g": 2.2,
+    "protein_g": 8.6,
+    "salt_g": 1.5,
+    "sugars_g": 2.8
+   }
+  },
+  {
+   "ean": "7340011403296",
+   "title": "Coop Tomatsuppe 95g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7340191141292",
+    "ean:7340191182769",
+    "ean:7340011402787"
+   ],
+   "n": {
+    "kcal": 35.0,
+    "fat_g": 0.4,
+    "carbs_g": 6.4,
+    "sat_fat_g": 0.2,
+    "protein_g": 1.1,
+    "salt_g": 0.92,
+    "sugars_g": 3.2
+   }
+  },
+  {
+   "ean": "7025110130952",
+   "title": "Coop Grill Perfekt Potetsalat 400g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2320893104707",
+    "ean:7025110219008",
+    "ean:7025110230201",
+    "ean:7025110224859",
+    "ean:2020317300004",
+    "ean:7025110224644"
+   ],
+   "n": {
+    "kcal": 304.0,
+    "fat_g": 30.0,
+    "carbs_g": 7.7,
+    "sat_fat_g": 1.3,
+    "protein_g": 0.9,
+    "salt_g": 0.8,
+    "sugars_g": 1.2
+   }
+  },
+  {
+   "ean": "7025110190741",
+   "title": "Coop Potetmos med Gressløk 90g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025110178510",
+    "ean:5700382994502"
+   ],
+   "n": {
+    "kcal": 355.0,
+    "fat_g": 0.5,
+    "carbs_g": 78.0,
+    "fibre_g": 5.0,
+    "sat_fat_g": 0.1,
+    "protein_g": 6.0,
+    "salt_g": 0.5,
+    "sugars_g": 1.0
+   }
+  },
+  {
+   "ean": "7025110166272",
+   "title": "Coop Grill Perfekt Grillpotetsalat 400g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2320893104707",
+    "ean:7025110219008",
+    "ean:7025110230201",
+    "ean:7025110224859",
+    "ean:2020317300004",
+    "ean:7025110224644"
+   ],
+   "n": {
+    "kcal": 279.0,
+    "fat_g": 27.0,
+    "carbs_g": 8.7,
+    "sat_fat_g": 2.0,
+    "protein_g": 1.3,
+    "salt_g": 0.9,
+    "sugars_g": 3.2
+   }
+  },
+  {
+   "ean": "7340011448099",
+   "title": "Coop Møre Ringer med Okse/Grønnsaker 1,5kg",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025110150905",
+   "title": "Coop Vegetardag Burger Bønner og Erter 160g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025110203335"
+   ],
+   "n": {
+    "kcal": 125.0,
+    "fat_g": 5.5,
+    "carbs_g": 9.2,
+    "fibre_g": 6.1,
+    "sat_fat_g": 0.6,
+    "protein_g": 6.7,
+    "salt_g": 1.6,
+    "sugars_g": 2.2
+   }
+  },
+  {
+   "ean": "7025110192042",
+   "title": "Coop Sukkererter 150g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025110206961"
+   ],
+   "n": {
+    "kcal": 42.0,
+    "fat_g": 0.1,
+    "carbs_g": 5.3,
+    "fibre_g": 2.9,
+    "sat_fat_g": 0.0,
+    "protein_g": 3.5,
+    "salt_g": 0.0,
+    "sugars_g": 4.1
+   }
+  },
+  {
+   "ean": "7025110191007",
+   "title": "Coop Aspargesbønner 200g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025110144287"
+   ],
+   "n": {
+    "kcal": 27.0,
+    "fat_g": 0.1,
+    "carbs_g": 3.4,
+    "fibre_g": 3.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 1.7,
+    "salt_g": 0.0,
+    "sugars_g": 2.4
+   }
+  },
+  {
+   "ean": "7340191113237",
+   "title": "Coop Hakkede Tomater Basilikum 390g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7340011476054",
+    "ean:7340191170407"
+   ],
+   "n": {
+    "kcal": 18.0,
+    "fat_g": 0.0,
+    "carbs_g": 2.5,
+    "sat_fat_g": 0.0,
+    "protein_g": 1.0,
+    "salt_g": 0.4,
+    "sugars_g": 1.6
+   }
+  },
+  {
+   "ean": "7025110151162",
+   "title": "Coop Burgerdressing 410g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7340011438557"
+   ],
+   "n": {
+    "kcal": 510.0,
+    "fat_g": 54.0,
+    "carbs_g": 6.1,
+    "sat_fat_g": 3.9,
+    "protein_g": 0.8,
+    "salt_g": 0.8,
+    "sugars_g": 6.0
+   }
+  },
+  {
+   "ean": "7025110095534",
+   "title": "Coop Nypesyltetøy 500g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025110224552"
+   ],
+   "n": {
+    "kcal": 165.0,
+    "fat_g": 0.3,
+    "carbs_g": 41.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.5,
+    "salt_g": 0.0,
+    "sugars_g": 39.0
+   }
+  },
+  {
+   "ean": "7025110095374",
+   "title": "Coop Bringebærsyltetøy 500g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025167000925",
+    "ean:7025110221087",
+    "ean:7025110219374",
+    "ean:7025110189479"
+   ],
+   "n": {
+    "kcal": 138.0,
+    "fat_g": 0.2,
+    "carbs_g": 32.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.5,
+    "salt_g": 0.0,
+    "sugars_g": 32.0
+   }
+  },
+  {
+   "ean": "7025110080257",
+   "title": "Coop Bringebærsyltetøy 800g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025167000925",
+    "ean:7025110221087",
+    "ean:7025110219374",
+    "ean:7025110189479"
+   ],
+   "n": {
+    "kcal": 192.0,
+    "fat_g": 0.2,
+    "carbs_g": 46.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.4,
+    "salt_g": 0.0,
+    "sugars_g": 46.0
+   }
+  },
+  {
+   "ean": "7025110150875",
+   "title": "Coop Vegetardag Burger Rødbeter og Honning 160g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025110203335"
+   ],
+   "n": {
+    "kcal": 116.0,
+    "fat_g": 2.6,
+    "carbs_g": 13.0,
+    "fibre_g": 5.5,
+    "sat_fat_g": 0.3,
+    "protein_g": 7.1,
+    "salt_g": 1.4,
+    "sugars_g": 7.3
+   }
+  },
+  {
+   "ean": "7025110212054",
+   "title": "Coop Iste Fersken uten Sukker",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025110212023",
+   "title": "Coop Iste Fersken med Sukker",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025160103685",
+   "title": "Coop Waleskringle uten Sukker 2kg",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "2020179300006",
+   "title": "Coop Lammelår 1,9kg",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2320179315421"
+   ],
+   "n": {
+    "kcal": 180.0,
+    "fat_g": 11.6,
+    "carbs_g": 0.0,
+    "fibre_g": 0.0,
+    "sat_fat_g": 5.2,
+    "protein_g": 19.1,
+    "salt_g": 0.15,
+    "sugars_g": 0.0
+   }
+  },
+  {
+   "ean": "7025110116277",
+   "title": "Coop Lammelår 150g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2320179315421"
+   ],
+   "n": {
+    "kcal": 158.0,
+    "fat_g": 8.5,
+    "carbs_g": 0.5,
+    "fibre_g": 0.0,
+    "sat_fat_g": 3.6,
+    "protein_g": 19.0,
+    "salt_g": 1.1,
+    "sugars_g": 0.5
+   }
+  },
+  {
+   "ean": "2020247100002",
+   "title": "Coop Grill Perfekt Marinert Lammelår ca 600g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:2320893104707",
+    "ean:7025110219008",
+    "ean:7025110230201",
+    "ean:7025110224859",
+    "ean:2020317300004",
+    "ean:7025110224644"
+   ],
+   "n": {
+    "kcal": 168.0,
+    "fat_g": 10.0,
+    "carbs_g": 1.3,
+    "fibre_g": 0.0,
+    "sat_fat_g": 4.6,
+    "protein_g": 17.0,
+    "salt_g": 0.9,
+    "sugars_g": 0.5
+   }
+  },
+  {
+   "ean": "7340191121836",
+   "title": "Coop Adult Multivitamin 150 tabletter",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340011374084",
+   "title": "Coop Isterningposer",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0000040099873",
+   "title": "Extra Salt Lakris 14g",
+   "subtitle": "",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 151.0,
+    "fat_g": 0.0,
+    "carbs_g": 63.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   }
+  },
+  {
+   "ean": "7025869150027",
+   "title": "Reker i Lake 4x1,5kg Finny Extra",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7025861002027"
+   ],
+   "n": {
+    "kcal": 78.0,
+    "fat_g": 1.15,
+    "carbs_g": 1.0,
+    "sat_fat_g": 1.0,
+    "protein_g": 16.4,
+    "salt_g": 2.5,
+    "sugars_g": 1.0
+   }
+  },
+  {
+   "ean": "4009900362825",
+   "title": "Extra Spearmint Sukkerfri 5 stk, 70 g",
+   "subtitle": "",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 152.0,
+    "fat_g": 0.0,
+    "carbs_g": 63.5,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   }
+  },
+  {
+   "ean": "4009900413077",
+   "title": "Extra Vannmelon Smak Sukkerfri 10 stk, 14 g",
+   "subtitle": "",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 167.0,
+    "fat_g": 0.0,
+    "carbs_g": 68.1,
+    "fibre_g": 0.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   }
+  },
+  {
+   "ean": "0000042307167",
+   "title": "Extra White Bubblemint 14g",
+   "subtitle": "",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 145.0,
+    "fat_g": 0.0,
+    "carbs_g": 60.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.06,
+    "sugars_g": 0.0
+   }
+  },
+  {
+   "ean": "0000050173648",
+   "title": "Extra White Strawberry 14g",
+   "subtitle": "",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 164.0,
+    "fat_g": 0.0,
+    "carbs_g": 67.0,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.05,
+    "sugars_g": 0.0
+   }
+  },
+  {
+   "ean": "0000042211792",
+   "title": "Extra Menthol Strong 14g",
+   "subtitle": "",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 143.0,
+    "fat_g": 0.0,
+    "carbs_g": 59.6,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   }
+  },
+  {
+   "ean": "0000042189534",
+   "title": "Extra White Melon Mint 14g",
+   "subtitle": "",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 165.0,
+    "fat_g": 0.0,
+    "carbs_g": 68.9,
+    "sat_fat_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0,
+    "sugars_g": 0.0
+   }
+  },
+  {
+   "ean": "4009900505512",
+   "title": "Extra 84 g boks Melon",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340011336532",
+   "title": "X-tra Tannbørste Medium 3pk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340011471356",
+   "title": "X-tra Tannbørste Soft 3pk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340011475750",
+   "title": "Änglamark Pasta Saus Moste Tomater 420g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7340191171404"
+   ],
+   "n": {
+    "kcal": 35.0,
+    "fat_g": 0.0,
+    "carbs_g": 6.5,
+    "fibre_g": 1.5,
+    "sat_fat_g": 0.0,
+    "protein_g": 1.4,
+    "salt_g": 0.35,
+    "sugars_g": 2.5
+   }
+  },
+  {
+   "ean": "7340011475736",
+   "title": "Änglamark Pasta Saus Grønnsaker 420g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7340191171404"
+   ],
+   "n": {
+    "kcal": 37.0,
+    "fat_g": 0.0,
+    "carbs_g": 7.1,
+    "fibre_g": 1.4,
+    "sat_fat_g": 0.0,
+    "protein_g": 1.4,
+    "salt_g": 0.5,
+    "sugars_g": 3.2
+   }
+  },
+  {
+   "ean": "7340011492337",
+   "title": "Änglamark Mais&Ris Snacks med Gulrot & Eple 15g",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340011407171",
+   "title": "Änglamark Truseinnlegg 24stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340191132474",
+   "title": "Änglamark Ammeinnlegg 50stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340011496397",
+   "title": "Änglamark Mellomleggspapir 500stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340011422372",
+   "title": "Änglamark Karamell/Havsalt Sjokolade 100g",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340011314868",
+   "title": "Änglamark Instant Kaffe 100g",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340011315599",
+   "title": "Änglamark Roll-On Unisex 50ml",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340011315094",
+   "title": "Änglamark Mais 3pk 450g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7340011492368",
+    "ean:7340191135031"
+   ],
+   "n": {
+    "kcal": 79.0,
+    "fat_g": 1.7,
+    "carbs_g": 12.0,
+    "fibre_g": 2.8,
+    "sat_fat_g": 0.3,
+    "protein_g": 2.6,
+    "salt_g": 0.45,
+    "sugars_g": 5.5
+   }
+  },
+  {
+   "ean": "7340191136885",
+   "title": "Änglamark Babyolje 150ml",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340011456520",
+   "title": "Änglamark Taco Sauce Medium 230g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7300156578990"
+   ],
+   "n": {
+    "kcal": 42.0,
+    "fat_g": 0.5,
+    "carbs_g": 7.5,
+    "sat_fat_g": 0.1,
+    "protein_g": 1.2,
+    "salt_g": 1.0,
+    "sugars_g": 5.5
+   }
+  },
+  {
+   "ean": "2000653900007",
+   "title": "Änglamark Potet 1,5kg",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "2000605800003",
+   "title": "Änglamark Sukkertert 150g",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "2000684700003",
+   "title": "Änglamark Krydderurt 8cm Sitronmelis",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340011430247",
+   "title": "Änglamark Kakao 125g",
+   "subtitle": "",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 387.0,
+    "fat_g": 21.0,
+    "carbs_g": 12.0,
+    "fibre_g": 30.8,
+    "sat_fat_g": 13.0,
+    "protein_g": 22.0,
+    "salt_g": 0.05,
+    "sugars_g": 0.0
+   }
+  },
+  {
+   "ean": "7340011477464",
+   "title": "Änglamark Tabletter til Maskinoppvask 30stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340011489993",
+   "title": "Änglamark Color Flytende 900ml",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340011436928",
+   "title": "Änglamark Body Butter 220ml",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340191100190",
+   "title": "Änglamark Tannbørste Bambus Medium 1stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7025110178961",
+   "title": "Änglamark Telys 6 timer 50stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340011495789",
+   "title": "Änglamark Smoothie Banan/Jordbær 90g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7340011455318"
+   ],
+   "n": {
+    "kcal": 64.0,
+    "fat_g": 1.0,
+    "carbs_g": 12.0,
+    "fibre_g": 1.0,
+    "sat_fat_g": 0.6,
+    "protein_g": 1.3,
+    "salt_g": 0.03,
+    "sugars_g": 11.0
+   }
+  },
+  {
+   "ean": "7340011451389",
+   "title": "Änglamark Smoothie Pære,Banan & Jordbær 90g",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340011455332",
+   "title": "Änglamark Grøtis Smoothie Banan/Bringebær",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7340011496137",
+   "title": "Änglamark Røde Linser 380g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7340191171725"
+   ],
+   "n": {
+    "kcal": 94.0,
+    "fat_g": 0.5,
+    "carbs_g": 15.3,
+    "fibre_g": 4.2,
+    "sat_fat_g": 0.0,
+    "protein_g": 5.0,
+    "salt_g": 0.47,
+    "sugars_g": 0.7
+   }
+  },
+  {
+   "ean": "2000610000009",
+   "title": "Änglamark Epler 600g Økologisk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "2000611400006",
+   "title": "Änglamark Spinat Økologisk 150g",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069732380",
+   "title": "Kokosmelk 400ml Rema 1000",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7032069105238",
+    "ean:7032069107799",
+    "ean:7032069728710",
+    "ean:7032069103654"
+   ],
+   "n": {
+    "kcal": 180.0,
+    "fat_g": 18.0,
+    "carbs_g": 2.2,
+    "fibre_g": 0.7,
+    "sat_fat_g": 16.0,
+    "protein_g": 1.9,
+    "salt_g": 0.05,
+    "sugars_g": 1.7
+   }
+  },
+  {
+   "ean": "7032069736807",
+   "title": "Melatonin 1 mg 100 stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069736777",
+   "title": "D-Vitamin 10 µg Tyggetablett med sitronsmak, 36 g, 90 stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069736838",
+   "title": "Kalsium 500 mg + D-Vitamin 5 µg 160 g, 100 stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069736845",
+   "title": "C-Vitamin 200 mg Tyggetablett med appelsinsmak, 90 stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069738184",
+   "title": "C-Vitamin 1000 mg Brusetablett med sitronsmak, 20 stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069736821",
+   "title": "B-kompleks Tabletter, 75 stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069736784",
+   "title": "Magnesium 280 mg Tabletter, 120 stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069736814",
+   "title": "Jern + C-Vitamin Tyggetabletter, 60 g, 70 stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069736791",
+   "title": "Multivitamin med 13 vitaminer og mineraler, 100 stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069738177",
+   "title": "D-Vitamin 25µg Brusetabletter, 20 stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069732786",
+   "title": "Pizzabunn 2x150g Rema 1000",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7032069733615",
+    "ean:7032069736906",
+    "ean:7032069106945",
+    "ean:7032069733608"
+   ],
+   "n": {
+    "kcal": 230.0,
+    "fat_g": 1.3,
+    "carbs_g": 45.0,
+    "fibre_g": 0.5,
+    "sat_fat_g": 0.1,
+    "protein_g": 6.6,
+    "salt_g": 1.0,
+    "sugars_g": 1.1
+   }
+  },
+  {
+   "ean": "7032069733899",
+   "title": "Truseinnlegg Long 28stk Rema 1000",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069733882",
+   "title": "Inkontinens Truseinnlegg Ultra Mini 24stk Rema 1000",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069717523",
+   "title": "Ammeinnlegg 50 stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069725580",
+   "title": "Mellomleggspapir 12x8,5 cm, 500 stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069727911",
+   "title": "Kaffebeger 300ml 25pk Rema 1000",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069733301",
+   "title": "Kaffe Filtermalt 500 g",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069733318",
+   "title": "Kaffe, hele bønner 100% Arabica, 500 g",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069731925",
+   "title": "Hvite kaffefilter Str 4, 100 stk",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069733523",
+   "title": "Filtermalt kaffe 100% Arabica, 250 g",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069731659",
+   "title": "Flaksalt 170g Rema 1000",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069733714",
+   "title": "Kattesticks m/Laks 10pkx5g Rema 1000",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069736210",
+   "title": "Pølsegryte 1kg Rema 1000",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7090006959832",
+    "ean:7032069738160",
+    "ean:4032499738160"
+   ],
+   "n": {
+    "kcal": 142.0,
+    "fat_g": 11.0,
+    "carbs_g": 5.5,
+    "fibre_g": 1.0,
+    "sat_fat_g": 5.1,
+    "protein_g": 4.7,
+    "salt_g": 1.03,
+    "sugars_g": 3.3
+   }
+  },
+  {
+   "ean": "7032069731192",
+   "title": "Maiskolber 850g Rema 1000",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7040518206597"
+   ],
+   "n": {
+    "kcal": 58.0,
+    "fat_g": 1.3,
+    "carbs_g": 8.0,
+    "fibre_g": 2.3,
+    "sat_fat_g": 0.3,
+    "protein_g": 2.3,
+    "salt_g": 0.01,
+    "sugars_g": 2.8
+   }
+  },
+  {
+   "ean": "7032069725399",
+   "title": "Tekstilbelte Unisex Rema 1000",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069719657",
+   "title": "Makrell I Tomat 2x110g, 220 g",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7032069760819"
+   ],
+   "n": {
+    "kcal": 189.0,
+    "fat_g": 12.0,
+    "carbs_g": 2.9,
+    "fibre_g": 0.5,
+    "sat_fat_g": 3.1,
+    "protein_g": 17.0,
+    "salt_g": 0.65,
+    "sugars_g": 2.9
+   }
+  },
+  {
+   "ean": "7032069735909",
+   "title": "Lasagne Bolognese 350g Rema 1000",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7032069107737"
+   ],
+   "n": {
+    "kcal": 142.0,
+    "fat_g": 6.1,
+    "carbs_g": 14.0,
+    "fibre_g": 0.9,
+    "sat_fat_g": 3.4,
+    "protein_g": 7.4,
+    "salt_g": 0.9,
+    "sugars_g": 3.5
+   }
+  },
+  {
+   "ean": "7032069735473",
+   "title": "Makaroni 1kg Rema 1000",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7032069712993"
+   ],
+   "n": {
+    "kcal": 359.0,
+    "fat_g": 1.4,
+    "carbs_g": 73.0,
+    "fibre_g": 3.2,
+    "sat_fat_g": 0.2,
+    "protein_g": 12.0,
+    "salt_g": 0.02,
+    "sugars_g": 3.1
+   }
+  },
+  {
+   "ean": "7032069733462",
+   "title": "Tannpirker m/Børste 30stk Rema 1000",
+   "subtitle": "",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7032069731208",
+   "title": "Chocolate Chip Cookies 225g Rema 1000",
+   "subtitle": "",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7032069715260"
+   ],
+   "n": {
+    "kcal": 496.0,
+    "fat_g": 24.0,
+    "carbs_g": 63.0,
+    "fibre_g": 3.2,
+    "sat_fat_g": 14.0,
+    "protein_g": 5.5,
+    "salt_g": 0.66,
+    "sugars_g": 34.0
+   }
+  }
+ ]
+}
