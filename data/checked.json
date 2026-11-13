@@ -3,6 +3,13 @@
  "checked": "2026-11-12",
  "fixes": [
   {
+   "id": "ean:0000000535540",
+   "add_eans": [
+    "6416453554061"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:0000006430061",
    "name": "Idun Vaniljesukker",
    "source_url": "https://meny.no/"
@@ -122,6 +129,13 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "ean:0072417180644",
+   "add_eans": [
+    "0072417180637"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:0087666052802",
    "name": "Flying Goose Sriracha Hot Chilli Sauce",
    "source_url": "https://meny.no/varer//middagstilbehor/"
@@ -142,6 +156,9 @@
    "name": "Barilla Glutenfri Pasta",
    "sizes": [
     "400 g"
+   ],
+   "add_eans": [
+    "8076809545440"
    ]
   },
   {
@@ -521,6 +538,13 @@
    "source_url": "https://spar.no lutefisk"
   },
   {
+   "id": "ean:2385623200005",
+   "add_eans": [
+    "0000023856232"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:2390600301804",
    "add_eans": [
     "7090057870599"
@@ -807,6 +831,9 @@
    "sizes": [
     "335 g",
     "375 g"
+   ],
+   "add_eans": [
+    "5059319025766"
    ]
   },
   {
@@ -824,6 +851,9 @@
    "sizes": [
     "330 g",
     "375 g"
+   ],
+   "add_eans": [
+    "5059319023168"
    ]
   },
   {
@@ -854,6 +884,9 @@
     "70 g",
     "165 g",
     "200 g"
+   ],
+   "add_eans": [
+    "5053990138654"
    ]
   },
   {
@@ -862,6 +895,13 @@
    "nutrients": {
     "fibre_g": 0
    }
+  },
+  {
+   "id": "ean:5056784919897",
+   "add_eans": [
+    "5056784902363"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "ean:5060040254639",
@@ -1188,6 +1228,14 @@
    "source_url": "https://meny.no/varer//meieri-egg/melk/sjokomelk"
   },
   {
+   "id": "ean:5740200001074",
+   "add_eans": [
+    "5711953168116",
+    "5740200001081"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:5740200029122",
    "name": "Castello Kremost Ananas",
    "source_url": "https://meny.no/varer//ost/smoreoster/kremost/castello-kremost-5740200029122"
@@ -1324,6 +1372,13 @@
     "salt_g": 0.9
    },
    "source_url": "https://kassal.app/vare/4061-coop-kongebrod-900g-7025168001594"
+  },
+  {
+   "id": "ean:7028630000743",
+   "add_eans": [
+    "7028630003959"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "ean:7029013010175",
@@ -1906,7 +1961,11 @@
     "carbs_g": 11.0,
     "sugars_g": 0.2,
     "salt_g": 0.84
-   }
+   },
+   "add_eans": [
+    "7039010597340",
+    "7039010597357"
+   ]
   },
   {
    "id": "ean:7037710020304",
@@ -2060,7 +2119,11 @@
     "salt_g": 0.93,
     "fibre_g": null
    },
-   "source_url": "https://meny.no/varer//middag/"
+   "source_url": "https://meny.no/varer//middag/",
+   "add_eans": [
+    "7039010597319",
+    "7039010597326"
+   ]
   },
   {
    "id": "ean:7039010548878",
@@ -2157,7 +2220,15 @@
    ],
    "nutrients": {
     "fibre_g": 8
-   }
+   },
+   "add_eans": [
+    "7039317005579",
+    "7039317008372",
+    "7039317008679",
+    "7039317008686",
+    "7039317008785",
+    "7039317008815"
+   ]
   },
   {
    "id": "ean:7039317007931",
@@ -2677,6 +2748,22 @@
    "source_url": "https://meny.no/varer//palegg-frokost/bacon/bacon-7072350014719"
   },
   {
+   "id": "ean:7072836000793",
+   "add_eans": [
+    "7072836001257",
+    "7072836001264",
+    "7072836001271"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:7073313039701",
+   "add_eans": [
+    "5056784924020"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:7090000698065",
    "category": "bread_cereal_grain",
    "source_url": "https://meny.no"
@@ -2753,6 +2840,13 @@
    "id": "ean:7300400482059",
    "add_eans": [
     "7300400127394"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:7310090393160",
+   "add_eans": [
+    "7039010549950"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -2985,6 +3079,20 @@
    "source_url": "https://meny.no/varer//bakeri/knekkebrod/leksands-knekke-7312080004025"
   },
   {
+   "id": "ean:7313619001362",
+   "add_eans": [
+    "7313619002895"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "ean:7313619002697",
+   "add_eans": [
+    "7313619002680"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "ean:7315360061503",
    "nutrients": {
     "kcal": 480.0,
@@ -2997,6 +3105,13 @@
     "fibre_g": null
    },
    "source_url": "https://meny.no/varer/bakevarer-og-kjeks/kjeks/delicatobolle-7315360061503"
+  },
+  {
+   "id": "ean:7316110002838",
+   "add_eans": [
+    "7039010555098"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "ean:7331868182229",
@@ -3315,7 +3430,10 @@
     "sugars_g": 3.5,
     "fibre_g": 3.0,
     "salt_g": 0.01
-   }
+   },
+   "add_eans": [
+    "8076802085981"
+   ]
   },
   {
    "id": "ean:8076809585217",
@@ -3334,7 +3452,10 @@
     "fibre_g": 1.3,
     "salt_g": 1.01
    },
-   "source_url": "Meny via ng.py, 8410076410108"
+   "source_url": "Meny via ng.py, 8410076410108",
+   "add_eans": [
+    "8410076410108"
+   ]
   },
   {
    "id": "ean:8410076481511",
@@ -3349,6 +3470,13 @@
     "salt_g": 0.98
    },
    "source_url": "Meny via ng.py, 8410076482594"
+  },
+  {
+   "id": "ean:8410076482297",
+   "add_eans": [
+    "8410076482587"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "ean:8410076482563",
@@ -3389,6 +3517,13 @@
    "id": "ean:8445290017024",
    "category": "fruit_vegetables",
    "source_url": "store listing"
+  },
+  {
+   "id": "ean:8445290748492",
+   "add_eans": [
+    "7613038019208"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "ean:8445290805010",
@@ -3745,6 +3880,13 @@
    "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/"
   },
   {
+   "id": "norgesgruppen:20830143",
+   "add_eans": [
+    "0000020830143"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "norgesgruppen:23010334",
    "add_eans": [
     "0000023010334"
@@ -3935,6 +4077,13 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "norgesgruppen:23715693",
+   "add_eans": [
+    "0000023715693"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "norgesgruppen:23715817",
    "add_eans": [
     "0000023715817"
@@ -3953,6 +4102,14 @@
    "id": "norgesgruppen:23733248",
    "add_eans": [
     "0000023733248"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:23733705",
+   "add_eans": [
+    "0000023733705",
+    "0000023733755"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -4022,6 +4179,13 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "norgesgruppen:23897001",
+   "add_eans": [
+    "0000023897001"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
    "id": "norgesgruppen:23903414",
    "add_eans": [
     "0000023903414"
@@ -4060,6 +4224,20 @@
     "salt_g": 0.5
    },
    "source_url": "https://meny.no/varer//meieri-egg/egg/ (Egg i Lake Kokte Skrelte, Prior 7039611025792)"
+  },
+  {
+   "id": "norgesgruppen:76840600038",
+   "add_eans": [
+    "0076840600038"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "norgesgruppen:76840620036",
+   "add_eans": [
+    "0076840620036"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "openfoodfacts:0000112636918",
@@ -4117,6 +4295,49 @@
    "nutrients": {
     "fibre_g": 0
    }
+  },
+  {
+   "id": "ringnes:https://www.ringnes.no/produkter/solo/solo/",
+   "add_eans": [
+    "7044610878300",
+    "7044611878309"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "store:7038010067341",
+   "add_eans": [
+    "7038010063374"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "store:7394376617768",
+   "add_eans": [
+    "7394376624711"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "store:7613035642683",
+   "add_eans": [
+    "8445292061704"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "store:8445290748133",
+   "add_eans": [
+    "8445290748072"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "store:8712566121458",
+   "add_eans": [
+    "8712566121397"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "synnove:https://www.synnove.no/produkt/flotemys/",
@@ -4240,6 +4461,24 @@
    "id": "tine:https://www.tine.no/merkevarer/piano/produkter/piano-mandelpudding",
    "category": "snacks_sweets",
    "source_url": "https://meny.no/varer/dessert-og-iskrem/"
+  },
+  {
+   "id": "tine:https://www.tine.no/merkevarer/sunniva-iste/produkter/sunniva-iste-UTEN-fersken",
+   "add_eans": [
+    "7038010063381",
+    "7038010067358",
+    "7038010067372",
+    "7038010072567"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+  },
+  {
+   "id": "tine:https://www.tine.no/merkevarer/sunniva-iste/produkter/sunniva-iste-lime",
+   "add_eans": [
+    "7038010063404",
+    "7038010067334"
+   ],
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
    "id": "tine:https://www.tine.no/merkevarer/tine-brunost/produkter/tine-fl%C3%B8temysost",
@@ -20338,6 +20577,3330 @@
     "salt_g": 0.52
    },
    "source_url": "https://www.godtbrod.no/muslibrod"
+  },
+  {
+   "id": "store:7311312008985",
+   "name": "Hot Kimchi Style Topping",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7311312008985"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 93.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 21.0,
+    "sugars_g": 18.0,
+    "protein_g": 0.8,
+    "salt_g": 2.2
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/asiatiske-sauser/kimchisaus/hot-kimchi-style-7311312008985"
+  },
+  {
+   "id": "store:7311311020629",
+   "name": "Tortilla Organic Whole Wheat",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311311020629"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 303.0,
+    "fat_g": 5.6,
+    "sat_fat_g": 1.0,
+    "carbs_g": 54.0,
+    "sugars_g": 6.9,
+    "fibre_g": 3.3,
+    "protein_g": 7.3,
+    "salt_g": 1.2
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tortillalefser/tortilla-organic-whole-wheat-7311311020629"
+  },
+  {
+   "id": "store:7311311012815",
+   "name": "Chef De Provence",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311311012815"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 339.0,
+    "fat_g": 8.0,
+    "sat_fat_g": 1.0,
+    "carbs_g": 39.0,
+    "sugars_g": 17.0,
+    "fibre_g": 23.0,
+    "protein_g": 17.0,
+    "salt_g": 0.54
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/krydder/provencekrydder/chef-de-provence-7311311012815"
+  },
+  {
+   "id": "store:7311311013591",
+   "name": "Laurbærblad",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311311013591"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 353.0,
+    "fat_g": 8.4,
+    "sat_fat_g": 2.3,
+    "carbs_g": 49.0,
+    "sugars_g": 0.0,
+    "fibre_g": 26.0,
+    "protein_g": 7.6,
+    "salt_g": 0.06
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/krydder/laurbaerblader/laurbaerblad-7311311013591"
+  },
+  {
+   "id": "store:7311312009302",
+   "name": "Dip Nacho Cheese",
+   "brand": "Santa Maria",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311312009302"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 128.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 2.4,
+    "carbs_g": 4.7,
+    "sugars_g": 0.0,
+    "fibre_g": 0.5,
+    "protein_g": 2.4,
+    "salt_g": 1.8
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/dip/cheddar-dip/dip-nacho-cheese-7311312009302"
+  },
+  {
+   "id": "store:7311311015298",
+   "name": "Malt Ingefær",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311311015298"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 332.0,
+    "fat_g": 4.2,
+    "sat_fat_g": 2.6,
+    "carbs_g": 57.5,
+    "sugars_g": 3.4,
+    "fibre_g": 14.1,
+    "protein_g": 9.0,
+    "salt_g": 0.07
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/krydder/ingefaer-torket/malt-ingefaer-7311311015298"
+  },
+  {
+   "id": "store:7311312009395",
+   "name": "Bbq Sauce Original St.Maria",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311312009395"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 168.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 41.0,
+    "sugars_g": 38.0,
+    "fibre_g": 0.6,
+    "protein_g": 0.6,
+    "salt_g": 1.8
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/marinader-og-bbq-saus/barbequesaus/bbq-sauce-7311312009395"
+  },
+  {
+   "id": "store:7311310032036",
+   "name": "Tortilla Chips Cheese St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311310032036",
+    "7311310032135",
+    "7311312008084",
+    "7311312009197"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 472.0,
+    "fat_g": 20.0,
+    "sat_fat_g": 2.0,
+    "carbs_g": 64.0,
+    "sugars_g": 1.5,
+    "fibre_g": 4.0,
+    "protein_g": 6.6,
+    "salt_g": 1.6
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tortillachips/tortilla-chips-7311310032036"
+  },
+  {
+   "id": "store:7311310026776",
+   "name": "Garlic & Pepper Roasted m/Kvern St.Maria",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311310026776"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 266.0,
+    "fat_g": 2.8,
+    "sat_fat_g": 0.5,
+    "carbs_g": 44.0,
+    "sugars_g": 2.7,
+    "fibre_g": 11.0,
+    "protein_g": 10.0,
+    "salt_g": 21.7
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/krydder/hvitlokspepper/garlic-pepper-7311310026776"
+  },
+  {
+   "id": "store:7311310034429",
+   "name": "Sweet Chili Sauce Ginger St.Maria",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7311310034429"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 156.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 39.0,
+    "sugars_g": 38.0,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 4.0
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/sot-chilisaus/sweet-chili-sauce-7311310034429"
+  },
+  {
+   "id": "store:7311310034542",
+   "name": "Sweet Chili Sauce St.Maria",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7311310034542",
+    "7311310034603"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 178.0,
+    "fat_g": 0.2,
+    "sat_fat_g": 0.0,
+    "carbs_g": 43.0,
+    "sugars_g": 40.0,
+    "protein_g": 0.3,
+    "salt_g": 2.8
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/sot-chilisaus/sweet-chili-sauce-7311310034542"
+  },
+  {
+   "id": "store:7311310026745",
+   "name": "Chicken & Steak m/Kvern St.Maria",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311310026745"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 269.0,
+    "fat_g": 4.0,
+    "sat_fat_g": 0.5,
+    "carbs_g": 40.0,
+    "sugars_g": 14.0,
+    "fibre_g": 14.0,
+    "protein_g": 11.0,
+    "salt_g": 21.1
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/krydder/kryddermix/chicken-steak-7311310026745"
+  },
+  {
+   "id": "store:7311311019982",
+   "name": "Bbq Sauce&Rub Mix Chimichurri St. Maria",
+   "brand": "Santa Maria",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311311019982"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 265.0,
+    "fat_g": 3.7,
+    "sat_fat_g": 0.6,
+    "carbs_g": 39.0,
+    "sugars_g": 10.0,
+    "protein_g": 12.0,
+    "salt_g": 18.3
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/dip/dipmix/bbq-saucerub-mix-7311311019982"
+  },
+  {
+   "id": "store:7311312009357",
+   "name": "Wok Sauce Sweet Korean",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311312009357"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 115.0,
+    "fat_g": 0.7,
+    "sat_fat_g": 0.0,
+    "carbs_g": 27.0,
+    "sugars_g": 22.0,
+    "fibre_g": 0.5,
+    "protein_g": 0.0,
+    "salt_g": 2.6
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/asiatiske-sauser/woksaus/wok-sauce-7311312009357"
+  },
+  {
+   "id": "store:7311310036300",
+   "name": "Ketjap Manis St.Maria",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7311310036300"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 185.0,
+    "fat_g": 0.6,
+    "sat_fat_g": 0.0,
+    "carbs_g": 42.0,
+    "sugars_g": 26.0,
+    "protein_g": 2.0,
+    "salt_g": 5.3
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/asiatiske-sauser/ketjapsaus/ketjap-manis-7311310036300"
+  },
+  {
+   "id": "store:7311312009463",
+   "name": "Bbq Sauce Sweet&Fruity",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311312009463"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 138.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 33.0,
+    "sugars_g": 30.0,
+    "fibre_g": 0.8,
+    "protein_g": 0.8,
+    "salt_g": 1.2
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/marinader-og-bbq-saus/barbequesaus/bbq-sauce-7311312009463"
+  },
+  {
+   "id": "store:7311310046606",
+   "name": "Coconut Milk St.Maria",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311310046606"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 159.0,
+    "fat_g": 17.0,
+    "sat_fat_g": 15.0,
+    "carbs_g": 1.8,
+    "sugars_g": 0.5,
+    "protein_g": 0.5,
+    "salt_g": 0.04
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/kokosmelk/coconut-milk-7311310046606"
+  },
+  {
+   "id": "store:7311312007155",
+   "name": "Tortilla glutenfri St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311312007155"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 313.0,
+    "fat_g": 7.0,
+    "sat_fat_g": 0.9,
+    "carbs_g": 60.0,
+    "sugars_g": 0.0,
+    "fibre_g": 3.7,
+    "protein_g": 1.0,
+    "salt_g": 0.96
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tortillachips/tortilla-7311312007155"
+  },
+  {
+   "id": "store:7311312005458",
+   "name": "Coconut Milk Original St.Maria",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7311312005458",
+    "7311312005472"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 180.0,
+    "fat_g": 18.0,
+    "sat_fat_g": 16.0,
+    "carbs_g": 2.7,
+    "sugars_g": 2.2,
+    "protein_g": 1.9,
+    "salt_g": 0.02
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/kokosmelk/coconut-milk-7311312005458"
+  },
+  {
+   "id": "store:7311312009616",
+   "name": "Dip Tex Mex Style St.Maria",
+   "brand": "Santa Maria",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311312009616"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 125.0,
+    "fat_g": 9.5,
+    "sat_fat_g": 3.5,
+    "carbs_g": 8.5,
+    "sugars_g": 3.0,
+    "fibre_g": 0.7,
+    "protein_g": 1.0,
+    "salt_g": 1.5
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/dip/salsa-dip/dip-tex-mex-style-7311312009616"
+  },
+  {
+   "id": "store:7311312000941",
+   "name": "Salsa Pineapple St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311312000941"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 43.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 9.2,
+    "sugars_g": 8.4,
+    "fibre_g": 1.1,
+    "protein_g": 0.8,
+    "salt_g": 0.53
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tacosaus/salsa-pineapple-7311312000941"
+  },
+  {
+   "id": "store:7311310026752",
+   "name": "Chili Explosion m/Kvern St.Maria",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311310026752"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 241.0,
+    "fat_g": 9.1,
+    "sat_fat_g": 1.0,
+    "carbs_g": 23.0,
+    "sugars_g": 15.0,
+    "fibre_g": 13.0,
+    "protein_g": 10.0,
+    "salt_g": 36.7
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/krydder/chilipulver/chili-explosion-7311310026752"
+  },
+  {
+   "id": "store:7311311026485",
+   "name": "Chili Explosion Hot Kvern St.Maria",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311311026485"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 230.0,
+    "fat_g": 8.1,
+    "sat_fat_g": 1.4,
+    "carbs_g": 23.0,
+    "sugars_g": 14.0,
+    "fibre_g": 15.0,
+    "protein_g": 8.6,
+    "salt_g": 36.8
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/krydder/chilipulver/chili-explosion-7311311026485"
+  },
+  {
+   "id": "store:7311312009425",
+   "name": "Bbq Sauce Smoky Hickory",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311312009425"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 176.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 43.0,
+    "sugars_g": 40.0,
+    "fibre_g": 0.7,
+    "protein_g": 0.7,
+    "salt_g": 1.5
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/marinader-og-bbq-saus/barbequesaus/bbq-sauce-7311312009425"
+  },
+  {
+   "id": "store:7311310029500",
+   "name": "Marinade Allround St.Maria",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311310029500"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 81.0,
+    "fat_g": 1.2,
+    "sat_fat_g": 0.1,
+    "carbs_g": 12.0,
+    "sugars_g": 7.2,
+    "protein_g": 4.0,
+    "salt_g": 8.8
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/marinader-og-bbq-saus/marinade/marinade-allround-7311310029500"
+  },
+  {
+   "id": "store:7311310031039",
+   "name": "Taco Spice Mix St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311310031015",
+    "7311310031039"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 297.0,
+    "fat_g": 6.0,
+    "sat_fat_g": 0.7,
+    "carbs_g": 44.0,
+    "sugars_g": 20.0,
+    "fibre_g": 12.0,
+    "protein_g": 10.0,
+    "salt_g": 15.8
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tacokryddermix/taco-spice-mix-7311310031039"
+  },
+  {
+   "id": "store:7311310031329",
+   "name": "Taco Spice Mix Hot Cayenne St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311310031329"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 305.0,
+    "fat_g": 6.7,
+    "sat_fat_g": 0.9,
+    "carbs_g": 45.0,
+    "sugars_g": 19.0,
+    "fibre_g": 11.0,
+    "protein_g": 11.0,
+    "salt_g": 15.5
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tacokryddermix/taco-spice-mix-7311310031329"
+  },
+  {
+   "id": "store:7311310031367",
+   "name": "Fajita Spice Mix St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311310031367"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 269.0,
+    "fat_g": 4.4,
+    "sat_fat_g": 0.6,
+    "carbs_g": 36.0,
+    "sugars_g": 11.0,
+    "fibre_g": 14.0,
+    "protein_g": 14.0,
+    "salt_g": 18.1
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tacokryddermix/fajita-spice-mix-7311310031367"
+  },
+  {
+   "id": "store:7311310031428",
+   "name": "Crispy Chicken Spice Mix St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311310031428"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 351.0,
+    "fat_g": 3.2,
+    "sat_fat_g": 0.5,
+    "carbs_g": 67.0,
+    "sugars_g": 1.8,
+    "fibre_g": 4.7,
+    "protein_g": 11.0,
+    "salt_g": 9.6
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tacokryddermix/crispy-chicken-7311310031428"
+  },
+  {
+   "id": "store:7311312005267",
+   "name": "Green Curry Paste St.Maria",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311312005267"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 83.0,
+    "fat_g": 0.7,
+    "sat_fat_g": 0.1,
+    "carbs_g": 17.0,
+    "sugars_g": 5.2,
+    "protein_g": 2.1,
+    "salt_g": 8.5
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/asiatiske-sauser/currysaus/green-curry-7311312005267"
+  },
+  {
+   "id": "store:7311312002112",
+   "name": "Taco Sauce Medium St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311312002112",
+    "7311312002143"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 34.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 5.5,
+    "sugars_g": 4.0,
+    "fibre_g": 1.7,
+    "protein_g": 1.5,
+    "salt_g": 1.1
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tacosaus/taco-sauce-medium-7311312002112"
+  },
+  {
+   "id": "store:7311312002075",
+   "name": "Taco Sauce Mild St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311310045531",
+    "7311312002075"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 34.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 6.0,
+    "sugars_g": 4.3,
+    "fibre_g": 1.7,
+    "protein_g": 1.4,
+    "salt_g": 1.1
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tacosaus/taco-sauce-mild-7311312002075"
+  },
+  {
+   "id": "store:7311311022395",
+   "name": "Tortilla Corn/Weat St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311311022395"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 294.0,
+    "fat_g": 5.6,
+    "sat_fat_g": 1.2,
+    "carbs_g": 50.0,
+    "sugars_g": 3.2,
+    "fibre_g": 2.0,
+    "protein_g": 7.7,
+    "salt_g": 1.2
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tortillalefser/tortilla-corn-weat-7311311022395"
+  },
+  {
+   "id": "store:7311311021183",
+   "name": "Tortilla Original Large St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311311021183"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 302.0,
+    "fat_g": 4.9,
+    "sat_fat_g": 1.2,
+    "carbs_g": 55.0,
+    "sugars_g": 2.0,
+    "fibre_g": 2.5,
+    "protein_g": 8.3,
+    "salt_g": 1.4
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tortillalefser/tortilla-original-7311311021183"
+  },
+  {
+   "id": "store:7311310029579",
+   "name": "Marinade Chicken St.Maria",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311310029579"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 69.0,
+    "fat_g": 1.3,
+    "sat_fat_g": 0.2,
+    "carbs_g": 9.6,
+    "sugars_g": 7.8,
+    "protein_g": 2.2,
+    "salt_g": 9.8
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/marinader-og-bbq-saus/marinade/marinade-chicken-7311310029579"
+  },
+  {
+   "id": "store:7311312009364",
+   "name": "Wok Sauce Teriyaki&Sesame",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311312009364"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 146.0,
+    "fat_g": 5.3,
+    "sat_fat_g": 0.6,
+    "carbs_g": 24.0,
+    "sugars_g": 19.0,
+    "fibre_g": 0.8,
+    "protein_g": 0.0,
+    "salt_g": 2.9
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/asiatiske-sauser/woksaus/wok-sauce-7311312009364"
+  },
+  {
+   "id": "store:7311310029524",
+   "name": "Marinade Garlic St.Maria",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311310029524"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 67.0,
+    "fat_g": 1.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 11.0,
+    "sugars_g": 7.2,
+    "protein_g": 2.4,
+    "salt_g": 8.0
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/marinader-og-bbq-saus/marinade/marinade-garlic-7311310029524"
+  },
+  {
+   "id": "store:7311312000675",
+   "name": "Taco Sauce X Hot St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311312000675"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 36.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 5.7,
+    "sugars_g": 4.4,
+    "fibre_g": 2.2,
+    "protein_g": 1.6,
+    "salt_g": 1.1
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tacosaus/taco-sauce-x-hot-7311312000675"
+  },
+  {
+   "id": "store:7311312009777",
+   "name": "Tortilla Extra Thin Whole Wheat Medium St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311312009777"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 317.0,
+    "fat_g": 7.9,
+    "sat_fat_g": 1.6,
+    "carbs_g": 57.0,
+    "sugars_g": 2.7,
+    "fibre_g": 10.0,
+    "protein_g": 10.0,
+    "salt_g": 0.4
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tortillalefser/tortilla-extra-thin-7311312009777"
+  },
+  {
+   "id": "store:7311312000873",
+   "name": "Salsa Chunky Medium St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311312000873"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 32.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 5.5,
+    "sugars_g": 4.8,
+    "fibre_g": 1.9,
+    "protein_g": 1.6,
+    "salt_g": 1.0
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tacosaus/salsa-chunky-7311312000873"
+  },
+  {
+   "id": "store:7311312000897",
+   "name": "Salsa Chunky Hot St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311312000897"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 34.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 6.1,
+    "sugars_g": 5.5,
+    "fibre_g": 1.9,
+    "protein_g": 1.5,
+    "salt_g": 1.3
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tacosaus/salsa-chunky-7311312000897"
+  },
+  {
+   "id": "store:7311310031404",
+   "name": "Chili Con Carne Spic",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311310031404"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 280.0,
+    "fat_g": 7.4,
+    "sat_fat_g": 1.1,
+    "carbs_g": 34.0,
+    "sugars_g": 12.0,
+    "fibre_g": 19.0,
+    "protein_g": 10.0,
+    "salt_g": 17.4
+   },
+   "source_url": "https://meny.no/varer//middag/ferdigretter/ferdigmaltid/chili-con-carne-spic-7311310031404"
+  },
+  {
+   "id": "store:7311312008978",
+   "name": "Sweet Korean Bbq Topping",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7311312008978"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 121.0,
+    "fat_g": 0.7,
+    "sat_fat_g": 0.0,
+    "carbs_g": 28.0,
+    "sugars_g": 24.0,
+    "protein_g": 0.6,
+    "salt_g": 1.7
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/asiatiske-sauser/ovrig-asiatisk/sweet-korean-bbq-7311312008978"
+  },
+  {
+   "id": "store:7311310032067",
+   "name": "Tortilla Chips Organic St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311310032067"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 480.0,
+    "fat_g": 22.0,
+    "sat_fat_g": 2.2,
+    "carbs_g": 63.0,
+    "sugars_g": 1.5,
+    "fibre_g": 0.0,
+    "protein_g": 6.7,
+    "salt_g": 0.8
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tortillachips/tortilla-chips-7311310032067"
+  },
+  {
+   "id": "store:7311310033507",
+   "name": "Chili Ancho Mulato Whole St.Maria",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311310033507"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 303.0,
+    "fat_g": 6.8,
+    "sat_fat_g": 1.6,
+    "carbs_g": 37.0,
+    "sugars_g": 23.0,
+    "protein_g": 14.0,
+    "salt_g": 0.06
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/krydder/chilipulver/chili-ancho-mulato-7311310033507"
+  },
+  {
+   "id": "store:7311310038236",
+   "name": "Taco Tubs Mini St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311310038236"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 460.0,
+    "fat_g": 22.0,
+    "sat_fat_g": 2.3,
+    "carbs_g": 59.0,
+    "sugars_g": 1.1,
+    "protein_g": 6.0,
+    "salt_g": 1.0
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tacoskjell/taco-tubs-mini-7311310038236"
+  },
+  {
+   "id": "store:7311310041250",
+   "name": "American Cajun St.Maria",
+   "brand": "Santa Maria",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311310041250"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 335.0,
+    "fat_g": 9.9,
+    "sat_fat_g": 1.5,
+    "carbs_g": 36.0,
+    "sugars_g": 5.8,
+    "fibre_g": 24.0,
+    "protein_g": 13.0,
+    "salt_g": 1.2
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/krydder/ovrig-krydder/american-cajun-7311310041250"
+  },
+  {
+   "id": "store:7311310045623",
+   "name": "Taco Spice Mix St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311310045623"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 291.0,
+    "fat_g": 5.1,
+    "sat_fat_g": 0.7,
+    "carbs_g": 46.0,
+    "sugars_g": 22.0,
+    "fibre_g": 12.0,
+    "protein_g": 9.7,
+    "salt_g": 17.3
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tacokryddermix/taco-spice-mix-7311310045623"
+  },
+  {
+   "id": "store:7311312006189",
+   "name": "Salsa Taqueria St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311312006189"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 37.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 6.0,
+    "sugars_g": 3.0,
+    "fibre_g": 1.9,
+    "protein_g": 1.1,
+    "salt_g": 1.5
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tacosaus/salsa-taqueria-7311312006189"
+  },
+  {
+   "id": "store:7311312006226",
+   "name": "Salsa Tomatillo St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7311312006226"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 36.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 7.4,
+    "sugars_g": 4.2,
+    "fibre_g": 1.0,
+    "protein_g": 0.7,
+    "salt_g": 1.7
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tacosaus/salsa-tomatillo-7311312006226"
+  },
+  {
+   "id": "store:7311312008381",
+   "name": "Mayo Lime&Jalapeño St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7311312008381"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 426.0,
+    "fat_g": 44.0,
+    "sat_fat_g": 3.3,
+    "carbs_g": 6.0,
+    "sugars_g": 4.5,
+    "protein_g": 0.0,
+    "salt_g": 1.5
+   },
+   "source_url": "https://meny.no/varer//middag/taco/ovrig-taco/mayo-7311312008381"
+  },
+  {
+   "id": "store:7311312008367",
+   "name": "Mayo Chipotle& Chili St.Maria",
+   "brand": "Santa Maria",
+   "category": "ready_meals_sauces",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7311312008367"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 430.0,
+    "fat_g": 44.0,
+    "sat_fat_g": 3.3,
+    "carbs_g": 7.0,
+    "sugars_g": 5.4,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 1.7
+   },
+   "source_url": "https://meny.no/varer//middag/taco/ovrig-taco/mayo-7311312008367"
+  },
+  {
+   "id": "store:8410076483515",
+   "name": "Taco Shells Crunchy",
+   "brand": "Old El Paso",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8410076483515"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 496.0,
+    "fat_g": 27.0,
+    "sat_fat_g": 2.5,
+    "carbs_g": 54.2,
+    "sugars_g": 0.2,
+    "fibre_g": 5.1,
+    "protein_g": 6.5,
+    "salt_g": 0.52
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tacoskjell/taco-shells-8410076483515"
+  },
+  {
+   "id": "store:8410076420947",
+   "name": "Taco Salsa Medium",
+   "brand": "Old El Paso",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8410076420947"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 35.0,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.0,
+    "carbs_g": 5.5,
+    "sugars_g": 4.2,
+    "fibre_g": 1.8,
+    "protein_g": 1.3,
+    "salt_g": 1.13
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tacosaus/taco-salsa-medium-8410076420947"
+  },
+  {
+   "id": "store:8410076410115",
+   "name": "Taco Sauce Medium",
+   "brand": "Old El Paso",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8410076410115",
+    "8410076410122"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 43.0,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.0,
+    "carbs_g": 8.9,
+    "sugars_g": 4.5,
+    "fibre_g": 1.3,
+    "protein_g": 1.2,
+    "salt_g": 1.01
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tacosaus/taco-sauce-medium-8410076410115"
+  },
+  {
+   "id": "store:8410076420954",
+   "name": "Taco Salsa Hot",
+   "brand": "Old El Paso",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8410076420954"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 34.0,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.0,
+    "carbs_g": 6.4,
+    "sugars_g": 4.2,
+    "fibre_g": 1.5,
+    "protein_g": 1.3,
+    "salt_g": 1.21
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tacosaus/taco-salsa-hot-8410076420954"
+  },
+  {
+   "id": "store:8410076483669",
+   "name": "Tortilla Chips Chipotle",
+   "brand": "Haugen - gruppen",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8410076483669",
+    "8410076483690"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 478.0,
+    "fat_g": 21.5,
+    "sat_fat_g": 2.0,
+    "carbs_g": 60.5,
+    "sugars_g": 2.5,
+    "fibre_g": 5.9,
+    "protein_g": 7.6,
+    "salt_g": 0.8
+   },
+   "source_url": "https://meny.no/varer//middag/taco/tortillachips/tortilla-chips-8410076483669"
+  },
+  {
+   "id": "store:0046000820118",
+   "name": "Refried Beans Old Elpaso",
+   "brand": "Oluf lorentzen",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0046000820118"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 73.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 13.0,
+    "sugars_g": 1.0,
+    "fibre_g": 5.0,
+    "protein_g": 5.0,
+    "salt_g": 1.2
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/hermetisk-gront/hermetiske-bonner/refried-beans-46000820118"
+  },
+  {
+   "id": "store:8076800035988",
+   "name": "Fusilli",
+   "brand": "Barilla",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8076800035988"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 356.0,
+    "fat_g": 1.5,
+    "sat_fat_g": 0.3,
+    "carbs_g": 72.2,
+    "sugars_g": 3.5,
+    "fibre_g": 3.0,
+    "protein_g": 12.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://meny.no/varer//middag/pasta/pastaskruer/fusilli-8076800035988"
+  },
+  {
+   "id": "store:8076800035056",
+   "name": "Spaghetti",
+   "brand": "Barilla",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8076800035056"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 356.0,
+    "fat_g": 1.5,
+    "sat_fat_g": 0.3,
+    "carbs_g": 71.7,
+    "sugars_g": 3.5,
+    "fibre_g": 3.0,
+    "protein_g": 12.5,
+    "salt_g": 0.0
+   },
+   "source_url": "https://meny.no/varer//middag/pasta/spagetti/spaghetti-8076800035056"
+  },
+  {
+   "id": "store:8076809532815",
+   "name": "Fusilli Fullkorn",
+   "brand": "Barilla",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8076809529457",
+    "8076809532815"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 347.0,
+    "fat_g": 2.5,
+    "sat_fat_g": 0.5,
+    "carbs_g": 64.0,
+    "sugars_g": 3.5,
+    "fibre_g": 8.0,
+    "protein_g": 13.0,
+    "salt_g": 0.01
+   },
+   "source_url": "https://meny.no/varer//middag/pasta/pastaskruer/fusilli-fullkorn-8076809532815"
+  },
+  {
+   "id": "store:8076809513753",
+   "name": "Pesto Genovese",
+   "brand": "Barilla",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8076809513753"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 492.0,
+    "fat_g": 47.0,
+    "sat_fat_g": 5.3,
+    "carbs_g": 11.0,
+    "sugars_g": 5.0,
+    "fibre_g": 3.0,
+    "protein_g": 4.7,
+    "salt_g": 3.2
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/pesto/pesto-genovese-8076809513753"
+  },
+  {
+   "id": "store:8076809523547",
+   "name": "Pesto Rosso",
+   "brand": "Barilla",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8076809523547"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 329.0,
+    "fat_g": 29.0,
+    "sat_fat_g": 3.4,
+    "carbs_g": 12.0,
+    "sugars_g": 7.8,
+    "fibre_g": 2.3,
+    "protein_g": 3.8,
+    "salt_g": 2.8
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/pesto/pesto-rosso-8076809523547"
+  },
+  {
+   "id": "store:8076809545464",
+   "name": "Fusilli glutenfri",
+   "brand": "Barilla",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8076809545464"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 358.0,
+    "fat_g": 1.5,
+    "sat_fat_g": 0.3,
+    "carbs_g": 79.0,
+    "sugars_g": 0.5,
+    "fibre_g": 1.1,
+    "protein_g": 6.5,
+    "salt_g": 0.01
+   },
+   "source_url": "https://meny.no/varer//middag/pasta/pastaskruer/fusilli-8076809545464"
+  },
+  {
+   "id": "store:7300400122689",
+   "name": "Sandwich Cheese Gressløk Wasa",
+   "brand": "Barilla",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7300400122689"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 472.0,
+    "fat_g": 24.0,
+    "sat_fat_g": 8.5,
+    "carbs_g": 49.0,
+    "sugars_g": 2.0,
+    "fibre_g": 12.0,
+    "protein_g": 9.0,
+    "salt_g": 1.3
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/mellommaltidsbarer/knekkebrod-sandwich/sandwich-cheese-7300400122689"
+  },
+  {
+   "id": "store:7300400127363",
+   "name": "Sandwich Cheese Tomat&Basilikum Wasa",
+   "brand": "Barilla",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7300400127363"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 479.0,
+    "fat_g": 23.0,
+    "sat_fat_g": 8.0,
+    "carbs_g": 54.0,
+    "sugars_g": 5.0,
+    "fibre_g": 5.0,
+    "protein_g": 12.0,
+    "salt_g": 1.3
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/mellommaltidsbarer/knekkebrod-sandwich/sandwich-cheese-7300400127363"
+  },
+  {
+   "id": "store:7300400482295",
+   "name": "Sandwich Sour Cream&Onion Wasa",
+   "brand": "Barilla",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7300400482295"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 430.0,
+    "fat_g": 18.0,
+    "sat_fat_g": 5.0,
+    "carbs_g": 51.0,
+    "sugars_g": 1.0,
+    "fibre_g": 15.0,
+    "protein_g": 8.5,
+    "salt_g": 1.0
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/mellommaltidsbarer/knekkebrod-sandwich/sandwich-7300400482295"
+  },
+  {
+   "id": "store:8428391103223",
+   "name": "Banderillas Picantes Spicy Bernal",
+   "brand": "Edi saiz coderch",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8428391103223"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 42.0,
+    "fat_g": 2.1,
+    "sat_fat_g": 0.5,
+    "carbs_g": 3.4,
+    "sugars_g": 0.5,
+    "fibre_g": 2.9,
+    "protein_g": 1.0,
+    "salt_g": 2.57
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/hermetisk-gront/sylteagurk/banderillas-8428391103223"
+  },
+  {
+   "id": "store:8000500082379",
+   "name": "Nutella",
+   "brand": "Ferrero scandinavia",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8000500082379"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 539.0,
+    "fat_g": 30.09,
+    "sat_fat_g": 10.06,
+    "carbs_g": 57.5,
+    "sugars_g": 56.3,
+    "protein_g": 6.0,
+    "salt_g": 0.11
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/sotpalegg/sjokoladepalegg/nutella-8000500082379"
+  },
+  {
+   "id": "store:5711953090974",
+   "name": "Castello Danablu",
+   "brand": "Arla",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5711953090974"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 400.0,
+    "fat_g": 37.0,
+    "sat_fat_g": 23.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 17.0,
+    "salt_g": 3.2
+   },
+   "source_url": "https://meny.no/varer//ost/blamuggost/castello-danablu-5711953090974"
+  },
+  {
+   "id": "store:8000500413654",
+   "name": "Nutella Croissant",
+   "brand": "Ferrero scandinavia",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8000500413654"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 471.0,
+    "fat_g": 28.6,
+    "sat_fat_g": 15.5,
+    "carbs_g": 44.9,
+    "sugars_g": 16.7,
+    "protein_g": 7.8,
+    "salt_g": 0.78
+   },
+   "source_url": "https://meny.no/varer//bakeri/boller-og-smakaker/croissant/nutella-8000500413654"
+  },
+  {
+   "id": "store:5034444112550",
+   "name": "Tahini Paste Al'Fez",
+   "brand": "Oluf lorentzen",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5034444112550"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 683.0,
+    "fat_g": 61.7,
+    "sat_fat_g": 10.5,
+    "carbs_g": 11.2,
+    "sugars_g": 1.0,
+    "fibre_g": 2.6,
+    "protein_g": 23.1,
+    "salt_g": 0.0
+   },
+   "source_url": "https://meny.no/varer//middag/ferdigretter/ferdigmaltid/tahini-paste-5034444112550"
+  },
+  {
+   "id": "store:8002670007466",
+   "name": "Burrata Granarolo",
+   "brand": "Oluf lorentzen",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8002670007466"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 234.0,
+    "fat_g": 20.0,
+    "sat_fat_g": 14.0,
+    "carbs_g": 1.6,
+    "sugars_g": 1.0,
+    "fibre_g": 0.0,
+    "protein_g": 12.0,
+    "salt_g": 0.5
+   },
+   "source_url": "https://meny.no/varer//ost/mozzarella/burrata-8002670007466"
+  },
+  {
+   "id": "store:8717163874356",
+   "name": "Mushroom Saus",
+   "brand": "Knorr",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8717163874356"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 50.0,
+    "fat_g": 2.2,
+    "sat_fat_g": 1.4,
+    "carbs_g": 5.9,
+    "sugars_g": 1.5,
+    "protein_g": 1.5,
+    "salt_g": 0.94
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/soppsaus/mushroom-saus-8717163874356"
+  },
+  {
+   "id": "store:8712566318834",
+   "name": "Aromat Krydder boks",
+   "brand": "Knorr",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8712566318834"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 169.0,
+    "fat_g": 3.6,
+    "sat_fat_g": 0.3,
+    "carbs_g": 16.0,
+    "sugars_g": 7.3,
+    "protein_g": 13.0,
+    "salt_g": 59.0
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/krydder/aromat/aromat-krydder-8712566318834"
+  },
+  {
+   "id": "store:8714100697641",
+   "name": "Potato Snack Pot Bacon&Løk",
+   "brand": "Knorr",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8714100697641"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 102.0,
+    "fat_g": 5.2,
+    "sat_fat_g": 2.9,
+    "carbs_g": 10.0,
+    "sugars_g": 1.2,
+    "fibre_g": 1.2,
+    "protein_g": 2.5,
+    "salt_g": 0.78
+   },
+   "source_url": "https://meny.no/varer//middag/middag-kit/koppretter/potato-snack-pot-8714100697641"
+  },
+  {
+   "id": "store:5059319016634",
+   "name": "Special K Granola Berry '",
+   "brand": "Kellogg's",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5059319016634"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 451.0,
+    "fat_g": 14.0,
+    "sat_fat_g": 1.9,
+    "carbs_g": 67.0,
+    "sugars_g": 11.0,
+    "protein_g": 9.3,
+    "salt_g": 0.01
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/frokostblandinger-og-musli/granola/special-k-granola-5059319016634"
+  },
+  {
+   "id": "store:5059319016665",
+   "name": "Special K Granola Dark Choco '",
+   "brand": "Kellogg's",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5059319016665"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 469.0,
+    "fat_g": 17.0,
+    "sat_fat_g": 4.0,
+    "carbs_g": 65.0,
+    "sugars_g": 13.0,
+    "protein_g": 9.3,
+    "salt_g": 0.01
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/frokostblandinger-og-musli/granola/special-k-granola-5059319016665"
+  },
+  {
+   "id": "store:5053827199568",
+   "name": "Tresor Choco Nut Kelloggs",
+   "brand": "Kellogg",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5053827199568"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 453.0,
+    "fat_g": 15.0,
+    "sat_fat_g": 3.8,
+    "carbs_g": 71.0,
+    "sugars_g": 26.0,
+    "protein_g": 6.6,
+    "salt_g": 0.94
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/frokostblandinger-og-musli/frokostblanding/tresor-choco-nut-5053827199568"
+  },
+  {
+   "id": "store:5050083174469",
+   "name": "Pop-Tarts m/Jordbærfyll Kelloggs",
+   "brand": "Oluf lorentzen",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5050083174469"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 400.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 5.0,
+    "carbs_g": 70.0,
+    "sugars_g": 32.0,
+    "fibre_g": 2.5,
+    "protein_g": 4.0,
+    "salt_g": 0.9
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/kjeks/smorbrodkjeks/pop-tarts-5050083174469"
+  },
+  {
+   "id": "store:5050083174513",
+   "name": "Pop-Tarts m/Sjokolade Kelloggs",
+   "brand": "Oluf lorentzen",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5050083174513"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 396.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 5.0,
+    "carbs_g": 68.0,
+    "sugars_g": 33.0,
+    "fibre_g": 2.5,
+    "protein_g": 5.0,
+    "salt_g": 1.15
+   },
+   "source_url": "https://meny.no/varer//bakevarer-og-kjeks/kjeks/smorbrodkjeks/pop-tarts-5050083174513"
+  },
+  {
+   "id": "store:5053827183598",
+   "name": "Granola Coconut u/Tilsatt Sukker Wk",
+   "brand": "Kellogg",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5053827183598"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 449.0,
+    "fat_g": 18.0,
+    "sat_fat_g": 1.9,
+    "carbs_g": 59.0,
+    "sugars_g": 12.0,
+    "fibre_g": 8.5,
+    "protein_g": 8.5,
+    "salt_g": 0.2
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/frokostblandinger-og-musli/granola/granola-coconut-5053827183598"
+  },
+  {
+   "id": "store:8445291509863",
+   "name": "Nescafé 3in1",
+   "brand": "Nestlé",
+   "category": "drinks",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8445291509863"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 432.0,
+    "fat_g": 13.6,
+    "sat_fat_g": 12.4,
+    "carbs_g": 74.8,
+    "sugars_g": 55.9,
+    "fibre_g": 2.6,
+    "protein_g": 1.3,
+    "salt_g": 1.3
+   },
+   "source_url": "https://meny.no/varer//drikke/kaffe/instant-kaffe/nescafe-3in1-8445291509863"
+  },
+  {
+   "id": "store:8445290914200",
+   "name": "Nescafé 3in1 Creamy Latte",
+   "brand": "Nestlé",
+   "category": "drinks",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8445290914200"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 433.0,
+    "fat_g": 12.6,
+    "sat_fat_g": 11.5,
+    "carbs_g": 75.9,
+    "sugars_g": 58.7,
+    "fibre_g": 1.9,
+    "protein_g": 3.0,
+    "salt_g": 1.4
+   },
+   "source_url": "https://meny.no/varer//drikke/kaffe/instant-kaffe/nescafe-3in1-8445290914200"
+  },
+  {
+   "id": "store:8715000002535",
+   "name": "Nescafé Cappuccino",
+   "brand": "Nestlé",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "8715000002535"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 57.0,
+    "fat_g": 1.3,
+    "sat_fat_g": 0.8,
+    "carbs_g": 7.9,
+    "sugars_g": 7.8,
+    "fibre_g": 0.7,
+    "protein_g": 2.9,
+    "salt_g": 0.17
+   },
+   "source_url": "https://meny.no/varer//drikke/iskaffe/nescafe-cappuccino-8715000002535"
+  },
+  {
+   "id": "store:8585002438065",
+   "name": "Kyllingbuljong Klar Maggi",
+   "brand": "Nestlé",
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "8585002438065"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 13.0,
+    "fat_g": 0.3,
+    "sat_fat_g": 0.1,
+    "carbs_g": 2.4,
+    "sugars_g": 0.8,
+    "fibre_g": 0.0,
+    "protein_g": 0.1,
+    "salt_g": 1.9
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/kraft-og-buljong/buljong/kyllingbuljong-8585002438065"
+  },
+  {
+   "id": "store:8445292341523",
+   "name": "Kitkat Cabin",
+   "brand": "Nestlé",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8445292341523"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 503.0,
+    "fat_g": 24.4,
+    "sat_fat_g": 13.8,
+    "carbs_g": 62.3,
+    "sugars_g": 49.4,
+    "fibre_g": 2.3,
+    "protein_g": 7.0,
+    "salt_g": 0.22
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/kitkat-cabin-8445292341523"
+  },
+  {
+   "id": "store:8585002445650",
+   "name": "Grønnsaksbuljong Klar Maggi",
+   "brand": "Nestlé",
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "8585002445650"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 6.0,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.1,
+    "carbs_g": 0.9,
+    "sugars_g": 0.5,
+    "fibre_g": 0.5,
+    "protein_g": 0.5,
+    "salt_g": 0.63
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/kraft-og-buljong/buljong/gronnsaksbuljong-8585002445650"
+  },
+  {
+   "id": "store:8585002445612",
+   "name": "Kyllingbuljong Klar Maggi",
+   "brand": "Nestlé",
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "8585002445612"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 5.0,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.1,
+    "carbs_g": 0.8,
+    "sugars_g": 0.5,
+    "fibre_g": 0.5,
+    "protein_g": 0.5,
+    "salt_g": 0.66
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/kraft-og-buljong/buljong/kyllingbuljong-8585002445612"
+  },
+  {
+   "id": "store:5011476102957",
+   "name": "Cheerios Multi",
+   "brand": "Nestlé",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5011476102957"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 384.0,
+    "fat_g": 4.8,
+    "sat_fat_g": 0.9,
+    "carbs_g": 70.1,
+    "sugars_g": 17.7,
+    "fibre_g": 9.8,
+    "protein_g": 10.1,
+    "salt_g": 0.81
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/frokostblandinger-og-musli/frokostblanding/cheerios-multi-5011476102957"
+  },
+  {
+   "id": "store:5900020037046",
+   "name": "Cheerios Havre",
+   "brand": "Nestlé",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5900020037046"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 387.0,
+    "fat_g": 6.1,
+    "sat_fat_g": 1.0,
+    "carbs_g": 67.2,
+    "sugars_g": 9.0,
+    "fibre_g": 10.5,
+    "protein_g": 10.6,
+    "salt_g": 0.9
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/frokostblandinger-og-musli/frokostblanding/cheerios-havre-5900020037046"
+  },
+  {
+   "id": "store:4000539720345",
+   "name": "Teddy Milk Gift Tag Mixed",
+   "brand": "Lindt",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "4000539720345"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 544.0,
+    "fat_g": 32.0,
+    "sat_fat_g": 19.0,
+    "carbs_g": 56.0,
+    "sugars_g": 54.0,
+    "protein_g": 7.2,
+    "salt_g": 0.32
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/konfekt/teddy-milk-gift-tag-4000539720345"
+  },
+  {
+   "id": "store:3046920001489",
+   "name": "Creation Dessert Praline",
+   "brand": "Lindt",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "3046920001489"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 551.0,
+    "fat_g": 34.0,
+    "sat_fat_g": 20.0,
+    "carbs_g": 53.0,
+    "sugars_g": 49.0,
+    "protein_g": 4.6,
+    "salt_g": 0.15
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/konfekt/creation-dessert-3046920001489"
+  },
+  {
+   "id": "store:3046920001557",
+   "name": "Creation Dessert Praline",
+   "brand": "Lindt",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "3046920001557"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 560.0,
+    "fat_g": 35.0,
+    "sat_fat_g": 20.0,
+    "carbs_g": 54.0,
+    "sugars_g": 49.0,
+    "fibre_g": 0.0,
+    "protein_g": 5.1,
+    "salt_g": 0.1
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/konfekt/creation-dessert-3046920001557"
+  },
+  {
+   "id": "store:7044611878323",
+   "name": "Solo Super Rød Appelsin 0,33lx10 boks",
+   "brand": "Solo",
+   "category": "drinks",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7044610878324",
+    "7044611878323"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 4.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.7,
+    "sugars_g": 0.7,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://meny.no/varer//drikke/brus/solo-super-rod-7044611878323"
+  },
+  {
+   "id": "store:0000023534054",
+   "name": "Angus Brisket Sous Vide Meny",
+   "brand": "Prima jæren",
+   "category": "meat_fish",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023534054"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 209.0,
+    "fat_g": 14.5,
+    "sat_fat_g": 6.8,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 18.6,
+    "salt_g": 1.4
+   },
+   "source_url": "https://meny.no/varer//kjott/storfekjott/ovrig-storfekjott/angus-brisket-23534054"
+  },
+  {
+   "id": "store:7038010065255",
+   "name": "Tropisk Juice",
+   "brand": "Sunniva",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7038010065255",
+    "7038010069697",
+    "7038010069703"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 48.0,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.0,
+    "carbs_g": 11.1,
+    "sugars_g": 10.7,
+    "protein_g": 0.4,
+    "salt_g": 0.0
+   },
+   "source_url": "https://meny.no/varer//drikke/juice/tropisk-juice-7038010065255"
+  },
+  {
+   "id": "store:7038010067464",
+   "name": "Iste Sommer Bringebær flaske",
+   "brand": "Sunniva",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7038010067464"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 29.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 7.0,
+    "sugars_g": 7.0,
+    "protein_g": 0.0,
+    "salt_g": 0.02
+   },
+   "source_url": "https://meny.no/varer//drikke/iste/iste-sommer-7038010067464"
+  },
+  {
+   "id": "store:7038010069659",
+   "name": "Iste Energi u/Sukker",
+   "brand": "Sunniva",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7038010069659"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 1.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.04
+   },
+   "source_url": "https://meny.no/varer//drikke/energidrikke/iste-energi-7038010069659"
+  },
+  {
+   "id": "store:7038010069666",
+   "name": "Iste Guava u/Sukker flaske",
+   "brand": "Sunniva",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7038010069666"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 2.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.04
+   },
+   "source_url": "https://meny.no/varer//drikke/iste/iste-guava-7038010069666"
+  },
+  {
+   "id": "store:7394376623769",
+   "name": "Oat Drink Matcha",
+   "brand": "Oatly",
+   "category": "dairy_eggs",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7394376623769",
+    "7394376624551"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 68.0,
+    "fat_g": 2.8,
+    "sat_fat_g": 0.3,
+    "carbs_g": 7.8,
+    "sugars_g": 4.5,
+    "protein_g": 1.1,
+    "salt_g": 0.15
+   },
+   "source_url": "https://meny.no/varer//meieri-egg/plantebasert-drikke/havredrikk/oat-drink-matcha-7394376623769"
+  },
+  {
+   "id": "store:7394376615290",
+   "name": "Imat Fraiche",
+   "brand": "Oatly",
+   "category": "dairy_eggs",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7394376615290"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 186.0,
+    "fat_g": 15.0,
+    "sat_fat_g": 5.9,
+    "carbs_g": 9.5,
+    "sugars_g": 3.3,
+    "fibre_g": 0.9,
+    "protein_g": 2.0,
+    "salt_g": 0.01
+   },
+   "source_url": "https://meny.no/varer//meieri-egg/creme-fraiche/imat-fraiche-7394376615290"
+  },
+  {
+   "id": "store:7394376624094",
+   "name": "Matcha Havredrikk Strawberry",
+   "brand": "Oatly",
+   "category": "dairy_eggs",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7394376624094"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 65.0,
+    "fat_g": 2.8,
+    "sat_fat_g": 0.3,
+    "carbs_g": 7.8,
+    "sugars_g": 4.5,
+    "protein_g": 1.1,
+    "salt_g": 0.16
+   },
+   "source_url": "https://meny.no/varer//meieri-egg/plantebasert-drikke/havredrikk/matcha-havredrikk-7394376624094"
+  },
+  {
+   "id": "store:5711953116353",
+   "name": "Frappuccino Coffee Starbucks",
+   "brand": "Arla",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "5711953116353"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 66.0,
+    "fat_g": 1.6,
+    "sat_fat_g": 1.0,
+    "carbs_g": 9.9,
+    "sugars_g": 9.5,
+    "protein_g": 2.8,
+    "salt_g": 0.09
+   },
+   "source_url": "https://meny.no/varer//drikke/iskaffe/frappuccino-5711953116353"
+  },
+  {
+   "id": "store:5711953124891",
+   "name": "Tripleshot Espresso No Sugar Starbucks",
+   "brand": "Arla",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "5711953124891"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 51.0,
+    "fat_g": 2.4,
+    "sat_fat_g": 1.6,
+    "carbs_g": 4.1,
+    "sugars_g": 3.5,
+    "protein_g": 2.8,
+    "salt_g": 0.09
+   },
+   "source_url": "https://meny.no/varer//drikke/iskaffe/tripleshot-5711953124891"
+  },
+  {
+   "id": "store:4100290058630",
+   "name": "Starbucks Protein Caramel Hazelnut",
+   "brand": "Arla",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "4100290058630",
+    "4100290058647"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 51.0,
+    "fat_g": 1.0,
+    "sat_fat_g": 0.6,
+    "carbs_g": 4.2,
+    "sugars_g": 3.9,
+    "protein_g": 6.2,
+    "salt_g": 0.17
+   },
+   "source_url": "https://meny.no/varer//drikke/iskaffe/starbucks-4100290058630"
+  },
+  {
+   "id": "store:5760466749367",
+   "name": "Danablu skivet Castello",
+   "brand": "Arla",
+   "category": "dairy_eggs",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5760466749367"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 400.0,
+    "fat_g": 37.0,
+    "sat_fat_g": 23.0,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "protein_g": 17.0,
+    "salt_g": 3.2
+   },
+   "source_url": "https://meny.no/varer//ost/blamuggost/danablu-5760466749367"
+  },
+  {
+   "id": "store:5711953023996",
+   "name": "Cappuccino Starbucks",
+   "brand": "Arla",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "5711953023996"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 67.0,
+    "fat_g": 2.3,
+    "sat_fat_g": 1.4,
+    "carbs_g": 8.5,
+    "sugars_g": 8.1,
+    "protein_g": 2.7,
+    "salt_g": 0.08
+   },
+   "source_url": "https://meny.no/varer//drikke/iskaffe/cappuccino-5711953023996"
+  },
+  {
+   "id": "store:7044610877365",
+   "name": "Dahls Julebrus Lett boks",
+   "brand": "Ringnes",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7044610877365",
+    "7044611877364"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 1.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   },
+   "source_url": "https://meny.no/varer//drikke/julebrus/dahls-julebrus-7044610877365"
+  },
+  {
+   "id": "store:0000054036338",
+   "name": "Powerade Active Water Lemon Lime Zero flaske",
+   "brand": "Coca-cola europacific partners",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "0000054036338"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 1.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.06
+   },
+   "source_url": "https://meny.no/varer//drikke/vann/vann-med-smak/powerade-active-54036338"
+  },
+  {
+   "id": "store:0000054036352",
+   "name": "Powerade Active Water Apple Peach Zero flaske",
+   "brand": "Coca-cola europacific partners",
+   "category": "drinks",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "0000054036352"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 2.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.06
+   },
+   "source_url": "https://meny.no/varer//drikke/vann/vann-med-smak/powerade-active-54036352"
+  },
+  {
+   "id": "store:0072600069107",
+   "name": "Jalapeno Curls Herr's",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0072600069107",
+    "0072600069114",
+    "0072600069121",
+    "0072600069138"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 554.0,
+    "fat_g": 35.0,
+    "sat_fat_g": 4.5,
+    "carbs_g": 55.0,
+    "sugars_g": 5.7,
+    "fibre_g": 2.0,
+    "protein_g": 4.8,
+    "salt_g": 2.2
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/snacks/chips/jalapeno-curls-72600069107"
+  },
+  {
+   "id": "store:8710398165077",
+   "name": "Chips Bbq Lays",
+   "brand": "Multibev",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8710398165077"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 501.0,
+    "fat_g": 28.0,
+    "sat_fat_g": 3.1,
+    "carbs_g": 54.0,
+    "sugars_g": 2.8,
+    "fibre_g": 4.4,
+    "protein_g": 6.2,
+    "salt_g": 1.1
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/snacks/chips/chips-8710398165077"
+  },
+  {
+   "id": "store:8710398604354",
+   "name": "Chips Sour Cream&Onion Lays",
+   "brand": "Haugen - gruppen",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8710398604354"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 519.0,
+    "fat_g": 32.0,
+    "sat_fat_g": 4.0,
+    "carbs_g": 50.0,
+    "sugars_g": 2.1,
+    "protein_g": 6.9,
+    "salt_g": 1.1
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/snacks/chips/chips-8710398604354"
+  },
+  {
+   "id": "store:5060042643509",
+   "name": "Tyrrells Chips Seasalt&Vinegar",
+   "brand": "Gourmet import",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5060042643509"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 508.0,
+    "fat_g": 28.8,
+    "sat_fat_g": 3.1,
+    "carbs_g": 54.1,
+    "sugars_g": 1.4,
+    "protein_g": 6.1,
+    "salt_g": 1.8
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/snacks/chips/tyrrells-chips-5060042643509"
+  },
+  {
+   "id": "store:7072836001561",
+   "name": "Tores Slaktergull Den Lille Chipsfabrikken",
+   "brand": "Pvh (partivarehuset)",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7072836001561"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 482.0,
+    "fat_g": 24.0,
+    "sat_fat_g": 2.4,
+    "carbs_g": 57.0,
+    "sugars_g": 1.5,
+    "fibre_g": 4.6,
+    "protein_g": 8.1,
+    "salt_g": 1.7
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/snacks/chips/tores-slaktergull-7072836001561"
+  },
+  {
+   "id": "store:7090053791607",
+   "name": "Tikka Masala Chips",
+   "brand": "Indian gourmet",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7090053791607"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 482.0,
+    "fat_g": 24.0,
+    "sat_fat_g": 2.4,
+    "carbs_g": 57.0,
+    "sugars_g": 1.5,
+    "fibre_g": 4.5,
+    "protein_g": 8.1,
+    "salt_g": 1.5
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/snacks/chips/tikka-masala-chips-7090053791607"
+  },
+  {
+   "id": "store:7090046152323",
+   "name": "Carolina Reaper Curls Herr's",
+   "brand": null,
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7090046152323"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 571.0,
+    "fat_g": 36.0,
+    "sat_fat_g": 10.71,
+    "carbs_g": 53.6,
+    "sugars_g": 7.1,
+    "protein_g": 4.0,
+    "salt_g": 2.77
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/snacks/chips/carolina-reaper-7090046152323"
+  },
+  {
+   "id": "store:8710398016515",
+   "name": "Lays Chips Saltet",
+   "brand": "Haugen - gruppen",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8710398016515",
+    "8710398604330"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 512.0,
+    "fat_g": 29.0,
+    "sat_fat_g": 2.1,
+    "carbs_g": 55.0,
+    "sugars_g": 0.3,
+    "fibre_g": 5.2,
+    "protein_g": 6.2,
+    "salt_g": 0.85
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/snacks/chips/lays-chips-8710398016515"
+  },
+  {
+   "id": "store:7072889000047",
+   "name": "Cinnamon Bun Snacks",
+   "brand": "Wabba treats",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7072889000047"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 385.0,
+    "fat_g": 7.3,
+    "sat_fat_g": 0.9,
+    "carbs_g": 53.0,
+    "sugars_g": 9.4,
+    "fibre_g": 6.4,
+    "protein_g": 15.5,
+    "salt_g": 0.3
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/snacks/chips/cinnamon-bun-7072889000047"
+  },
+  {
+   "id": "store:8428391000164",
+   "name": "Oliven Manzanilla Grønn Bernal",
+   "brand": "Edi saiz coderch",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "8428391000164"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 146.0,
+    "fat_g": 14.1,
+    "sat_fat_g": 2.4,
+    "carbs_g": 0.6,
+    "sugars_g": 0.0,
+    "protein_g": 1.5,
+    "salt_g": 2.93
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/hermetisk-gront/oliven/oliven-manzanilla-8428391000164"
+  },
+  {
+   "id": "store:7036110210810",
+   "name": "Flytende Melkefri &",
+   "brand": "Melange",
+   "category": "other_food",
+   "unit": "ml",
+   "sizes": [],
+   "eans": [
+    "7036110210810"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 720.0,
+    "fat_g": 80.0,
+    "sat_fat_g": 7.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 1.0
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/smor-margarin-og-matfett/margarin/flytende-melkefri-7036110210810"
+  },
+  {
+   "id": "store:7040852120108",
+   "name": "Langebrød Hardanger",
+   "brand": "Baker brun produksjon",
+   "category": "bread_cereal_grain",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7040852120108"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 241.0,
+    "fat_g": 1.5,
+    "sat_fat_g": 0.2,
+    "carbs_g": 47.9,
+    "sugars_g": 1.2,
+    "fibre_g": 3.0,
+    "protein_g": 7.5,
+    "salt_g": 1.0
+   },
+   "source_url": "https://meny.no/varer//bakeri/loff/langebrod-7040852120108"
+  },
+  {
+   "id": "store:7026591068512",
+   "name": "Gavepakke Eplemost&Gele Røyland",
+   "brand": "Norske spesialiteter",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7026591068512"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 61.0,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.0,
+    "carbs_g": 15.2,
+    "sugars_g": 15.2,
+    "fibre_g": 0.0,
+    "protein_g": 0.1,
+    "salt_g": 0.0
+   },
+   "source_url": "https://meny.no/varer//hus-hjem/sesong-og-fest/matgave/gavepakke-7026591068512"
+  },
+  {
+   "id": "store:7026591060677",
+   "name": "Gavepakke Bufar/Røyland",
+   "brand": "Norske spesialiteter",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7026591060677"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 351.0,
+    "fat_g": 27.0,
+    "sat_fat_g": 17.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 27.0,
+    "salt_g": 1.3
+   },
+   "source_url": "https://meny.no/varer//hus-hjem/sesong-og-fest/matgave/gavepakke-7026591060677"
+  },
+  {
+   "id": "store:7026591067584",
+   "name": "Gavepakke Gløgg&Syltetøy Røyland",
+   "brand": "Norske spesialiteter",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7026591067584"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 136.0,
+    "fat_g": 0.4,
+    "sat_fat_g": 0.0,
+    "carbs_g": 31.7,
+    "sugars_g": 31.7,
+    "fibre_g": 0.0,
+    "protein_g": 0.5,
+    "salt_g": 0.0
+   },
+   "source_url": "https://meny.no/varer//hus-hjem/sesong-og-fest/matgave/gavepakke-7026591067584"
+  },
+  {
+   "id": "store:5010338001872",
+   "name": "Korean Kimchi",
+   "brand": "Blue Dragon",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5010338001872"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 26.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 4.3,
+    "sugars_g": 3.2,
+    "fibre_g": 2.0,
+    "protein_g": 0.0,
+    "salt_g": 2.2
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/asiatiske-sauser/kimchisaus/korean-kimchi-5010338001872"
+  },
+  {
+   "id": "store:5010338303006",
+   "name": "Sushi Nori",
+   "brand": "Blue Dragon",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5010338303006"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 350.0,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.1,
+    "carbs_g": 41.0,
+    "sugars_g": 6.2,
+    "protein_g": 46.1,
+    "salt_g": 1.5
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sushitilbehor/nori/sushi-nori-5010338303006"
+  },
+  {
+   "id": "store:5010338001865",
+   "name": "Korean Gochujang Paste",
+   "brand": "Blue Dragon",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5010338001865"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 231.0,
+    "fat_g": 3.0,
+    "sat_fat_g": 0.5,
+    "carbs_g": 43.0,
+    "sugars_g": 20.0,
+    "fibre_g": 3.8,
+    "protein_g": 6.0,
+    "salt_g": 6.8
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/asiatiske-sauser/gochujang/korean-gochujang-5010338001865"
+  },
+  {
+   "id": "store:5010338001896",
+   "name": "Korean Bulgogi Wok Sauce",
+   "brand": "Blue Dragon",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "5010338001896"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 115.0,
+    "fat_g": 1.2,
+    "sat_fat_g": 0.2,
+    "carbs_g": 25.0,
+    "sugars_g": 19.0,
+    "fibre_g": 0.0,
+    "protein_g": 1.1,
+    "salt_g": 1.0
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/sauser/asiatiske-sauser/woksaus/korean-bulgogi-wok-5010338001896"
+  },
+  {
+   "id": "store:7090049731563",
+   "name": "Diablo Cream",
+   "brand": "Solina",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7090049731563"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 371.0,
+    "fat_g": 36.5,
+    "sat_fat_g": 3.0,
+    "carbs_g": 8.6,
+    "sugars_g": 4.9,
+    "fibre_g": 0.6,
+    "protein_g": 1.4,
+    "salt_g": 2.02
+   },
+   "source_url": "https://meny.no/varer//middagstilbehor/marinader-og-bbq-saus/marinade/diablo-cream-7090049731563"
+  },
+  {
+   "id": "store:7039317007368",
+   "name": "Bixit Fullkornsbar Blåbær",
+   "brand": "Bixit",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7039317007368"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 460.0,
+    "fat_g": 21.0,
+    "sat_fat_g": 2.0,
+    "carbs_g": 56.0,
+    "sugars_g": 18.0,
+    "fibre_g": 11.0,
+    "protein_g": 7.9,
+    "salt_g": 1.3
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/mellommaltidsbarer/energibar/bixit-fullkornsbar-7039317007368"
+  },
+  {
+   "id": "store:7039317007382",
+   "name": "Bixit Havrebar Mandel&Sjokolade",
+   "brand": "Bixit",
+   "category": "other_food",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7039317007382"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 420.0,
+    "fat_g": 17.0,
+    "sat_fat_g": 5.1,
+    "carbs_g": 51.0,
+    "sugars_g": 19.0,
+    "fibre_g": 16.0,
+    "protein_g": 8.5,
+    "salt_g": 0.5
+   },
+   "source_url": "https://meny.no/varer//palegg-frokost/mellommaltidsbarer/energibar/bixit-havrebar-7039317007382"
+  },
+  {
+   "id": "store:0000023874164",
+   "name": "Raspeball Signes",
+   "brand": "Godt lokalt",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023874164"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 115.0,
+    "fat_g": 0.3,
+    "sat_fat_g": 0.0,
+    "carbs_g": 24.0,
+    "sugars_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 3.0
+   },
+   "source_url": "https://meny.no/varer//middag/potetretter/raspeball/raspeball-23874164"
+  },
+  {
+   "id": "store:0000023874165",
+   "name": "Raspeball m/Flesk Signes",
+   "brand": "Godt lokalt",
+   "category": "ready_meals_sauces",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "0000023874165"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 160.0,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.0,
+    "carbs_g": 32.3,
+    "sugars_g": 1.4,
+    "protein_g": 4.6,
+    "salt_g": 1.0
+   },
+   "source_url": "https://meny.no/varer//middag/potetretter/raspeball/raspeball-23874165"
+  },
+  {
+   "id": "store:6416453053298",
+   "name": "Geisha Heart Box",
+   "brand": "Fazer",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "6416453053298"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 550.0,
+    "fat_g": 35.0,
+    "sat_fat_g": 17.0,
+    "carbs_g": 51.0,
+    "sugars_g": 49.0,
+    "protein_g": 8.0,
+    "salt_g": 0.19
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/konfekt/geisha-heart-box-6416453053298"
+  },
+  {
+   "id": "store:6416453076990",
+   "name": "Dumle Original Mini",
+   "brand": "Fazer",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "6416453076990"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 474.0,
+    "fat_g": 21.0,
+    "sat_fat_g": 17.0,
+    "carbs_g": 67.0,
+    "sugars_g": 54.0,
+    "protein_g": 3.1,
+    "salt_g": 0.3
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/dumle-original-mini-6416453076990"
+  },
+  {
+   "id": "store:6411401017575",
+   "name": "Dumle Snacks Bar",
+   "brand": "Fazer",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "6411401017575"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 477.0,
+    "fat_g": 22.0,
+    "sat_fat_g": 15.0,
+    "carbs_g": 65.0,
+    "sugars_g": 51.0,
+    "protein_g": 5.4,
+    "salt_g": 0.46
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/dumle-snacks-bar-6411401017575"
+  },
+  {
+   "id": "store:6416453028418",
+   "name": "Tyrkisk Peber Origin",
+   "brand": "Fazer",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "6416453028418"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 364.0,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.0,
+    "carbs_g": 89.0,
+    "sugars_g": 72.0,
+    "protein_g": 0.5,
+    "salt_g": 1.56
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/godteri/tyrkisk-peber-origin-6416453028418"
+  },
+  {
+   "id": "store:6416453041301",
+   "name": "Marianne Mix Peppermynt",
+   "brand": "Fazer",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "6416453041301"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 420.0,
+    "fat_g": 7.1,
+    "sat_fat_g": 4.8,
+    "carbs_g": 87.0,
+    "sugars_g": 72.0,
+    "protein_g": 1.1,
+    "salt_g": 0.16
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/marianne-mix-6416453041301"
+  },
+  {
+   "id": "store:6416453037601",
+   "name": "Dumle Snacks Sjokolade",
+   "brand": "Fazer",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "6416453037601"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 529.0,
+    "fat_g": 27.0,
+    "sat_fat_g": 20.0,
+    "carbs_g": 65.0,
+    "sugars_g": 50.0,
+    "protein_g": 5.7,
+    "salt_g": 0.48
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/dumle-snacks-6416453037601"
+  },
+  {
+   "id": "store:6416453071285",
+   "name": "Geisha Sjokolade Hasselnøtt&Nougatfyll",
+   "brand": "Fazer",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "6416453071285"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 553.0,
+    "fat_g": 35.0,
+    "sat_fat_g": 18.0,
+    "carbs_g": 47.0,
+    "sugars_g": 45.0,
+    "protein_g": 8.1,
+    "salt_g": 0.13
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/konfekt/geisha-sjokolade-6416453071285"
+  },
+  {
+   "id": "store:6416453017504",
+   "name": "Geisha Crunchy Sjokoladebar",
+   "brand": "Fazer",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "6416453017504"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 527.0,
+    "fat_g": 30.0,
+    "sat_fat_g": 16.0,
+    "carbs_g": 56.0,
+    "sugars_g": 47.0,
+    "protein_g": 7.3,
+    "salt_g": 0.54
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/geisha-crunchy-6416453017504"
+  },
+  {
+   "id": "store:6416453017412",
+   "name": "Dumle Crunchy Salty Caramel",
+   "brand": "Fazer",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "6411401035333",
+    "6416453017412"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 476.0,
+    "fat_g": 22.0,
+    "sat_fat_g": 14.0,
+    "carbs_g": 64.0,
+    "sugars_g": 52.0,
+    "protein_g": 5.9,
+    "salt_g": 0.96
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/sjokolade/dumle-crunchy-6416453017412"
+  },
+  {
+   "id": "store:7350020720765",
+   "name": "Froosh Shorty Mango&Appelsin 150mlx6 boks",
+   "brand": "Fazer",
+   "category": "drinks",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "7350020720765"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 57.0,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.0,
+    "carbs_g": 13.0,
+    "sugars_g": 12.0,
+    "fibre_g": 1.0,
+    "protein_g": 0.5,
+    "salt_g": 0.0
+   },
+   "source_url": "https://meny.no/varer//drikke/smoothie/froosh-shorty-7350020720765"
+  },
+  {
+   "id": "store:6416453041189",
+   "name": "Dumle Rocks Seasonal",
+   "brand": "Fazer",
+   "category": "snacks_sweets",
+   "unit": "g",
+   "sizes": [],
+   "eans": [
+    "6416453041189"
+   ],
+   "source": "norgesgruppen",
+   "nutrients": {
+    "kcal": 385.0,
+    "fat_g": 3.0,
+    "sat_fat_g": 1.8,
+    "carbs_g": 87.0,
+    "sugars_g": 62.0,
+    "protein_g": 1.4,
+    "salt_g": 0.58
+   },
+   "source_url": "https://meny.no/varer//snacks-godteri/godteri/dumle-rocks-6416453041189"
   }
  ],
  "common": {

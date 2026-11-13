@@ -1,0 +1,4351 @@
+{
+ "note": "Round G, 2026-11-13: every product of 60 more brands at Meny, checked by barcode in code, as round F. Held here: same name with other numbers, several matching rows, labels that do not add up, no numbers.",
+ "stats": {
+  "known": 2390,
+  "add": 168,
+  "does_not_add_up": 20,
+  "all_zero": 12,
+  "same_name_other_numbers": 88,
+  "several_matches": 44,
+  "attach": 53,
+  "no_numbers": 285,
+  "no_ean": 107,
+  "store_commodity": 2
+ },
+ "review": [
+  {
+   "ean": "7311311011412",
+   "title": "Rosmarin",
+   "subtitle": "275g Santa Maria",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 328.0,
+    "fat_g": 15.0,
+    "sat_fat_g": 7.4,
+    "carbs_g": 21.0,
+    "sugars_g": 0.0,
+    "fibre_g": 43.0,
+    "protein_g": 4.9,
+    "salt_g": 0.13
+   }
+  },
+  {
+   "ean": "7311311013584",
+   "title": "Kanel hel",
+   "subtitle": "300g Santa Maria",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 243.0,
+    "fat_g": 1.2,
+    "sat_fat_g": 0.3,
+    "carbs_g": 27.0,
+    "sugars_g": 2.2,
+    "fibre_g": 53.0,
+    "protein_g": 4.0,
+    "salt_g": 0.03
+   }
+  },
+  {
+   "ean": "7311311012143",
+   "title": "Sort Pepper Malt",
+   "subtitle": "350g Santa Maria",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 276.0,
+    "fat_g": 3.3,
+    "sat_fat_g": 1.4,
+    "carbs_g": 39.0,
+    "sugars_g": 0.6,
+    "fibre_g": 25.0,
+    "protein_g": 10.0,
+    "salt_g": 0.05
+   }
+  },
+  {
+   "ean": "7311311012549",
+   "title": "Taco Spice Mix",
+   "subtitle": "Original 532g Santa Maria",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7311311028106"
+   ],
+   "n": {
+    "kcal": 291.0,
+    "fat_g": 5.1,
+    "sat_fat_g": 0.7,
+    "carbs_g": 46.0,
+    "sugars_g": 22.0,
+    "fibre_g": 12.0,
+    "protein_g": 9.7,
+    "salt_g": 17.3
+   }
+  },
+  {
+   "ean": "7311312008732",
+   "title": "Tortilla Strips",
+   "subtitle": "Crunchy Cheesy 185g Santa Maria",
+   "why": "several rows match",
+   "rows": [
+    "ean:7311312007834",
+    "ean:7311312007933"
+   ]
+  },
+  {
+   "ean": "7311311023286",
+   "title": "Taco Spice Mix",
+   "subtitle": "Chili&Lime 28g Santa Maria",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7311311028106"
+   ],
+   "n": {
+    "kcal": 293.0,
+    "fat_g": 6.3,
+    "sat_fat_g": 0.8,
+    "carbs_g": 43.0,
+    "sugars_g": 14.0,
+    "fibre_g": 14.0,
+    "protein_g": 9.5,
+    "salt_g": 15.2
+   }
+  },
+  {
+   "ean": "7311312009340",
+   "title": "Asian Wok",
+   "subtitle": "Chop Suey 150g Santa Maria",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7311312002518"
+   ],
+   "n": {
+    "kcal": 47.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 11.0,
+    "sugars_g": 6.4,
+    "fibre_g": 0.5,
+    "protein_g": 0.0,
+    "salt_g": 3.1
+   }
+  },
+  {
+   "ean": "7311311014161",
+   "title": "Malt Kanel",
+   "subtitle": "40g Santa-Maria",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 243.0,
+    "fat_g": 1.2,
+    "sat_fat_g": 0.3,
+    "carbs_g": 27.5,
+    "sugars_g": 2.2,
+    "fibre_g": 53.1,
+    "protein_g": 4.0,
+    "salt_g": 0.03
+   }
+  },
+  {
+   "ean": "7311311015670",
+   "title": "Sort Pepper Malt",
+   "subtitle": "31g Santa-Maria",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 276.0,
+    "fat_g": 3.3,
+    "sat_fat_g": 1.4,
+    "carbs_g": 38.6,
+    "sugars_g": 0.6,
+    "fibre_g": 25.3,
+    "protein_g": 10.4,
+    "salt_g": 0.05
+   }
+  },
+  {
+   "ean": "7311311026614",
+   "title": "Chili Flakes",
+   "subtitle": "39g St.Maria",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 376.0,
+    "fat_g": 17.0,
+    "sat_fat_g": 3.3,
+    "carbs_g": 29.0,
+    "sugars_g": 10.0,
+    "fibre_g": 27.0,
+    "protein_g": 12.0,
+    "salt_g": 0.08
+   }
+  },
+  {
+   "ean": "7311310045517",
+   "title": "Salsa Chunky",
+   "subtitle": "Medium 3700g Santa Maria",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7311312000088"
+   ],
+   "n": {
+    "kcal": 35.0,
+    "fat_g": 0.2,
+    "sat_fat_g": 0.0,
+    "carbs_g": 5.7,
+    "sugars_g": 4.3,
+    "fibre_g": 2.1,
+    "protein_g": 1.5,
+    "salt_g": 0.95
+   }
+  },
+  {
+   "ean": "7311310033491",
+   "title": "Chili Chipotle",
+   "subtitle": "Morita Whole 3g Santa Maria",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 289.0,
+    "fat_g": 6.6,
+    "sat_fat_g": 1.3,
+    "carbs_g": 35.0,
+    "sugars_g": 26.0,
+    "protein_g": 11.0,
+    "salt_g": 0.08
+   }
+  },
+  {
+   "ean": "7311310033514",
+   "title": "Chili Guajillo",
+   "subtitle": "Whole 3g St.Maria",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 273.0,
+    "fat_g": 7.5,
+    "sat_fat_g": 1.4,
+    "carbs_g": 26.0,
+    "sugars_g": 18.0,
+    "protein_g": 11.0,
+    "salt_g": 0.06
+   }
+  },
+  {
+   "ean": "8410076491916",
+   "title": "Taco Spice Mix",
+   "subtitle": "25g Old El Paso",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7350115906012",
+    "ean:7350115906029",
+    "store:8410076491947"
+   ],
+   "n": {
+    "kcal": 286.0,
+    "fat_g": 7.2,
+    "sat_fat_g": 0.8,
+    "carbs_g": 38.0,
+    "sugars_g": 20.0,
+    "fibre_g": 18.0,
+    "protein_g": 8.4,
+    "salt_g": 16.5
+   }
+  },
+  {
+   "ean": "8410076473318",
+   "title": "Tortilla Original",
+   "subtitle": "Large 8stk Old El Paso",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:8410076482006"
+   ],
+   "n": {
+    "kcal": 299.0,
+    "fat_g": 5.2,
+    "sat_fat_g": 1.2,
+    "carbs_g": 53.2,
+    "sugars_g": 2.1,
+    "fibre_g": 1.6,
+    "protein_g": 9.1,
+    "salt_g": 1.0
+   }
+  },
+  {
+   "ean": "8410076493125",
+   "title": "Taco Spice Mix",
+   "subtitle": "Chipotle 30g Old El Paso",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7350115906012",
+    "ean:7350115906029",
+    "store:8410076491947"
+   ],
+   "n": {
+    "kcal": 303.0,
+    "fat_g": 4.8,
+    "sat_fat_g": 0.8,
+    "carbs_g": 49.7,
+    "sugars_g": 14.4,
+    "fibre_g": 11.7,
+    "protein_g": 9.4,
+    "salt_g": 14.51
+   }
+  },
+  {
+   "ean": "8410076474810",
+   "title": "Tortilla",
+   "subtitle": "glutenfri 215g Old El Paso",
+   "why": "several rows match",
+   "rows": [
+    "ean:8410076483331",
+    "openfoodfacts:08410076"
+   ]
+  },
+  {
+   "ean": "8410076482570",
+   "title": "Tortilla Chips",
+   "subtitle": "Cheese 185g Old El Paso",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:8410076482297",
+    "ean:8410076482563",
+    "ean:8410083482570"
+   ],
+   "n": {
+    "kcal": 488.0,
+    "fat_g": 25.6,
+    "sat_fat_g": 3.1,
+    "carbs_g": 55.5,
+    "sugars_g": 2.3,
+    "fibre_g": 4.4,
+    "protein_g": 6.7,
+    "salt_g": 1.97
+   }
+  },
+  {
+   "ean": "8410076482020",
+   "title": "Tortilla Strips",
+   "subtitle": "Cheese 185g Old El Paso",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:8410076482006"
+   ],
+   "n": {
+    "kcal": 543.0,
+    "fat_g": 32.7,
+    "sat_fat_g": 4.2,
+    "carbs_g": 54.6,
+    "sugars_g": 2.3,
+    "fibre_g": 3.9,
+    "protein_g": 5.8,
+    "salt_g": 1.35
+   }
+  },
+  {
+   "ean": "8076809580144",
+   "title": "Farfalle",
+   "subtitle": "500g Barilla",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:8076808060654"
+   ],
+   "n": {
+    "kcal": 359.0,
+    "fat_g": 2.0,
+    "sat_fat_g": 0.5,
+    "carbs_g": 71.0,
+    "sugars_g": 3.5,
+    "fibre_g": 3.0,
+    "protein_g": 13.0,
+    "salt_g": 0.01
+   }
+  },
+  {
+   "ean": "8076800035650",
+   "title": "Farfalle",
+   "subtitle": "5kg Barilla",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:8076808060654"
+   ],
+   "n": {
+    "kcal": 359.0,
+    "fat_g": 2.0,
+    "sat_fat_g": 0.5,
+    "carbs_g": 71.0,
+    "sugars_g": 3.5,
+    "fibre_g": 3.0,
+    "protein_g": 13.0,
+    "salt_g": 0.01
+   }
+  },
+  {
+   "ean": "7300400127004",
+   "title": "Fiber Balance",
+   "subtitle": "230g Wasa",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 333.0,
+    "fat_g": 5.0,
+    "sat_fat_g": 1.0,
+    "carbs_g": 47.0,
+    "sugars_g": 2.0,
+    "fibre_g": 26.0,
+    "protein_g": 12.0,
+    "salt_g": 1.2
+   }
+  },
+  {
+   "ean": "8720400802333",
+   "title": "Jha Cigarill",
+   "subtitle": "10pk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "9788202429249",
+   "title": "Ravner & Gorillaer",
+   "subtitle": "Bc",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7315200590835",
+   "title": "Bbq Oil Garlic",
+   "subtitle": "250ml Caj P",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7315200591030"
+   ],
+   "n": {
+    "kcal": 323.0,
+    "fat_g": 34.7,
+    "sat_fat_g": 2.5,
+    "carbs_g": 3.6,
+    "sugars_g": 0.8,
+    "fibre_g": 0.0,
+    "protein_g": 0.7,
+    "salt_g": 6.8
+   }
+  },
+  {
+   "ean": "5740200001012",
+   "title": "Castello Blå",
+   "subtitle": "150g Tholstrup",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:5740200001074"
+   ],
+   "n": {
+    "kcal": 431.0,
+    "fat_g": 42.0,
+    "sat_fat_g": 27.0,
+    "carbs_g": 0.1,
+    "sugars_g": 0.1,
+    "protein_g": 13.0,
+    "salt_g": 1.6
+   }
+  },
+  {
+   "ean": "4064666587554",
+   "title": "Wellaflex Paste",
+   "subtitle": "Men Dynamic Texture 75ml Wella",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7322542156179",
+   "title": "Libero Stellematte",
+   "subtitle": "6stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5714689100955",
+   "title": "Stella",
+   "subtitle": "0,5l boks",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7046110067475",
+   "title": "Tastepaste Raspbe",
+   "subtitle": "50ml Jordan",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5060033821114",
+   "title": "Paste",
+   "subtitle": "850g The Pink Stuff Packers",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7023060036829",
+   "title": "Esters Fortelling",
+   "subtitle": ".",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7046110327944",
+   "title": "Jif Skurepaste",
+   "subtitle": "200g",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5012583204398",
+   "title": "Got2b Paste",
+   "subtitle": "Phenomenal 100ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620031694",
+   "title": "Curry Paste Red",
+   "subtitle": "110g Eldorado",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620032844",
+   "title": "Curry Paste Green",
+   "subtitle": "110g Eldorado",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620060311",
+   "title": "Engangskluter",
+   "subtitle": "Tørre Sensitiv 100stk Vilje",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620064852",
+   "title": "Våtservietter",
+   "subtitle": "Plastfri 64stk Vilje",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620063329",
+   "title": "Våtservietter",
+   "subtitle": "Plastfri 4x64stk Vilje",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620062124",
+   "title": "Våtservietter",
+   "subtitle": "Plastfri 24stk Vilje",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620060182",
+   "title": "Plastfri 64stk Lille",
+   "subtitle": "Våtservietter Plastfri",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7310610023874",
+   "title": "Solidox Tannkrem",
+   "subtitle": "Totalbeskyttelse 75ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7322541962689",
+   "title": "Libero Fuktig",
+   "subtitle": "Toalettpapir 42stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7322541164724",
+   "title": "Libero Våtserviett",
+   "subtitle": "64stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620021466",
+   "title": "Engangskluter",
+   "subtitle": "Tørre Sensitiv 100stk Lillego",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311041038673",
+   "title": "Våtservietter",
+   "subtitle": "2x72stk First Price",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8681242204245",
+   "title": "Våtservietter",
+   "subtitle": "72stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0000023026796",
+   "title": "Norvegia",
+   "subtitle": "Vellagret Ca1kg Tine",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7038010071430",
+    "ean:7038010052842",
+    "store:0000023026934",
+    "store:0000023027197",
+    "store:0000023021406",
+    "store:0000023021392"
+   ],
+   "n": {
+    "kcal": 351.0,
+    "fat_g": 27.0,
+    "sat_fat_g": 17.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 27.0,
+    "salt_g": 1.2
+   }
+  },
+  {
+   "ean": "4001724022398",
+   "title": "Ristorante Pizza",
+   "subtitle": "Gl.Fri Mozzarella 370g Dr.Oetker",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:4001724039389",
+    "ean:4001724039778",
+    "ean:4001724039808",
+    "ean:4001724039921",
+    "ean:4001724043935"
+   ],
+   "n": {
+    "kcal": 220.0,
+    "fat_g": 10.0,
+    "sat_fat_g": 4.3,
+    "carbs_g": 21.0,
+    "sugars_g": 2.0,
+    "protein_g": 10.0,
+    "salt_g": 0.94
+   }
+  },
+  {
+   "ean": "0000023859114",
+   "title": "Vellagret Ost",
+   "subtitle": "ca 300g Gammel Erik",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 598.0,
+    "fat_g": 40.2,
+    "sat_fat_g": 25.0,
+    "carbs_g": 1.1,
+    "sugars_g": 0.0,
+    "protein_g": 23.8,
+    "salt_g": 2.3
+   }
+  },
+  {
+   "ean": "7090025901164",
+   "title": "Lilla Poser",
+   "subtitle": "20stk Plastemballasje",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7090044270005",
+   "title": "Bir Sekk",
+   "subtitle": "Plastemballasje 20stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7041111135765",
+   "title": "Dent Crush",
+   "subtitle": "Bringebær Sukkerfri 25g",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 131.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 62.0,
+    "sugars_g": 0.0,
+    "fibre_g": 24.0,
+    "protein_g": 0.9,
+    "salt_g": 0.6
+   }
+  },
+  {
+   "ean": "7041111157569",
+   "title": "Dent Crush",
+   "subtitle": "Bubbleyum 25g",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 138.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 63.0,
+    "sugars_g": 0.0,
+    "fibre_g": 25.0,
+    "protein_g": 0.9,
+    "salt_g": 0.63
+   }
+  },
+  {
+   "ean": "7041111135291",
+   "title": "Dent Crush",
+   "subtitle": "u/Sukker Peach 25g Dent",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 131.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 62.0,
+    "sugars_g": 0.0,
+    "fibre_g": 23.0,
+    "protein_g": 0.9,
+    "salt_g": 0.6
+   }
+  },
+  {
+   "ean": "7041111157484",
+   "title": "Dent Salt Lakris",
+   "subtitle": "24g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7041111118522"
+   ],
+   "n": {
+    "kcal": 181.0,
+    "fat_g": 0.3,
+    "sat_fat_g": 0.3,
+    "carbs_g": 40.0,
+    "sugars_g": 0.0,
+    "fibre_g": 33.0,
+    "protein_g": 1.5,
+    "salt_g": 4.2
+   }
+  },
+  {
+   "ean": "8712566121496",
+   "title": "Fond Du Chef",
+   "subtitle": "Grønnsak 4x28g Knorr",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "store:8712566121458"
+   ],
+   "n": {
+    "kcal": 6.0,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.2,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "fibre_g": 0.5,
+    "protein_g": 0.5,
+    "salt_g": 1.2
+   }
+  },
+  {
+   "ean": "8714100370902",
+   "title": "Pasta Snack Pot",
+   "subtitle": "Carbonara 71g Knorr",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:8711200344734",
+    "ean:8714100671504"
+   ],
+   "n": {
+    "kcal": 116.0,
+    "fat_g": 4.97,
+    "sat_fat_g": 3.0,
+    "carbs_g": 14.51,
+    "sugars_g": 0.94,
+    "fibre_g": 0.68,
+    "protein_g": 3.08,
+    "salt_g": 0.8
+   }
+  },
+  {
+   "ean": "8714100683064",
+   "title": "Pasta Snack Pot",
+   "subtitle": "Bolognese 68g Knorr",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:8711200344734",
+    "ean:8714100671504"
+   ],
+   "n": {
+    "kcal": 94.0,
+    "fat_g": 1.9,
+    "sat_fat_g": 1.0,
+    "carbs_g": 15.0,
+    "sugars_g": 3.3,
+    "fibre_g": 1.6,
+    "protein_g": 3.3,
+    "salt_g": 0.73
+   }
+  },
+  {
+   "ean": "8712566246182",
+   "title": "Fond Du Chef",
+   "subtitle": "Fisk 4x28g Knorr",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "store:8712566121458"
+   ],
+   "n": {
+    "kcal": 4.0,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.1,
+    "carbs_g": 0.5,
+    "sugars_g": 0.5,
+    "fibre_g": 0.5,
+    "protein_g": 0.5,
+    "salt_g": 0.85
+   }
+  },
+  {
+   "ean": "0000087157239",
+   "title": "Tomatketchup",
+   "subtitle": "570g Heinz",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:0000087157031",
+    "store:50457793"
+   ],
+   "n": {
+    "kcal": 103.0,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.0,
+    "carbs_g": 24.1,
+    "sugars_g": 23.7,
+    "protein_g": 0.9,
+    "salt_g": 3.0
+   }
+  },
+  {
+   "ean": "5000157143358",
+   "title": "Saucy Sauce",
+   "subtitle": "425g Heinz",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 42.63,
+    "fat_g": 431.79,
+    "sat_fat_g": 3.08,
+    "carbs_g": 14.69,
+    "sugars_g": 11.96,
+    "fibre_g": 0.0,
+    "protein_g": 0.87,
+    "salt_g": 1.49
+   }
+  },
+  {
+   "ean": "5053827188586",
+   "title": "Special K",
+   "subtitle": "Blackcurrant 28g Kelloggs",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:5050083701344"
+   ],
+   "n": {
+    "kcal": 437.0,
+    "fat_g": 16.0,
+    "sat_fat_g": 2.6,
+    "carbs_g": 47.0,
+    "sugars_g": 18.0,
+    "fibre_g": 6.5,
+    "protein_g": 23.0,
+    "salt_g": 0.4
+   }
+  },
+  {
+   "ean": "5053827188616",
+   "title": "Special K",
+   "subtitle": "Kokos 28g Kelloggs",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:5050083701344"
+   ],
+   "n": {
+    "kcal": 423.0,
+    "fat_g": 16.0,
+    "sat_fat_g": 5.1,
+    "carbs_g": 44.0,
+    "sugars_g": 16.0,
+    "fibre_g": 5.6,
+    "protein_g": 23.0,
+    "salt_g": 0.61
+   }
+  },
+  {
+   "ean": "8445292428026",
+   "title": "Min Fullkornsgrøt",
+   "subtitle": "Quinoa Banan 1år 410g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "store:7613035642683"
+   ],
+   "n": {
+    "kcal": 419.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 1.3,
+    "carbs_g": 60.0,
+    "sugars_g": 18.0,
+    "fibre_g": 6.0,
+    "protein_g": 17.0,
+    "salt_g": 0.26
+   }
+  },
+  {
+   "ean": "8445292084987",
+   "title": "Min Fullkornsgrøt",
+   "subtitle": "Mango Banan 410g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "store:7613035642683"
+   ],
+   "n": {
+    "kcal": 423.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 1.3,
+    "carbs_g": 61.0,
+    "sugars_g": 20.0,
+    "fibre_g": 6.0,
+    "protein_g": 17.0,
+    "salt_g": 0.26
+   }
+  },
+  {
+   "ean": "8445292428187",
+   "title": "Min Fullkornsgrøt",
+   "subtitle": "Eksotiske Frukter 1år 410g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "store:7613035642683"
+   ],
+   "n": {
+    "kcal": 421.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 1.3,
+    "carbs_g": 61.0,
+    "sugars_g": 22.0,
+    "fibre_g": 7.0,
+    "protein_g": 16.0,
+    "salt_g": 0.26
+   }
+  },
+  {
+   "ean": "8445292428729",
+   "title": "Min Fullkornsgrøt",
+   "subtitle": "Eple Røde Bær 1år 410g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "store:7613035642683"
+   ],
+   "n": {
+    "kcal": 427.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 1.3,
+    "carbs_g": 61.0,
+    "sugars_g": 19.0,
+    "fibre_g": 8.0,
+    "protein_g": 17.0,
+    "salt_g": 0.26
+   }
+  },
+  {
+   "ean": "8445292085564",
+   "title": "Min Fullkornsgrøt",
+   "subtitle": "God Natt 6m 410g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "store:7613035642683"
+   ],
+   "n": {
+    "kcal": 422.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 1.4,
+    "carbs_g": 58.0,
+    "sugars_g": 16.0,
+    "fibre_g": 7.0,
+    "protein_g": 17.0,
+    "salt_g": 0.26
+   }
+  },
+  {
+   "ean": "8445292428484",
+   "title": "Min Fullkornsgrøt",
+   "subtitle": "God Natt 1år 410g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "store:7613035642683"
+   ],
+   "n": {
+    "kcal": 430.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 1.3,
+    "carbs_g": 60.0,
+    "sugars_g": 16.0,
+    "fibre_g": 7.0,
+    "protein_g": 17.0,
+    "salt_g": 0.26
+   }
+  },
+  {
+   "ean": "8445292062381",
+   "title": "Min Fullkornsgrøt",
+   "subtitle": "Sviske 410g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "store:7613035642683"
+   ],
+   "n": {
+    "kcal": 415.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 1.3,
+    "carbs_g": 58.0,
+    "sugars_g": 19.0,
+    "fibre_g": 7.8,
+    "protein_g": 17.0,
+    "salt_g": 0.26
+   }
+  },
+  {
+   "ean": "8445292085083",
+   "title": "Min Fullkornsgrøt",
+   "subtitle": "God Natt 8m 410g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "store:7613035642683"
+   ],
+   "n": {
+    "kcal": 422.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 1.4,
+    "carbs_g": 58.0,
+    "sugars_g": 16.0,
+    "fibre_g": 7.2,
+    "protein_g": 17.0,
+    "salt_g": 0.26
+   }
+  },
+  {
+   "ean": "8445290553911",
+   "title": "Min Fruktgrøt",
+   "subtitle": "Pære&Banan 6mnd 110g Nestle",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:8445291245471"
+   ],
+   "n": {
+    "kcal": 55.0,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.1,
+    "carbs_g": 10.5,
+    "sugars_g": 6.0,
+    "fibre_g": 1.8,
+    "protein_g": 1.2,
+    "salt_g": 0.01
+   }
+  },
+  {
+   "ean": "8445290553065",
+   "title": "Min Fruktgrøt",
+   "subtitle": "Eple&Banan 6mnd 110g Nestle",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:8445291245471"
+   ],
+   "n": {
+    "kcal": 63.0,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.1,
+    "carbs_g": 12.0,
+    "sugars_g": 8.0,
+    "fibre_g": 2.0,
+    "protein_g": 1.5,
+    "salt_g": 0.01
+   }
+  },
+  {
+   "ean": "7613287402554",
+   "title": "Min Smoothie",
+   "subtitle": "Stor Eple 6mnd 110g Nestle",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "store:7613033880537"
+   ],
+   "n": {
+    "kcal": 77.0,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.1,
+    "carbs_g": 16.6,
+    "sugars_g": 14.2,
+    "fibre_g": 1.5,
+    "protein_g": 0.7,
+    "salt_g": 0.03
+   }
+  },
+  {
+   "ean": "8445291346048",
+   "title": "Nescafe Gold",
+   "subtitle": "Caramel 95g Nestle",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 124.0,
+    "fat_g": 0.7,
+    "sat_fat_g": 0.3,
+    "carbs_g": 3.1,
+    "sugars_g": 3.1,
+    "fibre_g": 33.8,
+    "protein_g": 7.7,
+    "salt_g": 0.25
+   }
+  },
+  {
+   "ean": "8445291346062",
+   "title": "Nescafe Gold",
+   "subtitle": "Vanilla 95g Nestle",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 125.0,
+    "fat_g": 0.7,
+    "sat_fat_g": 0.3,
+    "carbs_g": 3.1,
+    "sugars_g": 3.1,
+    "fibre_g": 33.8,
+    "protein_g": 7.7
+   }
+  },
+  {
+   "ean": "7613034237491",
+   "title": "Friskies",
+   "subtitle": "Tunfisk/Grønnsaker 4kg",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613039847275",
+   "title": "Latz Agail",
+   "subtitle": "Junior 1020g 12pk Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613032959500",
+   "title": "Gourmet Gold",
+   "subtitle": "Multipk 4x85g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5000161029853",
+   "title": "Gourmet Gold",
+   "subtitle": "Mousse Multipk 4x85g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613039847558",
+   "title": "Latz Doubly",
+   "subtitle": "Delicious 12pk 1,02kg Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7042110081848",
+   "title": "Gourmet Gold",
+   "subtitle": "Tunfiskmousse 85g",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445290023018",
+   "title": "Purina One",
+   "subtitle": "Senior 750g",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613287160737",
+   "title": "Friskies",
+   "subtitle": "Okse/Kylling/Lever 3.5kg Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613030474418",
+   "title": "Gourmet Perle",
+   "subtitle": "Oksekjøtt 85g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613033457302",
+   "title": "Gourmet Gold",
+   "subtitle": "Lam&And 85g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613036354318",
+   "title": "Latz Party Mix",
+   "subtitle": "Seaside Mix 60g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613036354288",
+   "title": "Latz Party Mix",
+   "subtitle": "Mixed Grill 60g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613036354127",
+   "title": "Latz Party Mix",
+   "subtitle": "60g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613037529203",
+   "title": "Latz Tasty",
+   "subtitle": "Shreds Fisk 960g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "3222270552745",
+   "title": "Gourmet Perle",
+   "subtitle": "Multipack 680g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445291577886",
+   "title": "Gourmet Gold",
+   "subtitle": "Lever 85g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445291714229",
+   "title": "Friskies Adult",
+   "subtitle": "Okse&Kylling&Grønnsaker 800g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445291954908",
+   "title": "Gourmet Perle",
+   "subtitle": "Ocean Flakes m/Torsk 85g",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445290752352",
+   "title": "Friskies Våt Hund",
+   "subtitle": "4pk 340g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613034916648",
+   "title": "Adventuros Nuggets",
+   "subtitle": "90g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613039847657",
+   "title": "Latz Sensations",
+   "subtitle": "1020g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613033457272",
+   "title": "Gourmet Gold",
+   "subtitle": "Laks/Kylling 85g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445291578722",
+   "title": "Gourmet Gold",
+   "subtitle": "Laks 85g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613034977014",
+   "title": "Gourmet Mon Petit",
+   "subtitle": "Fisk 300g Nestle",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445291082557",
+   "title": "Våtfor til Katt",
+   "subtitle": "One Adult 340g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445291082687",
+   "title": "Purina One Steril",
+   "subtitle": "340g",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613034916655",
+   "title": "Adventuros Strips",
+   "subtitle": "90g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613039758403",
+   "title": "Latz Agail",
+   "subtitle": "Kjøtt 1020g 12pk Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613287919151",
+   "title": "Gourmet Revelation",
+   "subtitle": "Chicken 114g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613287919182",
+   "title": "Gourmet Revelation",
+   "subtitle": "Salmon 114g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613034976987",
+   "title": "Gourmet Mon Petit",
+   "subtitle": "Kjøtt 300g Nestle",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445290599094",
+   "title": "Latz Agail",
+   "subtitle": "Senior Mix i Gele 1020g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613034994745",
+   "title": "Adventuros Sticks",
+   "subtitle": "Mini 90g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613036632379",
+   "title": "Latz Soup Fish",
+   "subtitle": "Selection 288g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8002205356656",
+   "title": "Purina One",
+   "subtitle": "Laks 800g",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8002205356632",
+   "title": "Purina One",
+   "subtitle": "Adult 800g",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613034977045",
+   "title": "Gourmet Mon Petit",
+   "subtitle": "Chicken 300g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613036632355",
+   "title": "Latz Soup Farm",
+   "subtitle": "Selection 288g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445290599025",
+   "title": "Latz Agail",
+   "subtitle": "Mixed Selection 1020g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613032395377",
+   "title": "Gourmet",
+   "subtitle": "Mousse 12x85g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445290990839",
+   "title": "Adventuros Treats",
+   "subtitle": "Laks 115g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445290023070",
+   "title": "Purina One",
+   "subtitle": "Junior Bifensis 750g",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445290068620",
+   "title": "Friskies",
+   "subtitle": "Laks/Grønnsaker 3,5kg Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445290750389",
+   "title": "Purina One",
+   "subtitle": "Bifensis Steril 1,5kg",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445290011886",
+   "title": "Purina One",
+   "subtitle": "Steril 750g",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445291762664",
+   "title": "Friskies Steril",
+   "subtitle": "Laks&Grønnsaker 1.4kg Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445291955646",
+   "title": "Gourmet Perle",
+   "subtitle": "Ocean Flakes m/Flyndre 85g",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445291889613",
+   "title": "Latz Party Mix",
+   "subtitle": "Winter 60g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613030473381",
+   "title": "Gourmet Perle",
+   "subtitle": "Kylling 85g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613036143004",
+   "title": "Gourmet Perle",
+   "subtitle": "8pk 680g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445292171823",
+   "title": "Friskies Jr",
+   "subtitle": "Katt Kylling&Grønn 800g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445290598851",
+   "title": "Latz Agail",
+   "subtitle": "44pk 3,74kg Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613287187505",
+   "title": "Adventuros Wild",
+   "subtitle": "Chew Medium 200g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445290599131",
+   "title": "Latz Agail",
+   "subtitle": "Junior i Gele 1020g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613287919519",
+   "title": "Gourmet Revelation",
+   "subtitle": "Beef 114g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445291082861",
+   "title": "Latz Tasty Nuggets",
+   "subtitle": "Chicken&Duck 50g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445291082892",
+   "title": "Latz Tasty Nuggets",
+   "subtitle": "Salmon&Trout 50g Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613287482884",
+   "title": "Purina One",
+   "subtitle": "Small Dog Senior 1,5kg Purina",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613033996986",
+   "title": "Friskies Omega",
+   "subtitle": "3kg",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445291146655",
+   "title": "Nescafe Brazil",
+   "subtitle": "10kapsler Nestle",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445291158139",
+   "title": "Nescafe Colombia",
+   "subtitle": "10kapsler Nestle",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7613035605893",
+   "title": "Min Frukt Smoothie",
+   "subtitle": "Eple&Bringebær 90g Nestle",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "store:7613033880537"
+   ],
+   "n": {
+    "kcal": 51.0,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.0,
+    "carbs_g": 11.0,
+    "sugars_g": 10.1,
+    "fibre_g": 2.0,
+    "protein_g": 0.4,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "7613033881824",
+   "title": "Min Frukt Smoothie",
+   "subtitle": "Eple/Pære 6mnd 90g Nestle",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "store:7613033880537"
+   ],
+   "n": {
+    "kcal": 54.0,
+    "fat_g": 0.2,
+    "sat_fat_g": 0.0,
+    "carbs_g": 11.8,
+    "sugars_g": 10.7,
+    "fibre_g": 1.7,
+    "protein_g": 0.3,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "8445291078932",
+   "title": "Nan Pro 1",
+   "subtitle": "fra 0mnd 800g Nestle",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:8445290748492",
+    "store:8445290748133"
+   ],
+   "n": {
+    "kcal": 519.0,
+    "fat_g": 28.0,
+    "sat_fat_g": 2.5,
+    "carbs_g": 57.0,
+    "sugars_g": 57.0,
+    "fibre_g": 1.2,
+    "protein_g": 9.6,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "8445291084711",
+   "title": "Nan Pro 2",
+   "subtitle": "fra 6mnd 800g Nestle",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:8445290748492",
+    "store:8445290748133"
+   ],
+   "n": {
+    "kcal": 500.0,
+    "fat_g": 24.0,
+    "sat_fat_g": 2.3,
+    "carbs_g": 62.0,
+    "sugars_g": 62.0,
+    "fibre_g": 0.4,
+    "protein_g": 8.5,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "5900020035714",
+   "title": "Corn Flakes",
+   "subtitle": "glutenfri 375g Nestle",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:5900020032171"
+   ],
+   "n": {
+    "kcal": 382.0,
+    "fat_g": 1.4,
+    "sat_fat_g": 0.5,
+    "carbs_g": 82.9,
+    "sugars_g": 8.8,
+    "fibre_g": 4.2,
+    "protein_g": 7.4,
+    "salt_g": 1.3
+   }
+  },
+  {
+   "ean": "7613038160023",
+   "title": "Nan Pro 3",
+   "subtitle": "fra 12mnd 800g Nestle",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:8445290748492",
+    "store:8445290748133"
+   ],
+   "n": {
+    "kcal": 483.0,
+    "fat_g": 21.5,
+    "sat_fat_g": 4.5,
+    "carbs_g": 65.0,
+    "sugars_g": 65.0,
+    "fibre_g": 0.2,
+    "protein_g": 7.3,
+    "salt_g": 0.3
+   }
+  },
+  {
+   "ean": "7613038155463",
+   "title": "Nan Pro 4",
+   "subtitle": "fra 18mnd 800g Nestle",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:8445290748492",
+    "store:8445290748133"
+   ],
+   "n": {
+    "kcal": 483.0,
+    "fat_g": 22.0,
+    "sat_fat_g": 4.5,
+    "carbs_g": 65.0,
+    "sugars_g": 65.0,
+    "fibre_g": 0.0,
+    "protein_g": 7.3,
+    "salt_g": 0.25
+   }
+  },
+  {
+   "ean": "8445290448668",
+   "title": "Grande Intenso",
+   "subtitle": "16kapsler Dolce Gusto",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445290439666",
+   "title": "Americano",
+   "subtitle": "16kapsler Dolce Gusto",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445290446244",
+   "title": "Grande",
+   "subtitle": "16kapsler Dolce Gusto",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8445290310286",
+   "title": "Americano Koffeinfri",
+   "subtitle": "16kapsler Dolce Gusto",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "3046920043489",
+   "title": "Lindt Creation",
+   "subtitle": "Creme Brulee Melkesjoko 150g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:3046920047302",
+    "ean:4000539140747",
+    "ean:7610400074384"
+   ],
+   "n": {
+    "kcal": 585.0,
+    "fat_g": 39.0,
+    "sat_fat_g": 24.0,
+    "carbs_g": 52.0,
+    "sugars_g": 50.0,
+    "fibre_g": 1.0,
+    "protein_g": 5.6,
+    "salt_g": 0.25
+   }
+  },
+  {
+   "ean": "3046920028363",
+   "title": "Lindt Excellence",
+   "subtitle": "85% Cacao Dark 100g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:4000539280405",
+    "ean:7610400098670",
+    "ean:7610400113083",
+    "store:3046920029759"
+   ],
+   "n": {
+    "kcal": 584.0,
+    "fat_g": 46.0,
+    "sat_fat_g": 28.0,
+    "carbs_g": 19.0,
+    "sugars_g": 11.0,
+    "protein_g": 12.5,
+    "salt_g": 0.02
+   }
+  },
+  {
+   "ean": "3046920028004",
+   "title": "Lindt Excellence",
+   "subtitle": "70% Cocoa Dark 100g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:4000539280405",
+    "ean:7610400098670",
+    "ean:7610400113083",
+    "store:3046920029759"
+   ],
+   "n": {
+    "kcal": 566.0,
+    "fat_g": 41.0,
+    "sat_fat_g": 24.0,
+    "carbs_g": 34.0,
+    "sugars_g": 30.0,
+    "protein_g": 9.5,
+    "salt_g": 0.1
+   }
+  },
+  {
+   "ean": "3046920028721",
+   "title": "Lindt Excellence",
+   "subtitle": "99% Kakao Mørk",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:4000539280405",
+    "ean:7610400098670",
+    "ean:7610400113083",
+    "store:3046920029759"
+   ],
+   "n": {
+    "kcal": 565.0,
+    "fat_g": 49.0,
+    "sat_fat_g": 29.0,
+    "carbs_g": 9.0,
+    "sugars_g": 0.5,
+    "protein_g": 14.0,
+    "salt_g": 0.06
+   }
+  },
+  {
+   "ean": "7340001802757",
+   "title": "Proteinbar",
+   "subtitle": "Dark Chocolate Mint 55g Barebells",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 192.0,
+    "fat_g": 13.0,
+    "sat_fat_g": 7.0,
+    "carbs_g": 30.0,
+    "sugars_g": 1.3,
+    "fibre_g": 7.2,
+    "protein_g": 36.0,
+    "salt_g": 0.35
+   }
+  },
+  {
+   "ean": "7340131602043",
+   "title": "Nocco",
+   "subtitle": "Raspberry Blast 0,33l boks",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "gymgrossisten-se:https://www.gymgrossisten.com/24-x-nocco-330-ml-12-x-barebells-protein-bar-55-g/SETNOCCOBAREBELLS.html",
+    "openfoodfacts-nordic-global:2000000150762",
+    "ean:7340131603835",
+    "ean:7340131602517",
+    "ean:7340131600056",
+    "ean:7340131600384"
+   ],
+   "n": {
+    "kcal": 0.5,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "9002490269920",
+   "title": "Red Bull",
+   "subtitle": "Sukkerfri 24bx",
+   "why": "several rows match",
+   "rows": [
+    "ean:9002490291235",
+    "ean:9002490200398",
+    "ean:9002490200602"
+   ]
+  },
+  {
+   "ean": "9002490263089",
+   "title": "Red Bull",
+   "subtitle": "Yellow Edition 250mlx4 boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:0000090446399",
+    "ean:0000090446535",
+    "ean:0000090446566",
+    "ean:0000090446573",
+    "ean:0000090446955",
+    "ean:0000090448324"
+   ]
+  },
+  {
+   "ean": "9002490303051",
+   "title": "Red Bull",
+   "subtitle": "Winter Edition u/Sukker 473ml",
+   "why": "several rows match",
+   "rows": [
+    "ean:9002490291235",
+    "ean:9002490200398",
+    "ean:9002490200602"
+   ]
+  },
+  {
+   "ean": "0000090496875",
+   "title": "Red Bull",
+   "subtitle": "Winter Edition u/Sukker 250ml",
+   "why": "several rows match",
+   "rows": [
+    "ean:9002490291235",
+    "ean:9002490200398",
+    "ean:9002490200602"
+   ]
+  },
+  {
+   "ean": "0000090474118",
+   "title": "Red Bull",
+   "subtitle": "Sukkerfri Pink Edition 250ml",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:0000090446399",
+    "ean:0000090446535",
+    "ean:0000090446566",
+    "ean:0000090446573",
+    "ean:0000090446955",
+    "ean:0000090448324"
+   ],
+   "n": {
+    "kcal": 2.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.1
+   }
+  },
+  {
+   "ean": "9002490279837",
+   "title": "Red Bull",
+   "subtitle": "Lilac Edition 473ml",
+   "why": "several rows match",
+   "rows": [
+    "ean:0000090446399",
+    "ean:0000090446535",
+    "ean:0000090446566",
+    "ean:0000090446573",
+    "ean:0000090446955",
+    "ean:0000090448324"
+   ]
+  },
+  {
+   "ean": "0000090474651",
+   "title": "Red Bull",
+   "subtitle": "Sukkerfri Peach Edition 0,25l",
+   "why": "several rows match",
+   "rows": [
+    "ean:9002490291235",
+    "ean:9002490200398",
+    "ean:9002490200602"
+   ]
+  },
+  {
+   "ean": "0000090453212",
+   "title": "Red Bull",
+   "subtitle": "Summer Edition 250ml",
+   "why": "several rows match",
+   "rows": [
+    "ean:0000090446399",
+    "ean:0000090446535",
+    "ean:0000090446566",
+    "ean:0000090446573",
+    "ean:0000090446955",
+    "ean:0000090448324"
+   ]
+  },
+  {
+   "ean": "0000090456794",
+   "title": "Red Bull",
+   "subtitle": "Summer Edition 250ml boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:0000090446399",
+    "ean:0000090446535",
+    "ean:0000090446566",
+    "ean:0000090446573",
+    "ean:0000090446955",
+    "ean:0000090448324"
+   ]
+  },
+  {
+   "ean": "0000090486319",
+   "title": "Red Bull",
+   "subtitle": "Winter Edition 250ml boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:0000090446399",
+    "ean:0000090446535",
+    "ean:0000090446566",
+    "ean:0000090446573",
+    "ean:0000090446955",
+    "ean:0000090448324"
+   ]
+  },
+  {
+   "ean": "9002490251246",
+   "title": "Red Bull",
+   "subtitle": "Vannmelon 473ml boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:0000090446399",
+    "ean:0000090446535",
+    "ean:0000090446566",
+    "ean:0000090446573",
+    "ean:0000090446955",
+    "ean:0000090448324"
+   ]
+  },
+  {
+   "ean": "5060896625638",
+   "title": "Monster",
+   "subtitle": "Full Throttle Zero 0,5l boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:5056784916162",
+    "ean:5056784919170",
+    "ean:5056784919651",
+    "ean:5056784920121",
+    "ean:5060337503099",
+    "ean:5060896624358"
+   ]
+  },
+  {
+   "ean": "5061013940566",
+   "title": "Monster",
+   "subtitle": "Zero Sugar 0,5l boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:5056784916162",
+    "ean:5056784919651",
+    "ean:5060335630971",
+    "ean:5060335630988",
+    "ean:5060337503099",
+    "ean:5060896624358"
+   ]
+  },
+  {
+   "ean": "5056784909140",
+   "title": "Monster",
+   "subtitle": "Valentino Rossi Zs 0,5l boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:5056784916162",
+    "ean:5056784919170",
+    "ean:5056784920121",
+    "ean:5060896624358"
+   ]
+  },
+  {
+   "ean": "5060517887735",
+   "title": "Monster",
+   "subtitle": "Ultra White 0,5lx4 boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:0070847033769",
+    "ean:5056784907962",
+    "ean:5060337502290",
+    "ean:5060337508155",
+    "ean:5060896624426",
+    "ean:5060947549890"
+   ]
+  },
+  {
+   "ean": "5061013940917",
+   "title": "Monster",
+   "subtitle": "Energy Zero 0,5lx4 boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:5056784916162",
+    "ean:5056784919651",
+    "ean:5060335630971",
+    "ean:5060335630988",
+    "ean:5060337503099",
+    "ean:5060896624358"
+   ]
+  },
+  {
+   "ean": "5056784900123",
+   "title": "Monster",
+   "subtitle": "Ripper 0,5l boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:5060166692698",
+    "ean:5060337503129",
+    "ean:5060517885267",
+    "ean:5060947547674",
+    "ean:5061013945219"
+   ]
+  },
+  {
+   "ean": "5056784903766",
+   "title": "Monster",
+   "subtitle": "Ultra Strawberry 0,5l boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:0070847033769",
+    "ean:5056784907962",
+    "ean:5060337502290",
+    "ean:5060337508155",
+    "ean:5060639125760",
+    "ean:5711941280004"
+   ]
+  },
+  {
+   "ean": "5060947541214",
+   "title": "Monster",
+   "subtitle": "Ultra Rosa 0,5l boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:5056784916162",
+    "ean:5056784919170",
+    "ean:5056784919651",
+    "ean:5056784920121",
+    "ean:5060335630971",
+    "ean:5060335630988"
+   ]
+  },
+  {
+   "ean": "5056784907580",
+   "title": "Monster",
+   "subtitle": "Lando Norris Zs 0,5l boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:0070847033769",
+    "ean:5056784907962",
+    "ean:5060337502290",
+    "ean:5060337508155",
+    "ean:5060639125760",
+    "ean:5711941280004"
+   ]
+  },
+  {
+   "ean": "5060639126378",
+   "title": "Monster",
+   "subtitle": "Ultra Paradise 0,5l boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:5056784916162",
+    "ean:5056784919170",
+    "ean:5056784919651",
+    "ean:5056784920121",
+    "ean:5060335630971",
+    "ean:5060335630988"
+   ]
+  },
+  {
+   "ean": "5060947547483",
+   "title": "Monster",
+   "subtitle": "Ultra Peachy Keen 0,5l boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:5056784916162",
+    "ean:5056784919170",
+    "ean:5056784920121",
+    "ean:5060896624358"
+   ]
+  },
+  {
+   "ean": "5056784910023",
+   "title": "Monster",
+   "subtitle": "Ultra Fantasy Ruby Red 0,5l boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:5056784916162",
+    "ean:5056784919170",
+    "ean:5056784919651",
+    "ean:5056784920121",
+    "ean:5060335630971",
+    "ean:5060335630988"
+   ]
+  },
+  {
+   "ean": "5056784912188",
+   "title": "Monster",
+   "subtitle": "Viking Berry 0,5l boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:5060896620985",
+    "ean:5060947542419",
+    "ean:5060947542921",
+    "ean:6430057690338"
+   ]
+  },
+  {
+   "ean": "5060517889937",
+   "title": "Monster",
+   "subtitle": "Mango Loco 0,5l boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:4429422751066",
+    "ean:5060337502900",
+    "ean:5060751211525"
+   ]
+  },
+  {
+   "ean": "5060947544000",
+   "title": "Monster",
+   "subtitle": "Mango Loco 0,5lx4 boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:4429422751066",
+    "ean:5060337502900",
+    "ean:5060751211525"
+   ]
+  },
+  {
+   "ean": "5056784900062",
+   "title": "Monster",
+   "subtitle": "Pacific Punch 500ml",
+   "why": "several rows match",
+   "rows": [
+    "ean:5060166692698",
+    "ean:5060337503129",
+    "ean:5060517885267",
+    "ean:5060947547674",
+    "ean:5061013945219"
+   ]
+  },
+  {
+   "ean": "5060337502269",
+   "title": "Monster",
+   "subtitle": "Ultra Red 0,5l boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:0070847033769",
+    "ean:5056784907962",
+    "ean:5060639125760"
+   ]
+  },
+  {
+   "ean": "5060517887704",
+   "title": "Monster",
+   "subtitle": "Ultra Violet 0,5l boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:5056784919200",
+    "ean:5060335630971",
+    "ean:5060335630988",
+    "ean:5060896625607",
+    "ean:7350150861178"
+   ]
+  },
+  {
+   "ean": "5060639122295",
+   "title": "Monster",
+   "subtitle": "Espresso Milk 250ml boks",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "bodypower:https://www.bodypower.se/drycker-1/energidrycker/monster-energy-green-zerosugar-24x500ml",
+    "ean:0070847032632",
+    "ean:0070847033769",
+    "ean:4018077675584",
+    "ean:4429422751066",
+    "ean:5056784903001"
+   ],
+   "n": {
+    "kcal": 60.0,
+    "fat_g": 2.0,
+    "sat_fat_g": 1.3,
+    "carbs_g": 8.1,
+    "sugars_g": 7.9,
+    "protein_g": 2.2,
+    "salt_g": 0.1
+   }
+  },
+  {
+   "ean": "5060639122325",
+   "title": "Monster",
+   "subtitle": "Espresso Vanilla 250ml boks",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "bodypower:https://www.bodypower.se/drycker-1/energidrycker/monster-energy-green-zerosugar-24x500ml",
+    "ean:0070847032632",
+    "ean:0070847033769",
+    "ean:4018077675584",
+    "ean:4429422751066",
+    "ean:5056784903001"
+   ],
+   "n": {
+    "kcal": 60.0,
+    "fat_g": 2.0,
+    "sat_fat_g": 1.3,
+    "carbs_g": 8.3,
+    "sugars_g": 7.9,
+    "protein_g": 2.2,
+    "salt_g": 0.1
+   }
+  },
+  {
+   "ean": "5060947540705",
+   "title": "Monster",
+   "subtitle": "Mango Loco 0,5lx10 boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:4429422751066",
+    "ean:5060337502900",
+    "ean:5060751211525"
+   ]
+  },
+  {
+   "ean": "5060337509602",
+   "title": "Monster Energy",
+   "subtitle": "Ultra Sitron 0,5l boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:0070847033769",
+    "ean:5056784907962"
+   ]
+  },
+  {
+   "ean": "5060751212447",
+   "title": "Monster Energy",
+   "subtitle": "0,5lx10 boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:5060337502900",
+    "ean:5060751211525",
+    "proteinfabrikken-discontinued:https://www.proteinfabrikken.no/24-x-monster-energy-355-ml-slim-original/FP8765-2.html"
+   ]
+  },
+  {
+   "ean": "7023060231941",
+   "title": "Monster High",
+   "subtitle": ".",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5060947540439",
+   "title": "Energy",
+   "subtitle": "500ml boks 6pk Monster",
+   "why": "several rows match",
+   "rows": [
+    "ean:5060337502900",
+    "ean:5060751211525"
+   ]
+  },
+  {
+   "ean": "9788234108532",
+   "title": "Monstermaskiner",
+   "subtitle": "Tinn Aktivitetsboks",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7072611006361",
+   "title": "Monstermemo",
+   "subtitle": ".",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7070232256202",
+   "title": "Monstera",
+   "subtitle": "Strelitsia Mix 13cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7058020032009",
+   "title": "Monstera",
+   "subtitle": "17cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7310615406245",
+   "title": "Plaster Minions",
+   "subtitle": "20stk Salvequick",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7072770009593",
+   "title": "Timian",
+   "subtitle": "Faustini 550g Ravnsborg",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5054563077530",
+   "title": "Panodil Original",
+   "subtitle": "Smertestillende 500mg 20stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5054563213747",
+   "title": "Voltarol",
+   "subtitle": "Forte Gel 2,32% 30g",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7040881535690",
+   "title": "Ibux Tabletter",
+   "subtitle": "200mg 20stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7040885171283",
+   "title": "Paracet Tablett",
+   "subtitle": "Rund 500mg 20stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7040880013601",
+   "title": "Paracet Tablett",
+   "subtitle": "Avlang 500mg 20stk Weifa",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7040880139769",
+   "title": "Paracet",
+   "subtitle": "Smeltetabletter 250mg 12stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7040880010570",
+   "title": "Bronkyl",
+   "subtitle": "Brusetabletter 10stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7040881063834",
+   "title": "Paracet Mikstur",
+   "subtitle": "24mg 60ml Weifa",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7040880953525",
+   "title": "Ibux Kapsler",
+   "subtitle": "200mg 20stk Weifa",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7040880039007",
+   "title": "Ibux Gel",
+   "subtitle": "5% 50g Weifa",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7040885030788",
+   "title": "Paracet Stikkpille",
+   "subtitle": "Barn 125mg 10stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7040880849705",
+   "title": "Paracet Stikkpille",
+   "subtitle": "Barn 250mg 10stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311250019876",
+   "title": "Nick&Johnny No1",
+   "subtitle": "Crushed Ice Ex Strong",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311250019913",
+   "title": "Nick&Johnny No4",
+   "subtitle": "Americana Ex Strong",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311250013355",
+   "title": "General Classic",
+   "subtitle": "No2 Ex Strong",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311250019869",
+   "title": "Nick&Johnny No2",
+   "subtitle": "Crushed Ice White Ex Strong",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311250019883",
+   "title": "Nick&Johnny No3",
+   "subtitle": "Red Hot Ex Strong",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "3234750047672",
+   "title": "Timian",
+   "subtitle": "15g Albert Ménès",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7029123164911",
+   "title": "Timian",
+   "subtitle": "Økologisk 10g Helios",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5701098263005",
+   "title": "Brillerenseserviet",
+   "subtitle": "30stk Sterling",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7044610876474",
+   "title": "Solo Super",
+   "subtitle": "Julebrus 0,33l boks Sleek",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7044610876146",
+    "ean:7044610876795",
+    "ringnes:https://www.ringnes.no/produkter/solo/solo-super/"
+   ],
+   "n": {
+    "kcal": 1.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 0.1,
+    "salt_g": 0.05
+   }
+  },
+  {
+   "ean": "7044610876658",
+   "title": "Farris Frus",
+   "subtitle": "Bringebær 1,5l flaske",
+   "why": "several rows match",
+   "rows": [
+    "ean:7044610876320",
+    "ean:7044610877020",
+    "ean:7044610877150"
+   ]
+  },
+  {
+   "ean": "7044610876313",
+   "title": "Farris Frus",
+   "subtitle": "Bringebær 0,5l flaske",
+   "why": "several rows match",
+   "rows": [
+    "ean:7044610876320",
+    "ean:7044610877020",
+    "ean:7044610877150"
+   ]
+  },
+  {
+   "ean": "7044615877629",
+   "title": "Farris Frus",
+   "subtitle": "Bringebær 0,33lx6 boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:7044610876320",
+    "ean:7044610877020",
+    "ean:7044610877150"
+   ]
+  },
+  {
+   "ean": "7044610877129",
+   "title": "Farris Frus",
+   "subtitle": "Bringebær 0,33l boks",
+   "why": "several rows match",
+   "rows": [
+    "ean:7044610876320",
+    "ean:7044610877020",
+    "ean:7044610877150"
+   ]
+  },
+  {
+   "ean": "7044610876672",
+   "title": "Farris Frus",
+   "subtitle": "Eple&Kiwi 1,5l flaske",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7044610876320",
+    "ean:7044610877020",
+    "ringnes:https://www.ringnes.no/produkter/farris/farris-frus-mango-mandarin/",
+    "store:7044616877529",
+    "store:7044611877456",
+    "store:7044610877464"
+   ],
+   "n": {
+    "kcal": 1.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.1,
+    "sugars_g": 0.1,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.06
+   }
+  },
+  {
+   "ean": "7044610876665",
+   "title": "Farris Frus",
+   "subtitle": "Eple&Kiwi 0,5l flaske",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7044610876320",
+    "ean:7044610877020",
+    "ringnes:https://www.ringnes.no/produkter/farris/farris-frus-mango-mandarin/",
+    "store:7044616877529",
+    "store:7044611877456",
+    "store:7044610877464"
+   ],
+   "n": {
+    "kcal": 1.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.1,
+    "sugars_g": 0.1,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.06
+   }
+  },
+  {
+   "ean": "7044614877125",
+   "title": "Farris Frus",
+   "subtitle": "Eple&Kiwi 0,33lx6 boks",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7044610876320",
+    "ean:7044610877020",
+    "ringnes:https://www.ringnes.no/produkter/farris/farris-frus-mango-mandarin/",
+    "store:7044616877529",
+    "store:7044611877456",
+    "store:7044610877464"
+   ],
+   "n": {
+    "kcal": 1.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.1,
+    "sugars_g": 0.1,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.06
+   }
+  },
+  {
+   "ean": "7044613877126",
+   "title": "Farris Frus",
+   "subtitle": "Eple&Kiwi 0,33l boks",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7044610876320",
+    "ean:7044610877020",
+    "ringnes:https://www.ringnes.no/produkter/farris/farris-frus-mango-mandarin/",
+    "store:7044616877529",
+    "store:7044611877456",
+    "store:7044610877464"
+   ],
+   "n": {
+    "kcal": 1.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.1,
+    "sugars_g": 0.1,
+    "fibre_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.06
+   }
+  },
+  {
+   "ean": "7071281253273",
+   "title": "Viking Alpaca Bris",
+   "subtitle": "327 Jeansblå",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0000023814610",
+   "title": "Grillbrisket",
+   "subtitle": "Eldhusrøykt Ca1,5kg Vossakjøt",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 110.0,
+    "fat_g": 17.0,
+    "sat_fat_g": 7.6,
+    "carbs_g": 0.4,
+    "sugars_g": 0.1,
+    "protein_g": 22.0,
+    "salt_g": 1.8
+   }
+  },
+  {
+   "ean": "7311043030637",
+   "title": "Tøymykner",
+   "subtitle": "Morgenbris 750ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7038010067365",
+   "title": "Iste Fersken",
+   "subtitle": "1l Sunniva",
+   "why": "several rows match",
+   "rows": [
+    "tine:https://www.tine.no/merkevarer/sunniva-iste/produkter/sunniva-iste-fersken",
+    "ean:7038010063350"
+   ]
+  },
+  {
+   "ean": "7038010067327",
+   "title": "Iste Fersken",
+   "subtitle": "0,5l flaske Sunniva",
+   "why": "several rows match",
+   "rows": [
+    "tine:https://www.tine.no/merkevarer/sunniva-iste/produkter/sunniva-iste-fersken",
+    "ean:7038010063350"
+   ]
+  },
+  {
+   "ean": "7313619002789",
+   "title": "Vitamin Smoothie",
+   "subtitle": "300ml Brämhults",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7313619001454"
+   ],
+   "n": {
+    "kcal": 55.0,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.1,
+    "carbs_g": 11.0,
+    "sugars_g": 11.0,
+    "protein_g": 0.8,
+    "salt_g": 0.01
+   }
+  },
+  {
+   "ean": "7394376624698",
+   "title": "Imat",
+   "subtitle": "Oatly 250ml",
+   "why": "several rows match",
+   "rows": [
+    "ean:0000030950443",
+    "ean:7394376615771"
+   ]
+  },
+  {
+   "ean": "7394376624025",
+   "title": "Ikaffe",
+   "subtitle": "Coconut Flavour 1l Oatly",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7394376618048",
+    "ean:7394376621666",
+    "ean:7394376622816",
+    "ean:7394376623325"
+   ],
+   "n": {
+    "kcal": 38.0,
+    "fat_g": 1.6,
+    "sat_fat_g": 0.1,
+    "carbs_g": 5.2,
+    "sugars_g": 3.3,
+    "fibre_g": 0.4,
+    "protein_g": 0.5,
+    "salt_g": 0.1
+   }
+  },
+  {
+   "ean": "7394376615740",
+   "title": "Havregurt",
+   "subtitle": "Naturell 1kg Oatly",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7394376616716"
+   ],
+   "n": {
+    "kcal": 82.0,
+    "fat_g": 3.0,
+    "sat_fat_g": 0.3,
+    "carbs_g": 12.0,
+    "sugars_g": 4.4,
+    "fibre_g": 0.9,
+    "protein_g": 1.4,
+    "salt_g": 0.1
+   }
+  },
+  {
+   "ean": "7394376616723",
+   "title": "Havregurt",
+   "subtitle": "Vanilje 1kg Oatly",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7394376616716"
+   ],
+   "n": {
+    "kcal": 88.0,
+    "fat_g": 2.1,
+    "sat_fat_g": 0.2,
+    "carbs_g": 15.1,
+    "sugars_g": 7.6,
+    "fibre_g": 0.9,
+    "protein_g": 1.1,
+    "salt_g": 0.06
+   }
+  },
+  {
+   "ean": "7394376616945",
+   "title": "Havregurt",
+   "subtitle": "Turkisk 500g Oatly",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7394376616716"
+   ],
+   "n": {
+    "kcal": 148.0,
+    "fat_g": 10.0,
+    "sat_fat_g": 0.8,
+    "carbs_g": 11.0,
+    "sugars_g": 4.1,
+    "fibre_g": 0.9,
+    "protein_g": 3.3,
+    "salt_g": 0.11
+   }
+  },
+  {
+   "ean": "5411188110743",
+   "title": "Plantgurt",
+   "subtitle": "750ml Blåbær Alpro",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:5411188125839",
+    "ean:5411188138952",
+    "ean:5411188141174",
+    "store:5411188110712"
+   ],
+   "n": {
+    "kcal": 70.0,
+    "fat_g": 1.9,
+    "sat_fat_g": 0.3,
+    "carbs_g": 8.5,
+    "sugars_g": 8.3,
+    "fibre_g": 1.1,
+    "protein_g": 3.6,
+    "salt_g": 0.15
+   }
+  },
+  {
+   "ean": "5411188138013",
+   "title": "Plantgurt",
+   "subtitle": "Lemon-Lime 400g Alpro",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:5411188125839",
+    "ean:5411188138952",
+    "ean:5411188141174",
+    "store:5411188110712"
+   ],
+   "n": {
+    "kcal": 70.0,
+    "fat_g": 2.0,
+    "sat_fat_g": 0.4,
+    "carbs_g": 8.4,
+    "sugars_g": 8.4,
+    "fibre_g": 0.8,
+    "protein_g": 3.6,
+    "salt_g": 0.2
+   }
+  },
+  {
+   "ean": "7090029795394",
+   "title": "Stjørdahls",
+   "subtitle": "0,5l flaske Klostergården",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7044610876078",
+   "title": "E.C Dahls Ramp",
+   "subtitle": "Pale Ale 0,44l boks",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7044611876459",
+   "title": "Dahls Lite",
+   "subtitle": "Sitrus 0,5lx6 boks",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7044610872681",
+   "title": "E.C Dahls Juleøl",
+   "subtitle": "0,33l flaske",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7044610873404",
+   "title": "E.C Dahls Reina",
+   "subtitle": "Saison 0,33l flaske",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7044610873411",
+   "title": "E.C Dahls York Ipa",
+   "subtitle": "0,33l flaske",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8435495818038",
+   "title": "A+ Active 4",
+   "subtitle": "White Pods 14stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8435495818236",
+   "title": "A+ Active 4",
+   "subtitle": "Color Pods 14stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5000204020045",
+   "title": "Wc Active",
+   "subtitle": "Clean Marine 38,6g Duck",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5000204020076",
+   "title": "Wc Active",
+   "subtitle": "Clean Dazzling Petals 38,6g Duck",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5000204724486",
+   "title": "Wc Active",
+   "subtitle": "Lavender m/Holder 55ml Wc Duck",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5000204816488",
+   "title": "Wc Active",
+   "subtitle": "Marine m/Holder 55ml Wc Duck",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "3600542258173",
+   "title": "Garnier Skinactiv",
+   "subtitle": "Night-Time Tissue Mask 32g",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5000204020106",
+   "title": "Active Clean",
+   "subtitle": "Pine 38,6g Duck",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5000204020137",
+   "title": "Active Clean",
+   "subtitle": "Wc-Blokk Tropical Sunshine 38,6g",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028414010777",
+   "title": "Herresokk Active",
+   "subtitle": "Wool 41-45 Pierre Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5060519140753",
+   "title": "Turmeric Active Te",
+   "subtitle": "20pos Pukka",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5000204423150",
+   "title": "Active Wc-Gel",
+   "subtitle": "Mint Matrix 750ml Duck",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "3600542154666",
+   "title": "Garnier Pure Activ",
+   "subtitle": "Anti-Blackhead Nose-Strip",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5000204590463",
+   "title": "Active Cool Mist",
+   "subtitle": "Holder 55ml Wc Duck",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028414010760",
+   "title": "Socks Active Wool",
+   "subtitle": "Mix 37-40 La Mote",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028414010784",
+   "title": "Socks Active Wool",
+   "subtitle": "Mix 29-32 La Mote",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "3600541744417",
+   "title": "Garnier Skin Active",
+   "subtitle": "Micellar Water Oil In Water 400ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7322540016413",
+   "title": "Tena Men Active Fit",
+   "subtitle": "L2, 10stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0076840600021",
+   "title": "Ben&Jerry's",
+   "subtitle": "Cookie Dough 500ml",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:8711200316571",
+    "ean:8711200316625",
+    "ean:8711200589272",
+    "ean:8711200590810",
+    "ean:8711327317925",
+    "ean:8711327370708"
+   ],
+   "n": {
+    "kcal": 270.0,
+    "fat_g": 15.0,
+    "sat_fat_g": 9.0,
+    "carbs_g": 30.0,
+    "sugars_g": 25.0,
+    "protein_g": 4.0,
+    "salt_g": 0.17
+   }
+  },
+  {
+   "ean": "8711327480445",
+   "title": "Magnum Double Gold",
+   "subtitle": "Ruby Berries And Cream 440ml",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "store:8711327480438"
+   ],
+   "n": {
+    "kcal": 195.0,
+    "fat_g": 11.0,
+    "sat_fat_g": 6.7,
+    "carbs_g": 21.0,
+    "sugars_g": 18.0,
+    "protein_g": 3.1,
+    "salt_g": 0.12
+   }
+  },
+  {
+   "ean": "5056051802266",
+   "title": "Tyrrells Chips",
+   "subtitle": "Trøffel&Salt 150g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7050122301168"
+   ],
+   "n": {
+    "kcal": 497.0,
+    "fat_g": 26.9,
+    "sat_fat_g": 3.1,
+    "carbs_g": 51.9,
+    "sugars_g": 0.3,
+    "fibre_g": 0.0,
+    "protein_g": 8.4,
+    "salt_g": 1.3
+   }
+  },
+  {
+   "ean": "5056051802419",
+   "title": "Tyrrells Chips",
+   "subtitle": "Veg Crisps 125g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7050122301168"
+   ],
+   "n": {
+    "kcal": 506.0,
+    "fat_g": 32.1,
+    "sat_fat_g": 3.5,
+    "carbs_g": 44.9,
+    "sugars_g": 23.9,
+    "fibre_g": 0.0,
+    "protein_g": 4.1,
+    "salt_g": 1.2
+   }
+  },
+  {
+   "ean": "5056051802440",
+   "title": "Tyrrells Chips",
+   "subtitle": "Søtpotet Saltet 125g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7050122301168"
+   ],
+   "n": {
+    "kcal": 528.0,
+    "fat_g": 34.0,
+    "sat_fat_g": 3.7,
+    "carbs_g": 48.1,
+    "sugars_g": 15.7,
+    "fibre_g": 0.0,
+    "protein_g": 3.9,
+    "salt_g": 0.5
+   }
+  },
+  {
+   "ean": "5060042641406",
+   "title": "Tyrrells Chips",
+   "subtitle": "Cider Vinegar 150g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7050122301168"
+   ],
+   "n": {
+    "kcal": 488.0,
+    "fat_g": 25.9,
+    "sat_fat_g": 2.8,
+    "carbs_g": 56.0,
+    "sugars_g": 1.7,
+    "protein_g": 6.3,
+    "salt_g": 1.8
+   }
+  },
+  {
+   "ean": "5060042641413",
+   "title": "Tyrrells Chips",
+   "subtitle": "Sweet Chilli 150g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7050122301168"
+   ],
+   "n": {
+    "kcal": 503.0,
+    "fat_g": 28.2,
+    "sat_fat_g": 3.0,
+    "carbs_g": 53.1,
+    "sugars_g": 4.5,
+    "fibre_g": 0.0,
+    "protein_g": 6.5,
+    "salt_g": 1.1
+   }
+  },
+  {
+   "ean": "5060042641420",
+   "title": "Tyrrells Chips",
+   "subtitle": "Sea Salt&Black Pepper 150g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7050122301168"
+   ],
+   "n": {
+    "kcal": 496.0,
+    "fat_g": 27.2,
+    "sat_fat_g": 2.9,
+    "carbs_g": 53.4,
+    "sugars_g": 1.4,
+    "protein_g": 6.8,
+    "salt_g": 1.3
+   }
+  },
+  {
+   "ean": "5060042641437",
+   "title": "Tyrrells Chips",
+   "subtitle": "Cheddar 150g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7050122301168"
+   ],
+   "n": {
+    "kcal": 508.0,
+    "fat_g": 29.1,
+    "sat_fat_g": 3.5,
+    "carbs_g": 52.8,
+    "sugars_g": 3.9,
+    "protein_g": 7.0,
+    "salt_g": 1.3
+   }
+  },
+  {
+   "ean": "7071688003518",
+   "title": "Tynn&Sprø",
+   "subtitle": "Havsalt&Pepper 150g Sørlandschips",
+   "why": "several rows match",
+   "rows": [
+    "ean:7071688003082",
+    "ean:7071688003525"
+   ]
+  },
+  {
+   "ean": "7041015018119",
+   "title": "Sørlandsis",
+   "subtitle": "Bjørnebær&Eggelikør 1l Heo",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7041013181112",
+    "ean:7041013185110",
+    "ean:7041013186117",
+    "ean:7041013187114",
+    "ean:7041015010113",
+    "ean:7041015011110"
+   ],
+   "n": {
+    "kcal": 199.0,
+    "fat_g": 9.4,
+    "sat_fat_g": 6.2,
+    "carbs_g": 24.2,
+    "sugars_g": 24.2,
+    "protein_g": 3.9,
+    "salt_g": 0.14
+   }
+  },
+  {
+   "ean": "7090045440773",
+   "title": "Sørlandsgull",
+   "subtitle": "Golden Ale 0,33l flaske Drum Brew",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7072130044899",
+   "title": "Hornsalt",
+   "subtitle": "Mors Hjemmebakte 65g Idun",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "9788241963131",
+   "title": "Stiklinger",
+   "subtitle": "Potteplanter og Frø",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "9788234109775",
+   "title": "Cozy Hekling.",
+   "subtitle": "Søte Figurer",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7046110321812",
+   "title": "Tøymykner Sparkling",
+   "subtitle": "490ml Comfort",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7090041950283",
+   "title": "Hvaler Pils",
+   "subtitle": "2l flaske Bryggeriet På Hvaler",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7090041950054",
+   "title": "Hvaler Juleøl",
+   "subtitle": "0,75l flaske Kofoed",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "9788283132823",
+   "title": "Når Hvalene Synger",
+   "subtitle": ".",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0000020830140",
+   "title": "Hvalkjøtt",
+   "subtitle": "Lettrøkt Ca200g Myklebust",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 166.0,
+    "fat_g": 2.4,
+    "sat_fat_g": 0.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "fibre_g": 0.0,
+    "protein_g": 23.5,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "0048327203520",
+   "title": "Olivenolje",
+   "subtitle": "Ex.Virgin 500ml Ybarra",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:5201671001159"
+   ],
+   "n": {
+    "kcal": 900.0,
+    "fat_g": 100.0,
+    "sat_fat_g": 15.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "8718951424180",
+   "title": "Palmolive Dusjsåpe",
+   "subtitle": "Alluring Love 250ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8714789733241",
+   "title": "Palmolive Dusj",
+   "subtitle": "Orchid 500ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951127388",
+   "title": "Palmolive Dusj",
+   "subtitle": "Camellia Oil&Almond 500ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951456860",
+   "title": "Palmolive Dusjsåpe",
+   "subtitle": "Wellness Mix",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8714789732909",
+   "title": "Palmolive Dusj",
+   "subtitle": "Naturals Ass.Dufter 250ml Palmolive Palmolive Palm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951128118",
+   "title": "Palmolive Roll-On",
+   "subtitle": "Orkide 50ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0000057509945",
+   "title": "Oliver Twist",
+   "subtitle": "Wintergreen 7g",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0000057509990",
+   "title": "Oliver Twist",
+   "subtitle": "Frosted Skråtobakk 7g",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0000057125619",
+   "title": "Oliver Twist",
+   "subtitle": "Original",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0000057125626",
+   "title": "Oliver Twist",
+   "subtitle": "Tropical",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0000057125633",
+   "title": "Oliver Twist",
+   "subtitle": "Black",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7388296416907",
+   "title": "Olive",
+   "subtitle": ".",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8699433691200",
+   "title": "Olivenolje",
+   "subtitle": "Ekstra Virgin 750ml Palermo",
+   "why": "label kcal does not match protein, carbs and fat",
+   "n": {
+    "kcal": 819.0,
+    "fat_g": 21.0,
+    "sat_fat_g": 9.0,
+    "carbs_g": 0.0,
+    "sugars_g": 0.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "9788272018534",
+   "title": "Klopps Liverpool",
+   "subtitle": "Böcker",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "9781807202576",
+   "title": "Liverpool 2027",
+   "subtitle": "Bordkalender",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7072088000954",
+   "title": "Liverpool Lager",
+   "subtitle": "0,33l boks Lindesnes Brygghus",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7090038860045",
+   "title": "Liverbirds Fatøl",
+   "subtitle": "0,33l flaske Hunsfos Bryggeri",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7090038930342",
+   "title": "Liverbirds Asker",
+   "subtitle": "0,44l boks Wettre Bryggeri",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7072088001210",
+   "title": "Liverpool Ale",
+   "subtitle": "0,33l boks Lindesnes Brygghus",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0000059050612",
+   "title": "Palmolive Roll-On",
+   "subtitle": "Men Sport 50ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951001527",
+   "title": "Palmolive Dusj",
+   "subtitle": "Vitality Mix 250ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951001558",
+   "title": "Palmolive Dusj",
+   "subtitle": "Relax Ass.Dufter 250ml Palmolive Palmolive Palmoli",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951181595",
+   "title": "Palmolive Håndsåpe",
+   "subtitle": "Plus Lotion Ass.Dufter 250ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951299146",
+   "title": "Palmolive Dusj",
+   "subtitle": "Naturals Pure Mix 250ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951346413",
+   "title": "Palmolive Dusj",
+   "subtitle": "Wellness Algae 250ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951366770",
+   "title": "Palmolive Roll-On",
+   "subtitle": "Pure 50ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8714789732923",
+   "title": "Palmolive Dusj",
+   "subtitle": "Milk Naturals Ass.Dufter 250ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "9788253554471",
+   "title": "Livets Utrolige",
+   "subtitle": "Opprinnelse",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "0063562519977",
+   "title": "Oliven-Skje",
+   "subtitle": "Rustfritt Stål Trudeau",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951181809",
+   "title": "Palmolive Dusj Oil",
+   "subtitle": "Aroma Ass.Dufter 250ml Palmolive Palmolive Palmoli",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951182301",
+   "title": "Palmolive Dusj Oil",
+   "subtitle": "So Fabulous 250ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951425583",
+   "title": "Dusjsåpe",
+   "subtitle": "Smooth Butter 250ml Palmolive",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951843554",
+   "title": "Dusjsåpe",
+   "subtitle": "Vanilla 250ml Ltd.Edt Palmolive",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8714789732879",
+   "title": "Dusjsåpe",
+   "subtitle": "Milk&Honey 250ml Palmolive",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951685253",
+   "title": "Dusjsåpe",
+   "subtitle": "Honey 500ml Palmolive",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8714789733104",
+   "title": "Dusjsåpe",
+   "subtitle": "Men Refreshing 500ml Palmolive",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951685291",
+   "title": "Dusjsåpe",
+   "subtitle": "Fresh Olive 500ml Palmolive",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951730489",
+   "title": "Dusjsåpe",
+   "subtitle": "Massage Scrub 250ml Palmolive",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8714789526478",
+   "title": "Dusjsåpe",
+   "subtitle": "Naturals Milk&Olive 750ml Palmolive",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951528208",
+   "title": "Dusjsåpe",
+   "subtitle": "Naturals Kids 250ml Palmolive",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951682016",
+   "title": "Håndsåpe",
+   "subtitle": "Refill Rose Peony 500ml Palmolive",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8003520029157",
+   "title": "Håndsåpe",
+   "subtitle": "Refill Milk&Honey 500ml Palmolive",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951197060",
+   "title": "Håndsåpe",
+   "subtitle": "Milk&Honey 300ml Palmolive",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8714789834252",
+   "title": "Håndsåpe Luxury",
+   "subtitle": "Raspb&Blackcurrant 250ml Palmolive",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951685611",
+   "title": "Håndsåpe",
+   "subtitle": "Peony 500ml Pumpe Palmolive",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951128088",
+   "title": "Deodorant",
+   "subtitle": "Roll-On Happy Palmolive",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951128170",
+   "title": "Deodorant",
+   "subtitle": "Roll-On Anti-Stress Palmolive",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951128279",
+   "title": "Roll-On",
+   "subtitle": "Pure Artic 50ml Palmolive",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8718951681965",
+   "title": "Håndsåpe",
+   "subtitle": "Refill Lavender&Bergamot 500ml Palm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028416502010",
+   "title": "Wool Beanie Lue",
+   "subtitle": "Grey Melange Pierre Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028416502034",
+   "title": "Wool Gloves",
+   "subtitle": "Grey Melange Pierre Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028416502362",
+   "title": "Wool Gloves",
+   "subtitle": "Rust Melange Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028416007379",
+   "title": "Wool Top Sport",
+   "subtitle": "Green Melange S Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028416007386",
+   "title": "Wool Top Sport",
+   "subtitle": "Green Melange M Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028416007393",
+   "title": "Wool Top Sport",
+   "subtitle": "Green Melange L Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028416007478",
+   "title": "Wool Longs Sport",
+   "subtitle": "Green Melange S Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028416007485",
+   "title": "Wool Longs Sport",
+   "subtitle": "Green Melange M Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028416007492",
+   "title": "Wool Longs Sport",
+   "subtitle": "Green Melange L Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028416008093",
+   "title": "Wool Top Sports",
+   "subtitle": "Women Melange S Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028416008116",
+   "title": "Wool Top Sport",
+   "subtitle": "Women Melange L Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028418307088",
+   "title": "Boxer Wool Sport",
+   "subtitle": "Green Melange S Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028418307095",
+   "title": "Boxer Wool Sport",
+   "subtitle": "Green Melange M Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028418307101",
+   "title": "Boxer Wool Sports",
+   "subtitle": "Green Melange L Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028415032310",
+   "title": "Truse High Waist",
+   "subtitle": "Grey Melange M Pierre Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028415032327",
+   "title": "Truse High Waist",
+   "subtitle": "Grey Melange L Pierre Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7029340103977",
+   "title": "Wool Long Sleeve",
+   "subtitle": "Grey Melange M Pierre Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7029340103984",
+   "title": "Wool Long Sleeve",
+   "subtitle": "Grey Melange L Pierre Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7029340104929",
+   "title": "Wool Longs Men",
+   "subtitle": "Grey Melange S Pierre Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7029340104943",
+   "title": "Wool Longs Men",
+   "subtitle": "Grey Melange L Pierre Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028416007409",
+   "title": "Wool Top Sport",
+   "subtitle": "Green Melange Xl Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028416007508",
+   "title": "Wool Longs Sport",
+   "subtitle": "Green Melange Xl Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028416008123",
+   "title": "Wool Top Sport",
+   "subtitle": "Women Melange Xl Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028418307118",
+   "title": "Boxer Sport Wool",
+   "subtitle": "Green Melange Xl Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028419005983",
+   "title": "Wool Top",
+   "subtitle": "Melange 134-140 Pierre Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028419005990",
+   "title": "Wool Top",
+   "subtitle": "Melange 146-152 Pierre Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028419006003",
+   "title": "Wool Top",
+   "subtitle": "Melange 158-164 Pierre Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028419503878",
+   "title": "Wool Long Sleeve",
+   "subtitle": "Rust Melange S/M Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028419503885",
+   "title": "Wool Long Sleeve",
+   "subtitle": "Rust Melange M/L Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028416502270",
+   "title": "Wool Beanie Sport",
+   "subtitle": "Red Melange Onesize Pierre Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028416502294",
+   "title": "Wool Tube Sport",
+   "subtitle": "Red Melange Onesize Pierre Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028415032334",
+   "title": "Truse High Waist",
+   "subtitle": "Grey Melange Xl Pierre Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028416008109",
+   "title": "Wool Top Sports",
+   "subtitle": "Women Red Melange M Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028418308030",
+   "title": "Sport Boxer Dame",
+   "subtitle": "Wool Red Melange M Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028418308047",
+   "title": "Boxer Sport Women",
+   "subtitle": "Wool Red Melange L Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028419503892",
+   "title": "Wool Long Sleeve",
+   "subtitle": "Rust Melange L/XL Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028418307873",
+   "title": "Sport Bra",
+   "subtitle": "Wool Red Melange S Pierre Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028418307880",
+   "title": "Sport Bra",
+   "subtitle": "Wool Red Melange M Pierre Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028418307897",
+   "title": "Sport Bra",
+   "subtitle": "Wool Red Melange L Pierre Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028418308023",
+   "title": "Sport Boxer Dame",
+   "subtitle": "Wool Red Melange S Pierre Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028418308054",
+   "title": "Sports Boxer Women",
+   "subtitle": "Wool Red Melange Xl Pierre-Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7028418307903",
+   "title": "Sport Bra",
+   "subtitle": "Wool Red Melange Xl Pierre Robert",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7023060133702",
+   "title": "Stampelang",
+   "subtitle": "med Babblarna",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7039281547242",
+   "title": "Agurk",
+   "subtitle": "Snack 200g",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "0299000049021",
+   "title": "Agurk",
+   "subtitle": "Økologisk stykk Import Vilje",
+   "why": "store commodity (loose produce, butcher meat): not added"
+  },
+  {
+   "ean": "7316191600282",
+   "title": "Slangeblåser",
+   "subtitle": "6stk Party",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7316191810995",
+   "title": "Slangeblåse",
+   "subtitle": "Striper 4stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7316190214848",
+   "title": "Slangeblåser",
+   "subtitle": "17.Mai 4stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7316191811336",
+   "title": "Kakelys Lange",
+   "subtitle": "12stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7316191812135",
+   "title": "Slangeblåse Grønn",
+   "subtitle": "4stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7316198134902",
+   "title": "Vanter Lange",
+   "subtitle": "Sort Dame",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7045010003675",
+   "title": "American Bbq",
+   "subtitle": "45g glass Hindu",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5010338012663",
+   "title": "Spisepinner",
+   "subtitle": "8par Blue Dragon",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "4052899390072",
+   "title": "Lyspære Led",
+   "subtitle": "Superstar Mr16 35 5w Gu5,3 Dim",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "4099854457012",
+   "title": "Led Spot",
+   "subtitle": "Mr16 35 Dim 927 Gu5.3 Osram",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "4058075433083",
+   "title": "Lyspære Led",
+   "subtitle": "Spot Mr11 20 Dim Gu4 Osram",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7037610136914",
+   "title": "Nudler i Kopp",
+   "subtitle": "Pepperbiff 65g Mr.Lee",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7039010541893"
+   ],
+   "n": {
+    "kcal": 439.0,
+    "fat_g": 16.0,
+    "sat_fat_g": 7.6,
+    "carbs_g": 64.0,
+    "sugars_g": 1.2,
+    "fibre_g": 0.4,
+    "protein_g": 8.5,
+    "salt_g": 4.8
+   }
+  },
+  {
+   "ean": "7310617311868",
+   "title": "Lano Dusjsåpe",
+   "subtitle": "250ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7310617311882",
+   "title": "Lano Dusjsåpe",
+   "subtitle": "Refill 250ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7310617311820",
+   "title": "Lano Dusj 2i1",
+   "subtitle": "Mild Parfymefri 250ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7310617311875",
+   "title": "Lano Håndsåpe",
+   "subtitle": "Refill 300ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7310617311851",
+   "title": "Lano Håndsåpe",
+   "subtitle": "300ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7310617311936",
+   "title": "Lano Håndsåpe",
+   "subtitle": "Duftverden Mix 300ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7310617312438",
+   "title": "Lano Håndsåpe",
+   "subtitle": "Mandel&Honning Refil 300ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7310617312421",
+   "title": "Lano Håndsåpe",
+   "subtitle": "Eple&Bringebær 300ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7310617312445",
+   "title": "Lano Håndsåpe",
+   "subtitle": "Lavendel Refil 300ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7310617311837",
+   "title": "Lano Håndsåpe",
+   "subtitle": "Parfymefri Refill 300ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7310617311943",
+   "title": "Lano Badeskum",
+   "subtitle": "500ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7046110049303",
+   "title": "Lano Såpe",
+   "subtitle": "2x125g",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7058020006642",
+   "title": "Amaryllis",
+   "subtitle": "12cm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7039317007351",
+   "title": "Bixit",
+   "subtitle": "Sjokolade 200g Sætre",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7039317007412",
+    "matvaretabellen:05.221",
+    "saetre:https://www.saetre.no/product/bixit-sjokolade-2/"
+   ],
+   "n": {
+    "kcal": 488.0,
+    "fat_g": 22.0,
+    "sat_fat_g": 7.9,
+    "carbs_g": 61.0,
+    "sugars_g": 31.0,
+    "fibre_g": 5.7,
+    "protein_g": 7.6,
+    "salt_g": 0.81
+   }
+  },
+  {
+   "ean": "7316191804505",
+   "title": "Partyvimpel",
+   "subtitle": "Ballerina Party",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5319990166036",
+   "title": "Fotballer",
+   "subtitle": "Ass Farger 230mm",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "5714156235210",
+   "title": "Tørketrommelballer",
+   "subtitle": "i Ull 3stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "4893334285252",
+   "title": "Badmintonballer",
+   "subtitle": "4stk",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7035620059162",
+   "title": "Vilje Balsam",
+   "subtitle": "Parfymefri 275ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8720181766213",
+   "title": "Neutral Balsam",
+   "subtitle": "u/ Parfyme 250ml",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7702018477418",
+   "title": "Blue 3 Høvel",
+   "subtitle": "Smooth Engangs 4stk Gillette",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7702018426263",
+   "title": "Venus Høvel",
+   "subtitle": "Tropical Engangs 3stk Gillette",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "3014260239626",
+   "title": "Barberhøvel",
+   "subtitle": "Mach3 2blad Gillette",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7702018575350",
+   "title": "Venus Barberhøvel",
+   "subtitle": "Smooth Sensitive 2up Gillette",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8700216568944",
+   "title": "Venus Høvel",
+   "subtitle": "Pro Smooth Sensitive Gillette",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7702018583867",
+   "title": "Venus Høvel",
+   "subtitle": "Comfortglide Coconut",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7702018576982",
+   "title": "Venus Høvel",
+   "subtitle": "Comfglide Breeze 2up",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7702018514472",
+   "title": "Barberhøvel",
+   "subtitle": "Mach3 Turbo 2up Gillette",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7702018605255",
+   "title": "Barberhøvel",
+   "subtitle": "Labs Silver 1stk Gillette",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "8001090446893",
+   "title": "Barberhøvel",
+   "subtitle": "Proglide Flexball Power 1up",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7702018334919",
+   "title": "Venus Høvel",
+   "subtitle": "Comfortglidebreeze 2blad Gillette",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7702018458110",
+   "title": "Fusion5 Høvel",
+   "subtitle": "2up 1stk Gillette",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "7311250014635",
+   "title": "Göteborgs Rapé No1",
+   "subtitle": "Slim White",
+   "why": "no label numbers"
+  },
+  {
+   "ean": "6416453041264",
+   "title": "Tutti Frutti",
+   "subtitle": "Rasperry 90g Fazer",
+   "why": "several rows match",
+   "rows": [
+    "ean:6416453033566",
+    "ean:6416453033979",
+    "ean:6416453035966",
+    "ean:6416453036376",
+    "ean:6416453038295",
+    "ean:6416453041332"
+   ]
+  },
+  {
+   "ean": "6416453020344",
+   "title": "Dumle",
+   "subtitle": "Smooth 41g Fazer",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:0000000535540",
+    "ean:0810000691227",
+    "ean:5766632533532",
+    "ean:6416453017450",
+    "ean:6416453034426",
+    "ean:6416453039872"
+   ],
+   "n": {
+    "kcal": 450.0,
+    "fat_g": 19.0,
+    "sat_fat_g": 12.0,
+    "carbs_g": 63.0,
+    "sugars_g": 58.0,
+    "protein_g": 5.2,
+    "salt_g": 0.24
+   }
+  },
+  {
+   "ean": "6416453055414",
+   "title": "Tutti Frutti Remix",
+   "subtitle": "Boo Sour 90g Fazer",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:6416453041332",
+    "ean:6416453049840",
+    "ean:6416453066595"
+   ],
+   "n": {
+    "kcal": 356.0,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.5,
+    "carbs_g": 87.0,
+    "sugars_g": 51.0,
+    "protein_g": 2.6,
+    "salt_g": 0.36
+   }
+  },
+  {
+   "ean": "6416453041271",
+   "title": "Tutti Frutti",
+   "subtitle": "Sour Melon 90g Fazer",
+   "why": "several rows match",
+   "rows": [
+    "ean:6416453033566",
+    "ean:6416453035966",
+    "ean:6416453038295",
+    "ean:6416453041332"
+   ]
+  },
+  {
+   "ean": "6416453028210",
+   "title": "Tyrkisk Peber",
+   "subtitle": "Original 120g Fazer",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:6411401028373",
+    "ean:6411401061066",
+    "ean:6430064403570"
+   ],
+   "n": {
+    "kcal": 364.0,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.0,
+    "carbs_g": 89.0,
+    "sugars_g": 72.0,
+    "protein_g": 0.5,
+    "salt_g": 1.56
+   }
+  },
+  {
+   "ean": "6416453028562",
+   "title": "Tyrkisk Peber",
+   "subtitle": "Hot Rings 120g Fazer",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:6411401028373",
+    "ean:6411401061066",
+    "ean:6430064403570"
+   ],
+   "n": {
+    "kcal": 361.0,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.5,
+    "carbs_g": 89.0,
+    "sugars_g": 56.0,
+    "protein_g": 0.5,
+    "salt_g": 0.16
+   }
+  },
+  {
+   "ean": "6416453051195",
+   "title": "Tyrkisk Peber",
+   "subtitle": "Sour Foams 80g Fazer",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:6411401028373",
+    "ean:6411401061066",
+    "ean:6430064403570"
+   ],
+   "n": {
+    "kcal": 358.0,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.5,
+    "carbs_g": 84.0,
+    "sugars_g": 56.0,
+    "protein_g": 5.8,
+    "salt_g": 0.26
+   }
+  },
+  {
+   "ean": "6416453041288",
+   "title": "Palle Kuling",
+   "subtitle": "Fruit Coins 90g",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:6416453041387"
+   ],
+   "n": {
+    "kcal": 364.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 86.0,
+    "sugars_g": 59.0,
+    "protein_g": 3.6,
+    "salt_g": 0.41
+   }
+  },
+  {
+   "ean": "7350020724114",
+   "title": "Froosh Smoothie",
+   "subtitle": "Peach Paradise 250ml",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7350020722752",
+    "ean:7350020729720"
+   ],
+   "n": {
+    "kcal": 68.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 15.0,
+    "sugars_g": 12.0,
+    "fibre_g": 1.1,
+    "protein_g": 0.8,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "7350020720017",
+   "title": "Froosh Smoothie",
+   "subtitle": "Mango Mania 250ml",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7350020722752",
+    "ean:7350020729720"
+   ],
+   "n": {
+    "kcal": 57.0,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.0,
+    "carbs_g": 13.0,
+    "sugars_g": 12.0,
+    "fibre_g": 1.0,
+    "protein_g": 0.5,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "7350020720093",
+   "title": "Froosh Smoothie",
+   "subtitle": "Tropical Twist 250ml",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7350020722752",
+    "ean:7350020729720"
+   ],
+   "n": {
+    "kcal": 60.0,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.0,
+    "carbs_g": 14.0,
+    "sugars_g": 13.0,
+    "fibre_g": 0.7,
+    "protein_g": 0.6,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "7350020729225",
+   "title": "Froosh Smoothie",
+   "subtitle": "Eple,Pære,Vanilje 150ml",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7350020722752",
+    "ean:7350020729720"
+   ],
+   "n": {
+    "kcal": 57.0,
+    "fat_g": 0.1,
+    "sat_fat_g": 0.0,
+    "carbs_g": 13.0,
+    "sugars_g": 12.0,
+    "fibre_g": 1.1,
+    "protein_g": 0.4,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "7350153720359",
+   "title": "Froosh Smoothie",
+   "subtitle": "Ananas&Fersken&Pasjon 150ml",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7350020722752",
+    "ean:7350020729720"
+   ],
+   "n": {
+    "kcal": 50.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "carbs_g": 11.0,
+    "sugars_g": 10.0,
+    "protein_g": 0.0,
+    "salt_g": 0.0
+   }
+  },
+  {
+   "ean": "7350153720007",
+   "title": "Froosh Smoothie",
+   "subtitle": "Jordbær&Solbær&Eple 750ml",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7350020722752",
+    "ean:7350020729720"
+   ],
+   "n": {
+    "kcal": 63.0,
+    "fat_g": 0.2,
+    "sat_fat_g": 0.0,
+    "carbs_g": 14.0,
+    "sugars_g": 14.0,
+    "fibre_g": 1.3,
+    "protein_g": 0.3,
+    "salt_g": 0.01
+   }
+  },
+  {
+   "ean": "7350153720045",
+   "title": "Froosh Smoothie",
+   "subtitle": "Mango&Pasjonsfrukt 750ml",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:7350020722752",
+    "ean:7350020729720"
+   ],
+   "n": {
+    "kcal": 61.0,
+    "fat_g": 0.2,
+    "sat_fat_g": 0.0,
+    "carbs_g": 14.0,
+    "sugars_g": 13.0,
+    "fibre_g": 0.5,
+    "protein_g": 0.3,
+    "salt_g": 0.01
+   }
+  },
+  {
+   "ean": "6416453039711",
+   "title": "Tyrkisk Peber",
+   "subtitle": "Soft&Salt 120g Fazer",
+   "why": "same name, different numbers: new recipe or a different product?",
+   "rows": [
+    "ean:6411401028373",
+    "ean:6411401061066",
+    "ean:6430064403570"
+   ],
+   "n": {
+    "kcal": 356.0,
+    "fat_g": 0.5,
+    "sat_fat_g": 0.5,
+    "carbs_g": 84.0,
+    "sugars_g": 59.0,
+    "protein_g": 2.7,
+    "salt_g": 0.49
+   }
+  }
+ ]
+}
