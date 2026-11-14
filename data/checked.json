@@ -3,6 +3,16 @@
  "checked": "2026-11-12",
  "fixes": [
   {
+   "id": "apex-no:https://apex.no/produkt/clear-whey-isolate-i-500g/",
+   "source_url": "https://apex.no/produkt/clear-whey-isolate-i-500g/",
+   "name": "INLEAD Nutrition Clear Whey Isolate"
+  },
+  {
+   "id": "apex-no:https://apex.no/produkt/cream-of-rice-i-1kg/",
+   "source_url": "https://apex.no/produkt/cream-of-rice-i-1kg/",
+   "name": "Applied Nutrition Cream of Rice"
+  },
+  {
    "id": "apex-no:https://apex.no/produkt/critical-mass-pro-i-6kg/",
    "source_url": "own row data (round Q, same-name check)",
    "name": "Critical Mass Pro 6 kg"
@@ -31,6 +41,21 @@
    "id": "barebells-no:https://barebells.com/product/raspberry-fizz/",
    "source_url": "https://barebells.com (protein water)",
    "category": "drinks"
+  },
+  {
+   "id": "bodypower:https://www.bodypower.se/kosttillskott-1/livsmedel/grot-gryn-1/swedish-supplements-cream-of-rice-heavenly-rich-chocolate-1kg",
+   "source_url": "https://www.bodypower.se/kosttillskott-1/livsmedel/grot-gryn-1/swedish-supplements-cream-of-rice-heavenly-rich-chocolate-1kg",
+   "name": "Swedish Supplements Cream of Rice Heavenly Rich Chocolate"
+  },
+  {
+   "id": "bodypower:https://www.bodypower.se/kosttillskott-1/livsmedel/saser-siraper/bodylab-zero-topping-chocolate-290ml",
+   "source_url": "https://www.bodypower.se/kosttillskott-1/livsmedel/saser-siraper/bodylab-zero-topping-chocolate-290ml",
+   "name": "Bodylab Zero Topping Chocolate"
+  },
+  {
+   "id": "bodypower:https://www.bodypower.se/kosttillskott-1/protein/proteinpulver/swedish-supplements-lifestyle-whey-banana-split-900g",
+   "source_url": "https://www.bodypower.se/kosttillskott-1/protein/proteinpulver/swedish-supplements-lifestyle-whey-banana-split-900g",
+   "name": "Swedish Supplements Lifestyle Whey Banana Split"
   },
   {
    "id": "bodypower:https://www.bodypower.se/varumarken/vitamin-well/vitamin-well-electrolytes-citron-lime-sockerfri-500ml",
@@ -418,6 +443,11 @@
    "id": "ean:0000054008229",
    "name": "Adez Smoothie Oat/Strawberry/Banan",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
+  },
+  {
+   "id": "ean:0000054023932",
+   "source_url": "https://www.ah.be/producten/product/wi588192/powerade-mountain-blast-zero-sugar",
+   "name": "Powerade Zero Mountain Blast"
   },
   {
    "id": "ean:0000057024233",
@@ -992,6 +1022,25 @@
     "salt_g": 0.5
    },
    "source_url": "https://meny.no/varer/drikke/te/chai-te-original-850835000719"
+  },
+  {
+   "id": "ean:0855564003048",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/0855564003048.json",
+   "nutrients": {
+    "kcal": 464,
+    "protein_g": 7.1,
+    "fat_g": 25,
+    "sat_fat_g": 1.8,
+    "carbs_g": 50,
+    "sugars_g": 0,
+    "fibre_g": 10.7,
+    "salt_g": 1.07
+   }
+  },
+  {
+   "id": "ean:0855564003062",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/0855564003062.json",
+   "name": "Way Better Nacho Cheese Tortillachips"
   },
   {
    "id": "ean:0856991004103",
@@ -1616,6 +1665,11 @@
    ]
   },
   {
+   "id": "ean:2313197805906",
+   "source_url": "https://no.openfoodfacts.org/api/v2/product/2313197805906.json",
+   "name": "Svea Rostbiff av nöt"
+  },
+  {
    "id": "ean:2313516400003",
    "add_eans": [
     "0000023135167",
@@ -1794,6 +1848,16 @@
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
    "name": "First Price Kylling Lårstykker 2 kg"
+  },
+  {
+   "id": "ean:2355022208926",
+   "source_url": "https://world.openfoodfacts.org/product/2355022208926",
+   "name": "Willys Nötkött 12 % fett"
+  },
+  {
+   "id": "ean:2355022610385",
+   "source_url": "https://world.openfoodfacts.org/product/2355022610385",
+   "name": "Willys Nötkött 20 % fett"
   },
   {
    "id": "ean:2359749606768",
@@ -2530,9 +2594,28 @@
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
+   "id": "ean:3800233780543",
+   "source_url": "https://www.healthyfoodfactory.eu/hazelnut-cocoa-spread-no-added-sugar-organic-250g-bettr-product-58733",
+   "name": "Bett'r Smørepålæg Hasselnød Kakao Uden Tilsat Sukker Økologisk"
+  },
+  {
    "id": "ean:3800500731049",
    "name": "Tonton Pierrot Engjørning",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
+  },
+  {
+   "id": "ean:4000007009354",
+   "source_url": "https://kassal.app/api/v1/products/ean/4000007009354",
+   "nutrients": {
+    "kcal": 64,
+    "protein_g": 1.8,
+    "fat_g": 0.6,
+    "sat_fat_g": 0.2,
+    "carbs_g": 10.7,
+    "sugars_g": 0,
+    "fibre_g": 4.2,
+    "salt_g": 0
+   }
   },
   {
    "id": "ean:4000007066289",
@@ -2647,6 +2730,11 @@
     "fibre_g": 0.0
    },
    "source_url": "https://meny.no/varer/drikke/ol-og-cider/alkoholfritt-ol/warsteiner-fresh-0-0-4000856005989"
+  },
+  {
+   "id": "ean:4001686010082",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/4001686010082.json",
+   "name": "Haribo Harry Potter Ron"
   },
   {
    "id": "ean:4001724039921",
@@ -3376,7 +3464,7 @@
   },
   {
    "id": "ean:5011308303279",
-   "name": "Patak's Butter Chicken Cooking Sauce",
+   "name": "Patak's Mild Butter Chicken Cooking Sauce",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
@@ -3618,6 +3706,20 @@
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
+   "id": "ean:5029396739030",
+   "source_url": "https://kassal.app/api/v1/products/ean/5029396739030",
+   "nutrients": {
+    "kcal": 29,
+    "protein_g": 0,
+    "fat_g": 0,
+    "sat_fat_g": 0,
+    "carbs_g": 6.4,
+    "sugars_g": 4.9,
+    "fibre_g": 0,
+    "salt_g": 0.01
+   }
+  },
+  {
    "id": "ean:5029396739047",
    "name": "Tonic Water Light Fentimans",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
@@ -3766,6 +3868,20 @@
    "source_url": "store listing"
   },
   {
+   "id": "ean:5053990138753",
+   "source_url": "https://kassal.app/api/v1/products/ean/5053990138753",
+   "nutrients": {
+    "kcal": 515,
+    "protein_g": 4.2,
+    "fat_g": 32,
+    "sat_fat_g": 3,
+    "carbs_g": 51,
+    "sugars_g": 2.5,
+    "fibre_g": 2.9,
+    "salt_g": 1.7
+   }
+  },
+  {
    "id": "ean:5053990144563",
    "nutrients": {
     "fibre_g": 2.8
@@ -3804,7 +3920,7 @@
   {
    "id": "ean:5055950626812",
    "source_url": "own row data (round Q, same-name check)",
-   "name": "Bulk Mass Gainer 1000"
+   "name": "Bulk Mass Gainer Banana Milkshake"
   },
   {
    "id": "ean:5056025409392",
@@ -4163,6 +4279,11 @@
     "salt_g": null
    },
    "source_url": "Meny via ng.py"
+  },
+  {
+   "id": "ean:5202390015359",
+   "source_url": "https://kassal.app/",
+   "name": "Violife Ostealternativ Skivet Vegansk"
   },
   {
    "id": "ean:5202390015984",
@@ -4541,7 +4662,7 @@
   },
   {
    "id": "ean:5701073061503",
-   "name": "Dr. Oetker Strøssel Silver",
+   "name": "Dr. Oetker Kakepynt Silver 4 kammer",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
@@ -4817,6 +4938,11 @@
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
+   "id": "ean:5711657023711",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/5711657027467.json",
+   "name": "Bodylab Zero Topping Chocolate"
+  },
+  {
    "id": "ean:5711657053749",
    "source_url": "own row data (round Q, same-name check)",
    "name": "Bodylab Low Carb Thousand Island Caesar Dressing 320 ml"
@@ -4929,6 +5055,20 @@
     "fibre_g": 0.0
    },
    "source_url": "https://meny.no/varer/drikke/brus/pepsi-max-7044610800066"
+  },
+  {
+   "id": "ean:5744002360414",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/5744002360414.json",
+   "nutrients": {
+    "kcal": 39,
+    "protein_g": 1.1,
+    "fat_g": 0,
+    "sat_fat_g": 0,
+    "carbs_g": 7.7,
+    "sugars_g": 0.6,
+    "fibre_g": 1.1,
+    "salt_g": 2.6
+   }
   },
   {
    "id": "ean:5744002360667",
@@ -5395,6 +5535,16 @@
    "name": "Rekesalat Bergensk Salat"
   },
   {
+   "id": "ean:7020568001632",
+   "source_url": "https://kassal.app/api/v1/products/ean/7020568001632",
+   "name": "Baker Nilsen Frokostrundstykke Fine"
+  },
+  {
+   "id": "ean:7020568001649",
+   "source_url": "https://kassal.app/api/v1/products/ean/7020568001649",
+   "name": "Baker Nilsen Frokostrundstykke Grove"
+  },
+  {
    "id": "ean:7020655050147",
    "name": "Møllerens Pizzabunn Mix Tipo 0&Surdeig Møllerns",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
@@ -5418,6 +5568,20 @@
     "fibre_g": 3.0,
     "protein_g": 10.0,
     "salt_g": 0.0
+   }
+  },
+  {
+   "id": "ean:7020655525966",
+   "source_url": "https://kassal.app/api/v1/products/ean/7020655525966",
+   "nutrients": {
+    "kcal": 246,
+    "protein_g": 8.5,
+    "fat_g": 3.8,
+    "sat_fat_g": 0.4,
+    "carbs_g": 41.4,
+    "sugars_g": 0.7,
+    "fibre_g": 6.2,
+    "salt_g": 0.69
    }
   },
   {
@@ -5483,6 +5647,20 @@
     "salt_g": 4.4
    },
    "source_url": "https://meny.no/varer/palegg-frokost/spekemat/spekepolser/spekepolse/chili-snacks-snabb-7021150003157"
+  },
+  {
+   "id": "ean:7021860017062",
+   "source_url": "https://kassal.app/api/v1/products/ean/7021860017062",
+   "nutrients": {
+    "kcal": 108,
+    "protein_g": 7.2,
+    "fat_g": 4.3,
+    "sat_fat_g": 0.9,
+    "carbs_g": 9.8,
+    "sugars_g": 1.1,
+    "fibre_g": 0.8,
+    "salt_g": 2.25
+   }
   },
   {
    "id": "ean:7021990002419",
@@ -5733,6 +5911,11 @@
    ]
   },
   {
+   "id": "ean:7024850018841",
+   "source_url": "https://kassal.app/api/v1/products/ean/7024850018841",
+   "name": "Nordfjord Ostesnitzel 4 pk"
+  },
+  {
    "id": "ean:7024850019947",
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13): unbranded counter product",
    "add_eans": [
@@ -5740,6 +5923,25 @@
     "7020097005521",
     "7020097030912"
    ]
+  },
+  {
+   "id": "ean:7024850027942",
+   "source_url": "https://kassal.app/api/v1/products/ean/7024850027942",
+   "nutrients": {
+    "kcal": 293,
+    "protein_g": 13,
+    "fat_g": 17,
+    "sat_fat_g": 7.9,
+    "carbs_g": 22,
+    "sugars_g": 1.3,
+    "fibre_g": 0.3,
+    "salt_g": 1.6
+   }
+  },
+  {
+   "id": "ean:7024850083269",
+   "source_url": "https://kassal.app/api/v1/products/ean/7024850083269",
+   "name": "Nordfjord Svinekjøttdeig 9%"
   },
   {
    "id": "ean:7025050010888",
@@ -5857,6 +6059,20 @@
    "add_eans": [
     "7025110191007"
    ]
+  },
+  {
+   "id": "ean:7025110153562",
+   "source_url": "https://kassal.app/api/v1/products/ean/7025110153562",
+   "nutrients": {
+    "kcal": 158,
+    "protein_g": 12,
+    "fat_g": 9,
+    "sat_fat_g": 3,
+    "carbs_g": 6.9,
+    "sugars_g": 1.6,
+    "fibre_g": null,
+    "salt_g": 1.9
+   }
   },
   {
    "id": "ean:7025110159670",
@@ -5989,6 +6205,25 @@
    "name": "Coop Sjokoladekake Form 400 g"
   },
   {
+   "id": "ean:7025167000994",
+   "source_url": "https://kassal.app/api/v1/products/ean/7025167000994",
+   "name": "Coop Focaccia Salt og Rosmarin"
+  },
+  {
+   "id": "ean:7025167001625",
+   "source_url": "https://kassal.app/api/v1/products/ean/7025167001625",
+   "nutrients": {
+    "kcal": 216,
+    "protein_g": 6.8,
+    "fat_g": 4.8,
+    "sat_fat_g": 0.8,
+    "carbs_g": 36,
+    "sugars_g": 0.8,
+    "fibre_g": 1.7,
+    "salt_g": 1.7
+   }
+  },
+  {
    "id": "ean:7025168001594",
    "nutrients": {
     "kcal": 273.0,
@@ -6020,7 +6255,8 @@
   {
    "id": "ean:7025441018554",
    "add_eans": [
-    "7025441016734"
+    "7025441016734",
+    "7025441018455"
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -6295,6 +6531,20 @@
    "id": "ean:7029161127916",
    "source_url": "https://kassal.app (barcode 7029161127916, 2026-11-14)",
    "name": "Mesterbakeren Ostebaguette m Ost/skinke 230g"
+  },
+  {
+   "id": "ean:7029993010028",
+   "source_url": "https://kassal.app/api/v1/products/ean/7029993010028",
+   "nutrients": {
+    "kcal": 456,
+    "protein_g": 20.5,
+    "fat_g": 41.8,
+    "sat_fat_g": 15.1,
+    "carbs_g": 0.6,
+    "sugars_g": 0.4,
+    "fibre_g": null,
+    "salt_g": 4.44
+   }
   },
   {
    "id": "ean:7030019502328",
@@ -6728,6 +6978,11 @@
    "id": "ean:7032069738856",
    "source_url": "own row data (round Q, same-name check)",
    "name": "Rema Pepperskinke 90 g"
+  },
+  {
+   "id": "ean:7032069739280",
+   "source_url": "https://kassal.app/api/v1/products/ean/7032069739280",
+   "name": "Prima Jordbærsyltetøy"
   },
   {
    "id": "ean:7032069739297",
@@ -7362,6 +7617,20 @@
    "source_url": "https://meny.no/varer/palegg-frokost/syltetoy-til-ost/syltetoy-til-ost-7035620014628"
   },
   {
+   "id": "ean:7035620015311",
+   "source_url": "https://kassal.app/api/v1/products/ean/7035620015311",
+   "nutrients": {
+    "kcal": 162,
+    "protein_g": 4,
+    "fat_g": 13,
+    "sat_fat_g": 8.1,
+    "carbs_g": 7.2,
+    "sugars_g": 2.6,
+    "fibre_g": 0,
+    "salt_g": 0.9
+   }
+  },
+  {
    "id": "ean:7035620015434",
    "nutrients": {
     "kcal": 135.0,
@@ -7547,6 +7816,20 @@
    "name": "Eldorado Tortelloni Ost 250g"
   },
   {
+   "id": "ean:7035620039683",
+   "source_url": "https://kassal.app/api/v1/products/ean/7035620039683",
+   "nutrients": {
+    "kcal": 152,
+    "protein_g": 8.3,
+    "fat_g": 7.7,
+    "sat_fat_g": 3.4,
+    "carbs_g": 11.9,
+    "sugars_g": 0.9,
+    "fibre_g": 0.8,
+    "salt_g": 0.8
+   }
+  },
+  {
    "id": "ean:7035620040221",
    "nutrients": {
     "kcal": 229.0,
@@ -7685,6 +7968,20 @@
    ],
    "nutrients": {
     "fibre_g": 0.5
+   }
+  },
+  {
+   "id": "ean:7035620052040",
+   "source_url": "https://kassal.app/api/v1/products/ean/7035620052040",
+   "nutrients": {
+    "kcal": 158,
+    "protein_g": 4,
+    "fat_g": 9.9,
+    "sat_fat_g": 5.5,
+    "carbs_g": 13,
+    "sugars_g": 2.3,
+    "fibre_g": 1.4,
+    "salt_g": 0.4
    }
   },
   {
@@ -8253,6 +8550,20 @@
    }
   },
   {
+   "id": "ean:7037203641757",
+   "source_url": "https://kassal.app/api/v1/products/ean/7037203641757",
+   "nutrients": {
+    "kcal": 118,
+    "protein_g": 18,
+    "fat_g": 3.6,
+    "sat_fat_g": 1.3,
+    "carbs_g": 3.2,
+    "sugars_g": 0.5,
+    "fibre_g": null,
+    "salt_g": 1.7
+   }
+  },
+  {
    "id": "ean:7037203645557",
    "name": "Gilde Juleskinke Sennep/Honningsmak",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
@@ -8355,6 +8666,34 @@
    "id": "ean:7037204742132",
    "source_url": "own row data (round Q, same-name check)",
    "name": "Gilde Ekte Kokt Skinke Skivet 120 g"
+  },
+  {
+   "id": "ean:7037206100008",
+   "source_url": "https://kassal.app/api/v1/products/ean/7037204745041",
+   "nutrients": {
+    "kcal": 232,
+    "protein_g": 11,
+    "fat_g": 18,
+    "sat_fat_g": 5.5,
+    "carbs_g": 6.4,
+    "sugars_g": 0.2,
+    "fibre_g": null,
+    "salt_g": 1.6
+   }
+  },
+  {
+   "id": "ean:7037206100046",
+   "source_url": "https://kassal.app/api/v1/products/ean/7037204742477",
+   "nutrients": {
+    "kcal": 223,
+    "protein_g": 24,
+    "fat_g": 14,
+    "sat_fat_g": 4.5,
+    "carbs_g": 0.3,
+    "sugars_g": 0,
+    "fibre_g": null,
+    "salt_g": 2.9
+   }
   },
   {
    "id": "ean:7037206101661",
@@ -8567,6 +8906,16 @@
    "id": "ean:7037610021388",
    "source_url": "own row data (round Q, same-name check)",
    "name": "Toro Kinesisk Szechuan 464 g"
+  },
+  {
+   "id": "ean:7037610021630",
+   "source_url": "https://kassal.app/",
+   "name": "Toro Blomkål- og Brokkolisuppe"
+  },
+  {
+   "id": "ean:7037610030038",
+   "source_url": "https://kassal.app/",
+   "name": "Toro Kremet Blomkålsuppe"
   },
   {
    "id": "ean:7037610063708",
@@ -8977,14 +9326,14 @@
   {
    "id": "ean:7039010555654",
    "nutrients": {
-    "kcal": 378.0,
-    "protein_g": 11.0,
-    "fat_g": 8.0,
-    "sat_fat_g": 2.5,
-    "carbs_g": 52.0,
-    "sugars_g": 3.6,
-    "salt_g": 0.33,
-    "fibre_g": null
+    "kcal": 459,
+    "protein_g": 11,
+    "fat_g": 23,
+    "sat_fat_g": 2.9,
+    "carbs_g": 41,
+    "sugars_g": 6.7,
+    "fibre_g": null,
+    "salt_g": 0.5
    },
    "source_url": "meny.no ean 7039010578547"
   },
@@ -9148,6 +9497,20 @@
     "salt_g": 0.0
    },
    "source_url": "https://meny.no/varer/drikke/smoothie/smoothie-7040518507403"
+  },
+  {
+   "id": "ean:7039281553571",
+   "source_url": "https://kassal.app/api/v1/products/ean/7040511829724",
+   "nutrients": {
+    "kcal": 51,
+    "protein_g": 1,
+    "fat_g": 0.9,
+    "sat_fat_g": 0,
+    "carbs_g": 7.5,
+    "sugars_g": 0,
+    "fibre_g": 4.6,
+    "salt_g": 0
+   }
   },
   {
    "id": "ean:7039281558309",
@@ -9444,6 +9807,11 @@
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
+   "id": "ean:7041011278111",
+   "source_url": "https://kassal.app/api/v1/products/ean/7041011190000",
+   "name": "Hennig-Olsen Krone-Is Jordbær"
+  },
+  {
    "id": "ean:7041011279118",
    "name": "Krone-Is Sjokolade Hennig-Olsen",
    "source_url": "https://meny.no/varer//dessert-og-iskrem/is/smais/krone-is-7041011279118"
@@ -9690,7 +10058,17 @@
   {
    "id": "ean:7041610031117",
    "name": "First Price Kneippbrød",
-   "source_url": "https://meny.no/varer/ (Kneippbrød 7041610031117)"
+   "source_url": "https://meny.no/varer/ (Kneippbrød 7041610031117)",
+   "nutrients": {
+    "kcal": 247,
+    "protein_g": 9,
+    "fat_g": 2.7,
+    "sat_fat_g": 0.3,
+    "carbs_g": 43.4,
+    "sugars_g": 0.8,
+    "fibre_g": 5.3,
+    "salt_g": 0.9
+   }
   },
   {
    "id": "ean:7041610031124",
@@ -10244,6 +10622,20 @@
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
+   "id": "ean:7044610874487",
+   "source_url": "https://kassal.app/",
+   "nutrients": {
+    "kcal": 25,
+    "protein_g": 0.2,
+    "fat_g": 0,
+    "sat_fat_g": 0,
+    "carbs_g": 5,
+    "sugars_g": 2.5,
+    "fibre_g": 0,
+    "salt_g": 0
+   }
+  },
+  {
    "id": "ean:7044610874906",
    "nutrients": {
     "kcal": 0.0,
@@ -10449,6 +10841,20 @@
    "source_url": "https://meny.no/varer/kjott/svinekjott/spareribs/spareribs-7045386071209"
   },
   {
+   "id": "ean:7045386167001",
+   "source_url": "https://kassal.app/api/v1/products/ean/7045386167001",
+   "nutrients": {
+    "kcal": 236,
+    "protein_g": 11.1,
+    "fat_g": 18,
+    "sat_fat_g": 7.1,
+    "carbs_g": 7.8,
+    "sugars_g": 1.2,
+    "fibre_g": null,
+    "salt_g": 1.7
+   }
+  },
+  {
    "id": "ean:7045610020416",
    "name": "Surkål Gk",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
@@ -10467,6 +10873,20 @@
    "id": "ean:7046280029303",
    "source_url": "own row data (round Q, same-name check)",
    "name": "Rema Aioli 250 g"
+  },
+  {
+   "id": "ean:7046280029358",
+   "source_url": "https://kassal.app/api/v1/products/ean/7046280029358",
+   "nutrients": {
+    "kcal": 301,
+    "protein_g": 1.3,
+    "fat_g": 31,
+    "sat_fat_g": 2.6,
+    "carbs_g": 3.6,
+    "sugars_g": 3.4,
+    "fibre_g": 0.6,
+    "salt_g": 0.8
+   }
   },
   {
    "id": "ean:7047460001898",
@@ -10944,6 +11364,20 @@
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
+   "id": "ean:7053365670121",
+   "source_url": "https://kassal.app/api/v1/products/ean/7053365670121",
+   "nutrients": {
+    "kcal": 127,
+    "protein_g": 8.7,
+    "fat_g": 7,
+    "sat_fat_g": 1.4,
+    "carbs_g": 7.1,
+    "sugars_g": 2.1,
+    "fibre_g": null,
+    "salt_g": 2
+   }
+  },
+  {
    "id": "ean:7053472000132",
    "nutrients": {
     "sat_fat_g": 6.3
@@ -11327,6 +11761,20 @@
    "source_url": "https://meny.no/varer//meieri-egg/egg/egg-hvite-7059720000022"
   },
   {
+   "id": "ean:7070097075314",
+   "source_url": "https://kassal.app/api/v1/products/ean/7070097075314",
+   "nutrients": {
+    "kcal": 329,
+    "protein_g": 25.4,
+    "fat_g": 25.2,
+    "sat_fat_g": 10,
+    "carbs_g": 0.1,
+    "sugars_g": 0.1,
+    "fibre_g": null,
+    "salt_g": 3.4
+   }
+  },
+  {
    "id": "ean:7070097078100",
    "nutrients": {
     "kcal": 264.0,
@@ -11359,6 +11807,16 @@
    "id": "ean:7070099421591",
    "name": "Kakestrø Rosa Drøm",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
+  },
+  {
+   "id": "ean:7070099751094",
+   "source_url": "https://kassal.app/api/v1/products/ean/7070099751094",
+   "name": "Cacas Fondant Babyrosa"
+  },
+  {
+   "id": "ean:7070099751339",
+   "source_url": "https://kassal.app/api/v1/products/ean/7070099751339",
+   "name": "Cacas Fondant Hvit"
   },
   {
    "id": "ean:7070292857548",
@@ -12115,6 +12573,11 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "ean:7072615015864",
+   "source_url": "https://kassal.app/api/v1/products/ean/7072615015864",
+   "name": "Strøm-Larsen Økologisk Servelat"
+  },
+  {
    "id": "ean:7072638000106",
    "name": "Norwegian Energy Classic",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
@@ -12144,6 +12607,11 @@
     "fibre_g": 0.0
    },
    "source_url": "https://meny.no/varer/drikke/ol-og-cider/alkoholfritt-ol/lervig-no-worries-7072712001203"
+  },
+  {
+   "id": "ean:7072719017245",
+   "source_url": "own row data (round S)",
+   "name": "Cemo Brente Mandler"
   },
   {
    "id": "ean:7072836000793",
@@ -13475,6 +13943,11 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
+   "id": "ean:7090046511212",
+   "source_url": "https://kassal.app/api/v1/products/ean/7090046511212",
+   "name": "Korn Bakeri Økologisk Speltbrød"
+  },
+  {
    "id": "ean:7090046902102",
    "name": "Spritz Kombucha Gingerfizz",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
@@ -14008,6 +14481,11 @@
    "source_url": "https://meny.no/varer/drikke/brus/pepsi-cola-7044610876221"
   },
   {
+   "id": "ean:7310070008299",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/7310070008299.json",
+   "name": "7up Free"
+  },
+  {
    "id": "ean:7310070010926",
    "nutrients": {
     "sat_fat_g": 0.0,
@@ -14300,6 +14778,20 @@
     "salt_g": 0.61
    },
    "source_url": "https://meny.no/varer/middag/ferdigretter/ferdigmaltid/tikka-masala-7035110400979"
+  },
+  {
+   "id": "ean:7310500187747",
+   "source_url": "https://kassal.app/api/v1/products/ean/7310500187747",
+   "nutrients": {
+    "kcal": 127,
+    "protein_g": 6.2,
+    "fat_g": 3.9,
+    "sat_fat_g": 2,
+    "carbs_g": 16,
+    "sugars_g": 2.2,
+    "fibre_g": 1,
+    "salt_g": 0.73
+   }
   },
   {
    "id": "ean:7310500188485",
@@ -14648,6 +15140,25 @@
    "source_url": "Meny via ng.py, Salsa Dip Medium 7311312002341"
   },
   {
+   "id": "ean:7311312007117",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/7311312007117.json",
+   "name": "Risenta Crunchy Granola Kakao, hallon & kokos"
+  },
+  {
+   "id": "ean:7311364840618",
+   "source_url": "https://kassal.app/varer?search=7311364840618",
+   "nutrients": {
+    "kcal": 210,
+    "protein_g": 6,
+    "fat_g": 10,
+    "sat_fat_g": 2.1,
+    "carbs_g": 28,
+    "sugars_g": 28,
+    "fibre_g": null,
+    "salt_g": 3
+   }
+  },
+  {
    "id": "ean:7311870894204",
    "nutrients": {
     "sugars_g": 0.0
@@ -14863,7 +15374,14 @@
    ],
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
    "nutrients": {
-    "sat_fat_g": 13.0
+    "kcal": 458,
+    "protein_g": 25,
+    "fat_g": 39,
+    "sat_fat_g": 13,
+    "carbs_g": 2,
+    "sugars_g": 1,
+    "fibre_g": null,
+    "salt_g": 5.5
    }
   },
   {
@@ -14882,6 +15400,11 @@
    "id": "ean:7340001804690",
    "source_url": "own row data (round Q, same-name check)",
    "name": "Tyngre Kasein Kramig Jordgubbsglass"
+  },
+  {
+   "id": "ean:7340001805765",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/7340001805765.json",
+   "name": "Tyngre Vassle Cortado"
   },
   {
    "id": "ean:7340001805772",
@@ -14990,6 +15513,11 @@
    "source_url": "https://kassal.app/vare/24947-coop-pizza-med-pepperoni-340g-7340011498810"
   },
   {
+   "id": "ean:7340028822974",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/7340028822974.json",
+   "name": "Star Nutrition Soft Protein Bar Soft Fudge and Sea Salt"
+  },
+  {
    "id": "ean:7340028825173",
    "source_url": "own row data (round Q, same-name check)",
    "name": "Star Nutrition Vegan Protein Bar Dark Chocolate Raspberry"
@@ -14998,6 +15526,11 @@
    "id": "ean:7340045504167",
    "source_url": "own row data (round Q, same-name check)",
    "name": "Garant Nöt 500 g"
+  },
+  {
+   "id": "ean:7340083427930",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/7340083427930.json",
+   "name": "Garant Prosciutto Crudo"
   },
   {
    "id": "ean:7340083463051",
@@ -15084,6 +15617,20 @@
    "id": "ean:7340146507111",
    "source_url": "own row data (round Q, same-name check)",
    "name": "Diplom-Is Lollipop Bites Sour Frukt Skum 80 g"
+  },
+  {
+   "id": "ean:7340191100701",
+   "source_url": "https://kassal.app/api/v1/products/ean/7340191100640",
+   "nutrients": {
+    "kcal": 546,
+    "protein_g": 6.7,
+    "fat_g": 32,
+    "sat_fat_g": 20,
+    "carbs_g": 57,
+    "sugars_g": 56,
+    "fibre_g": 1.8,
+    "salt_g": 0.29
+   }
   },
   {
    "id": "ean:7340191111431",
@@ -15272,6 +15819,21 @@
    "source_url": "https://meny.no/ (Proteinbar Chrunch Caramel 50g Gainomax, ean 7350028548026)"
   },
   {
+   "id": "ean:7350028548859",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/7350028548859.json",
+   "name": "Swebar Proteinbar Hallonglass"
+  },
+  {
+   "id": "ean:7350028549214",
+   "source_url": "https://world.openfoodfacts.org/product/7350028549214",
+   "name": "Swebar Choklad"
+  },
+  {
+   "id": "ean:7350028549375",
+   "source_url": "https://world.openfoodfacts.org/product/7350028549375",
+   "name": "Swebar Santa's Original Protein"
+  },
+  {
    "id": "ean:7350037193477",
    "source_url": "own row data (round Q, same-name check)",
    "name": "Chorizo 250 g"
@@ -15361,6 +15923,21 @@
    "id": "ean:7350054797603",
    "name": "Dave & Jon's Mango Milk Chocolate",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
+  },
+  {
+   "id": "ean:7350056793122",
+   "source_url": "own row data (round S)",
+   "name": "Larsa Äkta Grekisk Yoghurt 10%"
+  },
+  {
+   "id": "ean:7350056793146",
+   "source_url": "own row data (round S)",
+   "name": "Larsa Äkta Grekisk Yoghurt 0%"
+  },
+  {
+   "id": "ean:7350058336754",
+   "source_url": "https://www.meds.se/celsius-spritz-vibe-limited-edition-355-ml",
+   "name": "Celsius Spritz Vibe"
   },
   {
    "id": "ean:7350066440498",
@@ -15529,9 +16106,24 @@
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
+   "id": "ean:7350106200389",
+   "source_url": "https://world.openfoodfacts.org/product/7350106200389",
+   "name": "FoFill Protein Pan Pizza"
+  },
+  {
    "id": "ean:7350113190291",
    "source_url": "own row data (round Q, same-name check)",
    "name": "Hummus Fresh Herbs"
+  },
+  {
+   "id": "ean:7350132945339",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/7350132945339.json",
+   "name": "Vitaprana Grass-Fed Whey Protein Isolate Chocolate"
+  },
+  {
+   "id": "ean:7350132948040",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/7350132948040.json",
+   "name": "Vitaprana Grass-Fed Whey Protein Isolate Unflavoured"
   },
   {
    "id": "ean:7350135372101",
@@ -15629,6 +16221,11 @@
     "fibre_g": 0.0
    },
    "source_url": "https://meny.no/varer/palegg-frokost/spekemat/spekepolser/snackpolse/caramba-7392555502027"
+  },
+  {
+   "id": "ean:7392672001540",
+   "source_url": "https://kassal.app/api/v1/products/ean/7392672001540",
+   "name": "Salakis Laktosefri Gresk Yoghurt"
   },
   {
    "id": "ean:7392672004275",
@@ -15777,6 +16374,11 @@
    "source_url": "https://meny.no/varer/snacks-godteri/sjokolade/lindt-excellence-7610400070577"
   },
   {
+   "id": "ean:7611612212113",
+   "source_url": "https://world.openfoodfacts.org/product/7611612212113",
+   "name": "Powerking Protein Bar"
+  },
+  {
    "id": "ean:7611612221771",
    "nutrients": {
     "kcal": 44.0,
@@ -15803,6 +16405,11 @@
     "salt_g": 0.15
    },
    "source_url": "https://meny.no/varer/drikke/energidrikke/powerking-zero-7611612221788"
+  },
+  {
+   "id": "ean:7611612222372",
+   "source_url": "https://world.openfoodfacts.org/product/7611612222372",
+   "name": "Powerking Energy Gel"
   },
   {
    "id": "ean:7613030863434",
@@ -16118,6 +16725,20 @@
    "id": "ean:8001250013859",
    "source_url": "https://kassal.app (barcode 8001250013859, 2026-11-14)",
    "name": "De Cecco Gnocchi Glutenfri 500g"
+  },
+  {
+   "id": "ean:8001250016522",
+   "source_url": "https://kassal.app/api/v1/products/ean/8001250016522",
+   "nutrients": {
+    "kcal": 475,
+    "protein_g": 5.1,
+    "fat_g": 48,
+    "sat_fat_g": 7.8,
+    "carbs_g": 4,
+    "sugars_g": 2.5,
+    "fibre_g": 3.2,
+    "salt_g": 3.7
+   }
   },
   {
    "id": "ean:8001860257803",
@@ -17068,6 +17689,11 @@
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
+   "id": "ean:8682084414335",
+   "source_url": "https://kassal.app/api/v1/products/ean/8682084414335",
+   "name": "Konak Dubai Chocolate"
+  },
+  {
    "id": "ean:8690538023026",
    "name": "Garland Fiken",
    "source_url": "store listing"
@@ -17098,6 +17724,16 @@
     "salt_g": 0.89
    },
    "source_url": "https://meny.no/varer/middag/taco/tortillachips/doritos-nacho-8710398602039"
+  },
+  {
+   "id": "ean:8710508145814",
+   "source_url": "https://kassal.app/api/v1/products/ean/8710508145814",
+   "name": "Hellema Madonnas Choko"
+  },
+  {
+   "id": "ean:8710508145821",
+   "source_url": "https://kassal.app/api/v1/products/ean/8710508145821",
+   "name": "Hellema Madonnas Hasselnøtt"
   },
   {
    "id": "ean:8710604759380",
@@ -17178,6 +17814,11 @@
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
+   "id": "ean:8711200316571",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/8711200316571.json",
+   "name": "Ben & Jerry's Caramel Cookie Fix"
+  },
+  {
    "id": "ean:8711200333288",
    "name": "Knorr Tomatsuppe m/Urter",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
@@ -17203,9 +17844,19 @@
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
+   "id": "ean:8711327317925",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/8711327317925.json",
+   "name": "Ben & Jerry's Chocolate Fudge Brownie Non-Dairy"
+  },
+  {
    "id": "ean:8711327370708",
    "name": "Ben & Jerry's Chocolate Fudge Brownie",
    "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/benjerrys-8711327370708"
+  },
+  {
+   "id": "ean:8711327370913",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/8711327370913.json",
+   "name": "Ben & Jerry's Moo-phoria Chocolate Cookie Dough"
   },
   {
    "id": "ean:8711327371002",
@@ -17218,6 +17869,11 @@
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
+   "id": "ean:8711327373365",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/8711327373365.json",
+   "name": "Ben & Jerry's Moo-phoria Caramel Cookie Fix"
+  },
+  {
    "id": "ean:8711327374171",
    "name": "Ben & Jerry's Karamel Sutra Core",
    "source_url": "https://meny.no/varer//dessert-og-iskrem/is/dessertis/benjerrys-8711327374171"
@@ -17225,7 +17881,7 @@
   {
    "id": "ean:8711327374904",
    "source_url": "https://kassal.app (barcode 8711327374904, 2026-11-14)",
-   "name": "Ben&Jerry's Non Dairy Cookies On Cookie"
+   "name": "Ben & Jerry's Non-Dairy Cookies on Cookie Dough"
   },
   {
    "id": "ean:8711327386334",
@@ -17251,6 +17907,20 @@
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
+   "id": "ean:8711327483262",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/8711327483262.json",
+   "nutrients": {
+    "kcal": 352,
+    "protein_g": 4.6,
+    "fat_g": 22,
+    "sat_fat_g": 9.7,
+    "carbs_g": 33,
+    "sugars_g": 28,
+    "fibre_g": null,
+    "salt_g": 0.38
+   }
+  },
+  {
    "id": "ean:8711327485471",
    "source_url": "https://kassal.app (barcode 8711327485471, 2026-11-14)",
    "name": "Ben&Jerry's Cookie Dough Peace Pop"
@@ -17268,7 +17938,17 @@
   {
    "id": "ean:8711327626386",
    "source_url": "https://kassal.app (barcode 8711327626386, 2026-11-14)",
-   "name": "Ben&jerry's 465ml Non Dairy Cookies On Cookie"
+   "name": "Ben & Jerry's Cookies on Cookie Dough",
+   "nutrients": {
+    "kcal": 255,
+    "protein_g": 1.7,
+    "fat_g": 11,
+    "sat_fat_g": 7.5,
+    "carbs_g": 37,
+    "sugars_g": 22,
+    "fibre_g": 1,
+    "salt_g": 0.1475
+   }
   },
   {
    "id": "ean:8711327626638",
@@ -17320,6 +18000,11 @@
     "salt_g": 0.15
    },
    "source_url": "https://meny.no/varer/snacks-godteri/sjokolade/choc-wafer-8712514820501"
+  },
+  {
+   "id": "ean:8712738027403",
+   "source_url": "https://kassal.app/api/v1/products/ean/8712738027403",
+   "name": "Aprikos Tørket"
   },
   {
    "id": "ean:8713576230116",
@@ -17690,6 +18375,11 @@
    "source_url": "https://meny.no/varer/dessert-og-iskrem/"
   },
   {
+   "id": "goldenathlete:https://goldenathlete.se/sv/cream-of-rice",
+   "source_url": "https://www.bodypower.se/kosttillskott-1/livsmedel/grot-gryn-1/swedish-supplements-cream-of-rice-heavenly-rich-chocolate-1kg",
+   "name": "Swedish Supplements Cream of Rice Heavenly Rich Chocolate"
+  },
+  {
    "id": "grandiosa:https://www.grandiosa.no/produkter/calzone-ost-og-skinke/",
    "nutrients": {
     "fibre_g": 0.0
@@ -17728,6 +18418,25 @@
    "source_url": "https://meny.no/varer//middag/pizzaretter/pizza/grandiosa-pizza-7039010019804",
    "nutrients": {
     "fibre_g": 0
+   }
+  },
+  {
+   "id": "gymgrossisten:https://www.gymgrossisten.no/dag--og-natt-pakken/SETDANACH.html",
+   "source_url": "https://www.proteinfabrikken.no/dag--og-natt-pakken/BUNDLEDANACH.html",
+   "name": "Chained Nutrition Triple Whey Jordbær"
+  },
+  {
+   "id": "gymgrossisten:https://www.gymgrossisten.no/serious-mass-gainer-2727-g-kreatinpulver-300-g/SETGAINERCREATINE.html",
+   "source_url": "https://www.gymgrossisten.no/serious-mass-gainer-2727-g-kreatinpulver-300-g/SETGAINERCREATINE.html",
+   "nutrients": {
+    "kcal": 378,
+    "protein_g": 15,
+    "fat_g": 1.7,
+    "sat_fat_g": 0.7,
+    "carbs_g": 75,
+    "sugars_g": 7.7,
+    "fibre_g": 1,
+    "salt_g": 0.47
    }
   },
   {
@@ -18058,6 +18767,11 @@
     "1 kg"
    ],
    "source_url": "https://meny.no/varer//frukt-gront/frukt/epler/epler-4021"
+  },
+  {
+   "id": "matvaretabellen:06.566",
+   "source_url": "https://www.matvaretabellen.no/api/nb/foods.json",
+   "name": "Saft, 500 g sukker pr. l råsaft, ublandet"
   },
   {
    "id": "matvaretabellen:06.567",
@@ -18417,9 +19131,42 @@
    "source_url": "https://meny.no/varer/drikke/energidrikke/nocco-carneval-7340131600674"
   },
   {
+   "id": "nordicpower-no:https://nordicpower.no/produkt/clear-whey-isolate-500g/",
+   "source_url": "https://nordicpower.no/produkt/clear-whey-isolate-500g/",
+   "nutrients": {
+    "kcal": 352,
+    "protein_g": 88,
+    "fat_g": 0,
+    "sat_fat_g": 0,
+    "carbs_g": 0,
+    "sugars_g": 0,
+    "fibre_g": 0,
+    "salt_g": 0
+   }
+  },
+  {
+   "id": "nordicpower-no:https://nordicpower.no/produkt/cream-of-rice-1000g/",
+   "source_url": "https://nordicpower.no/produkt/cream-of-rice-1000g/",
+   "nutrients": {
+    "kcal": 346,
+    "protein_g": 7.8,
+    "fat_g": 0.59,
+    "sat_fat_g": 0.15,
+    "carbs_g": 76.5,
+    "sugars_g": 0.59,
+    "fibre_g": 1.5,
+    "salt_g": 0.26
+   }
+  },
+  {
    "id": "nordicpower-no:https://nordicpower.no/produkt/vegan-protein-deluxe-750g/",
    "source_url": "own row data (round Q, same-name check)",
    "name": "Vegan Protein Deluxe 750 g"
+  },
+  {
+   "id": "nordicpower-no:https://nordicpower.no/produkt/whey-protein-deluxe-2kg/",
+   "source_url": "https://nordicpower.no/produkt/whey-protein-deluxe-2kg/",
+   "name": "Whey Protein Deluxe"
   },
   {
    "id": "norgesgruppen:1347",
@@ -18817,6 +19564,7 @@
    "id": "norgesgruppen:23504082",
    "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kyllinglar/kyllinglar-23504015",
    "add_eans": [
+    "0000023504013",
     "0000023504015",
     "0000023504020",
     "0000023877069"
@@ -21893,6 +22641,23 @@
    "name": "Lakseburger 150 g"
   },
   {
+   "id": "norgesgruppen:5586",
+   "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kyllingburger/kyllingburger-7090030269617",
+   "nutrients": {
+    "kcal": 211.0,
+    "protein_g": 15.0,
+    "fat_g": 12.0,
+    "sat_fat_g": 2.4,
+    "carbs_g": 10.4,
+    "sugars_g": 8.4,
+    "fibre_g": 0.79,
+    "salt_g": 1.2
+   },
+   "add_eans": [
+    "7090030269617"
+   ]
+  },
+  {
    "id": "norgesgruppen:7087",
    "source_url": "own row data (round Q, same-name check)",
    "name": "Angus ytrefilet Marinert"
@@ -21925,7 +22690,8 @@
    "add_eans": [
     "0076840600038"
    ],
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
+   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
+   "name": "Ben & Jerry's Chocolate Fudge Brownie"
   },
   {
    "id": "norgesgruppen:76840620036",
@@ -22108,6 +22874,11 @@
    "id": "proteinfabrikken-discontinued:https://www.proteinfabrikken.no/24-x-monster-energy-355-ml-slim-original/FP8765-2.html",
    "source_url": "own row data (round Q, same-name check)",
    "name": "Monster Energy Slim Original 355 ml"
+  },
+  {
+   "id": "proteinfabrikken:https://www.proteinfabrikken.no/dag--og-natt-pakken/BUNDLEDANACH.html",
+   "source_url": "https://www.proteinfabrikken.no/dag--og-natt-pakken/BUNDLEDANACH.html",
+   "name": "Chained Nutrition Micellar Casein Jordbær"
   },
   {
    "id": "q-meieriene:https://www.q-meieriene.no/produkter/q-creme-fraiche-35-beger-med-skrulokk",
@@ -22410,6 +23181,11 @@
    }
   },
   {
+   "id": "sportkost:https://www.sportkost.se/kosttillskott/proteinpulver/vassleprotein/vassleproteinkoncentrat/swedish-supplements-lifestyle-whey-mixmatch-3x900g",
+   "source_url": "https://www.sportkost.se/kosttillskott/proteinpulver/vassleprotein/vassleproteinkoncentrat/swedish-supplements-lifestyle-whey-mixmatch-3x900g",
+   "name": "Swedish Supplements Lifestyle Whey Mixmatch"
+  },
+  {
    "id": "starnutrition-se:https://www.starnutrition.se/proteinpannkakor-1-kg/6582-60R.html",
    "source_url": "own row data (round Q, same-name check)",
    "name": "Star Nutrition Protein Pancake Mix Traditional Flavour"
@@ -22539,6 +23315,11 @@
    "id": "store:4001686536742",
    "name": "Kastanjer Maoam",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
+  },
+  {
+   "id": "store:4001724039204",
+   "source_url": "https://no.openfoodfacts.org/api/v2/product/4001724039204.json",
+   "name": "Dr. Oetker Ristorante Pizza Pepperoni-Salame"
   },
   {
    "id": "store:4251097408026",
@@ -22733,6 +23514,20 @@
    ]
   },
   {
+   "id": "store:7037610224376",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/7037610224376.json",
+   "nutrients": {
+    "kcal": 135,
+    "protein_g": 2.3,
+    "fat_g": 8.3,
+    "sat_fat_g": 2.2,
+    "carbs_g": 11,
+    "sugars_g": 7,
+    "fibre_g": 2,
+    "salt_g": 1.6
+   }
+  },
+  {
    "id": "store:7038010067341",
    "add_eans": [
     "7038010063374"
@@ -22847,6 +23642,25 @@
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
+   "id": "store:7055330029385",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/7055330029385.json",
+   "nutrients": {
+    "kcal": 71,
+    "protein_g": 1,
+    "fat_g": 5.3,
+    "sat_fat_g": 4.7,
+    "carbs_g": 4.8,
+    "sugars_g": 2.1,
+    "fibre_g": null,
+    "salt_g": null
+   }
+  },
+  {
+   "id": "store:7055330034150",
+   "source_url": "https://kassal.app/api/v1/products/ean/7055330034150",
+   "name": "Fersk&ferdig Pasta Bolognese"
+  },
+  {
    "id": "store:7055330034457",
    "name": "Chili Con Carne fersk&ferdig",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
@@ -22922,6 +23736,20 @@
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
   },
   {
+   "id": "store:7090030269617",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/7090030269617.json",
+   "nutrients": {
+    "kcal": 341,
+    "protein_g": 15,
+    "fat_g": 14,
+    "sat_fat_g": 3.2,
+    "carbs_g": 37.3,
+    "sugars_g": 0.17,
+    "fibre_g": 0.5,
+    "salt_g": 1.67
+   }
+  },
+  {
    "id": "store:7090041530133",
    "name": "Tomatsild Garnvik",
    "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
@@ -22952,6 +23780,11 @@
     "sugars_g": 6.6
    },
    "source_url": "https://meny.no/varer/drikke/brus/nedstrand-brun-7090051190846"
+  },
+  {
+   "id": "store:7090053790211",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/7090053790211.json",
+   "name": "SaritaS Panir"
   },
   {
    "id": "store:7300400382205",
@@ -23013,6 +23846,20 @@
     "7311310031015",
     "7311310031039"
    ]
+  },
+  {
+   "id": "store:7340005403363",
+   "source_url": "https://world.openfoodfacts.org/api/v2/product/7340005403363.json",
+   "nutrients": {
+    "kcal": 540,
+    "protein_g": 11,
+    "fat_g": 31,
+    "sat_fat_g": 5.8,
+    "carbs_g": 53,
+    "sugars_g": 3.5,
+    "fibre_g": null,
+    "salt_g": 1.9
+   }
   },
   {
    "id": "store:7340005407156",
@@ -23381,7 +24228,17 @@
   {
    "id": "toro:https://www.toro.no/produkter/bali-kyllinggryte-3/",
    "name": "Toro Bali Kyllinggryte glutenfri",
-   "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)"
+   "source_url": "https://meny.no (NorgesGruppen product title and subtitle, 2026-11-14)",
+   "nutrients": {
+    "kcal": 139,
+    "protein_g": 11,
+    "fat_g": 7.6,
+    "sat_fat_g": 4.4,
+    "carbs_g": 5.8,
+    "sugars_g": 4,
+    "fibre_g": null,
+    "salt_g": 0.58
+   }
   },
   {
    "id": "toro:https://www.toro.no/produkter/bearnaise/",
@@ -29655,6 +30512,1376 @@
    "id": "ean:9004617071997",
    "into": "ean:9004617071485",
    "why": "duplicate (round R): Ø is short for Økologisk"
+  },
+  {
+   "id": "bodystore-dk:https://www.bodystore.dk/start-strong-pro/BUNDLESTARTSTRONGPRO.html",
+   "into": "gymgrossisten:https://www.gymgrossisten.no/start-strong-pro/BUNDLESTARTSTRONGPRO.html",
+   "why": "duplicate (round S): Same bundle code, numbers within 4%."
+  },
+  {
+   "id": "norgesgruppen:23877024",
+   "into": "ean:0000023877092",
+   "why": "duplicate (round S): Same product and 300 g pack; other row has barcodes. No source found."
+  },
+  {
+   "id": "ean:1306461804799",
+   "into": "ean:7340001805055",
+   "why": "duplicate (round S): Same Tyngre flavour; brand-site row preferred. OFF rate-limited, no source found"
+  },
+  {
+   "id": "tillskottsbolaget:https://www.tillskottsbolaget.se/sv/12-x-propud-proteinbar-55-g-not-creme",
+   "into": "ean:17350068295413",
+   "why": "duplicate (round S): Same 55 g ProPud bar, close numbers; target has barcodes. No source found"
+  },
+  {
+   "id": "norgesgruppen:6812",
+   "into": "ean:2000681200001",
+   "why": "duplicate (round S): Same beef tenderloin cut, kcal 118 vs 117; target has shop label"
+  },
+  {
+   "id": "ean:2000725500005",
+   "into": "norgesgruppen:7255",
+   "why": "duplicate (round S): Same round roast, kcal 106 vs 107; target has two barcodes"
+  },
+  {
+   "id": "norgesgruppen:7355",
+   "into": "ean:2000735500002",
+   "why": "duplicate (round S): Same pepper steak; target has barcode and shop label"
+  },
+  {
+   "id": "ean:7350025545554",
+   "into": "ean:2354873004787",
+   "why": "duplicate (round S): Same brand and product, kcal 98 vs 91. No source found."
+  },
+  {
+   "id": "ean:2368011607457",
+   "into": "ean:7090006864402",
+   "why": "duplicate (round S): Same brand and product; weight-coded EAN. No source found."
+  },
+  {
+   "id": "ean:2371584016007",
+   "into": "ean:2371586606510",
+   "why": "duplicate (round S): Same brand and product name; no variant words. No source found."
+  },
+  {
+   "id": "ean:7331044008657",
+   "into": "ean:4331436008602",
+   "why": "duplicate (round S): Same brand and product; this row lacks salt. No source found."
+  },
+  {
+   "id": "ean:4335619115828",
+   "into": "ean:4335619115408",
+   "why": "duplicate (round S): Same product, kcal both 99; other row is complete with salt."
+  },
+  {
+   "id": "ean:7350024600438",
+   "into": "ean:4390314401225",
+   "why": "duplicate (round S): Same whey product, kcal 390 vs 371; kept row has more barcodes and salt."
+  },
+  {
+   "id": "ean:5029396341738",
+   "into": "ean:5029396739030",
+   "why": "duplicate (round S): Same Fentimans tonic, different bottle size; numbers now agree."
+  },
+  {
+   "id": "ean:7311070007404",
+   "into": "ean:5311270008609",
+   "why": "duplicate (round S): Same product; kcal 252 vs 257."
+  },
+  {
+   "id": "ean:5346483493386",
+   "into": "ean:7311043014101",
+   "why": "duplicate (round S): Same brand and product, same kcal; salt 0.79 looks wrong. No source found."
+  },
+  {
+   "id": "ean:5707293051256",
+   "into": "ean:5707293051249",
+   "why": "duplicate (round S): Same product, other pack, kcal within 4%. No source found."
+  },
+  {
+   "id": "ean:5710858802910",
+   "into": "ean:5710858802934",
+   "why": "duplicate (round S): Same name, brand and pack, kcal within 5%. No source found."
+  },
+  {
+   "id": "ean:5712622160042",
+   "into": "ean:5712622160080",
+   "why": "duplicate (round S): Same product; fat 49 g too low for hazelnuts. No source found."
+  },
+  {
+   "id": "ean:7020655525164",
+   "into": "ean:7020655525966",
+   "why": "duplicate (round S): Same product; kcal 246 matches the shop label."
+  },
+  {
+   "id": "ean:7024850028055",
+   "into": "ean:7024850018841",
+   "why": "duplicate (round S): Same name and brand, kcal near; sparse data, odd category. No source found."
+  },
+  {
+   "id": "ean:7025110216441",
+   "into": "ean:7025110181800",
+   "why": "duplicate (round S): Same Xtra salt chips; kept row has two barcodes; no source found"
+  },
+  {
+   "id": "ean:7025110217370",
+   "into": "ean:0000011011798",
+   "why": "duplicate (round S): Same Xtra paprika chips; kept row has most barcodes; no source found"
+  },
+  {
+   "id": "norgesgruppen:6300",
+   "into": "matvaretabellen:03.106",
+   "why": "duplicate (round S): Generic cooked ham, close numbers; verified Norwegian table row kept"
+  },
+  {
+   "id": "ean:7029121011811",
+   "into": "ean:7070622011817",
+   "why": "duplicate (round S): Same organic Helios millet flakes, other pack; numbers close; shop label matches kept row"
+  },
+  {
+   "id": "ean:7029993010004",
+   "into": "ean:7029993010028",
+   "why": "duplicate (round S): Same Inderøy Stabbursmorr 260 g; sat fat 2.7 looks wrong"
+  },
+  {
+   "id": "ean:7031204644144",
+   "into": "matvaretabellen:03.152",
+   "why": "duplicate (round S): Generic falukorv, no brand; numbers close; verified table row kept"
+  },
+  {
+   "id": "ean:7035620046360",
+   "into": "ean:7035620052040",
+   "why": "duplicate (round S): Same 460 g product; numbers near the label"
+  },
+  {
+   "id": "ean:7037203640149",
+   "into": "ean:7037206100008",
+   "why": "duplicate (round S): Same Gilde servelat; kept row is verified with two barcodes"
+  },
+  {
+   "id": "norgesgruppen:6918",
+   "into": "norgesgruppen:1540",
+   "why": "duplicate (round S): Same Norgesgruppen potetsalat, no barcode, similar numbers; no source found."
+  },
+  {
+   "id": "ean:7072175114069",
+   "into": "ean:7072175800696",
+   "why": "duplicate (round S): Same Ytterøy chicken mince, kcal 147 vs 134; no source found."
+  },
+  {
+   "id": "ean:7090046126645",
+   "into": "ean:7073313000190",
+   "why": "duplicate (round S): Same SunnRask chia seeds, discontinued source, close numbers."
+  },
+  {
+   "id": "sportkost:https://www.sportkost.se/halsokost/livsmedel-1/bakning/sukrin-sirup-gold-325g",
+   "into": "ean:7090017541989",
+   "why": "duplicate (round S): Same Sukrin Sirup Gold, numbers match label."
+  },
+  {
+   "id": "ean:7090049280054",
+   "into": "ean:7090049280092",
+   "why": "duplicate (round S): Same drink, 18 kcal fits 4.6 carbs, not 3.1; no source found"
+  },
+  {
+   "id": "ean:7310861011194",
+   "into": "ean:7310861011484",
+   "why": "duplicate (round S): Same product; fat equals sat fat, likely error; no source found"
+  },
+  {
+   "id": "ean:7311070003857",
+   "into": "ean:7311070004137",
+   "why": "duplicate (round S): Same bread, other pack; no source found"
+  },
+  {
+   "id": "ean:7350126081821",
+   "into": "ean:7311171004135",
+   "why": "duplicate (round S): Salt 0.00925 implausible for herring; no source found"
+  },
+  {
+   "id": "ean:7311310048310",
+   "into": "ean:7311311014017",
+   "why": "duplicate (round S): 10 kg catering pack, same spice mix; shop label zeros unusable"
+  },
+  {
+   "id": "ean:7312930000382",
+   "into": "ean:7312930009385",
+   "why": "duplicate (round S): Same Almondy Mandelkake Daim, 400 g pack; numbers within 3%."
+  },
+  {
+   "id": "ean:7313160020232",
+   "into": "ean:7313160004997",
+   "why": "duplicate (round S): Same Rydbergs Räksallad; numbers within 10%, salt 0.00275 is bad data."
+  },
+  {
+   "id": "ean:7318690007630",
+   "into": "ean:7318690497035",
+   "why": "duplicate (round S): Same ICA red lentils; numbers within ~3%."
+  },
+  {
+   "id": "ean:7318690018391",
+   "into": "ean:7318690502319",
+   "why": "duplicate (round S): Same ICA Mazarin klassisk; numbers within ~5%."
+  },
+  {
+   "id": "ean:7318690032120",
+   "into": "ean:7318690513544",
+   "why": "duplicate (round S): Same ICA light margarine; kcal within ~3%, fibre value looks bogus."
+  },
+  {
+   "id": "ean:7318690162575",
+   "into": "ean:7318690069232",
+   "why": "duplicate (round S): Same ICA pytt i panna; numbers within ~5%; target has salt."
+  },
+  {
+   "id": "ean:7318690125891",
+   "into": "ean:7318690125952",
+   "why": "duplicate (round S): Same product; salt 5.2 g looks wrong; no source found"
+  },
+  {
+   "id": "ean:7318690186687",
+   "into": "ean:7318690127963",
+   "why": "duplicate (round S): Same product, kcal 258.7 vs 259, numbers agree"
+  },
+  {
+   "id": "ean:7318690692126",
+   "into": "ean:7318690142010",
+   "why": "duplicate (round S): Same bouillon, about 10% apart; no source found"
+  },
+  {
+   "id": "ean:7318690166788",
+   "into": "ean:7318690150572",
+   "why": "duplicate (round S): Same pancakes, 170 vs 161 kcal; no source found"
+  },
+  {
+   "id": "ean:7340000300254",
+   "into": "ean:7340000300230",
+   "why": "duplicate (round S): Same Indian Star Basmatiris; numbers agree within 1%; OFF pages match both; keep fuller row"
+  },
+  {
+   "id": "ean:7340083428845",
+   "into": "ean:7340083468506",
+   "why": "duplicate (round S): Same name; salt 78.7 g impossible so numbers unreliable; no source found"
+  },
+  {
+   "id": "ean:7340130603362",
+   "into": "ean:7340224401751",
+   "why": "duplicate (round S): Same Body Science Whey 1 kg; kcal 380 vs 379; no source found"
+  },
+  {
+   "id": "ean:7340138812346",
+   "into": "ean:7340138809742",
+   "why": "duplicate (round S): Same Picadeli product; other row has pack size and full numbers; no source found"
+  },
+  {
+   "id": "ean:7340191169920",
+   "into": "ean:7340191166776",
+   "why": "duplicate (round S): Salt 98.3 g impossible and sat fat equals fat; other row plausible; no source found"
+  },
+  {
+   "id": "ean:7350029730048",
+   "into": "ean:7350029735661",
+   "why": "duplicate (round S): Same Dahls Cocoskladdkaka, kcal within 3%; no source found"
+  },
+  {
+   "id": "ean:7350042722242",
+   "into": "max-burgers:brooklyn-tribute",
+   "why": "duplicate (round S): Same Max burger; prefer brand source row; kcal 600 vs 604"
+  },
+  {
+   "id": "ean:7393997199103",
+   "into": "ean:7350135372101",
+   "why": "duplicate (round S): Same Coaties Havrebiter Mocca 160 g; older recipe or barcode, matches its own label."
+  },
+  {
+   "id": "ean:7391835001458",
+   "into": "kungmarkatta:https://www.kungmarkatta.se/produkter/ris-gryn-och-pasta/bovetekross/",
+   "why": "duplicate (round S): Same product; brand site row is verified and has pack size."
+  },
+  {
+   "id": "ean:8854404005732",
+   "into": "ean:8854404005206",
+   "why": "duplicate (round S): Same black rice 500 g; its row differs from its own label, which matches the other row."
+  },
+  {
+   "id": "norgesgruppen:1243",
+   "into": "matvaretabellen:04.398",
+   "why": "duplicate (round S): Same food, similar macros; no source found."
+  },
+  {
+   "id": "norgesgruppen:2287",
+   "into": "norgesgruppen:2537",
+   "why": "duplicate (round S): Same generic bread; no source found."
+  },
+  {
+   "id": "norgesgruppen:2601",
+   "into": "norgesgruppen:9041",
+   "why": "duplicate (round S): Same bun, kcal 329 vs 340; no source found."
+  },
+  {
+   "id": "norgesgruppen:2724",
+   "into": "norgesgruppen:9780",
+   "why": "duplicate (round S): Same baguette, same 140 g pack."
+  },
+  {
+   "id": "norgesgruppen:7386",
+   "into": "norgesgruppen:6257",
+   "why": "duplicate (round S): Same product, kcal 252 vs 263; no source found."
+  },
+  {
+   "id": "norgesgruppen:7845",
+   "into": "norgesgruppen:6257",
+   "why": "duplicate (round S): Same 130 g product; sat fat 3.8 looks wrong."
+  },
+  {
+   "id": "norgesgruppen:9418",
+   "into": "norgesgruppen:6257",
+   "why": "duplicate (round S): Same 130 g product, kcal 252 vs 263; no source found."
+  },
+  {
+   "id": "norgesgruppen:7078",
+   "into": "norgesgruppen:7315",
+   "why": "duplicate (round S): Same name, kcal 118 vs 117."
+  },
+  {
+   "id": "norgesgruppen:7818",
+   "into": "norgesgruppen:7820",
+   "why": "duplicate (round S): Same name, near-equal numbers."
+  },
+  {
+   "id": "norgesgruppen:79344077955",
+   "into": "norgesgruppen:79344047958",
+   "why": "duplicate (round S): Same brand, name and pack; keep row with fibre. No source found."
+  },
+  {
+   "id": "norgesgruppen:8209",
+   "into": "norgesgruppen:8208",
+   "why": "duplicate (round S): Same name and pack, no brand; no source found."
+  },
+  {
+   "id": "tights:73545",
+   "into": "tights:1405574",
+   "why": "duplicate (round S): Same whey, pack size only differs."
+  },
+  {
+   "id": "ean:2000783866709",
+   "into": "ean:2000783852795",
+   "why": "duplicate (round S): Same Meny product, kcal 288 vs 282; keep row with more barcodes."
+  },
+  {
+   "id": "ean:2301202203502",
+   "into": "ean:7037206100046",
+   "why": "duplicate (round S): Same Gilde sylte; missing salt, sugars; Gilde row preferred"
+  },
+  {
+   "id": "ean:7300156507396",
+   "into": "ean:7300156503084",
+   "why": "duplicate (round S): Same Coop light quark, kcal 50 vs 55; no source found"
+  },
+  {
+   "id": "ean:7035620065958",
+   "into": "ean:7035620001154",
+   "why": "duplicate (round S): Same Eldorado pommes strips 600 g, kcal 170 vs 182"
+  },
+  {
+   "id": "ean:7035620001093",
+   "into": "ean:7035620015311",
+   "why": "duplicate (round S): Same sauce and pack; shop label supports first row"
+  },
+  {
+   "id": "ean:5059883485072",
+   "into": "ean:5059883479026",
+   "why": "duplicate (round S): Same hydrate powder, discontinued listing, numbers within 5%"
+  },
+  {
+   "id": "ean:7032069104101",
+   "into": "ean:7032069732229",
+   "why": "duplicate (round S): Same Rema white beans in tomato sauce; label supports first"
+  },
+  {
+   "id": "ean:2000673927909",
+   "into": "ean:2000673932101",
+   "why": "duplicate (round S): Same Spar Lunsjkake, similar numbers; no source found"
+  },
+  {
+   "id": "toro:https://www.toro.no/produkter/glutenfri-bali-kyllinggryte/",
+   "into": "toro:https://www.toro.no/produkter/bali-kyllinggryte-3/",
+   "why": "duplicate (round S): Same Toro product; numbers equal the shop label for the 70 g EAN"
+  },
+  {
+   "id": "ean:7025110200792",
+   "into": "ean:7300156503985",
+   "why": "duplicate (round S): Same plain Coop asparagus, unverified; no source found"
+  },
+  {
+   "id": "ean:5060751994787",
+   "into": "ean:5060469987583",
+   "why": "duplicate (round S): Identical numbers to Toffee Crunchy; verified row kept. No source found for flavour."
+  },
+  {
+   "id": "bodystore-discontinued:FP9789-054R",
+   "into": "kassalapp:9220",
+   "why": "duplicate (round S): Numbers identical to Peanut Butter row; generic name, discontinued source."
+  },
+  {
+   "id": "ean:2317258505712",
+   "into": "ean:2317258505170",
+   "why": "duplicate (round S): Identical numbers; its salt 0.0059 g is implausible. No source found."
+  },
+  {
+   "id": "ean:2371545122600",
+   "into": "ean:2371545121788",
+   "why": "duplicate (round S): Same Nybergs helgskinka, near-identical numbers; kept row has more data."
+  },
+  {
+   "id": "ean:2359773305934",
+   "into": "ean:2359773305187",
+   "why": "duplicate (round S): Identical numbers; kept row has two barcodes. No source found."
+  },
+  {
+   "id": "ean:7340083474675",
+   "into": "ean:7311041064337",
+   "why": "duplicate (round S): Identical numbers, same brand; kept row has five barcodes."
+  },
+  {
+   "id": "ean:7311043001354",
+   "into": "ean:7340083497353",
+   "why": "duplicate (round S): Same brand, identical numbers, sibling EAN 7340083497346; no source found"
+  },
+  {
+   "id": "ean:0624116108506",
+   "into": "ean:2320719109428",
+   "why": "duplicate (round S): Identical numbers and brand, weight-price EAN family; no source found"
+  },
+  {
+   "id": "ean:2320321610107",
+   "into": "ean:2320321610329",
+   "why": "duplicate (round S): Identical numbers, truncated name of same Scan Svensk line; no source found"
+  },
+  {
+   "id": "ean:2371581011555",
+   "into": "ean:2371581009224",
+   "why": "duplicate (round S): Identical numbers, same Lidl pork fillet; no source found"
+  },
+  {
+   "id": "norgesgruppen:23715203",
+   "into": "ean:2371520500003",
+   "why": "duplicate (round S): Same brand, size and numbers"
+  },
+  {
+   "id": "ean:2307116808024",
+   "into": "ean:7313940011856",
+   "why": "duplicate (round S): Same corn chicken fillet; sugars 0.5 vs 0 trivial; no source found"
+  },
+  {
+   "id": "ean:5707196306828",
+   "into": "ean:5707196238907",
+   "why": "duplicate (round S): Same Tulip ternet bacon 250 g, identical label numbers"
+  },
+  {
+   "id": "norgesgruppen:23812607",
+   "into": "ean:2081260700006",
+   "why": "duplicate (round S): Same Gjendemsjø whole mackerel, identical numbers"
+  },
+  {
+   "id": "ean:4032499738160",
+   "into": "ean:7032069738160",
+   "why": "duplicate (round S): Same Rema pølsegryte, identical numbers; other row has shop label with salt"
+  },
+  {
+   "id": "ean:2313516411382",
+   "into": "ean:2313516412167",
+   "why": "duplicate (round S): Same Finsbråten BBQ grillfilet, same core numbers; no source found"
+  },
+  {
+   "id": "norgesgruppen:23893707",
+   "into": "ean:2389370700009",
+   "why": "duplicate (round S): Same Hovelsrud chicken breast, identical numbers"
+  },
+  {
+   "id": "norgesgruppen:23893708",
+   "into": "ean:2389371300000",
+   "why": "duplicate (round S): Same Hovelsrud chicken thigh, identical numbers"
+  },
+  {
+   "id": "ean:2560037793484",
+   "into": "ean:7350037193484",
+   "why": "duplicate (round S): Same Peas of Heaven middagskorv, identical numbers"
+  },
+  {
+   "id": "ean:5011308302210",
+   "into": "ean:5011308303279",
+   "why": "duplicate (round S): Same Patak's Mild Butter Chicken, same numbers"
+  },
+  {
+   "id": "ean:5708636185386",
+   "into": "ean:5708636185393",
+   "why": "duplicate (round S): Same Rømer organic sauerkraut in jar, identical numbers"
+  },
+  {
+   "id": "ean:7041013150118",
+   "into": "ean:7041015201115",
+   "why": "duplicate (round S): Nude is the mango sorbet; kcal 115 matches, shop label confirms"
+  },
+  {
+   "id": "ean:5713162000058",
+   "into": "ean:5713162100666",
+   "why": "duplicate (round S): Same Guru Snack original granola, different pack size only"
+  },
+  {
+   "id": "ean:5744001421024",
+   "into": "ean:5744001420065",
+   "why": "duplicate (round S): Same sweet chili chips, numbers within rounding; no source found"
+  },
+  {
+   "id": "ean:5744001420980",
+   "into": "ean:5744001420157",
+   "why": "duplicate (round S): Same sour cream and onion chips, numbers within rounding; no source found"
+  },
+  {
+   "id": "ean:5744001420942",
+   "into": "ean:5744001420171",
+   "why": "duplicate (round S): Same salt and pepper chips, numbers within rounding; no source found"
+  },
+  {
+   "id": "ean:8008698003947",
+   "into": "ean:8008698010402",
+   "why": "duplicate (round S): Same Schär Maria Kjeks, identical numbers; Schär Maria is always glutenfri"
+  },
+  {
+   "id": "ean:7023860067085",
+   "into": "ean:7023860067580",
+   "why": "duplicate (round S): Same Balholm Margaret sprudlande 0,75 l, identical numbers and shop label"
+  },
+  {
+   "id": "ean:2382664613054",
+   "into": "ean:2382664612927",
+   "why": "duplicate (round S): Same Synnøve gulost 29%, identical numbers; target has more barcodes"
+  },
+  {
+   "id": "ean:7034280001566",
+   "into": "synnove:https://www.synnove.no/produkt/glutenfri-granola-bringebaer/",
+   "why": "duplicate (round S): Same glutenfri granola bringebær 350 g; brand source row is verified and current"
+  },
+  {
+   "id": "synnove:https://www.synnove.no/produkt/glutenfri-pasta-med-ostesaus/",
+   "into": "ean:7071319033945",
+   "why": "duplicate (round S): Same Synnøve glutenfri pasta med ostesaus, identical numbers"
+  },
+  {
+   "id": "synnove:https://www.synnove.no/produkt/synnove-glutenfri-gulrotkake-mix/",
+   "into": "ean:7071319032269",
+   "why": "duplicate (round S): Same glutenfri gulrotkake mix, identical numbers"
+  },
+  {
+   "id": "ean:7311043014170",
+   "into": "ean:7340083443183",
+   "why": "duplicate (round S): Same Eldorado frozen blueberries, identical numbers; target verified"
+  },
+  {
+   "id": "toro:https://www.toro.no/produkter/glutenfri-grov-melblanding/",
+   "into": "ean:7037610057332",
+   "why": "duplicate (round S): Same Toro glutenfri grov melblanding, identical numbers"
+  },
+  {
+   "id": "toro:https://www.toro.no/produkter/glutenfri-lys-melblanding/",
+   "into": "ean:7037610057134",
+   "why": "duplicate (round S): Same Toro glutenfri lys melblanding, identical numbers"
+  },
+  {
+   "id": "ean:7038010055515",
+   "into": "tine:https://www.tine.no/merkevarer/piano/produkter/piano-vaniljesaus-uten",
+   "why": "duplicate (round S): Same Piano vaniljesaus uten tilsatt sukker; shop name confirms; target is Tine verified"
+  },
+  {
+   "id": "tights-discontinued:1464331",
+   "into": "ean:7090046141600",
+   "why": "duplicate (round S): Discontinued bundle of same white chocolate; numbers agree"
+  },
+  {
+   "id": "tights-discontinued:802455",
+   "into": "ean:7090046146131",
+   "why": "duplicate (round S): Discontinued bundle of same Fit Kat; current barcode row kept"
+  },
+  {
+   "id": "tights-discontinued:10656065",
+   "into": "ean:9102222027177",
+   "why": "duplicate (round S): Discontinued multipack of same chocolate, identical numbers"
+  },
+  {
+   "id": "tights-discontinued:10568310",
+   "into": "ean:9102222030191",
+   "why": "duplicate (round S): Discontinued twelve-pack of same dark chocolate, identical numbers"
+  },
+  {
+   "id": "tights-discontinued:12798594",
+   "into": "ean:9102222030191",
+   "why": "duplicate (round S): Discontinued listing of same dark chocolate, identical numbers"
+  },
+  {
+   "id": "ean:7310070010636",
+   "into": "ean:7310070010506",
+   "why": "duplicate (round S): Shop name says Zero Sugar Pink Lemonade; same product as 7up Zero Pink Lemonade"
+  },
+  {
+   "id": "kassalapp:19355",
+   "into": "ean:7090052030028",
+   "why": "duplicate (round S): Same GroGro smoothie eple og blåbær, identical numbers; target has barcode"
+  },
+  {
+   "id": "ean:8445290749079",
+   "into": "ean:7613036275965",
+   "why": "duplicate (round S): Same Nan 2 drikkeklar 200 ml; prefer Norwegian shop row over Danish source"
+  },
+  {
+   "id": "ean:8010721981689",
+   "into": "ean:8010721977385",
+   "why": "duplicate (round S): Same Parmareggio trekant 30%, identical numbers; target has more barcodes"
+  },
+  {
+   "id": "bodypower:https://www.bodypower.se/kosttillskott-1/livsmedel/saser-siraper/wispy-zero-sauce-teriyaki-440g",
+   "into": "ean:5744002360414",
+   "why": "duplicate (round S): Same product; numbers equal OFF label for the barcode."
+  },
+  {
+   "id": "ean:7021860017017",
+   "into": "ean:7021860017062",
+   "why": "duplicate (round S): Same Østebø fiskepudding, other pack size; numbers equal after update."
+  },
+  {
+   "id": "ean:7055330034570",
+   "into": "ean:7035620039683",
+   "why": "duplicate (round S): Same Fersk & Ferdig fiskegrateng; numbers within 20% of updated row."
+  },
+  {
+   "id": "gymgrossisten-se:https://www.gymgrossisten.com/serious-mass-gainer-2727-g-kreatinpulver-300-g/SETGAINERCREATINE.html",
+   "into": "gymgrossisten:https://www.gymgrossisten.no/serious-mass-gainer-2727-g-kreatinpulver-300-g/SETGAINERCREATINE.html",
+   "why": "duplicate (round S): Same set, identical numbers; keep Norwegian row."
+  },
+  {
+   "id": "ean:7350109010046",
+   "into": "ean:7350109010107",
+   "why": "duplicate (round S): No source found for variants; both OFF, same name. Kept the row with full data."
+  },
+  {
+   "id": "ean:7310070381903",
+   "into": "ringnes:https://www.ringnes.no/produkter/7up/7up/",
+   "why": "duplicate (round S): Same regular 7up (OFF 19 kcal, possibly newer recipe); Norwegian brand source kept."
+  },
+  {
+   "id": "norgesgruppen:8224",
+   "into": "norgesgruppen:7052",
+   "why": "duplicate (round S): Same name and pack, no barcode or source found."
+  },
+  {
+   "id": "ean:7041614007514",
+   "into": "ean:7041614003127",
+   "why": "duplicate (round S): OFF shows same Bakehuset Sjokoladeboller (4stk) without nutrition; no source found for numbers."
+  },
+  {
+   "id": "ean:5704297113522",
+   "into": "ean:5704297113508",
+   "why": "duplicate (round S): Same name and pack; no source found."
+  },
+  {
+   "id": "ean:5010338404475",
+   "into": "ean:5010338205195",
+   "why": "duplicate (round S): Same Blue Dragon Fish Sauce 150 ml per OFF; Norwegian importer listing, no distinct name."
+  },
+  {
+   "id": "ean:7322550031833",
+   "into": "ean:7322550092216",
+   "why": "duplicate (round S): OFF names it only 'Kantarell'; no source found to tell apart."
+  },
+  {
+   "id": "ean:7314060079344",
+   "into": "ean:7314060052026",
+   "why": "duplicate (round S): Same frozen blueberry product, no source found to tell apart."
+  },
+  {
+   "id": "ean:5711657015747",
+   "into": "ean:5711657015761",
+   "why": "duplicate (round S): Same Bodylab vegan protein; no flavour name found. Keep row with most barcodes."
+  },
+  {
+   "id": "norgesgruppen:8963",
+   "into": "ean:7072811005669",
+   "why": "duplicate (round S): Same broccoli salad from the same shop; no barcode. No source found."
+  },
+  {
+   "id": "norgesgruppen:8742",
+   "into": "norgesgruppen:8741",
+   "why": "duplicate (round S): Same generic name, no barcode, no source found to tell them apart."
+  },
+  {
+   "id": "ean:7340023126527",
+   "into": "ean:7340023809659",
+   "why": "duplicate (round S): Same Brödernas grilled chicken; other row's numbers match Open Food Facts."
+  },
+  {
+   "id": "ean:0700000006926",
+   "into": "ean:0709032404496",
+   "why": "duplicate (round S): Same generic burrata; first barcode looks like a placeholder. No source found."
+  },
+  {
+   "id": "ean:7036340066416",
+   "into": "ean:7315200590989",
+   "why": "duplicate (round S): No source found for a separate variant; keep row matching Open Food Facts."
+  },
+  {
+   "id": "norgesgruppen:79581188025",
+   "into": "norgesgruppen:79581188018",
+   "why": "duplicate (round S): Same zero-sugar numbers except an odd kcal 11.22; no source found."
+  },
+  {
+   "id": "ean:7310401057941",
+   "into": "ean:7310401057897",
+   "why": "duplicate (round S): No source found for a variant name; Open Food Facts only says Champis."
+  },
+  {
+   "id": "ean:7350080250103",
+   "into": "ean:7350080250011",
+   "why": "duplicate (round S): no source found; same name, brand; sparser data"
+  },
+  {
+   "id": "ean:7340191154063",
+   "into": "ean:7025110224521",
+   "why": "duplicate (round S): no source found; same Coop orange juice; kcal 48 does not match carbs"
+  },
+  {
+   "id": "ean:7025110208262",
+   "into": "ean:7300156596543",
+   "why": "duplicate (round S): no source found; same Coop coleslaw, no distinguishing name"
+  },
+  {
+   "id": "ean:7340191124394",
+   "into": "ean:7340191178014",
+   "why": "duplicate (round S): no source found; same Coop crunchy peanut butter 350 g"
+  },
+  {
+   "id": "ean:7340191100732",
+   "into": "ean:7340191149304",
+   "why": "duplicate (round S): no source found; same name, brand, size; fewer nutrients"
+  },
+  {
+   "id": "ean:7340191184022",
+   "into": "ean:7340011437512",
+   "why": "duplicate (round S): no source found; same Coop edamame, no distinguishing name"
+  },
+  {
+   "id": "ean:7340191143258",
+   "into": "ean:7340011495116",
+   "why": "duplicate (round S): no source found; same Coop whole grain rice; kcal 358.75 odd"
+  },
+  {
+   "id": "ean:7300156587633",
+   "into": "ean:7025110151315",
+   "why": "duplicate (round S): no source found; unverified duplicate of same product"
+  },
+  {
+   "id": "ean:7025110188687",
+   "into": "ean:7025110088390",
+   "why": "duplicate (round S): no source found; same Coop Italian meatballs 360 g"
+  },
+  {
+   "id": "ean:7340011447559",
+   "into": "ean:7340191168824",
+   "why": "duplicate (round S): no source found; same Coop salted nacho chips 200 g"
+  },
+  {
+   "id": "norgesgruppen:2504",
+   "into": "norgesgruppen:32503",
+   "why": "duplicate (round S): no source found; 299 kcal does not match its macros"
+  },
+  {
+   "id": "norgesgruppen:6295",
+   "into": "matvaretabellen:06.200",
+   "why": "duplicate (round S): Same generic name; no source found to tell it apart."
+  },
+  {
+   "id": "ean:7310960045533",
+   "into": "ean:7310960051398",
+   "why": "duplicate (round S): Same product name; OFF rate-limited, no variant name found."
+  },
+  {
+   "id": "ean:7310960044147",
+   "into": "ean:7310960016557",
+   "why": "duplicate (round S): Same name and size; no separate variant name found."
+  },
+  {
+   "id": "ean:7310960044154",
+   "into": "ean:7310960016496",
+   "why": "duplicate (round S): Same name and size; no separate variant name found."
+  },
+  {
+   "id": "norgesgruppen:5104",
+   "into": "norgesgruppen:5103",
+   "why": "duplicate (round S): No source found; unnamed dessert, cannot be told apart."
+  },
+  {
+   "id": "norgesgruppen:5105",
+   "into": "norgesgruppen:5103",
+   "why": "duplicate (round S): No source found; unnamed dessert, cannot be told apart."
+  },
+  {
+   "id": "norgesgruppen:5107",
+   "into": "norgesgruppen:5103",
+   "why": "duplicate (round S): No source found; unnamed dessert, cannot be told apart."
+  },
+  {
+   "id": "norgesgruppen:5658",
+   "into": "norgesgruppen:2174",
+   "why": "duplicate (round S): Same name and size; no source found."
+  },
+  {
+   "id": "ean:7317661700303",
+   "into": "ean:7317661714720",
+   "why": "duplicate (round S): Same product, older recipe; OFF not reachable for it."
+  },
+  {
+   "id": "ean:7311041072585",
+   "into": "ean:7340083491948",
+   "why": "duplicate (round S): Same product name and size; no source found for a variant."
+  },
+  {
+   "id": "ean:7311043003310",
+   "into": "ean:7311043025350",
+   "why": "duplicate (round S): Same name, fewer nutrients; no separate variant found."
+  },
+  {
+   "id": "ean:7311043015795",
+   "into": "ean:7340083460555",
+   "why": "duplicate (round S): Same name; no source found for a variant."
+  },
+  {
+   "id": "ean:7035620010101",
+   "into": "ean:7035620039614",
+   "why": "duplicate (round S): Same name and size; no source found to tell apart."
+  },
+  {
+   "id": "ean:5745000038183",
+   "into": "ean:5700002147202",
+   "why": "duplicate (round S): Same name, brand, size; no source found; Open Food Facts rate-limited"
+  },
+  {
+   "id": "ean:7350051285547",
+   "into": "ean:7314871989009",
+   "why": "duplicate (round S): Same name and brand; no source found"
+  },
+  {
+   "id": "ean:7310500187747",
+   "into": "ean:7310500175812",
+   "why": "duplicate (round S): Same product, identical numbers"
+  },
+  {
+   "id": "ean:7033550604506",
+   "into": "ean:7041610031117",
+   "why": "duplicate (round S): Same name, brand, size; no source found"
+  },
+  {
+   "id": "ean:7053365670077",
+   "into": "ean:7090012723274",
+   "why": "duplicate (round S): Same product and size, close numbers; no source found"
+  },
+  {
+   "id": "ean:7311043003631",
+   "into": "ean:7340083481291",
+   "why": "duplicate (round S): Same name and brand; no source found"
+  },
+  {
+   "id": "ean:7340083430237",
+   "into": "ean:7311043019564",
+   "why": "duplicate (round S): Same name and brand; no source found"
+  },
+  {
+   "id": "ean:2307983908094",
+   "into": "ean:2307984013476",
+   "why": "duplicate (round S): Same name and brand; no source found for variant"
+  },
+  {
+   "id": "ean:7340083434709",
+   "into": "ean:2307984013476",
+   "why": "duplicate (round S): Same name and brand; no source found for variant"
+  },
+  {
+   "id": "ean:2359772706770",
+   "into": "ean:2359749307559",
+   "why": "duplicate (round S): Same name, brand; close numbers"
+  },
+  {
+   "id": "ean:7340083465413",
+   "into": "ean:7311043025411",
+   "why": "duplicate (round S): Same product, name differs only in case"
+  },
+  {
+   "id": "ean:7037203641535",
+   "into": "ean:7037203642631",
+   "why": "duplicate (round S): Same product; unverified shop row; no source found"
+  },
+  {
+   "id": "ean:7037203636128",
+   "into": "ean:7037206101463",
+   "why": "duplicate (round S): Same Gilde lamb strips 300 g; verified Gilde row kept. OFF lists it as Lammestrimler."
+  },
+  {
+   "id": "ean:7032069103029",
+   "into": "ean:7032069102992",
+   "why": "duplicate (round S): Same name; fibre 9.5 g is implausible for fish cakes. No source found."
+  },
+  {
+   "id": "ean:7393914000208",
+   "into": "ean:7310130013508",
+   "why": "duplicate (round S): Same name; salt 0.002 g implausible. No source found."
+  },
+  {
+   "id": "norgesgruppen:8965",
+   "into": "norgesgruppen:9093",
+   "why": "duplicate (round S): Same name, no brand or barcode; carbs 10 g and fibre 0 look wrong. No source found."
+  },
+  {
+   "id": "ean:7045386167001",
+   "into": "ean:7045386068407",
+   "why": "duplicate (round S): Same Leiv Vidar Grillpølse; no source found to tell them apart."
+  },
+  {
+   "id": "ean:7025110153562",
+   "into": "ean:7025110072047",
+   "why": "duplicate (round S): Same Grilstad product name; OFF shows 170 kcal for it, not our 158. Same product assumed."
+  },
+  {
+   "id": "ean:7340052540592",
+   "into": "ean:7340052540523",
+   "why": "duplicate (round S): Same name and brand; salt missing. No source found."
+  },
+  {
+   "id": "ean:7313940012617",
+   "into": "ean:2307136108203",
+   "why": "duplicate (round S): Same name and brand; no source found to tell variants apart."
+  },
+  {
+   "id": "ean:7350037191770",
+   "into": "ean:7350037195730",
+   "why": "duplicate (round S): Same Falukorv; salt missing. No source found."
+  },
+  {
+   "id": "ean:7318690081548",
+   "into": "ean:7318690079705",
+   "why": "duplicate (round S): Same ICA Basic meatballs 1 kg; no source found."
+  },
+  {
+   "id": "ean:7318690519393",
+   "into": "ean:7318690496595",
+   "why": "duplicate (round S): Same name; no source found to tell them apart."
+  },
+  {
+   "id": "ean:7318690054856",
+   "into": "ean:7318690517771",
+   "why": "duplicate (round S): Same name; no source found to show a light variant."
+  },
+  {
+   "id": "ean:2319124014915",
+   "into": "ean:2319228108947",
+   "why": "duplicate (round S): Same name; OFF gives no variant; no source found"
+  },
+  {
+   "id": "ean:2319232109541",
+   "into": "ean:2319124007771",
+   "why": "duplicate (round S): Same name; no variant found; no source found"
+  },
+  {
+   "id": "ean:2096718144554",
+   "into": "ean:2091769169112",
+   "why": "duplicate (round S): Same name; no variant found; no source found"
+  },
+  {
+   "id": "ean:7318690507550",
+   "into": "ean:7318690157625",
+   "why": "duplicate (round S): Same name; no variant found; no source found"
+  },
+  {
+   "id": "ean:7318690005629",
+   "into": "ean:7318690033073",
+   "why": "duplicate (round S): Same name; zero fat and salt look unreliable; no source found"
+  },
+  {
+   "id": "ean:7318690497356",
+   "into": "ean:7318690079699",
+   "why": "duplicate (round S): Same name and size; numbers close; no source found"
+  },
+  {
+   "id": "ean:7318690497363",
+   "into": "ean:7318690079699",
+   "why": "duplicate (round S): Same name and size; no variant found; no source found"
+  },
+  {
+   "id": "ean:2319117113434",
+   "into": "ean:2319117110884",
+   "why": "duplicate (round S): Same name; OFF confirms its numbers but no variant name; no source found"
+  },
+  {
+   "id": "ean:2319118316612",
+   "into": "ean:2319118313192",
+   "why": "duplicate (round S): Same name; no variant found; no source found"
+  },
+  {
+   "id": "ean:7330247550321",
+   "into": "ean:7318690162551",
+   "why": "duplicate (round S): Same name; no variant found; no source found"
+  },
+  {
+   "id": "ean:7318690526223",
+   "into": "ean:7318690164531",
+   "why": "duplicate (round S): Same name; no variant found; no source found"
+  },
+  {
+   "id": "ean:7318690125181",
+   "into": "ean:7318690179177",
+   "why": "duplicate (round S): Same product, older recipe; no source found for its numbers"
+  },
+  {
+   "id": "ean:7318690513711",
+   "into": "ean:7318690492412",
+   "why": "duplicate (round S): Same name; no variant found; no source found"
+  },
+  {
+   "id": "ean:7318690491811",
+   "into": "ean:7318690017042",
+   "why": "duplicate (round S): No source found naming a different variant; OFF shows same name."
+  },
+  {
+   "id": "ean:7318690095316",
+   "into": "ean:7318690095286",
+   "why": "duplicate (round S): No source found separating variants; identical name on OFF."
+  },
+  {
+   "id": "ean:7318690507567",
+   "into": "ean:7318690126447",
+   "why": "duplicate (round S): OFF names it just Tomatsoppa too; no source found for variant."
+  },
+  {
+   "id": "ean:7315122019216",
+   "into": "ean:7315122017076",
+   "why": "duplicate (round S): OFF names it Planteboller too; no source found for variant."
+  },
+  {
+   "id": "ean:7311041077344",
+   "into": "ean:7025110171535",
+   "why": "duplicate (round S): Placeholder-like numbers (2 kcal, 0.5 g); no source found for variant."
+  },
+  {
+   "id": "ean:7313592400206",
+   "into": "ean:7313590232502",
+   "why": "duplicate (round S): OFF names it Jordgubbssylt too; no source found for variant."
+  },
+  {
+   "id": "ean:7072200001081",
+   "into": "ean:7072200000770",
+   "why": "duplicate (round S): OFF names it Kalkun Kjøttdeig too; no source found for variant."
+  },
+  {
+   "id": "norgesgruppen:2463",
+   "into": "norgesgruppen:2038",
+   "why": "duplicate (round S): Same name, similar numbers; no source found for a variant."
+  },
+  {
+   "id": "ean:7090054420001",
+   "into": "ean:7037421073927",
+   "why": "duplicate (round S): OFF names it kokosboller too; no source found for variant."
+  },
+  {
+   "id": "openfoodfacts-nordic-global:0314720633329",
+   "into": "ean:7314720634746",
+   "why": "duplicate (round S): No real EAN; same name on OFF; no source found for variant."
+  },
+  {
+   "id": "ean:2332815117702",
+   "into": "ean:2332765818476",
+   "why": "duplicate (round S): Same name apart from case; in-store weight EAN; no source found."
+  },
+  {
+   "id": "ean:7300327541006",
+   "into": "ean:7300327527000",
+   "why": "duplicate (round S): No source found; same name and brand, cannot tell apart."
+  },
+  {
+   "id": "ean:7300328531006",
+   "into": "ean:2332812105771",
+   "why": "duplicate (round S): No source found; same name and brand."
+  },
+  {
+   "id": "norgesgruppen:98304100250",
+   "into": "norgesgruppen:98304100106",
+   "why": "duplicate (round S): No source found; identical name, brand and size."
+  },
+  {
+   "id": "norgesgruppen:98304100465",
+   "into": "norgesgruppen:98304100106",
+   "why": "duplicate (round S): No source found; identical name, brand and size."
+  },
+  {
+   "id": "norgesgruppen:98304100502",
+   "into": "norgesgruppen:98304100106",
+   "why": "duplicate (round S): No source found; identical name, brand and size."
+  },
+  {
+   "id": "ean:7392055051773",
+   "into": "ean:7392055251326",
+   "why": "duplicate (round S): No source found; same name and brand."
+  },
+  {
+   "id": "ean:7350056793146",
+   "into": "ean:7310401055169",
+   "why": "duplicate (round S): Same product, numbers agree closely; no source found."
+  },
+  {
+   "id": "ean:7350056793122",
+   "into": "ean:7350056793108",
+   "why": "duplicate (round S): Same product, numbers agree; odd kcal 131.45."
+  },
+  {
+   "id": "ean:7350065514084",
+   "into": "ean:7350065513384",
+   "why": "duplicate (round S): No source found; same name and brand."
+  },
+  {
+   "id": "norgesgruppen:6521",
+   "into": "norgesgruppen:6502",
+   "why": "duplicate (round S): No source found; identical name, no brand."
+  },
+  {
+   "id": "ean:4335619115385",
+   "into": "ean:4056489670094",
+   "why": "duplicate (round S): Same name and brand on Open Food Facts; no source found to tell them apart."
+  },
+  {
+   "id": "ean:2000561677114",
+   "into": "ean:2000561640903",
+   "why": "duplicate (round S): Same Meny in-store product; no source found for a different variant."
+  },
+  {
+   "id": "ean:2100793413143",
+   "into": "ean:2000793493605",
+   "why": "duplicate (round S): Same Meny in-store name; no source found for a variant."
+  },
+  {
+   "id": "ean:2000736389705",
+   "into": "ean:2000902528709",
+   "why": "duplicate (round S): Same Meny in-store name; no source found for a variant."
+  },
+  {
+   "id": "ean:2000508461004",
+   "into": "ean:2000508463404",
+   "why": "duplicate (round S): Same Meny in-store name; no source found for a variant."
+  },
+  {
+   "id": "ean:2000692574900",
+   "into": "ean:2000285379905",
+   "why": "duplicate (round S): Same name; protein 27 g looks wrong. No source found."
+  },
+  {
+   "id": "ean:2000658561906",
+   "into": "ean:2000153879902",
+   "why": "duplicate (round S): Same name; salt 0.0 looks like unknown. No source found."
+  },
+  {
+   "id": "ean:7044610872988",
+   "into": "ean:7044610874487",
+   "why": "duplicate (round S): Identical numbers, same product, same pack size."
+  },
+  {
+   "id": "ean:2310860912503",
+   "into": "ean:2310860912114",
+   "why": "duplicate (round S): Same name and brand; no source found for a variant."
+  },
+  {
+   "id": "ean:7310861000693",
+   "into": "ean:7310861000389",
+   "why": "duplicate (round S): Same Norrmejerier milk; 2.9 g carbs is implausible for milk, kept row has more barcodes. No better label found."
+  },
+  {
+   "id": "ean:5411211404320",
+   "into": "matvaretabellen:03.463",
+   "why": "duplicate (round S): No brand or label found; fold into Norwegian verified Matvaretabellen row."
+  },
+  {
+   "id": "ean:7318690497219",
+   "into": "matvaretabellen:10.226",
+   "why": "duplicate (round S): No brand or label found; fold into Norwegian verified Matvaretabellen row."
+  },
+  {
+   "id": "ean:8032615271638",
+   "into": "ean:8032615270013",
+   "why": "duplicate (round S): Same product and name apart from case; numbers nearly equal. No source found."
+  },
+  {
+   "id": "ean:8002469551767",
+   "into": "ean:8002469551750",
+   "why": "duplicate (round S): Same Fumagalli product, no variant name found. No source found."
+  },
+  {
+   "id": "ean:5740001202007",
+   "into": "ean:5714946001902",
+   "why": "duplicate (round S): Unbranded bar, no variant name findable. No source found."
+  },
+  {
+   "id": "ean:7350061454162",
+   "into": "ean:7350061452564",
+   "why": "duplicate (round S): Same North Nutrition Protein Pancakes; OFF shows identical name. No source found."
+  },
+  {
+   "id": "ean:0000084752222",
+   "into": "ean:7350021425638",
+   "why": "duplicate (round S): Invalid placeholder barcode; no source found, same name."
+  },
+  {
+   "id": "ean:7330792077762",
+   "into": "ean:7330797077866",
+   "why": "duplicate (round S): Same name and brand differing only by case; no source found."
+  },
+  {
+   "id": "ean:7340104711932",
+   "into": "ean:7340104742141",
+   "why": "duplicate (round S): Same name; no source found for the other barcode."
+  },
+  {
+   "id": "ean:7090006868561",
+   "into": "ean:7032069736487",
+   "why": "duplicate (round S): Same name and pack; its numbers look off, no source found."
+  },
+  {
+   "id": "ean:7010015258887",
+   "into": "ean:4056489236696",
+   "why": "duplicate (round S): Same name; no source found for the other barcode."
+  },
+  {
+   "id": "norgesgruppen:23823536",
+   "into": "norgesgruppen:23823533",
+   "why": "duplicate (round S): Same product, brand and size; no source found."
+  },
+  {
+   "id": "ean:7350044340116",
+   "into": "ean:7350044340017",
+   "why": "duplicate (round S): Same name, brand and size; no source found for a separate variant name."
+  },
+  {
+   "id": "ean:7300200054005",
+   "into": "ean:2320197103116",
+   "why": "duplicate (round S): Same name and brand; no source found for a different variant."
+  },
+  {
+   "id": "ean:2320074507419",
+   "into": "ean:2320321610466",
+   "why": "duplicate (round S): OFF names it only 'Lean Pork' too; no distinguishing variant found."
+  },
+  {
+   "id": "ean:7311364840618",
+   "into": "ean:7311360000313",
+   "why": "duplicate (round S): No source found for variant; OFF rate-limited. Same name and brand."
+  },
+  {
+   "id": "ean:7312690113285",
+   "into": "ean:7312690208097",
+   "why": "duplicate (round S): Same name and brand; category fruit_vegetables looks wrong. No source found."
+  },
+  {
+   "id": "ean:7312690115074",
+   "into": "ean:7312690201357",
+   "why": "duplicate (round S): Same name and brand; no source found for the older entry."
+  },
+  {
+   "id": "ean:7312690208066",
+   "into": "ean:7312690800246",
+   "why": "duplicate (round S): Same name and brand; no source found separating them."
+  },
+  {
+   "id": "norgesgruppen:9648",
+   "into": "norgesgruppen:9647",
+   "why": "duplicate (round S): Same generic name, no brand or barcode; no source found."
+  },
+  {
+   "id": "matvaretabellen:06.731",
+   "into": "matvaretabellen:06.613",
+   "why": "duplicate (round S): Identical name; no source found to tell them apart."
+  },
+  {
+   "id": "matvaretabellen:06.732",
+   "into": "matvaretabellen:06.730",
+   "why": "duplicate (round S): Identical name; no source found to tell them apart."
+  },
+  {
+   "id": "ean:7350094823126",
+   "into": "ean:7350094820453",
+   "why": "duplicate (round S): OFF names it only 'Whey'; no flavour found. Same name and brand."
+  },
+  {
+   "id": "ean:7024850017936",
+   "into": "ean:7057370031564",
+   "why": "duplicate (round S): Same name and brand; no source found, OFF rate-limited."
+  },
+  {
+   "id": "ean:7340028825098",
+   "into": "ean:7340028825173",
+   "why": "duplicate (round S): OFF: same Dark Chocolate Raspberry bar; numbers agree within rounding."
+  },
+  {
+   "id": "norgesgruppen:79344065587",
+   "into": "norgesgruppen:79344065501",
+   "why": "duplicate (round S): no source found; same product, no way to tell apart"
+  },
+  {
+   "id": "ean:7056120509131",
+   "into": "ean:7056120506956",
+   "why": "duplicate (round S): OFF: same Sunrise Sushi Ris, other pack; less complete"
+  },
+  {
+   "id": "ean:0000070405262",
+   "into": "ean:0702162611178",
+   "why": "duplicate (round S): no source found; invalid-looking EAN, less complete"
+  },
+  {
+   "id": "norgesgruppen:2672",
+   "into": "matvaretabellen:05.418",
+   "why": "duplicate (round S): same generic Sveler; verified row preferred"
+  },
+  {
+   "id": "ean:7070097075314",
+   "into": "ean:5076497081230",
+   "why": "duplicate (round S): OFF: same Taga Chorizo Spekepølse, other pack"
+  },
+  {
+   "id": "ean:7310470061306",
+   "into": "ean:7310470061108",
+   "why": "duplicate (round S): OFF names both Vaniljsås Ekströms; no variant name found"
+  },
+  {
+   "id": "norgesgruppen:7167",
+   "into": "norgesgruppen:6797",
+   "why": "duplicate (round S): no source found; same name, no barcode or brand to tell apart"
+  },
+  {
+   "id": "norgesgruppen:1535",
+   "into": "matvaretabellen:08.202",
+   "why": "duplicate (round S): same product; keep verified row. No source found for the other numbers"
+  },
+  {
+   "id": "ean:0736532230195",
+   "into": "ean:0736532229830",
+   "why": "duplicate (round S): no source found; same name, brand-less, likely per-serving values"
+  },
+  {
+   "id": "ean:7318690138099",
+   "into": "matvaretabellen:01.305",
+   "why": "duplicate (round S): no source found; same generic vanilla yoghurt, keep Norwegian verified row"
+  },
+  {
+   "id": "ean:7350027798583",
+   "into": "ean:7350002405505",
+   "why": "duplicate (round S): same product name; its numbers are inconsistent (16 g fat, 150 kcal, 8.75 g salt)"
+  },
+  {
+   "id": "ean:7300156584205",
+   "into": "ean:7300156584809",
+   "why": "duplicate (round S): no source found; same brand and name, lookup blocked"
   }
  ],
  "drop": [
@@ -29829,6 +32056,294 @@
   {
    "id": "ean:7015500002693",
    "why": "0 kcal with 5 g protein on a bread: the numbers cannot be true (nutrition-data #5)"
+  },
+  {
+   "id": "bodylab-dk:https://www.bodylab.dk/carbo-recovery-1-kg-lemon-lime",
+   "why": "round S: Same product as the EAN row; numbers disagree, no label found."
+  },
+  {
+   "id": "norgesgruppen:31104",
+   "why": "round S: 0.1 kcal and all zeros cannot be true for sushi."
+  },
+  {
+   "id": "ean:2319316106404",
+   "why": "round S: 21 kcal per 100 g is impossible for kassler; other row remains"
+  },
+  {
+   "id": "ean:2371540026460",
+   "why": "round S: 190 kcal, fat 11 does not fit same ham; weight-coded EAN. No source found."
+  },
+  {
+   "id": "ean:5060149462300",
+   "why": "round S: Brandless duplicate name, no way to tell apart. No source found."
+  },
+  {
+   "id": "ean:7042115003456",
+   "why": "round S: Salt 61.9 g and 182 kcal cannot be true; no source found."
+  },
+  {
+   "id": "norgesgruppen:8964",
+   "why": "round S: 590 kcal and fat 57 g not credible for salad; no source found."
+  },
+  {
+   "id": "ean:7090046940180",
+   "why": "round S: Salt 83.2 g cannot be true; no source found."
+  },
+  {
+   "id": "ean:7090046940333",
+   "why": "round S: Salt 61 g cannot be true; no source found."
+  },
+  {
+   "id": "ean:7318690522423",
+   "why": "round S: Salt 10.8 g and sugars equal carbs are impossible; other row exists; no source found"
+  },
+  {
+   "id": "ean:7318690513087",
+   "why": "round S: 59.75 kcal impossible for pizza; other row exists; no source found"
+  },
+  {
+   "id": "bodystore-dk:https://www.bodystore.dk/protein-recipe-duo/BUNDLEPRD.html",
+   "why": "round S: Numbers copy the Shake Kit powder row, not this bundle; no source found."
+  },
+  {
+   "id": "gymgrossisten-se:https://www.gymgrossisten.com/protein-shake-kit/BUNDLEWHEYPROMILK.html",
+   "why": "round S: 68 kcal looks prepared with milk, not the kit per 100 g; no source found."
+  },
+  {
+   "id": "norgesgruppen:6450",
+   "why": "round S: 113.7 kcal with zero protein is not true for salami; no source found."
+  },
+  {
+   "id": "norgesgruppen:8278",
+   "why": "round S: Fat 12.4 and 196 kcal not plausible for plain crab; no source found."
+  },
+  {
+   "id": "norgesgruppen:2903",
+   "why": "round S: 484 kcal, fat 32 implausible for donut; no source found."
+  },
+  {
+   "id": "norgesgruppen:9312",
+   "why": "round S: Fat 19, 364 kcal not plausible for baguette; no source found."
+  },
+  {
+   "id": "norgesgruppen:8268",
+   "why": "round S: 213 kcal with 0.7 g fat is not possible for fried onion; no source found."
+  },
+  {
+   "id": "norgesgruppen:7422",
+   "why": "round S: Salt 42 g per 100 g is impossible; no source found."
+  },
+  {
+   "id": "norgesgruppen:79581995296",
+   "why": "round S: 11.2 kcal cannot match 12 g sugar per 100 ml; no source found."
+  },
+  {
+   "id": "ean:7311043001293",
+   "why": "round S: Salt 0.00275 g is impossible for canned tuna; no source found."
+  },
+  {
+   "id": "ean:7340083435959",
+   "why": "round S: Carbs 1.8 implausible for filmjölk; no source found"
+  },
+  {
+   "id": "ean:7037210121235",
+   "why": "round S: Fat 0, protein 0, no salt; partial numbers. Other Lollipop rows exist. No source found."
+  },
+  {
+   "id": "bodypower:https://www.bodypower.se/kosttillskott-1/livsmedel/saser-siraper/bodylab-zero-topping-chocolate-290ml",
+   "why": "round S: 203 kcal contradicts chocolate label 150 kcal on its own page and OFF."
+  },
+  {
+   "id": "tights:516176",
+   "why": "round S: 167 kcal matches no label found; same product as chocolate row; no source found."
+  },
+  {
+   "id": "bodystore-discontinued:6420.MASTER",
+   "why": "round S: Discontinued listing, same product, doubtful numbers; no source found."
+  },
+  {
+   "id": "bodystore-se:SETBSVASSLECREATINE",
+   "why": "round S: Same set, Swedish copy with differing carbs; no source found."
+  },
+  {
+   "id": "bodystore-se:SETGWSHAKE",
+   "why": "round S: Same set, Swedish copy with differing carbs; no source found."
+  },
+  {
+   "id": "ean:0090478005621",
+   "why": "round S: Fat 9 g and sat fat 9 g impossible; Norwegian row matches 38 kcal, 9.4 g carbs."
+  },
+  {
+   "id": "ean:2000492400003",
+   "why": "round S: Carbs and sugars 0 impossible for almonds; verified row stays. No source found"
+  },
+  {
+   "id": "ean:2000561200008",
+   "why": "round S: 4 kcal per 100 g is a per-kg error; other row stays. No source found"
+  },
+  {
+   "id": "ean:2355022209138",
+   "why": "round S: Numbers exactly 2/3 of the other 12% row; scaling error. No source found"
+  },
+  {
+   "id": "ean:5401009000018",
+   "why": "round S: Only kcal, same fruit as other row with full numbers. No source found."
+  },
+  {
+   "id": "ean:4056489767916",
+   "why": "round S: Every value is 1.667 times the other row; scaling error. No source found."
+  },
+  {
+   "id": "ean:5021554986706",
+   "why": "round S: Protein 0.1 not plausible for shoyu; same product as other row. No source found."
+  },
+  {
+   "id": "ean:5707293053113",
+   "why": "round S: Carbs 75 g does not fit 320 kcal; same product as other row. No source found."
+  },
+  {
+   "id": "ean:5999076267224",
+   "why": "round S: Same whey as other row; odd-decimal sparse numbers, carbs 8.9 vs 4.9. No source found."
+  },
+  {
+   "id": "ean:7021990008411",
+   "why": "round S: 220 kcal impossible with 26 g fat; same product as other row. No source found."
+  },
+  {
+   "id": "kassalapp:31527",
+   "why": "round S: No barcode; fat 8 and carbs 23 differ from verified OFF row. Same product."
+  },
+  {
+   "id": "ean:7044610724607",
+   "why": "round S: 157 kcal, 2.17 g fat per 100 ml cannot be true for light beer; no label found"
+  },
+  {
+   "id": "openfoodfacts:14778526",
+   "why": "round S: No barcode; 425 kcal and fibre 17.5 for a sausage are impossible. No source found."
+  },
+  {
+   "id": "tights-discontinued:186622",
+   "why": "round S: Discontinued, no barcode; carbs 10 conflicts with barcoded row. No source found."
+  },
+  {
+   "id": "tights-discontinued:14097940",
+   "why": "round S: Carbs 99 with 6 kcal impossible; same product kept with barcode. No source found."
+  },
+  {
+   "id": "tights-discontinued:3748594",
+   "why": "round S: Discontinued, no barcode, 8 kcal with 99 g carbs impossible; barcoded row stays."
+  },
+  {
+   "id": "tights-discontinued:4267195",
+   "why": "round S: Discontinued, no barcode; numbers differ from barcoded row. No source found."
+  },
+  {
+   "id": "tights-discontinued:2527579",
+   "why": "round S: No barcode, discontinued, kcal 138 impossible; no source found."
+  },
+  {
+   "id": "tights-discontinued:1365503",
+   "why": "round S: Discontinued, no barcode; protein and carbs differ over 20%; no source found."
+  },
+  {
+   "id": "tights-discontinued:4159937",
+   "why": "round S: Discontinued, no barcode, fibre 70 with 75 kcal inconsistent; no source found."
+  },
+  {
+   "id": "ean:7801620855161",
+   "why": "round S: Chilean-prefix barcode, salt 0.09 doubtful; same zero-calorie product exists. No source found."
+  },
+  {
+   "id": "ean:7311043015276",
+   "why": "round S: Protein 4.9 g implausible for blueberries; same product as other row. No source found."
+  },
+  {
+   "id": "ean:7311310035464",
+   "why": "round S: Protein 7 and salt 9 g impossible; same product as other row. No source found."
+  },
+  {
+   "id": "ean:7313160005000",
+   "why": "round S: Salt 38 g and sat fat 39 g impossible; same product as other row. No source found."
+  },
+  {
+   "id": "ean:7318690094012",
+   "why": "round S: Protein 6.6, carbs 79 not credible for spaghetti; OFF only mirrors it; no source found"
+  },
+  {
+   "id": "ean:7350132941584",
+   "why": "round S: Discontinued listing, same cocoa powder, carbs and fibre doubtful. No source found."
+  },
+  {
+   "id": "norgesgruppen:1142",
+   "why": "round S: Same cheese; zero carbs unknown, salt differs. No source found."
+  },
+  {
+   "id": "ean:7613032181758",
+   "why": "round S: Same Brasero 100 g; 63 kcal incomplete and conflicts with label. No other source found."
+  },
+  {
+   "id": "ean:7622201384517",
+   "why": "round S: Same Marabou Vit; 0.41 g protein impossible. No source found."
+  },
+  {
+   "id": "norgesgruppen:23015131",
+   "why": "round S: kcal 351 impossible for 15P/18F/0C (about 222); no source found; verified row stays"
+  },
+  {
+   "id": "norgesgruppen:34000005116",
+   "why": "round S: Same Hershey's syrup with zeros for protein and salt; no source found."
+  },
+  {
+   "id": "norgesgruppen:38099",
+   "why": "round S: Placeholder 1 kcal, all zeros; no source found."
+  },
+  {
+   "id": "norgesgruppen:23406037",
+   "why": "round S: No source found; same product, no barcode, doubtful 385 kcal; verified row stays."
+  },
+  {
+   "id": "ean:0700984605436",
+   "why": "round S: No source found; odd barcode, same product, doubtful numbers."
+  },
+  {
+   "id": "ean:7055330008731",
+   "why": "round S: No source found; same product, numbers disagree with shop label."
+  },
+  {
+   "id": "ean:7310861000709",
+   "why": "round S: Sparse duplicate milk 3,0%, doubtful carbs 2.9; other row stays; no source found"
+  },
+  {
+   "id": "ean:7300156578730",
+   "why": "round S: Salt 12.8 g impossible; same product as other row; no source found"
+  },
+  {
+   "id": "ean:9080693718599",
+   "why": "round S: invalid 9080 barcode, doubtful numbers; no source found; same product as other row"
+  },
+  {
+   "id": "ean:7032069760826",
+   "why": "round S: doubtful salt 0.0016 and fibre; same drained sardines as other row; no source found"
+  },
+  {
+   "id": "norgesgruppen:79581184041",
+   "why": "round S: Carbs 53 g per 100 ml with 47 kcal is impossible; no label found."
+  },
+  {
+   "id": "ean:0700083676801",
+   "why": "round S: Salt 12.5 g per 100 is impossible; no source found to fix."
+  },
+  {
+   "id": "ean:0736532140036",
+   "why": "round S: Unverified; 180 kcal cannot be true for peanut paste. No source found."
+  },
+  {
+   "id": "ean:7330247717809",
+   "why": "round S: Odd computed numbers for a salad, no source found; not the only row."
+  },
+  {
+   "id": "ean:0855564003024",
+   "why": "round S: protein 0 impossible for corn chips; no source found"
   }
  ],
  "add": [
@@ -35568,6 +38083,7 @@
    "unit": "g",
    "sizes": [],
    "eans": [
+    "7036110008646",
     "7036110212227"
    ],
    "source": "norgesgruppen",
@@ -35581,29 +38097,6 @@
     "salt_g": 2.7
    },
    "source_url": "https://meny.no/varer//palegg-frokost/fiskepalegg/sild-ansjos/julesild-7036110212227"
-  },
-  {
-   "id": "store:7036110008646",
-   "name": "Julesild Delikat",
-   "brand": "Mills",
-   "category": "other_food",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7036110008646"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 155.0,
-    "fat_g": 7.0,
-    "sat_fat_g": 1.0,
-    "carbs_g": 17.0,
-    "sugars_g": 14.0,
-    "fibre_g": 0.0,
-    "protein_g": 6.0,
-    "salt_g": 2.5
-   },
-   "source_url": "https://meny.no/varer//palegg-frokost/fiskepalegg/sild-ansjos/julesild-7036110008646"
   },
   {
    "id": "store:7036110009711",
@@ -41941,7 +44434,8 @@
    "unit": "ml",
    "sizes": [],
    "eans": [
-    "8585002438065"
+    "8585002438065",
+    "8585002445612"
    ],
    "source": "norgesgruppen",
    "nutrients": {
@@ -42001,29 +44495,6 @@
     "salt_g": 0.63
    },
    "source_url": "https://meny.no/varer//middagstilbehor/kraft-og-buljong/buljong/gronnsaksbuljong-8585002445650"
-  },
-  {
-   "id": "store:8585002445612",
-   "name": "Kyllingbuljong Klar Maggi",
-   "brand": "Nestlé",
-   "category": "other_food",
-   "unit": "ml",
-   "sizes": [],
-   "eans": [
-    "8585002445612"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 5.0,
-    "fat_g": 0.5,
-    "sat_fat_g": 0.1,
-    "carbs_g": 0.8,
-    "sugars_g": 0.5,
-    "fibre_g": 0.5,
-    "protein_g": 0.5,
-    "salt_g": 0.66
-   },
-   "source_url": "https://meny.no/varer//middagstilbehor/kraft-og-buljong/buljong/kyllingbuljong-8585002445612"
   },
   {
    "id": "store:5011476102957",
@@ -44040,7 +46511,8 @@
    "unit": "g",
    "sizes": [],
    "eans": [
-    "7041614006388"
+    "7041614006388",
+    "7041614007262"
    ],
    "source": "norgesgruppen",
    "nutrients": {
@@ -46567,29 +49039,6 @@
    "source_url": "https://meny.no/varer//dessert-og-iskrem/hermetisk-frukt-og-baer/hermetisk-ananas/ananas-i-skiver-24000146087"
   },
   {
-   "id": "store:0024000146643",
-   "name": "Ananas i Biter m/Juice Del Monte",
-   "brand": null,
-   "category": "snacks_sweets",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "0024000146643"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 57.0,
-    "fat_g": 0.0,
-    "sat_fat_g": 0.0,
-    "carbs_g": 13.1,
-    "sugars_g": 13.1,
-    "fibre_g": 0.7,
-    "protein_g": 0.3,
-    "salt_g": 0.0
-   },
-   "source_url": "https://meny.no/varer//dessert-og-iskrem/hermetisk-frukt-og-baer/hermetisk-ananas/ananas-i-biter-24000146643"
-  },
-  {
    "id": "store:0024000150817",
    "name": "Fersken Halve Diet Del Monte",
    "brand": null,
@@ -46620,6 +49069,7 @@
    "unit": "g",
    "sizes": [],
    "eans": [
+    "0024000146643",
     "0024000160465"
    ],
    "source": "norgesgruppen",
@@ -46926,29 +49376,6 @@
    "source_url": "https://meny.no/varer//dessert-og-iskrem/desserttopping/oreo-strossel-7622300536527"
   },
   {
-   "id": "store:8003938007402",
-   "name": "Tiramisu Bonta Divina",
-   "brand": null,
-   "category": "snacks_sweets",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "8003938007402"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 233.0,
-    "fat_g": 8.9,
-    "sat_fat_g": 3.2,
-    "carbs_g": 30.0,
-    "sugars_g": 20.0,
-    "fibre_g": 1.6,
-    "protein_g": 4.6,
-    "salt_g": 0.16
-   },
-   "source_url": "https://meny.no/varer//dessert-og-iskrem/tiramisu/tiramisu-8003938007402"
-  },
-  {
    "id": "store:8003938008522",
    "name": "Tiramisu Bonta Divina",
    "brand": null,
@@ -46956,6 +49383,7 @@
    "unit": "g",
    "sizes": [],
    "eans": [
+    "8003938007402",
     "8003938008522"
    ],
    "source": "norgesgruppen",
@@ -51037,28 +53465,6 @@
    "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kyllingfilet/kyllingbryst-23504002"
   },
   {
-   "id": "store:0000023504013",
-   "name": "Kyllinglår Lerstang",
-   "brand": null,
-   "category": "other_food",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "0000023504013"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 179.0,
-    "fat_g": 10.8,
-    "sat_fat_g": 2.7,
-    "carbs_g": 1.2,
-    "sugars_g": 0.9,
-    "protein_g": 19.0,
-    "salt_g": 1.6
-   },
-   "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kyllinglar/kyllinglar-23504013"
-  },
-  {
    "id": "store:0000023504016",
    "name": "Kyllingbryst Lerstang",
    "brand": null,
@@ -51441,7 +53847,8 @@
    "unit": "g",
    "sizes": [],
    "eans": [
-    "0000023877045"
+    "0000023877045",
+    "0000023877097"
    ],
    "source": "norgesgruppen",
    "nutrients": {
@@ -51476,28 +53883,6 @@
     "salt_g": 1.0
    },
    "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kyllingfilet/kyllingbryst-23877075"
-  },
-  {
-   "id": "store:0000023877097",
-   "name": "Kylling hel Lerstang",
-   "brand": null,
-   "category": "other_food",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "0000023877097"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 148.0,
-    "fat_g": 6.7,
-    "sat_fat_g": 1.7,
-    "carbs_g": 0.0,
-    "sugars_g": 0.0,
-    "protein_g": 21.9,
-    "salt_g": 0.1
-   },
-   "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kylling-hel/kylling-hel-23877097"
   },
   {
    "id": "store:0000023893707",
@@ -51745,29 +54130,6 @@
     "salt_g": 1.2
    },
    "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kylling-stekt/kylling-burger-7090030264841"
-  },
-  {
-   "id": "store:7090030269617",
-   "name": "Kyllingburger",
-   "brand": null,
-   "category": "other_food",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7090030269617"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 211.0,
-    "fat_g": 12.0,
-    "sat_fat_g": 2.4,
-    "carbs_g": 10.4,
-    "sugars_g": 8.4,
-    "fibre_g": 0.79,
-    "protein_g": 15.0,
-    "salt_g": 1.2
-   },
-   "source_url": "https://meny.no/varer//kylling-og-fjaerkre/kylling/kyllingburger/kyllingburger-7090030269617"
   },
   {
    "id": "store:5411188110743",
@@ -52842,7 +55204,8 @@
    "unit": "g",
    "sizes": [],
    "eans": [
-    "7055330036765"
+    "7055330036765",
+    "7055330036802"
    ],
    "source": "norgesgruppen",
    "nutrients": {
@@ -52856,29 +55219,6 @@
     "salt_g": 1.2
    },
    "source_url": "https://meny.no/varer//middag/ferdigretter/ferdigmaltid/juletallerken-7055330036765"
-  },
-  {
-   "id": "store:7055330036802",
-   "name": "Juletallerken Fersk&Ferdig",
-   "brand": null,
-   "category": "ready_meals_sauces",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7055330036802"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 109.0,
-    "fat_g": 6.6,
-    "sat_fat_g": 2.4,
-    "carbs_g": 8.2,
-    "sugars_g": 3.0,
-    "fibre_g": 1.0,
-    "protein_g": 3.8,
-    "salt_g": 0.7
-   },
-   "source_url": "https://meny.no/varer//middag/ferdigretter/ferdigmaltid/juletallerken-7055330036802"
   },
   {
    "id": "store:7070622011930",
@@ -59677,50 +62017,6 @@
    "source_url": "https://meny.no/varer//snacks-godteri/godteri/spookylicious-4003084440317"
   },
   {
-   "id": "store:4251097402888",
-   "name": "Beef Jerky Original Jack Link's",
-   "brand": null,
-   "category": "snacks_sweets",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "4251097402888"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 253.0,
-    "fat_g": 2.5,
-    "sat_fat_g": 2.0,
-    "carbs_g": 18.0,
-    "sugars_g": 12.8,
-    "protein_g": 39.7,
-    "salt_g": 5.1
-   },
-   "source_url": "https://meny.no/varer//snacks-godteri/snacks/beef-jerky/beef-jerky-4251097402888"
-  },
-  {
-   "id": "store:4251097402970",
-   "name": "Beef Jerky Teriyaki Jack Link's",
-   "brand": null,
-   "category": "snacks_sweets",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "4251097402970"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 271.0,
-    "fat_g": 3.7,
-    "sat_fat_g": 1.3,
-    "carbs_g": 19.3,
-    "sugars_g": 16.3,
-    "protein_g": 40.1,
-    "salt_g": 4.2
-   },
-   "source_url": "https://meny.no/varer//snacks-godteri/snacks/beef-jerky/beef-jerky-4251097402970"
-  },
-  {
    "id": "store:4251097407999",
    "name": "Beef Jerky Original Jack Link's",
    "brand": null,
@@ -59728,6 +62024,7 @@
    "unit": "g",
    "sizes": [],
    "eans": [
+    "4251097402888",
     "4251097407999",
     "4251097420035"
    ],
@@ -59773,6 +62070,7 @@
    "unit": "g",
    "sizes": [],
    "eans": [
+    "4251097402970",
     "4251097408057"
    ],
    "source": "norgesgruppen",
@@ -60705,7 +63003,8 @@
    "unit": "g",
    "sizes": [],
    "eans": [
-    "7041111125988"
+    "7041111125988",
+    "7041111138124"
    ],
    "source": "norgesgruppen",
    "nutrients": {
@@ -60810,28 +63109,6 @@
     "salt_g": 0.82
    },
    "source_url": "https://meny.no/varer//snacks-godteri/notter/notteblanding/notti-frutti-7041111136571"
-  },
-  {
-   "id": "store:7041111138124",
-   "name": "Yoghurtnøtter Dln",
-   "brand": null,
-   "category": "snacks_sweets",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7041111138124"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 574.0,
-    "fat_g": 39.0,
-    "sat_fat_g": 26.0,
-    "carbs_g": 44.0,
-    "sugars_g": 42.0,
-    "protein_g": 11.0,
-    "salt_g": 0.31
-   },
-   "source_url": "https://meny.no/varer//snacks-godteri/notter/yoghurtnotter/yoghurtnotter-7041111138124"
   },
   {
    "id": "store:7041111139985",
@@ -62283,7 +64560,8 @@
    "unit": "g",
    "sizes": [],
    "eans": [
-    "7340005403363"
+    "7340005403363",
+    "7340005407156"
    ],
    "source": "norgesgruppen",
    "nutrients": {
@@ -62340,28 +64618,6 @@
     "salt_g": 1.5
    },
    "source_url": "https://meny.no/varer//snacks-godteri/snacks/ostesnacks/cheez-cruncherz-7340005406777"
-  },
-  {
-   "id": "store:7340005407156",
-   "name": "Cheez Ballz Olw",
-   "brand": null,
-   "category": "snacks_sweets",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7340005407156"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 538.0,
-    "fat_g": 32.0,
-    "sat_fat_g": 5.7,
-    "carbs_g": 52.0,
-    "sugars_g": 3.8,
-    "protein_g": 9.4,
-    "salt_g": 2.1
-   },
-   "source_url": "https://meny.no/varer//snacks-godteri/snacks/ostesnacks/cheez-ballz-7340005407156"
   },
   {
    "id": "store:7394269665647",
@@ -64557,28 +66813,6 @@
    "source_url": "https://spar.no/varer//snacks-og-godteri/godteri/al-paka-cola-4037400346069"
   },
   {
-   "id": "store:4251097420035",
-   "name": "Beef Jerky Original Jack Link's",
-   "brand": null,
-   "category": "snacks_sweets",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "4251097420035"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 275.0,
-    "fat_g": 4.0,
-    "sat_fat_g": 1.8,
-    "carbs_g": 18.8,
-    "sugars_g": 16.5,
-    "protein_g": 41.0,
-    "salt_g": 5.6
-   },
-   "source_url": "https://spar.no/varer//snacks-og-godteri/snacks/beef-jerky/beef-jerky-4251097420035"
-  },
-  {
    "id": "store:4262393724727",
    "name": "Sweet Flash Sour Duo Squeeze",
    "brand": null,
@@ -66267,29 +68501,6 @@
     "sugars_g": 77.0,
     "protein_g": 0.0,
     "salt_g": 0.0
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
-   "id": "store:7041614007262",
-   "name": "Burgerbrød Grove Reale",
-   "brand": null,
-   "category": "bread_cereal_grain",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7041614007262"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 270.0,
-    "fat_g": 4.7,
-    "sat_fat_g": 0.6,
-    "carbs_g": 44.1,
-    "sugars_g": 3.3,
-    "fibre_g": 6.8,
-    "protein_g": 9.1,
-    "salt_g": 0.7
    },
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
@@ -71621,28 +73832,6 @@
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
   },
   {
-   "id": "store:7025441018455",
-   "name": "Gaveeske Askim",
-   "brand": "Askim",
-   "category": "snacks_sweets",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7025441018455"
-   ],
-   "source": "norgesgruppen",
-   "nutrients": {
-    "kcal": 43.5,
-    "fat_g": 0.15,
-    "sat_fat_g": 0.0,
-    "carbs_g": 10.5,
-    "sugars_g": 10.5,
-    "protein_g": 0.3,
-    "salt_g": 0.01
-   },
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)"
-  },
-  {
    "id": "store:7025441019834",
    "name": "Gaveeske Askim Gaveeske Askim",
    "brand": "Askim",
@@ -76069,6 +78258,7 @@
    "unit": "g",
    "sizes": [],
    "eans": [
+    "7025110173072",
     "7025110193520"
    ],
    "source": "kassalapp",
@@ -76106,29 +78296,6 @@
     "sugars_g": 1.0
    },
    "source_url": "https://kassal.app/vare/11918-coop-dagens-lunsjkaker-240g-7025110178459"
-  },
-  {
-   "id": "store:7025110173072",
-   "name": "Coop Kjøttkaker",
-   "brand": "Coop",
-   "category": "other_food",
-   "unit": "g",
-   "sizes": [],
-   "eans": [
-    "7025110173072"
-   ],
-   "source": "kassalapp",
-   "nutrients": {
-    "kcal": 180.0,
-    "fat_g": 12.0,
-    "carbs_g": 6.0,
-    "fibre_g": 0.0,
-    "sat_fat_g": 5.0,
-    "protein_g": 12.0,
-    "salt_g": 1.5,
-    "sugars_g": 0.5
-   },
-   "source_url": "https://kassal.app/vare/22426-coop-kjottkaker-12kg-7025110173072"
   },
   {
    "id": "store:7025110144980",
@@ -88456,7 +90623,8 @@
     "28 g"
    ],
    "eans": [
-    "8712566121496"
+    "8712566121496",
+    "8712566246182"
    ],
    "source": "norgesgruppen",
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
@@ -88469,31 +90637,6 @@
     "sugars_g": 0.5,
     "fibre_g": 0.5,
     "salt_g": 1.2
-   }
-  },
-  {
-   "id": "store:8712566246182",
-   "name": "Fond Du Chef",
-   "brand": null,
-   "category": "other_food",
-   "unit": "g",
-   "sizes": [
-    "28 g"
-   ],
-   "eans": [
-    "8712566246182"
-   ],
-   "source": "norgesgruppen",
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
-   "nutrients": {
-    "kcal": 4.0,
-    "protein_g": 0.5,
-    "fat_g": 0.5,
-    "sat_fat_g": 0.1,
-    "carbs_g": 0.5,
-    "sugars_g": 0.5,
-    "fibre_g": 0.5,
-    "salt_g": 0.85
    }
   },
   {
@@ -88631,7 +90774,8 @@
     "0,5 l"
    ],
    "eans": [
-    "7090008302018"
+    "7090008302018",
+    "7090008302117"
    ],
    "source": "norgesgruppen",
    "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
@@ -88644,31 +90788,6 @@
     "sugars_g": 22.0,
     "fibre_g": null,
     "salt_g": 0.2
-   }
-  },
-  {
-   "id": "store:7090008302117",
-   "name": "Kulinaris Iskrem",
-   "brand": null,
-   "category": "snacks_sweets",
-   "unit": "ml",
-   "sizes": [
-    "0,5 l"
-   ],
-   "eans": [
-    "7090008302117"
-   ],
-   "source": "norgesgruppen",
-   "source_url": "https://meny.no (NorgesGruppen product data, 2026-11-13)",
-   "nutrients": {
-    "kcal": 210.0,
-    "protein_g": 4.0,
-    "fat_g": 10.0,
-    "sat_fat_g": 7.0,
-    "carbs_g": 25.0,
-    "sugars_g": 22.0,
-    "fibre_g": null,
-    "salt_g": 0.16
    }
   },
   {
